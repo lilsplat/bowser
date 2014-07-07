@@ -1,0 +1,3001 @@
+13107
+AFR 201 - 01
+African-Amer Lit Tradition
+[u'01:30 pm - 04:00 pm']
+[u'\nT']
+[u'Selwyn Cudjoe']
+[u'faculty_profiles.php?user=scudjoe']
+[u'Language and Literature']
+#13428
+AFR 208 - 01
+Women Civil Rights Movement
+[u'01:30 pm - 04:00 pm']
+[u'\nTh']
+[u'Donna Patterson']
+[u'faculty_profiles.php?user=dpatters']
+[u'Historical Studies', u'\nSocial and Behavioral Analysis']
+#13109
+AFR 226 - 01
+Env.Justice,Race&Sustain Devel
+[u'02:50 pm - 05:20 pm']
+[u'\nM']
+[u'Filomina Steady']
+[u'faculty_profiles.php?user=fsteady']
+[u'Social and Behavioral Analysis']
+#13327
+AFR 238 - 01
+Womanism
+[u'09:50 am - 12:20 pm']
+[u'\nF']
+[u'Layli Maparyan']
+[u'faculty_profiles.php?user=lmaparya']
+[u'Social and Behavioral Analysis']
+#13308
+AFR 255 - 01
+Black Woman Cross-Culturally
+[u'02:15 pm - 04:45 pm']
+[u'\nW']
+[u'Filomina Steady']
+[u'faculty_profiles.php?user=fsteady']
+[u'Social and Behavioral Analysis']
+#13420
+AFR 292 - 01
+African Art & the Diaspora
+[u'09:50 am - 11:00 am']
+[u'\nMTh']
+[u'Nikki Greene']
+[u'faculty_profiles.php?user=ngreene']
+[u'Arts, Music, Theatre, Film and Video']
+#13110
+AFR 302 - 01
+Caribbean Intellectual Thought
+[u'07:00 pm - 09:30 pm']
+[u'\nM']
+[u'Selwyn Cudjoe']
+[u'faculty_profiles.php?user=scudjoe']
+[u'Historical Studies']
+#12880
+AFR 316 - 01
+Tpc:Race&Gender-Mod&Cont'p Art
+[u'01:30 pm - 04:00 pm']
+[u'\nT']
+[u'Nikki Greene']
+[u'faculty_profiles.php?user=ngreene']
+[u'Arts, Music, Theatre, Film and Video']
+#13427
+AFR 340 - 01
+Sem: Topics African-Amer Hist
+[u'09:50 am - 12:20 pm']
+[u'\nT']
+[u'Donna Patterson']
+[u'faculty_profiles.php?user=dpatters']
+[u'Social and Behavioral Analysis or Historical Studies', u'\nSocial and Behavioral Analysis']
+#10596
+AMST 101 - 01
+Intro to American Studies
+[u'11:10 am - 12:20 pm']
+[u'\nMTh']
+[u'Paul Fisher']
+[u'faculty_profiles.php?user=pfisher']
+[u'Historical Studies']
+#13111
+AMST 152 - 01
+Race,Ethnicity,Pols in America
+[u'06:00 pm - 07:10 pm']
+[u'\nMTh']
+[u'Michael Jeffries']
+[u'faculty_profiles.php?user=mjeffrie']
+[u'Social and Behavioral Analysis']
+#13317
+AMST 222 - 01
+Asian American Psychology
+[u'02:50 pm - 04:00 pm']
+[u'\nTF']
+[u'Stephen Chen']
+[u'faculty_profiles.php?user=schen7']
+[u'Social and Behavioral Analysis']
+#13329
+AMST 246 - 01
+U.S. Immigration 
+[u'09:50 am - 11:00 am']
+[u'\nMTh']
+[u'Peggy Levitt']
+[u'faculty_profiles.php?user=plevitt']
+[u'Social and Behavioral Analysis']
+#13348
+AMST 268 - 01
+American Literature Now
+[u'04:10 pm - 05:20 pm']
+[u'\nMTh']
+[u'Vernon Shetley']
+[u'faculty_profiles.php?user=vshetley']
+[u'Language and Literature']
+#13104
+AMST 317 - 01
+Sem:Tpc: Barack Obama
+[u'02:15 pm - 04:45 pm']
+[u'\nW']
+[u'Michael Jeffries']
+[u'faculty_profiles.php?user=mjeffrie']
+[u'Social and Behavioral Analysis or Historical Studies', u'\nSocial and Behavioral Analysis']
+#13328
+AMST 355 - 01
+CSPW: Critiquing Pop. Culture 
+[u'01:30 pm - 04:00 pm']
+[u'\nTh']
+[u'Paul Fisher']
+[u'faculty_profiles.php?user=pfisher']
+[u'Social and Behavioral Analysis']
+#10946
+ANTH 104 - 01
+Intro Cultural/Social Anth
+[u'09:50 am - 11:00 am']
+[u'\nTF']
+[]
+[u'faculty_profiles.php?user=']
+[u'Social and Behavioral Analysis']
+#13369
+ANTH 107 - 01
+FYS: Science/Culture of Blood
+[u'02:50 pm - 04:00 pm']
+[u'\nMTh']
+[u'Adele Wolfson']
+[u'faculty_profiles.php?user=awolfson']
+[u'Natural and Physical Science', u'\nSocial and Behavioral Analysis']
+#12865
+ANTH 204 - 01
+Physical Anthropology
+[u'11:10 am - 12:20 pm']
+[u'\nMTh']
+[u'Adam Van Arsdale']
+[u'faculty_profiles.php?user=avanarsd']
+[u'Social and Behavioral Analysis']
+#13330
+ANTH 229 - 01
+GIS for Social Analysis
+[u'01:30 pm - 02:40 pm']
+[u'\nMTh']
+[u'Benjamin Vining']
+[u'faculty_profiles.php?user=bvining']
+[u'Social and Behavioral Analysis']
+#13367
+ANTH 229 - L01
+LAB: GIS for Social Analysis
+[u'10:00 am - 12:00 pm']
+[u'\nW']
+[u'Benjamin Vining']
+[u'faculty_profiles.php?user=bvining']
+[u'Social and Behavioral Analysis']
+#13114
+ANTH 247 - 01
+Societies & Cultures Eurasia
+[u'06:00 pm - 08:30 pm']
+[u'\nW']
+[u'Philip Kohl']
+[u'faculty_profiles.php?user=pkohl']
+[u'Historical Studies', u'\nSocial and Behavioral Analysis']
+#13115
+ANTH 274 - 01
+Anthropological Genetics
+[u'09:50 am - 11:00 am']
+[u'\nMTh']
+[u'Adam Van Arsdale']
+[u'faculty_profiles.php?user=avanarsd']
+[u'Natural and Physical Science']
+#12255
+ANTH 301 - 01
+History&Theory in Anthropology
+[u'02:15 pm - 04:45 pm']
+[u'\nW']
+[u'Deborah Matzner']
+[u'faculty_profiles.php?user=dmatzner']
+[u'Social and Behavioral Analysis']
+#13116
+ANTH 305 - 01
+Ethnographic Film
+[u'06:00 pm - 08:30 pm']
+[u'\nT']
+[u'Deborah Matzner']
+[u'faculty_profiles.php?user=dmatzner']
+[u'Social and Behavioral Analysis']
+#13371
+ANTH 362 - 01
+Experimental Ethnography
+[u'01:30 pm - 04:00 pm', u'\n01:30 pm - 02:40 pm']
+[u'\nM', u'\nTh']
+[u'David Kelley']
+[u'faculty_profiles.php?user=dkelley']
+[u'Arts, Music, Theatre, Film and Video', u'\nSocial and Behavioral Analysis']
+#11049
+ARAB 101 - 01
+Elementary Arabic
+[u'08:30 am - 09:40 am']
+[u'\nMTWTh']
+[u'Daniel Zitnick']
+[u'faculty_profiles.php?user=dzitnick']
+[u'None']
+#11362
+ARAB 101 - 02
+Elementary Arabic
+[u'09:50 am - 11:00 am']
+[u'\nMTWTh']
+[u'Daniel Zitnick']
+[u'faculty_profiles.php?user=dzitnick']
+[u'None']
+#11050
+ARAB 201 - 01
+Intermediate Arabic
+[u'08:30 am - 09:40 am']
+[u'\nMWTh']
+[u'Rachid Aadnani']
+[u'faculty_profiles.php?user=raadnani']
+[u'None']
+#11888
+ARAB 201 - 02
+Intermediate Arabic
+[u'09:50 am - 11:00 am']
+[u'\nMWTh']
+[u'Rachid Aadnani']
+[u'faculty_profiles.php?user=raadnani']
+[u'None']
+#13296
+ARAB 307 - 01
+Classical Arabic Literature
+[u'09:50 am - 12:20 pm']
+[u'\nW']
+[u'Louise Marlow']
+[u'faculty_profiles.php?user=lmarlow']
+[u'Language and Literature']
+#13246
+ARTH 100 - 01
+Art & Arch Ancient & Medieval
+[u'09:50 am - 11:00 am']
+[u'\nTF']
+[u'Rebecca Bedell']
+[u'faculty_profiles.php?user=rbedell']
+[u'Arts, Music, Theatre, Film and Video']
+#10185
+ARTH 100 - C01
+CONF:Hist of Art-Ancient & Med
+[u'11:10 am - 12:20 pm']
+[u'\nW']
+[u'Barbara Lynn-Davis']
+[u'faculty_profiles.php?user=blynndav']
+[u'Arts, Music, Theatre, Film and Video']
+#10171
+ARTH 100 - C02
+CONF:Hist of Art-Ancient & Med
+[u'09:50 am - 11:00 am']
+[u'\nW']
+[u'Kimberly Cassibry']
+[u'faculty_profiles.php?user=kcassibr']
+[u'Arts, Music, Theatre, Film and Video']
+#10186
+ARTH 100 - C03
+CONF:Hist of Art-Ancient & Med
+[u'11:10 am - 12:20 pm']
+[u'\nTh']
+[u'Heping Liu']
+[u'faculty_profiles.php?user=hliu']
+[u'Arts, Music, Theatre, Film and Video']
+#10122
+ARTH 100 - C04
+CONF:Hist of Art-Ancient & Med
+[u'02:50 pm - 04:00 pm']
+[u'\nT']
+[u'Lamia Balafrej']
+[u'faculty_profiles.php?user=lbalafre']
+[u'Arts, Music, Theatre, Film and Video']
+#12883
+ARTH 100 - C05
+Art & Arch Ancient & Medieval
+[u'01:30 pm - 02:40 pm']
+[u'\nTh']
+[u'Rebecca Bedell']
+[u'faculty_profiles.php?user=rbedell']
+[u'Arts, Music, Theatre, Film and Video']
+#13117
+ARTH 203 - 01
+Near Eastern Art&Architecture
+[u'01:30 pm - 02:40 pm']
+[u'\nTF']
+[u'Kimberly Cassibry']
+[u'faculty_profiles.php?user=kcassibr']
+[u'Arts, Music, Theatre, Film and Video']
+#13366
+ARTH 218 - 01
+Painting i/Netherlands 15C&16C
+[u'11:10 am - 12:20 pm']
+[u'\nTF']
+[u'Margaret Carroll']
+[u'faculty_profiles.php?user=mcarroll']
+[u'Arts, Music, Theatre, Film and Video']
+#13118
+ARTH 226 - 01
+History of Photography
+[u'11:10 am - 12:20 pm']
+[u'\nTF']
+[u'Patricia Berman']
+[u'faculty_profiles.php?user=pberman']
+[u'Arts, Music, Theatre, Film and Video']
+#13119
+ARTH 228 - 01
+Modern Architecture
+[u'01:30 pm - 04:00 pm']
+[u'\nT']
+[u'Alice Friedman']
+[u'faculty_profiles.php?user=afriedma']
+[u'Arts, Music, Theatre, Film and Video']
+#13120
+ARTH 238 - 01
+Chinese Art/Architecture
+[u'01:30 pm - 02:40 pm']
+[u'\nMTh']
+[u'Heping Liu']
+[u'faculty_profiles.php?user=hliu']
+[u'Arts, Music, Theatre, Film and Video']
+#12618
+ARTH 247 - 01
+Islamic Art and Architecture
+[u'11:10 am - 12:20 pm']
+[u'\nMTh']
+[u'Lamia Balafrej']
+[u'faculty_profiles.php?user=lbalafre']
+[u'Arts, Music, Theatre, Film and Video']
+#13422
+ARTH 259 - 01
+Art & Arch.Europ.Enlightenment
+[u'09:50 am - 11:00 am']
+[u'\nTF']
+[u'Paul Galvez']
+[u'faculty_profiles.php?user=pgalvez']
+[u'Arts, Music, Theatre, Film and Video']
+#13122
+ARTH 292 - 01
+African Art & the Diaspora
+[u'09:50 am - 11:00 am']
+[u'\nMTh']
+[u'Nikki Greene']
+[u'faculty_profiles.php?user=ngreene']
+[u'Arts, Music, Theatre, Film and Video']
+#12879
+ARTH 316 - 01
+Tpc:Race&Gender-Mod&Cont'p Art
+[u'01:30 pm - 04:00 pm']
+[u'\nT']
+[u'Nikki Greene']
+[u'faculty_profiles.php?user=ngreene']
+[u'Arts, Music, Theatre, Film and Video']
+#13123
+ARTH 320 - 01
+Sem: American Architecture
+[u'02:15 pm - 04:45 pm']
+[u'\nW']
+[u'Alice Friedman']
+[u'faculty_profiles.php?user=afriedma']
+[u'Arts, Music, Theatre, Film and Video']
+#13245
+ARTH 335 - 01
+Sem:Tpc: The Bauhaus
+[u'09:50 am - 12:20 pm']
+[u'\nW']
+[u'Patricia Berman']
+[u'faculty_profiles.php?user=pberman']
+[u'Arts, Music, Theatre, Film and Video']
+#13125
+ARTH 369 - 01
+Seminar:Conservation Studies
+[u'09:50 am - 12:20 pm']
+[u'\nT']
+[u'Richard Newman']
+[u'faculty_profiles.php?user=rnewman2']
+[u'Arts, Music, Theatre, Film and Video']
+#13356
+ARTH 388 - 01
+The History of New Media
+[u'01:30 pm - 04:00 pm']
+[u'\nM']
+[u'Michael Maizels']
+[u'faculty_profiles.php?user=mmaizels']
+[u'Arts, Music, Theatre, Film and Video']
+#10412
+ARTS 105 - 01
+Drawing I
+[u'01:30 pm - 04:00 pm']
+[u'\nMTh']
+[u'Daniela Rivera']
+[u'faculty_profiles.php?user=drivera']
+[u'Arts, Music, Theatre, Film and Video']
+#10413
+ARTS 105 - 02
+Drawing I
+[u'09:50 am - 12:20 pm']
+[u'\nTF']
+[u'Andrew Mowbray']
+[u'faculty_profiles.php?user=amowbray']
+[u'Arts, Music, Theatre, Film and Video']
+#11413
+ARTS 105 - 03
+Drawing I
+[u'06:30 pm - 09:00 pm']
+[u'\nMW']
+[u'Candice Ivy']
+[u'faculty_profiles.php?user=civy']
+[u'Arts, Music, Theatre, Film and Video']
+#10162
+ARTS 108 - 01
+Photography I
+[u'09:50 am - 12:20 pm']
+[u'\nTF']
+[u'David Kelley']
+[u'faculty_profiles.php?user=dkelley']
+[u'Arts, Music, Theatre, Film and Video']
+#12621
+ARTS 109 - 01
+Two Dimensional Design
+[u'01:30 pm - 04:00 pm']
+[u'\nMTh']
+[u'Candice Ivy']
+[u'faculty_profiles.php?user=civy']
+[u'Arts, Music, Theatre, Film and Video']
+#11256
+ARTS 113 - 01
+3-D Design
+[u'09:50 am - 12:20 pm']
+[u'\nTF']
+[u'Carlos Dorrien']
+[u'faculty_profiles.php?user=cdorrien']
+[u'Arts, Music, Theatre, Film and Video']
+#10121
+ARTS 165 - 01
+Intro Film & Video Production
+[u'01:30 pm - 05:20 pm']
+[u'\nM']
+[u'Salem Mekuria']
+[u'faculty_profiles.php?user=smekuria']
+[u'Arts, Music, Theatre, Film and Video']
+#10617
+ARTS 207 - 01
+Sculpture I
+[u'01:30 pm - 04:00 pm']
+[u'\nTF']
+[u'Carlos Dorrien']
+[u'faculty_profiles.php?user=cdorrien']
+[u'Arts, Music, Theatre, Film and Video']
+#13126
+ARTS 216 - 01
+Spatial Investigations
+[u'01:30 pm - 04:00 pm']
+[u'\nTF']
+[u'Andrew Mowbray']
+[u'faculty_profiles.php?user=amowbray']
+[u'Arts, Music, Theatre, Film and Video']
+#11430
+ARTS 218 - 01
+Intro Painting
+[u'09:50 am - 12:20 pm']
+[u'\nMTh']
+[u'Daniela Rivera']
+[u'faculty_profiles.php?user=drivera']
+[u'Arts, Music, Theatre, Film and Video']
+#13127
+ARTS 220 - 01
+IntrPrintMthds:Intaglio/Relief
+[u'06:30 pm - 09:00 pm', u'\n02:15 pm - 04:45 pm']
+[u'\nM', u'\nW']
+[u'Phyllis McGibbon']
+[u'faculty_profiles.php?user=pmcgibbo']
+[u'Arts, Music, Theatre, Film and Video']
+#13128
+ARTS 260 - 01
+Moving Image Studio
+[u'01:30 pm - 04:00 pm']
+[u'\nMTh']
+[u'David Olsen']
+[u'faculty_profiles.php?user=dolsen']
+[u'Arts, Music, Theatre, Film and Video']
+#11591
+ARTS 314 - 01
+Advanced Drawing
+[u'12:30 pm - 05:20 pm']
+[u'\nTh']
+[u'Phyllis McGibbon']
+[u'faculty_profiles.php?user=pmcgibbo']
+[u'Arts, Music, Theatre, Film and Video']
+#13129
+ARTS 317 - 01
+Sem:Tpc: Exp. Ethnography
+[u'01:30 pm - 04:00 pm', u'\n01:30 pm - 02:40 pm']
+[u'\nM', u'\nTh']
+[u'David Kelley']
+[u'faculty_profiles.php?user=dkelley']
+[u'Arts, Music, Theatre, Film and Video or Social and Behavioral Analysis']
+#13130
+ARTS 365 - 01
+Advanced Video Production
+[u'06:30 pm - 08:30 pm', u'\n01:30 pm - 04:00 pm']
+[u'\nT', u'\nT']
+[u'Salem Mekuria']
+[u'faculty_profiles.php?user=smekuria']
+[u'Arts, Music, Theatre, Film and Video']
+#10776
+ASTR 100 - 01
+Life in the Universe
+[u'11:10 am - 12:20 pm']
+[u'\nTF']
+[u'Idan Ginsburg']
+[u'faculty_profiles.php?user=']
+[u'Natural and Physical Science']
+#10003
+ASTR 101 - 01
+Intro to Stars,Galaxies,Cosmol
+[u'11:10 am - 12:20 pm']
+[u'\nMTh']
+[u'Wendy Bauer']
+[u'faculty_profiles.php?user=wbauer']
+[u'Mathematical Modeling', u'\nNatural and Physical Science']
+#13305
+ASTR 101 - 02
+Intro to Stars,Galaxies,Cosmol
+[u'02:50 pm - 04:00 pm']
+[u'\nMTh']
+[u'Wendy Bauer']
+[u'faculty_profiles.php?user=wbauer']
+[u'Mathematical Modeling', u'\nNatural and Physical Science']
+#12207
+ASTR 102 - 01
+LAB:  Intro to Astronomy
+[u'07:30 pm - 09:30 pm']
+[u'\nT']
+[u'Stephen Slivan']
+[u'faculty_profiles.php?user=sslivan']
+[u'None']
+#12232
+ASTR 102 - 02
+LAB:  Intro to Astronomy
+[u'09:30 pm - 11:30 pm']
+[u'\nT']
+[u'Stephen Slivan']
+[u'faculty_profiles.php?user=sslivan']
+[u'None']
+#12233
+ASTR 102 - 03
+LAB:  Intro to Astronomy
+[u'07:30 pm - 09:30 pm']
+[u'\nW']
+[u'Stephen Slivan']
+[u'faculty_profiles.php?user=sslivan']
+[u'None']
+#12234
+ASTR 102 - 04
+LAB:  Intro to Astronomy
+[u'09:30 pm - 11:30 pm']
+[u'\nW']
+[u'Stephen Slivan']
+[u'faculty_profiles.php?user=sslivan']
+[u'None']
+#12235
+ASTR 102 - 05
+LAB:  Intro to Astronomy
+[]
+[]
+[u'Stephen Slivan']
+[u'faculty_profiles.php?user=sslivan']
+[u'None']
+#13373
+ASTR 110 - 01
+FYS: Einstein & the Dark Univ
+[u'12:30 pm - 03:30 pm']
+[u'\nT']
+[u'James Battat']
+[u'faculty_profiles.php?user=jbattat']
+[u'Mathematical Modeling', u'\nNatural and Physical Science']
+#13131
+ASTR 206 - 01
+Astronomical Techniq I w/Lab
+[u'02:50 pm - 04:00 pm']
+[u'\nTF']
+[u'Kim McLeod']
+[u'faculty_profiles.php?user=kmcleod']
+[u'Mathematical Modeling', u'\nQRF', u'\nNatural and Physical Science']
+#12205
+ASTR 250GH - 01
+Astronomy Reading Group
+[u'04:10 pm - 05:20 pm']
+[u'\nTh']
+[u'Kim McLeod']
+[u'faculty_profiles.php?user=kmcleod']
+[u'None']
+#13133
+ASTR 311 - 01
+Advanced Astrophysics
+[u'11:10 am - 12:20 pm']
+[u'\nTF']
+[u'Kim McLeod']
+[u'faculty_profiles.php?user=kmcleod']
+[u'Mathematical Modeling', u'\nNatural and Physical Science']
+#12268
+BIOC 219 - 01
+Genetics w/Lab
+[u'11:10 am - 12:20 pm']
+[u'\nTF']
+[u'Andrea Sequeira']
+[u'faculty_profiles.php?user=asequeir']
+[u'Natural and Physical Science']
+#12269
+BIOC 219 - L01
+LAB: Genetics
+[u'01:30 pm - 05:00 pm']
+[u'\nM']
+[u'Melissa Beers']
+[u'faculty_profiles.php?user=mbeers']
+[u'Natural and Physical Science']
+#12270
+BIOC 219 - L02
+LAB: Genetics
+[u'12:30 pm - 04:00 pm']
+[u'\nT']
+[u'Tucker Crum']
+[u'faculty_profiles.php?user=tcrum']
+[u'Natural and Physical Science']
+#12271
+BIOC 219 - L03
+LAB: Genetics
+[u'02:15 pm - 05:45 pm']
+[u'\nW']
+[u'Tucker Crum']
+[u'faculty_profiles.php?user=tcrum']
+[u'Natural and Physical Science']
+#12272
+BIOC 219 - L04
+LAB: Genetics
+[u'01:00 pm - 04:30 pm']
+[u'\nTh']
+[u'Adam Matthews']
+[u'faculty_profiles.php?user=amatthe2']
+[u'Natural and Physical Science']
+#12273
+BIOC 219 - L05
+LAB: Genetics
+[u'01:00 pm - 04:30 pm']
+[u'\nF']
+[u'Tucker Crum']
+[u'faculty_profiles.php?user=tcrum']
+[u'Natural and Physical Science']
+#12227
+BIOC 320 - 01
+Adv Biophysical Chemistry Lab
+[u'11:10 am - 12:20 pm']
+[u'\nTh']
+[u'Elizabeth Oakes']
+[u'faculty_profiles.php?user=eoakes']
+[u'Natural and Physical Science']
+#13299
+BIOC 320 - L01
+LAB: Adv Biophysical Chemistry
+[u'01:30 pm - 05:00 pm']
+[u'\nM']
+[u'Elizabeth Oakes']
+[u'faculty_profiles.php?user=eoakes']
+[u'Natural and Physical Science']
+#13300
+BIOC 320 - L02
+LAB: Adv Biophysical Chemistry
+[u'12:30 pm - 04:00 pm']
+[u'\nT']
+[u'Elizabeth Oakes']
+[u'faculty_profiles.php?user=eoakes']
+[u'Natural and Physical Science']
+#13134
+BIOC 323 - 01
+Advanced Biochemistry
+[u'08:30 am - 09:40 am']
+[u'\nMWTh']
+[u'Donald Elmore']
+[u'faculty_profiles.php?user=delmore']
+[u'Natural and Physical Science']
+#11343
+BISC 105 - 01
+Stem Cells:New in Biomed
+[u'09:50 am - 11:00 am']
+[u'\nTF']
+[u"Kimberly O'Donnell"]
+[u'faculty_profiles.php?user=kodonnel']
+[u'Natural and Physical Science']
+#10244
+BISC 109 - 01
+Human Biology w/Lab
+[u'09:50 am - 11:00 am']
+[u'\nMTh']
+[u'David Ellerby']
+[u'faculty_profiles.php?user=dellerby']
+[u'Natural and Physical Science', u'\nQRF']
+#10219
+BISC 109 - L01
+LAB: Human Biology
+[u'01:30 pm - 05:00 pm']
+[u'\nM']
+[]
+[u'faculty_profiles.php?user=']
+[u'Natural and Physical Science', u'\nQRF']
+#10259
+BISC 109 - L02
+LAB: Human Biology
+[u'12:30 pm - 04:00 pm']
+[u'\nT']
+[]
+[u'faculty_profiles.php?user=']
+[u'Natural and Physical Science', u'\nQRF']
+#10238
+BISC 109 - L03
+LAB: Human Biology
+[u'02:15 pm - 05:45 pm']
+[u'\nW']
+[u'Christa Skow']
+[u'faculty_profiles.php?user=cskow']
+[u'Natural and Physical Science', u'\nQRF']
+#10248
+BISC 109 - L04
+LAB: Human Biology
+[u'01:00 pm - 04:30 pm']
+[u'\nTh']
+[u'Sally Sommers Smith']
+[u'faculty_profiles.php?user=ssmith6']
+[u'Natural and Physical Science', u'\nQRF']
+#10521
+BISC 110 - 01
+Intro Cellular Biology w/Lab
+[u'08:30 am - 09:40 am']
+[u'\nMTh']
+[u'Vanja Klepac-Ceraj']
+[u'faculty_profiles.php?user=vklepacc']
+[u'Natural and Physical Science']
+#10524
+BISC 110 - 02
+Intro Cellular Biology w/Lab
+[u'09:50 am - 11:00 am']
+[u'\nMTh']
+[u'Louise Darling']
+[u'faculty_profiles.php?user=ldarling']
+[u'Natural and Physical Science']
+#11811
+BISC 110 - 03
+Intro Cellular Biology w/Lab
+[u'11:10 am - 12:20 pm']
+[u'\nTF']
+[u'John Goss']
+[u'faculty_profiles.php?user=jgoss']
+[u'Natural and Physical Science']
+#10522
+BISC 110 - L01
+LAB: BISC 110 & 112
+[u'01:30 pm - 05:00 pm']
+[u'\nM']
+[u'Adam Matthews']
+[u'faculty_profiles.php?user=amatthe2']
+[u'Natural and Physical Science']
+#10523
+BISC 110 - L02
+LAB: BISC 110 & 112
+[u'06:00 pm - 09:30 pm']
+[u'\nM']
+[u'Jocelyne Dolce']
+[u'faculty_profiles.php?user=jdolce']
+[u'Natural and Physical Science']
+#10525
+BISC 110 - L03
+LAB: BISC 110 & 112
+[u'12:30 pm - 04:00 pm']
+[u'\nT']
+[u'Adam Matthews']
+[u'faculty_profiles.php?user=amatthe2']
+[u'Natural and Physical Science']
+#10526
+BISC 110 - L04
+LAB: BISC 110 & 112
+[u'08:30 am - 12:00 pm']
+[u'\nW']
+[u'Louise Darling']
+[u'faculty_profiles.php?user=ldarling']
+[u'Natural and Physical Science']
+#11391
+BISC 110 - L05
+LAB: BISC 110 & 112
+[u'02:15 pm - 05:45 pm']
+[u'\nW']
+[u'John Goss']
+[u'faculty_profiles.php?user=jgoss']
+[u'Natural and Physical Science']
+#11813
+BISC 110 - L07
+LAB: BISC 110 & 112
+[u'06:00 pm - 09:30 pm']
+[u'\nTh']
+[u'Melissa Beers']
+[u'faculty_profiles.php?user=mbeers']
+[u'Natural and Physical Science']
+#12327
+BISC 110 - L08
+LAB: BISC 110 & 112
+[u'01:00 pm - 04:30 pm']
+[u'\nF']
+[u'T. Kaye Peterman']
+[u'faculty_profiles.php?user=kpeterma']
+[u'Natural and Physical Science']
+#10207
+BISC 111 - 01
+Intro Organismal Biology w/Lab
+[u'08:30 am - 09:40 am']
+[u'\nMTh']
+[u'Emily Buchholtz']
+[u'faculty_profiles.php?user=ebuchhol']
+[u'Natural and Physical Science', u'\nQRF']
+#10261
+BISC 111 - 02
+Intro Organismal Biology w/Lab
+[u'09:50 am - 11:00 am']
+[u'\nTF']
+[u'Heather Mattila']
+[u'faculty_profiles.php?user=hmattila']
+[u'Natural and Physical Science', u'\nQRF']
+#10225
+BISC 111 - L01
+LAB: BISC 111 & 113
+[u'01:30 pm - 05:00 pm']
+[u'\nM']
+[]
+[u'faculty_profiles.php?user=']
+[u'Natural and Physical Science', u'\nQRF']
+#10253
+BISC 111 - L02
+LAB: BISC 111 & 113
+[u'12:30 pm - 04:00 pm']
+[u'\nT']
+[u'Simone Helluy']
+[u'faculty_profiles.php?user=shelluy']
+[u'Natural and Physical Science', u'\nQRF']
+#10224
+BISC 111 - L03
+LAB: BISC 111 & 113
+[u'06:30 pm - 10:00 pm']
+[u'\nT']
+[u'Sally Sommers Smith']
+[u'faculty_profiles.php?user=ssmith6']
+[u'Natural and Physical Science', u'\nQRF']
+#10263
+BISC 111 - L04
+LAB: BISC 111 & 113
+[u'02:15 pm - 05:45 pm']
+[u'\nW']
+[]
+[u'faculty_profiles.php?user=']
+[u'Natural and Physical Science', u'\nQRF']
+#12328
+BISC 111 - L06
+LAB: BISC 111 & 113
+[u'01:00 pm - 04:30 pm']
+[u'\nF']
+[u'Janet McDonough']
+[u'faculty_profiles.php?user=jmcdonou']
+[u'Natural and Physical Science', u'\nQRF']
+#11628
+BISC 112 - 01
+Expl Cellular Bio w/Lab
+[u'11:10 am - 12:20 pm']
+[u'\nM']
+[u'Yuichiro Suzuki']
+[u'faculty_profiles.php?user=ysuzuki']
+[u'Natural and Physical Science']
+#11629
+BISC 112 - 02
+FYS: Expl Cellul Bio w/Lab
+[u'11:10 am - 12:20 pm']
+[u'\nTh']
+[u'Yuichiro Suzuki']
+[u'faculty_profiles.php?user=ysuzuki']
+[u'Natural and Physical Science']
+#11684
+BISC 112 - L01
+LAB: BISC 110 & 112
+[u'01:30 pm - 05:00 pm']
+[u'\nM']
+[u'Adam Matthews']
+[u'faculty_profiles.php?user=amatthe2']
+[u'Natural and Physical Science']
+#11685
+BISC 112 - L02
+LAB: BISC 110 & 112
+[u'06:00 pm - 09:30 pm']
+[u'\nM']
+[u'Jocelyne Dolce']
+[u'faculty_profiles.php?user=jdolce']
+[u'Natural and Physical Science']
+#11686
+BISC 112 - L03
+LAB: BISC 110 & 112
+[u'12:30 pm - 04:00 pm']
+[u'\nT']
+[u'Adam Matthews']
+[u'faculty_profiles.php?user=amatthe2']
+[u'Natural and Physical Science']
+#11687
+BISC 112 - L04
+LAB: BISC 110 & 112
+[u'08:30 am - 12:00 pm']
+[u'\nW']
+[u'Louise Darling']
+[u'faculty_profiles.php?user=ldarling']
+[u'Natural and Physical Science']
+#11688
+BISC 112 - L05
+LAB: BISC 110 & 112
+[u'02:15 pm - 05:45 pm']
+[u'\nW']
+[u'John Goss']
+[u'faculty_profiles.php?user=jgoss']
+[u'Natural and Physical Science']
+#11841
+BISC 112 - L06
+FYS LAB: BISC 112
+[u'01:00 pm - 04:30 pm']
+[u'\nTh']
+[u'Jocelyne Dolce']
+[u'faculty_profiles.php?user=jdolce']
+[u'Natural and Physical Science']
+#11842
+BISC 112 - L07
+LAB: BISC 110 & 112
+[u'06:00 pm - 09:30 pm']
+[u'\nTh']
+[u'Melissa Beers']
+[u'faculty_profiles.php?user=mbeers']
+[u'Natural and Physical Science']
+#11843
+BISC 112 - L08
+LAB: BISC 110 & 112
+[u'01:00 pm - 04:30 pm']
+[u'\nF']
+[u'T. Kaye Peterman']
+[u'faculty_profiles.php?user=kpeterma']
+[u'Natural and Physical Science']
+#11630
+BISC 113 - 01
+FYS: Expl Organismal Bio w/Lab
+[u'11:10 am - 12:20 pm']
+[u'\nT']
+[u'Heather Mattila']
+[u'faculty_profiles.php?user=hmattila']
+[u'Natural and Physical Science', u'\nQRF']
+#11631
+BISC 113 - 02
+Expl Organismal Bio w/Lab
+[u'11:10 am - 12:20 pm']
+[u'\nF']
+[u'Heather Mattila']
+[u'faculty_profiles.php?user=hmattila']
+[u'Natural and Physical Science.QRF', u'\nQRF']
+#11689
+BISC 113 - L01
+LAB: BISC 111 & 113
+[u'01:30 pm - 05:00 pm']
+[u'\nM']
+[]
+[u'faculty_profiles.php?user=']
+[u'Natural and Physical Science', u'\nQRF']
+#11690
+BISC 113 - L02
+LAB: BISC 111 & 113
+[u'12:30 pm - 04:00 pm']
+[u'\nT']
+[u'Simone Helluy']
+[u'faculty_profiles.php?user=shelluy']
+[u'Natural and Physical Science', u'\nQRF']
+#11691
+BISC 113 - L03
+LAB: BISC 111 & 113
+[u'06:30 pm - 10:00 pm']
+[u'\nT']
+[u'Sally Sommers Smith']
+[u'faculty_profiles.php?user=ssmith6']
+[u'Natural and Physical Science', u'\nQRF']
+#11692
+BISC 113 - L04
+LAB: BISC 111 & 113
+[u'02:15 pm - 05:45 pm']
+[u'\nW']
+[]
+[u'faculty_profiles.php?user=']
+[u'Natural and Physical Science', u'\nQRF']
+#11693
+BISC 113 - L05
+FYS: LAB: BISC 113
+[u'01:00 pm - 04:30 pm']
+[u'\nTh']
+[u'Simone Helluy']
+[u'faculty_profiles.php?user=shelluy']
+[u'Natural and Physical Science', u'\nQRF']
+#11838
+BISC 113 - L06
+LAB: BISC 111 & 113
+[u'01:00 pm - 04:30 pm']
+[u'\nF']
+[u'Janet McDonough']
+[u'faculty_profiles.php?user=jmcdonou']
+[u'Natural and Physical Science', u'\nQRF']
+#10227
+BISC 201 - 01
+Ecology w/Lab
+[u'08:30 am - 09:40 am']
+[u'\nMTh']
+[u'Jeffrey Hughes']
+[u'faculty_profiles.php?user=jhughes']
+[u'Natural and Physical Science', u'\nQRF']
+#10257
+BISC 201 - L01
+LAB: Ecology
+[u'01:00 pm - 04:30 pm']
+[u'\nF']
+[u'Jocelyne Dolce']
+[u'faculty_profiles.php?user=jdolce']
+[u'Natural and Physical Science', u'\nQRF']
+#12626
+BISC 202 - 01
+Evolution with Laboratory
+[u'09:50 am - 11:00 am']
+[u'\nMTh']
+[u'Andrea Sequeira']
+[u'faculty_profiles.php?user=asequeir']
+[u'Natural and Physical Science']
+#12627
+BISC 202 - L01
+LAB: Evolution
+[u'01:30 pm - 05:00 pm']
+[u'\nM']
+[u'Andrea Sequeira']
+[u'faculty_profiles.php?user=asequeir']
+[u'Natural and Physical Science']
+#10250
+BISC 203 - 01
+Comp Phys/Anat Verte w/Lab
+[u'11:10 am - 12:20 pm']
+[u'\nMTh']
+[u'John Cameron']
+[u'faculty_profiles.php?user=jcameron']
+[u'Natural and Physical Science']
+#10233
+BISC 203 - L01
+LAB: Comp Phys/Anat Verte
+[u'01:30 pm - 05:00 pm']
+[u'\nM']
+[u'John Cameron']
+[u'faculty_profiles.php?user=jcameron']
+[u'Natural and Physical Science']
+#10221
+BISC 203 - L02
+LAB: Comp Phys/Anat Verte
+[u'12:30 pm - 04:00 pm']
+[u'\nT']
+[u'Emily Buchholtz']
+[u'faculty_profiles.php?user=ebuchhol']
+[u'Natural and Physical Science']
+#11429
+BISC 203 - L03
+LAB: Comp Phys/Anat Verte
+[u'02:15 pm - 05:45 pm']
+[u'\nW']
+[u'Jocelyne Dolce']
+[u'faculty_profiles.php?user=jdolce']
+[u'Natural and Physical Science']
+#12628
+BISC 209 - 01
+Microbiology w/Lab
+[u'11:10 am - 12:20 pm']
+[u'\nMTh']
+[u'Vanja Klepac-Ceraj']
+[u'faculty_profiles.php?user=vklepacc']
+[u'Natural and Physical Science']
+#12629
+BISC 209 - L01
+LAB: Microbiology
+[u'12:30 pm - 04:00 pm']
+[u'\nT']
+[u'Janet McDonough']
+[u'faculty_profiles.php?user=jmcdonou']
+[u'Natural and Physical Science']
+#12630
+BISC 209 - L02
+LAB: Microbiology
+[u'02:15 pm - 05:45 pm']
+[u'\nW']
+[u'Janet McDonough']
+[u'faculty_profiles.php?user=jmcdonou']
+[u'Natural and Physical Science']
+#10222
+BISC 210 - 01
+Marine Biology w/Lab
+[u'09:50 am - 11:00 am']
+[u'\nTF']
+[u'Marianne Moore']
+[u'faculty_profiles.php?user=mmoore']
+[u'Natural and Physical Science']
+#10231
+BISC 210 - L01
+LAB: Marine Biology
+[u'01:00 pm - 04:30 pm']
+[u'\nTh']
+[u'Jeffrey Hughes']
+[u'faculty_profiles.php?user=jhughes']
+[u'Natural and Physical Science']
+#10211
+BISC 219 - 01
+Genetics w/Lab
+[u'11:10 am - 12:20 pm']
+[u'\nTF']
+[u'Andrea Sequeira']
+[u'faculty_profiles.php?user=asequeir']
+[u'Natural and Physical Science']
+#10251
+BISC 219 - L01
+LAB: Genetics
+[u'01:30 pm - 05:00 pm']
+[u'\nM']
+[u'Melissa Beers']
+[u'faculty_profiles.php?user=mbeers']
+[u'Natural and Physical Science']
+#10228
+BISC 219 - L02
+LAB: Genetics
+[u'12:30 pm - 04:00 pm']
+[u'\nT']
+[u'Tucker Crum']
+[u'faculty_profiles.php?user=tcrum']
+[u'Natural and Physical Science']
+#10245
+BISC 219 - L03
+LAB: Genetics
+[u'02:15 pm - 05:45 pm']
+[u'\nW']
+[u'Tucker Crum']
+[u'faculty_profiles.php?user=tcrum']
+[u'Natural and Physical Science']
+#10217
+BISC 219 - L04
+LAB: Genetics
+[u'01:00 pm - 04:30 pm']
+[u'\nTh']
+[u'Adam Matthews']
+[u'faculty_profiles.php?user=amatthe2']
+[u'Natural and Physical Science']
+#10242
+BISC 219 - L05
+LAB: Genetics
+[u'01:00 pm - 04:30 pm']
+[u'\nF']
+[u'Tucker Crum']
+[u'faculty_profiles.php?user=tcrum']
+[u'Natural and Physical Science']
+#13404
+BISC 247 - 01
+Plant Diversity & Eco w/Lab
+[u'11:10 am - 12:20 pm']
+[u'\nMTh']
+[u'Alden Griffith']
+[u'faculty_profiles.php?user=agriffit']
+[u'Natural and Physical Science']
+#13406
+BISC 247 - L01
+LAB: Plant Diversity & Eco
+[u'08:30 am - 12:20 pm']
+[u'\nW']
+[u'Alden Griffith']
+[u'faculty_profiles.php?user=agriffit']
+[u'Natural and Physical Science']
+#12631
+BISC 306 - 01
+Principals Neural Development
+[u'09:50 am - 11:00 am']
+[u'\nMTh']
+[u'Barbara Beltz']
+[u'faculty_profiles.php?user=bbeltz']
+[u'Epistemology and Cognition', u'\nNatural and Physical Science']
+#13135
+BISC 308 - 01
+Tropical Ecol w/Lab-Winters'n
+[u'02:15 pm - 04:45 pm']
+[u'\nW']
+[u'Martina Koniger']
+[u'faculty_profiles.php?user=mkoniger']
+[u'Natural and Physical Science']
+#12063
+BISC 311 - 01
+Evol. Devel Bio w/lab
+[u'09:50 am - 11:00 am']
+[u'\nTF']
+[u'Yuichiro Suzuki']
+[u'faculty_profiles.php?user=ysuzuki']
+[u'Natural and Physical Science']
+#12064
+BISC 311 - L01
+LAB:Evol Devel Biology
+[u'01:00 pm - 04:30 pm']
+[u'\nTh']
+[u'Yuichiro Suzuki']
+[u'faculty_profiles.php?user=ysuzuki']
+[u'Natural and Physical Science']
+#11392
+BISC 315 - 01
+Neuroendocrinology w/Lab
+[u'09:50 am - 11:00 am']
+[u'\nTF']
+[u'Marc Tetel']
+[u'faculty_profiles.php?user=mtetel']
+[u'Epistemology and Cognition', u'\nNatural and Physical Science']
+#11393
+BISC 315 - L01
+LAB: Neuroendocrinology
+[u'12:30 pm - 04:00 pm']
+[u'\nT']
+[u'Marc Tetel']
+[u'faculty_profiles.php?user=mtetel']
+[u'Epistemology and Cognition', u'\nNatural and Physical Science']
+#13331
+BISC 316 - 01
+Molecular Genetics w/Lab
+[u'11:10 am - 12:20 pm']
+[u'\nTF']
+[u'T. Kaye Peterman']
+[u'faculty_profiles.php?user=kpeterma']
+[u'Natural and Physical Science']
+#13332
+BISC 316 - L01
+LAB: Molecular Genetics
+[u'12:30 pm - 04:00 pm']
+[u'\nT']
+[u'T. Kaye Peterman']
+[u'faculty_profiles.php?user=kpeterma']
+[u'Natural and Physical Science']
+#11986
+BISC 320 - 01
+Proteomics w/Lab
+[u'09:50 am - 11:00 am']
+[u'\nMTh']
+[u'Gary Harris']
+[u'faculty_profiles.php?user=gharris']
+[u'Natural and Physical Science']
+#11987
+BISC 320 - L01
+LAB: Proteomics
+[u'01:30 pm - 05:00 pm']
+[u'\nM']
+[u'Gary Harris']
+[u'faculty_profiles.php?user=gharris']
+[u'Natural and Physical Science']
+#13136
+BISC 322 - 01
+Biomech. Animals& Plants w/Lab
+[u'11:10 am - 12:20 pm']
+[u'\nTF']
+[u'David Ellerby']
+[u'faculty_profiles.php?user=dellerby']
+[u'Natural and Physical Science']
+#13137
+BISC 322 - L01
+LAB: Biomech. Animals& Plants
+[u'06:00 pm - 09:30 pm']
+[u'\nM']
+[u'David Ellerby']
+[u'faculty_profiles.php?user=dellerby']
+[u'Natural and Physical Science']
+#12634
+BISC 328 - 01
+Sem:Modern Biological Imaging
+[u'02:15 pm - 04:45 pm']
+[u'\nW']
+[u'Louise Darling']
+[u'faculty_profiles.php?user=ldarling']
+[u'Natural and Physical Science']
+#11274
+BISC 334 - 01
+The Biology of Stem Cells
+[u'09:50 am - 12:20 pm']
+[u'\nW']
+[u"Kimberly O'Donnell"]
+[u'faculty_profiles.php?user=kodonnel']
+[u'Natural and Physical Science']
+#12635
+BISC 336 - 01
+Sem: Immunology
+[u'02:15 pm - 04:45 pm']
+[u'\nW']
+[u'Adam Matthews']
+[u'faculty_profiles.php?user=amatthe2']
+[u'Natural and Physical Science']
+#12636
+BISC 338 - 01
+Sem: Biology of Social Insects
+[u'09:50 am - 12:20 pm']
+[u'\nW']
+[u'Heather Mattila']
+[u'faculty_profiles.php?user=hmattila']
+[u'Natural and Physical Science']
+#12798
+BISC 340 - 01
+CSPW: Biology in the News
+[u'01:30 pm - 04:00 pm']
+[u'\nF']
+[u'Martina Koniger']
+[u'faculty_profiles.php?user=mkoniger']
+[u'Natural and Physical Science']
+#13358
+BISC 347 - 01
+Adv Plant Div and Ecol w/Lab
+[u'11:10 am - 12:20 pm']
+[u'\nMTh']
+[u'Alden Griffith']
+[u'faculty_profiles.php?user=agriffit']
+[u'Natural and Physical Science']
+#13361
+BISC 347 - L01
+LAB: Adv Plant Div and Ecol
+[u'08:30 am - 12:20 pm']
+[u'\nW']
+[u'Alden Griffith']
+[u'faculty_profiles.php?user=agriffit']
+[u'Natural and Physical Science']
+#11578
+CAMS 101 - 01
+Intro-Cinema&MediaStudies
+[u'11:10 am - 12:20 pm', u'\n07:00 pm - 09:00 pm']
+[u'\nMTh', u'\nM']
+[u'Nicholas Knouf']
+[u'faculty_profiles.php?user=nknouf']
+[u'Arts, Music, Theatre, Film and Video']
+#13306
+CAMS 105 - 01
+FYS: 21st Century Cinema
+[u'02:50 pm - 04:00 pm']
+[u'\nTF']
+[u'Maurizio Viano']
+[u'faculty_profiles.php?user=mviano']
+[u'Arts, Music, Theatre, Film and Video']
+#11411
+CAMS 135 - 01
+Intro Film & Video Production
+[u'01:30 pm - 05:20 pm']
+[u'\nM']
+[u'Salem Mekuria']
+[u'faculty_profiles.php?user=smekuria']
+[u'Arts, Music, Theatre, Film and Video']
+#11412
+CAMS 138 - 01
+Photography I
+[u'09:50 am - 12:20 pm']
+[u'\nTF']
+[u'David Kelley']
+[u'faculty_profiles.php?user=dkelley']
+[u'Arts, Music, Theatre, Film and Video']
+#12642
+CAMS 202 - 01
+Between Magic and Reality
+[u'07:00 pm - 09:00 pm', u'\n11:10 am - 01:20 pm']
+[u'\nT', u'\nF']
+[u'Maurizio Viano']
+[u'faculty_profiles.php?user=mviano']
+[u'Arts, Music, Theatre, Film and Video']
+#13273
+CAMS 203 - 01
+Chinese Cinema (in Eng)
+[u'04:10 pm - 05:20 pm', u'\n06:30 pm - 09:30 pm']
+[u'\nM', u'\nW']
+[u'Mingwei Song']
+[u'faculty_profiles.php?user=msong2']
+[u'Arts, Music, Theatre, Film and Video', u'\nLanguage and Literature']
+#13140
+CAMS 222 - 01
+Non-Fiction Film
+[u'11:10 am - 01:20 pm', u'\n11:10 am - 12:20 pm']
+[u'\nT', u'\nF']
+[u'Winifred Wood']
+[u'faculty_profiles.php?user=wwood']
+[u'Arts, Music, Theatre, Film and Video']
+#13141
+CAMS 230 - 01
+Moving Image Studio
+[u'01:30 pm - 04:00 pm']
+[u'\nMTh']
+[u'David Olsen']
+[u'faculty_profiles.php?user=dolsen']
+[u'Arts, Music, Theatre, Film and Video']
+#12644
+CAMS 234 - 01
+The Art of Screenwriting
+[u'09:50 am - 12:20 pm']
+[u'\nW']
+[u'Margaret Cezair-Thompson']
+[u'faculty_profiles.php?user=mcezaire']
+[u'Arts, Music, Theatre, Film and Video', u'\nLanguage and Literature']
+#11948
+CAMS 240 - 01
+Gendering the Bronze Screen
+[u'01:30 pm - 04:00 pm']
+[u'\nT']
+[u'Irene Mata']
+[u'faculty_profiles.php?user=imata']
+[u'Arts, Music, Theatre, Film and Video']
+#12646
+CAMS 241 - 01
+Asian Amer Women in Film
+[u'01:30 pm - 04:00 pm']
+[u'\nTh']
+[u'Elena Creef']
+[u'faculty_profiles.php?user=ecreef']
+[u'Arts, Music, Theatre, Film and Video']
+#13345
+CAMS 274 - 01
+British Cinema and Literature
+[u'02:50 pm - 04:00 pm', u'\n06:30 pm - 08:15 pm']
+[u'\nTF', u'\nW']
+[u'Luther Tyler']
+[u'faculty_profiles.php?user=ltyler1']
+[u'Arts, Music, Theatre, Film and Video', u'\nLanguage and Literature']
+#13142
+CAMS 305 - 01
+Ethnographic Film
+[u'06:00 pm - 08:30 pm']
+[u'\nT']
+[u'Deborah Matzner']
+[u'faculty_profiles.php?user=dmatzner']
+[u'Social and Behavioral Analysis']
+#13143
+CAMS 335 - 01
+Advanced Video Production
+[u'06:30 pm - 08:30 pm', u'\n01:30 pm - 04:00 pm']
+[u'\nT', u'\nT']
+[u'Salem Mekuria']
+[u'faculty_profiles.php?user=smekuria']
+[u'Arts, Music, Theatre, Film and Video']
+#13372
+CAMS 362 - 01
+Experimental Ethnography
+[u'01:30 pm - 04:00 pm', u'\n01:30 pm - 02:40 pm']
+[u'\nM', u'\nTh']
+[u'David Kelley']
+[u'faculty_profiles.php?user=dkelley']
+[u'Arts, Music, Theatre, Film and Video', u'\nSocial and Behavioral Analysis']
+#13333
+CAMS 378 - 01
+Deconstructive Audio
+[u'02:50 pm - 05:20 pm']
+[u'\nTh']
+[u'Nicholas Knouf']
+[u'faculty_profiles.php?user=nknouf']
+[u'Arts, Music, Theatre, Film and Video']
+#11003
+CHEM 105 - 01
+Fundamentals Chemistry w/Lab
+[u'08:30 am - 09:40 am']
+[u'\nMWTh']
+[u'Carla Verschoor']
+[u'faculty_profiles.php?user=cverscho']
+[u'Mathematical Modeling', u'\nNatural and Physical Science']
+#11004
+CHEM 105 - 02
+Fundamentals Chemistry w/Lab
+[u'09:50 am - 11:00 am']
+[u'\nTWF']
+[u'Didem Vardar-Ulu']
+[u'faculty_profiles.php?user=dvardar']
+[u'Mathematical Modeling', u'\nNatural and Physical Science']
+#11005
+CHEM 105 - 03
+Fundamentals Chemistry w/Lab
+[u'11:10 am - 12:20 pm']
+[u'\nTWF']
+[u'Dora Carrico-Moniz']
+[u'faculty_profiles.php?user=dcarrico']
+[u'Mathematical Modeling', u'\nNatural and Physical Science']
+#11006
+CHEM 105 - L01
+LAB:Fundamentals Chemistry
+[u'01:30 pm - 05:00 pm']
+[u'\nM']
+[u'Nicholas Doe']
+[u'faculty_profiles.php?user=ndoe']
+[u'Mathematical Modeling', u'\nNatural and Physical Science']
+#11007
+CHEM 105 - L02
+LAB:Fundamentals Chemistry
+[u'01:30 pm - 05:00 pm']
+[u'\nM']
+[u'Sandor Kadar']
+[u'faculty_profiles.php?user=skadar']
+[u'Mathematical Modeling', u'\nNatural and Physical Science']
+#11008
+CHEM 105 - L03
+LAB: Fundamentals Chemistry
+[u'12:30 pm - 04:00 pm']
+[u'\nT']
+[u'Carla Verschoor']
+[u'faculty_profiles.php?user=cverscho']
+[u'Mathematical Modeling', u'\nNatural and Physical Science']
+#11009
+CHEM 105 - L04
+LAB:Fundamentals Chemistry
+[u'02:15 pm - 05:45 pm']
+[u'\nW']
+[u'Nicholas Doe']
+[u'faculty_profiles.php?user=ndoe']
+[u'Mathematical Modeling', u'\nNatural and Physical Science']
+#11010
+CHEM 105 - L05
+LAB:Fundamentals Chemistry
+[u'01:30 pm - 05:00 pm']
+[u'\nTh']
+[u'Carla Verschoor']
+[u'faculty_profiles.php?user=cverscho']
+[u'Mathematical Modeling', u'\nNatural and Physical Science']
+#11268
+CHEM 105 - L06
+LAB: Fundamentals Chemistry
+[u'12:30 pm - 04:00 pm']
+[u'\nF']
+[u'Donna Trainor']
+[u'faculty_profiles.php?user=dtrainor']
+[u'Mathematical Modeling', u'\nNatural and Physical Science']
+#11980
+CHEM 105P - 01
+Fundamentals of Chem w/Lab
+[u'11:10 am - 12:20 pm']
+[u'\nMTWTh']
+[u'Julia Miwa']
+[u'faculty_profiles.php?user=jmiwa']
+[u'Mathematical Modeling', u'\nNatural and Physical Science']
+#12005
+CHEM 105P - L01
+LAB: Fundamentals of Chem
+[u'01:30 pm - 05:00 pm']
+[u'\nTh']
+[u'Amanda McCarthy']
+[u'faculty_profiles.php?user=amccart1']
+[u'Mathematical Modeling', u'\nNatural and Physical Science']
+#13370
+CHEM 107 - 01
+FYS: Science/Culture of Blood
+[u'02:50 pm - 04:00 pm']
+[u'\nMTh']
+[u'Adele Wolfson']
+[u'faculty_profiles.php?user=awolfson']
+[u'Natural and Physical Science', u'\nSocial and Behavioral Analysis']
+#10063
+CHEM 120 - 01
+Intensive Intro Chem w/Lab
+[u'11:10 am - 12:20 pm']
+[u'\nMWThF']
+[u'Christopher Arumainayagam']
+[u'faculty_profiles.php?user=carumain']
+[u'Mathematical Modeling', u'\nQRF', u'\nNatural and Physical Science']
+#10011
+CHEM 120 - L01
+LAB: Intensive Intro Chem
+[u'02:15 pm - 05:45 pm']
+[u'\nW']
+[u'Paul Reisberg']
+[u'faculty_profiles.php?user=preisber']
+[u'Mathematical Modeling', u'\nQRF', u'\nNatural and Physical Science']
+#10108
+CHEM 120 - L02
+LAB: Intensive Intro Chem
+[u'01:30 pm - 05:00 pm']
+[u'\nTh']
+[u'Paul Reisberg']
+[u'faculty_profiles.php?user=preisber']
+[u'Mathematical Modeling', u'\nQRF', u'\nNatural and Physical Science']
+#11126
+CHEM 205 - 01
+Chemical Analy & Equilib w/Lab
+[u'09:50 am - 11:00 am', u'\n09:50 am - 11:00 am']
+[u'\nMTh', u'\nW']
+[u'Donald Elmore']
+[u'faculty_profiles.php?user=delmore']
+[u'Mathematical Modeling', u'\nQRF', u'\nNatural and Physical Science']
+#11258
+CHEM 205 - 02
+Chemical Analy & Equilib w/Lab
+[u'08:30 am - 09:40 am']
+[u'\nTWF']
+[u'Megan Nunez']
+[u'faculty_profiles.php?user=mnunez']
+[u'Mathematical Modeling', u'\nQRF', u'\nNatural and Physical Science']
+#11127
+CHEM 205 - L01
+LAB:Chemical Analy & Equilib
+[u'01:30 pm - 05:00 pm']
+[u'\nM']
+[u'Amanda McCarthy']
+[u'faculty_profiles.php?user=amccart1']
+[u'Mathematical Modeling', u'\nQRF', u'\nNatural and Physical Science']
+#11128
+CHEM 205 - L02
+LAB: Chemical Analy & Equilib
+[u'12:30 pm - 04:00 pm']
+[u'\nT']
+[u'Amanda McCarthy']
+[u'faculty_profiles.php?user=amccart1']
+[u'Mathematical Modeling', u'\nQRF', u'\nNatural and Physical Science']
+#11259
+CHEM 205 - L03
+LAB:Chemical Analy & Equilib
+[u'01:30 pm - 05:00 pm']
+[u'\nTh']
+[u'Marilyn Turnbull']
+[u'faculty_profiles.php?user=mturnbul']
+[u'Mathematical Modeling', u'\nQRF', u'\nNatural and Physical Science']
+#11260
+CHEM 205 - L04
+LAB: Chemical Analy & Equilib
+[u'12:30 pm - 04:00 pm']
+[u'\nF']
+[u'Marilyn Turnbull']
+[u'faculty_profiles.php?user=mturnbul']
+[u'Mathematical Modeling', u'\nQRF', u'\nNatural and Physical Science']
+#10087
+CHEM 211 - 01
+Organic Chemistry I w/Lab
+[u'08:30 am - 09:40 am']
+[u'\nMWTh']
+[u'David Haines']
+[u'faculty_profiles.php?user=dhaines']
+[u'Natural and Physical Science']
+#10114
+CHEM 211 - 02
+Organic Chemistry I w/Lab
+[u'09:50 am - 11:00 am']
+[u'\nMWTh']
+[u'Julia Miwa']
+[u'faculty_profiles.php?user=jmiwa']
+[u'Natural and Physical Science']
+#11316
+CHEM 211 - 03
+Organic Chemistry I w/Lab
+[u'11:10 am - 12:20 pm']
+[u'\nTWF']
+[u'Michael Hearn']
+[u'faculty_profiles.php?user=mhearn']
+[u'Natural and Physical Science']
+#10025
+CHEM 211 - L01
+LAB: Organic Chemistry I
+[u'01:30 pm - 05:00 pm']
+[u'\nM']
+[u'Adrian Huang']
+[u'faculty_profiles.php?user=ahuang2']
+[u'Natural and Physical Science']
+#10050
+CHEM 211 - L02
+LAB: Organic Chemistry I
+[u'12:30 pm - 04:00 pm']
+[u'\nT']
+[u'Donna Trainor']
+[u'faculty_profiles.php?user=dtrainor']
+[u'Natural and Physical Science']
+#10106
+CHEM 211 - L03
+LAB: Organic Chemistry I
+[u'12:30 pm - 04:00 pm']
+[u'\nT']
+[u'James Moyer']
+[u'faculty_profiles.php?user=jmoyer']
+[u'Natural and Physical Science']
+#10053
+CHEM 211 - L04
+LAB: Organic Chemistry I
+[u'02:15 pm - 05:45 pm']
+[u'\nW']
+[u'James Moyer']
+[u'faculty_profiles.php?user=jmoyer']
+[u'Natural and Physical Science']
+#10049
+CHEM 211 - L05
+LAB: Organic Chemistry I
+[u'01:30 pm - 05:00 pm']
+[u'\nTh']
+[u'Donna Trainor']
+[u'faculty_profiles.php?user=dtrainor']
+[u'Natural and Physical Science']
+#10415
+CHEM 211 - L06
+LAB: Organic Chemistry I
+[u'12:30 pm - 04:00 pm']
+[u'\nF']
+[u'Adrian Huang']
+[u'faculty_profiles.php?user=ahuang2']
+[u'Natural and Physical Science']
+#11129
+CHEM 212 - 01
+Organic Chemistry II w/Lab
+[u'09:50 am - 11:00 am']
+[u'\nMWTh']
+[u'David Haines']
+[u'faculty_profiles.php?user=dhaines']
+[u'Natural and Physical Science']
+#12759
+CHEM 212 - 02
+Organic Chemistry II w/Lab
+[u'09:50 am - 11:00 am']
+[u'\nTWF']
+[u'Dora Carrico-Moniz']
+[u'faculty_profiles.php?user=dcarrico']
+[u'Natural and Physical Science']
+#11131
+CHEM 212 - L02
+LAB: Organic Chemistry II
+[u'01:30 pm - 05:00 pm']
+[u'\nM']
+[u'James Moyer']
+[u'faculty_profiles.php?user=jmoyer']
+[u'Natural and Physical Science']
+#11132
+CHEM 212 - L03
+LAB: Organic Chemistry II
+[u'02:15 pm - 05:45 pm']
+[u'\nW']
+[u'Adrian Huang']
+[u'faculty_profiles.php?user=ahuang2']
+[u'Natural and Physical Science']
+#12760
+CHEM 212 - L04
+LAB: Organic Chemistry II
+[u'01:30 pm - 05:00 pm']
+[u'\nTh']
+[u'Adrian Huang']
+[u'faculty_profiles.php?user=ahuang2']
+[u'Natural and Physical Science']
+#12761
+CHEM 212 - L05
+LAB: Organic Chemistry II
+[u'12:30 pm - 04:00 pm']
+[u'\nF']
+[u'Nicholas Doe']
+[u'faculty_profiles.php?user=ndoe']
+[u'Natural and Physical Science']
+#11133
+CHEM 222 - 01
+Intro to Biochemistry w/Lab
+[u'09:50 am - 11:00 am']
+[u'\nTWF']
+[u'Megan Nunez']
+[u'faculty_profiles.php?user=mnunez']
+[u'Natural and Physical Science']
+#11134
+CHEM 222 - L01
+LAB:Intro to Biochemistry
+[u'02:15 pm - 05:45 pm']
+[u'\nW']
+[u'Mona Hall']
+[u'faculty_profiles.php?user=mhall1']
+[u'Natural and Physical Science']
+#12068
+CHEM 222 - L03
+LAB:Intro to Biochemistry
+[u'12:30 pm - 04:00 pm']
+[u'\nF']
+[u'Mona Hall']
+[u'faculty_profiles.php?user=mhall1']
+[u'Natural and Physical Science']
+#12067
+CHEM 306 - 01
+Sem:Tpc: Org Chem Drug Design
+[u'01:30 pm - 04:00 pm']
+[u'\nM']
+[u'Michael Hearn']
+[u'faculty_profiles.php?user=mhearn']
+[u'Natural and Physical Science']
+#13138
+CHEM 306 - 02
+Sem:Tpc: App.Chem:Sci of Food
+[u'01:00 pm - 04:30 pm']
+[u'\nT']
+[u'Didem Vardar-Ulu']
+[u'faculty_profiles.php?user=dvardar']
+[u'Natural and Physical Science']
+#12228
+CHEM 320 - 01
+Adv Biophysical Chemistry Lab
+[u'11:10 am - 12:20 pm']
+[u'\nTh']
+[u'Elizabeth Oakes']
+[u'faculty_profiles.php?user=eoakes']
+[u'Natural and Physical Science']
+#13297
+CHEM 320 - L01
+LAB: Adv Biophysical Chemistry
+[u'01:30 pm - 05:00 pm']
+[u'\nM']
+[u'Elizabeth Oakes']
+[u'faculty_profiles.php?user=eoakes']
+[u'Natural and Physical Science']
+#13298
+CHEM 320 - L02
+LAB: Adv Biophysical Chemistry
+[u'12:30 pm - 04:00 pm']
+[u'\nT']
+[u'Elizabeth Oakes']
+[u'faculty_profiles.php?user=eoakes']
+[u'Natural and Physical Science']
+#13139
+CHEM 323 - 01
+Advanced Biochemistry
+[u'08:30 am - 09:40 am', u'\n08:30 am - 09:40 am']
+[u'\nMTh', u'\nW']
+[u'Donald Elmore']
+[u'faculty_profiles.php?user=delmore']
+[u'Natural and Physical Science']
+#12222
+CHEM 330 - 01
+Physical Chemistry I with Lab
+[u'08:30 am - 09:40 am']
+[u'\nMWTh']
+[u'Christopher Arumainayagam']
+[u'faculty_profiles.php?user=carumain']
+[u'Mathematical Modeling', u'\nQRF', u'\nNatural and Physical Science']
+#12241
+CHEM 330 - L01
+LAB: Physical Chemistry I
+[u'12:30 pm - 04:00 pm']
+[u'\nT']
+[u'Sandor Kadar']
+[u'faculty_profiles.php?user=skadar']
+[u'Mathematical Modeling', u'\nQRF', u'\nNatural and Physical Science']
+#12242
+CHEM 330 - L02
+LAB: Physical Chemistry I
+[u'02:15 pm - 05:45 pm']
+[u'\nW']
+[u'Marilyn Turnbull']
+[u'faculty_profiles.php?user=mturnbul']
+[u'Mathematical Modeling', u'\nQRF', u'\nNatural and Physical Science']
+#12290
+CHEM 330 - L03
+LAB: Physical Chemistry I
+[u'12:30 pm - 04:00 pm']
+[u'\nF']
+[]
+[u'faculty_profiles.php?user=']
+[u'Mathematical Modeling', u'\nQRF', u'\nNatural and Physical Science']
+#10611
+CHEM 361 - 01
+Analytical Chemistry w/Lab
+[u'09:50 am - 11:00 am']
+[u'\nTF']
+[u'Nancy Mukundan']
+[u'faculty_profiles.php?user=nmukunda']
+[u'Natural and Physical Science', u'\nQRF']
+#13301
+CHEM 361 - L01
+LAB: Analytical Chemistry
+[u'12:30 pm - 04:00 pm']
+[u'\nT']
+[u'Nancy Mukundan']
+[u'faculty_profiles.php?user=nmukunda']
+[u'Natural and Physical Science', u'\nQRF']
+#13302
+CHEM 361 - L02
+LAB: Analytical Chemistry
+[u'12:30 pm - 04:00 pm']
+[u'\nF']
+[u'Nancy Mukundan']
+[u'faculty_profiles.php?user=nmukunda']
+[u'Natural and Physical Science', u'\nQRF']
+#10512
+CHIN 101 - 01
+Beginning Chinese I
+[u'08:30 am - 09:40 am']
+[u'\nMTWTh']
+[u'Qiuyan Tang']
+[u'faculty_profiles.php?user=qtang']
+[u'None']
+#10513
+CHIN 101 - 02
+Beginning Chinese I
+[u'09:50 am - 11:00 am']
+[u'\nTWThF']
+[u'Sarah Allen']
+[u'faculty_profiles.php?user=sallen3']
+[u'None']
+#11406
+CHIN 103 - 01
+Advanced Beginning Chinese I
+[u'09:50 am - 11:00 am']
+[u'\nMWTh']
+[u'Weina Zhao']
+[u'faculty_profiles.php?user=wzhao']
+[u'None']
+#11622
+CHIN 103 - 02
+Advanced Beginning Chinese I
+[u'11:10 am - 12:20 pm']
+[u'\nMWTh']
+[u'Weina Zhao']
+[u'faculty_profiles.php?user=wzhao']
+[u'None']
+#10514
+CHIN 201 - 01
+Intermediate Chinese I
+[u'11:10 am - 12:20 pm']
+[u'\nMTWTh']
+[u'Dai Chen']
+[u'faculty_profiles.php?user=dchen']
+[u'None']
+#10515
+CHIN 201 - 02
+Intermediate Chinese I
+[u'01:30 pm - 02:40 pm', u'\n02:15 pm - 03:25 pm']
+[u'\nMTTh', u'\nW']
+[u'Dai Chen']
+[u'faculty_profiles.php?user=dchen']
+[u'None']
+#10520
+CHIN 203 - 01
+Advanced Intermediate Chinese
+[u'08:30 am - 09:40 am']
+[u'\nTWF']
+[u'Yuan-Chu Lam']
+[u'faculty_profiles.php?user=ylam']
+[u'None']
+#11333
+CHIN 203 - 02
+Advanced Intermediate Chinese
+[u'11:10 am - 12:20 pm', u'\n11:10 am - 12:20 pm']
+[u'\nTF', u'\nW']
+[u'Shiao Wei Tham']
+[u'faculty_profiles.php?user=stham']
+[u'None']
+#12204
+CHIN 209 - 01
+Chinese Ideas (in English)
+[u'01:30 pm - 02:40 pm']
+[u'\nTF']
+[u'Sarah Allen']
+[u'faculty_profiles.php?user=sallen3']
+[u'Language and Literature']
+#13156
+CHIN 243 - 01
+Chinese Cinema (in Eng)
+[u'04:10 pm - 05:20 pm', u'\n06:30 pm - 09:30 pm']
+[u'\nM', u'\nW']
+[u'Mingwei Song']
+[u'faculty_profiles.php?user=msong2']
+[u'Arts, Music, Theatre, Film and Video', u'\nLanguage and Literature']
+#10154
+CHIN 301 - 01
+Advanced Chinese I
+[u'09:50 am - 11:00 am']
+[u'\nTWF']
+[u'Yuan-Chu Lam']
+[u'faculty_profiles.php?user=ylam']
+[u'Language and Literature']
+#13429
+CHIN 301 - 02
+Advanced Chinese I
+[u'01:30 pm - 02:40 pm', u'\n02:15 pm - 03:25 pm']
+[u'\nMTh', u'\nW']
+[u'Qiuyan Tang']
+[u'faculty_profiles.php?user=qtang']
+[u'Language and Literature']
+#10527
+CHIN 306 - 01
+Adv Reading 20th C Culture
+[u'09:50 am - 11:00 am']
+[u'\nMTh']
+[u'Mingwei Song']
+[u'faculty_profiles.php?user=msong2']
+[u'Language and Literature']
+#13145
+CLCV 104 - 01
+Classical Mythology
+[u'11:10 am - 12:20 pm']
+[u'\nMTh']
+[u'Bryan Burns']
+[u'faculty_profiles.php?user=bburns']
+[u'Language and Literature', u'\nReligion, Ethics and Moral Philosophy']
+#13146
+CLCV 202 - 01
+The Invention of Athens
+[u'09:50 am - 11:00 am']
+[u'\nTF']
+[u'Adriana Brook']
+[u'faculty_profiles.php?user=']
+[u'Historical Studies', u'\nLanguage and Literature']
+#13147
+CLCV 240 - 01
+Romans, Jews, and Christians
+[u'02:15 pm - 04:45 pm']
+[u'\nW']
+[u'Barbara Geller']
+[u'faculty_profiles.php?user=bgeller']
+[u'Historical Studies', u'\nReligion, Ethics and Moral Philosophy']
+#13336
+CLCV 325 - 01
+Beyond Sonnets
+[u'01:30 pm - 02:40 pm']
+[u'\nMTh']
+[u'Elizabeth Young']
+[u'faculty_profiles.php?user=eyoung']
+[u'Language and Literature']
+#12857
+CLSC 214 - 01
+Evolution and Human Behavior
+[u'08:30 am - 09:40 am']
+[u'\nTF']
+[u'Margery Lucas']
+[u'faculty_profiles.php?user=mlucas']
+[u'Epistemology and Cognition', u'\nSocial and Behavioral Analysis']
+#13149
+CPLT 113 - 01
+Studies in Fiction
+[u'09:50 am - 11:00 am']
+[u'\nTF']
+[u'Timothy Peltason']
+[u'faculty_profiles.php?user=tpeltaso']
+[u'Language and Literature']
+#12669
+CPLT 180 - 01
+World Literature
+[u'11:10 am - 12:20 pm']
+[u'\nTF']
+[u'Marilyn Sides']
+[u'faculty_profiles.php?user=msides']
+[u'Language and Literature']
+#13150
+CPLT 284 - 01
+Magical Realism
+[u'11:10 am - 12:20 pm']
+[u'\nMTh']
+[u'Adam Weiner']
+[u'faculty_profiles.php?user=aweiner']
+[u'Language and Literature']
+#13337
+CPLT 325 - 01
+Beyond Sonnets
+[u'01:30 pm - 02:40 pm']
+[u'\nMTh']
+[u'Elizabeth Young']
+[u'faculty_profiles.php?user=eyoung']
+[u'Language and Literature']
+#10041
+CS 110 - 01
+Computer Science & Internet
+[u'09:50 am - 11:00 am']
+[u'\nMTh']
+[u'Scott Anderson']
+[u'faculty_profiles.php?user=sanderso']
+[u'Mathematical Modeling']
+#10266
+CS 110 - 02
+Computer Science & Internet
+[u'11:10 am - 12:20 pm']
+[u'\nMTh']
+[u'Eniana Mustafaraj']
+[u'faculty_profiles.php?user=emustafa']
+[u'Mathematical Modeling']
+#10102
+CS 110 - D01
+DISC:Computer Sci & Internet
+[u'08:30 am - 09:40 am']
+[u'\nT']
+[u'Sohie Lee']
+[u'faculty_profiles.php?user=slee']
+[u'Mathematical Modeling']
+#10036
+CS 110 - D02
+DISC:Computer Sci & Internet
+[u'09:50 am - 11:00 am']
+[u'\nT']
+[]
+[u'faculty_profiles.php?user=']
+[u'Mathematical Modeling']
+#10074
+CS 110 - D03
+DISC:Computer Sci & Internet
+[u'11:10 am - 12:20 pm']
+[u'\nT']
+[]
+[u'faculty_profiles.php?user=']
+[u'Mathematical Modeling']
+#10627
+CS 110 - D04
+DISC: Computer Sci & Internet
+[u'01:30 pm - 02:40 pm']
+[u'\nT']
+[]
+[u'faculty_profiles.php?user=']
+[u'Mathematical Modeling']
+#10006
+CS 111 - 01
+Comp Program & Prob Solving
+[u'09:50 am - 11:00 am']
+[u'\nTF']
+[u'Brian Tjaden']
+[u'faculty_profiles.php?user=btjaden']
+[u'Mathematical Modeling']
+#10042
+CS 111 - 02
+Comp Program & Prob Solving
+[u'11:10 am - 12:20 pm']
+[u'\nTF']
+[u'Brian Tjaden']
+[u'faculty_profiles.php?user=btjaden']
+[u'Mathematical Modeling']
+#12882
+CS 111 - 03
+Comp Program & Prob Solving
+[u'01:30 pm - 02:40 pm']
+[u'\nTF']
+[u'Rhys Price Jones']
+[u'faculty_profiles.php?user=rpricejo']
+[u'Mathematical Modeling']
+#10508
+CS 111 - L01
+LAB:Comp Program & Prob Solv
+[u'08:30 am - 10:20 am']
+[u'\nW']
+[u'Sohie Lee']
+[u'faculty_profiles.php?user=slee']
+[u'Mathematical Modeling']
+#10509
+CS 111 - L02
+LAB:Comp Program & Prob Solv
+[u'10:30 am - 12:20 pm']
+[u'\nW']
+[u'Sohie Lee']
+[u'faculty_profiles.php?user=slee']
+[u'Mathematical Modeling']
+#10510
+CS 111 - L03
+LAB:Comp Program & Prob Solv
+[u'02:15 pm - 04:05 pm']
+[u'\nW']
+[u'Sohie Lee']
+[u'faculty_profiles.php?user=slee']
+[u'Mathematical Modeling']
+#12086
+CS 111 - L04
+Comp Program & Prob Solving
+[u'02:15 pm - 04:05 pm']
+[u'\nW']
+[u'Jean Herbst']
+[u'faculty_profiles.php?user=jherbst']
+[u'Mathematical Modeling']
+#12772
+CS 111 - L05
+Comp Program & Prob Solving
+[u'04:15 pm - 06:05 pm']
+[u'\nW']
+[u'Jean Herbst']
+[u'faculty_profiles.php?user=jherbst']
+[u'Mathematical Modeling']
+#13303
+CS 111 - L06
+Comp Program & Prob Solving
+[u'10:30 am - 12:20 pm']
+[u'\nTh']
+[u'Sohie Lee']
+[u'faculty_profiles.php?user=slee']
+[u'Mathematical Modeling']
+#13151
+CS 114 - 01
+Socio-Technological Web w/Disc
+[u'08:30 am - 09:40 am']
+[u'\nTF']
+[u'Darakhshan Mir']
+[u'faculty_profiles.php?user=dmir']
+[u'Mathematical Modeling']
+#13257
+CS 114 - D01
+DISC: Socio-Technological Web
+[u'08:30 am - 09:40 am']
+[u'\nM']
+[u'Darakhshan Mir']
+[u'faculty_profiles.php?user=dmir']
+[u'Mathematical Modeling']
+#13152
+CS 117 - 01
+Inventing Mobile Apps w/Disc.
+[u'01:30 pm - 02:40 pm']
+[u'\nMTh']
+[u'Franklyn Turbak']
+[u'faculty_profiles.php?user=fturbak']
+[u'Mathematical Modeling']
+#13261
+CS 117 - D01
+DISC: Inventing Mobile Apps
+[u'09:50 am - 11:00 am']
+[u'\nW']
+[u'Stella Kakavouli']
+[u'faculty_profiles.php?user=skakavou']
+[u'Mathematical Modeling']
+#13262
+CS 117 - D02
+DISC: Inventing Mobile Apps
+[u'11:10 am - 12:20 pm']
+[u'\nW']
+[u'Stella Kakavouli']
+[u'faculty_profiles.php?user=skakavou']
+[u'Mathematical Modeling']
+#12085
+CS 215 - 01
+Multimedia Design &Programming
+[u'11:10 am - 12:20 pm']
+[u'\nTWF']
+[u'Panagiotis Metaxas']
+[u'faculty_profiles.php?user=pmetaxas']
+[u'Mathematical Modeling']
+#10062
+CS 230 - 01
+Data Structures w/Lab
+[u'09:50 am - 11:00 am']
+[u'\nMTh']
+[u'Orit Shaer']
+[u'faculty_profiles.php?user=oshaer']
+[u'Mathematical Modeling']
+#12877
+CS 230 - 02
+Data Structures w/Lab
+[u'11:10 am - 12:20 pm']
+[u'\nMTh']
+[u'Benjamin Wood']
+[u'faculty_profiles.php?user=bwood5']
+[u'Mathematical Modeling']
+#10788
+CS 230 - L01
+LAB: Data Structures
+[u'01:30 pm - 03:20 pm']
+[u'\nTh']
+[u'Stella Kakavouli']
+[u'faculty_profiles.php?user=skakavou']
+[u'Mathematical Modeling']
+#10789
+CS 230 - L02
+LAB: Data Structures
+[u'08:30 am - 10:20 am']
+[u'\nF']
+[u'Stella Kakavouli']
+[u'faculty_profiles.php?user=skakavou']
+[u'Mathematical Modeling']
+#12299
+CS 230 - L03
+LAB: Data Structures
+[u'10:30 am - 12:20 pm']
+[u'\nF']
+[u'Stella Kakavouli']
+[u'faculty_profiles.php?user=skakavou']
+[u'Mathematical Modeling']
+#13304
+CS 230 - L04
+LAB: Data Structures
+[u'01:30 pm - 03:20 pm']
+[u'\nF']
+[u'Stella Kakavouli']
+[u'faculty_profiles.php?user=skakavou']
+[u'Mathematical Modeling']
+#13153
+CS 231 - 01
+Fundamental Algorithms
+[u'02:50 pm - 04:00 pm']
+[u'\nTF']
+[u'Panagiotis Metaxas']
+[u'faculty_profiles.php?user=pmetaxas']
+[u'Mathematical Modeling']
+#10859
+CS 235 - 01
+Languages & Automata
+[u'08:30 am - 09:40 am']
+[u'\nTWF']
+[u'Rhys Price Jones']
+[u'faculty_profiles.php?user=rpricejo']
+[u'Mathematical Modeling']
+#13275
+CS 240 - 01
+Intro MachineOrganization w/La
+[u'01:30 pm - 02:40 pm']
+[u'\nTF']
+[u'Benjamin Wood']
+[u'faculty_profiles.php?user=bwood5']
+[u'Mathematical Modeling']
+#10026
+CS 240 - L01
+LAB: Intro MachineOrganization
+[u'01:30 pm - 04:30 pm']
+[u'\nM']
+[u'Jean Herbst']
+[u'faculty_profiles.php?user=jherbst']
+[u'Mathematical Modeling']
+#10878
+CS 240 - L02
+LAB: Intro MachineOrganization
+[u'05:30 pm - 08:30 pm']
+[u'\nM']
+[u'Jean Herbst']
+[u'faculty_profiles.php?user=jherbst']
+[u'Mathematical Modeling']
+#12670
+CS 307 - 01
+Computer Graphics
+[u'11:10 am - 12:20 pm']
+[u'\nMTh']
+[u'Scott Anderson']
+[u'faculty_profiles.php?user=sanderso']
+[u'Mathematical Modeling']
+#12671
+CS 320 - 01
+Tangible User Interfaces
+[u'01:30 pm - 02:40 pm']
+[u'\nMTh']
+[u'Orit Shaer']
+[u'faculty_profiles.php?user=oshaer']
+[u'Mathematical Modeling']
+#13340
+CS 322 - 01
+Sem: Digital Tech & Learning
+[u'09:50 am - 12:20 pm']
+[u'\nT']
+[u'Robbin Chapman']
+[u'faculty_profiles.php?user=rchapman']
+[u'Epistemology and Cognition']
+#13155
+CS 342 - 01
+Computer Security w/Disc
+[u'09:50 am - 11:00 am']
+[u'\nMTh']
+[u'Franklyn Turbak']
+[u'faculty_profiles.php?user=fturbak']
+[u'Mathematical Modeling']
+#13259
+CS 342 - D01
+DISC: Computer Security
+[u'09:50 am - 11:00 am']
+[u'\nT']
+[u'Franklyn Turbak']
+[u'faculty_profiles.php?user=fturbak']
+[u'Mathematical Modeling']
+#13260
+CS 342 - D02
+DISC: Computer Security
+[u'11:10 am - 12:20 pm']
+[u'\nT']
+[u'Franklyn Turbak']
+[u'faculty_profiles.php?user=fturbak']
+[u'Mathematical Modeling']
+#13307
+CS 342 - D03
+DISC: Computer Security
+[u'02:15 pm - 03:25 pm']
+[u'\nW']
+[u'Franklyn Turbak']
+[u'faculty_profiles.php?user=fturbak']
+[u'Mathematical Modeling']
+#13338
+EALC 245 - 01
+The Book in East Asia (Eng)
+[u'01:30 pm - 02:40 pm']
+[u'\nTF']
+[u'Kristin Williams']
+[u'faculty_profiles.php?user=kwillia6']
+[u'Language and Literature']
+#13415
+ECON 100 - 01
+FYS: American Labor Market
+[u'01:30 pm - 02:40 pm']
+[u'\nTF']
+[u'Ann Velenchik']
+[u'faculty_profiles.php?user=avelench']
+[u'Social and Behavioral Analysis']
+#10012
+ECON 101 - 01
+Principles of Microeconomics
+[u'01:30 pm - 02:40 pm', u'\n02:15 pm - 03:25 pm']
+[u'\nMTh', u'\nW1']
+[u'Pinar Keskin']
+[u'faculty_profiles.php?user=pkeskin']
+[u'Social and Behavioral Analysis']
+#10088
+ECON 101 - 02
+Principles of Microeconomics
+[u'08:30 am - 09:40 am', u'\n08:30 am - 09:40 am']
+[u'\nTF', u'\nW2']
+[u'Patrick McEwan']
+[u'faculty_profiles.php?user=pmcewan']
+[u'Social and Behavioral Analysis']
+#13430
+ECON 101 - 03
+Principles of Microeconomics
+[u'09:50 am - 11:00 am', u'\n09:50 am - 11:00 am']
+[u'\nMTh', u'\nW1']
+[u'Eunice Han']
+[u'faculty_profiles.php?user=ehan3']
+[u'Social and Behavioral Analysis']
+#10947
+ECON 101 - 04
+Principles of Microeconomics
+[u'11:10 am - 12:20 pm', u'\n11:10 am - 12:20 pm']
+[u'\nTF', u'\nW2']
+[u'Patrick McEwan']
+[u'faculty_profiles.php?user=pmcewan']
+[u'Social and Behavioral Analysis']
+#13431
+ECON 101 - 05
+Principles of Microeconomics
+[u'01:30 pm - 02:40 pm', u'\n02:15 pm - 03:25 pm']
+[u'\nMTh', u'\nW1']
+[u'Eunice Han']
+[u'faculty_profiles.php?user=ehan3']
+[u'Social and Behavioral Analysis']
+#13432
+ECON 101 - 06
+Principles of Microeconomics
+[u'09:50 am - 11:00 am', u'\n09:50 am - 11:00 am']
+[u'\nTF', u'\nW2']
+[u'Eunice Han']
+[u'faculty_profiles.php?user=ehan3']
+[u'Social and Behavioral Analysis']
+#10083
+ECON 102 - 01
+Principles of Macroeconomics
+[u'08:30 am - 09:40 am', u'\n08:30 am - 09:40 am']
+[u'\nMTh', u'\nW1']
+[u'Daniel Sichel']
+[u'faculty_profiles.php?user=dsichel']
+[u'Social and Behavioral Analysis']
+#10033
+ECON 102 - 02
+Principles of Macroeconomics
+[u'11:10 am - 12:20 pm', u'\n02:15 pm - 03:25 pm']
+[u'\nTF', u'\nW2']
+[u'Olga Shurchkov']
+[u'faculty_profiles.php?user=oshurchk']
+[u'Social and Behavioral Analysis']
+#12253
+ECON 102 - 03
+Principles of Macroeconomics
+[u'01:30 pm - 02:40 pm', u'\n02:15 pm - 03:25 pm']
+[u'\nTF', u'\nW2']
+[u'Olga Shurchkov']
+[u'faculty_profiles.php?user=oshurchk']
+[u'Social and Behavioral Analysis']
+#12186
+ECON 103 - 01
+Intro Prob&Stat Methods w/Lab
+[u'08:30 am - 09:40 am', u'\n08:30 am - 09:40 am']
+[u'\nMTh', u'\nW1']
+[u'Joseph Swingle']
+[u'faculty_profiles.php?user=jswingle']
+[u'QRF', u'\nSocial and Behavioral Analysis']
+#11312
+ECON 103 - 02
+Intro Prob&Stat Methods w/Lab
+[u'11:10 am - 12:20 pm', u'\n11:10 am - 12:20 pm']
+[u'\nMTh', u'\nW1']
+[u'Robin McKnight']
+[u'faculty_profiles.php?user=rmcknigh']
+[u'QRF', u'\nSocial and Behavioral Analysis']
+#13277
+ECON 103 - 03
+Intro Prob&Stat Methods w/Lab
+[u'02:50 pm - 04:00 pm', u'\n03:35 pm - 04:45 pm']
+[u'\nMTh', u'\nW1']
+[u'Phillip Levine']
+[u'faculty_profiles.php?user=plevine']
+[u'QRF', u'\nSocial and Behavioral Analysis']
+#11138
+ECON 103 - 1LA
+LAB: Prob&Statistical Methods
+[u'09:50 am - 11:00 am']
+[u'\nW']
+[u'Joseph Swingle']
+[u'faculty_profiles.php?user=jswingle']
+[u'QRF', u'\nSocial and Behavioral Analysis']
+#11139
+ECON 103 - 1LB
+LAB: Prob&Statistical Methods
+[u'11:10 am - 12:20 pm']
+[u'\nW']
+[u'Joseph Swingle']
+[u'faculty_profiles.php?user=jswingle']
+[u'QRF', u'\nSocial and Behavioral Analysis']
+#11140
+ECON 103 - 2LA
+LAB: Prob&Statistical Methods
+[u'09:50 am - 11:00 am']
+[u'\nT']
+[u'Robin McKnight']
+[u'faculty_profiles.php?user=rmcknigh']
+[u'QRF', u'\nSocial and Behavioral Analysis']
+#11141
+ECON 103 - 2LB
+LAB: Prob&Statistical Methods
+[u'11:10 am - 12:20 pm']
+[u'\nT']
+[u'Robin McKnight']
+[u'faculty_profiles.php?user=rmcknigh']
+[u'QRF', u'\nSocial and Behavioral Analysis']
+#13280
+ECON 103 - 3LA
+LAB: Intro Prob&Stat Method
+[u'01:30 pm - 02:40 pm']
+[u'\nT']
+[u'Phillip Levine']
+[u'faculty_profiles.php?user=plevine']
+[u'QRF', u'\nSocial and Behavioral Analysis']
+#13282
+ECON 103 - 3LB
+LAB: Intro Prob&Stat Methods
+[u'02:50 pm - 04:00 pm']
+[u'\nT']
+[u'Phillip Levine']
+[u'faculty_profiles.php?user=plevine']
+[u'QRF', u'\nSocial and Behavioral Analysis']
+#11165
+ECON 201 - 01
+Intermediate Micro Analysis
+[u'08:30 am - 09:40 am']
+[u'\nTWF']
+[u'Susan Skeath van Mulbregt']
+[u'faculty_profiles.php?user=sskeath']
+[u'Social and Behavioral Analysis']
+#10103
+ECON 201 - 02
+Intermediate Micro Analysis
+[u'08:30 am - 09:40 am']
+[u'\nMWTh']
+[u'Daniel Fetter']
+[u'faculty_profiles.php?user=dfetter']
+[u'Social and Behavioral Analysis']
+#12763
+ECON 201 - 03
+Intermediate Micro Analysis
+[u'11:10 am - 12:20 pm']
+[u'\nTWF']
+[u'Susan Skeath van Mulbregt']
+[u'faculty_profiles.php?user=sskeath']
+[u'Social and Behavioral Analysis']
+#10046
+ECON 202 - 01
+Intermediate Macro Analysis
+[u'08:30 am - 09:40 am', u'\n08:30 am - 09:40 am']
+[u'\nMTh', u'\nW']
+[u'Seth Neumuller']
+[u'faculty_profiles.php?user=sneumull']
+[u'Social and Behavioral Analysis']
+#10111
+ECON 202 - 02
+Intermediate Macro Analysis
+[u'09:50 am - 11:00 am']
+[u'\nMWTh']
+[u'Seth Neumuller']
+[u'faculty_profiles.php?user=sneumull']
+[u'Social and Behavioral Analysis']
+#11144
+ECON 203 - 01
+Econometrics
+[u'09:50 am - 11:00 am', u'\n09:50 am - 11:00 am']
+[u'\nMTh', u'\nW']
+[u'Kyung-Hong Park']
+[u'faculty_profiles.php?user=kpark4']
+[u'Social and Behavioral Analysis']
+#11262
+ECON 203 - 02
+Econometrics
+[u'11:10 am - 12:20 pm', u'\n11:10 am - 12:20 pm']
+[u'\nMTh', u'\nW']
+[u'Kristin Butcher']
+[u'faculty_profiles.php?user=kbutcher']
+[u'Social and Behavioral Analysis']
+#11988
+ECON 203 - 03
+Econometrics
+[u'02:50 pm - 04:00 pm', u'\n03:35 pm - 04:45 pm']
+[u'\nMTh', u'\nW']
+[u'Kyung-Hong Park']
+[u'faculty_profiles.php?user=kpark4']
+[u'Social and Behavioral Analysis']
+#12765
+ECON 210 - 01
+Financial Markets
+[u'08:30 am - 09:40 am', u'\n08:30 am - 09:40 am']
+[u'\nTF', u'\nW2']
+[u'Joseph Joyce']
+[u'faculty_profiles.php?user=jjoyce']
+[u'Social and Behavioral Analysis']
+#12183
+ECON 214 - 01
+Trade Policy
+[u'09:50 am - 11:00 am', u'\n09:50 am - 11:00 am']
+[u'\nTF', u'\nW2']
+[u'David Lindauer']
+[u'faculty_profiles.php?user=dlindaue']
+[u'Social and Behavioral Analysis']
+#13283
+ECON 228 - 01
+Environmental & Resource Econ
+[u'02:50 pm - 04:00 pm', u'\n03:35 pm - 04:45 pm']
+[u'\nMTh', u'\nW1']
+[u'Pinar Keskin']
+[u'faculty_profiles.php?user=pkeskin']
+[u'Social and Behavioral Analysis']
+#13286
+ECON 232 - 01
+Health Economics
+[u'01:30 pm - 02:40 pm']
+[u'\nTF']
+[u'Courtney Coile']
+[u'faculty_profiles.php?user=ccoile']
+[u'Social and Behavioral Analysis']
+#13287
+ECON 242 - 01
+The Information Economy
+[u'11:10 am - 12:20 pm']
+[u'\nMTh']
+[u'Brett Danaher']
+[u'faculty_profiles.php?user=bdanaher']
+[u'Social and Behavioral Analysis']
+#13288
+ECON 303 - 01
+Advanced Econometrics
+[u'09:50 am - 11:00 am']
+[u'\nMTh']
+[u'Daniel Fetter']
+[u'faculty_profiles.php?user=dfetter']
+[u'Social and Behavioral Analysis']
+#13289
+ECON 310 - 01
+Public Economics
+[u'09:50 am - 11:00 am']
+[u'\nTF']
+[u'Courtney Coile']
+[u'faculty_profiles.php?user=ccoile']
+[u'Social and Behavioral Analysis']
+#13290
+ECON 311 - 01
+Economics of Immigration
+[u'02:50 pm - 05:20 pm']
+[u'\nTh']
+[u'Kristin Butcher']
+[u'faculty_profiles.php?user=kbutcher']
+[u'Social and Behavioral Analysis']
+#13284
+ECON 313 - 01
+International Macroeconomics
+[u'11:10 am - 12:20 pm', u'\n11:10 am - 12:20 pm']
+[u'\nTF', u'\nW2']
+[u'Joseph Joyce']
+[u'faculty_profiles.php?user=jjoyce']
+[u'Social and Behavioral Analysis']
+#11996
+ECON 334 - 01
+Domestic Macroeconomic Policy
+[u'11:10 am - 12:20 pm']
+[u'\nMTh']
+[u'Daniel Sichel']
+[u'faculty_profiles.php?user=dsichel']
+[u'Social and Behavioral Analysis']
+#13292
+ECON 341 - 01
+Industrial Organization
+[u'04:10 pm - 05:20 pm']
+[u'\nMTh']
+[u'Brett Danaher']
+[u'faculty_profiles.php?user=bdanaher']
+[u'Social and Behavioral Analysis']
+#12770
+ECON 343 - 01
+Sem: Feminist Economics
+[u'02:50 pm - 05:20 pm']
+[u'\nTh']
+[u'Julie Matthaei']
+[u'faculty_profiles.php?user=jmatthae']
+[u'Social and Behavioral Analysis']
+#11368
+ECON 380 - 01
+Economics Research Seminar
+[u'06:00 pm - 07:30 pm']
+[u'\nT']
+[u'Robin McKnight']
+[u'faculty_profiles.php?user=rmcknigh']
+[u'Social and Behavioral Analysis']
+#11794
+EDUC 212 - 01
+History of American Education
+[u'01:30 pm - 04:00 pm']
+[u'\nT']
+[u'Barbara Beatty']
+[u'faculty_profiles.php?user=bbeatty']
+[u'Historical Studies']
+#10704
+EDUC 215 - 01
+Understand'g & Improv'g Schls
+[u'09:50 am - 12:20 pm']
+[u'\nTh']
+[u'Noah Rubin']
+[u'faculty_profiles.php?user=nrubin']
+[u'Social and Behavioral Analysis']
+#11397
+EDUC 216 - 01
+Education,Society&SocialPolicy
+[u'11:10 am - 12:20 pm']
+[u'\nTF']
+[u'Kenneth Hawes']
+[u'faculty_profiles.php?user=khawes']
+[u'Social and Behavioral Analysis']
+#10143
+EDUC 300 - 01
+Teaching &Curriculum Classroom
+[u'02:50 pm - 04:30 pm', u'\n01:30 pm - 04:00 pm']
+[u'\nM', u'\nTh']
+[u'Kenneth Hawes']
+[u'faculty_profiles.php?user=khawes']
+[u'Epistemology and Cognition']
+#11257
+EDUC 304 - 01
+Curric&Instr Element. Ed w/Lab
+[u'01:30 pm - 02:40 pm', u'\n04:10 pm - 06:40 pm']
+[u'\nT', u'\nTh']
+[u'Noah Rubin']
+[u'faculty_profiles.php?user=nrubin']
+[u'Epistemology and Cognition']
+#11011
+EDUC 310 - 01
+Child Literacy and Reading
+[u'09:50 am - 12:20 pm']
+[u'\nW']
+[u'Diane Tutin']
+[u'faculty_profiles.php?user=dtutin']
+[u'Epistemology and Cognition']
+#11344
+EDUC 314 - 01
+Learning&Teaching Mathematics
+[u'02:50 pm - 04:30 pm', u'\n03:55 pm - 06:25 pm']
+[u'\nM', u'\nW1']
+[u'Jessica Polito']
+[u'faculty_profiles.php?user=jpolito']
+[u'Epistemology and Cognition']
+#13341
+EDUC 321 - 01
+Bilingual Ed Policy & Politics
+[u'02:15 pm - 04:45 pm']
+[u'\nW']
+[u'Kenzo Sung']
+[u'faculty_profiles.php?user=ksung']
+[u'Social and Behavioral Analysis']
+#13339
+EDUC 322 - 01
+Sem: Digital Tech & Learning
+[u'09:50 am - 12:20 pm']
+[u'\nT']
+[u'Robbin Chapman']
+[u'faculty_profiles.php?user=rchapman']
+[u'Epistemology and Cognition']
+#12155
+EDUC 325 - 01
+Sem: English as a 2nd Language
+[u'11:10 am - 01:20 pm', u'\n08:00 am - 08:20 am']
+[u'\nM', u'\nM']
+[u'Joy Renjilian-Burgy']
+[u'faculty_profiles.php?user=jrenjili']
+[u'Epistemology and Cognition']
+#13159
+ENG 113 - 01
+Studies in Fiction
+[u'09:50 am - 11:00 am']
+[u'\nTF']
+[u'Timothy Peltason']
+[u'faculty_profiles.php?user=tpeltaso']
+[u'Language and Literature']
+#13160
+ENG 115 - 01
+Great Works of Poetry
+[u'03:35 pm - 05:55 pm']
+[u'\nW']
+[u'Frank Bidart']
+[u'faculty_profiles.php?user=fbidart']
+[u'Language and Literature']
+#11999
+ENG 120 - 01
+Critical Interpretation
+[u'09:50 am - 11:00 am']
+[u'\nMTh']
+[u'Kathleen Brogan']
+[u'faculty_profiles.php?user=kbrogan']
+[u'Language and Literature', u'\nW']
+#12824
+ENG 150 - 01
+FYS: Translation Theory/Pract
+[u'08:30 am - 09:40 am']
+[u'\nTF']
+[u'Lawrence Rosenwald']
+[u'faculty_profiles.php?user=lrosenwa']
+[u'Language and Literature']
+#10132
+ENG 202 - 01
+Poetry
+[u'09:50 am - 11:00 am']
+[u'\nMTh']
+[u'Daniel Chiasson']
+[u'faculty_profiles.php?user=dchiasso']
+[u'Language and Literature']
+#10137
+ENG 203 - 01
+Short Narrative
+[u'08:30 am - 09:40 am']
+[u'\nTF']
+[u'Marilyn Sides']
+[u'faculty_profiles.php?user=msides']
+[u'Language and Literature']
+#11617
+ENG 203 - 02
+Short Narrative
+[u'09:50 am - 12:20 pm']
+[u'\nT']
+[u'James Wallenstein']
+[u'faculty_profiles.php?user=wwallens']
+[u'Language and Literature']
+#12645
+ENG 204 - 01
+The Art of Screenwriting
+[u'09:50 am - 12:20 pm']
+[u'\nW']
+[u'Margaret Cezair-Thompson']
+[u'faculty_profiles.php?user=mcezaire']
+[u'Arts, Music, Theatre, Film and Video', u'\nLanguage and Literature']
+#11401
+ENG 205 - 01
+Writing for Children
+[u'01:30 pm - 02:40 pm']
+[u'\nMTh']
+[u'Susan Meyer']
+[u'faculty_profiles.php?user=smeyer']
+[u'Language and Literature']
+#11423
+ENG 206 - 01
+Tpc: Memoir
+[u'09:50 am - 12:20 pm']
+[u'\nW']
+[u'James Wallenstein']
+[u'faculty_profiles.php?user=wwallens']
+[u'Language and Literature']
+#13344
+ENG 213 - 01
+Chaucer
+[u'02:15 pm - 04:45 pm']
+[u'\nW']
+[u'Cord Whitaker']
+[u'faculty_profiles.php?user=cwhitak3']
+[u'Language and Literature']
+#13247
+ENG 222 - 01
+Tpc: Ren Lit & Hist of Media
+[u'11:10 am - 12:20 pm']
+[u'\nMTh']
+[u'Sarah Wall-Randell']
+[u'faculty_profiles.php?user=swallran']
+[u'Language and Literature']
+#10182
+ENG 223 - 01
+ShakespeareI-ElizabethanPeriod
+[u'11:10 am - 12:20 pm']
+[u'\nTF']
+[u'Timothy Peltason']
+[u'faculty_profiles.php?user=tpeltaso']
+[u'Arts, Music, Theatre, Film and Video', u'\nLanguage and Literature']
+#13161
+ENG 227 - 01
+Milton
+[u'01:30 pm - 02:40 pm']
+[u'\nMTh']
+[u'Sarah Wall-Randell']
+[u'faculty_profiles.php?user=swallran']
+[u'Language and Literature']
+#12693
+ENG 253 - 01
+Contemporary American Poetry
+[u'01:30 pm - 02:40 pm']
+[u'\nMTh']
+[u'Daniel Chiasson']
+[u'faculty_profiles.php?user=dchiasso']
+[u'Language and Literature']
+#12117
+ENG 262 - 01
+Tpc: Founding,Disunion,Reunion
+[u'02:15 pm - 04:45 pm']
+[u'\nW']
+[u'Luther Tyler']
+[u'faculty_profiles.php?user=ltyler1']
+[u'Language and Literature']
+#13347
+ENG 268 - 01
+American Literature Now
+[u'04:10 pm - 05:20 pm']
+[u'\nMTh']
+[u'Vernon Shetley']
+[u'faculty_profiles.php?user=vshetley']
+[u'Language and Literature']
+#13346
+ENG 274 - 01
+British Cinema and Literature
+[u'02:50 pm - 04:00 pm', u'\n06:30 pm - 08:15 pm']
+[u'\nTF', u'\nW']
+[u'Luther Tyler']
+[u'faculty_profiles.php?user=ltyler1']
+[u'Arts, Music, Theatre, Film and Video', u'\nLanguage and Literature']
+#13248
+ENG 286 - 01
+The Gay 1990s
+[u'11:10 am - 12:20 pm']
+[u'\nMTh']
+[u'Octavio Gonzalez']
+[u'faculty_profiles.php?user=ogonzale']
+[u'Language and Literature']
+#13249
+ENG 287 - 01
+Words, Music, Voices
+[u'02:50 pm - 04:00 pm']
+[u'\nTF']
+[u'Martin Brody']
+[u'faculty_profiles.php?user=mbrody']
+[u'Arts, Music, Theatre, Film and Video', u'\nLanguage and Literature']
+#13342
+ENG 290 - 01
+Law in Literature
+[u'09:50 am - 11:00 am']
+[u'\nMTh']
+[u'Lisa Rodensky']
+[u'faculty_profiles.php?user=lrodensk']
+[u'Language and Literature']
+#13250
+ENG 324 - 01
+Tpc:Shakespeare Perform Global
+[u'02:50 pm - 04:00 pm']
+[u'\nMTh']
+[u'Yu Jin Ko']
+[u'faculty_profiles.php?user=yko']
+[u'Language and Literature or Arts, Music, Theatre, Film and Video', u'\nLanguage and Literature']
+#13251
+ENG 351 - 01
+The Robert Garis Seminar
+[u'02:50 pm - 04:00 pm']
+[u'\nTF']
+[u'Sebastian Smee']
+[u'faculty_profiles.php?user=ssmee']
+[u'Language and Literature']
+#11621
+ENG 355 - 01
+Tpc: Irish Lit: Terror and Wit
+[u'01:30 pm - 02:40 pm']
+[u'\nTF']
+[u'Margery Sabin']
+[u'faculty_profiles.php?user=msabin']
+[u'Language and Literature', u'\nLanguage and Literature']
+#12696
+ENG 383 - 01
+Tpc: 19th Century Novels
+[u'11:10 am - 12:20 pm']
+[u'\nMTh']
+[u'Susan Meyer']
+[u'faculty_profiles.php?user=smeyer']
+[u'Language and Literature']
+#13252
+ENG 384 - 01
+Tpc: Africa in the West
+[u'01:30 pm - 04:00 pm']
+[u'\nT']
+[u'Margaret Cezair-Thompson']
+[u'faculty_profiles.php?user=mcezaire']
+[u'Language and Literature or Arts, Music, Theatre, Film and Video', u'\nLanguage and Literature']
+#13253
+ENG 385 - 01
+Tpc: Lowell, Bishop
+[u'04:10 pm - 06:30 pm']
+[u'\nM']
+[u'Frank Bidart']
+[u'faculty_profiles.php?user=fbidart']
+[u'Language and Literature']
+#

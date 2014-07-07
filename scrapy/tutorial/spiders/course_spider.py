@@ -1,0 +1,168 @@
+#course_spider.py
+
+import scrapy
+from scrapy.selector import Selector 
+from scrapy.http import HtmlResponse
+
+class CourseSpider(scrapy.Spider):
+    name = "course_spider"
+    # allowed_domains = ["https://courses.wellesley.edu"]
+
+    start_urls = [
+        "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/201409.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/201407", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/201406.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/201402.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/201401.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/201309.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/201307.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/201306.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/201302.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/201301.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/201209.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/201207.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/201206.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/201202.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/201201.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/201109.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/201107.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/201106.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/201102.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/201101.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/201009.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/201007.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/201006.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/201002.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/201001.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200909.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200907.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200906.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200902.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200901.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200809.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200807.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200806.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200802.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200801.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200709.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200707.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200706.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200702.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200701.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200609.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200607.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200606.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200602.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200601.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200509.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200507.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200506.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200502.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200501.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200409.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200407.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200406.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200402.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200401.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200309.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200307.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200306.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200302.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200301.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200209.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200207.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200206.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200202.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200201.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200109.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200107.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200106.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200102.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200101.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200009.txt", 
+        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/tutorial/course_browser_htmls/200007"]
+
+        ]
+
+
+    def parse(self, response):
+
+        self.log('A response from %s just arrived!' % response.url)
+
+        #parsing file:///.... into the semester code
+        path = response.url
+        code = path.split("/").pop(12)
+        code = code.split(".").pop(0)
+
+        filewriter = open('course_browser_database/' + code + '.txt', 'w')
+
+
+        for sel in response.xpath('//tbody/tr'): #each <tr> is a class table
+            crn = (sel.xpath('th[1]/text()').extract()).pop()
+            # print crn
+            course = sel.xpath('th[2]/a/text()').extract().pop()
+            title = sel.xpath('th[3]/text()').extract().pop()
+            # isCourseFull = sel.xpath('th[4]/text()').extract() #has empty lists
+            # # if int(isCourseFull.pop()) == 0:
+            # #     isCourseFull = True
+            # # else: 
+            # #     isCourseFull = False
+            time = sel.xpath('th[7]/text()').extract() #has empty and multiple object lists
+            date = sel.xpath('th[8]/text()').extract() #has empty and multiple object lists
+            prof = sel.xpath('th[9]/a/text()').extract() #has empty lists
+            prof_site = sel.xpath('th[9]/a/@href').extract() #has empty lists
+            distribution = sel.xpath('th[11]/text()').extract() #has multiple object lists
+            filewriter.write(str(crn) + "\n" + 
+                str(course) + "\n" + 
+                str(title) + "\n" + 
+                # str(isCourseFull) + "\n" + 
+                str(time) + "\n" + 
+                str(date) + "\n" + 
+                str(prof) + "\n" + 
+                str(prof_site) + "\n" + 
+                str(distribution) + "\n" + 
+                "#")
+
+        filewriter.close()
+
+
+
+    	
+    	   # page_title = response.selector.xpath('head/title/text()').extract()
+    	   # filename = "tutorial/txt_docs/" + str(page_title.pop()) + ".txt" #saved in txt docs directory
+    	   # f = open (filename, 'w') #new file writer with name of the title
+
+        #    #creates selector to loop through all <p> tags for hyperlinks
+        #    for sel in response.xpath('//p'):
+        #     title = sel.xpath('a[contains(@href,"/wiki/")]/@title').extract() 
+
+        #    #problem is this only works with /a; it doesn't work on disambiguation pages because those use /link
+        #    #find wikipedia links and extract their titles
+	       #  #??????? what's the proper syntax here
+	       #  while not not title: #len(title) != 0:
+	       #  	f.write(str(title.pop()) + "\n") #write titles line by line onto file
+
+	       #  #NB: it will scrape ALL //p tags even if they are empty. seems like a waste
+
+
+
+    
+
+
+    # def parse(self, response):
+    #     filename = response.url.split("/")[-2]
+    #     with open(filename, 'wb') as f:
+    #         f.write(response.body)
+
+    # def make_requests_from_url(url):
+    #     return scrapy.http.Request(url)
+    #     # return [scrapy.FormRequest("http://www.example.com/login",
+    #     #     formdata={'user': 'john', 'pass': 'secret'},
+    #     #     callback=self.logged_in)]
+
+
+
+
+
+
+
