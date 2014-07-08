@@ -53,14 +53,11 @@ TODO:
 """
 
 class Student(models.Model):
-<<<<<<< HEAD
     FIRSTYEAR = 'fy'
     SOPHOMORE = 'so'
     JUNIOR = 'ju'
     SENIOR = 'se'
-=======
 	# Feel free to change year abbreviations
->>>>>>> FETCH_HEAD
     CLASS_YEAR = [
         (FIRSTYEAR, 'First year'),
         (SOPHOMORE, 'Sophomore'),
@@ -69,12 +66,8 @@ class Student(models.Model):
         ]
     first_name = models.CharField(max_length=200)
     last_name = models.CharField(max_length=200)
-<<<<<<< HEAD
     class_year = models.CharField(max_length=5, choices=CLASS_YEAR, default=FIRSTYEAR)
-=======
-    class_year = models.CharField(max_length=5, choices=CLASS_YEAR)
 	# Currently commented out until Major foregin key is fully defined 
->>>>>>> FETCH_HEAD
     #primary_major = models.ForeignKey(Major)
     #secondary_major = models.ForeignKey(Major)
     major_requirements_completed = models.BooleanField(default=False)
