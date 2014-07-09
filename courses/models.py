@@ -83,7 +83,8 @@ class Course(models.Model):
     number = models.IntegerField()
     students = models.ManyToManyField(Student, through='Enrollment', through_fields=('course', 'student'))
     counts_toward_major = models.ManyToManyField(Major, through='Major_Requirements', through_fields=('course', 'major'))
-    #similar counts_toward_ditribution
+	#similar counts_toward_ditribution
+
 class Major(models.Model):
     AFR = "AFR"
     AMST = "AMST"
