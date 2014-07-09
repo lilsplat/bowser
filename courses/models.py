@@ -76,11 +76,14 @@ class Student(models.Model):
     courses = models.ManyToManyField(Course, through='Enrollment', through_fields=('student', 'courses'))
 
 class Course(models.Model):
-    name = models.CharField(max_length=200)
+    title = models.CharField(max_length=200)
+    # TODO: make deparrtments global variable to add it as choices for department. 
+    # Same for majors, class years?
+    department = models.CharField(max_length=200)
+    number = models.IntegerField()
     students = models.ManyToManyField(Student, through='Enrollment', through_fields=('course', 'student'))
     counts_toward_major = models.ManyToManyField(Major, through='Major_Requirements', through_fields=('course', 'major'))
     #similar counts_toward_ditribution
-
 class Major(models.Model):
     AFR = "AFR"
     AMST = "AMST"
