@@ -1,57 +1,5 @@
 from django.db import models
 
-"""
-LX 7/8:
-minor changes to Student:
-    added default class year (first year)
-    defined constants
-    added manytomany relationship to courses through Enrollment
-
-Major:
-    copied major list from scraped course catalog with some regex magic
-    I think majors and minors should both be included in Major (atm I've only added official majors but we can
-    add minors too) (also interdisciplinary majors? Idk i just put in 'other')
-    established ManyToMany relationship with courses (see Major_Requirements)
-
-Course:
-    established manytomany relationship with students through Enrollment
-    established ManyToMany relationship with majors (see Major_Requirements)
-    still unfamiliar with Django - if we want our Course to /not/ be dynamic, i.e. we want to
-    pull from our static course catalog database, how would we do that?
-
-Enrollment:
-    intermediate model to govern manytomany relationship between Student and Course 
-    NB: obviously I am new to Django and i'm not all sure if this is an appropriate 
-    solution - what do you think? The complexity is that we would want to make a 
-    model with multiple foreign keys - that is, a Course will have relationships with
-    Students and Students will have relationships with Courses, which is specified through
-    the through_fields parameter. I'm _pretty_ sure this is correct but i'm not 100 on the syntax.
-    At least this is what I want it to do....
-    example:
-        lily = Student.objects.create(name="Lilz")
-        sravanti = Student.objects.create(name="Sravantea")
-        cs242 = Course.objects.create(name="Netwerks")
-        e = Enrollment(student=lily, course=cs242, date_joined=date(2014, 1, 1))
-        e2 = Enrollment(student=sravanti, course=cs242, date_joined=date(2014, 1, 1))
-        cs242.members.all() #[<Student: Lilz>, <Student: Sravantea>]
-        ####this is the part I'm not 100 sure on#####
-        cs111 = Course.objects.create(name="Intro")
-        e3 = Enrollment(student=lily, course=cs111, date_joined=date(2013, 1, 1))
-        lily.courses.all() #[<Course: Netwerks>, <Course: Intro>]
-
-
-Major_Requirements:
-    performs a very similar function to Enrollment, but it mediates Courses and Majors
-    (i.e. what Majors a Course counts for, and what Courses factor into a Major)
-
-TODO: 
-    establish relationship between courses and distribution requirements
-    testing relationships
-    flesh out Course
-    maybe a script to read from course catalog data and create Courses
-
-"""
-
 class Student(models.Model):
     FIRSTYEAR = 'fy'
     SOPHOMORE = 'so'
@@ -72,7 +20,7 @@ class Student(models.Model):
     major_requirements_completed = models.BooleanField(default=False)
     distribution_requirements_completed = models.BooleanField(default=False)
     gpa = models.IntegerField()
-    courses = models.ManyToManyField('Course', through='Enrollment')
+    courses = models.ManyToManyField(Course, through='Enrollment')
    
     def add_course(self, course):
 	""" Adds a course to a student's courses """
@@ -91,14 +39,45 @@ class Student(models.Model):
 		return self.first_name + ' ' + self.last_name	
 
 class Course(models.Model):
-    title = models.CharField(max_length=200)
-    # TODO: make deparrtments global variable to add it as choices for department. 
-    # Same for majors, class years?
-    department = models.CharField(max_length=200)
-    number = models.IntegerField()
-    students = models.ManyToManyField(Student, through='Enrollment')
-    counts_toward_major = models.ManyToManyField('Major', through='Major_Requirements')
-	#similar counts_toward_ditribution
+    code = models.CharField() #i.e. CS110
+    name = models.CharField() 
+    time = models.CharField() #i.e. 1:30-4:00pm
+    date = models.CharField() #i.e. TF
+    prof = models.CharField()
+    prof_site = models.CharField() #link to professor's website (comes on course browser)
+    dist = models.ForeignKey('Distribution', related_name='distribution')
+    comments = models.TextField()
+    #students can be accessed through Course.student_set
+
+    def conflicts(self, other_course):
+        """Returns whether this Course has a time conflict with another Course"""
+        try:
+            if (self.time == other_course.time) and (self.date == other_course.date):
+                return True
+            else:
+                return False
+        except:
+            raise Exception('please enter a valid course')
+
+    class Meta:
+        ordering = ['name'] #orders courses by name
+
+
+class Course_Bucket(models.Model):
+    name = models.CharField()
+    courses = models.ManyToManyField(Course)
+
+    def equals_course_named(self, course_name):
+        if Course_Bucket.objects.filter(courses__name__startswith=course_name).count() > 0: 
+            #there MUST be a better way to do this????
+            return True
+        else:
+            return False
+
+    #wasn't sure which method was more appropriate
+    def equals_course(self, course):
+        return self.equals_course_named(course.name)
+
 
 class Major(models.Model):
     AFR = "AFR"
@@ -198,7 +177,8 @@ class Major(models.Model):
     ]
 
     name = models.CharField(max_length=5, choices=MAJORS, default=UND)
-    courses = models.ManyToManyField(Course, through='Major_Requirements')
+    # courses = models.ManyToManyField(Course, through='Major_Requirements') 
+    #^^^^^^ need to change
 
 class Distribution(models.Model):
     AMTFV = "AMTFV"
@@ -233,15 +213,30 @@ class Distribution(models.Model):
 
     name = models.CharField(max_length=5, choices=DISTRIBUTIONS, default=NONE)
     
+    
 
 
 #intermediaries 
 
 class Enrollment(models.Model):
+    ONE_STAR = "ONE_STAR"
+    TWO_STARS = "TWO_STARS"
+    THREE_STARS = "THREE_STARS"
+    FOUR_STARS = "FOUR_STARS"
+    FIVE_STARS = "FIVE_STARS"
+
+    RATINGS = [
+        (ONE_STAR, 1),
+        (TWO_STARS, 2),
+        (THREE_STARS, 3),
+        (FOUR_STARS, 4),
+        (FIVE_STARS, 5)
+    ]
     student = models.ForeignKey(Student)
     course = models.ForeignKey(Course)
-    #date_taken = models.DateField() 
-    #can contain more info
+    date_taken = models.DateField()
+    rating = models.IntegerField(choices=RATINGS)
+    
 
 class Major_Requirements(models.Model):
     course = models.ForeignKey(Course)
