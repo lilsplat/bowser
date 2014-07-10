@@ -68,8 +68,7 @@ class Course_Bucket(models.Model):
     courses = models.ManyToManyField(Course)
 
     def equals_course_named(self, course_name):
-        if Course_Bucket.objects.filter(courses__name__startswith=course_name).count() > 0: 
-            #there MUST be a better way to do this????
+        if Course_Bucket.objects.filter(courses__name__contains=course_name): 
             return True
         else:
             return False
@@ -212,7 +211,43 @@ class Distribution(models.Model):
     ]
 
     name = models.CharField(max_length=5, choices=DISTRIBUTIONS, default=NONE)
-    
+    num_courses = Distribution.course_set.count() #not sure???? might be Distribution.objects.count()?
+    #worried about list vs list of objects.....how to compare list of courses???
+    #courses ok can be accessed by Distribution.course_set
+
+    def is_fulfilled_by(self, course):
+        """Returns if a course counts toward the Distribution"""
+        if Distribution.objects.filter(course__name__contains=course):
+            return True
+        else:
+            return False
+
+    def num_courses_togo(self, courses):
+        """Returns the number of courses left to take in the Distribution, given a list of Courses"""
+        num_togo = num_courses
+        for course in courses:
+            if self.is_fulfilled_by(course) == true:
+                num_togo -= 1
+        return num_togo
+
+    # def suggested_courses(self, courses):
+    #     #additional functions: should compensate for fall/spring availability
+    #     suggestions = Distributions.course_set.all() #all available courses
+    #     for course in courses:
+    #         if self.is_fulfilled_by(course):
+    #             suggestions.remove(course)
+    #     return suggestions
+
+    def is_completed(self, courses):
+        """Returns if the distribution is complete, based on the given list of Courses"""
+        if self.courses.togo(courses) == 0:
+            return True
+        else:
+            return False
+
+
+
+
     
 
 
