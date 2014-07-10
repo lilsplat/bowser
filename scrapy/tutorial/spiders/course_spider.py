@@ -98,32 +98,77 @@ class CourseSpider(scrapy.Spider):
 
 
         for sel in response.xpath('//tbody/tr'): #each <tr> is a class table
-            crn = (sel.xpath('th[1]/text()').extract()).pop()
-            # print crn
-            course = sel.xpath('th[2]/a/text()').extract().pop()
-            title = sel.xpath('th[3]/text()').extract().pop()
+            crn = (sel.xpath('th[1]/text()').extract())
+            crn = self.test_and_pop(crn)
+
+            course = sel.xpath('th[2]/a/text()').extract()
+            course = self.test_and_pop(course)
+
+            title = sel.xpath('th[3]/text()').extract()
+            title = self.test_and_pop(title)
+
             # isCourseFull = sel.xpath('th[4]/text()').extract() #has empty lists
             # # if int(isCourseFull.pop()) == 0:
             # #     isCourseFull = True
             # # else: 
             # #     isCourseFull = False
+
             time = sel.xpath('th[7]/text()').extract() #has empty and multiple object lists
+            time = self.test_and_pop(time)
+
             date = sel.xpath('th[8]/text()').extract() #has empty and multiple object lists
+            date = self.test_and_pop(date)
+            date = date.strip() #idk why but new line?
+
             prof = sel.xpath('th[9]/a/text()').extract() #has empty lists
+            prof = self.test_and_pop(prof)
+
             prof_site = sel.xpath('th[9]/a/@href').extract() #has empty lists
+            prof_site = self.test_and_pop(prof_site)
+
             distribution = sel.xpath('th[11]/text()').extract() #has multiple object lists
-            filewriter.write(str(crn) + "\n" + 
-                str(course) + "\n" + 
-                str(title) + "\n" + 
+            distribution = self.test_and_pop(distribution)
+
+            # print 'beginning writing\n'
+            # print 'writing crn %s' % str(crn)
+            # filewriter.write(crn.encode("UTF-8") + '\n')
+            # print 'writing title %s' % title
+            # filewriter.write(title.encode("UTF-8") + '\n') #why?????
+            # print 'writing time %s' % str(time)
+            # filewriter.write(time.encode("UTF-8") + '\n')
+            # print 'writing date %s' % str(date)
+            # filewriter.write(date.encode("UTF-8") + '\n')
+            # print 'writing prof %s' % str(prof)
+            # filewriter.write(prof.encode("UTF-8") + '\n')
+            # print 'writing prof site %s' % str(prof_site)
+            # filewriter.write(prof_site.encode("UTF-8") + '\n')
+            # print 'writing distribution %s' % str(distribution)
+            # filewriter.write(distribution.encode("UTF-8") + '\n')
+            # print 'writing delimiter'
+            # filewriter.write("..")
+
+            filewriter.write(crn.encode("UTF-8") + "," + 
+                course.encode("UTF-8") + "," + 
+                title.encode("UTF-8") + "," + 
                 # str(isCourseFull) + "\n" + 
-                str(time) + "\n" + 
-                str(date) + "\n" + 
-                str(prof) + "\n" + 
-                str(prof_site) + "\n" + 
-                str(distribution) + "\n" + 
-                "#")
+                time.encode("UTF-8") + "," + 
+                date.encode("UTF-8") + "," + 
+                prof.encode("UTF-8") + "," + 
+                prof_site.encode("UTF-8") + "," + 
+                distribution.encode("UTF-8") + 
+                "\n") #delimiter
 
         filewriter.close()
+
+    def test_and_pop(self, extracted_list):
+        if len(extracted_list) == 0:
+            return 'None assigned'
+        elif len(extracted_list) == 1:
+            return extracted_list.pop()
+        else:
+            return ' and '.join(extracted_list)
+
+
 
 
 
