@@ -67,13 +67,28 @@ class Student(models.Model):
     first_name = models.CharField(max_length=200)
     last_name = models.CharField(max_length=200)
     class_year = models.CharField(max_length=5, choices=CLASS_YEAR, default=FIRSTYEAR)
-	# Currently commented out until Major foregin key is fully defined 
-    #primary_major = models.ForeignKey(Major)
-    #secondary_major = models.ForeignKey(Major)
+    primary_major = models.ForeignKey('Major', related_name='primary major')
+    secondary_major = models.ForeignKey('Major', related_name='secondary major')
     major_requirements_completed = models.BooleanField(default=False)
     distribution_requirements_completed = models.BooleanField(default=False)
     gpa = models.IntegerField()
-    courses = models.ManyToManyField(Course, through='Enrollment', through_fields=('student', 'courses'))
+    courses = models.ManyToManyField('Course', through='Enrollment')
+   
+    def add_course(self, course):
+	""" Adds a course to a student's courses """
+        try:
+            self.courses.add(course)
+        except:
+            raise Exception('course could not be added.')
+    
+    def remove_course(self, course):
+        try:
+            self.courses.remove(course)
+        except:
+            raise Exception('course could not be removed.')
+
+	def __unicode__(self):
+		return self.first_name + ' ' + self.last_name	
 
 class Course(models.Model):
     title = models.CharField(max_length=200)
@@ -81,8 +96,8 @@ class Course(models.Model):
     # Same for majors, class years?
     department = models.CharField(max_length=200)
     number = models.IntegerField()
-    students = models.ManyToManyField(Student, through='Enrollment', through_fields=('course', 'student'))
-    counts_toward_major = models.ManyToManyField(Major, through='Major_Requirements', through_fields=('course', 'major'))
+    students = models.ManyToManyField(Student, through='Enrollment')
+    counts_toward_major = models.ManyToManyField('Major', through='Major_Requirements')
 	#similar counts_toward_ditribution
 
 class Major(models.Model):
@@ -134,56 +149,56 @@ class Major(models.Model):
     UND = "Undecided"
     
     MAJORS = [
-        (AFR, 'Africana Studies')
-        (AMST, 'American Studies')
-        (ANTH, 'Anthropology')
-        (ART, 'Art')
-        (ASTR, 'Astronomy')
-        (BIOC, 'Biological Chemistry')
-        (BISC, 'Biological Sciences')
-        (CAMS, 'Cinema and Media Studies')
-        (CHEM, 'Chemistry')
-        (CLSC, 'Cognitive and Linguistic Sciences')
-        (CLST, 'Classical Studies')
-        (CPLT, 'Comparative Literature')
-        (CS, 'Computer Science')
-        (EALC, 'East Asian Languages and Cultures')
-        (ECON, 'Economics')
-        (EDUC, 'Education')
-        (ENG, 'English')
-        (ES, 'Environmental Studies')
-        (FREN, 'French')
-        (GEOS, 'Geosciences')
-        (GER, 'German')
-        (HIST, 'History')
-        (ITST, 'Italian Studies')
-        (JWST, 'Jewish Studies')
-        (MATH, 'Mathematics')
-        (MER, 'Medieval Renaissance Studies')
-        (MES, 'Middle Eastern Studies')
-        (MUS, 'Music')
-        (NEUR, 'Neuroscience')
-        (PE, 'Physical Education')
-        (PEAC, 'Peace and Justice Studies')
-        (PHIL, 'Philosophy')
-        (PHYS, 'Physics')
-        (POLS, 'Political Science')
-        (PSYC, 'Psychology')
-        (QR, 'Quantitative Reasoning')
-        (REL, 'Religion')
-        (RUSS, 'Russian')
-        (SAS, 'South Asia Studies')
-        (SOC, 'Sociology')
-        (SPAN, 'Spanish')
-        (THST, 'Theatre Studies')
-        (WGST, 'Women and Gender Studies')
-        (WRIT, 'Writing')
-        (OTHER, 'Other')
-        (UND, 'Undecided')
+        (AFR, 'Africana Studies'),
+        (AMST, 'American Studies'),
+        (ANTH, 'Anthropology'),
+        (ART, 'Art'),
+        (ASTR, 'Astronomy'),
+        (BIOC, 'Biological Chemistry'),
+        (BISC, 'Biological Sciences'),
+        (CAMS, 'Cinema and Media Studies'),
+        (CHEM, 'Chemistry'),
+        (CLSC, 'Cognitive and Linguistic Sciences'),
+        (CLST, 'Classical Studies'),
+        (CPLT, 'Comparative Literature'),
+        (CS, 'Computer Science'),
+        (EALC, 'East Asian Languages and Cultures'),
+        (ECON, 'Economics'),
+        (EDUC, 'Education'),
+        (ENG, 'English'),
+        (ES, 'Environmental Studies'),
+        (FREN, 'French'),
+        (GEOS, 'Geosciences'),
+        (GER, 'German'),
+        (HIST, 'History'),
+        (ITST, 'Italian Studies'),
+        (JWST, 'Jewish Studies'),
+        (MATH, 'Mathematics'),
+        (MER, 'Medieval Renaissance Studies'),
+        (MES, 'Middle Eastern Studies'),
+        (MUS, 'Music'),
+        (NEUR, 'Neuroscience'),
+        (PE, 'Physical Education'),
+        (PEAC, 'Peace and Justice Studies'),
+        (PHIL, 'Philosophy'),
+        (PHYS, 'Physics'),
+        (POLS, 'Political Science'),
+        (PSYC, 'Psychology'),
+        (QR, 'Quantitative Reasoning'),
+        (REL, 'Religion'),
+        (RUSS, 'Russian'),
+        (SAS, 'South Asia Studies'),
+        (SOC, 'Sociology'),
+        (SPAN, 'Spanish'),
+        (THST, 'Theatre Studies'),
+        (WGST, 'Women and Gender Studies'),
+        (WRIT, 'Writing'),
+        (OTHER, 'Other'),
+        (UND, 'Undecided'),
     ]
 
     name = models.CharField(max_length=5, choices=MAJORS, default=UND)
-    courses = model.ManyToManyField(Course, through='Major_Requirements', through_fields('major', 'course'))
+    courses = models.ManyToManyField(Course, through='Major_Requirements')
 
 class Distribution(models.Model):
     AMTFV = "AMTFV"
@@ -201,19 +216,19 @@ class Distribution(models.Model):
     FYS = "FYS"
 
     DISTRIBUTIONS = [
-        (AMTFV, "Arts, Music, Theatre, Film, Video")
-        (EC, "Epistemology and Cognition")
-        (HS, "Historical Studies")
-        (LL, "Language and Literature")
-        (MM, "Mathematical Modeling")
-        (NPS, "Natural and Physical Sciences")
-        (QRB, "QRB") #basic QR
-        (QRF, "QRF") #QR requirement
-        (REMP, "Religion, Ethics, and Moral Philosophy")
-        (SBA, "Social and Behavioral Analysis")
-        (NONE, "None")
-        (LAB, "Lab")
-        (FYS, "First Year Seminar")
+        (AMTFV, "Arts, Music, Theatre, Film, Video"),
+        (EC, "Epistemology and Cognition"),
+        (HS, "Historical Studies"),
+        (LL, "Language and Literature"),
+        (MM, "Mathematical Modeling"),
+        (NPS, "Natural and Physical Sciences"),
+        (QRB, "QRB"), #basic QR
+        (QRF, "QRF"), #QR requirement
+        (REMP, "Religion, Ethics, and Moral Philosophy"),
+        (SBA, "Social and Behavioral Analysis"),
+        (NONE, "None"),
+        (LAB, "Lab"),
+        (FYS, "First Year Seminar"),
     ]
 
     name = models.CharField(max_length=5, choices=DISTRIBUTIONS, default=NONE)
@@ -225,10 +240,10 @@ class Distribution(models.Model):
 class Enrollment(models.Model):
     student = models.ForeignKey(Student)
     course = models.ForeignKey(Course)
-    date_taken = models.DateField() 
+    #date_taken = models.DateField() 
     #can contain more info
 
-class Major_Requirements(model.Model):
+class Major_Requirements(models.Model):
     course = models.ForeignKey(Course)
     major = models.ForeignKey(Major)
     #can contain more info
