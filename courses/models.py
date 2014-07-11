@@ -20,7 +20,7 @@ class Student(models.Model):
     major_requirements_completed = models.BooleanField(default=False)
     distribution_requirements_completed = models.BooleanField(default=False)
     gpa = models.IntegerField()
-    courses = models.ManyToManyField(Course, through='Enrollment')
+    courses = models.ManyToManyField('Course', through='Enrollment')
    
     def add_course(self, course):
 	""" Adds a course to a student's courses """
@@ -39,12 +39,12 @@ class Student(models.Model):
 		return self.first_name + ' ' + self.last_name	
 
 class Course(models.Model):
-    code = models.CharField() #i.e. CS110
-    name = models.CharField() 
-    time = models.CharField() #i.e. 1:30-4:00pm
-    date = models.CharField() #i.e. TF
-    prof = models.CharField()
-    prof_site = models.CharField() #link to professor's website (comes on course browser)
+    code = models.CharField(max_length=200) #i.e. CS110
+    name = models.CharField(max_length=200) 
+    time = models.CharField(max_length=200) #i.e. 1:30-4:00pm
+    date = models.CharField(max_length=200) #i.e. TF
+    prof = models.CharField(max_length=200)
+    prof_site = models.CharField(max_length=200) #link to professor's website (comes on course browser)
     dist = models.ForeignKey('Distribution', related_name='distribution')
     comments = models.TextField()
     #students can be accessed through Course.student_set
@@ -64,7 +64,7 @@ class Course(models.Model):
 
 
 class Course_Bucket(models.Model):
-    name = models.CharField()
+    name = models.CharField(max_length=200)
     courses = models.ManyToManyField(Course)
 
     def equals_course_named(self, course_name):
@@ -185,13 +185,11 @@ class Distribution_Requirement(models.Model):
     SBA = "SBA"
     MM_NPS = "MM_NPS"
 
-    name = models.CharField()
-    dists = models.ManyToManyField(Distribution)
+    name = models.CharField(max_length=200)
+    dists = models.ManyToManyField('Distribution')
 
     def is_fulfilled_by(self, courses):
-
-
-
+		pass
 
 class Distribution(models.Model):
     AMTFV = "AMTFV"
