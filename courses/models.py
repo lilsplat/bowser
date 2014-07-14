@@ -1,5 +1,11 @@
 from django.db import models
 
+"""Student todo:
+- figure out how to make username primary key (running into not null problems when migrating using south)
+- figure out if possible to make username = email.split('@')[0]
+- how to remove a course??????? gah
+- double check null/not null for all fields
+"""
 class Student(models.Model):
     FIRSTYEAR = 'fy'
     SOPHOMORE = 'so'
@@ -39,7 +45,11 @@ class Student(models.Model):
 	# def __unicode__(self):
 	# 	return self.first_name + ' ' + self.last_name	
 
-
+"""
+Distribution todo:
+- still working toward a better distribution model...how to correctly represent fulfillment of distribution??
+- otherwise working
+"""
 class Distribution(models.Model):
     AMTFV = "AMTFV"
     EC = "EC"
@@ -107,7 +117,9 @@ class Distribution(models.Model):
         else:
             return False
 
-
+"""
+Course ok
+"""
 class Course(models.Model):
     code = models.CharField(max_length=200) #i.e. CS110
     name = models.CharField(max_length=200) 
@@ -148,7 +160,9 @@ class Course_Bucket(models.Model):
     def equals_course(self, course):
         return self.equals_course_named(course.name)
 
-
+"""
+Major ok
+"""
 class Major(models.Model):
     AFR = "AFR"
     AMST = "AMST"
