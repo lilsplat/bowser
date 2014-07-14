@@ -29,6 +29,10 @@ class Student(models.Model):
     distribution_requirements_completed = models.BooleanField(default=False)
     gpa = models.IntegerField()
     courses = models.ManyToManyField('Course', through='Enrollment')
+
+    def __unicode__(self):
+        return self.first_name + ' ' + self.last_name
+
  #    def add_course(self, course):
 	# """ Adds a course to a student's courses """
  #        try:
@@ -42,8 +46,7 @@ class Student(models.Model):
  #        except:
  #            raise Exception('course could not be removed.')
 
-	# def __unicode__(self):
-	# 	return self.first_name + ' ' + self.last_name	
+
 
 """
 Distribution todo:
@@ -84,6 +87,9 @@ class Distribution(models.Model):
     name = models.CharField(max_length=5, choices=DISTRIBUTIONS, default=NONE)
     num_courses = models.IntegerField(default=0)
     #courses ok can be accessed by Distribution.course_set
+
+    def __unicode__(self):
+        return self.name
 
 
     def is_fulfilled_by(self, course):
@@ -129,6 +135,9 @@ class Course(models.Model):
     prof_site = models.CharField(max_length=200) #link to professor's website (comes on course browser)
     comments = models.TextField()
     dists = models.ManyToManyField(Distribution)
+
+    def __unicode__(self):
+        return course.code
 
     #students can be accessed through Course.student_set
 
@@ -262,6 +271,8 @@ class Major(models.Model):
 
     name = models.CharField(max_length=5, choices=MAJORS, default=UND)
 
+    def __unicode__(self):
+        return self.name
     # courses = models.ManyToManyField(Course, through='Major_Requirements') 
     #^^^^^^ need to change
 
