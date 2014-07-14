@@ -1,6 +1,9 @@
-CTYPE html>
+{% load staticfiles %}
+<!DOCTYPE html>
 <html lang="en">
 <head>
+	 <link href="{% static 'bootstrap/css/bootstrap.min.css' %}"
+          rel="stylesheet" media="screen">
     <title>{% block title %}Bowser{% endblock %}</title>
 </head>
 
@@ -17,6 +20,7 @@ CTYPE html>
     <div id="content">
         {% block content %}{% endblock %}
     </div>
+	<script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
 </body>
 </html>
 
