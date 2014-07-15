@@ -1,5 +1,5 @@
 from django.db import models
-from scrapy.contrib.djangoitem import DjangoItem
+#from scrapy.contrib.djangoitem import DjangoItem
 
 """Student todo:
 - figure out how to make username primary key (running into not null problems when migrating using south)
@@ -155,8 +155,8 @@ class Course(models.Model):
     class Meta:
         ordering = ['name'] #orders courses by name
 
-class CourseItem(DjangoItem):
-    django_mode=Course
+#class CourseItem(DjangoItem):
+    #django_mode=Course
 
 
 class Course_Bucket(models.Model):
