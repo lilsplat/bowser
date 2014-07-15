@@ -1,5 +1,4 @@
 from django.db import models
-from scrapy.contrib.djangoitem import DjangoItem
 
 """Student todo:
 - figure out how to make username primary key (running into not null problems when migrating using south)
@@ -23,7 +22,7 @@ class Student(models.Model):
     email = models.EmailField()
     first_name = models.CharField(max_length=200)
     last_name = models.CharField(max_length=200)
-    class_year = models.CharField(max_length=5, choices=CLASS_YEAR, default=FIRSTYEAR)
+    class_year = models.CharField(max_length=200, choices=CLASS_YEAR, default=FIRSTYEAR)
     primary_major = models.ForeignKey('Major', related_name='primary major')
     secondary_major = models.ForeignKey('Major', related_name='secondary major', null=True, blank=True) 
     major_requirements_completed = models.BooleanField(default=False)
@@ -85,7 +84,7 @@ class Distribution(models.Model):
         (FYS, "First Year Seminar"),
     ]
 
-    name = models.CharField(max_length=5, choices=DISTRIBUTIONS, default=NONE)
+    name = models.CharField(max_length=200, choices=DISTRIBUTIONS, default=NONE)
     num_courses = models.IntegerField(default=0)
     #courses ok can be accessed by Distribution.course_set
 
@@ -155,8 +154,6 @@ class Course(models.Model):
     class Meta:
         ordering = ['name'] #orders courses by name
 
-class CourseItem(DjangoItem):
-    django_mode=Course
 
 
 class Course_Bucket(models.Model):
@@ -273,7 +270,7 @@ class Major(models.Model):
         (UND, 'Undecided'),
     ]
 
-    name = models.CharField(max_length=5, choices=MAJORS, default=UND)
+    name = models.CharField(max_length=200, choices=MAJORS, default=UND)
 
     def __unicode__(self):
         return self.name
