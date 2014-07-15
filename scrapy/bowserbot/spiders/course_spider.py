@@ -3,6 +3,9 @@
 import scrapy
 from scrapy.selector import Selector 
 from scrapy.http import HtmlResponse
+from bowserbot.items import *
+from courses.models import *
+
 
 class CourseSpider(scrapy.Spider):
     name = "course_spider"
@@ -95,24 +98,17 @@ class CourseSpider(scrapy.Spider):
         code = path.split("/").pop(12)
         code = code.split(".").pop(0)
 
-        filewriter = open('course_browser_database/' + code + '.txt', 'w')
+        # filewriter = open('course_browser_database/' + code + '.txt', 'w')
 
 
         for sel in response.xpath('//tbody/tr'): #each <tr> is a class table
-            crn = (sel.xpath('th[1]/text()').extract())
-            crn = self.test_and_pop(crn)
 
             course = sel.xpath('th[2]/a/text()').extract()
             course = self.test_and_pop(course)
+            course = course.replace(" ","")
 
             title = sel.xpath('th[3]/text()').extract()
             title = self.test_and_pop(title)
-
-            # isCourseFull = sel.xpath('th[4]/text()').extract() #has empty lists
-            # # if int(isCourseFull.pop()) == 0:
-            # #     isCourseFull = True
-            # # else: 
-            # #     isCourseFull = False
 
             time = sel.xpath('th[7]/text()').extract() #has empty and multiple object lists
             time = self.test_and_pop(time)
@@ -126,9 +122,44 @@ class CourseSpider(scrapy.Spider):
 
             prof_site = sel.xpath('th[9]/a/@href').extract() #has empty lists
             prof_site = self.test_and_pop(prof_site)
+            prof_site = 'https://courses.wellesley.edu/' + prof_site
 
             distribution = sel.xpath('th[11]/text()').extract() #has multiple object lists
-            distribution = self.test_and_pop(distribution)
+            # distribution = self.test_and_pop(distribution)
+
+            c = DjangoCourseItem()
+
+            c['code'] = course.encode("UTF-8")
+            c['name'] = title.encode("UTF-8")
+            c['time'] = time.encode("UTF-8")
+            c['date'] = date.encode("UTF-8")
+            c['prof'] = prof.encode("UTF-8")
+            c['prof_site'] = prof_site.encode("UTF-8")
+            
+            dist = []
+            if len(distribution) == 0:
+                d = DjangoDistItem()
+                d['name'] = 'None assigned'
+                dist.append(d)
+                print d
+            elif len(distribution) == 1:
+                d = DjangoDistItem()
+                d['name'] = distribution.pop().strip().encode("UTF-8")
+                dist.append(d)
+            else:
+                for element in distribution:
+                    d = DjangoDistItem()
+                    d['name'] = element.strip().encode("UTF-8")
+                    dist.append(d)
+
+
+            """ TO DO: fix this!! django does not recognize DjangoDistItem as an acceptable input to the dists field """
+
+            c['dists'] = dist[0]
+
+            yield c
+
+
 
             # print 'beginning writing\n'
             # print 'writing crn %s' % str(crn)
@@ -148,18 +179,18 @@ class CourseSpider(scrapy.Spider):
             # print 'writing delimiter'
             # filewriter.write("..")
 
-            filewriter.write(crn.encode("UTF-8") + "," + 
-                course.encode("UTF-8") + "," + 
-                title.encode("UTF-8") + "," + 
-                # str(isCourseFull) + "\n" + 
-                time.encode("UTF-8") + "," + 
-                date.encode("UTF-8") + "," + 
-                prof.encode("UTF-8") + "," + 
-                prof_site.encode("UTF-8") + "," + 
-                distribution.encode("UTF-8") + 
-                "\n") #delimiter
+        #     filewriter.write(#crn.encode("UTF-8") + "\n" + 
+        #         course.encode("UTF-8") + "\n" + 
+        #         title.encode("UTF-8") + "\n" + 
+        #         # str(isCourseFull) + "\n" + 
+        #         time.encode("UTF-8") + "\n" + 
+        #         date.encode("UTF-8") + "\n" + 
+        #         prof.encode("UTF-8") + "\n" + 
+        #         prof_site.encode("UTF-8") + "\n" + 
+        #         distribution.encode("UTF-8") + 
+        #         "\n") #delimiter
 
-        filewriter.close()
+        # filewriter.close()
 
     def test_and_pop(self, extracted_list):
         if len(extracted_list) == 0:
@@ -167,8 +198,12 @@ class CourseSpider(scrapy.Spider):
         elif len(extracted_list) == 1:
             return extracted_list.pop()
         else:
-            return ' and '.join(extracted_list)
-
+            string = extracted_list.pop().strip()
+            for element in extracted_list:
+                string = element.strip() + ',' + string
+            # print string
+            return string
+        
 
 
 

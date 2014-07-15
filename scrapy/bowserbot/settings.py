@@ -8,10 +8,18 @@
 #     http://doc.scrapy.org/en/latest/topics/settings.html
 #
 
-BOT_NAME = 'tutorial'
+import sys
+#set up django project path
+sys.path.insert(0, '/Users/lilian/Documents/2014/GitHub/bowser')
 
-SPIDER_MODULES = ['tutorial.spiders']
-NEWSPIDER_MODULE = 'tutorial.spiders'
+import os
+#set up django settings module name
+os.environ['DJANGO_SETTINGS_MODULE'] = 'bowser.settings'
+
+BOT_NAME = 'bowserbot'
+
+SPIDER_MODULES = ['bowserbot.spiders']
+NEWSPIDER_MODULE = 'bowserbot.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'tutorial (+http://www.yourdomain.com)'

@@ -1,3001 +1,5824 @@
-13107
-AFR 201 - 01
+AFR201-01
 African-Amer Lit Tradition
-[u'01:30 pm - 04:00 pm']
-[u'\nT']
-[u'Selwyn Cudjoe']
-[u'faculty_profiles.php?user=scudjoe']
-[u'Language and Literature']
-#13428
-AFR 208 - 01
+01:30 pm - 04:00 pm
+T
+Selwyn Cudjoe
+faculty_profiles.php?user=scudjoe
+Language and Literature
+AFR208-01
 Women Civil Rights Movement
-[u'01:30 pm - 04:00 pm']
-[u'\nTh']
-[u'Donna Patterson']
-[u'faculty_profiles.php?user=dpatters']
-[u'Historical Studies', u'\nSocial and Behavioral Analysis']
-#13109
-AFR 226 - 01
+01:30 pm - 04:00 pm
+Th
+Donna Patterson
+faculty_profiles.php?user=dpatters
+Historical Studies,Social and Behavioral Analysis
+AFR226-01
 Env.Justice,Race&Sustain Devel
-[u'02:50 pm - 05:20 pm']
-[u'\nM']
-[u'Filomina Steady']
-[u'faculty_profiles.php?user=fsteady']
-[u'Social and Behavioral Analysis']
-#13327
-AFR 238 - 01
+02:50 pm - 05:20 pm
+M
+Filomina Steady
+faculty_profiles.php?user=fsteady
+Social and Behavioral Analysis
+AFR238-01
 Womanism
-[u'09:50 am - 12:20 pm']
-[u'\nF']
-[u'Layli Maparyan']
-[u'faculty_profiles.php?user=lmaparya']
-[u'Social and Behavioral Analysis']
-#13308
-AFR 255 - 01
+09:50 am - 12:20 pm
+F
+Layli Maparyan
+faculty_profiles.php?user=lmaparya
+Social and Behavioral Analysis
+AFR255-01
 Black Woman Cross-Culturally
-[u'02:15 pm - 04:45 pm']
-[u'\nW']
-[u'Filomina Steady']
-[u'faculty_profiles.php?user=fsteady']
-[u'Social and Behavioral Analysis']
-#13420
-AFR 292 - 01
+02:15 pm - 04:45 pm
+W
+Filomina Steady
+faculty_profiles.php?user=fsteady
+Social and Behavioral Analysis
+AFR292-01
 African Art & the Diaspora
-[u'09:50 am - 11:00 am']
-[u'\nMTh']
-[u'Nikki Greene']
-[u'faculty_profiles.php?user=ngreene']
-[u'Arts, Music, Theatre, Film and Video']
-#13110
-AFR 302 - 01
+09:50 am - 11:00 am
+MTh
+Nikki Greene
+faculty_profiles.php?user=ngreene
+Arts, Music, Theatre, Film and Video
+AFR302-01
 Caribbean Intellectual Thought
-[u'07:00 pm - 09:30 pm']
-[u'\nM']
-[u'Selwyn Cudjoe']
-[u'faculty_profiles.php?user=scudjoe']
-[u'Historical Studies']
-#12880
-AFR 316 - 01
+07:00 pm - 09:30 pm
+M
+Selwyn Cudjoe
+faculty_profiles.php?user=scudjoe
+Historical Studies
+AFR316-01
 Tpc:Race&Gender-Mod&Cont'p Art
-[u'01:30 pm - 04:00 pm']
-[u'\nT']
-[u'Nikki Greene']
-[u'faculty_profiles.php?user=ngreene']
-[u'Arts, Music, Theatre, Film and Video']
-#13427
-AFR 340 - 01
+01:30 pm - 04:00 pm
+T
+Nikki Greene
+faculty_profiles.php?user=ngreene
+Arts, Music, Theatre, Film and Video
+AFR340-01
 Sem: Topics African-Amer Hist
-[u'09:50 am - 12:20 pm']
-[u'\nT']
-[u'Donna Patterson']
-[u'faculty_profiles.php?user=dpatters']
-[u'Social and Behavioral Analysis or Historical Studies', u'\nSocial and Behavioral Analysis']
-#10596
-AMST 101 - 01
+09:50 am - 12:20 pm
+T
+Donna Patterson
+faculty_profiles.php?user=dpatters
+Social and Behavioral Analysis or Historical Studies,Social and Behavioral Analysis
+AMST101-01
 Intro to American Studies
-[u'11:10 am - 12:20 pm']
-[u'\nMTh']
-[u'Paul Fisher']
-[u'faculty_profiles.php?user=pfisher']
-[u'Historical Studies']
-#13111
-AMST 152 - 01
+11:10 am - 12:20 pm
+MTh
+Paul Fisher
+faculty_profiles.php?user=pfisher
+Historical Studies
+AMST152-01
 Race,Ethnicity,Pols in America
-[u'06:00 pm - 07:10 pm']
-[u'\nMTh']
-[u'Michael Jeffries']
-[u'faculty_profiles.php?user=mjeffrie']
-[u'Social and Behavioral Analysis']
-#13317
-AMST 222 - 01
+06:00 pm - 07:10 pm
+MTh
+Michael Jeffries
+faculty_profiles.php?user=mjeffrie
+Social and Behavioral Analysis
+AMST222-01
 Asian American Psychology
-[u'02:50 pm - 04:00 pm']
-[u'\nTF']
-[u'Stephen Chen']
-[u'faculty_profiles.php?user=schen7']
-[u'Social and Behavioral Analysis']
-#13329
-AMST 246 - 01
+02:50 pm - 04:00 pm
+TF
+Stephen Chen
+faculty_profiles.php?user=schen7
+Social and Behavioral Analysis
+AMST246-01
 U.S. Immigration 
-[u'09:50 am - 11:00 am']
-[u'\nMTh']
-[u'Peggy Levitt']
-[u'faculty_profiles.php?user=plevitt']
-[u'Social and Behavioral Analysis']
-#13348
-AMST 268 - 01
+09:50 am - 11:00 am
+MTh
+Peggy Levitt
+faculty_profiles.php?user=plevitt
+Social and Behavioral Analysis
+AMST268-01
 American Literature Now
-[u'04:10 pm - 05:20 pm']
-[u'\nMTh']
-[u'Vernon Shetley']
-[u'faculty_profiles.php?user=vshetley']
-[u'Language and Literature']
-#13104
-AMST 317 - 01
+04:10 pm - 05:20 pm
+MTh
+Vernon Shetley
+faculty_profiles.php?user=vshetley
+Language and Literature
+AMST317-01
 Sem:Tpc: Barack Obama
-[u'02:15 pm - 04:45 pm']
-[u'\nW']
-[u'Michael Jeffries']
-[u'faculty_profiles.php?user=mjeffrie']
-[u'Social and Behavioral Analysis or Historical Studies', u'\nSocial and Behavioral Analysis']
-#13328
-AMST 355 - 01
+02:15 pm - 04:45 pm
+W
+Michael Jeffries
+faculty_profiles.php?user=mjeffrie
+Social and Behavioral Analysis or Historical Studies,Social and Behavioral Analysis
+AMST355-01
 CSPW: Critiquing Pop. Culture 
-[u'01:30 pm - 04:00 pm']
-[u'\nTh']
-[u'Paul Fisher']
-[u'faculty_profiles.php?user=pfisher']
-[u'Social and Behavioral Analysis']
-#10946
-ANTH 104 - 01
+01:30 pm - 04:00 pm
+Th
+Paul Fisher
+faculty_profiles.php?user=pfisher
+Social and Behavioral Analysis
+ANTH104-01
 Intro Cultural/Social Anth
-[u'09:50 am - 11:00 am']
-[u'\nTF']
-[]
-[u'faculty_profiles.php?user=']
-[u'Social and Behavioral Analysis']
-#13369
-ANTH 107 - 01
+09:50 am - 11:00 am
+TF
+None assigned
+faculty_profiles.php?user=
+Social and Behavioral Analysis
+ANTH107-01
 FYS: Science/Culture of Blood
-[u'02:50 pm - 04:00 pm']
-[u'\nMTh']
-[u'Adele Wolfson']
-[u'faculty_profiles.php?user=awolfson']
-[u'Natural and Physical Science', u'\nSocial and Behavioral Analysis']
-#12865
-ANTH 204 - 01
+02:50 pm - 04:00 pm
+MTh
+Adele Wolfson
+faculty_profiles.php?user=awolfson
+Natural and Physical Science,Social and Behavioral Analysis
+ANTH204-01
 Physical Anthropology
-[u'11:10 am - 12:20 pm']
-[u'\nMTh']
-[u'Adam Van Arsdale']
-[u'faculty_profiles.php?user=avanarsd']
-[u'Social and Behavioral Analysis']
-#13330
-ANTH 229 - 01
+11:10 am - 12:20 pm
+MTh
+Adam Van Arsdale
+faculty_profiles.php?user=avanarsd
+Social and Behavioral Analysis
+ANTH229-01
 GIS for Social Analysis
-[u'01:30 pm - 02:40 pm']
-[u'\nMTh']
-[u'Benjamin Vining']
-[u'faculty_profiles.php?user=bvining']
-[u'Social and Behavioral Analysis']
-#13367
-ANTH 229 - L01
+01:30 pm - 02:40 pm
+MTh
+Benjamin Vining
+faculty_profiles.php?user=bvining
+Social and Behavioral Analysis
+ANTH229-L01
 LAB: GIS for Social Analysis
-[u'10:00 am - 12:00 pm']
-[u'\nW']
-[u'Benjamin Vining']
-[u'faculty_profiles.php?user=bvining']
-[u'Social and Behavioral Analysis']
-#13114
-ANTH 247 - 01
+10:00 am - 12:00 pm
+W
+Benjamin Vining
+faculty_profiles.php?user=bvining
+Social and Behavioral Analysis
+ANTH247-01
 Societies & Cultures Eurasia
-[u'06:00 pm - 08:30 pm']
-[u'\nW']
-[u'Philip Kohl']
-[u'faculty_profiles.php?user=pkohl']
-[u'Historical Studies', u'\nSocial and Behavioral Analysis']
-#13115
-ANTH 274 - 01
+06:00 pm - 08:30 pm
+W
+Philip Kohl
+faculty_profiles.php?user=pkohl
+Historical Studies,Social and Behavioral Analysis
+ANTH274-01
 Anthropological Genetics
-[u'09:50 am - 11:00 am']
-[u'\nMTh']
-[u'Adam Van Arsdale']
-[u'faculty_profiles.php?user=avanarsd']
-[u'Natural and Physical Science']
-#12255
-ANTH 301 - 01
+09:50 am - 11:00 am
+MTh
+Adam Van Arsdale
+faculty_profiles.php?user=avanarsd
+Natural and Physical Science
+ANTH301-01
 History&Theory in Anthropology
-[u'02:15 pm - 04:45 pm']
-[u'\nW']
-[u'Deborah Matzner']
-[u'faculty_profiles.php?user=dmatzner']
-[u'Social and Behavioral Analysis']
-#13116
-ANTH 305 - 01
+02:15 pm - 04:45 pm
+W
+Deborah Matzner
+faculty_profiles.php?user=dmatzner
+Social and Behavioral Analysis
+ANTH305-01
 Ethnographic Film
-[u'06:00 pm - 08:30 pm']
-[u'\nT']
-[u'Deborah Matzner']
-[u'faculty_profiles.php?user=dmatzner']
-[u'Social and Behavioral Analysis']
-#13371
-ANTH 362 - 01
+06:00 pm - 08:30 pm
+T
+Deborah Matzner
+faculty_profiles.php?user=dmatzner
+Social and Behavioral Analysis
+ANTH362-01
 Experimental Ethnography
-[u'01:30 pm - 04:00 pm', u'\n01:30 pm - 02:40 pm']
-[u'\nM', u'\nTh']
-[u'David Kelley']
-[u'faculty_profiles.php?user=dkelley']
-[u'Arts, Music, Theatre, Film and Video', u'\nSocial and Behavioral Analysis']
-#11049
-ARAB 101 - 01
+01:30 pm - 04:00 pm,01:30 pm - 02:40 pm
+M,Th
+David Kelley
+faculty_profiles.php?user=dkelley
+Arts, Music, Theatre, Film and Video,Social and Behavioral Analysis
+ARAB101-01
 Elementary Arabic
-[u'08:30 am - 09:40 am']
-[u'\nMTWTh']
-[u'Daniel Zitnick']
-[u'faculty_profiles.php?user=dzitnick']
-[u'None']
-#11362
-ARAB 101 - 02
+08:30 am - 09:40 am
+MTWTh
+Daniel Zitnick
+faculty_profiles.php?user=dzitnick
+None
+ARAB101-02
 Elementary Arabic
-[u'09:50 am - 11:00 am']
-[u'\nMTWTh']
-[u'Daniel Zitnick']
-[u'faculty_profiles.php?user=dzitnick']
-[u'None']
-#11050
-ARAB 201 - 01
+09:50 am - 11:00 am
+MTWTh
+Daniel Zitnick
+faculty_profiles.php?user=dzitnick
+None
+ARAB201-01
 Intermediate Arabic
-[u'08:30 am - 09:40 am']
-[u'\nMWTh']
-[u'Rachid Aadnani']
-[u'faculty_profiles.php?user=raadnani']
-[u'None']
-#11888
-ARAB 201 - 02
+08:30 am - 09:40 am
+MWTh
+Rachid Aadnani
+faculty_profiles.php?user=raadnani
+None
+ARAB201-02
 Intermediate Arabic
-[u'09:50 am - 11:00 am']
-[u'\nMWTh']
-[u'Rachid Aadnani']
-[u'faculty_profiles.php?user=raadnani']
-[u'None']
-#13296
-ARAB 307 - 01
+09:50 am - 11:00 am
+MWTh
+Rachid Aadnani
+faculty_profiles.php?user=raadnani
+None
+ARAB307-01
 Classical Arabic Literature
-[u'09:50 am - 12:20 pm']
-[u'\nW']
-[u'Louise Marlow']
-[u'faculty_profiles.php?user=lmarlow']
-[u'Language and Literature']
-#13246
-ARTH 100 - 01
+09:50 am - 12:20 pm
+W
+Louise Marlow
+faculty_profiles.php?user=lmarlow
+Language and Literature
+ARTH100-01
 Art & Arch Ancient & Medieval
-[u'09:50 am - 11:00 am']
-[u'\nTF']
-[u'Rebecca Bedell']
-[u'faculty_profiles.php?user=rbedell']
-[u'Arts, Music, Theatre, Film and Video']
-#10185
-ARTH 100 - C01
+09:50 am - 11:00 am
+TF
+Rebecca Bedell
+faculty_profiles.php?user=rbedell
+Arts, Music, Theatre, Film and Video
+ARTH100-C01
 CONF:Hist of Art-Ancient & Med
-[u'11:10 am - 12:20 pm']
-[u'\nW']
-[u'Barbara Lynn-Davis']
-[u'faculty_profiles.php?user=blynndav']
-[u'Arts, Music, Theatre, Film and Video']
-#10171
-ARTH 100 - C02
+11:10 am - 12:20 pm
+W
+Barbara Lynn-Davis
+faculty_profiles.php?user=blynndav
+Arts, Music, Theatre, Film and Video
+ARTH100-C02
 CONF:Hist of Art-Ancient & Med
-[u'09:50 am - 11:00 am']
-[u'\nW']
-[u'Kimberly Cassibry']
-[u'faculty_profiles.php?user=kcassibr']
-[u'Arts, Music, Theatre, Film and Video']
-#10186
-ARTH 100 - C03
+09:50 am - 11:00 am
+W
+Kimberly Cassibry
+faculty_profiles.php?user=kcassibr
+Arts, Music, Theatre, Film and Video
+ARTH100-C03
 CONF:Hist of Art-Ancient & Med
-[u'11:10 am - 12:20 pm']
-[u'\nTh']
-[u'Heping Liu']
-[u'faculty_profiles.php?user=hliu']
-[u'Arts, Music, Theatre, Film and Video']
-#10122
-ARTH 100 - C04
+11:10 am - 12:20 pm
+Th
+Heping Liu
+faculty_profiles.php?user=hliu
+Arts, Music, Theatre, Film and Video
+ARTH100-C04
 CONF:Hist of Art-Ancient & Med
-[u'02:50 pm - 04:00 pm']
-[u'\nT']
-[u'Lamia Balafrej']
-[u'faculty_profiles.php?user=lbalafre']
-[u'Arts, Music, Theatre, Film and Video']
-#12883
-ARTH 100 - C05
+02:50 pm - 04:00 pm
+T
+Lamia Balafrej
+faculty_profiles.php?user=lbalafre
+Arts, Music, Theatre, Film and Video
+ARTH100-C05
 Art & Arch Ancient & Medieval
-[u'01:30 pm - 02:40 pm']
-[u'\nTh']
-[u'Rebecca Bedell']
-[u'faculty_profiles.php?user=rbedell']
-[u'Arts, Music, Theatre, Film and Video']
-#13117
-ARTH 203 - 01
+01:30 pm - 02:40 pm
+Th
+Rebecca Bedell
+faculty_profiles.php?user=rbedell
+Arts, Music, Theatre, Film and Video
+ARTH203-01
 Near Eastern Art&Architecture
-[u'01:30 pm - 02:40 pm']
-[u'\nTF']
-[u'Kimberly Cassibry']
-[u'faculty_profiles.php?user=kcassibr']
-[u'Arts, Music, Theatre, Film and Video']
-#13366
-ARTH 218 - 01
+01:30 pm - 02:40 pm
+TF
+Kimberly Cassibry
+faculty_profiles.php?user=kcassibr
+Arts, Music, Theatre, Film and Video
+ARTH218-01
 Painting i/Netherlands 15C&16C
-[u'11:10 am - 12:20 pm']
-[u'\nTF']
-[u'Margaret Carroll']
-[u'faculty_profiles.php?user=mcarroll']
-[u'Arts, Music, Theatre, Film and Video']
-#13118
-ARTH 226 - 01
+11:10 am - 12:20 pm
+TF
+Margaret Carroll
+faculty_profiles.php?user=mcarroll
+Arts, Music, Theatre, Film and Video
+ARTH226-01
 History of Photography
-[u'11:10 am - 12:20 pm']
-[u'\nTF']
-[u'Patricia Berman']
-[u'faculty_profiles.php?user=pberman']
-[u'Arts, Music, Theatre, Film and Video']
-#13119
-ARTH 228 - 01
+11:10 am - 12:20 pm
+TF
+Patricia Berman
+faculty_profiles.php?user=pberman
+Arts, Music, Theatre, Film and Video
+ARTH228-01
 Modern Architecture
-[u'01:30 pm - 04:00 pm']
-[u'\nT']
-[u'Alice Friedman']
-[u'faculty_profiles.php?user=afriedma']
-[u'Arts, Music, Theatre, Film and Video']
-#13120
-ARTH 238 - 01
+01:30 pm - 04:00 pm
+T
+Alice Friedman
+faculty_profiles.php?user=afriedma
+Arts, Music, Theatre, Film and Video
+ARTH238-01
 Chinese Art/Architecture
-[u'01:30 pm - 02:40 pm']
-[u'\nMTh']
-[u'Heping Liu']
-[u'faculty_profiles.php?user=hliu']
-[u'Arts, Music, Theatre, Film and Video']
-#12618
-ARTH 247 - 01
+01:30 pm - 02:40 pm
+MTh
+Heping Liu
+faculty_profiles.php?user=hliu
+Arts, Music, Theatre, Film and Video
+ARTH247-01
 Islamic Art and Architecture
-[u'11:10 am - 12:20 pm']
-[u'\nMTh']
-[u'Lamia Balafrej']
-[u'faculty_profiles.php?user=lbalafre']
-[u'Arts, Music, Theatre, Film and Video']
-#13422
-ARTH 259 - 01
+11:10 am - 12:20 pm
+MTh
+Lamia Balafrej
+faculty_profiles.php?user=lbalafre
+Arts, Music, Theatre, Film and Video
+ARTH259-01
 Art & Arch.Europ.Enlightenment
-[u'09:50 am - 11:00 am']
-[u'\nTF']
-[u'Paul Galvez']
-[u'faculty_profiles.php?user=pgalvez']
-[u'Arts, Music, Theatre, Film and Video']
-#13122
-ARTH 292 - 01
+09:50 am - 11:00 am
+TF
+Paul Galvez
+faculty_profiles.php?user=pgalvez
+Arts, Music, Theatre, Film and Video
+ARTH292-01
 African Art & the Diaspora
-[u'09:50 am - 11:00 am']
-[u'\nMTh']
-[u'Nikki Greene']
-[u'faculty_profiles.php?user=ngreene']
-[u'Arts, Music, Theatre, Film and Video']
-#12879
-ARTH 316 - 01
+09:50 am - 11:00 am
+MTh
+Nikki Greene
+faculty_profiles.php?user=ngreene
+Arts, Music, Theatre, Film and Video
+ARTH316-01
 Tpc:Race&Gender-Mod&Cont'p Art
-[u'01:30 pm - 04:00 pm']
-[u'\nT']
-[u'Nikki Greene']
-[u'faculty_profiles.php?user=ngreene']
-[u'Arts, Music, Theatre, Film and Video']
-#13123
-ARTH 320 - 01
+01:30 pm - 04:00 pm
+T
+Nikki Greene
+faculty_profiles.php?user=ngreene
+Arts, Music, Theatre, Film and Video
+ARTH320-01
 Sem: American Architecture
-[u'02:15 pm - 04:45 pm']
-[u'\nW']
-[u'Alice Friedman']
-[u'faculty_profiles.php?user=afriedma']
-[u'Arts, Music, Theatre, Film and Video']
-#13245
-ARTH 335 - 01
+02:15 pm - 04:45 pm
+W
+Alice Friedman
+faculty_profiles.php?user=afriedma
+Arts, Music, Theatre, Film and Video
+ARTH335-01
 Sem:Tpc: The Bauhaus
-[u'09:50 am - 12:20 pm']
-[u'\nW']
-[u'Patricia Berman']
-[u'faculty_profiles.php?user=pberman']
-[u'Arts, Music, Theatre, Film and Video']
-#13125
-ARTH 369 - 01
+09:50 am - 12:20 pm
+W
+Patricia Berman
+faculty_profiles.php?user=pberman
+Arts, Music, Theatre, Film and Video
+ARTH369-01
 Seminar:Conservation Studies
-[u'09:50 am - 12:20 pm']
-[u'\nT']
-[u'Richard Newman']
-[u'faculty_profiles.php?user=rnewman2']
-[u'Arts, Music, Theatre, Film and Video']
-#13356
-ARTH 388 - 01
+09:50 am - 12:20 pm
+T
+Richard Newman
+faculty_profiles.php?user=rnewman2
+Arts, Music, Theatre, Film and Video
+ARTH388-01
 The History of New Media
-[u'01:30 pm - 04:00 pm']
-[u'\nM']
-[u'Michael Maizels']
-[u'faculty_profiles.php?user=mmaizels']
-[u'Arts, Music, Theatre, Film and Video']
-#10412
-ARTS 105 - 01
+01:30 pm - 04:00 pm
+M
+Michael Maizels
+faculty_profiles.php?user=mmaizels
+Arts, Music, Theatre, Film and Video
+ARTS105-01
 Drawing I
-[u'01:30 pm - 04:00 pm']
-[u'\nMTh']
-[u'Daniela Rivera']
-[u'faculty_profiles.php?user=drivera']
-[u'Arts, Music, Theatre, Film and Video']
-#10413
-ARTS 105 - 02
+01:30 pm - 04:00 pm
+MTh
+Daniela Rivera
+faculty_profiles.php?user=drivera
+Arts, Music, Theatre, Film and Video
+ARTS105-02
 Drawing I
-[u'09:50 am - 12:20 pm']
-[u'\nTF']
-[u'Andrew Mowbray']
-[u'faculty_profiles.php?user=amowbray']
-[u'Arts, Music, Theatre, Film and Video']
-#11413
-ARTS 105 - 03
+09:50 am - 12:20 pm
+TF
+Andrew Mowbray
+faculty_profiles.php?user=amowbray
+Arts, Music, Theatre, Film and Video
+ARTS105-03
 Drawing I
-[u'06:30 pm - 09:00 pm']
-[u'\nMW']
-[u'Candice Ivy']
-[u'faculty_profiles.php?user=civy']
-[u'Arts, Music, Theatre, Film and Video']
-#10162
-ARTS 108 - 01
+06:30 pm - 09:00 pm
+MW
+Candice Ivy
+faculty_profiles.php?user=civy
+Arts, Music, Theatre, Film and Video
+ARTS108-01
 Photography I
-[u'09:50 am - 12:20 pm']
-[u'\nTF']
-[u'David Kelley']
-[u'faculty_profiles.php?user=dkelley']
-[u'Arts, Music, Theatre, Film and Video']
-#12621
-ARTS 109 - 01
+09:50 am - 12:20 pm
+TF
+David Kelley
+faculty_profiles.php?user=dkelley
+Arts, Music, Theatre, Film and Video
+ARTS109-01
 Two Dimensional Design
-[u'01:30 pm - 04:00 pm']
-[u'\nMTh']
-[u'Candice Ivy']
-[u'faculty_profiles.php?user=civy']
-[u'Arts, Music, Theatre, Film and Video']
-#11256
-ARTS 113 - 01
+01:30 pm - 04:00 pm
+MTh
+Candice Ivy
+faculty_profiles.php?user=civy
+Arts, Music, Theatre, Film and Video
+ARTS113-01
 3-D Design
-[u'09:50 am - 12:20 pm']
-[u'\nTF']
-[u'Carlos Dorrien']
-[u'faculty_profiles.php?user=cdorrien']
-[u'Arts, Music, Theatre, Film and Video']
-#10121
-ARTS 165 - 01
+09:50 am - 12:20 pm
+TF
+Carlos Dorrien
+faculty_profiles.php?user=cdorrien
+Arts, Music, Theatre, Film and Video
+ARTS165-01
 Intro Film & Video Production
-[u'01:30 pm - 05:20 pm']
-[u'\nM']
-[u'Salem Mekuria']
-[u'faculty_profiles.php?user=smekuria']
-[u'Arts, Music, Theatre, Film and Video']
-#10617
-ARTS 207 - 01
+01:30 pm - 05:20 pm
+M
+Salem Mekuria
+faculty_profiles.php?user=smekuria
+Arts, Music, Theatre, Film and Video
+ARTS207-01
 Sculpture I
-[u'01:30 pm - 04:00 pm']
-[u'\nTF']
-[u'Carlos Dorrien']
-[u'faculty_profiles.php?user=cdorrien']
-[u'Arts, Music, Theatre, Film and Video']
-#13126
-ARTS 216 - 01
+01:30 pm - 04:00 pm
+TF
+Carlos Dorrien
+faculty_profiles.php?user=cdorrien
+Arts, Music, Theatre, Film and Video
+ARTS216-01
 Spatial Investigations
-[u'01:30 pm - 04:00 pm']
-[u'\nTF']
-[u'Andrew Mowbray']
-[u'faculty_profiles.php?user=amowbray']
-[u'Arts, Music, Theatre, Film and Video']
-#11430
-ARTS 218 - 01
+01:30 pm - 04:00 pm
+TF
+Andrew Mowbray
+faculty_profiles.php?user=amowbray
+Arts, Music, Theatre, Film and Video
+ARTS218-01
 Intro Painting
-[u'09:50 am - 12:20 pm']
-[u'\nMTh']
-[u'Daniela Rivera']
-[u'faculty_profiles.php?user=drivera']
-[u'Arts, Music, Theatre, Film and Video']
-#13127
-ARTS 220 - 01
+09:50 am - 12:20 pm
+MTh
+Daniela Rivera
+faculty_profiles.php?user=drivera
+Arts, Music, Theatre, Film and Video
+ARTS220-01
 IntrPrintMthds:Intaglio/Relief
-[u'06:30 pm - 09:00 pm', u'\n02:15 pm - 04:45 pm']
-[u'\nM', u'\nW']
-[u'Phyllis McGibbon']
-[u'faculty_profiles.php?user=pmcgibbo']
-[u'Arts, Music, Theatre, Film and Video']
-#13128
-ARTS 260 - 01
+06:30 pm - 09:00 pm,02:15 pm - 04:45 pm
+M,W
+Phyllis McGibbon
+faculty_profiles.php?user=pmcgibbo
+Arts, Music, Theatre, Film and Video
+ARTS260-01
 Moving Image Studio
-[u'01:30 pm - 04:00 pm']
-[u'\nMTh']
-[u'David Olsen']
-[u'faculty_profiles.php?user=dolsen']
-[u'Arts, Music, Theatre, Film and Video']
-#11591
-ARTS 314 - 01
+01:30 pm - 04:00 pm
+MTh
+David Olsen
+faculty_profiles.php?user=dolsen
+Arts, Music, Theatre, Film and Video
+ARTS314-01
 Advanced Drawing
-[u'12:30 pm - 05:20 pm']
-[u'\nTh']
-[u'Phyllis McGibbon']
-[u'faculty_profiles.php?user=pmcgibbo']
-[u'Arts, Music, Theatre, Film and Video']
-#13129
-ARTS 317 - 01
+12:30 pm - 05:20 pm
+Th
+Phyllis McGibbon
+faculty_profiles.php?user=pmcgibbo
+Arts, Music, Theatre, Film and Video
+ARTS317-01
 Sem:Tpc: Exp. Ethnography
-[u'01:30 pm - 04:00 pm', u'\n01:30 pm - 02:40 pm']
-[u'\nM', u'\nTh']
-[u'David Kelley']
-[u'faculty_profiles.php?user=dkelley']
-[u'Arts, Music, Theatre, Film and Video or Social and Behavioral Analysis']
-#13130
-ARTS 365 - 01
+01:30 pm - 04:00 pm,01:30 pm - 02:40 pm
+M,Th
+David Kelley
+faculty_profiles.php?user=dkelley
+Arts, Music, Theatre, Film and Video or Social and Behavioral Analysis
+ARTS365-01
 Advanced Video Production
-[u'06:30 pm - 08:30 pm', u'\n01:30 pm - 04:00 pm']
-[u'\nT', u'\nT']
-[u'Salem Mekuria']
-[u'faculty_profiles.php?user=smekuria']
-[u'Arts, Music, Theatre, Film and Video']
-#10776
-ASTR 100 - 01
+06:30 pm - 08:30 pm,01:30 pm - 04:00 pm
+T,T
+Salem Mekuria
+faculty_profiles.php?user=smekuria
+Arts, Music, Theatre, Film and Video
+ASTR100-01
 Life in the Universe
-[u'11:10 am - 12:20 pm']
-[u'\nTF']
-[u'Idan Ginsburg']
-[u'faculty_profiles.php?user=']
-[u'Natural and Physical Science']
-#10003
-ASTR 101 - 01
+11:10 am - 12:20 pm
+TF
+Idan Ginsburg
+faculty_profiles.php?user=
+Natural and Physical Science
+ASTR101-01
 Intro to Stars,Galaxies,Cosmol
-[u'11:10 am - 12:20 pm']
-[u'\nMTh']
-[u'Wendy Bauer']
-[u'faculty_profiles.php?user=wbauer']
-[u'Mathematical Modeling', u'\nNatural and Physical Science']
-#13305
-ASTR 101 - 02
+11:10 am - 12:20 pm
+MTh
+Wendy Bauer
+faculty_profiles.php?user=wbauer
+Mathematical Modeling,Natural and Physical Science
+ASTR101-02
 Intro to Stars,Galaxies,Cosmol
-[u'02:50 pm - 04:00 pm']
-[u'\nMTh']
-[u'Wendy Bauer']
-[u'faculty_profiles.php?user=wbauer']
-[u'Mathematical Modeling', u'\nNatural and Physical Science']
-#12207
-ASTR 102 - 01
+02:50 pm - 04:00 pm
+MTh
+Wendy Bauer
+faculty_profiles.php?user=wbauer
+Mathematical Modeling,Natural and Physical Science
+ASTR102-01
 LAB:  Intro to Astronomy
-[u'07:30 pm - 09:30 pm']
-[u'\nT']
-[u'Stephen Slivan']
-[u'faculty_profiles.php?user=sslivan']
-[u'None']
-#12232
-ASTR 102 - 02
+07:30 pm - 09:30 pm
+T
+Stephen Slivan
+faculty_profiles.php?user=sslivan
+None
+ASTR102-02
 LAB:  Intro to Astronomy
-[u'09:30 pm - 11:30 pm']
-[u'\nT']
-[u'Stephen Slivan']
-[u'faculty_profiles.php?user=sslivan']
-[u'None']
-#12233
-ASTR 102 - 03
+09:30 pm - 11:30 pm
+T
+Stephen Slivan
+faculty_profiles.php?user=sslivan
+None
+ASTR102-03
 LAB:  Intro to Astronomy
-[u'07:30 pm - 09:30 pm']
-[u'\nW']
-[u'Stephen Slivan']
-[u'faculty_profiles.php?user=sslivan']
-[u'None']
-#12234
-ASTR 102 - 04
+07:30 pm - 09:30 pm
+W
+Stephen Slivan
+faculty_profiles.php?user=sslivan
+None
+ASTR102-04
 LAB:  Intro to Astronomy
-[u'09:30 pm - 11:30 pm']
-[u'\nW']
-[u'Stephen Slivan']
-[u'faculty_profiles.php?user=sslivan']
-[u'None']
-#12235
-ASTR 102 - 05
+09:30 pm - 11:30 pm
+W
+Stephen Slivan
+faculty_profiles.php?user=sslivan
+None
+ASTR102-05
 LAB:  Intro to Astronomy
-[]
-[]
-[u'Stephen Slivan']
-[u'faculty_profiles.php?user=sslivan']
-[u'None']
-#13373
-ASTR 110 - 01
+None assigned
+None assigned
+Stephen Slivan
+faculty_profiles.php?user=sslivan
+None
+ASTR110-01
 FYS: Einstein & the Dark Univ
-[u'12:30 pm - 03:30 pm']
-[u'\nT']
-[u'James Battat']
-[u'faculty_profiles.php?user=jbattat']
-[u'Mathematical Modeling', u'\nNatural and Physical Science']
-#13131
-ASTR 206 - 01
+12:30 pm - 03:30 pm
+T
+James Battat
+faculty_profiles.php?user=jbattat
+Mathematical Modeling,Natural and Physical Science
+ASTR206-01
 Astronomical Techniq I w/Lab
-[u'02:50 pm - 04:00 pm']
-[u'\nTF']
-[u'Kim McLeod']
-[u'faculty_profiles.php?user=kmcleod']
-[u'Mathematical Modeling', u'\nQRF', u'\nNatural and Physical Science']
-#12205
-ASTR 250GH - 01
+02:50 pm - 04:00 pm
+TF
+Kim McLeod
+faculty_profiles.php?user=kmcleod
+QRF,Mathematical Modeling,Natural and Physical Science
+ASTR250GH-01
 Astronomy Reading Group
-[u'04:10 pm - 05:20 pm']
-[u'\nTh']
-[u'Kim McLeod']
-[u'faculty_profiles.php?user=kmcleod']
-[u'None']
-#13133
-ASTR 311 - 01
+04:10 pm - 05:20 pm
+Th
+Kim McLeod
+faculty_profiles.php?user=kmcleod
+None
+ASTR311-01
 Advanced Astrophysics
-[u'11:10 am - 12:20 pm']
-[u'\nTF']
-[u'Kim McLeod']
-[u'faculty_profiles.php?user=kmcleod']
-[u'Mathematical Modeling', u'\nNatural and Physical Science']
-#12268
-BIOC 219 - 01
+11:10 am - 12:20 pm
+TF
+Kim McLeod
+faculty_profiles.php?user=kmcleod
+Mathematical Modeling,Natural and Physical Science
+BIOC219-01
 Genetics w/Lab
-[u'11:10 am - 12:20 pm']
-[u'\nTF']
-[u'Andrea Sequeira']
-[u'faculty_profiles.php?user=asequeir']
-[u'Natural and Physical Science']
-#12269
-BIOC 219 - L01
+11:10 am - 12:20 pm
+TF
+Andrea Sequeira
+faculty_profiles.php?user=asequeir
+Natural and Physical Science
+BIOC219-L01
 LAB: Genetics
-[u'01:30 pm - 05:00 pm']
-[u'\nM']
-[u'Melissa Beers']
-[u'faculty_profiles.php?user=mbeers']
-[u'Natural and Physical Science']
-#12270
-BIOC 219 - L02
+01:30 pm - 05:00 pm
+M
+Melissa Beers
+faculty_profiles.php?user=mbeers
+Natural and Physical Science
+BIOC219-L02
 LAB: Genetics
-[u'12:30 pm - 04:00 pm']
-[u'\nT']
-[u'Tucker Crum']
-[u'faculty_profiles.php?user=tcrum']
-[u'Natural and Physical Science']
-#12271
-BIOC 219 - L03
+12:30 pm - 04:00 pm
+T
+Tucker Crum
+faculty_profiles.php?user=tcrum
+Natural and Physical Science
+BIOC219-L03
 LAB: Genetics
-[u'02:15 pm - 05:45 pm']
-[u'\nW']
-[u'Tucker Crum']
-[u'faculty_profiles.php?user=tcrum']
-[u'Natural and Physical Science']
-#12272
-BIOC 219 - L04
+02:15 pm - 05:45 pm
+W
+Tucker Crum
+faculty_profiles.php?user=tcrum
+Natural and Physical Science
+BIOC219-L04
 LAB: Genetics
-[u'01:00 pm - 04:30 pm']
-[u'\nTh']
-[u'Adam Matthews']
-[u'faculty_profiles.php?user=amatthe2']
-[u'Natural and Physical Science']
-#12273
-BIOC 219 - L05
+01:00 pm - 04:30 pm
+Th
+Adam Matthews
+faculty_profiles.php?user=amatthe2
+Natural and Physical Science
+BIOC219-L05
 LAB: Genetics
-[u'01:00 pm - 04:30 pm']
-[u'\nF']
-[u'Tucker Crum']
-[u'faculty_profiles.php?user=tcrum']
-[u'Natural and Physical Science']
-#12227
-BIOC 320 - 01
+01:00 pm - 04:30 pm
+F
+Tucker Crum
+faculty_profiles.php?user=tcrum
+Natural and Physical Science
+BIOC320-01
 Adv Biophysical Chemistry Lab
-[u'11:10 am - 12:20 pm']
-[u'\nTh']
-[u'Elizabeth Oakes']
-[u'faculty_profiles.php?user=eoakes']
-[u'Natural and Physical Science']
-#13299
-BIOC 320 - L01
+11:10 am - 12:20 pm
+Th
+Elizabeth Oakes
+faculty_profiles.php?user=eoakes
+Natural and Physical Science
+BIOC320-L01
 LAB: Adv Biophysical Chemistry
-[u'01:30 pm - 05:00 pm']
-[u'\nM']
-[u'Elizabeth Oakes']
-[u'faculty_profiles.php?user=eoakes']
-[u'Natural and Physical Science']
-#13300
-BIOC 320 - L02
+01:30 pm - 05:00 pm
+M
+Elizabeth Oakes
+faculty_profiles.php?user=eoakes
+Natural and Physical Science
+BIOC320-L02
 LAB: Adv Biophysical Chemistry
-[u'12:30 pm - 04:00 pm']
-[u'\nT']
-[u'Elizabeth Oakes']
-[u'faculty_profiles.php?user=eoakes']
-[u'Natural and Physical Science']
-#13134
-BIOC 323 - 01
+12:30 pm - 04:00 pm
+T
+Elizabeth Oakes
+faculty_profiles.php?user=eoakes
+Natural and Physical Science
+BIOC323-01
 Advanced Biochemistry
-[u'08:30 am - 09:40 am']
-[u'\nMWTh']
-[u'Donald Elmore']
-[u'faculty_profiles.php?user=delmore']
-[u'Natural and Physical Science']
-#11343
-BISC 105 - 01
+08:30 am - 09:40 am
+MWTh
+Donald Elmore
+faculty_profiles.php?user=delmore
+Natural and Physical Science
+BISC105-01
 Stem Cells:New in Biomed
-[u'09:50 am - 11:00 am']
-[u'\nTF']
-[u"Kimberly O'Donnell"]
-[u'faculty_profiles.php?user=kodonnel']
-[u'Natural and Physical Science']
-#10244
-BISC 109 - 01
+09:50 am - 11:00 am
+TF
+Kimberly O'Donnell
+faculty_profiles.php?user=kodonnel
+Natural and Physical Science
+BISC109-01
 Human Biology w/Lab
-[u'09:50 am - 11:00 am']
-[u'\nMTh']
-[u'David Ellerby']
-[u'faculty_profiles.php?user=dellerby']
-[u'Natural and Physical Science', u'\nQRF']
-#10219
-BISC 109 - L01
+09:50 am - 11:00 am
+MTh
+David Ellerby
+faculty_profiles.php?user=dellerby
+Natural and Physical Science,QRF
+BISC109-L01
 LAB: Human Biology
-[u'01:30 pm - 05:00 pm']
-[u'\nM']
-[]
-[u'faculty_profiles.php?user=']
-[u'Natural and Physical Science', u'\nQRF']
-#10259
-BISC 109 - L02
+01:30 pm - 05:00 pm
+M
+None assigned
+faculty_profiles.php?user=
+Natural and Physical Science,QRF
+BISC109-L02
 LAB: Human Biology
-[u'12:30 pm - 04:00 pm']
-[u'\nT']
-[]
-[u'faculty_profiles.php?user=']
-[u'Natural and Physical Science', u'\nQRF']
-#10238
-BISC 109 - L03
+12:30 pm - 04:00 pm
+T
+None assigned
+faculty_profiles.php?user=
+Natural and Physical Science,QRF
+BISC109-L03
 LAB: Human Biology
-[u'02:15 pm - 05:45 pm']
-[u'\nW']
-[u'Christa Skow']
-[u'faculty_profiles.php?user=cskow']
-[u'Natural and Physical Science', u'\nQRF']
-#10248
-BISC 109 - L04
+02:15 pm - 05:45 pm
+W
+Christa Skow
+faculty_profiles.php?user=cskow
+Natural and Physical Science,QRF
+BISC109-L04
 LAB: Human Biology
-[u'01:00 pm - 04:30 pm']
-[u'\nTh']
-[u'Sally Sommers Smith']
-[u'faculty_profiles.php?user=ssmith6']
-[u'Natural and Physical Science', u'\nQRF']
-#10521
-BISC 110 - 01
+01:00 pm - 04:30 pm
+Th
+Sally Sommers Smith
+faculty_profiles.php?user=ssmith6
+Natural and Physical Science,QRF
+BISC110-01
 Intro Cellular Biology w/Lab
-[u'08:30 am - 09:40 am']
-[u'\nMTh']
-[u'Vanja Klepac-Ceraj']
-[u'faculty_profiles.php?user=vklepacc']
-[u'Natural and Physical Science']
-#10524
-BISC 110 - 02
+08:30 am - 09:40 am
+MTh
+Vanja Klepac-Ceraj
+faculty_profiles.php?user=vklepacc
+Natural and Physical Science
+BISC110-02
 Intro Cellular Biology w/Lab
-[u'09:50 am - 11:00 am']
-[u'\nMTh']
-[u'Louise Darling']
-[u'faculty_profiles.php?user=ldarling']
-[u'Natural and Physical Science']
-#11811
-BISC 110 - 03
+09:50 am - 11:00 am
+MTh
+Louise Darling
+faculty_profiles.php?user=ldarling
+Natural and Physical Science
+BISC110-03
 Intro Cellular Biology w/Lab
-[u'11:10 am - 12:20 pm']
-[u'\nTF']
-[u'John Goss']
-[u'faculty_profiles.php?user=jgoss']
-[u'Natural and Physical Science']
-#10522
-BISC 110 - L01
+11:10 am - 12:20 pm
+TF
+John Goss
+faculty_profiles.php?user=jgoss
+Natural and Physical Science
+BISC110-L01
 LAB: BISC 110 & 112
-[u'01:30 pm - 05:00 pm']
-[u'\nM']
-[u'Adam Matthews']
-[u'faculty_profiles.php?user=amatthe2']
-[u'Natural and Physical Science']
-#10523
-BISC 110 - L02
+01:30 pm - 05:00 pm
+M
+Adam Matthews
+faculty_profiles.php?user=amatthe2
+Natural and Physical Science
+BISC110-L02
 LAB: BISC 110 & 112
-[u'06:00 pm - 09:30 pm']
-[u'\nM']
-[u'Jocelyne Dolce']
-[u'faculty_profiles.php?user=jdolce']
-[u'Natural and Physical Science']
-#10525
-BISC 110 - L03
+06:00 pm - 09:30 pm
+M
+Jocelyne Dolce
+faculty_profiles.php?user=jdolce
+Natural and Physical Science
+BISC110-L03
 LAB: BISC 110 & 112
-[u'12:30 pm - 04:00 pm']
-[u'\nT']
-[u'Adam Matthews']
-[u'faculty_profiles.php?user=amatthe2']
-[u'Natural and Physical Science']
-#10526
-BISC 110 - L04
+12:30 pm - 04:00 pm
+T
+Adam Matthews
+faculty_profiles.php?user=amatthe2
+Natural and Physical Science
+BISC110-L04
 LAB: BISC 110 & 112
-[u'08:30 am - 12:00 pm']
-[u'\nW']
-[u'Louise Darling']
-[u'faculty_profiles.php?user=ldarling']
-[u'Natural and Physical Science']
-#11391
-BISC 110 - L05
+08:30 am - 12:00 pm
+W
+Louise Darling
+faculty_profiles.php?user=ldarling
+Natural and Physical Science
+BISC110-L05
 LAB: BISC 110 & 112
-[u'02:15 pm - 05:45 pm']
-[u'\nW']
-[u'John Goss']
-[u'faculty_profiles.php?user=jgoss']
-[u'Natural and Physical Science']
-#11813
-BISC 110 - L07
+02:15 pm - 05:45 pm
+W
+John Goss
+faculty_profiles.php?user=jgoss
+Natural and Physical Science
+BISC110-L07
 LAB: BISC 110 & 112
-[u'06:00 pm - 09:30 pm']
-[u'\nTh']
-[u'Melissa Beers']
-[u'faculty_profiles.php?user=mbeers']
-[u'Natural and Physical Science']
-#12327
-BISC 110 - L08
+06:00 pm - 09:30 pm
+Th
+Melissa Beers
+faculty_profiles.php?user=mbeers
+Natural and Physical Science
+BISC110-L08
 LAB: BISC 110 & 112
-[u'01:00 pm - 04:30 pm']
-[u'\nF']
-[u'T. Kaye Peterman']
-[u'faculty_profiles.php?user=kpeterma']
-[u'Natural and Physical Science']
-#10207
-BISC 111 - 01
+01:00 pm - 04:30 pm
+F
+T. Kaye Peterman
+faculty_profiles.php?user=kpeterma
+Natural and Physical Science
+BISC111-01
 Intro Organismal Biology w/Lab
-[u'08:30 am - 09:40 am']
-[u'\nMTh']
-[u'Emily Buchholtz']
-[u'faculty_profiles.php?user=ebuchhol']
-[u'Natural and Physical Science', u'\nQRF']
-#10261
-BISC 111 - 02
+08:30 am - 09:40 am
+MTh
+Emily Buchholtz
+faculty_profiles.php?user=ebuchhol
+Natural and Physical Science,QRF
+BISC111-02
 Intro Organismal Biology w/Lab
-[u'09:50 am - 11:00 am']
-[u'\nTF']
-[u'Heather Mattila']
-[u'faculty_profiles.php?user=hmattila']
-[u'Natural and Physical Science', u'\nQRF']
-#10225
-BISC 111 - L01
+09:50 am - 11:00 am
+TF
+Heather Mattila
+faculty_profiles.php?user=hmattila
+Natural and Physical Science,QRF
+BISC111-L01
 LAB: BISC 111 & 113
-[u'01:30 pm - 05:00 pm']
-[u'\nM']
-[]
-[u'faculty_profiles.php?user=']
-[u'Natural and Physical Science', u'\nQRF']
-#10253
-BISC 111 - L02
+01:30 pm - 05:00 pm
+M
+None assigned
+faculty_profiles.php?user=
+Natural and Physical Science,QRF
+BISC111-L02
 LAB: BISC 111 & 113
-[u'12:30 pm - 04:00 pm']
-[u'\nT']
-[u'Simone Helluy']
-[u'faculty_profiles.php?user=shelluy']
-[u'Natural and Physical Science', u'\nQRF']
-#10224
-BISC 111 - L03
+12:30 pm - 04:00 pm
+T
+Simone Helluy
+faculty_profiles.php?user=shelluy
+Natural and Physical Science,QRF
+BISC111-L03
 LAB: BISC 111 & 113
-[u'06:30 pm - 10:00 pm']
-[u'\nT']
-[u'Sally Sommers Smith']
-[u'faculty_profiles.php?user=ssmith6']
-[u'Natural and Physical Science', u'\nQRF']
-#10263
-BISC 111 - L04
+06:30 pm - 10:00 pm
+T
+Sally Sommers Smith
+faculty_profiles.php?user=ssmith6
+Natural and Physical Science,QRF
+BISC111-L04
 LAB: BISC 111 & 113
-[u'02:15 pm - 05:45 pm']
-[u'\nW']
-[]
-[u'faculty_profiles.php?user=']
-[u'Natural and Physical Science', u'\nQRF']
-#12328
-BISC 111 - L06
+02:15 pm - 05:45 pm
+W
+None assigned
+faculty_profiles.php?user=
+Natural and Physical Science,QRF
+BISC111-L06
 LAB: BISC 111 & 113
-[u'01:00 pm - 04:30 pm']
-[u'\nF']
-[u'Janet McDonough']
-[u'faculty_profiles.php?user=jmcdonou']
-[u'Natural and Physical Science', u'\nQRF']
-#11628
-BISC 112 - 01
+01:00 pm - 04:30 pm
+F
+Janet McDonough
+faculty_profiles.php?user=jmcdonou
+Natural and Physical Science,QRF
+BISC112-01
 Expl Cellular Bio w/Lab
-[u'11:10 am - 12:20 pm']
-[u'\nM']
-[u'Yuichiro Suzuki']
-[u'faculty_profiles.php?user=ysuzuki']
-[u'Natural and Physical Science']
-#11629
-BISC 112 - 02
+11:10 am - 12:20 pm
+M
+Yuichiro Suzuki
+faculty_profiles.php?user=ysuzuki
+Natural and Physical Science
+BISC112-02
 FYS: Expl Cellul Bio w/Lab
-[u'11:10 am - 12:20 pm']
-[u'\nTh']
-[u'Yuichiro Suzuki']
-[u'faculty_profiles.php?user=ysuzuki']
-[u'Natural and Physical Science']
-#11684
-BISC 112 - L01
+11:10 am - 12:20 pm
+Th
+Yuichiro Suzuki
+faculty_profiles.php?user=ysuzuki
+Natural and Physical Science
+BISC112-L01
 LAB: BISC 110 & 112
-[u'01:30 pm - 05:00 pm']
-[u'\nM']
-[u'Adam Matthews']
-[u'faculty_profiles.php?user=amatthe2']
-[u'Natural and Physical Science']
-#11685
-BISC 112 - L02
+01:30 pm - 05:00 pm
+M
+Adam Matthews
+faculty_profiles.php?user=amatthe2
+Natural and Physical Science
+BISC112-L02
 LAB: BISC 110 & 112
-[u'06:00 pm - 09:30 pm']
-[u'\nM']
-[u'Jocelyne Dolce']
-[u'faculty_profiles.php?user=jdolce']
-[u'Natural and Physical Science']
-#11686
-BISC 112 - L03
+06:00 pm - 09:30 pm
+M
+Jocelyne Dolce
+faculty_profiles.php?user=jdolce
+Natural and Physical Science
+BISC112-L03
 LAB: BISC 110 & 112
-[u'12:30 pm - 04:00 pm']
-[u'\nT']
-[u'Adam Matthews']
-[u'faculty_profiles.php?user=amatthe2']
-[u'Natural and Physical Science']
-#11687
-BISC 112 - L04
+12:30 pm - 04:00 pm
+T
+Adam Matthews
+faculty_profiles.php?user=amatthe2
+Natural and Physical Science
+BISC112-L04
 LAB: BISC 110 & 112
-[u'08:30 am - 12:00 pm']
-[u'\nW']
-[u'Louise Darling']
-[u'faculty_profiles.php?user=ldarling']
-[u'Natural and Physical Science']
-#11688
-BISC 112 - L05
+08:30 am - 12:00 pm
+W
+Louise Darling
+faculty_profiles.php?user=ldarling
+Natural and Physical Science
+BISC112-L05
 LAB: BISC 110 & 112
-[u'02:15 pm - 05:45 pm']
-[u'\nW']
-[u'John Goss']
-[u'faculty_profiles.php?user=jgoss']
-[u'Natural and Physical Science']
-#11841
-BISC 112 - L06
+02:15 pm - 05:45 pm
+W
+John Goss
+faculty_profiles.php?user=jgoss
+Natural and Physical Science
+BISC112-L06
 FYS LAB: BISC 112
-[u'01:00 pm - 04:30 pm']
-[u'\nTh']
-[u'Jocelyne Dolce']
-[u'faculty_profiles.php?user=jdolce']
-[u'Natural and Physical Science']
-#11842
-BISC 112 - L07
+01:00 pm - 04:30 pm
+Th
+Jocelyne Dolce
+faculty_profiles.php?user=jdolce
+Natural and Physical Science
+BISC112-L07
 LAB: BISC 110 & 112
-[u'06:00 pm - 09:30 pm']
-[u'\nTh']
-[u'Melissa Beers']
-[u'faculty_profiles.php?user=mbeers']
-[u'Natural and Physical Science']
-#11843
-BISC 112 - L08
+06:00 pm - 09:30 pm
+Th
+Melissa Beers
+faculty_profiles.php?user=mbeers
+Natural and Physical Science
+BISC112-L08
 LAB: BISC 110 & 112
-[u'01:00 pm - 04:30 pm']
-[u'\nF']
-[u'T. Kaye Peterman']
-[u'faculty_profiles.php?user=kpeterma']
-[u'Natural and Physical Science']
-#11630
-BISC 113 - 01
+01:00 pm - 04:30 pm
+F
+T. Kaye Peterman
+faculty_profiles.php?user=kpeterma
+Natural and Physical Science
+BISC113-01
 FYS: Expl Organismal Bio w/Lab
-[u'11:10 am - 12:20 pm']
-[u'\nT']
-[u'Heather Mattila']
-[u'faculty_profiles.php?user=hmattila']
-[u'Natural and Physical Science', u'\nQRF']
-#11631
-BISC 113 - 02
+11:10 am - 12:20 pm
+T
+Heather Mattila
+faculty_profiles.php?user=hmattila
+Natural and Physical Science,QRF
+BISC113-02
 Expl Organismal Bio w/Lab
-[u'11:10 am - 12:20 pm']
-[u'\nF']
-[u'Heather Mattila']
-[u'faculty_profiles.php?user=hmattila']
-[u'Natural and Physical Science.QRF', u'\nQRF']
-#11689
-BISC 113 - L01
+11:10 am - 12:20 pm
+F
+Heather Mattila
+faculty_profiles.php?user=hmattila
+Natural and Physical Science.QRF,QRF
+BISC113-L01
 LAB: BISC 111 & 113
-[u'01:30 pm - 05:00 pm']
-[u'\nM']
-[]
-[u'faculty_profiles.php?user=']
-[u'Natural and Physical Science', u'\nQRF']
-#11690
-BISC 113 - L02
+01:30 pm - 05:00 pm
+M
+None assigned
+faculty_profiles.php?user=
+Natural and Physical Science,QRF
+BISC113-L02
 LAB: BISC 111 & 113
-[u'12:30 pm - 04:00 pm']
-[u'\nT']
-[u'Simone Helluy']
-[u'faculty_profiles.php?user=shelluy']
-[u'Natural and Physical Science', u'\nQRF']
-#11691
-BISC 113 - L03
+12:30 pm - 04:00 pm
+T
+Simone Helluy
+faculty_profiles.php?user=shelluy
+Natural and Physical Science,QRF
+BISC113-L03
 LAB: BISC 111 & 113
-[u'06:30 pm - 10:00 pm']
-[u'\nT']
-[u'Sally Sommers Smith']
-[u'faculty_profiles.php?user=ssmith6']
-[u'Natural and Physical Science', u'\nQRF']
-#11692
-BISC 113 - L04
+06:30 pm - 10:00 pm
+T
+Sally Sommers Smith
+faculty_profiles.php?user=ssmith6
+Natural and Physical Science,QRF
+BISC113-L04
 LAB: BISC 111 & 113
-[u'02:15 pm - 05:45 pm']
-[u'\nW']
-[]
-[u'faculty_profiles.php?user=']
-[u'Natural and Physical Science', u'\nQRF']
-#11693
-BISC 113 - L05
+02:15 pm - 05:45 pm
+W
+None assigned
+faculty_profiles.php?user=
+Natural and Physical Science,QRF
+BISC113-L05
 FYS: LAB: BISC 113
-[u'01:00 pm - 04:30 pm']
-[u'\nTh']
-[u'Simone Helluy']
-[u'faculty_profiles.php?user=shelluy']
-[u'Natural and Physical Science', u'\nQRF']
-#11838
-BISC 113 - L06
+01:00 pm - 04:30 pm
+Th
+Simone Helluy
+faculty_profiles.php?user=shelluy
+Natural and Physical Science,QRF
+BISC113-L06
 LAB: BISC 111 & 113
-[u'01:00 pm - 04:30 pm']
-[u'\nF']
-[u'Janet McDonough']
-[u'faculty_profiles.php?user=jmcdonou']
-[u'Natural and Physical Science', u'\nQRF']
-#10227
-BISC 201 - 01
+01:00 pm - 04:30 pm
+F
+Janet McDonough
+faculty_profiles.php?user=jmcdonou
+Natural and Physical Science,QRF
+BISC201-01
 Ecology w/Lab
-[u'08:30 am - 09:40 am']
-[u'\nMTh']
-[u'Jeffrey Hughes']
-[u'faculty_profiles.php?user=jhughes']
-[u'Natural and Physical Science', u'\nQRF']
-#10257
-BISC 201 - L01
+08:30 am - 09:40 am
+MTh
+Jeffrey Hughes
+faculty_profiles.php?user=jhughes
+Natural and Physical Science,QRF
+BISC201-L01
 LAB: Ecology
-[u'01:00 pm - 04:30 pm']
-[u'\nF']
-[u'Jocelyne Dolce']
-[u'faculty_profiles.php?user=jdolce']
-[u'Natural and Physical Science', u'\nQRF']
-#12626
-BISC 202 - 01
+01:00 pm - 04:30 pm
+F
+Jocelyne Dolce
+faculty_profiles.php?user=jdolce
+Natural and Physical Science,QRF
+BISC202-01
 Evolution with Laboratory
-[u'09:50 am - 11:00 am']
-[u'\nMTh']
-[u'Andrea Sequeira']
-[u'faculty_profiles.php?user=asequeir']
-[u'Natural and Physical Science']
-#12627
-BISC 202 - L01
+09:50 am - 11:00 am
+MTh
+Andrea Sequeira
+faculty_profiles.php?user=asequeir
+Natural and Physical Science
+BISC202-L01
 LAB: Evolution
-[u'01:30 pm - 05:00 pm']
-[u'\nM']
-[u'Andrea Sequeira']
-[u'faculty_profiles.php?user=asequeir']
-[u'Natural and Physical Science']
-#10250
-BISC 203 - 01
+01:30 pm - 05:00 pm
+M
+Andrea Sequeira
+faculty_profiles.php?user=asequeir
+Natural and Physical Science
+BISC203-01
 Comp Phys/Anat Verte w/Lab
-[u'11:10 am - 12:20 pm']
-[u'\nMTh']
-[u'John Cameron']
-[u'faculty_profiles.php?user=jcameron']
-[u'Natural and Physical Science']
-#10233
-BISC 203 - L01
+11:10 am - 12:20 pm
+MTh
+John Cameron
+faculty_profiles.php?user=jcameron
+Natural and Physical Science
+BISC203-L01
 LAB: Comp Phys/Anat Verte
-[u'01:30 pm - 05:00 pm']
-[u'\nM']
-[u'John Cameron']
-[u'faculty_profiles.php?user=jcameron']
-[u'Natural and Physical Science']
-#10221
-BISC 203 - L02
+01:30 pm - 05:00 pm
+M
+John Cameron
+faculty_profiles.php?user=jcameron
+Natural and Physical Science
+BISC203-L02
 LAB: Comp Phys/Anat Verte
-[u'12:30 pm - 04:00 pm']
-[u'\nT']
-[u'Emily Buchholtz']
-[u'faculty_profiles.php?user=ebuchhol']
-[u'Natural and Physical Science']
-#11429
-BISC 203 - L03
+12:30 pm - 04:00 pm
+T
+Emily Buchholtz
+faculty_profiles.php?user=ebuchhol
+Natural and Physical Science
+BISC203-L03
 LAB: Comp Phys/Anat Verte
-[u'02:15 pm - 05:45 pm']
-[u'\nW']
-[u'Jocelyne Dolce']
-[u'faculty_profiles.php?user=jdolce']
-[u'Natural and Physical Science']
-#12628
-BISC 209 - 01
+02:15 pm - 05:45 pm
+W
+Jocelyne Dolce
+faculty_profiles.php?user=jdolce
+Natural and Physical Science
+BISC209-01
 Microbiology w/Lab
-[u'11:10 am - 12:20 pm']
-[u'\nMTh']
-[u'Vanja Klepac-Ceraj']
-[u'faculty_profiles.php?user=vklepacc']
-[u'Natural and Physical Science']
-#12629
-BISC 209 - L01
+11:10 am - 12:20 pm
+MTh
+Vanja Klepac-Ceraj
+faculty_profiles.php?user=vklepacc
+Natural and Physical Science
+BISC209-L01
 LAB: Microbiology
-[u'12:30 pm - 04:00 pm']
-[u'\nT']
-[u'Janet McDonough']
-[u'faculty_profiles.php?user=jmcdonou']
-[u'Natural and Physical Science']
-#12630
-BISC 209 - L02
+12:30 pm - 04:00 pm
+T
+Janet McDonough
+faculty_profiles.php?user=jmcdonou
+Natural and Physical Science
+BISC209-L02
 LAB: Microbiology
-[u'02:15 pm - 05:45 pm']
-[u'\nW']
-[u'Janet McDonough']
-[u'faculty_profiles.php?user=jmcdonou']
-[u'Natural and Physical Science']
-#10222
-BISC 210 - 01
+02:15 pm - 05:45 pm
+W
+Janet McDonough
+faculty_profiles.php?user=jmcdonou
+Natural and Physical Science
+BISC210-01
 Marine Biology w/Lab
-[u'09:50 am - 11:00 am']
-[u'\nTF']
-[u'Marianne Moore']
-[u'faculty_profiles.php?user=mmoore']
-[u'Natural and Physical Science']
-#10231
-BISC 210 - L01
+09:50 am - 11:00 am
+TF
+Marianne Moore
+faculty_profiles.php?user=mmoore
+Natural and Physical Science
+BISC210-L01
 LAB: Marine Biology
-[u'01:00 pm - 04:30 pm']
-[u'\nTh']
-[u'Jeffrey Hughes']
-[u'faculty_profiles.php?user=jhughes']
-[u'Natural and Physical Science']
-#10211
-BISC 219 - 01
+01:00 pm - 04:30 pm
+Th
+Jeffrey Hughes
+faculty_profiles.php?user=jhughes
+Natural and Physical Science
+BISC219-01
 Genetics w/Lab
-[u'11:10 am - 12:20 pm']
-[u'\nTF']
-[u'Andrea Sequeira']
-[u'faculty_profiles.php?user=asequeir']
-[u'Natural and Physical Science']
-#10251
-BISC 219 - L01
+11:10 am - 12:20 pm
+TF
+Andrea Sequeira
+faculty_profiles.php?user=asequeir
+Natural and Physical Science
+BISC219-L01
 LAB: Genetics
-[u'01:30 pm - 05:00 pm']
-[u'\nM']
-[u'Melissa Beers']
-[u'faculty_profiles.php?user=mbeers']
-[u'Natural and Physical Science']
-#10228
-BISC 219 - L02
+01:30 pm - 05:00 pm
+M
+Melissa Beers
+faculty_profiles.php?user=mbeers
+Natural and Physical Science
+BISC219-L02
 LAB: Genetics
-[u'12:30 pm - 04:00 pm']
-[u'\nT']
-[u'Tucker Crum']
-[u'faculty_profiles.php?user=tcrum']
-[u'Natural and Physical Science']
-#10245
-BISC 219 - L03
+12:30 pm - 04:00 pm
+T
+Tucker Crum
+faculty_profiles.php?user=tcrum
+Natural and Physical Science
+BISC219-L03
 LAB: Genetics
-[u'02:15 pm - 05:45 pm']
-[u'\nW']
-[u'Tucker Crum']
-[u'faculty_profiles.php?user=tcrum']
-[u'Natural and Physical Science']
-#10217
-BISC 219 - L04
+02:15 pm - 05:45 pm
+W
+Tucker Crum
+faculty_profiles.php?user=tcrum
+Natural and Physical Science
+BISC219-L04
 LAB: Genetics
-[u'01:00 pm - 04:30 pm']
-[u'\nTh']
-[u'Adam Matthews']
-[u'faculty_profiles.php?user=amatthe2']
-[u'Natural and Physical Science']
-#10242
-BISC 219 - L05
+01:00 pm - 04:30 pm
+Th
+Adam Matthews
+faculty_profiles.php?user=amatthe2
+Natural and Physical Science
+BISC219-L05
 LAB: Genetics
-[u'01:00 pm - 04:30 pm']
-[u'\nF']
-[u'Tucker Crum']
-[u'faculty_profiles.php?user=tcrum']
-[u'Natural and Physical Science']
-#13404
-BISC 247 - 01
+01:00 pm - 04:30 pm
+F
+Tucker Crum
+faculty_profiles.php?user=tcrum
+Natural and Physical Science
+BISC247-01
 Plant Diversity & Eco w/Lab
-[u'11:10 am - 12:20 pm']
-[u'\nMTh']
-[u'Alden Griffith']
-[u'faculty_profiles.php?user=agriffit']
-[u'Natural and Physical Science']
-#13406
-BISC 247 - L01
+11:10 am - 12:20 pm
+MTh
+Alden Griffith
+faculty_profiles.php?user=agriffit
+Natural and Physical Science
+BISC247-L01
 LAB: Plant Diversity & Eco
-[u'08:30 am - 12:20 pm']
-[u'\nW']
-[u'Alden Griffith']
-[u'faculty_profiles.php?user=agriffit']
-[u'Natural and Physical Science']
-#12631
-BISC 306 - 01
+08:30 am - 12:20 pm
+W
+Alden Griffith
+faculty_profiles.php?user=agriffit
+Natural and Physical Science
+BISC306-01
 Principals Neural Development
-[u'09:50 am - 11:00 am']
-[u'\nMTh']
-[u'Barbara Beltz']
-[u'faculty_profiles.php?user=bbeltz']
-[u'Epistemology and Cognition', u'\nNatural and Physical Science']
-#13135
-BISC 308 - 01
+09:50 am - 11:00 am
+MTh
+Barbara Beltz
+faculty_profiles.php?user=bbeltz
+Epistemology and Cognition,Natural and Physical Science
+BISC308-01
 Tropical Ecol w/Lab-Winters'n
-[u'02:15 pm - 04:45 pm']
-[u'\nW']
-[u'Martina Koniger']
-[u'faculty_profiles.php?user=mkoniger']
-[u'Natural and Physical Science']
-#12063
-BISC 311 - 01
+02:15 pm - 04:45 pm
+W
+Martina Koniger
+faculty_profiles.php?user=mkoniger
+Natural and Physical Science
+BISC311-01
 Evol. Devel Bio w/lab
-[u'09:50 am - 11:00 am']
-[u'\nTF']
-[u'Yuichiro Suzuki']
-[u'faculty_profiles.php?user=ysuzuki']
-[u'Natural and Physical Science']
-#12064
-BISC 311 - L01
+09:50 am - 11:00 am
+TF
+Yuichiro Suzuki
+faculty_profiles.php?user=ysuzuki
+Natural and Physical Science
+BISC311-L01
 LAB:Evol Devel Biology
-[u'01:00 pm - 04:30 pm']
-[u'\nTh']
-[u'Yuichiro Suzuki']
-[u'faculty_profiles.php?user=ysuzuki']
-[u'Natural and Physical Science']
-#11392
-BISC 315 - 01
+01:00 pm - 04:30 pm
+Th
+Yuichiro Suzuki
+faculty_profiles.php?user=ysuzuki
+Natural and Physical Science
+BISC315-01
 Neuroendocrinology w/Lab
-[u'09:50 am - 11:00 am']
-[u'\nTF']
-[u'Marc Tetel']
-[u'faculty_profiles.php?user=mtetel']
-[u'Epistemology and Cognition', u'\nNatural and Physical Science']
-#11393
-BISC 315 - L01
+09:50 am - 11:00 am
+TF
+Marc Tetel
+faculty_profiles.php?user=mtetel
+Epistemology and Cognition,Natural and Physical Science
+BISC315-L01
 LAB: Neuroendocrinology
-[u'12:30 pm - 04:00 pm']
-[u'\nT']
-[u'Marc Tetel']
-[u'faculty_profiles.php?user=mtetel']
-[u'Epistemology and Cognition', u'\nNatural and Physical Science']
-#13331
-BISC 316 - 01
+12:30 pm - 04:00 pm
+T
+Marc Tetel
+faculty_profiles.php?user=mtetel
+Epistemology and Cognition,Natural and Physical Science
+BISC316-01
 Molecular Genetics w/Lab
-[u'11:10 am - 12:20 pm']
-[u'\nTF']
-[u'T. Kaye Peterman']
-[u'faculty_profiles.php?user=kpeterma']
-[u'Natural and Physical Science']
-#13332
-BISC 316 - L01
+11:10 am - 12:20 pm
+TF
+T. Kaye Peterman
+faculty_profiles.php?user=kpeterma
+Natural and Physical Science
+BISC316-L01
 LAB: Molecular Genetics
-[u'12:30 pm - 04:00 pm']
-[u'\nT']
-[u'T. Kaye Peterman']
-[u'faculty_profiles.php?user=kpeterma']
-[u'Natural and Physical Science']
-#11986
-BISC 320 - 01
+12:30 pm - 04:00 pm
+T
+T. Kaye Peterman
+faculty_profiles.php?user=kpeterma
+Natural and Physical Science
+BISC320-01
 Proteomics w/Lab
-[u'09:50 am - 11:00 am']
-[u'\nMTh']
-[u'Gary Harris']
-[u'faculty_profiles.php?user=gharris']
-[u'Natural and Physical Science']
-#11987
-BISC 320 - L01
+09:50 am - 11:00 am
+MTh
+Gary Harris
+faculty_profiles.php?user=gharris
+Natural and Physical Science
+BISC320-L01
 LAB: Proteomics
-[u'01:30 pm - 05:00 pm']
-[u'\nM']
-[u'Gary Harris']
-[u'faculty_profiles.php?user=gharris']
-[u'Natural and Physical Science']
-#13136
-BISC 322 - 01
+01:30 pm - 05:00 pm
+M
+Gary Harris
+faculty_profiles.php?user=gharris
+Natural and Physical Science
+BISC322-01
 Biomech. Animals& Plants w/Lab
-[u'11:10 am - 12:20 pm']
-[u'\nTF']
-[u'David Ellerby']
-[u'faculty_profiles.php?user=dellerby']
-[u'Natural and Physical Science']
-#13137
-BISC 322 - L01
+11:10 am - 12:20 pm
+TF
+David Ellerby
+faculty_profiles.php?user=dellerby
+Natural and Physical Science
+BISC322-L01
 LAB: Biomech. Animals& Plants
-[u'06:00 pm - 09:30 pm']
-[u'\nM']
-[u'David Ellerby']
-[u'faculty_profiles.php?user=dellerby']
-[u'Natural and Physical Science']
-#12634
-BISC 328 - 01
+06:00 pm - 09:30 pm
+M
+David Ellerby
+faculty_profiles.php?user=dellerby
+Natural and Physical Science
+BISC328-01
 Sem:Modern Biological Imaging
-[u'02:15 pm - 04:45 pm']
-[u'\nW']
-[u'Louise Darling']
-[u'faculty_profiles.php?user=ldarling']
-[u'Natural and Physical Science']
-#11274
-BISC 334 - 01
+02:15 pm - 04:45 pm
+W
+Louise Darling
+faculty_profiles.php?user=ldarling
+Natural and Physical Science
+BISC334-01
 The Biology of Stem Cells
-[u'09:50 am - 12:20 pm']
-[u'\nW']
-[u"Kimberly O'Donnell"]
-[u'faculty_profiles.php?user=kodonnel']
-[u'Natural and Physical Science']
-#12635
-BISC 336 - 01
+09:50 am - 12:20 pm
+W
+Kimberly O'Donnell
+faculty_profiles.php?user=kodonnel
+Natural and Physical Science
+BISC336-01
 Sem: Immunology
-[u'02:15 pm - 04:45 pm']
-[u'\nW']
-[u'Adam Matthews']
-[u'faculty_profiles.php?user=amatthe2']
-[u'Natural and Physical Science']
-#12636
-BISC 338 - 01
+02:15 pm - 04:45 pm
+W
+Adam Matthews
+faculty_profiles.php?user=amatthe2
+Natural and Physical Science
+BISC338-01
 Sem: Biology of Social Insects
-[u'09:50 am - 12:20 pm']
-[u'\nW']
-[u'Heather Mattila']
-[u'faculty_profiles.php?user=hmattila']
-[u'Natural and Physical Science']
-#12798
-BISC 340 - 01
+09:50 am - 12:20 pm
+W
+Heather Mattila
+faculty_profiles.php?user=hmattila
+Natural and Physical Science
+BISC340-01
 CSPW: Biology in the News
-[u'01:30 pm - 04:00 pm']
-[u'\nF']
-[u'Martina Koniger']
-[u'faculty_profiles.php?user=mkoniger']
-[u'Natural and Physical Science']
-#13358
-BISC 347 - 01
+01:30 pm - 04:00 pm
+F
+Martina Koniger
+faculty_profiles.php?user=mkoniger
+Natural and Physical Science
+BISC347-01
 Adv Plant Div and Ecol w/Lab
-[u'11:10 am - 12:20 pm']
-[u'\nMTh']
-[u'Alden Griffith']
-[u'faculty_profiles.php?user=agriffit']
-[u'Natural and Physical Science']
-#13361
-BISC 347 - L01
+11:10 am - 12:20 pm
+MTh
+Alden Griffith
+faculty_profiles.php?user=agriffit
+Natural and Physical Science
+BISC347-L01
 LAB: Adv Plant Div and Ecol
-[u'08:30 am - 12:20 pm']
-[u'\nW']
-[u'Alden Griffith']
-[u'faculty_profiles.php?user=agriffit']
-[u'Natural and Physical Science']
-#11578
-CAMS 101 - 01
+08:30 am - 12:20 pm
+W
+Alden Griffith
+faculty_profiles.php?user=agriffit
+Natural and Physical Science
+CAMS101-01
 Intro-Cinema&MediaStudies
-[u'11:10 am - 12:20 pm', u'\n07:00 pm - 09:00 pm']
-[u'\nMTh', u'\nM']
-[u'Nicholas Knouf']
-[u'faculty_profiles.php?user=nknouf']
-[u'Arts, Music, Theatre, Film and Video']
-#13306
-CAMS 105 - 01
+11:10 am - 12:20 pm,07:00 pm - 09:00 pm
+MTh,M
+Nicholas Knouf
+faculty_profiles.php?user=nknouf
+Arts, Music, Theatre, Film and Video
+CAMS105-01
 FYS: 21st Century Cinema
-[u'02:50 pm - 04:00 pm']
-[u'\nTF']
-[u'Maurizio Viano']
-[u'faculty_profiles.php?user=mviano']
-[u'Arts, Music, Theatre, Film and Video']
-#11411
-CAMS 135 - 01
+02:50 pm - 04:00 pm
+TF
+Maurizio Viano
+faculty_profiles.php?user=mviano
+Arts, Music, Theatre, Film and Video
+CAMS135-01
 Intro Film & Video Production
-[u'01:30 pm - 05:20 pm']
-[u'\nM']
-[u'Salem Mekuria']
-[u'faculty_profiles.php?user=smekuria']
-[u'Arts, Music, Theatre, Film and Video']
-#11412
-CAMS 138 - 01
+01:30 pm - 05:20 pm
+M
+Salem Mekuria
+faculty_profiles.php?user=smekuria
+Arts, Music, Theatre, Film and Video
+CAMS138-01
 Photography I
-[u'09:50 am - 12:20 pm']
-[u'\nTF']
-[u'David Kelley']
-[u'faculty_profiles.php?user=dkelley']
-[u'Arts, Music, Theatre, Film and Video']
-#12642
-CAMS 202 - 01
+09:50 am - 12:20 pm
+TF
+David Kelley
+faculty_profiles.php?user=dkelley
+Arts, Music, Theatre, Film and Video
+CAMS202-01
 Between Magic and Reality
-[u'07:00 pm - 09:00 pm', u'\n11:10 am - 01:20 pm']
-[u'\nT', u'\nF']
-[u'Maurizio Viano']
-[u'faculty_profiles.php?user=mviano']
-[u'Arts, Music, Theatre, Film and Video']
-#13273
-CAMS 203 - 01
+07:00 pm - 09:00 pm,11:10 am - 01:20 pm
+T,F
+Maurizio Viano
+faculty_profiles.php?user=mviano
+Arts, Music, Theatre, Film and Video
+CAMS203-01
 Chinese Cinema (in Eng)
-[u'04:10 pm - 05:20 pm', u'\n06:30 pm - 09:30 pm']
-[u'\nM', u'\nW']
-[u'Mingwei Song']
-[u'faculty_profiles.php?user=msong2']
-[u'Arts, Music, Theatre, Film and Video', u'\nLanguage and Literature']
-#13140
-CAMS 222 - 01
+04:10 pm - 05:20 pm,06:30 pm - 09:30 pm
+M,W
+Mingwei Song
+faculty_profiles.php?user=msong2
+Arts, Music, Theatre, Film and Video,Language and Literature
+CAMS222-01
 Non-Fiction Film
-[u'11:10 am - 01:20 pm', u'\n11:10 am - 12:20 pm']
-[u'\nT', u'\nF']
-[u'Winifred Wood']
-[u'faculty_profiles.php?user=wwood']
-[u'Arts, Music, Theatre, Film and Video']
-#13141
-CAMS 230 - 01
+11:10 am - 01:20 pm,11:10 am - 12:20 pm
+T,F
+Winifred Wood
+faculty_profiles.php?user=wwood
+Arts, Music, Theatre, Film and Video
+CAMS230-01
 Moving Image Studio
-[u'01:30 pm - 04:00 pm']
-[u'\nMTh']
-[u'David Olsen']
-[u'faculty_profiles.php?user=dolsen']
-[u'Arts, Music, Theatre, Film and Video']
-#12644
-CAMS 234 - 01
+01:30 pm - 04:00 pm
+MTh
+David Olsen
+faculty_profiles.php?user=dolsen
+Arts, Music, Theatre, Film and Video
+CAMS234-01
 The Art of Screenwriting
-[u'09:50 am - 12:20 pm']
-[u'\nW']
-[u'Margaret Cezair-Thompson']
-[u'faculty_profiles.php?user=mcezaire']
-[u'Arts, Music, Theatre, Film and Video', u'\nLanguage and Literature']
-#11948
-CAMS 240 - 01
+09:50 am - 12:20 pm
+W
+Margaret Cezair-Thompson
+faculty_profiles.php?user=mcezaire
+Arts, Music, Theatre, Film and Video,Language and Literature
+CAMS240-01
 Gendering the Bronze Screen
-[u'01:30 pm - 04:00 pm']
-[u'\nT']
-[u'Irene Mata']
-[u'faculty_profiles.php?user=imata']
-[u'Arts, Music, Theatre, Film and Video']
-#12646
-CAMS 241 - 01
+01:30 pm - 04:00 pm
+T
+Irene Mata
+faculty_profiles.php?user=imata
+Arts, Music, Theatre, Film and Video
+CAMS241-01
 Asian Amer Women in Film
-[u'01:30 pm - 04:00 pm']
-[u'\nTh']
-[u'Elena Creef']
-[u'faculty_profiles.php?user=ecreef']
-[u'Arts, Music, Theatre, Film and Video']
-#13345
-CAMS 274 - 01
+01:30 pm - 04:00 pm
+Th
+Elena Creef
+faculty_profiles.php?user=ecreef
+Arts, Music, Theatre, Film and Video
+CAMS274-01
 British Cinema and Literature
-[u'02:50 pm - 04:00 pm', u'\n06:30 pm - 08:15 pm']
-[u'\nTF', u'\nW']
-[u'Luther Tyler']
-[u'faculty_profiles.php?user=ltyler1']
-[u'Arts, Music, Theatre, Film and Video', u'\nLanguage and Literature']
-#13142
-CAMS 305 - 01
+02:50 pm - 04:00 pm,06:30 pm - 08:15 pm
+TF,W
+Luther Tyler
+faculty_profiles.php?user=ltyler1
+Arts, Music, Theatre, Film and Video,Language and Literature
+CAMS305-01
 Ethnographic Film
-[u'06:00 pm - 08:30 pm']
-[u'\nT']
-[u'Deborah Matzner']
-[u'faculty_profiles.php?user=dmatzner']
-[u'Social and Behavioral Analysis']
-#13143
-CAMS 335 - 01
+06:00 pm - 08:30 pm
+T
+Deborah Matzner
+faculty_profiles.php?user=dmatzner
+Social and Behavioral Analysis
+CAMS335-01
 Advanced Video Production
-[u'06:30 pm - 08:30 pm', u'\n01:30 pm - 04:00 pm']
-[u'\nT', u'\nT']
-[u'Salem Mekuria']
-[u'faculty_profiles.php?user=smekuria']
-[u'Arts, Music, Theatre, Film and Video']
-#13372
-CAMS 362 - 01
+06:30 pm - 08:30 pm,01:30 pm - 04:00 pm
+T,T
+Salem Mekuria
+faculty_profiles.php?user=smekuria
+Arts, Music, Theatre, Film and Video
+CAMS362-01
 Experimental Ethnography
-[u'01:30 pm - 04:00 pm', u'\n01:30 pm - 02:40 pm']
-[u'\nM', u'\nTh']
-[u'David Kelley']
-[u'faculty_profiles.php?user=dkelley']
-[u'Arts, Music, Theatre, Film and Video', u'\nSocial and Behavioral Analysis']
-#13333
-CAMS 378 - 01
+01:30 pm - 04:00 pm,01:30 pm - 02:40 pm
+M,Th
+David Kelley
+faculty_profiles.php?user=dkelley
+Arts, Music, Theatre, Film and Video,Social and Behavioral Analysis
+CAMS378-01
 Deconstructive Audio
-[u'02:50 pm - 05:20 pm']
-[u'\nTh']
-[u'Nicholas Knouf']
-[u'faculty_profiles.php?user=nknouf']
-[u'Arts, Music, Theatre, Film and Video']
-#11003
-CHEM 105 - 01
+02:50 pm - 05:20 pm
+Th
+Nicholas Knouf
+faculty_profiles.php?user=nknouf
+Arts, Music, Theatre, Film and Video
+CHEM105-01
 Fundamentals Chemistry w/Lab
-[u'08:30 am - 09:40 am']
-[u'\nMWTh']
-[u'Carla Verschoor']
-[u'faculty_profiles.php?user=cverscho']
-[u'Mathematical Modeling', u'\nNatural and Physical Science']
-#11004
-CHEM 105 - 02
+08:30 am - 09:40 am
+MWTh
+Carla Verschoor
+faculty_profiles.php?user=cverscho
+Mathematical Modeling,Natural and Physical Science
+CHEM105-02
 Fundamentals Chemistry w/Lab
-[u'09:50 am - 11:00 am']
-[u'\nTWF']
-[u'Didem Vardar-Ulu']
-[u'faculty_profiles.php?user=dvardar']
-[u'Mathematical Modeling', u'\nNatural and Physical Science']
-#11005
-CHEM 105 - 03
+09:50 am - 11:00 am
+TWF
+Didem Vardar-Ulu
+faculty_profiles.php?user=dvardar
+Mathematical Modeling,Natural and Physical Science
+CHEM105-03
 Fundamentals Chemistry w/Lab
-[u'11:10 am - 12:20 pm']
-[u'\nTWF']
-[u'Dora Carrico-Moniz']
-[u'faculty_profiles.php?user=dcarrico']
-[u'Mathematical Modeling', u'\nNatural and Physical Science']
-#11006
-CHEM 105 - L01
+11:10 am - 12:20 pm
+TWF
+Dora Carrico-Moniz
+faculty_profiles.php?user=dcarrico
+Mathematical Modeling,Natural and Physical Science
+CHEM105-L01
 LAB:Fundamentals Chemistry
-[u'01:30 pm - 05:00 pm']
-[u'\nM']
-[u'Nicholas Doe']
-[u'faculty_profiles.php?user=ndoe']
-[u'Mathematical Modeling', u'\nNatural and Physical Science']
-#11007
-CHEM 105 - L02
+01:30 pm - 05:00 pm
+M
+Nicholas Doe
+faculty_profiles.php?user=ndoe
+Mathematical Modeling,Natural and Physical Science
+CHEM105-L02
 LAB:Fundamentals Chemistry
-[u'01:30 pm - 05:00 pm']
-[u'\nM']
-[u'Sandor Kadar']
-[u'faculty_profiles.php?user=skadar']
-[u'Mathematical Modeling', u'\nNatural and Physical Science']
-#11008
-CHEM 105 - L03
+01:30 pm - 05:00 pm
+M
+Sandor Kadar
+faculty_profiles.php?user=skadar
+Mathematical Modeling,Natural and Physical Science
+CHEM105-L03
 LAB: Fundamentals Chemistry
-[u'12:30 pm - 04:00 pm']
-[u'\nT']
-[u'Carla Verschoor']
-[u'faculty_profiles.php?user=cverscho']
-[u'Mathematical Modeling', u'\nNatural and Physical Science']
-#11009
-CHEM 105 - L04
+12:30 pm - 04:00 pm
+T
+Carla Verschoor
+faculty_profiles.php?user=cverscho
+Mathematical Modeling,Natural and Physical Science
+CHEM105-L04
 LAB:Fundamentals Chemistry
-[u'02:15 pm - 05:45 pm']
-[u'\nW']
-[u'Nicholas Doe']
-[u'faculty_profiles.php?user=ndoe']
-[u'Mathematical Modeling', u'\nNatural and Physical Science']
-#11010
-CHEM 105 - L05
+02:15 pm - 05:45 pm
+W
+Nicholas Doe
+faculty_profiles.php?user=ndoe
+Mathematical Modeling,Natural and Physical Science
+CHEM105-L05
 LAB:Fundamentals Chemistry
-[u'01:30 pm - 05:00 pm']
-[u'\nTh']
-[u'Carla Verschoor']
-[u'faculty_profiles.php?user=cverscho']
-[u'Mathematical Modeling', u'\nNatural and Physical Science']
-#11268
-CHEM 105 - L06
+01:30 pm - 05:00 pm
+Th
+Carla Verschoor
+faculty_profiles.php?user=cverscho
+Mathematical Modeling,Natural and Physical Science
+CHEM105-L06
 LAB: Fundamentals Chemistry
-[u'12:30 pm - 04:00 pm']
-[u'\nF']
-[u'Donna Trainor']
-[u'faculty_profiles.php?user=dtrainor']
-[u'Mathematical Modeling', u'\nNatural and Physical Science']
-#11980
-CHEM 105P - 01
+12:30 pm - 04:00 pm
+F
+Donna Trainor
+faculty_profiles.php?user=dtrainor
+Mathematical Modeling,Natural and Physical Science
+CHEM105P-01
 Fundamentals of Chem w/Lab
-[u'11:10 am - 12:20 pm']
-[u'\nMTWTh']
-[u'Julia Miwa']
-[u'faculty_profiles.php?user=jmiwa']
-[u'Mathematical Modeling', u'\nNatural and Physical Science']
-#12005
-CHEM 105P - L01
+11:10 am - 12:20 pm
+MTWTh
+Julia Miwa
+faculty_profiles.php?user=jmiwa
+Mathematical Modeling,Natural and Physical Science
+CHEM105P-L01
 LAB: Fundamentals of Chem
-[u'01:30 pm - 05:00 pm']
-[u'\nTh']
-[u'Amanda McCarthy']
-[u'faculty_profiles.php?user=amccart1']
-[u'Mathematical Modeling', u'\nNatural and Physical Science']
-#13370
-CHEM 107 - 01
+01:30 pm - 05:00 pm
+Th
+Amanda McCarthy
+faculty_profiles.php?user=amccart1
+Mathematical Modeling,Natural and Physical Science
+CHEM107-01
 FYS: Science/Culture of Blood
-[u'02:50 pm - 04:00 pm']
-[u'\nMTh']
-[u'Adele Wolfson']
-[u'faculty_profiles.php?user=awolfson']
-[u'Natural and Physical Science', u'\nSocial and Behavioral Analysis']
-#10063
-CHEM 120 - 01
+02:50 pm - 04:00 pm
+MTh
+Adele Wolfson
+faculty_profiles.php?user=awolfson
+Natural and Physical Science,Social and Behavioral Analysis
+CHEM120-01
 Intensive Intro Chem w/Lab
-[u'11:10 am - 12:20 pm']
-[u'\nMWThF']
-[u'Christopher Arumainayagam']
-[u'faculty_profiles.php?user=carumain']
-[u'Mathematical Modeling', u'\nQRF', u'\nNatural and Physical Science']
-#10011
-CHEM 120 - L01
+11:10 am - 12:20 pm
+MWThF
+Christopher Arumainayagam
+faculty_profiles.php?user=carumain
+QRF,Mathematical Modeling,Natural and Physical Science
+CHEM120-L01
 LAB: Intensive Intro Chem
-[u'02:15 pm - 05:45 pm']
-[u'\nW']
-[u'Paul Reisberg']
-[u'faculty_profiles.php?user=preisber']
-[u'Mathematical Modeling', u'\nQRF', u'\nNatural and Physical Science']
-#10108
-CHEM 120 - L02
+02:15 pm - 05:45 pm
+W
+Paul Reisberg
+faculty_profiles.php?user=preisber
+QRF,Mathematical Modeling,Natural and Physical Science
+CHEM120-L02
 LAB: Intensive Intro Chem
-[u'01:30 pm - 05:00 pm']
-[u'\nTh']
-[u'Paul Reisberg']
-[u'faculty_profiles.php?user=preisber']
-[u'Mathematical Modeling', u'\nQRF', u'\nNatural and Physical Science']
-#11126
-CHEM 205 - 01
+01:30 pm - 05:00 pm
+Th
+Paul Reisberg
+faculty_profiles.php?user=preisber
+QRF,Mathematical Modeling,Natural and Physical Science
+CHEM205-01
 Chemical Analy & Equilib w/Lab
-[u'09:50 am - 11:00 am', u'\n09:50 am - 11:00 am']
-[u'\nMTh', u'\nW']
-[u'Donald Elmore']
-[u'faculty_profiles.php?user=delmore']
-[u'Mathematical Modeling', u'\nQRF', u'\nNatural and Physical Science']
-#11258
-CHEM 205 - 02
+09:50 am - 11:00 am,09:50 am - 11:00 am
+MTh,W
+Donald Elmore
+faculty_profiles.php?user=delmore
+QRF,Mathematical Modeling,Natural and Physical Science
+CHEM205-02
 Chemical Analy & Equilib w/Lab
-[u'08:30 am - 09:40 am']
-[u'\nTWF']
-[u'Megan Nunez']
-[u'faculty_profiles.php?user=mnunez']
-[u'Mathematical Modeling', u'\nQRF', u'\nNatural and Physical Science']
-#11127
-CHEM 205 - L01
+08:30 am - 09:40 am
+TWF
+Megan Nunez
+faculty_profiles.php?user=mnunez
+QRF,Mathematical Modeling,Natural and Physical Science
+CHEM205-L01
 LAB:Chemical Analy & Equilib
-[u'01:30 pm - 05:00 pm']
-[u'\nM']
-[u'Amanda McCarthy']
-[u'faculty_profiles.php?user=amccart1']
-[u'Mathematical Modeling', u'\nQRF', u'\nNatural and Physical Science']
-#11128
-CHEM 205 - L02
+01:30 pm - 05:00 pm
+M
+Amanda McCarthy
+faculty_profiles.php?user=amccart1
+QRF,Mathematical Modeling,Natural and Physical Science
+CHEM205-L02
 LAB: Chemical Analy & Equilib
-[u'12:30 pm - 04:00 pm']
-[u'\nT']
-[u'Amanda McCarthy']
-[u'faculty_profiles.php?user=amccart1']
-[u'Mathematical Modeling', u'\nQRF', u'\nNatural and Physical Science']
-#11259
-CHEM 205 - L03
+12:30 pm - 04:00 pm
+T
+Amanda McCarthy
+faculty_profiles.php?user=amccart1
+QRF,Mathematical Modeling,Natural and Physical Science
+CHEM205-L03
 LAB:Chemical Analy & Equilib
-[u'01:30 pm - 05:00 pm']
-[u'\nTh']
-[u'Marilyn Turnbull']
-[u'faculty_profiles.php?user=mturnbul']
-[u'Mathematical Modeling', u'\nQRF', u'\nNatural and Physical Science']
-#11260
-CHEM 205 - L04
+01:30 pm - 05:00 pm
+Th
+Marilyn Turnbull
+faculty_profiles.php?user=mturnbul
+QRF,Mathematical Modeling,Natural and Physical Science
+CHEM205-L04
 LAB: Chemical Analy & Equilib
-[u'12:30 pm - 04:00 pm']
-[u'\nF']
-[u'Marilyn Turnbull']
-[u'faculty_profiles.php?user=mturnbul']
-[u'Mathematical Modeling', u'\nQRF', u'\nNatural and Physical Science']
-#10087
-CHEM 211 - 01
+12:30 pm - 04:00 pm
+F
+Marilyn Turnbull
+faculty_profiles.php?user=mturnbul
+QRF,Mathematical Modeling,Natural and Physical Science
+CHEM211-01
 Organic Chemistry I w/Lab
-[u'08:30 am - 09:40 am']
-[u'\nMWTh']
-[u'David Haines']
-[u'faculty_profiles.php?user=dhaines']
-[u'Natural and Physical Science']
-#10114
-CHEM 211 - 02
+08:30 am - 09:40 am
+MWTh
+David Haines
+faculty_profiles.php?user=dhaines
+Natural and Physical Science
+CHEM211-02
 Organic Chemistry I w/Lab
-[u'09:50 am - 11:00 am']
-[u'\nMWTh']
-[u'Julia Miwa']
-[u'faculty_profiles.php?user=jmiwa']
-[u'Natural and Physical Science']
-#11316
-CHEM 211 - 03
+09:50 am - 11:00 am
+MWTh
+Julia Miwa
+faculty_profiles.php?user=jmiwa
+Natural and Physical Science
+CHEM211-03
 Organic Chemistry I w/Lab
-[u'11:10 am - 12:20 pm']
-[u'\nTWF']
-[u'Michael Hearn']
-[u'faculty_profiles.php?user=mhearn']
-[u'Natural and Physical Science']
-#10025
-CHEM 211 - L01
+11:10 am - 12:20 pm
+TWF
+Michael Hearn
+faculty_profiles.php?user=mhearn
+Natural and Physical Science
+CHEM211-L01
 LAB: Organic Chemistry I
-[u'01:30 pm - 05:00 pm']
-[u'\nM']
-[u'Adrian Huang']
-[u'faculty_profiles.php?user=ahuang2']
-[u'Natural and Physical Science']
-#10050
-CHEM 211 - L02
+01:30 pm - 05:00 pm
+M
+Adrian Huang
+faculty_profiles.php?user=ahuang2
+Natural and Physical Science
+CHEM211-L02
 LAB: Organic Chemistry I
-[u'12:30 pm - 04:00 pm']
-[u'\nT']
-[u'Donna Trainor']
-[u'faculty_profiles.php?user=dtrainor']
-[u'Natural and Physical Science']
-#10106
-CHEM 211 - L03
+12:30 pm - 04:00 pm
+T
+Donna Trainor
+faculty_profiles.php?user=dtrainor
+Natural and Physical Science
+CHEM211-L03
 LAB: Organic Chemistry I
-[u'12:30 pm - 04:00 pm']
-[u'\nT']
-[u'James Moyer']
-[u'faculty_profiles.php?user=jmoyer']
-[u'Natural and Physical Science']
-#10053
-CHEM 211 - L04
+12:30 pm - 04:00 pm
+T
+James Moyer
+faculty_profiles.php?user=jmoyer
+Natural and Physical Science
+CHEM211-L04
 LAB: Organic Chemistry I
-[u'02:15 pm - 05:45 pm']
-[u'\nW']
-[u'James Moyer']
-[u'faculty_profiles.php?user=jmoyer']
-[u'Natural and Physical Science']
-#10049
-CHEM 211 - L05
+02:15 pm - 05:45 pm
+W
+James Moyer
+faculty_profiles.php?user=jmoyer
+Natural and Physical Science
+CHEM211-L05
 LAB: Organic Chemistry I
-[u'01:30 pm - 05:00 pm']
-[u'\nTh']
-[u'Donna Trainor']
-[u'faculty_profiles.php?user=dtrainor']
-[u'Natural and Physical Science']
-#10415
-CHEM 211 - L06
+01:30 pm - 05:00 pm
+Th
+Donna Trainor
+faculty_profiles.php?user=dtrainor
+Natural and Physical Science
+CHEM211-L06
 LAB: Organic Chemistry I
-[u'12:30 pm - 04:00 pm']
-[u'\nF']
-[u'Adrian Huang']
-[u'faculty_profiles.php?user=ahuang2']
-[u'Natural and Physical Science']
-#11129
-CHEM 212 - 01
+12:30 pm - 04:00 pm
+F
+Adrian Huang
+faculty_profiles.php?user=ahuang2
+Natural and Physical Science
+CHEM212-01
 Organic Chemistry II w/Lab
-[u'09:50 am - 11:00 am']
-[u'\nMWTh']
-[u'David Haines']
-[u'faculty_profiles.php?user=dhaines']
-[u'Natural and Physical Science']
-#12759
-CHEM 212 - 02
+09:50 am - 11:00 am
+MWTh
+David Haines
+faculty_profiles.php?user=dhaines
+Natural and Physical Science
+CHEM212-02
 Organic Chemistry II w/Lab
-[u'09:50 am - 11:00 am']
-[u'\nTWF']
-[u'Dora Carrico-Moniz']
-[u'faculty_profiles.php?user=dcarrico']
-[u'Natural and Physical Science']
-#11131
-CHEM 212 - L02
+09:50 am - 11:00 am
+TWF
+Dora Carrico-Moniz
+faculty_profiles.php?user=dcarrico
+Natural and Physical Science
+CHEM212-L02
 LAB: Organic Chemistry II
-[u'01:30 pm - 05:00 pm']
-[u'\nM']
-[u'James Moyer']
-[u'faculty_profiles.php?user=jmoyer']
-[u'Natural and Physical Science']
-#11132
-CHEM 212 - L03
+01:30 pm - 05:00 pm
+M
+James Moyer
+faculty_profiles.php?user=jmoyer
+Natural and Physical Science
+CHEM212-L03
 LAB: Organic Chemistry II
-[u'02:15 pm - 05:45 pm']
-[u'\nW']
-[u'Adrian Huang']
-[u'faculty_profiles.php?user=ahuang2']
-[u'Natural and Physical Science']
-#12760
-CHEM 212 - L04
+02:15 pm - 05:45 pm
+W
+Adrian Huang
+faculty_profiles.php?user=ahuang2
+Natural and Physical Science
+CHEM212-L04
 LAB: Organic Chemistry II
-[u'01:30 pm - 05:00 pm']
-[u'\nTh']
-[u'Adrian Huang']
-[u'faculty_profiles.php?user=ahuang2']
-[u'Natural and Physical Science']
-#12761
-CHEM 212 - L05
+01:30 pm - 05:00 pm
+Th
+Adrian Huang
+faculty_profiles.php?user=ahuang2
+Natural and Physical Science
+CHEM212-L05
 LAB: Organic Chemistry II
-[u'12:30 pm - 04:00 pm']
-[u'\nF']
-[u'Nicholas Doe']
-[u'faculty_profiles.php?user=ndoe']
-[u'Natural and Physical Science']
-#11133
-CHEM 222 - 01
+12:30 pm - 04:00 pm
+F
+Nicholas Doe
+faculty_profiles.php?user=ndoe
+Natural and Physical Science
+CHEM222-01
 Intro to Biochemistry w/Lab
-[u'09:50 am - 11:00 am']
-[u'\nTWF']
-[u'Megan Nunez']
-[u'faculty_profiles.php?user=mnunez']
-[u'Natural and Physical Science']
-#11134
-CHEM 222 - L01
+09:50 am - 11:00 am
+TWF
+Megan Nunez
+faculty_profiles.php?user=mnunez
+Natural and Physical Science
+CHEM222-L01
 LAB:Intro to Biochemistry
-[u'02:15 pm - 05:45 pm']
-[u'\nW']
-[u'Mona Hall']
-[u'faculty_profiles.php?user=mhall1']
-[u'Natural and Physical Science']
-#12068
-CHEM 222 - L03
+02:15 pm - 05:45 pm
+W
+Mona Hall
+faculty_profiles.php?user=mhall1
+Natural and Physical Science
+CHEM222-L03
 LAB:Intro to Biochemistry
-[u'12:30 pm - 04:00 pm']
-[u'\nF']
-[u'Mona Hall']
-[u'faculty_profiles.php?user=mhall1']
-[u'Natural and Physical Science']
-#12067
-CHEM 306 - 01
+12:30 pm - 04:00 pm
+F
+Mona Hall
+faculty_profiles.php?user=mhall1
+Natural and Physical Science
+CHEM306-01
 Sem:Tpc: Org Chem Drug Design
-[u'01:30 pm - 04:00 pm']
-[u'\nM']
-[u'Michael Hearn']
-[u'faculty_profiles.php?user=mhearn']
-[u'Natural and Physical Science']
-#13138
-CHEM 306 - 02
+01:30 pm - 04:00 pm
+M
+Michael Hearn
+faculty_profiles.php?user=mhearn
+Natural and Physical Science
+CHEM306-02
 Sem:Tpc: App.Chem:Sci of Food
-[u'01:00 pm - 04:30 pm']
-[u'\nT']
-[u'Didem Vardar-Ulu']
-[u'faculty_profiles.php?user=dvardar']
-[u'Natural and Physical Science']
-#12228
-CHEM 320 - 01
+01:00 pm - 04:30 pm
+T
+Didem Vardar-Ulu
+faculty_profiles.php?user=dvardar
+Natural and Physical Science
+CHEM320-01
 Adv Biophysical Chemistry Lab
-[u'11:10 am - 12:20 pm']
-[u'\nTh']
-[u'Elizabeth Oakes']
-[u'faculty_profiles.php?user=eoakes']
-[u'Natural and Physical Science']
-#13297
-CHEM 320 - L01
+11:10 am - 12:20 pm
+Th
+Elizabeth Oakes
+faculty_profiles.php?user=eoakes
+Natural and Physical Science
+CHEM320-L01
 LAB: Adv Biophysical Chemistry
-[u'01:30 pm - 05:00 pm']
-[u'\nM']
-[u'Elizabeth Oakes']
-[u'faculty_profiles.php?user=eoakes']
-[u'Natural and Physical Science']
-#13298
-CHEM 320 - L02
+01:30 pm - 05:00 pm
+M
+Elizabeth Oakes
+faculty_profiles.php?user=eoakes
+Natural and Physical Science
+CHEM320-L02
 LAB: Adv Biophysical Chemistry
-[u'12:30 pm - 04:00 pm']
-[u'\nT']
-[u'Elizabeth Oakes']
-[u'faculty_profiles.php?user=eoakes']
-[u'Natural and Physical Science']
-#13139
-CHEM 323 - 01
+12:30 pm - 04:00 pm
+T
+Elizabeth Oakes
+faculty_profiles.php?user=eoakes
+Natural and Physical Science
+CHEM323-01
 Advanced Biochemistry
-[u'08:30 am - 09:40 am', u'\n08:30 am - 09:40 am']
-[u'\nMTh', u'\nW']
-[u'Donald Elmore']
-[u'faculty_profiles.php?user=delmore']
-[u'Natural and Physical Science']
-#12222
-CHEM 330 - 01
+08:30 am - 09:40 am,08:30 am - 09:40 am
+MTh,W
+Donald Elmore
+faculty_profiles.php?user=delmore
+Natural and Physical Science
+CHEM330-01
 Physical Chemistry I with Lab
-[u'08:30 am - 09:40 am']
-[u'\nMWTh']
-[u'Christopher Arumainayagam']
-[u'faculty_profiles.php?user=carumain']
-[u'Mathematical Modeling', u'\nQRF', u'\nNatural and Physical Science']
-#12241
-CHEM 330 - L01
+08:30 am - 09:40 am
+MWTh
+Christopher Arumainayagam
+faculty_profiles.php?user=carumain
+QRF,Mathematical Modeling,Natural and Physical Science
+CHEM330-L01
 LAB: Physical Chemistry I
-[u'12:30 pm - 04:00 pm']
-[u'\nT']
-[u'Sandor Kadar']
-[u'faculty_profiles.php?user=skadar']
-[u'Mathematical Modeling', u'\nQRF', u'\nNatural and Physical Science']
-#12242
-CHEM 330 - L02
+12:30 pm - 04:00 pm
+T
+Sandor Kadar
+faculty_profiles.php?user=skadar
+QRF,Mathematical Modeling,Natural and Physical Science
+CHEM330-L02
 LAB: Physical Chemistry I
-[u'02:15 pm - 05:45 pm']
-[u'\nW']
-[u'Marilyn Turnbull']
-[u'faculty_profiles.php?user=mturnbul']
-[u'Mathematical Modeling', u'\nQRF', u'\nNatural and Physical Science']
-#12290
-CHEM 330 - L03
+02:15 pm - 05:45 pm
+W
+Marilyn Turnbull
+faculty_profiles.php?user=mturnbul
+QRF,Mathematical Modeling,Natural and Physical Science
+CHEM330-L03
 LAB: Physical Chemistry I
-[u'12:30 pm - 04:00 pm']
-[u'\nF']
-[]
-[u'faculty_profiles.php?user=']
-[u'Mathematical Modeling', u'\nQRF', u'\nNatural and Physical Science']
-#10611
-CHEM 361 - 01
+12:30 pm - 04:00 pm
+F
+None assigned
+faculty_profiles.php?user=
+QRF,Mathematical Modeling,Natural and Physical Science
+CHEM361-01
 Analytical Chemistry w/Lab
-[u'09:50 am - 11:00 am']
-[u'\nTF']
-[u'Nancy Mukundan']
-[u'faculty_profiles.php?user=nmukunda']
-[u'Natural and Physical Science', u'\nQRF']
-#13301
-CHEM 361 - L01
+09:50 am - 11:00 am
+TF
+Nancy Mukundan
+faculty_profiles.php?user=nmukunda
+Natural and Physical Science,QRF
+CHEM361-L01
 LAB: Analytical Chemistry
-[u'12:30 pm - 04:00 pm']
-[u'\nT']
-[u'Nancy Mukundan']
-[u'faculty_profiles.php?user=nmukunda']
-[u'Natural and Physical Science', u'\nQRF']
-#13302
-CHEM 361 - L02
+12:30 pm - 04:00 pm
+T
+Nancy Mukundan
+faculty_profiles.php?user=nmukunda
+Natural and Physical Science,QRF
+CHEM361-L02
 LAB: Analytical Chemistry
-[u'12:30 pm - 04:00 pm']
-[u'\nF']
-[u'Nancy Mukundan']
-[u'faculty_profiles.php?user=nmukunda']
-[u'Natural and Physical Science', u'\nQRF']
-#10512
-CHIN 101 - 01
+12:30 pm - 04:00 pm
+F
+Nancy Mukundan
+faculty_profiles.php?user=nmukunda
+Natural and Physical Science,QRF
+CHIN101-01
 Beginning Chinese I
-[u'08:30 am - 09:40 am']
-[u'\nMTWTh']
-[u'Qiuyan Tang']
-[u'faculty_profiles.php?user=qtang']
-[u'None']
-#10513
-CHIN 101 - 02
+08:30 am - 09:40 am
+MTWTh
+Qiuyan Tang
+faculty_profiles.php?user=qtang
+None
+CHIN101-02
 Beginning Chinese I
-[u'09:50 am - 11:00 am']
-[u'\nTWThF']
-[u'Sarah Allen']
-[u'faculty_profiles.php?user=sallen3']
-[u'None']
-#11406
-CHIN 103 - 01
+09:50 am - 11:00 am
+TWThF
+Sarah Allen
+faculty_profiles.php?user=sallen3
+None
+CHIN103-01
 Advanced Beginning Chinese I
-[u'09:50 am - 11:00 am']
-[u'\nMWTh']
-[u'Weina Zhao']
-[u'faculty_profiles.php?user=wzhao']
-[u'None']
-#11622
-CHIN 103 - 02
+09:50 am - 11:00 am
+MWTh
+Weina Zhao
+faculty_profiles.php?user=wzhao
+None
+CHIN103-02
 Advanced Beginning Chinese I
-[u'11:10 am - 12:20 pm']
-[u'\nMWTh']
-[u'Weina Zhao']
-[u'faculty_profiles.php?user=wzhao']
-[u'None']
-#10514
-CHIN 201 - 01
+11:10 am - 12:20 pm
+MWTh
+Weina Zhao
+faculty_profiles.php?user=wzhao
+None
+CHIN201-01
 Intermediate Chinese I
-[u'11:10 am - 12:20 pm']
-[u'\nMTWTh']
-[u'Dai Chen']
-[u'faculty_profiles.php?user=dchen']
-[u'None']
-#10515
-CHIN 201 - 02
+11:10 am - 12:20 pm
+MTWTh
+Dai Chen
+faculty_profiles.php?user=dchen
+None
+CHIN201-02
 Intermediate Chinese I
-[u'01:30 pm - 02:40 pm', u'\n02:15 pm - 03:25 pm']
-[u'\nMTTh', u'\nW']
-[u'Dai Chen']
-[u'faculty_profiles.php?user=dchen']
-[u'None']
-#10520
-CHIN 203 - 01
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm
+MTTh,W
+Dai Chen
+faculty_profiles.php?user=dchen
+None
+CHIN203-01
 Advanced Intermediate Chinese
-[u'08:30 am - 09:40 am']
-[u'\nTWF']
-[u'Yuan-Chu Lam']
-[u'faculty_profiles.php?user=ylam']
-[u'None']
-#11333
-CHIN 203 - 02
+08:30 am - 09:40 am
+TWF
+Yuan-Chu Lam
+faculty_profiles.php?user=ylam
+None
+CHIN203-02
 Advanced Intermediate Chinese
-[u'11:10 am - 12:20 pm', u'\n11:10 am - 12:20 pm']
-[u'\nTF', u'\nW']
-[u'Shiao Wei Tham']
-[u'faculty_profiles.php?user=stham']
-[u'None']
-#12204
-CHIN 209 - 01
+11:10 am - 12:20 pm,11:10 am - 12:20 pm
+TF,W
+Shiao Wei Tham
+faculty_profiles.php?user=stham
+None
+CHIN209-01
 Chinese Ideas (in English)
-[u'01:30 pm - 02:40 pm']
-[u'\nTF']
-[u'Sarah Allen']
-[u'faculty_profiles.php?user=sallen3']
-[u'Language and Literature']
-#13156
-CHIN 243 - 01
+01:30 pm - 02:40 pm
+TF
+Sarah Allen
+faculty_profiles.php?user=sallen3
+Language and Literature
+CHIN243-01
 Chinese Cinema (in Eng)
-[u'04:10 pm - 05:20 pm', u'\n06:30 pm - 09:30 pm']
-[u'\nM', u'\nW']
-[u'Mingwei Song']
-[u'faculty_profiles.php?user=msong2']
-[u'Arts, Music, Theatre, Film and Video', u'\nLanguage and Literature']
-#10154
-CHIN 301 - 01
+04:10 pm - 05:20 pm,06:30 pm - 09:30 pm
+M,W
+Mingwei Song
+faculty_profiles.php?user=msong2
+Arts, Music, Theatre, Film and Video,Language and Literature
+CHIN301-01
 Advanced Chinese I
-[u'09:50 am - 11:00 am']
-[u'\nTWF']
-[u'Yuan-Chu Lam']
-[u'faculty_profiles.php?user=ylam']
-[u'Language and Literature']
-#13429
-CHIN 301 - 02
+09:50 am - 11:00 am
+TWF
+Yuan-Chu Lam
+faculty_profiles.php?user=ylam
+Language and Literature
+CHIN301-02
 Advanced Chinese I
-[u'01:30 pm - 02:40 pm', u'\n02:15 pm - 03:25 pm']
-[u'\nMTh', u'\nW']
-[u'Qiuyan Tang']
-[u'faculty_profiles.php?user=qtang']
-[u'Language and Literature']
-#10527
-CHIN 306 - 01
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm
+MTh,W
+Qiuyan Tang
+faculty_profiles.php?user=qtang
+Language and Literature
+CHIN306-01
 Adv Reading 20th C Culture
-[u'09:50 am - 11:00 am']
-[u'\nMTh']
-[u'Mingwei Song']
-[u'faculty_profiles.php?user=msong2']
-[u'Language and Literature']
-#13145
-CLCV 104 - 01
+09:50 am - 11:00 am
+MTh
+Mingwei Song
+faculty_profiles.php?user=msong2
+Language and Literature
+CLCV104-01
 Classical Mythology
-[u'11:10 am - 12:20 pm']
-[u'\nMTh']
-[u'Bryan Burns']
-[u'faculty_profiles.php?user=bburns']
-[u'Language and Literature', u'\nReligion, Ethics and Moral Philosophy']
-#13146
-CLCV 202 - 01
+11:10 am - 12:20 pm
+MTh
+Bryan Burns
+faculty_profiles.php?user=bburns
+Language and Literature,Religion, Ethics and Moral Philosophy
+CLCV202-01
 The Invention of Athens
-[u'09:50 am - 11:00 am']
-[u'\nTF']
-[u'Adriana Brook']
-[u'faculty_profiles.php?user=']
-[u'Historical Studies', u'\nLanguage and Literature']
-#13147
-CLCV 240 - 01
+09:50 am - 11:00 am
+TF
+Adriana Brook
+faculty_profiles.php?user=
+Historical Studies,Language and Literature
+CLCV240-01
 Romans, Jews, and Christians
-[u'02:15 pm - 04:45 pm']
-[u'\nW']
-[u'Barbara Geller']
-[u'faculty_profiles.php?user=bgeller']
-[u'Historical Studies', u'\nReligion, Ethics and Moral Philosophy']
-#13336
-CLCV 325 - 01
+02:15 pm - 04:45 pm
+W
+Barbara Geller
+faculty_profiles.php?user=bgeller
+Historical Studies,Religion, Ethics and Moral Philosophy
+CLCV325-01
 Beyond Sonnets
-[u'01:30 pm - 02:40 pm']
-[u'\nMTh']
-[u'Elizabeth Young']
-[u'faculty_profiles.php?user=eyoung']
-[u'Language and Literature']
-#12857
-CLSC 214 - 01
+01:30 pm - 02:40 pm
+MTh
+Elizabeth Young
+faculty_profiles.php?user=eyoung
+Language and Literature
+CLSC214-01
 Evolution and Human Behavior
-[u'08:30 am - 09:40 am']
-[u'\nTF']
-[u'Margery Lucas']
-[u'faculty_profiles.php?user=mlucas']
-[u'Epistemology and Cognition', u'\nSocial and Behavioral Analysis']
-#13149
-CPLT 113 - 01
+08:30 am - 09:40 am
+TF
+Margery Lucas
+faculty_profiles.php?user=mlucas
+Epistemology and Cognition,Social and Behavioral Analysis
+CPLT113-01
 Studies in Fiction
-[u'09:50 am - 11:00 am']
-[u'\nTF']
-[u'Timothy Peltason']
-[u'faculty_profiles.php?user=tpeltaso']
-[u'Language and Literature']
-#12669
-CPLT 180 - 01
+09:50 am - 11:00 am
+TF
+Timothy Peltason
+faculty_profiles.php?user=tpeltaso
+Language and Literature
+CPLT180-01
 World Literature
-[u'11:10 am - 12:20 pm']
-[u'\nTF']
-[u'Marilyn Sides']
-[u'faculty_profiles.php?user=msides']
-[u'Language and Literature']
-#13150
-CPLT 284 - 01
+11:10 am - 12:20 pm
+TF
+Marilyn Sides
+faculty_profiles.php?user=msides
+Language and Literature
+CPLT284-01
 Magical Realism
-[u'11:10 am - 12:20 pm']
-[u'\nMTh']
-[u'Adam Weiner']
-[u'faculty_profiles.php?user=aweiner']
-[u'Language and Literature']
-#13337
-CPLT 325 - 01
+11:10 am - 12:20 pm
+MTh
+Adam Weiner
+faculty_profiles.php?user=aweiner
+Language and Literature
+CPLT325-01
 Beyond Sonnets
-[u'01:30 pm - 02:40 pm']
-[u'\nMTh']
-[u'Elizabeth Young']
-[u'faculty_profiles.php?user=eyoung']
-[u'Language and Literature']
-#10041
-CS 110 - 01
+01:30 pm - 02:40 pm
+MTh
+Elizabeth Young
+faculty_profiles.php?user=eyoung
+Language and Literature
+CS110-01
 Computer Science & Internet
-[u'09:50 am - 11:00 am']
-[u'\nMTh']
-[u'Scott Anderson']
-[u'faculty_profiles.php?user=sanderso']
-[u'Mathematical Modeling']
-#10266
-CS 110 - 02
+09:50 am - 11:00 am
+MTh
+Scott Anderson
+faculty_profiles.php?user=sanderso
+Mathematical Modeling
+CS110-02
 Computer Science & Internet
-[u'11:10 am - 12:20 pm']
-[u'\nMTh']
-[u'Eniana Mustafaraj']
-[u'faculty_profiles.php?user=emustafa']
-[u'Mathematical Modeling']
-#10102
-CS 110 - D01
+11:10 am - 12:20 pm
+MTh
+Eniana Mustafaraj
+faculty_profiles.php?user=emustafa
+Mathematical Modeling
+CS110-D01
 DISC:Computer Sci & Internet
-[u'08:30 am - 09:40 am']
-[u'\nT']
-[u'Sohie Lee']
-[u'faculty_profiles.php?user=slee']
-[u'Mathematical Modeling']
-#10036
-CS 110 - D02
+08:30 am - 09:40 am
+T
+Sohie Lee
+faculty_profiles.php?user=slee
+Mathematical Modeling
+CS110-D02
 DISC:Computer Sci & Internet
-[u'09:50 am - 11:00 am']
-[u'\nT']
-[]
-[u'faculty_profiles.php?user=']
-[u'Mathematical Modeling']
-#10074
-CS 110 - D03
+09:50 am - 11:00 am
+T
+None assigned
+faculty_profiles.php?user=
+Mathematical Modeling
+CS110-D03
 DISC:Computer Sci & Internet
-[u'11:10 am - 12:20 pm']
-[u'\nT']
-[]
-[u'faculty_profiles.php?user=']
-[u'Mathematical Modeling']
-#10627
-CS 110 - D04
+11:10 am - 12:20 pm
+T
+None assigned
+faculty_profiles.php?user=
+Mathematical Modeling
+CS110-D04
 DISC: Computer Sci & Internet
-[u'01:30 pm - 02:40 pm']
-[u'\nT']
-[]
-[u'faculty_profiles.php?user=']
-[u'Mathematical Modeling']
-#10006
-CS 111 - 01
+01:30 pm - 02:40 pm
+T
+None assigned
+faculty_profiles.php?user=
+Mathematical Modeling
+CS111-01
 Comp Program & Prob Solving
-[u'09:50 am - 11:00 am']
-[u'\nTF']
-[u'Brian Tjaden']
-[u'faculty_profiles.php?user=btjaden']
-[u'Mathematical Modeling']
-#10042
-CS 111 - 02
+09:50 am - 11:00 am
+TF
+Brian Tjaden
+faculty_profiles.php?user=btjaden
+Mathematical Modeling
+CS111-02
 Comp Program & Prob Solving
-[u'11:10 am - 12:20 pm']
-[u'\nTF']
-[u'Brian Tjaden']
-[u'faculty_profiles.php?user=btjaden']
-[u'Mathematical Modeling']
-#12882
-CS 111 - 03
+11:10 am - 12:20 pm
+TF
+Brian Tjaden
+faculty_profiles.php?user=btjaden
+Mathematical Modeling
+CS111-03
 Comp Program & Prob Solving
-[u'01:30 pm - 02:40 pm']
-[u'\nTF']
-[u'Rhys Price Jones']
-[u'faculty_profiles.php?user=rpricejo']
-[u'Mathematical Modeling']
-#10508
-CS 111 - L01
+01:30 pm - 02:40 pm
+TF
+Rhys Price Jones
+faculty_profiles.php?user=rpricejo
+Mathematical Modeling
+CS111-L01
 LAB:Comp Program & Prob Solv
-[u'08:30 am - 10:20 am']
-[u'\nW']
-[u'Sohie Lee']
-[u'faculty_profiles.php?user=slee']
-[u'Mathematical Modeling']
-#10509
-CS 111 - L02
+08:30 am - 10:20 am
+W
+Sohie Lee
+faculty_profiles.php?user=slee
+Mathematical Modeling
+CS111-L02
 LAB:Comp Program & Prob Solv
-[u'10:30 am - 12:20 pm']
-[u'\nW']
-[u'Sohie Lee']
-[u'faculty_profiles.php?user=slee']
-[u'Mathematical Modeling']
-#10510
-CS 111 - L03
+10:30 am - 12:20 pm
+W
+Sohie Lee
+faculty_profiles.php?user=slee
+Mathematical Modeling
+CS111-L03
 LAB:Comp Program & Prob Solv
-[u'02:15 pm - 04:05 pm']
-[u'\nW']
-[u'Sohie Lee']
-[u'faculty_profiles.php?user=slee']
-[u'Mathematical Modeling']
-#12086
-CS 111 - L04
+02:15 pm - 04:05 pm
+W
+Sohie Lee
+faculty_profiles.php?user=slee
+Mathematical Modeling
+CS111-L04
 Comp Program & Prob Solving
-[u'02:15 pm - 04:05 pm']
-[u'\nW']
-[u'Jean Herbst']
-[u'faculty_profiles.php?user=jherbst']
-[u'Mathematical Modeling']
-#12772
-CS 111 - L05
+02:15 pm - 04:05 pm
+W
+Jean Herbst
+faculty_profiles.php?user=jherbst
+Mathematical Modeling
+CS111-L05
 Comp Program & Prob Solving
-[u'04:15 pm - 06:05 pm']
-[u'\nW']
-[u'Jean Herbst']
-[u'faculty_profiles.php?user=jherbst']
-[u'Mathematical Modeling']
-#13303
-CS 111 - L06
+04:15 pm - 06:05 pm
+W
+Jean Herbst
+faculty_profiles.php?user=jherbst
+Mathematical Modeling
+CS111-L06
 Comp Program & Prob Solving
-[u'10:30 am - 12:20 pm']
-[u'\nTh']
-[u'Sohie Lee']
-[u'faculty_profiles.php?user=slee']
-[u'Mathematical Modeling']
-#13151
-CS 114 - 01
+10:30 am - 12:20 pm
+Th
+Sohie Lee
+faculty_profiles.php?user=slee
+Mathematical Modeling
+CS114-01
 Socio-Technological Web w/Disc
-[u'08:30 am - 09:40 am']
-[u'\nTF']
-[u'Darakhshan Mir']
-[u'faculty_profiles.php?user=dmir']
-[u'Mathematical Modeling']
-#13257
-CS 114 - D01
+08:30 am - 09:40 am
+TF
+Darakhshan Mir
+faculty_profiles.php?user=dmir
+Mathematical Modeling
+CS114-D01
 DISC: Socio-Technological Web
-[u'08:30 am - 09:40 am']
-[u'\nM']
-[u'Darakhshan Mir']
-[u'faculty_profiles.php?user=dmir']
-[u'Mathematical Modeling']
-#13152
-CS 117 - 01
+08:30 am - 09:40 am
+M
+Darakhshan Mir
+faculty_profiles.php?user=dmir
+Mathematical Modeling
+CS117-01
 Inventing Mobile Apps w/Disc.
-[u'01:30 pm - 02:40 pm']
-[u'\nMTh']
-[u'Franklyn Turbak']
-[u'faculty_profiles.php?user=fturbak']
-[u'Mathematical Modeling']
-#13261
-CS 117 - D01
+01:30 pm - 02:40 pm
+MTh
+Franklyn Turbak
+faculty_profiles.php?user=fturbak
+Mathematical Modeling
+CS117-D01
 DISC: Inventing Mobile Apps
-[u'09:50 am - 11:00 am']
-[u'\nW']
-[u'Stella Kakavouli']
-[u'faculty_profiles.php?user=skakavou']
-[u'Mathematical Modeling']
-#13262
-CS 117 - D02
+09:50 am - 11:00 am
+W
+Stella Kakavouli
+faculty_profiles.php?user=skakavou
+Mathematical Modeling
+CS117-D02
 DISC: Inventing Mobile Apps
-[u'11:10 am - 12:20 pm']
-[u'\nW']
-[u'Stella Kakavouli']
-[u'faculty_profiles.php?user=skakavou']
-[u'Mathematical Modeling']
-#12085
-CS 215 - 01
+11:10 am - 12:20 pm
+W
+Stella Kakavouli
+faculty_profiles.php?user=skakavou
+Mathematical Modeling
+CS215-01
 Multimedia Design &Programming
-[u'11:10 am - 12:20 pm']
-[u'\nTWF']
-[u'Panagiotis Metaxas']
-[u'faculty_profiles.php?user=pmetaxas']
-[u'Mathematical Modeling']
-#10062
-CS 230 - 01
+11:10 am - 12:20 pm
+TWF
+Panagiotis Metaxas
+faculty_profiles.php?user=pmetaxas
+Mathematical Modeling
+CS230-01
 Data Structures w/Lab
-[u'09:50 am - 11:00 am']
-[u'\nMTh']
-[u'Orit Shaer']
-[u'faculty_profiles.php?user=oshaer']
-[u'Mathematical Modeling']
-#12877
-CS 230 - 02
+09:50 am - 11:00 am
+MTh
+Orit Shaer
+faculty_profiles.php?user=oshaer
+Mathematical Modeling
+CS230-02
 Data Structures w/Lab
-[u'11:10 am - 12:20 pm']
-[u'\nMTh']
-[u'Benjamin Wood']
-[u'faculty_profiles.php?user=bwood5']
-[u'Mathematical Modeling']
-#10788
-CS 230 - L01
+11:10 am - 12:20 pm
+MTh
+Benjamin Wood
+faculty_profiles.php?user=bwood5
+Mathematical Modeling
+CS230-L01
 LAB: Data Structures
-[u'01:30 pm - 03:20 pm']
-[u'\nTh']
-[u'Stella Kakavouli']
-[u'faculty_profiles.php?user=skakavou']
-[u'Mathematical Modeling']
-#10789
-CS 230 - L02
+01:30 pm - 03:20 pm
+Th
+Stella Kakavouli
+faculty_profiles.php?user=skakavou
+Mathematical Modeling
+CS230-L02
 LAB: Data Structures
-[u'08:30 am - 10:20 am']
-[u'\nF']
-[u'Stella Kakavouli']
-[u'faculty_profiles.php?user=skakavou']
-[u'Mathematical Modeling']
-#12299
-CS 230 - L03
+08:30 am - 10:20 am
+F
+Stella Kakavouli
+faculty_profiles.php?user=skakavou
+Mathematical Modeling
+CS230-L03
 LAB: Data Structures
-[u'10:30 am - 12:20 pm']
-[u'\nF']
-[u'Stella Kakavouli']
-[u'faculty_profiles.php?user=skakavou']
-[u'Mathematical Modeling']
-#13304
-CS 230 - L04
+10:30 am - 12:20 pm
+F
+Stella Kakavouli
+faculty_profiles.php?user=skakavou
+Mathematical Modeling
+CS230-L04
 LAB: Data Structures
-[u'01:30 pm - 03:20 pm']
-[u'\nF']
-[u'Stella Kakavouli']
-[u'faculty_profiles.php?user=skakavou']
-[u'Mathematical Modeling']
-#13153
-CS 231 - 01
+01:30 pm - 03:20 pm
+F
+Stella Kakavouli
+faculty_profiles.php?user=skakavou
+Mathematical Modeling
+CS231-01
 Fundamental Algorithms
-[u'02:50 pm - 04:00 pm']
-[u'\nTF']
-[u'Panagiotis Metaxas']
-[u'faculty_profiles.php?user=pmetaxas']
-[u'Mathematical Modeling']
-#10859
-CS 235 - 01
+02:50 pm - 04:00 pm
+TF
+Panagiotis Metaxas
+faculty_profiles.php?user=pmetaxas
+Mathematical Modeling
+CS235-01
 Languages & Automata
-[u'08:30 am - 09:40 am']
-[u'\nTWF']
-[u'Rhys Price Jones']
-[u'faculty_profiles.php?user=rpricejo']
-[u'Mathematical Modeling']
-#13275
-CS 240 - 01
+08:30 am - 09:40 am
+TWF
+Rhys Price Jones
+faculty_profiles.php?user=rpricejo
+Mathematical Modeling
+CS240-01
 Intro MachineOrganization w/La
-[u'01:30 pm - 02:40 pm']
-[u'\nTF']
-[u'Benjamin Wood']
-[u'faculty_profiles.php?user=bwood5']
-[u'Mathematical Modeling']
-#10026
-CS 240 - L01
+01:30 pm - 02:40 pm
+TF
+Benjamin Wood
+faculty_profiles.php?user=bwood5
+Mathematical Modeling
+CS240-L01
 LAB: Intro MachineOrganization
-[u'01:30 pm - 04:30 pm']
-[u'\nM']
-[u'Jean Herbst']
-[u'faculty_profiles.php?user=jherbst']
-[u'Mathematical Modeling']
-#10878
-CS 240 - L02
+01:30 pm - 04:30 pm
+M
+Jean Herbst
+faculty_profiles.php?user=jherbst
+Mathematical Modeling
+CS240-L02
 LAB: Intro MachineOrganization
-[u'05:30 pm - 08:30 pm']
-[u'\nM']
-[u'Jean Herbst']
-[u'faculty_profiles.php?user=jherbst']
-[u'Mathematical Modeling']
-#12670
-CS 307 - 01
+05:30 pm - 08:30 pm
+M
+Jean Herbst
+faculty_profiles.php?user=jherbst
+Mathematical Modeling
+CS307-01
 Computer Graphics
-[u'11:10 am - 12:20 pm']
-[u'\nMTh']
-[u'Scott Anderson']
-[u'faculty_profiles.php?user=sanderso']
-[u'Mathematical Modeling']
-#12671
-CS 320 - 01
+11:10 am - 12:20 pm
+MTh
+Scott Anderson
+faculty_profiles.php?user=sanderso
+Mathematical Modeling
+CS320-01
 Tangible User Interfaces
-[u'01:30 pm - 02:40 pm']
-[u'\nMTh']
-[u'Orit Shaer']
-[u'faculty_profiles.php?user=oshaer']
-[u'Mathematical Modeling']
-#13340
-CS 322 - 01
+01:30 pm - 02:40 pm
+MTh
+Orit Shaer
+faculty_profiles.php?user=oshaer
+Mathematical Modeling
+CS322-01
 Sem: Digital Tech & Learning
-[u'09:50 am - 12:20 pm']
-[u'\nT']
-[u'Robbin Chapman']
-[u'faculty_profiles.php?user=rchapman']
-[u'Epistemology and Cognition']
-#13155
-CS 342 - 01
+09:50 am - 12:20 pm
+T
+Robbin Chapman
+faculty_profiles.php?user=rchapman
+Epistemology and Cognition
+CS342-01
 Computer Security w/Disc
-[u'09:50 am - 11:00 am']
-[u'\nMTh']
-[u'Franklyn Turbak']
-[u'faculty_profiles.php?user=fturbak']
-[u'Mathematical Modeling']
-#13259
-CS 342 - D01
+09:50 am - 11:00 am
+MTh
+Franklyn Turbak
+faculty_profiles.php?user=fturbak
+Mathematical Modeling
+CS342-D01
 DISC: Computer Security
-[u'09:50 am - 11:00 am']
-[u'\nT']
-[u'Franklyn Turbak']
-[u'faculty_profiles.php?user=fturbak']
-[u'Mathematical Modeling']
-#13260
-CS 342 - D02
+09:50 am - 11:00 am
+T
+Franklyn Turbak
+faculty_profiles.php?user=fturbak
+Mathematical Modeling
+CS342-D02
 DISC: Computer Security
-[u'11:10 am - 12:20 pm']
-[u'\nT']
-[u'Franklyn Turbak']
-[u'faculty_profiles.php?user=fturbak']
-[u'Mathematical Modeling']
-#13307
-CS 342 - D03
+11:10 am - 12:20 pm
+T
+Franklyn Turbak
+faculty_profiles.php?user=fturbak
+Mathematical Modeling
+CS342-D03
 DISC: Computer Security
-[u'02:15 pm - 03:25 pm']
-[u'\nW']
-[u'Franklyn Turbak']
-[u'faculty_profiles.php?user=fturbak']
-[u'Mathematical Modeling']
-#13338
-EALC 245 - 01
+02:15 pm - 03:25 pm
+W
+Franklyn Turbak
+faculty_profiles.php?user=fturbak
+Mathematical Modeling
+EALC245-01
 The Book in East Asia (Eng)
-[u'01:30 pm - 02:40 pm']
-[u'\nTF']
-[u'Kristin Williams']
-[u'faculty_profiles.php?user=kwillia6']
-[u'Language and Literature']
-#13415
-ECON 100 - 01
+01:30 pm - 02:40 pm
+TF
+Kristin Williams
+faculty_profiles.php?user=kwillia6
+Language and Literature
+ECON100-01
 FYS: American Labor Market
-[u'01:30 pm - 02:40 pm']
-[u'\nTF']
-[u'Ann Velenchik']
-[u'faculty_profiles.php?user=avelench']
-[u'Social and Behavioral Analysis']
-#10012
-ECON 101 - 01
+01:30 pm - 02:40 pm
+TF
+Ann Velenchik
+faculty_profiles.php?user=avelench
+Social and Behavioral Analysis
+ECON101-01
 Principles of Microeconomics
-[u'01:30 pm - 02:40 pm', u'\n02:15 pm - 03:25 pm']
-[u'\nMTh', u'\nW1']
-[u'Pinar Keskin']
-[u'faculty_profiles.php?user=pkeskin']
-[u'Social and Behavioral Analysis']
-#10088
-ECON 101 - 02
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm
+MTh,W1
+Pinar Keskin
+faculty_profiles.php?user=pkeskin
+Social and Behavioral Analysis
+ECON101-02
 Principles of Microeconomics
-[u'08:30 am - 09:40 am', u'\n08:30 am - 09:40 am']
-[u'\nTF', u'\nW2']
-[u'Patrick McEwan']
-[u'faculty_profiles.php?user=pmcewan']
-[u'Social and Behavioral Analysis']
-#13430
-ECON 101 - 03
+08:30 am - 09:40 am,08:30 am - 09:40 am
+TF,W2
+Patrick McEwan
+faculty_profiles.php?user=pmcewan
+Social and Behavioral Analysis
+ECON101-03
 Principles of Microeconomics
-[u'09:50 am - 11:00 am', u'\n09:50 am - 11:00 am']
-[u'\nMTh', u'\nW1']
-[u'Eunice Han']
-[u'faculty_profiles.php?user=ehan3']
-[u'Social and Behavioral Analysis']
-#10947
-ECON 101 - 04
+09:50 am - 11:00 am,09:50 am - 11:00 am
+MTh,W1
+Eunice Han
+faculty_profiles.php?user=ehan3
+Social and Behavioral Analysis
+ECON101-04
 Principles of Microeconomics
-[u'11:10 am - 12:20 pm', u'\n11:10 am - 12:20 pm']
-[u'\nTF', u'\nW2']
-[u'Patrick McEwan']
-[u'faculty_profiles.php?user=pmcewan']
-[u'Social and Behavioral Analysis']
-#13431
-ECON 101 - 05
+11:10 am - 12:20 pm,11:10 am - 12:20 pm
+TF,W2
+Patrick McEwan
+faculty_profiles.php?user=pmcewan
+Social and Behavioral Analysis
+ECON101-05
 Principles of Microeconomics
-[u'01:30 pm - 02:40 pm', u'\n02:15 pm - 03:25 pm']
-[u'\nMTh', u'\nW1']
-[u'Eunice Han']
-[u'faculty_profiles.php?user=ehan3']
-[u'Social and Behavioral Analysis']
-#13432
-ECON 101 - 06
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm
+MTh,W1
+Eunice Han
+faculty_profiles.php?user=ehan3
+Social and Behavioral Analysis
+ECON101-06
 Principles of Microeconomics
-[u'09:50 am - 11:00 am', u'\n09:50 am - 11:00 am']
-[u'\nTF', u'\nW2']
-[u'Eunice Han']
-[u'faculty_profiles.php?user=ehan3']
-[u'Social and Behavioral Analysis']
-#10083
-ECON 102 - 01
+09:50 am - 11:00 am,09:50 am - 11:00 am
+TF,W2
+Eunice Han
+faculty_profiles.php?user=ehan3
+Social and Behavioral Analysis
+ECON102-01
 Principles of Macroeconomics
-[u'08:30 am - 09:40 am', u'\n08:30 am - 09:40 am']
-[u'\nMTh', u'\nW1']
-[u'Daniel Sichel']
-[u'faculty_profiles.php?user=dsichel']
-[u'Social and Behavioral Analysis']
-#10033
-ECON 102 - 02
+08:30 am - 09:40 am,08:30 am - 09:40 am
+MTh,W1
+Daniel Sichel
+faculty_profiles.php?user=dsichel
+Social and Behavioral Analysis
+ECON102-02
 Principles of Macroeconomics
-[u'11:10 am - 12:20 pm', u'\n02:15 pm - 03:25 pm']
-[u'\nTF', u'\nW2']
-[u'Olga Shurchkov']
-[u'faculty_profiles.php?user=oshurchk']
-[u'Social and Behavioral Analysis']
-#12253
-ECON 102 - 03
+11:10 am - 12:20 pm,02:15 pm - 03:25 pm
+TF,W2
+Olga Shurchkov
+faculty_profiles.php?user=oshurchk
+Social and Behavioral Analysis
+ECON102-03
 Principles of Macroeconomics
-[u'01:30 pm - 02:40 pm', u'\n02:15 pm - 03:25 pm']
-[u'\nTF', u'\nW2']
-[u'Olga Shurchkov']
-[u'faculty_profiles.php?user=oshurchk']
-[u'Social and Behavioral Analysis']
-#12186
-ECON 103 - 01
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm
+TF,W2
+Olga Shurchkov
+faculty_profiles.php?user=oshurchk
+Social and Behavioral Analysis
+ECON103-01
 Intro Prob&Stat Methods w/Lab
-[u'08:30 am - 09:40 am', u'\n08:30 am - 09:40 am']
-[u'\nMTh', u'\nW1']
-[u'Joseph Swingle']
-[u'faculty_profiles.php?user=jswingle']
-[u'QRF', u'\nSocial and Behavioral Analysis']
-#11312
-ECON 103 - 02
+08:30 am - 09:40 am,08:30 am - 09:40 am
+MTh,W1
+Joseph Swingle
+faculty_profiles.php?user=jswingle
+QRF,Social and Behavioral Analysis
+ECON103-02
 Intro Prob&Stat Methods w/Lab
-[u'11:10 am - 12:20 pm', u'\n11:10 am - 12:20 pm']
-[u'\nMTh', u'\nW1']
-[u'Robin McKnight']
-[u'faculty_profiles.php?user=rmcknigh']
-[u'QRF', u'\nSocial and Behavioral Analysis']
-#13277
-ECON 103 - 03
+11:10 am - 12:20 pm,11:10 am - 12:20 pm
+MTh,W1
+Robin McKnight
+faculty_profiles.php?user=rmcknigh
+QRF,Social and Behavioral Analysis
+ECON103-03
 Intro Prob&Stat Methods w/Lab
-[u'02:50 pm - 04:00 pm', u'\n03:35 pm - 04:45 pm']
-[u'\nMTh', u'\nW1']
-[u'Phillip Levine']
-[u'faculty_profiles.php?user=plevine']
-[u'QRF', u'\nSocial and Behavioral Analysis']
-#11138
-ECON 103 - 1LA
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm
+MTh,W1
+Phillip Levine
+faculty_profiles.php?user=plevine
+QRF,Social and Behavioral Analysis
+ECON103-1LA
 LAB: Prob&Statistical Methods
-[u'09:50 am - 11:00 am']
-[u'\nW']
-[u'Joseph Swingle']
-[u'faculty_profiles.php?user=jswingle']
-[u'QRF', u'\nSocial and Behavioral Analysis']
-#11139
-ECON 103 - 1LB
+09:50 am - 11:00 am
+W
+Joseph Swingle
+faculty_profiles.php?user=jswingle
+QRF,Social and Behavioral Analysis
+ECON103-1LB
 LAB: Prob&Statistical Methods
-[u'11:10 am - 12:20 pm']
-[u'\nW']
-[u'Joseph Swingle']
-[u'faculty_profiles.php?user=jswingle']
-[u'QRF', u'\nSocial and Behavioral Analysis']
-#11140
-ECON 103 - 2LA
+11:10 am - 12:20 pm
+W
+Joseph Swingle
+faculty_profiles.php?user=jswingle
+QRF,Social and Behavioral Analysis
+ECON103-2LA
 LAB: Prob&Statistical Methods
-[u'09:50 am - 11:00 am']
-[u'\nT']
-[u'Robin McKnight']
-[u'faculty_profiles.php?user=rmcknigh']
-[u'QRF', u'\nSocial and Behavioral Analysis']
-#11141
-ECON 103 - 2LB
+09:50 am - 11:00 am
+T
+Robin McKnight
+faculty_profiles.php?user=rmcknigh
+QRF,Social and Behavioral Analysis
+ECON103-2LB
 LAB: Prob&Statistical Methods
-[u'11:10 am - 12:20 pm']
-[u'\nT']
-[u'Robin McKnight']
-[u'faculty_profiles.php?user=rmcknigh']
-[u'QRF', u'\nSocial and Behavioral Analysis']
-#13280
-ECON 103 - 3LA
+11:10 am - 12:20 pm
+T
+Robin McKnight
+faculty_profiles.php?user=rmcknigh
+QRF,Social and Behavioral Analysis
+ECON103-3LA
 LAB: Intro Prob&Stat Method
-[u'01:30 pm - 02:40 pm']
-[u'\nT']
-[u'Phillip Levine']
-[u'faculty_profiles.php?user=plevine']
-[u'QRF', u'\nSocial and Behavioral Analysis']
-#13282
-ECON 103 - 3LB
+01:30 pm - 02:40 pm
+T
+Phillip Levine
+faculty_profiles.php?user=plevine
+QRF,Social and Behavioral Analysis
+ECON103-3LB
 LAB: Intro Prob&Stat Methods
-[u'02:50 pm - 04:00 pm']
-[u'\nT']
-[u'Phillip Levine']
-[u'faculty_profiles.php?user=plevine']
-[u'QRF', u'\nSocial and Behavioral Analysis']
-#11165
-ECON 201 - 01
+02:50 pm - 04:00 pm
+T
+Phillip Levine
+faculty_profiles.php?user=plevine
+QRF,Social and Behavioral Analysis
+ECON201-01
 Intermediate Micro Analysis
-[u'08:30 am - 09:40 am']
-[u'\nTWF']
-[u'Susan Skeath van Mulbregt']
-[u'faculty_profiles.php?user=sskeath']
-[u'Social and Behavioral Analysis']
-#10103
-ECON 201 - 02
+08:30 am - 09:40 am
+TWF
+Susan Skeath van Mulbregt
+faculty_profiles.php?user=sskeath
+Social and Behavioral Analysis
+ECON201-02
 Intermediate Micro Analysis
-[u'08:30 am - 09:40 am']
-[u'\nMWTh']
-[u'Daniel Fetter']
-[u'faculty_profiles.php?user=dfetter']
-[u'Social and Behavioral Analysis']
-#12763
-ECON 201 - 03
+08:30 am - 09:40 am
+MWTh
+Daniel Fetter
+faculty_profiles.php?user=dfetter
+Social and Behavioral Analysis
+ECON201-03
 Intermediate Micro Analysis
-[u'11:10 am - 12:20 pm']
-[u'\nTWF']
-[u'Susan Skeath van Mulbregt']
-[u'faculty_profiles.php?user=sskeath']
-[u'Social and Behavioral Analysis']
-#10046
-ECON 202 - 01
+11:10 am - 12:20 pm
+TWF
+Susan Skeath van Mulbregt
+faculty_profiles.php?user=sskeath
+Social and Behavioral Analysis
+ECON202-01
 Intermediate Macro Analysis
-[u'08:30 am - 09:40 am', u'\n08:30 am - 09:40 am']
-[u'\nMTh', u'\nW']
-[u'Seth Neumuller']
-[u'faculty_profiles.php?user=sneumull']
-[u'Social and Behavioral Analysis']
-#10111
-ECON 202 - 02
+08:30 am - 09:40 am,08:30 am - 09:40 am
+MTh,W
+Seth Neumuller
+faculty_profiles.php?user=sneumull
+Social and Behavioral Analysis
+ECON202-02
 Intermediate Macro Analysis
-[u'09:50 am - 11:00 am']
-[u'\nMWTh']
-[u'Seth Neumuller']
-[u'faculty_profiles.php?user=sneumull']
-[u'Social and Behavioral Analysis']
-#11144
-ECON 203 - 01
+09:50 am - 11:00 am
+MWTh
+Seth Neumuller
+faculty_profiles.php?user=sneumull
+Social and Behavioral Analysis
+ECON203-01
 Econometrics
-[u'09:50 am - 11:00 am', u'\n09:50 am - 11:00 am']
-[u'\nMTh', u'\nW']
-[u'Kyung-Hong Park']
-[u'faculty_profiles.php?user=kpark4']
-[u'Social and Behavioral Analysis']
-#11262
-ECON 203 - 02
+09:50 am - 11:00 am,09:50 am - 11:00 am
+MTh,W
+Kyung-Hong Park
+faculty_profiles.php?user=kpark4
+Social and Behavioral Analysis
+ECON203-02
 Econometrics
-[u'11:10 am - 12:20 pm', u'\n11:10 am - 12:20 pm']
-[u'\nMTh', u'\nW']
-[u'Kristin Butcher']
-[u'faculty_profiles.php?user=kbutcher']
-[u'Social and Behavioral Analysis']
-#11988
-ECON 203 - 03
+11:10 am - 12:20 pm,11:10 am - 12:20 pm
+MTh,W
+Kristin Butcher
+faculty_profiles.php?user=kbutcher
+Social and Behavioral Analysis
+ECON203-03
 Econometrics
-[u'02:50 pm - 04:00 pm', u'\n03:35 pm - 04:45 pm']
-[u'\nMTh', u'\nW']
-[u'Kyung-Hong Park']
-[u'faculty_profiles.php?user=kpark4']
-[u'Social and Behavioral Analysis']
-#12765
-ECON 210 - 01
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm
+MTh,W
+Kyung-Hong Park
+faculty_profiles.php?user=kpark4
+Social and Behavioral Analysis
+ECON210-01
 Financial Markets
-[u'08:30 am - 09:40 am', u'\n08:30 am - 09:40 am']
-[u'\nTF', u'\nW2']
-[u'Joseph Joyce']
-[u'faculty_profiles.php?user=jjoyce']
-[u'Social and Behavioral Analysis']
-#12183
-ECON 214 - 01
+08:30 am - 09:40 am,08:30 am - 09:40 am
+TF,W2
+Joseph Joyce
+faculty_profiles.php?user=jjoyce
+Social and Behavioral Analysis
+ECON214-01
 Trade Policy
-[u'09:50 am - 11:00 am', u'\n09:50 am - 11:00 am']
-[u'\nTF', u'\nW2']
-[u'David Lindauer']
-[u'faculty_profiles.php?user=dlindaue']
-[u'Social and Behavioral Analysis']
-#13283
-ECON 228 - 01
+09:50 am - 11:00 am,09:50 am - 11:00 am
+TF,W2
+David Lindauer
+faculty_profiles.php?user=dlindaue
+Social and Behavioral Analysis
+ECON228-01
 Environmental & Resource Econ
-[u'02:50 pm - 04:00 pm', u'\n03:35 pm - 04:45 pm']
-[u'\nMTh', u'\nW1']
-[u'Pinar Keskin']
-[u'faculty_profiles.php?user=pkeskin']
-[u'Social and Behavioral Analysis']
-#13286
-ECON 232 - 01
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm
+MTh,W1
+Pinar Keskin
+faculty_profiles.php?user=pkeskin
+Social and Behavioral Analysis
+ECON232-01
 Health Economics
-[u'01:30 pm - 02:40 pm']
-[u'\nTF']
-[u'Courtney Coile']
-[u'faculty_profiles.php?user=ccoile']
-[u'Social and Behavioral Analysis']
-#13287
-ECON 242 - 01
+01:30 pm - 02:40 pm
+TF
+Courtney Coile
+faculty_profiles.php?user=ccoile
+Social and Behavioral Analysis
+ECON242-01
 The Information Economy
-[u'11:10 am - 12:20 pm']
-[u'\nMTh']
-[u'Brett Danaher']
-[u'faculty_profiles.php?user=bdanaher']
-[u'Social and Behavioral Analysis']
-#13288
-ECON 303 - 01
+11:10 am - 12:20 pm
+MTh
+Brett Danaher
+faculty_profiles.php?user=bdanaher
+Social and Behavioral Analysis
+ECON303-01
 Advanced Econometrics
-[u'09:50 am - 11:00 am']
-[u'\nMTh']
-[u'Daniel Fetter']
-[u'faculty_profiles.php?user=dfetter']
-[u'Social and Behavioral Analysis']
-#13289
-ECON 310 - 01
+09:50 am - 11:00 am
+MTh
+Daniel Fetter
+faculty_profiles.php?user=dfetter
+Social and Behavioral Analysis
+ECON310-01
 Public Economics
-[u'09:50 am - 11:00 am']
-[u'\nTF']
-[u'Courtney Coile']
-[u'faculty_profiles.php?user=ccoile']
-[u'Social and Behavioral Analysis']
-#13290
-ECON 311 - 01
+09:50 am - 11:00 am
+TF
+Courtney Coile
+faculty_profiles.php?user=ccoile
+Social and Behavioral Analysis
+ECON311-01
 Economics of Immigration
-[u'02:50 pm - 05:20 pm']
-[u'\nTh']
-[u'Kristin Butcher']
-[u'faculty_profiles.php?user=kbutcher']
-[u'Social and Behavioral Analysis']
-#13284
-ECON 313 - 01
+02:50 pm - 05:20 pm
+Th
+Kristin Butcher
+faculty_profiles.php?user=kbutcher
+Social and Behavioral Analysis
+ECON313-01
 International Macroeconomics
-[u'11:10 am - 12:20 pm', u'\n11:10 am - 12:20 pm']
-[u'\nTF', u'\nW2']
-[u'Joseph Joyce']
-[u'faculty_profiles.php?user=jjoyce']
-[u'Social and Behavioral Analysis']
-#11996
-ECON 334 - 01
+11:10 am - 12:20 pm,11:10 am - 12:20 pm
+TF,W2
+Joseph Joyce
+faculty_profiles.php?user=jjoyce
+Social and Behavioral Analysis
+ECON334-01
 Domestic Macroeconomic Policy
-[u'11:10 am - 12:20 pm']
-[u'\nMTh']
-[u'Daniel Sichel']
-[u'faculty_profiles.php?user=dsichel']
-[u'Social and Behavioral Analysis']
-#13292
-ECON 341 - 01
+11:10 am - 12:20 pm
+MTh
+Daniel Sichel
+faculty_profiles.php?user=dsichel
+Social and Behavioral Analysis
+ECON341-01
 Industrial Organization
-[u'04:10 pm - 05:20 pm']
-[u'\nMTh']
-[u'Brett Danaher']
-[u'faculty_profiles.php?user=bdanaher']
-[u'Social and Behavioral Analysis']
-#12770
-ECON 343 - 01
+04:10 pm - 05:20 pm
+MTh
+Brett Danaher
+faculty_profiles.php?user=bdanaher
+Social and Behavioral Analysis
+ECON343-01
 Sem: Feminist Economics
-[u'02:50 pm - 05:20 pm']
-[u'\nTh']
-[u'Julie Matthaei']
-[u'faculty_profiles.php?user=jmatthae']
-[u'Social and Behavioral Analysis']
-#11368
-ECON 380 - 01
+02:50 pm - 05:20 pm
+Th
+Julie Matthaei
+faculty_profiles.php?user=jmatthae
+Social and Behavioral Analysis
+ECON380-01
 Economics Research Seminar
-[u'06:00 pm - 07:30 pm']
-[u'\nT']
-[u'Robin McKnight']
-[u'faculty_profiles.php?user=rmcknigh']
-[u'Social and Behavioral Analysis']
-#11794
-EDUC 212 - 01
+06:00 pm - 07:30 pm
+T
+Robin McKnight
+faculty_profiles.php?user=rmcknigh
+Social and Behavioral Analysis
+EDUC212-01
 History of American Education
-[u'01:30 pm - 04:00 pm']
-[u'\nT']
-[u'Barbara Beatty']
-[u'faculty_profiles.php?user=bbeatty']
-[u'Historical Studies']
-#10704
-EDUC 215 - 01
+01:30 pm - 04:00 pm
+T
+Barbara Beatty
+faculty_profiles.php?user=bbeatty
+Historical Studies
+EDUC215-01
 Understand'g & Improv'g Schls
-[u'09:50 am - 12:20 pm']
-[u'\nTh']
-[u'Noah Rubin']
-[u'faculty_profiles.php?user=nrubin']
-[u'Social and Behavioral Analysis']
-#11397
-EDUC 216 - 01
+09:50 am - 12:20 pm
+Th
+Noah Rubin
+faculty_profiles.php?user=nrubin
+Social and Behavioral Analysis
+EDUC216-01
 Education,Society&SocialPolicy
-[u'11:10 am - 12:20 pm']
-[u'\nTF']
-[u'Kenneth Hawes']
-[u'faculty_profiles.php?user=khawes']
-[u'Social and Behavioral Analysis']
-#10143
-EDUC 300 - 01
+11:10 am - 12:20 pm
+TF
+Kenneth Hawes
+faculty_profiles.php?user=khawes
+Social and Behavioral Analysis
+EDUC300-01
 Teaching &Curriculum Classroom
-[u'02:50 pm - 04:30 pm', u'\n01:30 pm - 04:00 pm']
-[u'\nM', u'\nTh']
-[u'Kenneth Hawes']
-[u'faculty_profiles.php?user=khawes']
-[u'Epistemology and Cognition']
-#11257
-EDUC 304 - 01
+02:50 pm - 04:30 pm,01:30 pm - 04:00 pm
+M,Th
+Kenneth Hawes
+faculty_profiles.php?user=khawes
+Epistemology and Cognition
+EDUC304-01
 Curric&Instr Element. Ed w/Lab
-[u'01:30 pm - 02:40 pm', u'\n04:10 pm - 06:40 pm']
-[u'\nT', u'\nTh']
-[u'Noah Rubin']
-[u'faculty_profiles.php?user=nrubin']
-[u'Epistemology and Cognition']
-#11011
-EDUC 310 - 01
+01:30 pm - 02:40 pm,04:10 pm - 06:40 pm
+T,Th
+Noah Rubin
+faculty_profiles.php?user=nrubin
+Epistemology and Cognition
+EDUC310-01
 Child Literacy and Reading
-[u'09:50 am - 12:20 pm']
-[u'\nW']
-[u'Diane Tutin']
-[u'faculty_profiles.php?user=dtutin']
-[u'Epistemology and Cognition']
-#11344
-EDUC 314 - 01
+09:50 am - 12:20 pm
+W
+Diane Tutin
+faculty_profiles.php?user=dtutin
+Epistemology and Cognition
+EDUC314-01
 Learning&Teaching Mathematics
-[u'02:50 pm - 04:30 pm', u'\n03:55 pm - 06:25 pm']
-[u'\nM', u'\nW1']
-[u'Jessica Polito']
-[u'faculty_profiles.php?user=jpolito']
-[u'Epistemology and Cognition']
-#13341
-EDUC 321 - 01
+02:50 pm - 04:30 pm,03:55 pm - 06:25 pm
+M,W1
+Jessica Polito
+faculty_profiles.php?user=jpolito
+Epistemology and Cognition
+EDUC321-01
 Bilingual Ed Policy & Politics
-[u'02:15 pm - 04:45 pm']
-[u'\nW']
-[u'Kenzo Sung']
-[u'faculty_profiles.php?user=ksung']
-[u'Social and Behavioral Analysis']
-#13339
-EDUC 322 - 01
+02:15 pm - 04:45 pm
+W
+Kenzo Sung
+faculty_profiles.php?user=ksung
+Social and Behavioral Analysis
+EDUC322-01
 Sem: Digital Tech & Learning
-[u'09:50 am - 12:20 pm']
-[u'\nT']
-[u'Robbin Chapman']
-[u'faculty_profiles.php?user=rchapman']
-[u'Epistemology and Cognition']
-#12155
-EDUC 325 - 01
+09:50 am - 12:20 pm
+T
+Robbin Chapman
+faculty_profiles.php?user=rchapman
+Epistemology and Cognition
+EDUC325-01
 Sem: English as a 2nd Language
-[u'11:10 am - 01:20 pm', u'\n08:00 am - 08:20 am']
-[u'\nM', u'\nM']
-[u'Joy Renjilian-Burgy']
-[u'faculty_profiles.php?user=jrenjili']
-[u'Epistemology and Cognition']
-#13159
-ENG 113 - 01
+11:10 am - 01:20 pm,08:00 am - 08:20 am
+M,M
+Joy Renjilian-Burgy
+faculty_profiles.php?user=jrenjili
+Epistemology and Cognition
+ENG113-01
 Studies in Fiction
-[u'09:50 am - 11:00 am']
-[u'\nTF']
-[u'Timothy Peltason']
-[u'faculty_profiles.php?user=tpeltaso']
-[u'Language and Literature']
-#13160
-ENG 115 - 01
+09:50 am - 11:00 am
+TF
+Timothy Peltason
+faculty_profiles.php?user=tpeltaso
+Language and Literature
+ENG115-01
 Great Works of Poetry
-[u'03:35 pm - 05:55 pm']
-[u'\nW']
-[u'Frank Bidart']
-[u'faculty_profiles.php?user=fbidart']
-[u'Language and Literature']
-#11999
-ENG 120 - 01
+03:35 pm - 05:55 pm
+W
+Frank Bidart
+faculty_profiles.php?user=fbidart
+Language and Literature
+ENG120-01
 Critical Interpretation
-[u'09:50 am - 11:00 am']
-[u'\nMTh']
-[u'Kathleen Brogan']
-[u'faculty_profiles.php?user=kbrogan']
-[u'Language and Literature', u'\nW']
-#12824
-ENG 150 - 01
+09:50 am - 11:00 am
+MTh
+Kathleen Brogan
+faculty_profiles.php?user=kbrogan
+Language and Literature,W
+ENG150-01
 FYS: Translation Theory/Pract
-[u'08:30 am - 09:40 am']
-[u'\nTF']
-[u'Lawrence Rosenwald']
-[u'faculty_profiles.php?user=lrosenwa']
-[u'Language and Literature']
-#10132
-ENG 202 - 01
+08:30 am - 09:40 am
+TF
+Lawrence Rosenwald
+faculty_profiles.php?user=lrosenwa
+Language and Literature
+ENG202-01
 Poetry
-[u'09:50 am - 11:00 am']
-[u'\nMTh']
-[u'Daniel Chiasson']
-[u'faculty_profiles.php?user=dchiasso']
-[u'Language and Literature']
-#10137
-ENG 203 - 01
+09:50 am - 11:00 am
+MTh
+Daniel Chiasson
+faculty_profiles.php?user=dchiasso
+Language and Literature
+ENG203-01
 Short Narrative
-[u'08:30 am - 09:40 am']
-[u'\nTF']
-[u'Marilyn Sides']
-[u'faculty_profiles.php?user=msides']
-[u'Language and Literature']
-#11617
-ENG 203 - 02
+08:30 am - 09:40 am
+TF
+Marilyn Sides
+faculty_profiles.php?user=msides
+Language and Literature
+ENG203-02
 Short Narrative
-[u'09:50 am - 12:20 pm']
-[u'\nT']
-[u'James Wallenstein']
-[u'faculty_profiles.php?user=wwallens']
-[u'Language and Literature']
-#12645
-ENG 204 - 01
+09:50 am - 12:20 pm
+T
+James Wallenstein
+faculty_profiles.php?user=wwallens
+Language and Literature
+ENG204-01
 The Art of Screenwriting
-[u'09:50 am - 12:20 pm']
-[u'\nW']
-[u'Margaret Cezair-Thompson']
-[u'faculty_profiles.php?user=mcezaire']
-[u'Arts, Music, Theatre, Film and Video', u'\nLanguage and Literature']
-#11401
-ENG 205 - 01
+09:50 am - 12:20 pm
+W
+Margaret Cezair-Thompson
+faculty_profiles.php?user=mcezaire
+Arts, Music, Theatre, Film and Video,Language and Literature
+ENG205-01
 Writing for Children
-[u'01:30 pm - 02:40 pm']
-[u'\nMTh']
-[u'Susan Meyer']
-[u'faculty_profiles.php?user=smeyer']
-[u'Language and Literature']
-#11423
-ENG 206 - 01
+01:30 pm - 02:40 pm
+MTh
+Susan Meyer
+faculty_profiles.php?user=smeyer
+Language and Literature
+ENG206-01
 Tpc: Memoir
-[u'09:50 am - 12:20 pm']
-[u'\nW']
-[u'James Wallenstein']
-[u'faculty_profiles.php?user=wwallens']
-[u'Language and Literature']
-#13344
-ENG 213 - 01
+09:50 am - 12:20 pm
+W
+James Wallenstein
+faculty_profiles.php?user=wwallens
+Language and Literature
+ENG213-01
 Chaucer
-[u'02:15 pm - 04:45 pm']
-[u'\nW']
-[u'Cord Whitaker']
-[u'faculty_profiles.php?user=cwhitak3']
-[u'Language and Literature']
-#13247
-ENG 222 - 01
+02:15 pm - 04:45 pm
+W
+Cord Whitaker
+faculty_profiles.php?user=cwhitak3
+Language and Literature
+ENG222-01
 Tpc: Ren Lit & Hist of Media
-[u'11:10 am - 12:20 pm']
-[u'\nMTh']
-[u'Sarah Wall-Randell']
-[u'faculty_profiles.php?user=swallran']
-[u'Language and Literature']
-#10182
-ENG 223 - 01
+11:10 am - 12:20 pm
+MTh
+Sarah Wall-Randell
+faculty_profiles.php?user=swallran
+Language and Literature
+ENG223-01
 ShakespeareI-ElizabethanPeriod
-[u'11:10 am - 12:20 pm']
-[u'\nTF']
-[u'Timothy Peltason']
-[u'faculty_profiles.php?user=tpeltaso']
-[u'Arts, Music, Theatre, Film and Video', u'\nLanguage and Literature']
-#13161
-ENG 227 - 01
+11:10 am - 12:20 pm
+TF
+Timothy Peltason
+faculty_profiles.php?user=tpeltaso
+Arts, Music, Theatre, Film and Video,Language and Literature
+ENG227-01
 Milton
-[u'01:30 pm - 02:40 pm']
-[u'\nMTh']
-[u'Sarah Wall-Randell']
-[u'faculty_profiles.php?user=swallran']
-[u'Language and Literature']
-#12693
-ENG 253 - 01
+01:30 pm - 02:40 pm
+MTh
+Sarah Wall-Randell
+faculty_profiles.php?user=swallran
+Language and Literature
+ENG253-01
 Contemporary American Poetry
-[u'01:30 pm - 02:40 pm']
-[u'\nMTh']
-[u'Daniel Chiasson']
-[u'faculty_profiles.php?user=dchiasso']
-[u'Language and Literature']
-#12117
-ENG 262 - 01
+01:30 pm - 02:40 pm
+MTh
+Daniel Chiasson
+faculty_profiles.php?user=dchiasso
+Language and Literature
+ENG262-01
 Tpc: Founding,Disunion,Reunion
-[u'02:15 pm - 04:45 pm']
-[u'\nW']
-[u'Luther Tyler']
-[u'faculty_profiles.php?user=ltyler1']
-[u'Language and Literature']
-#13347
-ENG 268 - 01
+02:15 pm - 04:45 pm
+W
+Luther Tyler
+faculty_profiles.php?user=ltyler1
+Language and Literature
+ENG268-01
 American Literature Now
-[u'04:10 pm - 05:20 pm']
-[u'\nMTh']
-[u'Vernon Shetley']
-[u'faculty_profiles.php?user=vshetley']
-[u'Language and Literature']
-#13346
-ENG 274 - 01
+04:10 pm - 05:20 pm
+MTh
+Vernon Shetley
+faculty_profiles.php?user=vshetley
+Language and Literature
+ENG274-01
 British Cinema and Literature
-[u'02:50 pm - 04:00 pm', u'\n06:30 pm - 08:15 pm']
-[u'\nTF', u'\nW']
-[u'Luther Tyler']
-[u'faculty_profiles.php?user=ltyler1']
-[u'Arts, Music, Theatre, Film and Video', u'\nLanguage and Literature']
-#13248
-ENG 286 - 01
+02:50 pm - 04:00 pm,06:30 pm - 08:15 pm
+TF,W
+Luther Tyler
+faculty_profiles.php?user=ltyler1
+Arts, Music, Theatre, Film and Video,Language and Literature
+ENG286-01
 The Gay 1990s
-[u'11:10 am - 12:20 pm']
-[u'\nMTh']
-[u'Octavio Gonzalez']
-[u'faculty_profiles.php?user=ogonzale']
-[u'Language and Literature']
-#13249
-ENG 287 - 01
+11:10 am - 12:20 pm
+MTh
+Octavio Gonzalez
+faculty_profiles.php?user=ogonzale
+Language and Literature
+ENG287-01
 Words, Music, Voices
-[u'02:50 pm - 04:00 pm']
-[u'\nTF']
-[u'Martin Brody']
-[u'faculty_profiles.php?user=mbrody']
-[u'Arts, Music, Theatre, Film and Video', u'\nLanguage and Literature']
-#13342
-ENG 290 - 01
+02:50 pm - 04:00 pm
+TF
+Martin Brody
+faculty_profiles.php?user=mbrody
+Arts, Music, Theatre, Film and Video,Language and Literature
+ENG290-01
 Law in Literature
-[u'09:50 am - 11:00 am']
-[u'\nMTh']
-[u'Lisa Rodensky']
-[u'faculty_profiles.php?user=lrodensk']
-[u'Language and Literature']
-#13250
-ENG 324 - 01
+09:50 am - 11:00 am
+MTh
+Lisa Rodensky
+faculty_profiles.php?user=lrodensk
+Language and Literature
+ENG324-01
 Tpc:Shakespeare Perform Global
-[u'02:50 pm - 04:00 pm']
-[u'\nMTh']
-[u'Yu Jin Ko']
-[u'faculty_profiles.php?user=yko']
-[u'Language and Literature or Arts, Music, Theatre, Film and Video', u'\nLanguage and Literature']
-#13251
-ENG 351 - 01
+02:50 pm - 04:00 pm
+MTh
+Yu Jin Ko
+faculty_profiles.php?user=yko
+Language and Literature or Arts, Music, Theatre, Film and Video,Language and Literature
+ENG351-01
 The Robert Garis Seminar
-[u'02:50 pm - 04:00 pm']
-[u'\nTF']
-[u'Sebastian Smee']
-[u'faculty_profiles.php?user=ssmee']
-[u'Language and Literature']
-#11621
-ENG 355 - 01
+02:50 pm - 04:00 pm
+TF
+Sebastian Smee
+faculty_profiles.php?user=ssmee
+Language and Literature
+ENG355-01
 Tpc: Irish Lit: Terror and Wit
-[u'01:30 pm - 02:40 pm']
-[u'\nTF']
-[u'Margery Sabin']
-[u'faculty_profiles.php?user=msabin']
-[u'Language and Literature', u'\nLanguage and Literature']
-#12696
-ENG 383 - 01
+01:30 pm - 02:40 pm
+TF
+Margery Sabin
+faculty_profiles.php?user=msabin
+Language and Literature,Language and Literature
+ENG383-01
 Tpc: 19th Century Novels
-[u'11:10 am - 12:20 pm']
-[u'\nMTh']
-[u'Susan Meyer']
-[u'faculty_profiles.php?user=smeyer']
-[u'Language and Literature']
-#13252
-ENG 384 - 01
+11:10 am - 12:20 pm
+MTh
+Susan Meyer
+faculty_profiles.php?user=smeyer
+Language and Literature
+ENG384-01
 Tpc: Africa in the West
-[u'01:30 pm - 04:00 pm']
-[u'\nT']
-[u'Margaret Cezair-Thompson']
-[u'faculty_profiles.php?user=mcezaire']
-[u'Language and Literature or Arts, Music, Theatre, Film and Video', u'\nLanguage and Literature']
-#13253
-ENG 385 - 01
+01:30 pm - 04:00 pm
+T
+Margaret Cezair-Thompson
+faculty_profiles.php?user=mcezaire
+Language and Literature or Arts, Music, Theatre, Film and Video,Language and Literature
+ENG385-01
 Tpc: Lowell, Bishop
-[u'04:10 pm - 06:30 pm']
-[u'\nM']
-[u'Frank Bidart']
-[u'faculty_profiles.php?user=fbidart']
-[u'Language and Literature']
-#
+04:10 pm - 06:30 pm
+M
+Frank Bidart
+faculty_profiles.php?user=fbidart
+Language and Literature
+ENG387-01
+Tpc: Brontë, Woolf
+08:30 am - 11:00 am
+W
+Lisa Rodensky
+faculty_profiles.php?user=lrodensk
+Language and Literature
+ES101-01
+Fundamentals of Envr Sci w/Lab
+08:30 am - 09:40 am
+MTh
+Alden Griffith
+faculty_profiles.php?user=agriffit
+Natural and Physical Science,QRF
+ES101-L01
+LAB:Intro ES:Methods& Analysis
+12:30 pm - 04:00 pm
+T
+Marcia Thomas
+faculty_profiles.php?user=mthomas
+Natural and Physical Science,QRF
+ES101-L02
+LAB:Intro ES:Methods& Analysis
+02:15 pm - 05:45 pm
+W
+Marcia Thomas
+faculty_profiles.php?user=mthomas
+Natural and Physical Science,QRF
+ES102-01
+Envir and Society: Climate Chg
+08:30 am - 09:40 am
+TF
+Monica Higgins
+faculty_profiles.php?user=mhiggin2
+Social and Behavioral Analysis
+ES103-01
+FYS: Envir&Society: Food & Ag
+01:30 pm - 02:40 pm,01:30 pm - 04:00 pm
+T,F
+James Turner
+faculty_profiles.php?user=jturner
+None
+ES201-01
+Env, Health&Sustain Sci w/Lab
+11:10 am - 12:20 pm
+TF
+Daniel Brabander
+faculty_profiles.php?user=dbraband
+Natural and Physical Science
+ES201-L01
+LAB: Env, Health&Sustain Sci
+01:00 pm - 04:00 pm
+T
+Daniel Brabander
+faculty_profiles.php?user=dbraband
+Natural and Physical Science
+ES210-01
+Hydro-Water& Pollutants w/Lab
+09:50 am - 11:00 am
+TF
+James Besancon
+faculty_profiles.php?user=jbesanco
+Mathematical Modeling,Natural and Physical Science
+ES210-L01
+LAB: Hydrogeology
+01:00 pm - 04:00 pm
+F
+James Besancon
+faculty_profiles.php?user=jbesanco
+Mathematical Modeling,Natural and Physical Science
+ES214-01
+Soc Cause & Conseq Env Probs
+09:50 am - 11:00 am
+MTh
+Elizabeth DeSombre
+faculty_profiles.php?user=edesombr
+Social and Behavioral Analysis
+ES228-01
+Environmental & Resource Econ
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm
+MTh,W
+Pinar Keskin
+faculty_profiles.php?user=pkeskin
+Social and Behavioral Analysis
+ES229-01
+Latin America: Food and Enviro
+01:30 pm - 02:40 pm
+MTh
+Katherine Goodall
+faculty_profiles.php?user=kgoodall
+None
+ES247-01
+Plant Diversity & Eco w/Lab
+11:10 am - 12:20 pm
+MTh
+Alden Griffith
+faculty_profiles.php?user=agriffit
+Natural and Physical Science
+ES247-L01
+LAB: Plant Diversity & Eco
+08:30 am - 12:00 pm
+W
+Alden Griffith
+faculty_profiles.php?user=agriffit
+Natural and Physical Science
+ES347-01
+Adv Plant Div and Ecol w/Lab
+11:10 am - 12:20 pm
+MTh
+Alden Griffith
+faculty_profiles.php?user=agriffit
+Natural and Physical Science
+ES347-L01
+LAB: Adv Plant Div and Ecol
+08:30 am - 12:20 pm
+W
+Alden Griffith
+faculty_profiles.php?user=agriffit
+Natural and Physical Science
+ES381-01
+U.S. Environmental Politics
+09:50 am - 11:00 am,09:50 am - 11:00 am
+TF,W2
+James Turner
+faculty_profiles.php?user=jturner
+Social and Behavioral Analysis
+ES383-01
+The Science of Compliance
+01:30 pm - 02:40 pm
+TF
+Monica Higgins
+faculty_profiles.php?user=mhiggin2
+Natural and Physical Science
+FREN101-01
+Beginning French I
+11:10 am - 12:20 pm,02:15 pm - 03:25 pm
+MTh,W
+Scott Gunther
+faculty_profiles.php?user=sgunther
+None
+FREN101-02
+Beginning French I
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm
+MTh,W
+Scott Gunther
+faculty_profiles.php?user=sgunther
+None
+FREN103-01
+Intensive French
+09:50 am - 11:00 am,02:15 pm - 04:00 pm
+MTTh,W
+Sylvaine Egron-Sparrow
+faculty_profiles.php?user=segronsp
+None
+FREN151-01
+FYS: ReadWriteAdventureStory
+02:50 pm - 04:00 pm
+TF
+Pauline De Tholozany
+faculty_profiles.php?user=pdetholo
+Language and Literature
+FREN201-01
+Fren Language Lit & Cultures I
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm
+TF,W
+Marie-Paule Tranvouez
+faculty_profiles.php?user=mtranvou
+None
+FREN201-02
+Fren Language Lit & Cultures I
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm
+MTh,W
+Codruta Morari
+faculty_profiles.php?user=cmorari
+None
+FREN201-03
+Fren Language Lit & Cultures I
+09:50 am - 11:00 am
+MWTh
+Marie-Cecile Ganne-Schiermeier
+faculty_profiles.php?user=mgannesc
+None
+FREN205-01
+Lit& Film in Cultural Contexts
+09:50 am - 11:00 am
+TF
+Venita Datta
+faculty_profiles.php?user=vdatta
+Language and Literature
+FREN206-01
+Intermediate Spoken French
+01:30 pm - 02:40 pm
+TF
+Marie-Paule Tranvouez
+faculty_profiles.php?user=mtranvou
+Language and Literature
+FREN206-02
+Intermediate Spoken French
+04:10 pm - 05:20 pm
+MTh
+James Petterson
+faculty_profiles.php?user=jpetters
+Language and Literature
+FREN209-01
+Tpc: The Paris of Poets
+01:30 pm - 02:40 pm
+MTh
+James Petterson
+faculty_profiles.php?user=jpetters
+Language and Literature or Arts, Music, Theatre, Film and Video,Language and Literature
+FREN210-01
+Tpc: Middle Ages Enlightenment
+09:50 am - 11:00 am
+TF
+Helene Bilis
+faculty_profiles.php?user=hbilis
+Language and Literature
+FREN211-01
+Studies in Language
+01:30 pm - 02:40 pm
+MTh
+Sylvaine Egron-Sparrow
+faculty_profiles.php?user=segronsp
+Language and Literature
+FREN213-01
+French Drama 20th Century
+09:50 am - 11:00 am
+MTh
+Catherine Masson
+faculty_profiles.php?user=cmasson
+Arts, Music, Theatre, Film and Video,Language and Literature
+FREN218-01
+Negritude,Independ.,Womn's Iss
+11:10 am - 12:20 pm
+TF
+Anjali Prabhu
+faculty_profiles.php?user=aprabhu
+Language and Literature
+FREN222-01
+Cinema Lumière to Present
+04:10 pm - 05:20 pm
+MTh
+Codruta Morari
+faculty_profiles.php?user=cmorari
+Arts, Music, Theatre, Film and Video,Language and Literature
+FREN308-01
+Advanced Studies Language
+02:50 pm - 04:00 pm
+MTh
+James Petterson
+faculty_profiles.php?user=jpetters
+Language and Literature
+FREN315-01
+Two Women: Sand & DeGouges
+11:10 am - 12:20 pm
+MTh
+Catherine Masson
+faculty_profiles.php?user=cmasson
+Language and Literature
+FREN324-01
+The Belle Epoque
+11:10 am - 12:20 pm
+TF
+Venita Datta
+faculty_profiles.php?user=vdatta
+Historical Studies,Language and Literature
+FREN335-01
+Ethics & Difference
+01:30 pm - 02:40 pm
+TF
+Anjali Prabhu
+faculty_profiles.php?user=aprabhu
+Language and Literature
+GEOS101-01
+Earth Processes&Environ w/LAB
+09:50 am - 11:00 am
+MTh
+Daniel Brabander
+faculty_profiles.php?user=dbraband
+Natural and Physical Science,QRF
+GEOS101-L01
+LAB: Earth Processes&Environ
+01:00 pm - 04:00 pm
+M
+None assigned
+faculty_profiles.php?user=
+Natural and Physical Science,QRF
+GEOS101-L02
+LAB: Earth Processes&Environ
+02:15 pm - 05:15 pm
+W
+None assigned
+faculty_profiles.php?user=
+Natural and Physical Science,QRF
+GEOS102-01
+The Dynamic Earth w/Lab
+09:50 am - 11:00 am
+TF
+David Hawkins
+faculty_profiles.php?user=dhawkins
+Natural and Physical Science
+GEOS102-L01
+LAB: The Dynamic Earth
+01:00 pm - 04:00 pm
+T
+None assigned
+faculty_profiles.php?user=
+Natural and Physical Science
+GEOS102-L02
+LAB: The Dynamic Earth
+01:00 pm - 04:00 pm
+Th
+None assigned
+faculty_profiles.php?user=
+Natural and Physical Science
+GEOS201-01
+Env, Health&Sustain Sci w/Lab
+11:10 am - 12:20 pm
+TF
+Daniel Brabander
+faculty_profiles.php?user=dbraband
+Natural and Physical Science
+GEOS201-L01
+LAB: Env, Health&Sustain Sci
+01:00 pm - 04:00 pm
+T
+Daniel Brabander
+faculty_profiles.php?user=dbraband
+Natural and Physical Science
+GEOS210-01
+Hydro-Water&Pollutants w/Lab
+09:50 am - 11:00 am
+TF
+James Besancon
+faculty_profiles.php?user=jbesanco
+Mathematical Modeling,Natural and Physical Science
+GEOS210-L01
+LAB: Hydrogeology
+01:00 pm - 04:00 pm
+F
+James Besancon
+faculty_profiles.php?user=jbesanco
+Mathematical Modeling,Natural and Physical Science
+GEOS220-01
+Volcanoes and Volcanism w/Lab
+08:30 am - 11:00 am
+MTh
+David Hawkins
+faculty_profiles.php?user=dhawkins
+Natural and Physical Science
+GEOS304-01
+Sedimentology with Laboratory
+11:10 am - 12:20 pm
+MTh
+Katrin Monecke
+faculty_profiles.php?user=kmonecke
+Natural and Physical Science
+GEOS304-L01
+LAB: Sedimentology
+01:00 pm - 04:00 pm
+Th
+Katrin Monecke
+faculty_profiles.php?user=kmonecke
+Natural and Physical Science
+GEOS318-01
+Tectonics&Structral Geo w/Lab
+None assigned
+None assigned
+None assigned
+faculty_profiles.php?user=
+Natural and Physical Science
+GEOS318-L01
+LAB: Tectonics&Structral Geo
+None assigned
+None assigned
+None assigned
+faculty_profiles.php?user=
+Natural and Physical Science
+GER101-01
+Beginning German I
+09:50 am - 11:00 am
+MWTh
+Thomas Hansen
+faculty_profiles.php?user=thansen
+None
+GER101-02
+Beginning German I
+11:10 am - 12:20 pm
+MWTh
+Thomas Hansen
+faculty_profiles.php?user=thansen
+None
+GER201-01
+Intermediate German I
+11:10 am - 12:20 pm
+TWF
+Thomas Nolden
+faculty_profiles.php?user=tnolden
+None
+GER201-02
+Intermediate German I
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm
+TF,W
+Thomas Nolden
+faculty_profiles.php?user=tnolden
+None
+GER258-01
+Imagining Germany 
+03:35 pm - 06:05 pm
+W
+Thomas Nolden
+faculty_profiles.php?user=tnolden
+Language and Literature
+GER276-01
+Franz Kafka (in English)
+11:10 am - 12:20 pm
+MTh
+Jens Kruse
+faculty_profiles.php?user=jkruse
+Language and Literature
+GER290-01
+Law in Literature
+09:50 am - 11:00 am
+MTh
+Jens Kruse
+faculty_profiles.php?user=jkruse
+Language and Literature
+GER313-01
+Sem: The Bauhaus
+09:50 am - 12:20 pm
+W
+Patricia Berman
+faculty_profiles.php?user=pberman
+Arts, Music, Theatre, Film and Video
+GER376-01
+Kafka
+11:10 am - 12:20 pm
+MWTh
+Jens Kruse
+faculty_profiles.php?user=jkruse
+Language and Literature
+GRK101-01
+Beginning Greek I
+08:50 am - 09:40 am
+MTWTh
+Carol Dougherty
+faculty_profiles.php?user=cdougher
+None
+GRK201-01
+Athenian Literature
+02:50 pm - 04:00 pm,12:30 pm - 01:20 pm
+MTh,F
+Adriana Brook
+faculty_profiles.php?user=
+Language and Literature
+GRK309-01
+Plato's Symposium
+01:30 pm - 02:40 pm
+MTh
+Bryan Burns
+faculty_profiles.php?user=bburns
+Language and Literature
+HEBR101-01
+Elementary Hebrew I
+09:50 am - 11:00 am,09:50 am - 11:00 am
+MTh,W
+Anna Grinfeld
+faculty_profiles.php?user=agrinfel
+None
+HEBR201-01
+Intermediate Hebrew I
+11:10 am - 12:20 pm,11:10 am - 12:20 pm
+MTh,W
+Anna Grinfeld
+faculty_profiles.php?user=agrinfel
+None
+HIST115-01
+FYS: Routes of Exile
+02:15 pm - 04:45 pm
+W
+Frances Malino
+faculty_profiles.php?user=fmalino
+Historical Studies
+HIST200-01
+Roots of the Western Tradition
+11:10 am - 12:20 pm
+TF
+Guy Rogers
+faculty_profiles.php?user=grogers
+Historical Studies,Religion, Ethics and Moral Philosophy
+HIST203-01
+Out of Many: Amer Hist to 1877
+None assigned
+None assigned
+None assigned
+faculty_profiles.php?user=
+Historical Studies
+HIST205-01
+Making of the  Modern World
+01:30 pm - 02:40 pm
+MTh
+Yoshihisa Matsusaka
+faculty_profiles.php?user=ymatsusa
+Historical Studies
+HIST206-01
+From Conquest to Revolution
+09:50 am - 11:00 am
+MTh
+Alejandra Osorio
+faculty_profiles.php?user=aosorio
+Historical Studies
+HIST213-01
+Conquest and Crusade
+09:50 am - 11:00 am
+TF
+Valerie Ramseyer
+faculty_profiles.php?user=vramseye
+Historical Studies
+HIST222-01
+Barbarian Kingdoms
+01:30 pm - 02:40 pm
+TF
+Valerie Ramseyer
+faculty_profiles.php?user=vramseye
+Historical Studies
+HIST232-01
+Europe 1350-1815
+09:50 am - 11:00 am
+MTh
+Simon Grote
+faculty_profiles.php?user=sgrote
+Historical Studies
+HIST235-01
+Adam Smith in Enlightenment
+02:50 pm - 04:00 pm
+MTh
+Simon Grote
+faculty_profiles.php?user=sgrote
+Historical Studies
+HIST240-01
+Cities in Modern Europe
+08:30 am - 09:40 am
+MTh
+Quinn Slobodian
+faculty_profiles.php?user=qslobodi
+Historical Studies
+HIST243-01
+Gndr & Sexlty in 20th C. Europ
+11:10 am - 12:20 pm
+MTh
+Quinn Slobodian
+faculty_profiles.php?user=qslobodi
+Historical Studies
+HIST245-01
+History of Am. Capitalism
+11:10 am - 12:20 pm
+TF
+Ryan Quintana
+faculty_profiles.php?user=rquintan
+Historical Studies
+HIST247-01
+Russia Under the Romanovs
+02:50 pm - 04:00 pm
+TF
+Nina Tumarkin
+faculty_profiles.php?user=ntumarki
+Historical Studies
+HIST253-01
+Native America
+None assigned
+None assigned
+None assigned
+faculty_profiles.php?user=
+Historical Studies
+HIST274-01
+China,Japan,Korea&Global Persp
+04:10 pm - 05:20 pm
+MTh
+Yoshihisa Matsusaka
+faculty_profiles.php?user=ymatsusa
+Historical Studies
+HIST276-01
+The City in South Asia
+01:30 pm - 02:40 pm
+MTh
+Nikhil Rao
+faculty_profiles.php?user=nrao
+Historical Studies
+HIST280-01
+Tpcs in Chinese Commerce&Bus
+11:10 am - 12:20 pm
+MTh
+C. Pat Giersch
+faculty_profiles.php?user=cgiersch
+Historical Studies
+HIST302-01
+Sem: WorldWarII as Memory&Myth
+02:50 pm - 05:20 pm
+Th
+Nina Tumarkin
+faculty_profiles.php?user=ntumarki
+Historical Studies
+HIST312-01
+Sem: Understanding Race in USA
+09:50 am - 12:20 pm
+W
+Ryan Quintana
+faculty_profiles.php?user=rquintan
+Historical Studies
+HIST341-01
+Sem: At the Margins
+06:30 pm - 09:00 pm
+Th
+Matthew Blanton
+faculty_profiles.php?user=mblanton
+Historical Studies
+HIST359-01
+Spanish World Modernity 
+09:50 am - 12:20 pm
+W
+Alejandra Osorio
+faculty_profiles.php?user=aosorio
+Historical Studies
+HIST382-01
+Gandhi, Nehru, and Ambedkar
+02:15 pm - 04:45 pm
+W
+Nikhil Rao
+faculty_profiles.php?user=nrao
+Historical Studies
+HIST395-01
+International History Seminar
+02:50 pm - 05:20 pm
+M
+Lidwien Kapteijns
+faculty_profiles.php?user=lkapteij
+Historical Studies
+HNUR101-01
+Elementary Hindi/Urdu
+08:30 am - 09:40 am
+TWF
+Neelima Shukla-Bhatt
+faculty_profiles.php?user=nshuklab
+None
+HNUR201-01
+Intermediate Hindi/Urdu
+09:50 am - 11:00 am
+MWTh
+Richard Delacy
+faculty_profiles.php?user=rdelacy
+None
+ITAS101-01
+Elementary Italian I
+09:50 am - 11:00 am,09:50 am - 11:00 am
+MTh,W
+Flavia Laviosa
+faculty_profiles.php?user=flaviosa
+None
+ITAS101-02
+Elementary Italian I
+11:10 am - 12:20 pm
+TWF
+Serena Grattarola
+faculty_profiles.php?user=sgrattar
+None
+ITAS103-01
+Intensive Elementary Italian
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm
+TF,W
+Daniela Bartalesi-Graf
+faculty_profiles.php?user=dbartale
+None
+ITAS104-01
+FYS: The Cities of Italy
+11:10 am - 12:20 pm
+TF
+Sergio Parussa
+faculty_profiles.php?user=sparussa
+Language and Literature
+ITAS201-01
+Intermediate Italian I
+08:30 am - 09:40 am
+MWTh
+Flavia Laviosa
+faculty_profiles.php?user=flaviosa
+None
+ITAS201-02
+Intermediate Italian I
+09:50 am - 11:00 am
+TWF
+Sergio Parussa
+faculty_profiles.php?user=sparussa
+None
+ITAS270-01
+Italy in the 21st Century
+08:30 am - 09:40 am
+MTh
+David Ward
+faculty_profiles.php?user=dward
+None assigned
+ITAS275-01
+Desire from Dante to Milton
+08:30 am - 09:40 am
+TF
+Francesca Southerden
+faculty_profiles.php?user=fsouther
+Language and Literature
+ITAS315-01
+Italian Mysteries
+01:30 pm - 04:00 pm
+M
+David Ward
+faculty_profiles.php?user=dward
+Language and Literature
+JPN101-01
+Beginning Japanese I
+08:30 am - 09:40 am
+MTWTh
+Yoshimi Maeno
+faculty_profiles.php?user=ymaeno
+None
+JPN101-02
+Beginning Japanese I
+09:50 am - 11:00 am
+MTWTh
+Yoshimi Maeno
+faculty_profiles.php?user=ymaeno
+None
+JPN130-01
+Japanese Animation (in Eng)
+11:10 am - 12:20 pm
+TF
+Carolyn Morley
+faculty_profiles.php?user=cmorley
+Arts, Music, Theatre, Film and Video,Language and Literature
+JPN201-01
+Intermediate Japanese I
+11:10 am - 12:20 pm
+MTWTh
+Eiko Torii-Williams
+faculty_profiles.php?user=etorii
+None
+JPN231-01
+Selectd Read'gs Adv Japanese I
+09:50 am - 11:00 am
+MWTh
+Eiko Torii-Williams
+faculty_profiles.php?user=etorii
+Language and Literature
+JPN251-01
+Jpn Writers&Their Worlds(Eng)
+02:50 pm - 04:00 pm
+TF
+Carolyn Morley
+faculty_profiles.php?user=cmorley
+Language and Literature
+JPN314-01
+Comtemporary Japanese Narrativ
+11:10 am - 12:20 pm
+MTh
+Eve Zimmerman
+faculty_profiles.php?user=ezimmerm
+Language and Literature
+JPN355-01
+JpnWriters&Their Worlds 
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm
+TF,W
+Carolyn Morley
+faculty_profiles.php?user=cmorley
+Language and Literature
+KOR101-01
+Beginning Korean
+08:30 am - 09:40 am
+MTWTh
+Sun-Hee Lee
+faculty_profiles.php?user=slee6
+None
+KOR201-01
+Intermediate Korean
+09:50 am - 11:00 am
+MTWTh
+Seok Jang
+faculty_profiles.php?user=
+None
+KOR206-01
+Korean Culture & Language
+11:10 am - 12:20 pm
+MTh
+Sun-Hee Lee
+faculty_profiles.php?user=slee6
+Language and Literature
+KOR231-01
+Advanced Intermediate Korean I
+11:10 am - 12:20 pm
+TF
+Seok Jang
+faculty_profiles.php?user=
+Language and Literature
+LAT101-01
+Beginning Latin I
+08:50 am - 09:40 am
+TWThF
+Raymond Starr
+faculty_profiles.php?user=rstarr
+None
+LAT200-01
+Intermediate Latin I
+09:50 am - 11:00 am,10:10 am - 11:00 am
+MTTh,W
+Elizabeth Young
+faculty_profiles.php?user=eyoung
+Language and Literature
+LAT200-02
+Intermediate Latin I
+01:30 pm - 02:40 pm,02:15 pm - 03:05 pm
+MTh,W
+Elizabeth Young
+faculty_profiles.php?user=eyoung
+Language and Literature
+LAT301-01
+Reading Latin Literature
+11:10 am - 12:20 pm
+TF
+Raymond Starr
+faculty_profiles.php?user=rstarr
+Language and Literature
+LING114-01
+Introduction to Linguistics
+11:10 am - 12:20 pm
+TF
+Angela Carpenter
+faculty_profiles.php?user=acarpent
+Epistemology and Cognition
+LING244-01
+Language: Form and Meaning
+09:50 am - 11:00 am
+TF
+Shiao Wei Tham
+faculty_profiles.php?user=stham
+Epistemology and Cognition
+LING312-01
+Bilingualism:Lang,Mind&Culture
+01:30 pm - 04:00 pm
+T
+Angela Carpenter
+faculty_profiles.php?user=acarpent
+Epistemology and Cognition,Social and Behavioral Analysis
+MATH101-01
+Reasoning with Data
+08:30 am - 09:40 am
+MWTh
+None assigned
+faculty_profiles.php?user=
+Mathematical Modeling,QRF
+MATH115-01
+Calculus I
+11:10 am - 12:20 pm
+TWF
+Steven Simon
+faculty_profiles.php?user=ssimon2
+Mathematical Modeling
+MATH115-02
+Calculus I
+09:50 am - 11:00 am,09:50 am - 11:00 am
+MTh,W
+None assigned
+faculty_profiles.php?user=
+Mathematical Modeling
+MATH115-03
+Calculus I
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm
+TF,W
+Steven Simon
+faculty_profiles.php?user=ssimon2
+Mathematical Modeling
+MATH115-04
+Calculus I
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm
+TF,W
+Steven Simon
+faculty_profiles.php?user=ssimon2
+Mathematical Modeling
+MATH116-01
+Calculus II
+09:50 am - 11:00 am
+TWF
+Martin Magid
+faculty_profiles.php?user=mmagid
+Mathematical Modeling
+MATH116-02
+Calculus II
+08:30 am - 09:40 am
+MWTh
+Helen Wang
+faculty_profiles.php?user=hwang
+Mathematical Modeling
+MATH116-03
+Calculus II
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm
+MTh,W
+Charles Bu
+faculty_profiles.php?user=cbu
+Mathematical Modeling
+MATH116-04
+Calculus II
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm
+MTh,W
+Charles Bu
+faculty_profiles.php?user=cbu
+Mathematical Modeling
+MATH116-05
+Calculus II
+11:10 am - 12:20 pm
+TWF
+Megan Kerr
+faculty_profiles.php?user=mkerr
+Mathematical Modeling
+MATH116-06
+Calculus II
+09:50 am - 11:00 am,09:50 am - 11:00 am
+MTh,W
+Ismar Volic
+faculty_profiles.php?user=ivolic
+Mathematical Modeling
+MATH120-01
+Calculus IIA
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm
+TF,W
+Philip Hirschhorn
+faculty_profiles.php?user=phirschh
+Mathematical Modeling
+MATH120-02
+Calculus IIA
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm
+TF,W
+Philip Hirschhorn
+faculty_profiles.php?user=phirschh
+Mathematical Modeling
+MATH205-01
+Multivariable Calculus
+09:50 am - 11:00 am
+MWTh
+Alexander Diesl
+faculty_profiles.php?user=adiesl
+Mathematical Modeling
+MATH205-02
+Multivariable Calculus
+11:10 am - 12:20 pm
+MWTh
+Alexander Diesl
+faculty_profiles.php?user=adiesl
+Mathematical Modeling
+MATH205-03
+Multivariable Calculus
+08:30 am - 09:40 am
+MWTh
+Andrew Schultz
+faculty_profiles.php?user=aschult2
+Mathematical Modeling
+MATH205-04
+Multivariable Calculus
+09:50 am - 11:00 am
+TWF
+Stanley Chang
+faculty_profiles.php?user=schang
+Mathematical Modeling
+MATH206-01
+Linear Algebra
+11:10 am - 12:20 pm
+MWTh
+Andrew Schultz
+faculty_profiles.php?user=aschult2
+Mathematical Modeling
+MATH206-02
+Linear Algebra
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm
+TF,W
+Alan Shuchat
+faculty_profiles.php?user=ashuchat
+Mathematical Modeling
+MATH215-01
+Mathematics for the Sciences I
+08:30 am - 09:40 am
+MWTh
+Jonathan Tannenhauser
+faculty_profiles.php?user=jtannenh
+Mathematical Modeling
+MATH215-02
+Mathematics for the Sciences I
+11:10 am - 12:20 pm,11:10 am - 12:20 pm
+MTh,W
+Jonathan Tannenhauser
+faculty_profiles.php?user=jtannenh
+Mathematical Modeling
+MATH220-01
+Prob & Elem Statistics
+11:10 am - 12:20 pm
+TWF
+Alan Shuchat
+faculty_profiles.php?user=ashuchat
+Mathematical Modeling,QRF
+MATH225-01
+Combinatorics&Graph Theory
+08:30 am - 09:40 am,08:30 am - 09:40 am
+MTh,W
+Frederic Shultz
+faculty_profiles.php?user=fshultz
+Mathematical Modeling
+MATH225-02
+Combinatorics&Graph Theory
+09:50 am - 11:00 am
+TWF
+Ann Trenk
+faculty_profiles.php?user=atrenk
+Mathematical Modeling
+MATH302-01
+Elements of Analysis I
+09:50 am - 11:00 am,09:50 am - 11:00 am
+MTh,W
+Helen Wang
+faculty_profiles.php?user=hwang
+Mathematical Modeling
+MATH305-01
+Abstract Algebra
+11:10 am - 12:20 pm
+TWF
+Stanley Chang
+faculty_profiles.php?user=schang
+Mathematical Modeling
+MATH307-01
+Topology
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm
+MTh,W
+Ismar Volic
+faculty_profiles.php?user=ivolic
+Mathematical Modeling
+MATH322-01
+Advanced Linear Algebra
+11:10 am - 12:20 pm
+MWTh
+Frederic Shultz
+faculty_profiles.php?user=fshultz
+Mathematical Modeling
+MATH326-01
+Advanced Combinatorics
+08:30 am - 09:40 am
+TWF
+Ann Trenk
+faculty_profiles.php?user=atrenk
+Mathematical Modeling
+MATH349-01
+Tpc: Matrix Groups
+09:50 am - 11:00 am
+TWF
+Megan Kerr
+faculty_profiles.php?user=mkerr
+Mathematical Modeling
+ME/R275-01
+Desire from Dante to Milton
+08:30 am - 09:40 am
+TF
+Francesca Southerden
+faculty_profiles.php?user=fsouther
+Language and Literature
+MUS102H-01
+Musicianship Lab
+01:30 pm - 02:30 pm
+M
+David Collins
+faculty_profiles.php?user=dcollins
+None
+MUS102H-02
+Musicianship Lab
+04:15 pm - 05:15 pm
+M
+David Collins
+faculty_profiles.php?user=dcollins
+None
+MUS102H-03
+Musicianship Lab
+11:10 am - 12:10 pm
+Th
+David Collins
+faculty_profiles.php?user=dcollins
+None
+MUS102H-04
+Musicianship Lab
+05:20 pm - 06:20 pm
+Th
+David Collins
+faculty_profiles.php?user=dcollins
+None
+MUS111-01
+Language of Music
+11:10 am - 12:20 pm
+TWF
+David Russell
+faculty_profiles.php?user=drussell
+Arts, Music, Theatre, Film and Video
+MUS122-01
+Harmonic Concepts Tonal Music
+09:50 am - 11:00 am
+TWF
+Jenny Tang
+faculty_profiles.php?user=jtang
+Arts, Music, Theatre, Film and Video
+MUS200-01
+Hist West Mus: I
+11:10 am - 12:20 pm
+MWTh
+Claire Fontijn
+faculty_profiles.php?user=cfontijn
+Arts, Music, Theatre, Film and Video
+MUS202-01
+A History of Western Music
+09:50 am - 11:00 am
+MWTh
+Jenny Johnson
+faculty_profiles.php?user=jjohnso3
+Arts, Music, Theatre, Film and Video
+MUS220-01
+Jazz Theory
+01:30 pm - 04:00 pm
+T
+Katharine Miller
+faculty_profiles.php?user=cmiller
+Arts, Music, Theatre, Film and Video
+MUS235-01
+Tpc: Schubert,Schumann & Lyric
+01:30 pm - 02:40 pm
+TF
+Charles Fisk
+faculty_profiles.php?user=cfisk
+Arts, Music, Theatre, Film and Video
+MUS276-01
+American Popular Music
+01:30 pm - 02:40 pm
+MTh
+None assigned
+faculty_profiles.php?user=
+Arts, Music, Theatre, Film and Video
+MUS287-01
+Words, Music, and Voices
+02:50 pm - 04:00 pm
+TF
+Martin Brody
+faculty_profiles.php?user=mbrody
+Arts, Music, Theatre, Film and Video,Language and Literature
+MUS315-01
+Advanced Harmony
+11:10 am - 12:20 pm
+TF
+Jenny Tang
+faculty_profiles.php?user=jtang
+Arts, Music, Theatre, Film and Video
+MUS335-01
+Tpc: Schubert,Schumann & Lyric
+01:30 pm - 02:40 pm
+TF
+Charles Fisk
+faculty_profiles.php?user=cfisk
+Arts, Music, Theatre, Film and Video
+MUS344-01
+Performing Music
+02:15 pm - 04:45 pm
+W
+Charles Fisk
+faculty_profiles.php?user=cfisk
+Arts, Music, Theatre, Film and Video
+MUS378-01
+Deconstructive Audio
+02:50 pm - 05:20 pm
+Th
+Jenny Johnson
+faculty_profiles.php?user=jjohnso3
+Arts, Music, Theatre, Film and Video
+NEUR100-01
+Intro to Neuroscience w/Pract
+08:30 am - 09:40 am
+TF
+Deborah Bauer
+faculty_profiles.php?user=dbauer
+Epistemology and Cognition,Natural and Physical Science
+NEUR100-02
+Intro to Neuroscience w/Pract
+09:50 am - 11:00 am
+TF
+Bevil Conway
+faculty_profiles.php?user=bconway
+Epistemology and Cognition,Natural and Physical Science
+NEUR100-L01
+Pract: Intro to Neuroscience
+01:30 pm - 02:40 pm
+M
+Virginia Quinan
+faculty_profiles.php?user=vquinan
+Epistemology and Cognition,Natural and Physical Science
+NEUR100-L02
+Pract: Intro to Neuroscience
+03:10 pm - 04:20 pm
+M
+Virginia Quinan
+faculty_profiles.php?user=vquinan
+Epistemology and Cognition,Natural and Physical Science
+NEUR100-L03
+Pract: Intro. to Neuroscience
+01:30 pm - 02:40 pm
+Th
+Deborah Bauer
+faculty_profiles.php?user=dbauer
+Epistemology and Cognition,Natural and Physical Science
+NEUR100-L04
+Pract: Intro. to Neuroscience
+03:10 pm - 04:20 pm
+Th
+Deborah Bauer
+faculty_profiles.php?user=dbauer
+Epistemology and Cognition,Natural and Physical Science
+NEUR200-01
+Neur, Netwrks & Behavior w/Lab
+09:50 am - 11:00 am
+MTh
+Michael Wiest
+faculty_profiles.php?user=mwiest
+Epistemology and Cognition,Natural and Physical Science
+NEUR200-L01
+LAB:Neurons, Networks&Behavior
+02:15 pm - 05:45 pm
+W
+Virginia Quinan
+faculty_profiles.php?user=vquinan
+Epistemology and Cognition,Natural and Physical Science
+NEUR200-L02
+LAB:Neurons, Networks&Behavior
+01:00 pm - 04:30 pm
+Th
+Virginia Quinan
+faculty_profiles.php?user=vquinan
+Epistemology and Cognition,Natural and Physical Science
+NEUR250G-01
+Tpc: Visual Neuroscience
+None assigned
+None assigned
+Bevil Conway
+faculty_profiles.php?user=bconway
+None
+NEUR250G-02
+Tpc: Behav. Neurophysiology
+None assigned
+None assigned
+Michael Wiest
+faculty_profiles.php?user=mwiest
+None
+NEUR300-01
+Capstone Seminar  Neuroscience
+11:10 am - 12:20 pm
+MTh
+Marc Tetel
+faculty_profiles.php?user=mtetel
+Epistemology and Cognition,Natural and Physical Science
+NEUR300-02
+Capstone Seminar  Neuroscience
+01:30 pm - 02:40 pm
+MTh
+Barbara Beltz
+faculty_profiles.php?user=bbeltz
+Epistemology and Cognition,Natural and Physical Science
+NEUR300-03
+Capstone Seminar  Neuroscience
+09:50 am - 11:00 am
+TF
+Michael Wiest
+faculty_profiles.php?user=mwiest
+Epistemology and Cognition,Natural and Physical Science
+NEUR306-01
+Principals Neural Development
+09:50 am - 11:00 am
+MTh
+Barbara Beltz
+faculty_profiles.php?user=bbeltz
+Epistemology and Cognition,Natural and Physical Science
+NEUR315-01
+Neuroendocrinology w/Lab
+09:50 am - 11:00 am
+TF
+Marc Tetel
+faculty_profiles.php?user=mtetel
+Epistemology and Cognition,Natural and Physical Science
+NEUR315-L01
+LAB: Neuroendocrinology
+12:30 pm - 04:00 pm
+T
+Marc Tetel
+faculty_profiles.php?user=mtetel
+Epistemology and Cognition,Natural and Physical Science
+NEUR320-01
+Vision and Art w/Lab
+11:10 am - 12:20 pm
+TF
+Bevil Conway
+faculty_profiles.php?user=bconway
+Arts, Music, Theatre, Film and Video,Natural and Physical Science
+NEUR320-L01
+LAB: Vision and Art
+02:00 pm - 05:30 pm
+F
+Bevil Conway
+faculty_profiles.php?user=bconway
+Arts, Music, Theatre, Film and Video,Natural and Physical Science
+NEUR332-01
+Tpc: Neuropharmacology
+09:50 am - 11:00 am
+MTh
+Deborah Bauer
+faculty_profiles.php?user=dbauer
+Natural and Physical Science
+NEUR350G-01
+Tpc: Visual Neuroscience
+None assigned
+None assigned
+Bevil Conway
+faculty_profiles.php?user=bconway
+None
+NEUR350G-02
+Tpc: Behav. Neurophysiology
+None assigned
+None assigned
+Michael Wiest
+faculty_profiles.php?user=mwiest
+None
+PE100-1
+Elem. Swimming
+1:40-2:40 PM
+TF
+Bonnie Dix
+faculty_profiles.php?user=bdix
+Physical Education Requirement
+PE109-1
+Take the Leap: Intro to Diving
+1:40-2:40 PM
+MTh
+Mary Ellen Clark
+faculty_profiles.php?user=mclark2
+Physical Education Requirement
+PE120-1
+Ballet I
+6:40-7:55 PM
+MW
+Katie Ulissey
+faculty_profiles.php?user=kulissey
+Physical Education Requirement
+PE121-1
+Ballet II
+7:55-9:35 PM
+M
+Katie Ulissey
+faculty_profiles.php?user=kulissey
+Physical Education Requirement
+PE123-1
+Modern Jazz
+6:30-7:30 PM
+TTh
+Samantha Cameron
+faculty_profiles.php?user=scameron
+Physical Education Requirement
+PE124-1
+Dance Basics
+7:30-8:30 PM
+TTh
+Samantha Cameron
+faculty_profiles.php?user=scameron
+Physical Education Requirement
+PE126-1
+African Dance
+9:50-11:30 AM
+W
+Marianne Harkless
+faculty_profiles.php?user=mharkles
+Physical Education Requirement
+PE127-1
+Classical Indian Dance
+4:10-5:50 PM
+M
+Gretchen Hayden-Ruckert
+faculty_profiles.php?user=ghaydenr
+Physical Education Requirement
+PE140-1
+Zumba (FYO)
+3:00-4:00 PM
+TF
+Cori Grande
+faculty_profiles.php?user=cgrande
+Physical Education Requirement
+PE140-2
+Zumba
+6:00-7:00 PM
+TTh
+Linda Sieck
+faculty_profiles.php?user=lsieck
+Physical Education Requirement
+PE141-1
+Cardiovascular Fitness
+8:30-9:30 AM
+MTh
+Brian Kuscher
+faculty_profiles.php?user=bkuscher
+Physical Education Requirement
+PE141-2
+Cardiovascular Fitness
+9:50-10:50 AM
+MTh
+Brian Kuscher
+faculty_profiles.php?user=bkuscher
+Physical Education Requirement
+PE141-3
+Cardiovascular Fitness
+9:50-10:50 AM
+TF
+Jennifer Kroll
+faculty_profiles.php?user=jkroll
+Physical Education Requirement
+PE142-1
+Pilates (Term 2)
+1:40-2:40 PM
+MTh
+Sherry Makerney
+faculty_profiles.php?user=smakerne
+Physical Education Requirement
+PE142-1
+Pilates (FYO)
+8:30-9:30 AM
+TF
+Patty Magill
+faculty_profiles.php?user=pmagill
+Physical Education Requirement
+PE142-2
+Pilates (Term 2)
+3:00-4:00 PM
+MTh
+Sherry Makerney
+faculty_profiles.php?user=smakerne
+Physical Education Requirement
+PE142-2
+Pilates
+9:50-10:50 AM
+TF
+Patty Magill
+faculty_profiles.php?user=pmagill
+Physical Education Requirement
+PE142-3
+Pilates
+7:00-8:00 PM
+TTh
+Linda Sieck
+faculty_profiles.php?user=lsieck
+Physical Education Requirement
+PE144-1
+Fusion Fitness (FYO)
+1:40-2:40 PM
+TF
+Connie Bauman
+faculty_profiles.php?user=cbauman
+Physical Education Requirement
+PE144-2
+Fusion Fitness (FYO)
+3:00-4:00 PM
+TF
+Connie Bauman
+faculty_profiles.php?user=cbauman
+Physical Education Requirement
+PE146-1
+Strength Training
+8:30-9:30 AM
+TF
+Jennifer Kroll
+faculty_profiles.php?user=jkroll
+Physical Education Requirement
+PE147-1
+Sports Performance Training
+1:40-2:40 PM
+MTh
+Megan LaBella
+faculty_profiles.php?user=mlabella
+Physical Education Requirement
+PE148-1
+Couch to 5K (FYO)
+8:30-9:30 AM
+MTh
+Caitlin Pickul
+faculty_profiles.php?user=cpickul
+Physical Education Requirement
+PE148-2
+Couch to 5K
+11:10-12:10 PM
+MTh
+Tony Mohammed
+faculty_profiles.php?user=tmohamme
+Physical Education Requirement
+PE149-1
+Boot Camp Fitness
+9:50-10:50 AM
+MTh
+Keri O'Meara
+faculty_profiles.php?user=komeara
+Physical Education Requirement
+PE150-1
+Beginning Spinning (FYO)
+9:50-10:50 AM
+TF
+Julia King
+faculty_profiles.php?user=jking
+Physical Education Requirement
+PE150-2
+Beginning Spinning
+11:10-12:10 PM
+TF
+Dorothy Webb
+faculty_profiles.php?user=dwebb1
+Physical Education Requirement
+PE150-3
+Beginning Spinning
+8:30-9:30 AM
+TF
+Julia King
+faculty_profiles.php?user=jking
+Physical Education Requirement
+PE151-1
+Advanced Spinning
+11:10-12:10 PM
+MTh
+Keri O'Meara
+faculty_profiles.php?user=komeara
+Physical Education Requirement
+PE152-1
+Intro to Triathlon Training
+9:50-10:50 AM
+MTh
+Becky Kimball
+faculty_profiles.php?user=bkimball
+Physical Education Requirement
+PE160-1
+Self-Defense
+8:30-9:30 AM
+MTh
+Deborah Weaver
+faculty_profiles.php?user=dweaver
+Physical Education Requirement
+PE160-2
+Self-Defense
+9:50-10:50 AM
+MTh
+Deborah Weaver
+faculty_profiles.php?user=dweaver
+Physical Education Requirement
+PE161-1
+Tai Chi
+12:30-1:30 PM
+MTh
+Calvin Chin
+faculty_profiles.php?user=cchin
+Physical Education Requirement
+PE171-1
+Badminton
+1:40-2:40 PM
+MTh
+Wendy Berry
+faculty_profiles.php?user=wberry
+Physical Education Requirement
+PE172-1
+Fencing (Term 1)
+11:10-12:10 PM
+MTh
+Connie Bauman
+faculty_profiles.php?user=cbauman
+Physical Education Requirement
+PE172-1
+Fencing (Term 2)
+11:10-12:10 PM
+MTh
+Connie Bauman
+faculty_profiles.php?user=cbauman
+Physical Education Requirement
+PE172-2
+Fencing (Term 2)
+3:00-4:00 PM
+MW
+Gamil Kaliouby
+faculty_profiles.php?user=gkalioub
+Physical Education Requirement
+PE173-1
+Term Golf (Term 1)
+1:40-2:40 PM
+MTh
+Sherry Makerney
+faculty_profiles.php?user=smakerne
+Physical Education Requirement
+PE173-2
+Term Golf (Term 1)
+3:00-4:00 PM
+MTh
+Sherry Makerney
+faculty_profiles.php?user=smakerne
+Physical Education Requirement
+PE177-1
+Rock Climbing
+7:00-9:00 PM
+T
+David McGovern
+faculty_profiles.php?user=dmcgover
+Physical Education Requirement
+PE180-1
+Elem. Squash
+3:00-4:00 PM
+MTh
+Wendy Berry
+faculty_profiles.php?user=wberry
+Physical Education Requirement
+PE184-1
+Volleyball
+9:50-10:50 AM
+TF
+Dorothy Webb
+faculty_profiles.php?user=dwebb3
+Physical Education Requirement
+PE190-1
+Beginning Yoga (FYO)
+1:40-2:40 PM
+MTh
+Liz Owen
+faculty_profiles.php?user=lowen
+Physical Education Requirement
+PE190-2
+Beginning Yoga
+6:00-7:00 PM
+MW
+Beth Gifford
+faculty_profiles.php?user=bgifford
+Physical Education Requirement
+PE190-3
+Beginning Yoga
+7:00-8:00 PM
+MW
+Beth Gifford
+faculty_profiles.php?user=bgifford
+Physical Education Requirement
+PE191-1
+Continuing Yoga
+3:00-4:00 PM
+MTh
+Liz Owen
+faculty_profiles.php?user=lowen
+Physical Education Requirement
+PEAC104-01
+Intro Peace/Conflict/Justice
+09:50 am - 11:00 am
+TF
+Catia Confortini
+faculty_profiles.php?user=cconfort
+Religion, Ethics and Moral Philosophy,Social and Behavioral Analysis
+PEAC259-01
+Tpc: Hum. Rights Cult. Lat Am 
+11:10 am - 12:20 pm
+TF
+Marjorie Agosin
+faculty_profiles.php?user=magosin
+Language and Literature or Religion, Ethics and Moral Philosophy
+PEAC304-01
+Seminar in P&J Studies
+01:30 pm - 04:00 pm
+T
+Catia Confortini
+faculty_profiles.php?user=cconfort
+Social and Behavioral Analysis
+PHIL103-01
+Self&World:IntroMetaphy&Epist
+01:30 pm - 02:40 pm
+TF
+Joshua Wood
+faculty_profiles.php?user=jwood5
+Epistemology and Cognition
+PHIL106-01
+Intro to Moral Philosophy
+11:10 am - 12:20 pm
+MTh
+Helena de Bres
+faculty_profiles.php?user=hdebres
+Religion, Ethics and Moral Philosophy
+PHIL108-01
+FYS: Friendship
+01:30 pm - 04:00 pm
+T
+Catherine Wearing
+faculty_profiles.php?user=cwearing
+Religion, Ethics and Moral Philosophy
+PHIL201-01
+Intro to Ancient Philosophy
+09:50 am - 11:00 am
+MTh
+None assigned
+faculty_profiles.php?user=
+Epistemology and Cognition,Religion, Ethics and Moral Philosophy
+PHIL203-01
+Philosophy of Art
+09:50 am - 11:00 am
+MTh
+Erich Matthes
+faculty_profiles.php?user=ematthes
+Arts, Music, Theatre, Film and Video,Epistemology and Cognition
+PHIL207-01
+Philosophy of Language
+09:50 am - 11:00 am
+TF
+Mary McGowan
+faculty_profiles.php?user=mmcgowan
+Epistemology and Cognition,Religion, Ethics and Moral Philosophy
+PHIL215-01
+Philosophy of Mind
+09:50 am - 11:00 am
+TF
+Catherine Wearing
+faculty_profiles.php?user=cwearing
+Epistemology and Cognition
+PHIL216-01
+Logic
+11:10 am - 12:20 pm
+TF
+Mary McGowan
+faculty_profiles.php?user=mmcgowan
+Epistemology and Cognition
+PHIL233-01
+Environmental Ethics
+01:30 pm - 02:40 pm
+MTh
+Erich Matthes
+faculty_profiles.php?user=ematthes
+Religion, Ethics and Moral Philosophy
+PHIL242-01
+Existentialist Ethics
+02:50 pm - 04:00 pm
+MTh
+Sharon Rabinoff
+faculty_profiles.php?user=srabinof
+Religion, Ethics and Moral Philosophy
+PHIL300-01
+Sem:Tpc: Early Mod Naturalism
+09:50 am - 12:20 pm
+W
+Joshua Wood
+faculty_profiles.php?user=jwood5
+Religion, Ethics and Moral Philosophy or Historical Studies,Religion, Ethics and Moral Philosophy
+PHIL342-01
+Sem:Tpc: International Ethics
+01:30 pm - 04:00 pm
+Th
+Helena de Bres
+faculty_profiles.php?user=hdebres
+Religion, Ethics and Moral Philosophy,Social and Behavioral Analysis
+PHYS100-01
+FYS: Einstein & the Dark Univ
+12:30 pm - 03:30 pm
+T
+James Battat
+faculty_profiles.php?user=jbattat
+Mathematical Modeling,Natural and Physical Science
+PHYS104-01
+Fundamentals  Mechanics w/Lab
+11:10 am - 12:20 pm
+MWTh
+William Quivers
+faculty_profiles.php?user=wquivers
+Mathematical Modeling,Natural and Physical Science
+PHYS104-02
+Fundamentals  Mechanics w/Lab
+08:30 am - 09:40 am
+TWF
+Kaca Bradonjic
+faculty_profiles.php?user=kbradonj
+Mathematical Modeling,Natural and Physical Science
+PHYS104-L01
+LAB: Fundamentals of Mechanics
+01:30 pm - 04:30 pm
+M
+Kaca Bradonjic
+faculty_profiles.php?user=kbradonj
+Mathematical Modeling,Natural and Physical Science
+PHYS104-L02
+LAB: Fundamentals of Mechanics
+12:30 pm - 03:30 pm
+T
+Kaca Bradonjic
+faculty_profiles.php?user=kbradonj
+Mathematical Modeling,Natural and Physical Science
+PHYS104-L03
+LAB: Fundamentals of Mechanics
+02:15 pm - 05:15 pm
+W
+Tracy McAskill
+faculty_profiles.php?user=tmcaskil
+Mathematical Modeling,Natural and Physical Science
+PHYS104-L04
+LAB: Fundamentals of Mechanics
+01:30 pm - 04:30 pm
+Th
+Kaca Bradonjic
+faculty_profiles.php?user=kbradonj
+Mathematical Modeling,Natural and Physical Science
+PHYS106-01
+Fund. Elec,Magn,&Optics w/Lab
+09:50 am - 11:00 am,09:50 am - 11:00 am
+TF,W
+Tracy McAskill
+faculty_profiles.php?user=tmcaskil
+Mathematical Modeling,Natural and Physical Science
+PHYS106-L01
+LAB:PHYS 106 & 108
+01:30 pm - 04:30 pm
+M
+George Caplan
+faculty_profiles.php?user=gcaplan
+Mathematical Modeling,Natural and Physical Science
+PHYS106-L02
+LAB:PHYS 106 & 108
+12:30 pm - 03:30 pm
+T
+Tracy McAskill
+faculty_profiles.php?user=tmcaskil
+Mathematical Modeling,Natural and Physical Science
+PHYS106-L03
+LAB:PHYS 106 & 108
+02:15 pm - 05:15 pm
+W
+George Caplan
+faculty_profiles.php?user=gcaplan
+Mathematical Modeling,Natural and Physical Science
+PHYS106-L04
+LAB:PHYS 106 & 108
+01:30 pm - 04:30 pm
+F
+Tracy McAskill
+faculty_profiles.php?user=tmcaskil
+Mathematical Modeling,Natural and Physical Science
+PHYS107-01
+Princip& Applc.Mechanics w/Lab
+11:10 am - 12:20 pm,11:10 am - 12:20 pm
+MTh,W
+Yue Hu
+faculty_profiles.php?user=yhu
+Mathematical Modeling,Natural and Physical Science
+PHYS107-02
+Princip& Applc.Mechanics w/Lab
+09:50 am - 11:00 am
+TWF
+Glenn Stark
+faculty_profiles.php?user=gstark
+Mathematical Modeling,Natural and Physical Science
+PHYS107-L01
+LAB:Princip. & Applc.Mechanics
+01:30 pm - 04:30 pm
+M
+James Battat
+faculty_profiles.php?user=jbattat
+Mathematical Modeling,Natural and Physical Science
+PHYS107-L02
+LAB:Princip. & Applc.Mechanics
+12:30 pm - 03:30 pm
+T
+Lauri Wardell
+faculty_profiles.php?user=lwardell
+Mathematical Modeling,Natural and Physical Science
+PHYS107-L03
+LAB:Princip. & Applc.Mechanics
+02:15 pm - 05:15 pm
+W
+Lauri Wardell
+faculty_profiles.php?user=lwardell
+Mathematical Modeling,Natural and Physical Science
+PHYS107-L04
+LAB: Princip& Applc.Mechanics
+01:30 pm - 04:30 pm
+Th
+James Battat
+faculty_profiles.php?user=jbattat
+Mathematical Modeling,Natural and Physical Science
+PHYS108-01
+ Applc Elec,Magn&Optics w/Lab
+09:50 am - 11:00 am
+MWTh
+Theodore Ducas
+faculty_profiles.php?user=tducas
+Mathematical Modeling,Natural and Physical Science
+PHYS108-L01
+LAB:PHYS 106 & 108
+01:30 pm - 04:30 pm
+M
+George Caplan
+faculty_profiles.php?user=gcaplan
+Mathematical Modeling,Natural and Physical Science
+PHYS108-L02
+LAB:PHYS 106 & 108
+12:30 pm - 03:30 pm
+T
+Tracy McAskill
+faculty_profiles.php?user=tmcaskil
+Mathematical Modeling,Natural and Physical Science
+PHYS108-L03
+LAB:PHYS 106 & 108
+02:15 pm - 05:15 pm
+W
+George Caplan
+faculty_profiles.php?user=gcaplan
+Mathematical Modeling,Natural and Physical Science
+PHYS108-L04
+LAB: PHYS 106 & 108
+01:30 pm - 04:30 pm
+F
+Tracy McAskill
+faculty_profiles.php?user=tmcaskil
+Mathematical Modeling,Natural and Physical Science
+PHYS202-01
+Intro Quantum Mechanics w/Lab
+11:10 am - 12:20 pm
+MWTh
+Theodore Ducas
+faculty_profiles.php?user=tducas
+QRF,Mathematical Modeling,Natural and Physical Science
+PHYS202-L01
+LAB: Intro Quantum Mechanics
+01:30 pm - 04:30 pm
+M
+Lauri Wardell
+faculty_profiles.php?user=lwardell
+QRF,Mathematical Modeling,Natural and Physical Science
+PHYS202-L02
+LAB: Intro Quantum Mechanics
+01:30 pm - 04:30 pm
+Th
+Lauri Wardell
+faculty_profiles.php?user=lwardell
+QRF,Mathematical Modeling,Natural and Physical Science
+PHYS302-01
+Quantum Mechanics
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm
+MTh,W
+William Quivers
+faculty_profiles.php?user=wquivers
+Mathematical Modeling,Natural and Physical Science
+PHYS314-01
+Electromagnetic Theory
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm
+MTh,W
+Yue Hu
+faculty_profiles.php?user=yhu
+Mathematical Modeling,Natural and Physical Science
+POL103-01
+FYS: Mexico- Rev. Dem & Drugs
+02:15 pm - 04:45 pm
+W
+Lois Wasserspring
+faculty_profiles.php?user=lwassers
+Social and Behavioral Analysis
+POL115-01
+FYS: Politics and Ethics
+09:50 am - 12:20 pm
+W
+Roxanne Euben
+faculty_profiles.php?user=reuben
+Religion, Ethics and Moral Philosophy
+POL230-01
+Politics in Washington D.C
+09:50 am - 12:20 pm
+W
+Hahrie Han
+faculty_profiles.php?user=hhan
+Social and Behavioral Analysis
+POL299-01
+Intro Research Meth in PolSci
+01:30 pm - 04:00 pm
+MTh
+Katherine Woolfalk
+faculty_profiles.php?user=kwoolfal
+QRF,Social and Behavioral Analysis
+POL1200-01
+American Politics
+11:10 am - 12:20 pm
+MTh
+Hahrie Han
+faculty_profiles.php?user=hhan
+Social and Behavioral Analysis
+POL1200-02
+American Politics
+08:30 am - 09:40 am
+TF
+Nancy Scherer
+faculty_profiles.php?user=nscherer
+Social and Behavioral Analysis
+POL1235-01
+Courts and Public Policy
+09:50 am - 11:00 am
+MTh
+Elizabeth Dionne
+faculty_profiles.php?user=edionne
+Social and Behavioral Analysis
+POL1300-01
+Public Policymaking
+01:30 pm - 04:00 pm
+M
+Hahrie Han
+faculty_profiles.php?user=hhan
+Social and Behavioral Analysis
+POL1319-01
+CSPW: Campaigns and Elections
+02:15 pm - 04:45 pm
+W
+Marion Just
+faculty_profiles.php?user=mjust
+None assigned
+POL1324-01
+Sem: Gender and Law
+01:30 pm - 04:00 pm
+T
+Nancy Scherer
+faculty_profiles.php?user=nscherer
+Social and Behavioral Analysis
+POL1381-01
+U.S. Environmental Politics
+09:50 am - 11:00 am,09:50 am - 11:00 am
+TF,W2
+James Turner
+faculty_profiles.php?user=jturner
+Social and Behavioral Analysis
+POL2204-01
+Pol Econ of Dev & Underdev
+01:30 pm - 02:40 pm
+TF
+Craig Murphy
+faculty_profiles.php?user=cmurphy
+Social and Behavioral Analysis
+POL2205-01
+Politics Europe & Euro Union
+11:10 am - 12:20 pm
+MTh
+Joel Krieger
+faculty_profiles.php?user=jkrieger
+Social and Behavioral Analysis
+POL2208-01
+Politics of China
+11:10 am - 12:20 pm
+TF
+William Joseph
+faculty_profiles.php?user=wjoseph
+Social and Behavioral Analysis
+POL2214-01
+Soc Cause & Conseq Env Probs
+09:50 am - 11:00 am
+MTh
+Elizabeth DeSombre
+faculty_profiles.php?user=edesombr
+Social and Behavioral Analysis
+POL2307-01
+Women & Development
+01:30 pm - 04:00 pm
+T
+Lois Wasserspring
+faculty_profiles.php?user=lwassers
+Social and Behavioral Analysis
+POL2310-01
+Sem: PoliticsofCommunity Devel
+01:30 pm - 04:00 pm
+F
+Christopher Candland
+faculty_profiles.php?user=ccandlan
+Social and Behavioral Analysis
+POL2336-01
+Transitional Justice
+01:30 pm - 04:00 pm
+M
+None assigned
+faculty_profiles.php?user=
+Social and Behavioral Analysis
+POL3121-01
+After 9/11
+09:50 am - 11:00 am
+MTh
+Paul MacDonald
+faculty_profiles.php?user=pmacdon2
+Social and Behavioral Analysis
+POL3221-01
+World Politics
+09:50 am - 11:00 am
+TF
+Stacie Goddard
+faculty_profiles.php?user=sgoddard
+Social and Behavioral Analysis
+POL3221-02
+World Politics
+11:10 am - 12:20 pm
+MTh
+Michal Ben-Josef Hirsch
+faculty_profiles.php?user=mbenjose
+Social and Behavioral Analysis
+POL3224-01
+International Security
+11:10 am - 12:20 pm
+TF
+Stacie Goddard
+faculty_profiles.php?user=sgoddard
+Social and Behavioral Analysis
+POL3239-01
+Africa in the World
+09:50 am - 11:00 am
+TF
+Craig Murphy
+faculty_profiles.php?user=cmurphy
+Social and Behavioral Analysis
+POL3352-01
+Sem: Small Wars & Insurgencies
+01:30 pm - 04:00 pm
+Th
+Paul MacDonald
+faculty_profiles.php?user=pmacdon2
+Social and Behavioral Analysis
+POL4201-01
+Intro. to Political Theory
+09:50 am - 11:00 am
+MTh
+Laura Grattan
+faculty_profiles.php?user=lgrattan
+Religion, Ethics and Moral Philosophy
+POL4248-01
+Power and Politics
+09:50 am - 11:00 am
+TF
+Roxanne Euben
+faculty_profiles.php?user=reuben
+Religion, Ethics and Moral Philosophy
+POL4249-01
+Politics Right, Left, Center
+02:50 pm - 04:00 pm
+MTh
+Laura Grattan
+faculty_profiles.php?user=lgrattan
+Religion, Ethics and Moral Philosophy
+POL4343-01
+Sem: Democracy & Difference
+09:50 am - 12:20 pm
+W
+Joel Krieger
+faculty_profiles.php?user=jkrieger
+Religion, Ethics and Moral Philosophy
+PORT103-01
+Intensive Element. Portuguese
+11:10 am - 12:20 pm,12:30 pm - 12:50 pm
+MTWTh,Th
+Antonio Igrejas
+faculty_profiles.php?user=aigrejas
+None
+PSYC101-01
+Intro to Psychology
+08:30 am - 09:40 am
+TF
+Jeremy Wilmer
+faculty_profiles.php?user=jwilmer
+Social and Behavioral Analysis
+PSYC101-02
+Intro to Psychology
+01:30 pm - 02:40 pm
+TF
+Tracy Gleason
+faculty_profiles.php?user=tgleason
+Social and Behavioral Analysis
+PSYC101-03
+Intro to Psychology
+09:50 am - 11:00 am
+TF
+Stephen Chen
+faculty_profiles.php?user=schen7
+Social and Behavioral Analysis
+PSYC101-04
+Intro to Psychology
+01:30 pm - 02:40 pm
+MTh
+Kyra Kulik-Johnson
+faculty_profiles.php?user=kkulikjo
+Social and Behavioral Analysis
+PSYC101-05
+Intro to Psychology
+08:30 am - 09:40 am
+MTh
+Kyra Kulik-Johnson
+faculty_profiles.php?user=kkulikjo
+Social and Behavioral Analysis
+PSYC101-06
+Intro to Psychology
+11:10 am - 12:20 pm
+MTh
+Kyra Kulik-Johnson
+faculty_profiles.php?user=kkulikjo
+Social and Behavioral Analysis
+PSYC205-01
+Statistics w/Lab
+08:30 am - 09:40 am
+MTh
+Beth Hennessey
+faculty_profiles.php?user=bhenness
+QRF,Social and Behavioral Analysis
+PSYC205-02
+Statistics w/Lab
+01:30 pm - 02:40 pm
+MTh
+Jonathan Cheek
+faculty_profiles.php?user=jcheek
+QRF,Social and Behavioral Analysis
+PSYC205-03
+Statistics with Lab
+11:10 am - 12:20 pm
+MTh
+Linda Carli
+faculty_profiles.php?user=lcarli
+QRF,Social and Behavioral Analysis
+PSYC205-1LA
+LAB: Statistics
+09:50 am - 11:00 am
+M
+Beth Hennessey
+faculty_profiles.php?user=bhenness
+QRF,Social and Behavioral Analysis
+PSYC205-1LB
+LAB: Statistics
+09:50 am - 11:00 am
+Th
+Beth Hennessey
+faculty_profiles.php?user=bhenness
+QRF,Social and Behavioral Analysis
+PSYC205-2LA
+LAB: Statistics
+02:15 pm - 03:25 pm
+W
+Jonathan Cheek
+faculty_profiles.php?user=jcheek
+QRF,Social and Behavioral Analysis
+PSYC205-2LB
+LAB: Statistics
+03:35 pm - 04:45 pm
+W
+Jonathan Cheek
+faculty_profiles.php?user=jcheek
+QRF,Social and Behavioral Analysis
+PSYC205-3LA
+Statistics with Lab
+01:30 pm - 02:40 pm
+M
+Linda Carli
+faculty_profiles.php?user=lcarli
+QRF,Social and Behavioral Analysis
+PSYC205-3LB
+Statistics with Lab
+01:30 pm - 02:40 pm
+Th
+Linda Carli
+faculty_profiles.php?user=lcarli
+QRF,Social and Behavioral Analysis
+PSYC207-01
+Developmental Psychology
+09:50 am - 11:00 am
+TF
+Jennie Pyers
+faculty_profiles.php?user=jpyers
+Social and Behavioral Analysis
+PSYC210-01
+Social Psychology
+02:50 pm - 04:00 pm
+TF
+Robin Akert
+faculty_profiles.php?user=rakert
+Social and Behavioral Analysis
+PSYC212-01
+Personality
+11:10 am - 12:20 pm
+MTh
+Julie Norem
+faculty_profiles.php?user=jnorem
+Social and Behavioral Analysis
+PSYC213-01
+Abnormal Psychology
+02:50 pm - 04:00 pm
+MTh
+Paul Wink
+faculty_profiles.php?user=pwink
+Social and Behavioral Analysis
+PSYC214-01
+Evolution and Human Behavior
+08:30 am - 09:40 am
+TF
+Margery Lucas
+faculty_profiles.php?user=mlucas
+Epistemology and Cognition,Social and Behavioral Analysis
+PSYC217-01
+Cognition
+11:10 am - 12:20 pm
+TF
+Margaret Keane
+faculty_profiles.php?user=mkeane
+Epistemology and Cognition,Social and Behavioral Analysis
+PSYC219-01
+Biological  Psychology
+09:50 am - 11:00 am
+MTh
+Christen Deveney
+faculty_profiles.php?user=cdeveney
+Epistemology and Cognition,Social and Behavioral Analysis
+PSYC222-01
+Asian American Psychology
+02:50 pm - 04:00 pm
+TF
+Stephen Chen
+faculty_profiles.php?user=schen7
+Social and Behavioral Analysis
+PSYC301-01
+Sem: Cooperation & Competition
+02:15 pm - 04:45 pm
+W
+Margery Lucas
+faculty_profiles.php?user=mlucas
+Epistemology and Cognition,Social and Behavioral Analysis
+PSYC307R-01
+Res Meths in Develop Psych
+08:30 am - 11:00 am
+TF
+Tracy Gleason
+faculty_profiles.php?user=tgleason
+Social and Behavioral Analysis
+PSYC312R-01
+Res Meth Personality Psyc
+01:30 pm - 04:00 pm
+MTh
+Julie Norem
+faculty_profiles.php?user=jnorem
+Social and Behavioral Analysis
+PSYC313R-01
+Res Meths in Abnormal Psych
+09:50 am - 12:20 pm
+MTh
+Sally Theran
+faculty_profiles.php?user=stheran
+Social and Behavioral Analysis
+PSYC318-01
+Sem: Psychopharmacology
+01:30 pm - 04:00 pm
+M
+Christen Deveney
+faculty_profiles.php?user=cdeveney
+Epistemology and Cognition,Social and Behavioral Analysis
+PSYC328-01
+Sem: Genes,Brains & Human Vari
+01:30 pm - 04:00 pm
+F
+Jeremy Wilmer
+faculty_profiles.php?user=jwilmer
+Epistemology and Cognition,Social and Behavioral Analysis
+PSYC334-01
+Sem: Psychology of Creativity
+09:50 am - 12:20 pm
+T
+Beth Hennessey
+faculty_profiles.php?user=bhenness
+Social and Behavioral Analysis
+PSYC339-01
+Sem: Narrative Identity
+01:30 pm - 04:00 pm
+T
+Jonathan Cheek
+faculty_profiles.php?user=jcheek
+Social and Behavioral Analysis
+PSYC340-01
+Organizational Psychology
+04:10 pm - 05:20 pm
+MTh
+Linda Carli
+faculty_profiles.php?user=lcarli
+Social and Behavioral Analysis
+PSYC345-01
+Sem:Tpc: Mindreading
+01:30 pm - 04:00 pm
+T
+Jennie Pyers
+faculty_profiles.php?user=jpyers
+Social and Behavioral Analysis
+PSYC349-01
+Sem: Nonverbal Communication
+06:15 pm - 08:45 pm
+Th
+Robin Akert
+faculty_profiles.php?user=rakert
+Social and Behavioral Analysis
+QR140-01
+Intro Quantitative Reasoning
+08:30 am - 09:40 am,08:30 am - 09:40 am
+TF,W
+Corrine Taylor
+faculty_profiles.php?user=ctaylor1
+QRB
+QR140-02
+Intro Quantitative Reasoning
+09:50 am - 11:00 am,09:50 am - 11:00 am
+TF,W
+Corrine Taylor
+faculty_profiles.php?user=ctaylor1
+QRB
+QR140-03
+Intro Quantitative Reasoning
+11:10 am - 12:20 pm,11:10 am - 12:20 pm
+MW,Th
+Jessica Polito
+faculty_profiles.php?user=jpolito
+QRB
+REL108-01
+Intro to Asian Religions
+11:10 am - 12:20 pm
+MTh
+T. James Kodera
+faculty_profiles.php?user=jkodera
+Religion, Ethics and Moral Philosophy
+REL226-01
+The Virgin Mary
+02:50 pm - 04:00 pm
+MTh
+Sharon Elkins
+faculty_profiles.php?user=selkins
+Historical Studies,Religion, Ethics and Moral Philosophy
+REL232-01
+Popular Culture and Religion
+09:50 am - 11:00 am
+MTh
+Erinn Staley
+faculty_profiles.php?user=estaley
+Religion, Ethics and Moral Philosophy
+REL240-01
+Romans, Jews,  and Christians
+02:15 pm - 04:45 pm
+W
+Barbara Geller
+faculty_profiles.php?user=bgeller
+Historical Studies,Religion, Ethics and Moral Philosophy
+REL252-01
+Women and Religion in South As
+11:10 am - 12:20 pm
+TF
+Neelima Shukla-Bhatt
+faculty_profiles.php?user=nshuklab
+Religion, Ethics and Moral Philosophy
+REL254-01
+Chinese Thought and Religion
+01:30 pm - 02:40 pm
+MTh
+T. James Kodera
+faculty_profiles.php?user=jkodera
+Historical Studies,Religion, Ethics and Moral Philosophy
+REL261-01
+Cities of the Islamic World
+01:30 pm - 02:40 pm
+TF
+Louise Marlow
+faculty_profiles.php?user=lmarlow
+Historical Studies,Religion, Ethics and Moral Philosophy
+REL267-01
+Muslim Ethics
+09:50 am - 11:00 am
+TF
+Louise Marlow
+faculty_profiles.php?user=lmarlow
+Religion, Ethics and Moral Philosophy
+REL323-01
+Seminar: Feminist Theologies
+09:50 am - 12:20 pm
+W
+Sharon Elkins
+faculty_profiles.php?user=selkins
+Religion, Ethics and Moral Philosophy,Social and Behavioral Analysis
+RUSS101-01
+Elementary Russian I
+08:30 am - 09:40 am,12:30 pm - 01:20 pm
+TWF,F
+Thomas Hodge
+faculty_profiles.php?user=thodge
+None
+RUSS201-01
+Intermediate Russian I
+11:10 am - 01:20 pm,11:10 am - 12:20 pm
+TF,W
+Alla Epsteyn
+faculty_profiles.php?user=aepsteyn
+Language and Literature
+RUSS251-01
+Russ Lit in Trans:  19th C.
+09:50 am - 11:00 am
+TF
+Thomas Hodge
+faculty_profiles.php?user=thodge
+Language and Literature
+RUSS286-01
+Vladimir Nabokov (in Eng)
+09:50 am - 11:00 am
+MTh
+Adam Weiner
+faculty_profiles.php?user=aweiner
+Language and Literature
+RUSS301-01
+Tpc: Moscow
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm
+TF,W
+Alla Epsteyn
+faculty_profiles.php?user=aepsteyn
+Language and Literature
+RUSS386-01
+Vladimir Nabokov (in Russ)
+09:50 am - 11:00 am
+W
+Adam Weiner
+faculty_profiles.php?user=aweiner
+Language and Literature
+SAS252-01
+Women and Religion in South As
+11:10 am - 12:20 pm
+TF
+Neelima Shukla-Bhatt
+faculty_profiles.php?user=nshuklab
+Religion, Ethics and Moral Philosophy
+SOC108-01
+Think'g Global:Intro Sociology
+11:10 am - 12:20 pm
+MTh
+Smitha Radhakrishnan
+faculty_profiles.php?user=sradhakr
+Social and Behavioral Analysis
+SOC114-01
+FYS: Want to Be a Doctor?
+11:10 am - 12:20 pm
+TF
+Jonathan Imber
+faculty_profiles.php?user=jimber
+Social and Behavioral Analysis
+SOC137-01
+FYS: Reading Sociology
+08:30 am - 09:40 am
+MTh
+Peggy Levitt
+faculty_profiles.php?user=plevitt
+Social and Behavioral Analysis
+SOC138-01
+Soc Constr Deviance: Intro Soc
+11:10 am - 12:20 pm
+TF
+Lee Cuba
+faculty_profiles.php?user=lcuba
+Social and Behavioral Analysis
+SOC190-01
+Intro Prob&Stat Methods w/Lab
+08:30 am - 09:40 am,08:30 am - 09:40 am
+MTh,W1
+Joseph Swingle
+faculty_profiles.php?user=jswingle
+QRF,Social and Behavioral Analysis
+SOC190-02
+Intro Prob&Stat Methods w/Lab
+11:10 am - 12:20 pm,11:10 am - 12:20 pm
+MTh,W1
+Robin McKnight
+faculty_profiles.php?user=rmcknigh
+QRF,Social and Behavioral Analysis
+SOC190-03
+Intro Prob&Stat Methods w/Lab
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm
+MTh,W1
+Phillip Levine
+faculty_profiles.php?user=plevine
+QRF,Social and Behavioral Analysis
+SOC190-1LA
+LAB: Prob&Statistical Methods
+09:50 am - 11:00 am
+W
+Joseph Swingle
+faculty_profiles.php?user=jswingle
+QRF,Social and Behavioral Analysis
+SOC190-1LB
+LAB: Prob&Statistical Methods
+11:10 am - 12:20 pm
+W
+Joseph Swingle
+faculty_profiles.php?user=jswingle
+QRF,Social and Behavioral Analysis
+SOC190-2LA
+LAB: Prob&Statistical Methods
+09:50 am - 11:00 am
+T
+Robin McKnight
+faculty_profiles.php?user=rmcknigh
+QRF,Social and Behavioral Analysis
+SOC190-2LB
+LAB: Prob&Statistical Methods
+11:10 am - 12:20 pm
+T
+Robin McKnight
+faculty_profiles.php?user=rmcknigh
+QRF,Social and Behavioral Analysis
+SOC190-3LA
+LAB: Intro Prob&Stat Method
+01:30 pm - 02:40 pm
+T
+Phillip Levine
+faculty_profiles.php?user=plevine
+QRF,Social and Behavioral Analysis
+SOC190-3LB
+LAB: Intro Prob&Stat Method
+02:50 pm - 04:00 pm
+T
+Phillip Levine
+faculty_profiles.php?user=plevine
+QRF,Social and Behavioral Analysis
+SOC200-01
+Classical Social Theory
+11:10 am - 12:20 pm
+MTh
+Markella Rutherford
+faculty_profiles.php?user=mrutherf
+Social and Behavioral Analysis
+SOC204-01
+Social Problems
+02:15 pm - 04:45 pm
+W
+Ira Silver
+faculty_profiles.php?user=isilver
+Social and Behavioral Analysis
+SOC246-01
+U.S. Immigration 
+09:50 am - 11:00 am
+MTh
+Peggy Levitt
+faculty_profiles.php?user=plevitt
+Social and Behavioral Analysis
+SOC289-01
+Tiananmen Movement in China
+09:50 am - 12:20 pm
+W
+Rowena He
+faculty_profiles.php?user=rhe
+Social and Behavioral Analysis
+SOC304-01
+Sem: Modernity & Social Change
+06:30 pm - 09:00 pm
+M
+Thomas Cushman
+faculty_profiles.php?user=tcushman
+Social and Behavioral Analysis
+SOC307-01
+Learning by Giving
+01:30 pm - 02:40 pm
+TF
+Lee Cuba
+faculty_profiles.php?user=lcuba
+Social and Behavioral Analysis
+SOC308-01
+Children in Society
+01:30 pm - 04:00 pm
+M
+Markella Rutherford
+faculty_profiles.php?user=mrutherf
+Social and Behavioral Analysis
+SOC314-01
+Med Sociol & Soc Epidemiology
+01:30 pm - 04:00 pm
+T
+Jonathan Imber
+faculty_profiles.php?user=jimber
+Social and Behavioral Analysis
+SPAN101-01
+Elementary Spanish I
+08:30 am - 09:40 am
+TWF
+Nancy Hall
+faculty_profiles.php?user=nhall
+None
+SPAN101-02
+Elementary Spanish I
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm
+TF,W
+Koichi Hagimoto
+faculty_profiles.php?user=khagimot
+None
+SPAN110-01
+FYS:Span for Heritage Speakers
+09:50 am - 11:00 am
+MTh
+Veronica Darer
+faculty_profiles.php?user=vdarer
+None
+SPAN201-01
+Intermediate Spanish I
+08:30 am - 09:40 am
+MWTh
+Veronica Darer
+faculty_profiles.php?user=vdarer
+None
+SPAN201-02
+Intermediate Spanish I
+09:50 am - 11:00 am
+TWF
+Jill Syverson-Stork
+faculty_profiles.php?user=jsyverso
+None
+SPAN201-03
+Intermediate Spanish I
+11:10 am - 12:20 pm
+TWF
+Jill Syverson-Stork
+faculty_profiles.php?user=jsyverso
+None
+SPAN201-04
+Intermediate Spanish I
+09:50 am - 11:00 am
+MWTh
+Carlos Ramos
+faculty_profiles.php?user=cramos
+None
+SPAN201-05
+Intermediate Spanish I
+11:10 am - 12:20 pm
+MWTh
+Inela Selimovic
+faculty_profiles.php?user=iselimov
+None
+SPAN201-06
+Intermediate Spanish I
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm
+MTh,W
+Inela Selimovic
+faculty_profiles.php?user=iselimov
+None
+SPAN241-01
+Intro to Hispanic Studies
+08:30 am - 09:40 am
+MTh
+Joy Renjilian-Burgy
+faculty_profiles.php?user=jrenjili
+Language and Literature
+SPAN241-02
+Intro to Hispanic Studies
+09:50 am - 11:00 am
+MTh
+Joy Renjilian-Burgy
+faculty_profiles.php?user=jrenjili
+Language and Literature
+SPAN241-03
+Intro to Hispanic Studies
+09:50 am - 11:00 am
+TF
+Marjorie Agosin
+faculty_profiles.php?user=magosin
+Language and Literature
+SPAN242-01
+Literary Genres Spain&Latin Am
+02:50 pm - 04:00 pm
+TF
+Evelina Guzauskyte
+faculty_profiles.php?user=eguzausk
+Language and Literature
+SPAN245-01
+Inventing the Americas
+01:30 pm - 02:40 pm
+TF
+Evelina Guzauskyte
+faculty_profiles.php?user=eguzausk
+Language and Literature
+SPAN260-01
+Women, Gender, Love 21C Spain
+01:30 pm - 02:40 pm
+MTh
+Elena Gascon-Vera
+faculty_profiles.php?user=egasconv
+Language and Literature
+SPAN261-01
+Tpc: Hum. Rights Cult. Lat Am
+11:10 am - 12:20 pm
+TF
+Marjorie Agosin
+faculty_profiles.php?user=magosin
+Language and Literature,Religion, Ethics and Moral Philosophy
+SPAN272-01
+Cultures of Spain
+11:10 am - 12:20 pm
+MTh
+Carlos Ramos
+faculty_profiles.php?user=cramos
+Language and Literature
+SPAN300-01
+Hnr,Monarchy,Rel Gldn Age Dram
+02:50 pm - 05:20 pm
+M
+Elena Gascon-Vera
+faculty_profiles.php?user=egasconv
+Arts, Music, Theatre, Film and Video,Language and Literature
+SPAN323-01
+Sem: Modern Mexico
+02:50 pm - 05:20 pm
+Th
+Nancy Hall
+faculty_profiles.php?user=nhall
+Language and Literature
+SPAN335-01
+Asia in Latin America
+06:00 pm - 08:30 pm
+W
+Koichi Hagimoto
+faculty_profiles.php?user=khagimot
+Language and Literature
+SWA101-01
+Elementary Swahili
+08:30 am - 09:40 am
+MWTh
+Geofred Osoro
+faculty_profiles.php?user=gosoro
+None
+SWA201-01
+Intermediate Swahili I
+09:50 am - 11:00 am
+MWTh
+Geofred Osoro
+faculty_profiles.php?user=gosoro
+None
+THST130-01
+Japanese Animation (in Eng)
+11:10 am - 12:20 pm
+TF
+Carolyn Morley
+faculty_profiles.php?user=cmorley
+Arts, Music, Theatre, Film and Video,Language and Literature
+THST203-01
+Plays, Production, Performance
+02:50 pm - 04:00 pm
+MTh
+Nora Hussey
+faculty_profiles.php?user=nhussey
+Arts, Music, Theatre, Film and Video
+THST204-01
+Introduction to Acting
+01:30 pm - 04:00 pm
+M
+Diego Arciniegas
+faculty_profiles.php?user=darcinie
+Arts, Music, Theatre, Film and Video
+THST207-01
+Stagecraft for Performance
+09:50 am - 12:20 pm
+Th
+David Towlun
+faculty_profiles.php?user=dtowlun
+Arts, Music, Theatre, Film and Video
+THST209-01
+Intro to Art of Scenic Design
+01:30 pm - 04:00 pm
+T
+Jane Howland
+faculty_profiles.php?user=jhowland
+Arts, Music, Theatre, Film and Video
+THST210-01
+Echoes of the Homeland
+02:15 pm - 04:45 pm
+W
+Nora Hussey
+faculty_profiles.php?user=nhussey
+Arts, Music, Theatre, Film and Video
+THST212-01
+Women, Center Stage
+09:50 am - 12:20 pm
+T
+Melinda Lopez
+faculty_profiles.php?user=mlopez
+Arts, Music, Theatre, Film and Video
+THST221-01
+The Art of Playwriting
+09:50 am - 12:20 pm
+W
+Lois Roach
+faculty_profiles.php?user=lroach
+Arts, Music, Theatre, Film and Video
+THST251-01
+Jpn Writers&Their Worlds(Eng)
+02:50 pm - 04:00 pm
+TF
+Carolyn Morley
+faculty_profiles.php?user=cmorley
+Language and Literature
+THST305-01
+Advanced Scene Study
+09:50 am - 12:20 pm
+M
+Diego Arciniegas
+faculty_profiles.php?user=darcinie
+Arts, Music, Theatre, Film and Video
+THST321-01
+The Art of Playwriting
+09:50 am - 12:20 pm
+W
+Lois Roach
+faculty_profiles.php?user=lroach
+Arts, Music, Theatre, Film and Video
+THST355-01
+JpnWriters&Their Worlds 
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm
+TF,W
+Carolyn Morley
+faculty_profiles.php?user=cmorley
+Language and Literature
+WGST100-01
+FYS:The BodyFrom Rep ToFashion
+01:30 pm - 04:00 pm
+M
+Rosanna Hertz
+faculty_profiles.php?user=rhertz
+Social and Behavioral Analysis
+WGST120-01
+Intro to Women's & Gender Stud
+11:10 am - 12:20 pm
+TF
+Irene Mata
+faculty_profiles.php?user=imata
+Language and Literature,Social and Behavioral Analysis
+WGST120-02
+Intro to Women's & Gender Stud
+09:50 am - 11:00 am
+MTh
+Jennifer Musto
+faculty_profiles.php?user=jmusto
+Language and Literature,Social and Behavioral Analysis
+WGST150-01
+Health and Society
+09:50 am - 11:00 am
+TF
+Charlene Galarneau
+faculty_profiles.php?user=cgalarne
+Social and Behavioral Analysis
+WGST200-01
+Intro. to Reproductive Issues
+11:10 am - 12:20 pm
+TF
+Maria Natividad
+faculty_profiles.php?user=mnativid
+Social and Behavioral Analysis
+WGST220-01
+AmHealthCareHst-Gndr,Race,Cls
+02:15 pm - 04:45 pm
+W
+Susan Reverby
+faculty_profiles.php?user=sreverby
+Historical Studies
+WGST223-01
+Gendering the Bronze Screen
+01:30 pm - 04:00 pm
+T
+Irene Mata
+faculty_profiles.php?user=imata
+Arts, Music, Theatre, Film and Video
+WGST235-01
+Politics of Sexuality
+09:50 am - 11:00 am
+MTh
+Sima Shakhsari
+faculty_profiles.php?user=sshakhsa
+Historical Studies,Language and Literature
+WGST249-01
+Asian Amer Women in Film
+01:30 pm - 04:00 pm
+Th
+Elena Creef
+faculty_profiles.php?user=ecreef
+Arts, Music, Theatre, Film and Video
+WGST299-01
+Sexuality in Muslim&Arab World
+11:10 am - 12:20 pm
+MTh
+Sima Shakhsari
+faculty_profiles.php?user=sshakhsa
+Social and Behavioral Analysis
+WGST305-01
+Sem:Rep of Women,Natives&Othrs
+02:15 pm - 04:45 pm
+W
+Elena Creef
+faculty_profiles.php?user=ecreef
+Arts, Music, Theatre, Film and Video,Language and Literature
+WGST310-01
+Health Activism
+02:50 pm - 05:20 pm
+M
+Susan Reverby
+faculty_profiles.php?user=sreverby
+Historical Studies
+WGST314-01
+Sem. Transnational Feminisms
+09:50 am - 12:20 pm
+W
+Jennifer Musto
+faculty_profiles.php?user=jmusto
+Social and Behavioral Analysis
+WGST340-01
+Sem: Global Health
+01:30 pm - 04:00 pm
+T
+Charlene Galarneau
+faculty_profiles.php?user=cgalarne
+Social and Behavioral Analysis
+WRIT105-01
+Eng120 Critical Interpretation
+02:50 pm - 05:20 pm,02:50 pm - 04:00 pm
+M,Th
+Cord Whitaker
+faculty_profiles.php?user=cwhitak3
+Language and Literature,W
+WRIT105-02
+Eng120 Critical Interpretation
+09:50 am - 11:00 am,09:50 am - 11:00 am
+TF,W
+Margery Sabin
+faculty_profiles.php?user=msabin
+Language and Literature,W
+WRIT106-01
+Narrative Theory
+01:30 pm - 02:40 pm
+TF
+Yoon Lee
+faculty_profiles.php?user=ylee
+W
+WRIT107-01
+Arth 100 Ancient & Medieval
+11:10 am - 12:20 pm
+TF
+Rebecca Bedell
+faculty_profiles.php?user=rbedell
+Arts, Music, Theatre, Film and Video,W
+WRIT107-02
+ARTH 100 Ancient & Medieval
+01:30 pm - 02:40 pm
+TF
+Barbara Lynn-Davis
+faculty_profiles.php?user=blynndav
+Arts, Music, Theatre, Film and Video,W
+WRIT110-01
+Wgst 108 Soc Constr of Gender
+11:10 am - 01:20 pm,11:10 am - 12:20 pm
+M,Th
+Nancy Marshall
+faculty_profiles.php?user=nmarshal
+Social and Behavioral Analysis,W
+WRIT111-01
+Cams 115 Hitchcock, Auteur
+02:50 pm - 04:00 pm,02:15 pm - 04:45 pm
+TF,W
+Winifred Wood
+faculty_profiles.php?user=wwood
+Arts, Music, Theatre, Film and Video,W
+WRIT121-01
+Almost Touching the Skies
+08:30 am - 09:40 am
+TF
+Heather Bryant
+faculty_profiles.php?user=hbryant
+W
+WRIT121-02
+Almost Touching the Skies
+11:10 am - 12:20 pm
+TF
+Heather Bryant
+faculty_profiles.php?user=hbryant
+W
+WRIT122-01
+Wellesley and the World
+08:30 am - 09:40 am
+MTh
+Jeannine Johnson
+faculty_profiles.php?user=jjohnso2
+W
+WRIT122-02
+Wellesley and the World
+09:50 am - 11:00 am
+MTh
+Jeannine Johnson
+faculty_profiles.php?user=jjohnso2
+W
+WRIT132-01
+Class Matters
+09:50 am - 11:00 am
+TF
+Anne Brubaker
+faculty_profiles.php?user=abrubake
+W
+WRIT135-01
+Age of the Anti-Hero
+01:30 pm - 02:40 pm
+MTh
+Octavio Gonzalez
+faculty_profiles.php?user=ogonzale
+W
+WRIT140-01
+Romantic Comedies
+02:50 pm - 04:00 pm
+MTh
+Vernon Shetley
+faculty_profiles.php?user=vshetley
+W
+WRIT141-01
+Love Manuals
+01:30 pm - 02:40 pm
+MTh
+Carlos Vega
+faculty_profiles.php?user=cvega
+W
+WRIT144-01
+Making of the Modern Self
+01:30 pm - 02:40 pm
+TF
+Francesca Southerden
+faculty_profiles.php?user=fsouther
+W
+WRIT145-01
+Do French Women Really
+02:50 pm - 04:00 pm
+TF
+Helene Bilis
+faculty_profiles.php?user=hbilis
+W
+WRIT160-01
+Magic of Everyday Life
+09:50 am - 11:00 am
+MTh
+Justin Armstrong
+faculty_profiles.php?user=jarmstro
+W
+WRIT160-02
+Magic of Everyday Life
+04:10 pm - 05:20 pm
+MTh
+Justin Armstrong
+faculty_profiles.php?user=jarmstro
+W
+WRIT164-01
+Supreme Court Shapes America
+08:30 am - 09:40 am
+TF
+Lynne Viti
+faculty_profiles.php?user=lviti
+W
+WRIT165-01
+China Past and Present
+01:30 pm - 02:40 pm
+MTh
+C. Pat Giersch
+faculty_profiles.php?user=cgiersch
+W
+WRIT168-01
+Illness and Therapy
+11:10 am - 12:20 pm
+MTh
+Samuel Nelson
+faculty_profiles.php?user=snelson2
+W
+WRIT170-01
+Chemistry in the News
+01:30 pm - 02:40 pm
+TF
+Paul Reisberg
+faculty_profiles.php?user=preisber
+W
+WRIT199-01
+Writing Tutorial
+None assigned
+None assigned
+Lynne Viti
+faculty_profiles.php?user=lviti
+None
+WRIT199H-01
+Writing Tutorial
+None assigned
+None assigned
+Lynne Viti
+faculty_profiles.php?user=lviti
+None
+WRIT225-01
+Tpc: Memoir
+09:50 am - 12:20 pm
+W
+James Wallenstein
+faculty_profiles.php?user=wwallens
+Language and Literature
+WRIT307-01
+Learning by Giving
+01:30 pm - 02:40 pm
+TF
+Lee Cuba
+faculty_profiles.php?user=lcuba
+Social and Behavioral Analysis
