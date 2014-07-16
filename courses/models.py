@@ -1,11 +1,5 @@
 from django.db import models
 
-"""Student todo:
-- figure out how to make username primary key (running into not null problems when migrating using south)
-- figure out if possible to make username = email.split('@')[0]
-- how to remove a course??????? gah
-- double check null/not null for all fields
-"""
 
 #------CLASS YEARS--------
 FIRSTYEAR = 'fy'
@@ -127,6 +121,14 @@ UND = "Undecided"
 
 #------BEGIN MODELS--------
 
+
+
+"""Student todo:
+- figure out how to make username primary key (running into not null problems when migrating using south)
+- figure out if possible to make username = email.split('@')[0]
+- how to remove a course??????? gah
+- double check null/not null for all fields
+"""
 class Student(models.Model):
     CLASS_YEAR = [
         (FIRSTYEAR, 'First year'),
@@ -272,24 +274,23 @@ class Distribution(models.Model):
     def __unicode__(self):
         return self.name
 
-
+    """Returns if a course counts toward the Distribution"""
     def is_fulfilled_by(self, course):
-        """Returns if a course counts toward the Distribution"""
         if self.course_set.filter(name__contains=course.name).count() > 0:
             return True
         else:
             return False
 
+    """Returns the number of courses left to take in the Distribution, given a list of Courses"""
     def num_courses_togo(self, courses):
-        """Returns the number of courses left to take in the Distribution, given a list of Courses"""
         num_togo = self.num_courses
         for course in courses:
             if self.is_fulfilled_by(course) == True:
                 num_togo -= 1
         return num_togo
 
+    """Returns a list of suggested courses to fulfill the Distribution, given a list of Courses"""
     def suggested_courses(self, courses):
-        """Returns a list of suggested courses to fulfill the Distribution, given a list of Courses"""
         #additional functions: should compensate for fall/spring availability
         suggestions = Distributions.course_set.all() #all available courses
         for course in courses:
@@ -315,7 +316,7 @@ class Course(models.Model):
     date = models.CharField(max_length=200) #i.e. TF
     prof = models.CharField(max_length=200)
     prof_site = models.CharField(max_length=200) #link to professor's website (comes on course browser)
-    comments = models.TextField()
+    comments = models.TextField(null=True, blank=True)
     dists = models.ManyToManyField(Distribution)
 	# A corrolary to dists, to keep track of which majors each course counts toward
     # majors = models.ManyToManyField(Major)
@@ -415,23 +416,25 @@ class Major(models.Model):
 	
 	major_courses = Course.objects.filter(dept=self.name)
 	#below methods are copied from the Distribution model.
-	def is_fulfilled_by(self, course):
-        """Returns if a course counts toward the Major"""
+    # """Returns if a course counts toward the Major"""
+    def is_fulfilled_by(self, course):
         if self.course_set.filter(name__contains=course.name).count() > 0:
             return True
         else:
             return False
+        
 
+    """Returns the number of courses left to take in the Major, given a list of Courses"""
     def num_courses_togo(self, courses):
-        """Returns the number of courses left to take in the Major, given a list of Courses"""
         num_togo = self.num_courses
         for course in courses:
             if self.is_fulfilled_by(course) == True:
                 num_togo -= 1
         return num_togo
 
+    """Returns a list of suggested courses to fulfill the Major, given a list of Courses"""
     def suggested_courses(self, courses):
-        """Returns a list of suggested courses to fulfill the Major, given a list of Courses"""
+
         #additional functions: should compensate for fall/spring availability
         suggestions = Distributions.course_set.all() #all available courses
         for course in courses:
@@ -439,48 +442,12 @@ class Major(models.Model):
                 suggestions.remove(course)
         return suggestions
 
+    """Returns if the major is complete, based on the given list of Courses"""
     def is_completed(self, courses):
-        """Returns if the major is complete, based on the given list of Courses"""
         if self.num_courses_togo(courses) == 0:
             return True
         else:
             return False
-
-
-class Distribution_Requirement(models.Model):
-    # AMTFV_LL = "AMTFV_LL"
-    # EC_HS_REMP = "EC_HS_REMP"
-    # SBA = "SBA"
-    # MM_NPS = "MM_NPS"
-
-    num_courses = models.IntegerField()
-    #can u even do this in django syntax
-    requirement_list = []
-    for x in range (0,num_courses):
-        requirement_list.append(models.ManyToManyField(Distribution))
-
-    for requirement in requirement_list:
-        """requirement is a Distribution object"""
-
-    name = models.CharField(max_length=200)
-    dists = models.ManyToManyField('Distribution')
-
-    def is_fulfilled(self):
-        num_togo = num_courses
-        for requirement in requirement_list:
-            if requirement.is_fulfilled():
-                num_togo -= 1
-        if num_togo == 0:
-            return True
-        else:
-            return False
-
-    def is_fulfilled_by(self, courses):
-		pass
-
-
-
-    
 
 
 #intermediaries 
@@ -525,8 +492,8 @@ class Enrollment(models.Model):
     """
     student = models.ForeignKey(Student)
     course = models.ForeignKey(Course)
-    date_taken = models.CharField(max_length=200, null=True)
-    rating = models.IntegerField(choices=RATINGS, null=True)
+    date_taken = models.CharField(max_length=200, null=True, blank=True)
+    rating = models.IntegerField(choices=RATINGS, null=True, blank=True)
 	
     class Meta:
 		unique_together = [('student', 'course')]
