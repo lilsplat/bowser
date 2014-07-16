@@ -6,6 +6,14 @@ from django.db import models
 - how to remove a course??????? gah
 - double check null/not null for all fields
 """
+
+#------CLASS YEARS--------
+FIRSTYEAR = 'fy'
+SOPHOMORE = 'so'
+JUNIOR = 'ju'
+SENIOR = 'se'
+
+#------DISTRIBUTIONS--------
 AMTFV = "AMTFV"
 EC = "EC"
 HS = "HS"
@@ -30,6 +38,7 @@ ANY_300 = "ANY_300"
 
 #multicultural requirement??
 
+#------DISTRIBUTION REQUIREMENTS--------
 LANG_REQ = [
     #------------can have overlap--------------------
     (LANG100, "Foreign Language 100L"), #perhaps to increase simplicity should these just include 
@@ -66,12 +75,59 @@ DIST_REQ = [
     (MM_NPS, "Mathematical Modeling or Natural and Physical Sciences"),
  ]
 
+#------MAJORS--------
+AFR = "AFR"
+AMST = "AMST"
+ANTH = "ANTH"
+ART = "ART"
+ASTR = "ASTR"
+BIOC = "BIOC"
+BISC = "BISC"
+CAMS = "CAMS"
+CHEM = "CHEM"
+CLSC = "CLSC"
+CLST = "CLST"
+CPLT = "CPLT"
+CS = "CS"
+EALC = "EALC"
+ECON = "ECON"
+EDUC = "EDUC"
+ENG = "ENG"
+ES = "ES"
+FREN = "FREN"
+GEOS = "GEOS"
+GER = "GER"
+HIST = "HIST"
+ITST = "ITST"
+JWST = "JWST"
+MATH = "MATH"
+MER = "MER"
+MES = "MES"
+MUS = "MUS"
+NEUR = "NEUR"
+PE = "PE"
+PEAC = "PEAC"
+PHIL = "PHIL"
+PHYS = "PHYS"
+POLS = "POLS"
+PSYC = "PSYC"
+QR = "QR"
+REL = "REL"
+RUSS = "RUSS"
+SAS = "SAS"
+SOC = "SOC"
+SPAN = "SPAN"
+THST = "THST"
+WGST = "WGST"
+WRIT = "WRIT"
+OTHER = "OTHER"
+UND = "Undecided"
+
+
+
+#------BEGIN MODELS--------
+
 class Student(models.Model):
-    FIRSTYEAR = 'fy'
-    SOPHOMORE = 'so'
-    JUNIOR = 'ju'
-    SENIOR = 'se'
-	# Feel free to change year abbreviations
     CLASS_YEAR = [
         (FIRSTYEAR, 'First year'),
         (SOPHOMORE, 'Sophomore'),
@@ -193,20 +249,6 @@ Distribution todo:
 - otherwise working
 """
 class Distribution(models.Model):
-    AMTFV = "AMTFV"
-    EC = "EC"
-    HS = "HS"
-    LL = "LL"
-    MM = "MM"
-    NPS = "NPS"
-    QRB = "QRB"
-    QRF = "QRF"
-    REMP = "REMP"
-    SBA = "SBA"
-    NONE = "NONE"
-    LAB = "LAB"
-    FYS = "FYS"
-
     DISTRIBUTIONS = [
         (AMTFV, "Arts, Music, Theatre, Film, Video"),
         (EC, "Epistemology and Cognition"),
@@ -316,52 +358,6 @@ class Course_Bucket(models.Model):
 Major ok
 """
 class Major(models.Model):
-    AFR = "AFR"
-    AMST = "AMST"
-    ANTH = "ANTH"
-    ART = "ART"
-    ASTR = "ASTR"
-    BIOC = "BIOC"
-    BISC = "BISC"
-    CAMS = "CAMS"
-    CHEM = "CHEM"
-    CLSC = "CLSC"
-    CLST = "CLST"
-    CPLT = "CPLT"
-    CS = "CS"
-    EALC = "EALC"
-    ECON = "ECON"
-    EDUC = "EDUC"
-    ENG = "ENG"
-    ES = "ES"
-    FREN = "FREN"
-    GEOS = "GEOS"
-    GER = "GER"
-    HIST = "HIST"
-    ITST = "ITST"
-    JWST = "JWST"
-    MATH = "MATH"
-    MER = "MER"
-    MES = "MES"
-    MUS = "MUS"
-    NEUR = "NEUR"
-    PE = "PE"
-    PEAC = "PEAC"
-    PHIL = "PHIL"
-    PHYS = "PHYS"
-    POLS = "POLS"
-    PSYC = "PSYC"
-    QR = "QR"
-    REL = "REL"
-    RUSS = "RUSS"
-    SAS = "SAS"
-    SOC = "SOC"
-    SPAN = "SPAN"
-    THST = "THST"
-    WGST = "WGST"
-    WRIT = "WRIT"
-    OTHER = "OTHER"
-    UND = "Undecided"
     
     MAJORS = [
         (AFR, 'Africana Studies'),
