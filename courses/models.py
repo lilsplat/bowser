@@ -413,8 +413,38 @@ class Major(models.Model):
         return self.name
 	
 	major_courses = Course.objects.filter(dept=self.name)
-    # courses = models.ManyToManyField(Course)
-    #^^^^^^ need to change
+	#below methods are copied from the Distribution model.
+	def is_fulfilled_by(self, course):
+        """Returns if a course counts toward the Major"""
+        if self.course_set.filter(name__contains=course.name).count() > 0:
+            return True
+        else:
+            return False
+
+    def num_courses_togo(self, courses):
+        """Returns the number of courses left to take in the Major, given a list of Courses"""
+        num_togo = self.num_courses
+        for course in courses:
+            if self.is_fulfilled_by(course) == True:
+                num_togo -= 1
+        return num_togo
+
+    def suggested_courses(self, courses):
+        """Returns a list of suggested courses to fulfill the Major, given a list of Courses"""
+        #additional functions: should compensate for fall/spring availability
+        suggestions = Distributions.course_set.all() #all available courses
+        for course in courses:
+            if self.is_fulfilled_by(course):
+                suggestions.remove(course)
+        return suggestions
+
+    def is_completed(self, courses):
+        """Returns if the major is complete, based on the given list of Courses"""
+        if self.num_courses_togo(courses) == 0:
+            return True
+        else:
+            return False
+
 
 class Distribution_Requirement(models.Model):
     # AMTFV_LL = "AMTFV_LL"
