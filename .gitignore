@@ -1,8 +1,5 @@
-
-courses/models.pyc
-
-bowser/urls.pyc
+# Ignore all compiled Python files
+*.py[cod]
 
 bowser_db
 
-bowser/settings.pyc
