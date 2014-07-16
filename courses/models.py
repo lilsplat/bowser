@@ -26,6 +26,7 @@ LL_AMTFV = "LL_AMTFV"
 EC_HS = "EC_HS"
 HS_REMP = "HS_REMP"
 MM_NPS = "MM_NPS"
+ANY_300 = "ANY_300"
 
 #multicultural requirement??
 
@@ -45,6 +46,10 @@ DIST_REQ = [
     #------------can have overlap--------------------
     (QRF, "QR Overlay"), #QR requirement
     (LAB, "Lab"),
+    (ANY_300, "300-level"),
+    (ANY_300, "300-level"),
+    (ANY_300, "300-level"),
+    (ANY_300, "300-level"),
     #------------------------------------------------
     (W, "First Year Writing"),
     #------------humanities dist area-----------------
@@ -123,7 +128,7 @@ class Student(models.Model):
 
     def distributions_todo(self):
         distribution_list = DIST_REQ
-        num_overlap = 2 #default num 'overlap' courses i.e. courses that  can count for multiple majors; always at head of list
+        num_overlap = 6 #default num 'overlap' courses i.e. courses that  can count for multiple majors; always at head of list
 
         #modify distribution_list to suit Student
         """not sure if you can do this comparison...field may return 1 or 0 instead of True or False"""
