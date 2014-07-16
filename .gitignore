@@ -4,3 +4,5 @@ courses/models.pyc
 bowser/urls.pyc
 
 bowser_db
+
+bowser/settings.pyc
