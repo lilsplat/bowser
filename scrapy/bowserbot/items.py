@@ -20,3 +20,4 @@ class DjangoCourseItem(DjangoItem):
 
 class DjangoDistItem(DjangoItem):
 	django_model = Distribution
+	# Distribution.objects.all()

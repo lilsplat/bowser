@@ -277,17 +277,36 @@ class Major(models.Model):
     # courses = models.ManyToManyField(Course, through='Major_Requirements') 
     #^^^^^^ need to change
 
-# class Distribution_Requirement(models.Model):
-#     AMTFV_LL = "AMTFV_LL"
-#     EC_HS_REMP = "EC_HS_REMP"
-#     SBA = "SBA"
-#     MM_NPS = "MM_NPS"
+class Distribution_Requirement(models.Model):
+    # AMTFV_LL = "AMTFV_LL"
+    # EC_HS_REMP = "EC_HS_REMP"
+    # SBA = "SBA"
+    # MM_NPS = "MM_NPS"
 
-#     name = models.CharField(max_length=200)
-#     dists = models.ManyToManyField('Distribution')
+    num_courses = models.IntegerField()
+    #can u even do this in django syntax
+    requirement_list = []
+    for x in range (0,num_courses):
+        requirement_list.append(models.ManyToManyField(Distribution))
 
-  #   def is_fulfilled_by(self, courses):
-		# pass
+    for requirement in requirement_list:
+        """requirement is a Distribution object"""
+
+    name = models.CharField(max_length=200)
+    dists = models.ManyToManyField('Distribution')
+
+    def is_fulfilled(self):
+        num_togo = num_courses
+        for requirement in requirement_list:
+            if requirement.is_fulfilled():
+                num_togo -= 1
+        if num_togo == 0:
+            return True
+        else:
+            return False
+
+    def is_fulfilled_by(self, courses):
+		pass
 
 
 
