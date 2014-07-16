@@ -6,6 +6,36 @@ from django.db import models
 - how to remove a course??????? gah
 - double check null/not null for all fields
 """
+AMTFV = "AMTFV"
+EC = "EC"
+HS = "HS"
+LL = "LL"
+MM = "MM"
+NPS = "NPS"
+QRB = "QRB"
+QRF = "QRF"
+REMP = "REMP"
+SBA = "SBA"
+NONE = "NONE"
+LAB = "LAB"
+FYS = "FYS"
+
+DISTRIBUTIONS = [
+	(AMTFV, "Arts, Music, Theatre, Film, Video"),
+    (EC, "Epistemology and Cognition"),
+    (HS, "Historical Studies"),
+    (LL, "Language and Literature"),
+    (MM, "Mathematical Modeling"),
+    (NPS, "Natural and Physical Sciences"),
+    (QRB, "QRB"), #basic QR
+    (QRF, "QRF"), #QR requirement
+    (REMP, "Religion, Ethics, and Moral Philosophy"),
+    (SBA, "Social and Behavioral Analysis"),
+    (NONE, "None"),
+    (LAB, "Lab"),
+    (FYS, "First Year Seminar"),
+]
+
 class Student(models.Model):
     FIRSTYEAR = 'fy'
     SOPHOMORE = 'so'
@@ -32,21 +62,43 @@ class Student(models.Model):
 
     def __unicode__(self):
         return self.first_name + ' ' + self.last_name
-
- #    def add_course(self, course):
-	# """ Adds a course to a student's courses """
- #        try:
- #            self.courses.add(course)
- #        except:
- #            raise Exception('course could not be added.')
-    
- #    def remove_course(self, course):
- #        try:
- #            self.courses.remove(course)
- #        except:
- #            raise Exception('course could not be removed.')
-
-
+	
+	def add_course(self, course):
+		if course not in self.courses.all():
+			enrollment = Enrollment(
+				student=self,
+				course=course,
+				date_taken = None, #need to change this later
+				rating = None
+			)
+			enrollment.save()
+			return enrollment.save()
+		else:
+			#Course is already in student's course list
+			return None
+ 
+	def remove_course(self, course):
+		enrollment = Enrollment.objects.get(
+			student=self,
+			course=course
+		)
+		enrollment.delete()
+	
+	def distributions_todo(self):
+	# I'm thinking Distributions, courses and all our long lists will be in a SQL table
+	# So we don't have to have these lists as global vars
+		distributions_list = DISTRIBUTIONS
+		for distribution in distributions_list:
+			if not is_completed(distribution, self.courses):
+				distributions_list.remove(distribution)
+		return distributions_list
+	
+	def major_todo(self):
+		major_course_list = primary_major.major_courses
+		for course in major_course_list:
+			if course in self.courses:
+				major_course_list.remove(course)
+		return major_course_list
 
 """
 Distribution todo:
@@ -128,6 +180,7 @@ Course ok
 """
 class Course(models.Model):
     code = models.CharField(max_length=200) #i.e. CS110
+    dept = models.CharField(max_length=200)
     name = models.CharField(max_length=200) 
     time = models.CharField(max_length=200) #i.e. 1:30-4:00pm
     date = models.CharField(max_length=200) #i.e. TF
@@ -135,6 +188,8 @@ class Course(models.Model):
     prof_site = models.CharField(max_length=200) #link to professor's website (comes on course browser)
     comments = models.TextField()
     dists = models.ManyToManyField(Distribution)
+	# A corrolary to dists, to keep track of which majors each course counts toward
+    # majors = models.ManyToManyField(Major)
 
     def __unicode__(self):
         return course.code
@@ -274,7 +329,9 @@ class Major(models.Model):
 
     def __unicode__(self):
         return self.name
-    # courses = models.ManyToManyField(Course, through='Major_Requirements') 
+	
+	major_courses = Course.objects.filter(dept=self.name)
+    # courses = models.ManyToManyField(Course)
     #^^^^^^ need to change
 
 class Distribution_Requirement(models.Model):
@@ -329,18 +386,36 @@ class Enrollment(models.Model):
         (FOUR_STARS, 4),
         (FIVE_STARS, 5)
     ]
-
+    """
+	SEMESTER_LIST = [
+		'FALL 2010',
+		'SPRING 2011',
+		'FALL 2011',
+		'SPRING 2012',
+		'FALL 2012',
+		'SPRING 2013',
+		'FALL 2013',
+		'SPRING 2014',
+		'FALL 2014',
+		'SPRING 2015',
+		'FALL 2015',
+		'SPRING 2016',
+		'FALL 2016',
+		'SPRING 2017',
+		'FALL 2017',
+		'SPRING 2018',
+		'FALL 2018',
+		'SPRING 2019',
+		'FALL 2019',
+		'SPRING 2020',
+	]
+    """
     student = models.ForeignKey(Student)
     course = models.ForeignKey(Course)
-    # has_taken = models.BooleanField() 
-    date_taken = models.DateField()
-    rating = models.IntegerField(choices=RATINGS)
-
-
-
-
-
-
-
+    date_taken = models.CharField(max_length=200, null=True)
+    rating = models.IntegerField(choices=RATINGS, null=True)
+	
+    class Meta:
+		unique_together = [('student', 'course')]
 
     #TODO: Figure out how to represent courses in models
