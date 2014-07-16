@@ -127,6 +127,9 @@ class CourseSpider(scrapy.Spider):
             distribution = sel.xpath('th[11]/text()').extract() #has multiple object lists
             # distribution = self.test_and_pop(distribution)
 
+
+            """ Do we need to encode UTF-8? """
+
             c = DjangoCourseItem()
 
             c['code'] = course.encode("UTF-8")
@@ -141,11 +144,10 @@ class CourseSpider(scrapy.Spider):
                 d = DjangoDistItem()
                 d['name'] = 'None assigned'
                 dist.append(d)
-                print d
             elif len(distribution) == 1:
                 d = DjangoDistItem()
                 d['name'] = distribution.pop().strip().encode("UTF-8")
-                dist.append(d)
+                dist.append(d) 
             else:
                 for element in distribution:
                     d = DjangoDistItem()
@@ -155,9 +157,10 @@ class CourseSpider(scrapy.Spider):
 
             """ TO DO: fix this!! django does not recognize DjangoDistItem as an acceptable input to the dists field """
 
-            c['dists'] = dist[0]
+            test = dist[0]
+            # c['dists'] = test
 
-            yield c
+            # yield c
 
 
 
