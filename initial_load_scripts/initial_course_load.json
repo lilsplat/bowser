@@ -3,12 +3,13 @@
     "model": "courses.course",
     "pk": 1,
     "fields": {
-      "code": "African-Amer Lit Tradition",
-      "name": "01:30 pm - 04:00 pm",
-      "time": "T",
-      "date": "Selwyn Cudjoe",
-      "prof": "https://courses.wellesley.edu/faculty_profiles.php?user=scudjoe",
-      "prof_site": "Language and Literature"
+      "code": "AFR201-01",
+      "dept": "Africana Studies",
+      "name": "African-Amer Lit Tradition",
+      "time": "01:30 pm - 04:00 pm",
+      "date": "T",
+      "prof": "Selwyn Cudjoe",
+      "prof_site": "https://courses.wellesley.edu/faculty_profiles.php?user=scudjoe"
     }
   },
   {
@@ -16,6 +17,7 @@
     "pk": 2,
     "fields": {
       "code": "AFR208-01",
+      "dept": "Africana Studies",
       "name": "Women Civil Rights Movement",
       "time": "01:30 pm - 04:00 pm",
       "date": "Th",
@@ -28,6 +30,7 @@
     "pk": 3,
     "fields": {
       "code": "AFR226-01",
+      "dept": "Africana Studies",
       "name": "Env.Justice,Race&Sustain Devel",
       "time": "02:50 pm - 05:20 pm",
       "date": "M",
@@ -40,6 +43,7 @@
     "pk": 4,
     "fields": {
       "code": "AFR238-01",
+      "dept": "Africana Studies",
       "name": "Womanism",
       "time": "09:50 am - 12:20 pm",
       "date": "F",
@@ -52,6 +56,7 @@
     "pk": 5,
     "fields": {
       "code": "AFR255-01",
+      "dept": "Africana Studies",
       "name": "Black Woman Cross-Culturally",
       "time": "02:15 pm - 04:45 pm",
       "date": "W",
@@ -64,6 +69,7 @@
     "pk": 6,
     "fields": {
       "code": "AFR292-01",
+      "dept": "Africana Studies",
       "name": "African Art & the Diaspora",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -76,6 +82,7 @@
     "pk": 7,
     "fields": {
       "code": "AFR302-01",
+      "dept": "Africana Studies",
       "name": "Caribbean Intellectual Thought",
       "time": "07:00 pm - 09:30 pm",
       "date": "M",
@@ -88,6 +95,7 @@
     "pk": 8,
     "fields": {
       "code": "AFR316-01",
+      "dept": "Africana Studies",
       "name": "Tpc:Race&Gender-Mod&Cont'p Art",
       "time": "01:30 pm - 04:00 pm",
       "date": "T",
@@ -100,6 +108,7 @@
     "pk": 9,
     "fields": {
       "code": "AFR340-01",
+      "dept": "Africana Studies",
       "name": "Sem: Topics African-Amer Hist",
       "time": "09:50 am - 12:20 pm",
       "date": "T",
@@ -112,6 +121,7 @@
     "pk": 10,
     "fields": {
       "code": "AMST101-01",
+      "dept": "American Studies",
       "name": "Intro to American Studies",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -124,6 +134,7 @@
     "pk": 11,
     "fields": {
       "code": "AMST152-01",
+      "dept": "American Studies",
       "name": "Race,Ethnicity,Pols in America",
       "time": "06:00 pm - 07:10 pm",
       "date": "MTh",
@@ -136,6 +147,7 @@
     "pk": 12,
     "fields": {
       "code": "AMST222-01",
+      "dept": "American Studies",
       "name": "Asian American Psychology",
       "time": "02:50 pm - 04:00 pm",
       "date": "TF",
@@ -148,6 +160,7 @@
     "pk": 13,
     "fields": {
       "code": "AMST246-01",
+      "dept": "American Studies",
       "name": "U.S. Immigration ",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -160,6 +173,7 @@
     "pk": 14,
     "fields": {
       "code": "AMST268-01",
+      "dept": "American Studies",
       "name": "American Literature Now",
       "time": "04:10 pm - 05:20 pm",
       "date": "MTh",
@@ -172,6 +186,7 @@
     "pk": 15,
     "fields": {
       "code": "AMST317-01",
+      "dept": "American Studies",
       "name": "Sem:Tpc: Barack Obama",
       "time": "02:15 pm - 04:45 pm",
       "date": "W",
@@ -184,6 +199,7 @@
     "pk": 16,
     "fields": {
       "code": "AMST355-01",
+      "dept": "American Studies",
       "name": "CSPW: Critiquing Pop. Culture ",
       "time": "01:30 pm - 04:00 pm",
       "date": "Th",
@@ -196,6 +212,7 @@
     "pk": 17,
     "fields": {
       "code": "ANTH104-01",
+      "dept": "Anthropology",
       "name": "Intro Cultural/Social Anth",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -208,6 +225,7 @@
     "pk": 18,
     "fields": {
       "code": "ANTH107-01",
+      "dept": "Anthropology",
       "name": "FYS: Science/Culture of Blood",
       "time": "02:50 pm - 04:00 pm",
       "date": "MTh",
@@ -220,6 +238,7 @@
     "pk": 19,
     "fields": {
       "code": "ANTH204-01",
+      "dept": "Anthropology",
       "name": "Physical Anthropology",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -232,6 +251,7 @@
     "pk": 20,
     "fields": {
       "code": "ANTH229-01",
+      "dept": "Anthropology",
       "name": "GIS for Social Analysis",
       "time": "01:30 pm - 02:40 pm",
       "date": "MTh",
@@ -244,6 +264,7 @@
     "pk": 21,
     "fields": {
       "code": "ANTH229-L01",
+      "dept": "Anthropology",
       "name": "LAB: GIS for Social Analysis",
       "time": "10:00 am - 12:00 pm",
       "date": "W",
@@ -256,6 +277,7 @@
     "pk": 22,
     "fields": {
       "code": "ANTH247-01",
+      "dept": "Anthropology",
       "name": "Societies & Cultures Eurasia",
       "time": "06:00 pm - 08:30 pm",
       "date": "W",
@@ -268,6 +290,7 @@
     "pk": 23,
     "fields": {
       "code": "ANTH274-01",
+      "dept": "Anthropology",
       "name": "Anthropological Genetics",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -280,6 +303,7 @@
     "pk": 24,
     "fields": {
       "code": "ANTH301-01",
+      "dept": "Anthropology",
       "name": "History&Theory in Anthropology",
       "time": "02:15 pm - 04:45 pm",
       "date": "W",
@@ -292,6 +316,7 @@
     "pk": 25,
     "fields": {
       "code": "ANTH305-01",
+      "dept": "Anthropology",
       "name": "Ethnographic Film",
       "time": "06:00 pm - 08:30 pm",
       "date": "T",
@@ -304,6 +329,7 @@
     "pk": 26,
     "fields": {
       "code": "ANTH362-01",
+      "dept": "Anthropology",
       "name": "Experimental Ethnography",
       "time": "01:30 pm - 04:00 pm,01:30 pm - 02:40 pm",
       "date": "M,Th",
@@ -316,6 +342,7 @@
     "pk": 27,
     "fields": {
       "code": "ARAB101-01",
+      "dept": "Middle Eastern Studies",
       "name": "Elementary Arabic",
       "time": "08:30 am - 09:40 am",
       "date": "MTWTh",
@@ -328,6 +355,7 @@
     "pk": 28,
     "fields": {
       "code": "ARAB101-02",
+      "dept": "Middle Eastern Studies",
       "name": "Elementary Arabic",
       "time": "09:50 am - 11:00 am",
       "date": "MTWTh",
@@ -340,6 +368,7 @@
     "pk": 29,
     "fields": {
       "code": "ARAB201-01",
+      "dept": "Middle Eastern Studies",
       "name": "Intermediate Arabic",
       "time": "08:30 am - 09:40 am",
       "date": "MWTh",
@@ -352,6 +381,7 @@
     "pk": 30,
     "fields": {
       "code": "ARAB201-02",
+      "dept": "Middle Eastern Studies",
       "name": "Intermediate Arabic",
       "time": "09:50 am - 11:00 am",
       "date": "MWTh",
@@ -364,6 +394,7 @@
     "pk": 31,
     "fields": {
       "code": "ARAB307-01",
+      "dept": "Middle Eastern Studies",
       "name": "Classical Arabic Literature",
       "time": "09:50 am - 12:20 pm",
       "date": "W",
@@ -376,6 +407,7 @@
     "pk": 32,
     "fields": {
       "code": "ARTH100-01",
+      "dept": "Art History",
       "name": "Art & Arch Ancient & Medieval",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -388,6 +420,7 @@
     "pk": 33,
     "fields": {
       "code": "ARTH100-C01",
+      "dept": "Art History",
       "name": "CONF:Hist of Art-Ancient & Med",
       "time": "11:10 am - 12:20 pm",
       "date": "W",
@@ -400,6 +433,7 @@
     "pk": 34,
     "fields": {
       "code": "ARTH100-C02",
+      "dept": "Art History",
       "name": "CONF:Hist of Art-Ancient & Med",
       "time": "09:50 am - 11:00 am",
       "date": "W",
@@ -412,6 +446,7 @@
     "pk": 35,
     "fields": {
       "code": "ARTH100-C03",
+      "dept": "Art History",
       "name": "CONF:Hist of Art-Ancient & Med",
       "time": "11:10 am - 12:20 pm",
       "date": "Th",
@@ -424,6 +459,7 @@
     "pk": 36,
     "fields": {
       "code": "ARTH100-C04",
+      "dept": "Art History",
       "name": "CONF:Hist of Art-Ancient & Med",
       "time": "02:50 pm - 04:00 pm",
       "date": "T",
@@ -436,6 +472,7 @@
     "pk": 37,
     "fields": {
       "code": "ARTH100-C05",
+      "dept": "Art History",
       "name": "Art & Arch Ancient & Medieval",
       "time": "01:30 pm - 02:40 pm",
       "date": "Th",
@@ -448,6 +485,7 @@
     "pk": 38,
     "fields": {
       "code": "ARTH203-01",
+      "dept": "Art History",
       "name": "Near Eastern Art&Architecture",
       "time": "01:30 pm - 02:40 pm",
       "date": "TF",
@@ -460,6 +498,7 @@
     "pk": 39,
     "fields": {
       "code": "ARTH218-01",
+      "dept": "Art History",
       "name": "Painting i/Netherlands 15C&16C",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -472,6 +511,7 @@
     "pk": 40,
     "fields": {
       "code": "ARTH226-01",
+      "dept": "Art History",
       "name": "History of Photography",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -484,6 +524,7 @@
     "pk": 41,
     "fields": {
       "code": "ARTH228-01",
+      "dept": "Art History",
       "name": "Modern Architecture",
       "time": "01:30 pm - 04:00 pm",
       "date": "T",
@@ -496,6 +537,7 @@
     "pk": 42,
     "fields": {
       "code": "ARTH238-01",
+      "dept": "Art History",
       "name": "Chinese Art/Architecture",
       "time": "01:30 pm - 02:40 pm",
       "date": "MTh",
@@ -508,6 +550,7 @@
     "pk": 43,
     "fields": {
       "code": "ARTH247-01",
+      "dept": "Art History",
       "name": "Islamic Art and Architecture",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -520,6 +563,7 @@
     "pk": 44,
     "fields": {
       "code": "ARTH259-01",
+      "dept": "Art History",
       "name": "Art & Arch.Europ.Enlightenment",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -532,6 +576,7 @@
     "pk": 45,
     "fields": {
       "code": "ARTH292-01",
+      "dept": "Art History",
       "name": "African Art & the Diaspora",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -544,6 +589,7 @@
     "pk": 46,
     "fields": {
       "code": "ARTH316-01",
+      "dept": "Art History",
       "name": "Tpc:Race&Gender-Mod&Cont'p Art",
       "time": "01:30 pm - 04:00 pm",
       "date": "T",
@@ -556,6 +602,7 @@
     "pk": 47,
     "fields": {
       "code": "ARTH320-01",
+      "dept": "Art History",
       "name": "Sem: American Architecture",
       "time": "02:15 pm - 04:45 pm",
       "date": "W",
@@ -568,6 +615,7 @@
     "pk": 48,
     "fields": {
       "code": "ARTH335-01",
+      "dept": "Art History",
       "name": "Sem:Tpc: The Bauhaus",
       "time": "09:50 am - 12:20 pm",
       "date": "W",
@@ -580,6 +628,7 @@
     "pk": 49,
     "fields": {
       "code": "ARTH369-01",
+      "dept": "Art History",
       "name": "Seminar:Conservation Studies",
       "time": "09:50 am - 12:20 pm",
       "date": "T",
@@ -592,6 +641,7 @@
     "pk": 50,
     "fields": {
       "code": "ARTH388-01",
+      "dept": "Art History",
       "name": "The History of New Media",
       "time": "01:30 pm - 04:00 pm",
       "date": "M",
@@ -604,6 +654,7 @@
     "pk": 51,
     "fields": {
       "code": "ARTS105-01",
+      "dept": "Studio Art",
       "name": "Drawing I",
       "time": "01:30 pm - 04:00 pm",
       "date": "MTh",
@@ -616,6 +667,7 @@
     "pk": 52,
     "fields": {
       "code": "ARTS105-02",
+      "dept": "Studio Art",
       "name": "Drawing I",
       "time": "09:50 am - 12:20 pm",
       "date": "TF",
@@ -628,6 +680,7 @@
     "pk": 53,
     "fields": {
       "code": "ARTS105-03",
+      "dept": "Studio Art",
       "name": "Drawing I",
       "time": "06:30 pm - 09:00 pm",
       "date": "MW",
@@ -640,6 +693,7 @@
     "pk": 54,
     "fields": {
       "code": "ARTS108-01",
+      "dept": "Studio Art",
       "name": "Photography I",
       "time": "09:50 am - 12:20 pm",
       "date": "TF",
@@ -652,6 +706,7 @@
     "pk": 55,
     "fields": {
       "code": "ARTS109-01",
+      "dept": "Studio Art",
       "name": "Two Dimensional Design",
       "time": "01:30 pm - 04:00 pm",
       "date": "MTh",
@@ -664,6 +719,7 @@
     "pk": 56,
     "fields": {
       "code": "ARTS113-01",
+      "dept": "Studio Art",
       "name": "3-D Design",
       "time": "09:50 am - 12:20 pm",
       "date": "TF",
@@ -676,6 +732,7 @@
     "pk": 57,
     "fields": {
       "code": "ARTS165-01",
+      "dept": "Studio Art",
       "name": "Intro Film & Video Production",
       "time": "01:30 pm - 05:20 pm",
       "date": "M",
@@ -688,6 +745,7 @@
     "pk": 58,
     "fields": {
       "code": "ARTS207-01",
+      "dept": "Studio Art",
       "name": "Sculpture I",
       "time": "01:30 pm - 04:00 pm",
       "date": "TF",
@@ -700,6 +758,7 @@
     "pk": 59,
     "fields": {
       "code": "ARTS216-01",
+      "dept": "Studio Art",
       "name": "Spatial Investigations",
       "time": "01:30 pm - 04:00 pm",
       "date": "TF",
@@ -712,6 +771,7 @@
     "pk": 60,
     "fields": {
       "code": "ARTS218-01",
+      "dept": "Studio Art",
       "name": "Intro Painting",
       "time": "09:50 am - 12:20 pm",
       "date": "MTh",
@@ -724,6 +784,7 @@
     "pk": 61,
     "fields": {
       "code": "ARTS220-01",
+      "dept": "Studio Art",
       "name": "IntrPrintMthds:Intaglio/Relief",
       "time": "06:30 pm - 09:00 pm,02:15 pm - 04:45 pm",
       "date": "M,W",
@@ -736,6 +797,7 @@
     "pk": 62,
     "fields": {
       "code": "ARTS260-01",
+      "dept": "Studio Art",
       "name": "Moving Image Studio",
       "time": "01:30 pm - 04:00 pm",
       "date": "MTh",
@@ -748,6 +810,7 @@
     "pk": 63,
     "fields": {
       "code": "ARTS314-01",
+      "dept": "Studio Art",
       "name": "Advanced Drawing",
       "time": "12:30 pm - 05:20 pm",
       "date": "Th",
@@ -760,6 +823,7 @@
     "pk": 64,
     "fields": {
       "code": "ARTS317-01",
+      "dept": "Studio Art",
       "name": "Sem:Tpc: Exp. Ethnography",
       "time": "01:30 pm - 04:00 pm,01:30 pm - 02:40 pm",
       "date": "M,Th",
@@ -772,6 +836,7 @@
     "pk": 65,
     "fields": {
       "code": "ARTS365-01",
+      "dept": "Studio Art",
       "name": "Advanced Video Production",
       "time": "06:30 pm - 08:30 pm,01:30 pm - 04:00 pm",
       "date": "T,T",
@@ -784,6 +849,7 @@
     "pk": 66,
     "fields": {
       "code": "ASTR100-01",
+      "dept": "Astronomy",
       "name": "Life in the Universe",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -796,6 +862,7 @@
     "pk": 67,
     "fields": {
       "code": "ASTR101-01",
+      "dept": "Astronomy",
       "name": "Intro to Stars,Galaxies,Cosmol",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -808,6 +875,7 @@
     "pk": 68,
     "fields": {
       "code": "ASTR101-02",
+      "dept": "Astronomy",
       "name": "Intro to Stars,Galaxies,Cosmol",
       "time": "02:50 pm - 04:00 pm",
       "date": "MTh",
@@ -820,6 +888,7 @@
     "pk": 69,
     "fields": {
       "code": "ASTR102-01",
+      "dept": "Astronomy",
       "name": "LAB:  Intro to Astronomy",
       "time": "07:30 pm - 09:30 pm",
       "date": "T",
@@ -832,6 +901,7 @@
     "pk": 70,
     "fields": {
       "code": "ASTR102-02",
+      "dept": "Astronomy",
       "name": "LAB:  Intro to Astronomy",
       "time": "09:30 pm - 11:30 pm",
       "date": "T",
@@ -844,6 +914,7 @@
     "pk": 71,
     "fields": {
       "code": "ASTR102-03",
+      "dept": "Astronomy",
       "name": "LAB:  Intro to Astronomy",
       "time": "07:30 pm - 09:30 pm",
       "date": "W",
@@ -856,6 +927,7 @@
     "pk": 72,
     "fields": {
       "code": "ASTR102-04",
+      "dept": "Astronomy",
       "name": "LAB:  Intro to Astronomy",
       "time": "09:30 pm - 11:30 pm",
       "date": "W",
@@ -868,6 +940,7 @@
     "pk": 73,
     "fields": {
       "code": "ASTR102-05",
+      "dept": "Astronomy",
       "name": "LAB:  Intro to Astronomy",
       "time": "None assigned",
       "date": "None assigned",
@@ -880,6 +953,7 @@
     "pk": 74,
     "fields": {
       "code": "ASTR110-01",
+      "dept": "Astronomy",
       "name": "FYS: Einstein & the Dark Univ",
       "time": "12:30 pm - 03:30 pm",
       "date": "T",
@@ -892,6 +966,7 @@
     "pk": 75,
     "fields": {
       "code": "ASTR206-01",
+      "dept": "Astronomy",
       "name": "Astronomical Techniq I w/Lab",
       "time": "02:50 pm - 04:00 pm",
       "date": "TF",
@@ -904,6 +979,7 @@
     "pk": 76,
     "fields": {
       "code": "ASTR250GH-01",
+      "dept": "Astronomy",
       "name": "Astronomy Reading Group",
       "time": "04:10 pm - 05:20 pm",
       "date": "Th",
@@ -916,6 +992,7 @@
     "pk": 77,
     "fields": {
       "code": "ASTR311-01",
+      "dept": "Astronomy",
       "name": "Advanced Astrophysics",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -928,6 +1005,7 @@
     "pk": 78,
     "fields": {
       "code": "BIOC219-01",
+      "dept": "Biological Chemistry",
       "name": "Genetics w/Lab",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -940,6 +1018,7 @@
     "pk": 79,
     "fields": {
       "code": "BIOC219-L01",
+      "dept": "Biological Chemistry",
       "name": "LAB: Genetics",
       "time": "01:30 pm - 05:00 pm",
       "date": "M",
@@ -952,6 +1031,7 @@
     "pk": 80,
     "fields": {
       "code": "BIOC219-L02",
+      "dept": "Biological Chemistry",
       "name": "LAB: Genetics",
       "time": "12:30 pm - 04:00 pm",
       "date": "T",
@@ -964,6 +1044,7 @@
     "pk": 81,
     "fields": {
       "code": "BIOC219-L03",
+      "dept": "Biological Chemistry",
       "name": "LAB: Genetics",
       "time": "02:15 pm - 05:45 pm",
       "date": "W",
@@ -976,6 +1057,7 @@
     "pk": 82,
     "fields": {
       "code": "BIOC219-L04",
+      "dept": "Biological Chemistry",
       "name": "LAB: Genetics",
       "time": "01:00 pm - 04:30 pm",
       "date": "Th",
@@ -988,6 +1070,7 @@
     "pk": 83,
     "fields": {
       "code": "BIOC219-L05",
+      "dept": "Biological Chemistry",
       "name": "LAB: Genetics",
       "time": "01:00 pm - 04:30 pm",
       "date": "F",
@@ -1000,6 +1083,7 @@
     "pk": 84,
     "fields": {
       "code": "BIOC320-01",
+      "dept": "Biological Chemistry",
       "name": "Adv Biophysical Chemistry Lab",
       "time": "11:10 am - 12:20 pm",
       "date": "Th",
@@ -1012,6 +1096,7 @@
     "pk": 85,
     "fields": {
       "code": "BIOC320-L01",
+      "dept": "Biological Chemistry",
       "name": "LAB: Adv Biophysical Chemistry",
       "time": "01:30 pm - 05:00 pm",
       "date": "M",
@@ -1024,6 +1109,7 @@
     "pk": 86,
     "fields": {
       "code": "BIOC320-L02",
+      "dept": "Biological Chemistry",
       "name": "LAB: Adv Biophysical Chemistry",
       "time": "12:30 pm - 04:00 pm",
       "date": "T",
@@ -1036,6 +1122,7 @@
     "pk": 87,
     "fields": {
       "code": "BIOC323-01",
+      "dept": "Biological Chemistry",
       "name": "Advanced Biochemistry",
       "time": "08:30 am - 09:40 am",
       "date": "MWTh",
@@ -1048,6 +1135,7 @@
     "pk": 88,
     "fields": {
       "code": "BISC105-01",
+      "dept": "Biological Sciences",
       "name": "Stem Cells:New in Biomed",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -1060,6 +1148,7 @@
     "pk": 89,
     "fields": {
       "code": "BISC109-01",
+      "dept": "Biological Sciences",
       "name": "Human Biology w/Lab",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -1072,6 +1161,7 @@
     "pk": 90,
     "fields": {
       "code": "BISC109-L01",
+      "dept": "Biological Sciences",
       "name": "LAB: Human Biology",
       "time": "01:30 pm - 05:00 pm",
       "date": "M",
@@ -1084,6 +1174,7 @@
     "pk": 91,
     "fields": {
       "code": "BISC109-L02",
+      "dept": "Biological Sciences",
       "name": "LAB: Human Biology",
       "time": "12:30 pm - 04:00 pm",
       "date": "T",
@@ -1096,6 +1187,7 @@
     "pk": 92,
     "fields": {
       "code": "BISC109-L03",
+      "dept": "Biological Sciences",
       "name": "LAB: Human Biology",
       "time": "02:15 pm - 05:45 pm",
       "date": "W",
@@ -1108,6 +1200,7 @@
     "pk": 93,
     "fields": {
       "code": "BISC109-L04",
+      "dept": "Biological Sciences",
       "name": "LAB: Human Biology",
       "time": "01:00 pm - 04:30 pm",
       "date": "Th",
@@ -1120,6 +1213,7 @@
     "pk": 94,
     "fields": {
       "code": "BISC110-01",
+      "dept": "Biological Sciences",
       "name": "Intro Cellular Biology w/Lab",
       "time": "08:30 am - 09:40 am",
       "date": "MTh",
@@ -1132,6 +1226,7 @@
     "pk": 95,
     "fields": {
       "code": "BISC110-02",
+      "dept": "Biological Sciences",
       "name": "Intro Cellular Biology w/Lab",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -1144,6 +1239,7 @@
     "pk": 96,
     "fields": {
       "code": "BISC110-03",
+      "dept": "Biological Sciences",
       "name": "Intro Cellular Biology w/Lab",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -1156,6 +1252,7 @@
     "pk": 97,
     "fields": {
       "code": "BISC110-L01",
+      "dept": "Biological Sciences",
       "name": "LAB: BISC 110 & 112",
       "time": "01:30 pm - 05:00 pm",
       "date": "M",
@@ -1168,6 +1265,7 @@
     "pk": 98,
     "fields": {
       "code": "BISC110-L02",
+      "dept": "Biological Sciences",
       "name": "LAB: BISC 110 & 112",
       "time": "06:00 pm - 09:30 pm",
       "date": "M",
@@ -1180,6 +1278,7 @@
     "pk": 99,
     "fields": {
       "code": "BISC110-L03",
+      "dept": "Biological Sciences",
       "name": "LAB: BISC 110 & 112",
       "time": "12:30 pm - 04:00 pm",
       "date": "T",
@@ -1192,6 +1291,7 @@
     "pk": 100,
     "fields": {
       "code": "BISC110-L04",
+      "dept": "Biological Sciences",
       "name": "LAB: BISC 110 & 112",
       "time": "08:30 am - 12:00 pm",
       "date": "W",
@@ -1204,6 +1304,7 @@
     "pk": 101,
     "fields": {
       "code": "BISC110-L05",
+      "dept": "Biological Sciences",
       "name": "LAB: BISC 110 & 112",
       "time": "02:15 pm - 05:45 pm",
       "date": "W",
@@ -1216,6 +1317,7 @@
     "pk": 102,
     "fields": {
       "code": "BISC110-L07",
+      "dept": "Biological Sciences",
       "name": "LAB: BISC 110 & 112",
       "time": "06:00 pm - 09:30 pm",
       "date": "Th",
@@ -1228,6 +1330,7 @@
     "pk": 103,
     "fields": {
       "code": "BISC110-L08",
+      "dept": "Biological Sciences",
       "name": "LAB: BISC 110 & 112",
       "time": "01:00 pm - 04:30 pm",
       "date": "F",
@@ -1240,6 +1343,7 @@
     "pk": 104,
     "fields": {
       "code": "BISC111-01",
+      "dept": "Biological Sciences",
       "name": "Intro Organismal Biology w/Lab",
       "time": "08:30 am - 09:40 am",
       "date": "MTh",
@@ -1252,6 +1356,7 @@
     "pk": 105,
     "fields": {
       "code": "BISC111-02",
+      "dept": "Biological Sciences",
       "name": "Intro Organismal Biology w/Lab",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -1264,6 +1369,7 @@
     "pk": 106,
     "fields": {
       "code": "BISC111-L01",
+      "dept": "Biological Sciences",
       "name": "LAB: BISC 111 & 113",
       "time": "01:30 pm - 05:00 pm",
       "date": "M",
@@ -1276,6 +1382,7 @@
     "pk": 107,
     "fields": {
       "code": "BISC111-L02",
+      "dept": "Biological Sciences",
       "name": "LAB: BISC 111 & 113",
       "time": "12:30 pm - 04:00 pm",
       "date": "T",
@@ -1288,6 +1395,7 @@
     "pk": 108,
     "fields": {
       "code": "BISC111-L03",
+      "dept": "Biological Sciences",
       "name": "LAB: BISC 111 & 113",
       "time": "06:30 pm - 10:00 pm",
       "date": "T",
@@ -1300,6 +1408,7 @@
     "pk": 109,
     "fields": {
       "code": "BISC111-L04",
+      "dept": "Biological Sciences",
       "name": "LAB: BISC 111 & 113",
       "time": "02:15 pm - 05:45 pm",
       "date": "W",
@@ -1312,6 +1421,7 @@
     "pk": 110,
     "fields": {
       "code": "BISC111-L06",
+      "dept": "Biological Sciences",
       "name": "LAB: BISC 111 & 113",
       "time": "01:00 pm - 04:30 pm",
       "date": "F",
@@ -1324,6 +1434,7 @@
     "pk": 111,
     "fields": {
       "code": "BISC112-01",
+      "dept": "Biological Sciences",
       "name": "Expl Cellular Bio w/Lab",
       "time": "11:10 am - 12:20 pm",
       "date": "M",
@@ -1336,6 +1447,7 @@
     "pk": 112,
     "fields": {
       "code": "BISC112-02",
+      "dept": "Biological Sciences",
       "name": "FYS: Expl Cellul Bio w/Lab",
       "time": "11:10 am - 12:20 pm",
       "date": "Th",
@@ -1348,6 +1460,7 @@
     "pk": 113,
     "fields": {
       "code": "BISC112-L01",
+      "dept": "Biological Sciences",
       "name": "LAB: BISC 110 & 112",
       "time": "01:30 pm - 05:00 pm",
       "date": "M",
@@ -1360,6 +1473,7 @@
     "pk": 114,
     "fields": {
       "code": "BISC112-L02",
+      "dept": "Biological Sciences",
       "name": "LAB: BISC 110 & 112",
       "time": "06:00 pm - 09:30 pm",
       "date": "M",
@@ -1372,6 +1486,7 @@
     "pk": 115,
     "fields": {
       "code": "BISC112-L03",
+      "dept": "Biological Sciences",
       "name": "LAB: BISC 110 & 112",
       "time": "12:30 pm - 04:00 pm",
       "date": "T",
@@ -1384,6 +1499,7 @@
     "pk": 116,
     "fields": {
       "code": "BISC112-L04",
+      "dept": "Biological Sciences",
       "name": "LAB: BISC 110 & 112",
       "time": "08:30 am - 12:00 pm",
       "date": "W",
@@ -1396,6 +1512,7 @@
     "pk": 117,
     "fields": {
       "code": "BISC112-L05",
+      "dept": "Biological Sciences",
       "name": "LAB: BISC 110 & 112",
       "time": "02:15 pm - 05:45 pm",
       "date": "W",
@@ -1408,6 +1525,7 @@
     "pk": 118,
     "fields": {
       "code": "BISC112-L06",
+      "dept": "Biological Sciences",
       "name": "FYS LAB: BISC 112",
       "time": "01:00 pm - 04:30 pm",
       "date": "Th",
@@ -1420,6 +1538,7 @@
     "pk": 119,
     "fields": {
       "code": "BISC112-L07",
+      "dept": "Biological Sciences",
       "name": "LAB: BISC 110 & 112",
       "time": "06:00 pm - 09:30 pm",
       "date": "Th",
@@ -1432,6 +1551,7 @@
     "pk": 120,
     "fields": {
       "code": "BISC112-L08",
+      "dept": "Biological Sciences",
       "name": "LAB: BISC 110 & 112",
       "time": "01:00 pm - 04:30 pm",
       "date": "F",
@@ -1444,6 +1564,7 @@
     "pk": 121,
     "fields": {
       "code": "BISC113-01",
+      "dept": "Biological Sciences",
       "name": "FYS: Expl Organismal Bio w/Lab",
       "time": "11:10 am - 12:20 pm",
       "date": "T",
@@ -1456,6 +1577,7 @@
     "pk": 122,
     "fields": {
       "code": "BISC113-02",
+      "dept": "Biological Sciences",
       "name": "Expl Organismal Bio w/Lab",
       "time": "11:10 am - 12:20 pm",
       "date": "F",
@@ -1468,6 +1590,7 @@
     "pk": 123,
     "fields": {
       "code": "BISC113-L01",
+      "dept": "Biological Sciences",
       "name": "LAB: BISC 111 & 113",
       "time": "01:30 pm - 05:00 pm",
       "date": "M",
@@ -1480,6 +1603,7 @@
     "pk": 124,
     "fields": {
       "code": "BISC113-L02",
+      "dept": "Biological Sciences",
       "name": "LAB: BISC 111 & 113",
       "time": "12:30 pm - 04:00 pm",
       "date": "T",
@@ -1492,6 +1616,7 @@
     "pk": 125,
     "fields": {
       "code": "BISC113-L03",
+      "dept": "Biological Sciences",
       "name": "LAB: BISC 111 & 113",
       "time": "06:30 pm - 10:00 pm",
       "date": "T",
@@ -1504,6 +1629,7 @@
     "pk": 126,
     "fields": {
       "code": "BISC113-L04",
+      "dept": "Biological Sciences",
       "name": "LAB: BISC 111 & 113",
       "time": "02:15 pm - 05:45 pm",
       "date": "W",
@@ -1516,6 +1642,7 @@
     "pk": 127,
     "fields": {
       "code": "BISC113-L05",
+      "dept": "Biological Sciences",
       "name": "FYS: LAB: BISC 113",
       "time": "01:00 pm - 04:30 pm",
       "date": "Th",
@@ -1528,6 +1655,7 @@
     "pk": 128,
     "fields": {
       "code": "BISC113-L06",
+      "dept": "Biological Sciences",
       "name": "LAB: BISC 111 & 113",
       "time": "01:00 pm - 04:30 pm",
       "date": "F",
@@ -1540,6 +1668,7 @@
     "pk": 129,
     "fields": {
       "code": "BISC201-01",
+      "dept": "Biological Sciences",
       "name": "Ecology w/Lab",
       "time": "08:30 am - 09:40 am",
       "date": "MTh",
@@ -1552,6 +1681,7 @@
     "pk": 130,
     "fields": {
       "code": "BISC201-L01",
+      "dept": "Biological Sciences",
       "name": "LAB: Ecology",
       "time": "01:00 pm - 04:30 pm",
       "date": "F",
@@ -1564,6 +1694,7 @@
     "pk": 131,
     "fields": {
       "code": "BISC202-01",
+      "dept": "Biological Sciences",
       "name": "Evolution with Laboratory",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -1576,6 +1707,7 @@
     "pk": 132,
     "fields": {
       "code": "BISC202-L01",
+      "dept": "Biological Sciences",
       "name": "LAB: Evolution",
       "time": "01:30 pm - 05:00 pm",
       "date": "M",
@@ -1588,6 +1720,7 @@
     "pk": 133,
     "fields": {
       "code": "BISC203-01",
+      "dept": "Biological Sciences",
       "name": "Comp Phys/Anat Verte w/Lab",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -1600,6 +1733,7 @@
     "pk": 134,
     "fields": {
       "code": "BISC203-L01",
+      "dept": "Biological Sciences",
       "name": "LAB: Comp Phys/Anat Verte",
       "time": "01:30 pm - 05:00 pm",
       "date": "M",
@@ -1612,6 +1746,7 @@
     "pk": 135,
     "fields": {
       "code": "BISC203-L02",
+      "dept": "Biological Sciences",
       "name": "LAB: Comp Phys/Anat Verte",
       "time": "12:30 pm - 04:00 pm",
       "date": "T",
@@ -1624,6 +1759,7 @@
     "pk": 136,
     "fields": {
       "code": "BISC203-L03",
+      "dept": "Biological Sciences",
       "name": "LAB: Comp Phys/Anat Verte",
       "time": "02:15 pm - 05:45 pm",
       "date": "W",
@@ -1636,6 +1772,7 @@
     "pk": 137,
     "fields": {
       "code": "BISC209-01",
+      "dept": "Biological Sciences",
       "name": "Microbiology w/Lab",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -1648,6 +1785,7 @@
     "pk": 138,
     "fields": {
       "code": "BISC209-L01",
+      "dept": "Biological Sciences",
       "name": "LAB: Microbiology",
       "time": "12:30 pm - 04:00 pm",
       "date": "T",
@@ -1660,6 +1798,7 @@
     "pk": 139,
     "fields": {
       "code": "BISC209-L02",
+      "dept": "Biological Sciences",
       "name": "LAB: Microbiology",
       "time": "02:15 pm - 05:45 pm",
       "date": "W",
@@ -1672,6 +1811,7 @@
     "pk": 140,
     "fields": {
       "code": "BISC210-01",
+      "dept": "Biological Sciences",
       "name": "Marine Biology w/Lab",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -1684,6 +1824,7 @@
     "pk": 141,
     "fields": {
       "code": "BISC210-L01",
+      "dept": "Biological Sciences",
       "name": "LAB: Marine Biology",
       "time": "01:00 pm - 04:30 pm",
       "date": "Th",
@@ -1696,6 +1837,7 @@
     "pk": 142,
     "fields": {
       "code": "BISC219-01",
+      "dept": "Biological Sciences",
       "name": "Genetics w/Lab",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -1708,6 +1850,7 @@
     "pk": 143,
     "fields": {
       "code": "BISC219-L01",
+      "dept": "Biological Sciences",
       "name": "LAB: Genetics",
       "time": "01:30 pm - 05:00 pm",
       "date": "M",
@@ -1720,6 +1863,7 @@
     "pk": 144,
     "fields": {
       "code": "BISC219-L02",
+      "dept": "Biological Sciences",
       "name": "LAB: Genetics",
       "time": "12:30 pm - 04:00 pm",
       "date": "T",
@@ -1732,6 +1876,7 @@
     "pk": 145,
     "fields": {
       "code": "BISC219-L03",
+      "dept": "Biological Sciences",
       "name": "LAB: Genetics",
       "time": "02:15 pm - 05:45 pm",
       "date": "W",
@@ -1744,6 +1889,7 @@
     "pk": 146,
     "fields": {
       "code": "BISC219-L04",
+      "dept": "Biological Sciences",
       "name": "LAB: Genetics",
       "time": "01:00 pm - 04:30 pm",
       "date": "Th",
@@ -1756,6 +1902,7 @@
     "pk": 147,
     "fields": {
       "code": "BISC219-L05",
+      "dept": "Biological Sciences",
       "name": "LAB: Genetics",
       "time": "01:00 pm - 04:30 pm",
       "date": "F",
@@ -1768,6 +1915,7 @@
     "pk": 148,
     "fields": {
       "code": "BISC247-01",
+      "dept": "Biological Sciences",
       "name": "Plant Diversity & Eco w/Lab",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -1780,6 +1928,7 @@
     "pk": 149,
     "fields": {
       "code": "BISC247-L01",
+      "dept": "Biological Sciences",
       "name": "LAB: Plant Diversity & Eco",
       "time": "08:30 am - 12:20 pm",
       "date": "W",
@@ -1792,6 +1941,7 @@
     "pk": 150,
     "fields": {
       "code": "BISC306-01",
+      "dept": "Biological Sciences",
       "name": "Principals Neural Development",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -1804,6 +1954,7 @@
     "pk": 151,
     "fields": {
       "code": "BISC308-01",
+      "dept": "Biological Sciences",
       "name": "Tropical Ecol w/Lab-Winters'n",
       "time": "02:15 pm - 04:45 pm",
       "date": "W",
@@ -1816,6 +1967,7 @@
     "pk": 152,
     "fields": {
       "code": "BISC311-01",
+      "dept": "Biological Sciences",
       "name": "Evol. Devel Bio w/lab",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -1828,6 +1980,7 @@
     "pk": 153,
     "fields": {
       "code": "BISC311-L01",
+      "dept": "Biological Sciences",
       "name": "LAB:Evol Devel Biology",
       "time": "01:00 pm - 04:30 pm",
       "date": "Th",
@@ -1840,6 +1993,7 @@
     "pk": 154,
     "fields": {
       "code": "BISC315-01",
+      "dept": "Biological Sciences",
       "name": "Neuroendocrinology w/Lab",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -1852,6 +2006,7 @@
     "pk": 155,
     "fields": {
       "code": "BISC315-L01",
+      "dept": "Biological Sciences",
       "name": "LAB: Neuroendocrinology",
       "time": "12:30 pm - 04:00 pm",
       "date": "T",
@@ -1864,6 +2019,7 @@
     "pk": 156,
     "fields": {
       "code": "BISC316-01",
+      "dept": "Biological Sciences",
       "name": "Molecular Genetics w/Lab",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -1876,6 +2032,7 @@
     "pk": 157,
     "fields": {
       "code": "BISC316-L01",
+      "dept": "Biological Sciences",
       "name": "LAB: Molecular Genetics",
       "time": "12:30 pm - 04:00 pm",
       "date": "T",
@@ -1888,6 +2045,7 @@
     "pk": 158,
     "fields": {
       "code": "BISC320-01",
+      "dept": "Biological Sciences",
       "name": "Proteomics w/Lab",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -1900,6 +2058,7 @@
     "pk": 159,
     "fields": {
       "code": "BISC320-L01",
+      "dept": "Biological Sciences",
       "name": "LAB: Proteomics",
       "time": "01:30 pm - 05:00 pm",
       "date": "M",
@@ -1912,6 +2071,7 @@
     "pk": 160,
     "fields": {
       "code": "BISC322-01",
+      "dept": "Biological Sciences",
       "name": "Biomech. Animals& Plants w/Lab",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -1924,6 +2084,7 @@
     "pk": 161,
     "fields": {
       "code": "BISC322-L01",
+      "dept": "Biological Sciences",
       "name": "LAB: Biomech. Animals& Plants",
       "time": "06:00 pm - 09:30 pm",
       "date": "M",
@@ -1936,6 +2097,7 @@
     "pk": 162,
     "fields": {
       "code": "BISC328-01",
+      "dept": "Biological Sciences",
       "name": "Sem:Modern Biological Imaging",
       "time": "02:15 pm - 04:45 pm",
       "date": "W",
@@ -1948,6 +2110,7 @@
     "pk": 163,
     "fields": {
       "code": "BISC334-01",
+      "dept": "Biological Sciences",
       "name": "The Biology of Stem Cells",
       "time": "09:50 am - 12:20 pm",
       "date": "W",
@@ -1960,6 +2123,7 @@
     "pk": 164,
     "fields": {
       "code": "BISC336-01",
+      "dept": "Biological Sciences",
       "name": "Sem: Immunology",
       "time": "02:15 pm - 04:45 pm",
       "date": "W",
@@ -1972,6 +2136,7 @@
     "pk": 165,
     "fields": {
       "code": "BISC338-01",
+      "dept": "Biological Sciences",
       "name": "Sem: Biology of Social Insects",
       "time": "09:50 am - 12:20 pm",
       "date": "W",
@@ -1984,6 +2149,7 @@
     "pk": 166,
     "fields": {
       "code": "BISC340-01",
+      "dept": "Biological Sciences",
       "name": "CSPW: Biology in the News",
       "time": "01:30 pm - 04:00 pm",
       "date": "F",
@@ -1996,6 +2162,7 @@
     "pk": 167,
     "fields": {
       "code": "BISC347-01",
+      "dept": "Biological Sciences",
       "name": "Adv Plant Div and Ecol w/Lab",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -2008,6 +2175,7 @@
     "pk": 168,
     "fields": {
       "code": "BISC347-L01",
+      "dept": "Biological Sciences",
       "name": "LAB: Adv Plant Div and Ecol",
       "time": "08:30 am - 12:20 pm",
       "date": "W",
@@ -2020,6 +2188,7 @@
     "pk": 169,
     "fields": {
       "code": "CAMS101-01",
+      "dept": "Cinema and Media Studies",
       "name": "Intro-Cinema&MediaStudies",
       "time": "11:10 am - 12:20 pm,07:00 pm - 09:00 pm",
       "date": "MTh,M",
@@ -2032,6 +2201,7 @@
     "pk": 170,
     "fields": {
       "code": "CAMS105-01",
+      "dept": "Cinema and Media Studies",
       "name": "FYS: 21st Century Cinema",
       "time": "02:50 pm - 04:00 pm",
       "date": "TF",
@@ -2044,6 +2214,7 @@
     "pk": 171,
     "fields": {
       "code": "CAMS135-01",
+      "dept": "Cinema and Media Studies",
       "name": "Intro Film & Video Production",
       "time": "01:30 pm - 05:20 pm",
       "date": "M",
@@ -2056,6 +2227,7 @@
     "pk": 172,
     "fields": {
       "code": "CAMS138-01",
+      "dept": "Cinema and Media Studies",
       "name": "Photography I",
       "time": "09:50 am - 12:20 pm",
       "date": "TF",
@@ -2068,6 +2240,7 @@
     "pk": 173,
     "fields": {
       "code": "CAMS202-01",
+      "dept": "Cinema and Media Studies",
       "name": "Between Magic and Reality",
       "time": "07:00 pm - 09:00 pm,11:10 am - 01:20 pm",
       "date": "T,F",
@@ -2080,6 +2253,7 @@
     "pk": 174,
     "fields": {
       "code": "CAMS203-01",
+      "dept": "Cinema and Media Studies",
       "name": "Chinese Cinema (in Eng)",
       "time": "04:10 pm - 05:20 pm,06:30 pm - 09:30 pm",
       "date": "M,W",
@@ -2092,6 +2266,7 @@
     "pk": 175,
     "fields": {
       "code": "CAMS222-01",
+      "dept": "Cinema and Media Studies",
       "name": "Non-Fiction Film",
       "time": "11:10 am - 01:20 pm,11:10 am - 12:20 pm",
       "date": "T,F",
@@ -2104,6 +2279,7 @@
     "pk": 176,
     "fields": {
       "code": "CAMS230-01",
+      "dept": "Cinema and Media Studies",
       "name": "Moving Image Studio",
       "time": "01:30 pm - 04:00 pm",
       "date": "MTh",
@@ -2116,6 +2292,7 @@
     "pk": 177,
     "fields": {
       "code": "CAMS234-01",
+      "dept": "Cinema and Media Studies",
       "name": "The Art of Screenwriting",
       "time": "09:50 am - 12:20 pm",
       "date": "W",
@@ -2128,6 +2305,7 @@
     "pk": 178,
     "fields": {
       "code": "CAMS240-01",
+      "dept": "Cinema and Media Studies",
       "name": "Gendering the Bronze Screen",
       "time": "01:30 pm - 04:00 pm",
       "date": "T",
@@ -2140,6 +2318,7 @@
     "pk": 179,
     "fields": {
       "code": "CAMS241-01",
+      "dept": "Cinema and Media Studies",
       "name": "Asian Amer Women in Film",
       "time": "01:30 pm - 04:00 pm",
       "date": "Th",
@@ -2152,6 +2331,7 @@
     "pk": 180,
     "fields": {
       "code": "CAMS274-01",
+      "dept": "Cinema and Media Studies",
       "name": "British Cinema and Literature",
       "time": "02:50 pm - 04:00 pm,06:30 pm - 08:15 pm",
       "date": "TF,W",
@@ -2164,6 +2344,7 @@
     "pk": 181,
     "fields": {
       "code": "CAMS305-01",
+      "dept": "Cinema and Media Studies",
       "name": "Ethnographic Film",
       "time": "06:00 pm - 08:30 pm",
       "date": "T",
@@ -2176,6 +2357,7 @@
     "pk": 182,
     "fields": {
       "code": "CAMS335-01",
+      "dept": "Cinema and Media Studies",
       "name": "Advanced Video Production",
       "time": "06:30 pm - 08:30 pm,01:30 pm - 04:00 pm",
       "date": "T,T",
@@ -2188,6 +2370,7 @@
     "pk": 183,
     "fields": {
       "code": "CAMS362-01",
+      "dept": "Cinema and Media Studies",
       "name": "Experimental Ethnography",
       "time": "01:30 pm - 04:00 pm,01:30 pm - 02:40 pm",
       "date": "M,Th",
@@ -2200,6 +2383,7 @@
     "pk": 184,
     "fields": {
       "code": "CAMS378-01",
+      "dept": "Cinema and Media Studies",
       "name": "Deconstructive Audio",
       "time": "02:50 pm - 05:20 pm",
       "date": "Th",
@@ -2212,6 +2396,7 @@
     "pk": 185,
     "fields": {
       "code": "CHEM105-01",
+      "dept": "Chemistry",
       "name": "Fundamentals Chemistry w/Lab",
       "time": "08:30 am - 09:40 am",
       "date": "MWTh",
@@ -2224,6 +2409,7 @@
     "pk": 186,
     "fields": {
       "code": "CHEM105-02",
+      "dept": "Chemistry",
       "name": "Fundamentals Chemistry w/Lab",
       "time": "09:50 am - 11:00 am",
       "date": "TWF",
@@ -2236,6 +2422,7 @@
     "pk": 187,
     "fields": {
       "code": "CHEM105-03",
+      "dept": "Chemistry",
       "name": "Fundamentals Chemistry w/Lab",
       "time": "11:10 am - 12:20 pm",
       "date": "TWF",
@@ -2248,6 +2435,7 @@
     "pk": 188,
     "fields": {
       "code": "CHEM105-L01",
+      "dept": "Chemistry",
       "name": "LAB:Fundamentals Chemistry",
       "time": "01:30 pm - 05:00 pm",
       "date": "M",
@@ -2260,6 +2448,7 @@
     "pk": 189,
     "fields": {
       "code": "CHEM105-L02",
+      "dept": "Chemistry",
       "name": "LAB:Fundamentals Chemistry",
       "time": "01:30 pm - 05:00 pm",
       "date": "M",
@@ -2272,6 +2461,7 @@
     "pk": 190,
     "fields": {
       "code": "CHEM105-L03",
+      "dept": "Chemistry",
       "name": "LAB: Fundamentals Chemistry",
       "time": "12:30 pm - 04:00 pm",
       "date": "T",
@@ -2284,6 +2474,7 @@
     "pk": 191,
     "fields": {
       "code": "CHEM105-L04",
+      "dept": "Chemistry",
       "name": "LAB:Fundamentals Chemistry",
       "time": "02:15 pm - 05:45 pm",
       "date": "W",
@@ -2296,6 +2487,7 @@
     "pk": 192,
     "fields": {
       "code": "CHEM105-L05",
+      "dept": "Chemistry",
       "name": "LAB:Fundamentals Chemistry",
       "time": "01:30 pm - 05:00 pm",
       "date": "Th",
@@ -2308,6 +2500,7 @@
     "pk": 193,
     "fields": {
       "code": "CHEM105-L06",
+      "dept": "Chemistry",
       "name": "LAB: Fundamentals Chemistry",
       "time": "12:30 pm - 04:00 pm",
       "date": "F",
@@ -2320,6 +2513,7 @@
     "pk": 194,
     "fields": {
       "code": "CHEM105P-01",
+      "dept": "Chemistry",
       "name": "Fundamentals of Chem w/Lab",
       "time": "11:10 am - 12:20 pm",
       "date": "MTWTh",
@@ -2332,6 +2526,7 @@
     "pk": 195,
     "fields": {
       "code": "CHEM105P-L01",
+      "dept": "Chemistry",
       "name": "LAB: Fundamentals of Chem",
       "time": "01:30 pm - 05:00 pm",
       "date": "Th",
@@ -2344,6 +2539,7 @@
     "pk": 196,
     "fields": {
       "code": "CHEM107-01",
+      "dept": "Chemistry",
       "name": "FYS: Science/Culture of Blood",
       "time": "02:50 pm - 04:00 pm",
       "date": "MTh",
@@ -2356,6 +2552,7 @@
     "pk": 197,
     "fields": {
       "code": "CHEM120-01",
+      "dept": "Chemistry",
       "name": "Intensive Intro Chem w/Lab",
       "time": "11:10 am - 12:20 pm",
       "date": "MWThF",
@@ -2368,6 +2565,7 @@
     "pk": 198,
     "fields": {
       "code": "CHEM120-L01",
+      "dept": "Chemistry",
       "name": "LAB: Intensive Intro Chem",
       "time": "02:15 pm - 05:45 pm",
       "date": "W",
@@ -2380,6 +2578,7 @@
     "pk": 199,
     "fields": {
       "code": "CHEM120-L02",
+      "dept": "Chemistry",
       "name": "LAB: Intensive Intro Chem",
       "time": "01:30 pm - 05:00 pm",
       "date": "Th",
@@ -2392,6 +2591,7 @@
     "pk": 200,
     "fields": {
       "code": "CHEM205-01",
+      "dept": "Chemistry",
       "name": "Chemical Analy & Equilib w/Lab",
       "time": "09:50 am - 11:00 am,09:50 am - 11:00 am",
       "date": "MTh,W",
@@ -2404,6 +2604,7 @@
     "pk": 201,
     "fields": {
       "code": "CHEM205-02",
+      "dept": "Chemistry",
       "name": "Chemical Analy & Equilib w/Lab",
       "time": "08:30 am - 09:40 am",
       "date": "TWF",
@@ -2416,6 +2617,7 @@
     "pk": 202,
     "fields": {
       "code": "CHEM205-L01",
+      "dept": "Chemistry",
       "name": "LAB:Chemical Analy & Equilib",
       "time": "01:30 pm - 05:00 pm",
       "date": "M",
@@ -2428,6 +2630,7 @@
     "pk": 203,
     "fields": {
       "code": "CHEM205-L02",
+      "dept": "Chemistry",
       "name": "LAB: Chemical Analy & Equilib",
       "time": "12:30 pm - 04:00 pm",
       "date": "T",
@@ -2440,6 +2643,7 @@
     "pk": 204,
     "fields": {
       "code": "CHEM205-L03",
+      "dept": "Chemistry",
       "name": "LAB:Chemical Analy & Equilib",
       "time": "01:30 pm - 05:00 pm",
       "date": "Th",
@@ -2452,6 +2656,7 @@
     "pk": 205,
     "fields": {
       "code": "CHEM205-L04",
+      "dept": "Chemistry",
       "name": "LAB: Chemical Analy & Equilib",
       "time": "12:30 pm - 04:00 pm",
       "date": "F",
@@ -2464,6 +2669,7 @@
     "pk": 206,
     "fields": {
       "code": "CHEM211-01",
+      "dept": "Chemistry",
       "name": "Organic Chemistry I w/Lab",
       "time": "08:30 am - 09:40 am",
       "date": "MWTh",
@@ -2476,6 +2682,7 @@
     "pk": 207,
     "fields": {
       "code": "CHEM211-02",
+      "dept": "Chemistry",
       "name": "Organic Chemistry I w/Lab",
       "time": "09:50 am - 11:00 am",
       "date": "MWTh",
@@ -2488,6 +2695,7 @@
     "pk": 208,
     "fields": {
       "code": "CHEM211-03",
+      "dept": "Chemistry",
       "name": "Organic Chemistry I w/Lab",
       "time": "11:10 am - 12:20 pm",
       "date": "TWF",
@@ -2500,6 +2708,7 @@
     "pk": 209,
     "fields": {
       "code": "CHEM211-L01",
+      "dept": "Chemistry",
       "name": "LAB: Organic Chemistry I",
       "time": "01:30 pm - 05:00 pm",
       "date": "M",
@@ -2512,6 +2721,7 @@
     "pk": 210,
     "fields": {
       "code": "CHEM211-L02",
+      "dept": "Chemistry",
       "name": "LAB: Organic Chemistry I",
       "time": "12:30 pm - 04:00 pm",
       "date": "T",
@@ -2524,6 +2734,7 @@
     "pk": 211,
     "fields": {
       "code": "CHEM211-L03",
+      "dept": "Chemistry",
       "name": "LAB: Organic Chemistry I",
       "time": "12:30 pm - 04:00 pm",
       "date": "T",
@@ -2536,6 +2747,7 @@
     "pk": 212,
     "fields": {
       "code": "CHEM211-L04",
+      "dept": "Chemistry",
       "name": "LAB: Organic Chemistry I",
       "time": "02:15 pm - 05:45 pm",
       "date": "W",
@@ -2548,6 +2760,7 @@
     "pk": 213,
     "fields": {
       "code": "CHEM211-L05",
+      "dept": "Chemistry",
       "name": "LAB: Organic Chemistry I",
       "time": "01:30 pm - 05:00 pm",
       "date": "Th",
@@ -2560,6 +2773,7 @@
     "pk": 214,
     "fields": {
       "code": "CHEM211-L06",
+      "dept": "Chemistry",
       "name": "LAB: Organic Chemistry I",
       "time": "12:30 pm - 04:00 pm",
       "date": "F",
@@ -2572,6 +2786,7 @@
     "pk": 215,
     "fields": {
       "code": "CHEM212-01",
+      "dept": "Chemistry",
       "name": "Organic Chemistry II w/Lab",
       "time": "09:50 am - 11:00 am",
       "date": "MWTh",
@@ -2584,6 +2799,7 @@
     "pk": 216,
     "fields": {
       "code": "CHEM212-02",
+      "dept": "Chemistry",
       "name": "Organic Chemistry II w/Lab",
       "time": "09:50 am - 11:00 am",
       "date": "TWF",
@@ -2596,6 +2812,7 @@
     "pk": 217,
     "fields": {
       "code": "CHEM212-L02",
+      "dept": "Chemistry",
       "name": "LAB: Organic Chemistry II",
       "time": "01:30 pm - 05:00 pm",
       "date": "M",
@@ -2608,6 +2825,7 @@
     "pk": 218,
     "fields": {
       "code": "CHEM212-L03",
+      "dept": "Chemistry",
       "name": "LAB: Organic Chemistry II",
       "time": "02:15 pm - 05:45 pm",
       "date": "W",
@@ -2620,6 +2838,7 @@
     "pk": 219,
     "fields": {
       "code": "CHEM212-L04",
+      "dept": "Chemistry",
       "name": "LAB: Organic Chemistry II",
       "time": "01:30 pm - 05:00 pm",
       "date": "Th",
@@ -2632,6 +2851,7 @@
     "pk": 220,
     "fields": {
       "code": "CHEM212-L05",
+      "dept": "Chemistry",
       "name": "LAB: Organic Chemistry II",
       "time": "12:30 pm - 04:00 pm",
       "date": "F",
@@ -2644,6 +2864,7 @@
     "pk": 221,
     "fields": {
       "code": "CHEM222-01",
+      "dept": "Chemistry",
       "name": "Intro to Biochemistry w/Lab",
       "time": "09:50 am - 11:00 am",
       "date": "TWF",
@@ -2656,6 +2877,7 @@
     "pk": 222,
     "fields": {
       "code": "CHEM222-L01",
+      "dept": "Chemistry",
       "name": "LAB:Intro to Biochemistry",
       "time": "02:15 pm - 05:45 pm",
       "date": "W",
@@ -2668,6 +2890,7 @@
     "pk": 223,
     "fields": {
       "code": "CHEM222-L03",
+      "dept": "Chemistry",
       "name": "LAB:Intro to Biochemistry",
       "time": "12:30 pm - 04:00 pm",
       "date": "F",
@@ -2680,6 +2903,7 @@
     "pk": 224,
     "fields": {
       "code": "CHEM306-01",
+      "dept": "Chemistry",
       "name": "Sem:Tpc: Org Chem Drug Design",
       "time": "01:30 pm - 04:00 pm",
       "date": "M",
@@ -2692,6 +2916,7 @@
     "pk": 225,
     "fields": {
       "code": "CHEM306-02",
+      "dept": "Chemistry",
       "name": "Sem:Tpc: App.Chem:Sci of Food",
       "time": "01:00 pm - 04:30 pm",
       "date": "T",
@@ -2704,6 +2929,7 @@
     "pk": 226,
     "fields": {
       "code": "CHEM320-01",
+      "dept": "Chemistry",
       "name": "Adv Biophysical Chemistry Lab",
       "time": "11:10 am - 12:20 pm",
       "date": "Th",
@@ -2716,6 +2942,7 @@
     "pk": 227,
     "fields": {
       "code": "CHEM320-L01",
+      "dept": "Chemistry",
       "name": "LAB: Adv Biophysical Chemistry",
       "time": "01:30 pm - 05:00 pm",
       "date": "M",
@@ -2728,6 +2955,7 @@
     "pk": 228,
     "fields": {
       "code": "CHEM320-L02",
+      "dept": "Chemistry",
       "name": "LAB: Adv Biophysical Chemistry",
       "time": "12:30 pm - 04:00 pm",
       "date": "T",
@@ -2740,6 +2968,7 @@
     "pk": 229,
     "fields": {
       "code": "CHEM323-01",
+      "dept": "Chemistry",
       "name": "Advanced Biochemistry",
       "time": "08:30 am - 09:40 am,08:30 am - 09:40 am",
       "date": "MTh,W",
@@ -2752,6 +2981,7 @@
     "pk": 230,
     "fields": {
       "code": "CHEM330-01",
+      "dept": "Chemistry",
       "name": "Physical Chemistry I with Lab",
       "time": "08:30 am - 09:40 am",
       "date": "MWTh",
@@ -2764,6 +2994,7 @@
     "pk": 231,
     "fields": {
       "code": "CHEM330-L01",
+      "dept": "Chemistry",
       "name": "LAB: Physical Chemistry I",
       "time": "12:30 pm - 04:00 pm",
       "date": "T",
@@ -2776,6 +3007,7 @@
     "pk": 232,
     "fields": {
       "code": "CHEM330-L02",
+      "dept": "Chemistry",
       "name": "LAB: Physical Chemistry I",
       "time": "02:15 pm - 05:45 pm",
       "date": "W",
@@ -2788,6 +3020,7 @@
     "pk": 233,
     "fields": {
       "code": "CHEM330-L03",
+      "dept": "Chemistry",
       "name": "LAB: Physical Chemistry I",
       "time": "12:30 pm - 04:00 pm",
       "date": "F",
@@ -2800,6 +3033,7 @@
     "pk": 234,
     "fields": {
       "code": "CHEM361-01",
+      "dept": "Chemistry",
       "name": "Analytical Chemistry w/Lab",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -2812,6 +3046,7 @@
     "pk": 235,
     "fields": {
       "code": "CHEM361-L01",
+      "dept": "Chemistry",
       "name": "LAB: Analytical Chemistry",
       "time": "12:30 pm - 04:00 pm",
       "date": "T",
@@ -2824,6 +3059,7 @@
     "pk": 236,
     "fields": {
       "code": "CHEM361-L02",
+      "dept": "Chemistry",
       "name": "LAB: Analytical Chemistry",
       "time": "12:30 pm - 04:00 pm",
       "date": "F",
@@ -2836,6 +3072,7 @@
     "pk": 237,
     "fields": {
       "code": "CHIN101-01",
+      "dept": "East Asian Languages and Cultures",
       "name": "Beginning Chinese I",
       "time": "08:30 am - 09:40 am",
       "date": "MTWTh",
@@ -2848,6 +3085,7 @@
     "pk": 238,
     "fields": {
       "code": "CHIN101-02",
+      "dept": "East Asian Languages and Cultures",
       "name": "Beginning Chinese I",
       "time": "09:50 am - 11:00 am",
       "date": "TWThF",
@@ -2860,6 +3098,7 @@
     "pk": 239,
     "fields": {
       "code": "CHIN103-01",
+      "dept": "East Asian Languages and Cultures",
       "name": "Advanced Beginning Chinese I",
       "time": "09:50 am - 11:00 am",
       "date": "MWTh",
@@ -2872,6 +3111,7 @@
     "pk": 240,
     "fields": {
       "code": "CHIN103-02",
+      "dept": "East Asian Languages and Cultures",
       "name": "Advanced Beginning Chinese I",
       "time": "11:10 am - 12:20 pm",
       "date": "MWTh",
@@ -2884,6 +3124,7 @@
     "pk": 241,
     "fields": {
       "code": "CHIN201-01",
+      "dept": "East Asian Languages and Cultures",
       "name": "Intermediate Chinese I",
       "time": "11:10 am - 12:20 pm",
       "date": "MTWTh",
@@ -2896,6 +3137,7 @@
     "pk": 242,
     "fields": {
       "code": "CHIN201-02",
+      "dept": "East Asian Languages and Cultures",
       "name": "Intermediate Chinese I",
       "time": "01:30 pm - 02:40 pm,02:15 pm - 03:25 pm",
       "date": "MTTh,W",
@@ -2908,6 +3150,7 @@
     "pk": 243,
     "fields": {
       "code": "CHIN203-01",
+      "dept": "East Asian Languages and Cultures",
       "name": "Advanced Intermediate Chinese",
       "time": "08:30 am - 09:40 am",
       "date": "TWF",
@@ -2920,6 +3163,7 @@
     "pk": 244,
     "fields": {
       "code": "CHIN203-02",
+      "dept": "East Asian Languages and Cultures",
       "name": "Advanced Intermediate Chinese",
       "time": "11:10 am - 12:20 pm,11:10 am - 12:20 pm",
       "date": "TF,W",
@@ -2932,6 +3176,7 @@
     "pk": 245,
     "fields": {
       "code": "CHIN209-01",
+      "dept": "East Asian Languages and Cultures",
       "name": "Chinese Ideas (in English)",
       "time": "01:30 pm - 02:40 pm",
       "date": "TF",
@@ -2944,6 +3189,7 @@
     "pk": 246,
     "fields": {
       "code": "CHIN243-01",
+      "dept": "East Asian Languages and Cultures",
       "name": "Chinese Cinema (in Eng)",
       "time": "04:10 pm - 05:20 pm,06:30 pm - 09:30 pm",
       "date": "M,W",
@@ -2956,6 +3202,7 @@
     "pk": 247,
     "fields": {
       "code": "CHIN301-01",
+      "dept": "East Asian Languages and Cultures",
       "name": "Advanced Chinese I",
       "time": "09:50 am - 11:00 am",
       "date": "TWF",
@@ -2968,6 +3215,7 @@
     "pk": 248,
     "fields": {
       "code": "CHIN301-02",
+      "dept": "East Asian Languages and Cultures",
       "name": "Advanced Chinese I",
       "time": "01:30 pm - 02:40 pm,02:15 pm - 03:25 pm",
       "date": "MTh,W",
@@ -2980,6 +3228,7 @@
     "pk": 249,
     "fields": {
       "code": "CHIN306-01",
+      "dept": "East Asian Languages and Cultures",
       "name": "Adv Reading 20th C Culture",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -2992,6 +3241,7 @@
     "pk": 250,
     "fields": {
       "code": "CLCV104-01",
+      "dept": "Classical Studies",
       "name": "Classical Mythology",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -3004,6 +3254,7 @@
     "pk": 251,
     "fields": {
       "code": "CLCV202-01",
+      "dept": "Classical Studies",
       "name": "The Invention of Athens",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -3016,6 +3267,7 @@
     "pk": 252,
     "fields": {
       "code": "CLCV240-01",
+      "dept": "Classical Studies",
       "name": "Romans, Jews, and Christians",
       "time": "02:15 pm - 04:45 pm",
       "date": "W",
@@ -3028,6 +3280,7 @@
     "pk": 253,
     "fields": {
       "code": "CLCV325-01",
+      "dept": "Classical Studies",
       "name": "Beyond Sonnets",
       "time": "01:30 pm - 02:40 pm",
       "date": "MTh",
@@ -3040,6 +3293,7 @@
     "pk": 254,
     "fields": {
       "code": "CLSC214-01",
+      "dept": "Cognitive and Linguistic Sciences",
       "name": "Evolution and Human Behavior",
       "time": "08:30 am - 09:40 am",
       "date": "TF",
@@ -3052,6 +3306,7 @@
     "pk": 255,
     "fields": {
       "code": "CPLT113-01",
+      "dept": "Comparative Literature",
       "name": "Studies in Fiction",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -3064,6 +3319,7 @@
     "pk": 256,
     "fields": {
       "code": "CPLT180-01",
+      "dept": "Comparative Literature",
       "name": "World Literature",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -3076,6 +3332,7 @@
     "pk": 257,
     "fields": {
       "code": "CPLT284-01",
+      "dept": "Comparative Literature",
       "name": "Magical Realism",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -3088,6 +3345,7 @@
     "pk": 258,
     "fields": {
       "code": "CPLT325-01",
+      "dept": "Comparative Literature",
       "name": "Beyond Sonnets",
       "time": "01:30 pm - 02:40 pm",
       "date": "MTh",
@@ -3100,6 +3358,7 @@
     "pk": 259,
     "fields": {
       "code": "CS110-01",
+      "dept": "Computer Science",
       "name": "Computer Science & Internet",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -3112,6 +3371,7 @@
     "pk": 260,
     "fields": {
       "code": "CS110-02",
+      "dept": "Computer Science",
       "name": "Computer Science & Internet",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -3124,6 +3384,7 @@
     "pk": 261,
     "fields": {
       "code": "CS110-D01",
+      "dept": "Computer Science",
       "name": "DISC:Computer Sci & Internet",
       "time": "08:30 am - 09:40 am",
       "date": "T",
@@ -3136,6 +3397,7 @@
     "pk": 262,
     "fields": {
       "code": "CS110-D02",
+      "dept": "Computer Science",
       "name": "DISC:Computer Sci & Internet",
       "time": "09:50 am - 11:00 am",
       "date": "T",
@@ -3148,6 +3410,7 @@
     "pk": 263,
     "fields": {
       "code": "CS110-D03",
+      "dept": "Computer Science",
       "name": "DISC:Computer Sci & Internet",
       "time": "11:10 am - 12:20 pm",
       "date": "T",
@@ -3160,6 +3423,7 @@
     "pk": 264,
     "fields": {
       "code": "CS110-D04",
+      "dept": "Computer Science",
       "name": "DISC: Computer Sci & Internet",
       "time": "01:30 pm - 02:40 pm",
       "date": "T",
@@ -3172,6 +3436,7 @@
     "pk": 265,
     "fields": {
       "code": "CS111-01",
+      "dept": "Computer Science",
       "name": "Comp Program & Prob Solving",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -3184,6 +3449,7 @@
     "pk": 266,
     "fields": {
       "code": "CS111-02",
+      "dept": "Computer Science",
       "name": "Comp Program & Prob Solving",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -3196,6 +3462,7 @@
     "pk": 267,
     "fields": {
       "code": "CS111-03",
+      "dept": "Computer Science",
       "name": "Comp Program & Prob Solving",
       "time": "01:30 pm - 02:40 pm",
       "date": "TF",
@@ -3208,6 +3475,7 @@
     "pk": 268,
     "fields": {
       "code": "CS111-L01",
+      "dept": "Computer Science",
       "name": "LAB:Comp Program & Prob Solv",
       "time": "08:30 am - 10:20 am",
       "date": "W",
@@ -3220,6 +3488,7 @@
     "pk": 269,
     "fields": {
       "code": "CS111-L02",
+      "dept": "Computer Science",
       "name": "LAB:Comp Program & Prob Solv",
       "time": "10:30 am - 12:20 pm",
       "date": "W",
@@ -3232,6 +3501,7 @@
     "pk": 270,
     "fields": {
       "code": "CS111-L03",
+      "dept": "Computer Science",
       "name": "LAB:Comp Program & Prob Solv",
       "time": "02:15 pm - 04:05 pm",
       "date": "W",
@@ -3244,6 +3514,7 @@
     "pk": 271,
     "fields": {
       "code": "CS111-L04",
+      "dept": "Computer Science",
       "name": "Comp Program & Prob Solving",
       "time": "02:15 pm - 04:05 pm",
       "date": "W",
@@ -3256,6 +3527,7 @@
     "pk": 272,
     "fields": {
       "code": "CS111-L05",
+      "dept": "Computer Science",
       "name": "Comp Program & Prob Solving",
       "time": "04:15 pm - 06:05 pm",
       "date": "W",
@@ -3268,6 +3540,7 @@
     "pk": 273,
     "fields": {
       "code": "CS111-L06",
+      "dept": "Computer Science",
       "name": "Comp Program & Prob Solving",
       "time": "10:30 am - 12:20 pm",
       "date": "Th",
@@ -3280,6 +3553,7 @@
     "pk": 274,
     "fields": {
       "code": "CS114-01",
+      "dept": "Computer Science",
       "name": "Socio-Technological Web w/Disc",
       "time": "08:30 am - 09:40 am",
       "date": "TF",
@@ -3292,6 +3566,7 @@
     "pk": 275,
     "fields": {
       "code": "CS114-D01",
+      "dept": "Computer Science",
       "name": "DISC: Socio-Technological Web",
       "time": "08:30 am - 09:40 am",
       "date": "M",
@@ -3304,6 +3579,7 @@
     "pk": 276,
     "fields": {
       "code": "CS117-01",
+      "dept": "Computer Science",
       "name": "Inventing Mobile Apps w/Disc.",
       "time": "01:30 pm - 02:40 pm",
       "date": "MTh",
@@ -3316,6 +3592,7 @@
     "pk": 277,
     "fields": {
       "code": "CS117-D01",
+      "dept": "Computer Science",
       "name": "DISC: Inventing Mobile Apps",
       "time": "09:50 am - 11:00 am",
       "date": "W",
@@ -3328,6 +3605,7 @@
     "pk": 278,
     "fields": {
       "code": "CS117-D02",
+      "dept": "Computer Science",
       "name": "DISC: Inventing Mobile Apps",
       "time": "11:10 am - 12:20 pm",
       "date": "W",
@@ -3340,6 +3618,7 @@
     "pk": 279,
     "fields": {
       "code": "CS215-01",
+      "dept": "Computer Science",
       "name": "Multimedia Design &Programming",
       "time": "11:10 am - 12:20 pm",
       "date": "TWF",
@@ -3352,6 +3631,7 @@
     "pk": 280,
     "fields": {
       "code": "CS230-01",
+      "dept": "Computer Science",
       "name": "Data Structures w/Lab",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -3364,6 +3644,7 @@
     "pk": 281,
     "fields": {
       "code": "CS230-02",
+      "dept": "Computer Science",
       "name": "Data Structures w/Lab",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -3376,6 +3657,7 @@
     "pk": 282,
     "fields": {
       "code": "CS230-L01",
+      "dept": "Computer Science",
       "name": "LAB: Data Structures",
       "time": "01:30 pm - 03:20 pm",
       "date": "Th",
@@ -3388,6 +3670,7 @@
     "pk": 283,
     "fields": {
       "code": "CS230-L02",
+      "dept": "Computer Science",
       "name": "LAB: Data Structures",
       "time": "08:30 am - 10:20 am",
       "date": "F",
@@ -3400,6 +3683,7 @@
     "pk": 284,
     "fields": {
       "code": "CS230-L03",
+      "dept": "Computer Science",
       "name": "LAB: Data Structures",
       "time": "10:30 am - 12:20 pm",
       "date": "F",
@@ -3412,6 +3696,7 @@
     "pk": 285,
     "fields": {
       "code": "CS230-L04",
+      "dept": "Computer Science",
       "name": "LAB: Data Structures",
       "time": "01:30 pm - 03:20 pm",
       "date": "F",
@@ -3424,6 +3709,7 @@
     "pk": 286,
     "fields": {
       "code": "CS231-01",
+      "dept": "Computer Science",
       "name": "Fundamental Algorithms",
       "time": "02:50 pm - 04:00 pm",
       "date": "TF",
@@ -3436,6 +3722,7 @@
     "pk": 287,
     "fields": {
       "code": "CS235-01",
+      "dept": "Computer Science",
       "name": "Languages & Automata",
       "time": "08:30 am - 09:40 am",
       "date": "TWF",
@@ -3448,6 +3735,7 @@
     "pk": 288,
     "fields": {
       "code": "CS240-01",
+      "dept": "Computer Science",
       "name": "Intro MachineOrganization w/La",
       "time": "01:30 pm - 02:40 pm",
       "date": "TF",
@@ -3460,6 +3748,7 @@
     "pk": 289,
     "fields": {
       "code": "CS240-L01",
+      "dept": "Computer Science",
       "name": "LAB: Intro MachineOrganization",
       "time": "01:30 pm - 04:30 pm",
       "date": "M",
@@ -3472,6 +3761,7 @@
     "pk": 290,
     "fields": {
       "code": "CS240-L02",
+      "dept": "Computer Science",
       "name": "LAB: Intro MachineOrganization",
       "time": "05:30 pm - 08:30 pm",
       "date": "M",
@@ -3484,6 +3774,7 @@
     "pk": 291,
     "fields": {
       "code": "CS307-01",
+      "dept": "Computer Science",
       "name": "Computer Graphics",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -3496,6 +3787,7 @@
     "pk": 292,
     "fields": {
       "code": "CS320-01",
+      "dept": "Computer Science",
       "name": "Tangible User Interfaces",
       "time": "01:30 pm - 02:40 pm",
       "date": "MTh",
@@ -3508,6 +3800,7 @@
     "pk": 293,
     "fields": {
       "code": "CS322-01",
+      "dept": "Computer Science",
       "name": "Sem: Digital Tech & Learning",
       "time": "09:50 am - 12:20 pm",
       "date": "T",
@@ -3520,6 +3813,7 @@
     "pk": 294,
     "fields": {
       "code": "CS342-01",
+      "dept": "Computer Science",
       "name": "Computer Security w/Disc",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -3532,6 +3826,7 @@
     "pk": 295,
     "fields": {
       "code": "CS342-D01",
+      "dept": "Computer Science",
       "name": "DISC: Computer Security",
       "time": "09:50 am - 11:00 am",
       "date": "T",
@@ -3544,6 +3839,7 @@
     "pk": 296,
     "fields": {
       "code": "CS342-D02",
+      "dept": "Computer Science",
       "name": "DISC: Computer Security",
       "time": "11:10 am - 12:20 pm",
       "date": "T",
@@ -3556,6 +3852,7 @@
     "pk": 297,
     "fields": {
       "code": "CS342-D03",
+      "dept": "Computer Science",
       "name": "DISC: Computer Security",
       "time": "02:15 pm - 03:25 pm",
       "date": "W",
@@ -3568,6 +3865,7 @@
     "pk": 298,
     "fields": {
       "code": "EALC245-01",
+      "dept": "East Asian Languages and Cultures",
       "name": "The Book in East Asia (Eng)",
       "time": "01:30 pm - 02:40 pm",
       "date": "TF",
@@ -3580,6 +3878,7 @@
     "pk": 299,
     "fields": {
       "code": "ECON100-01",
+      "dept": "Economics",
       "name": "FYS: American Labor Market",
       "time": "01:30 pm - 02:40 pm",
       "date": "TF",
@@ -3592,6 +3891,7 @@
     "pk": 300,
     "fields": {
       "code": "ECON101-01",
+      "dept": "Economics",
       "name": "Principles of Microeconomics",
       "time": "01:30 pm - 02:40 pm,02:15 pm - 03:25 pm",
       "date": "MTh,W1",
@@ -3604,6 +3904,7 @@
     "pk": 301,
     "fields": {
       "code": "ECON101-02",
+      "dept": "Economics",
       "name": "Principles of Microeconomics",
       "time": "08:30 am - 09:40 am,08:30 am - 09:40 am",
       "date": "TF,W2",
@@ -3616,6 +3917,7 @@
     "pk": 302,
     "fields": {
       "code": "ECON101-03",
+      "dept": "Economics",
       "name": "Principles of Microeconomics",
       "time": "09:50 am - 11:00 am,09:50 am - 11:00 am",
       "date": "MTh,W1",
@@ -3628,6 +3930,7 @@
     "pk": 303,
     "fields": {
       "code": "ECON101-04",
+      "dept": "Economics",
       "name": "Principles of Microeconomics",
       "time": "11:10 am - 12:20 pm,11:10 am - 12:20 pm",
       "date": "TF,W2",
@@ -3640,6 +3943,7 @@
     "pk": 304,
     "fields": {
       "code": "ECON101-05",
+      "dept": "Economics",
       "name": "Principles of Microeconomics",
       "time": "01:30 pm - 02:40 pm,02:15 pm - 03:25 pm",
       "date": "MTh,W1",
@@ -3652,6 +3956,7 @@
     "pk": 305,
     "fields": {
       "code": "ECON101-06",
+      "dept": "Economics",
       "name": "Principles of Microeconomics",
       "time": "09:50 am - 11:00 am,09:50 am - 11:00 am",
       "date": "TF,W2",
@@ -3664,6 +3969,7 @@
     "pk": 306,
     "fields": {
       "code": "ECON102-01",
+      "dept": "Economics",
       "name": "Principles of Macroeconomics",
       "time": "08:30 am - 09:40 am,08:30 am - 09:40 am",
       "date": "MTh,W1",
@@ -3676,6 +3982,7 @@
     "pk": 307,
     "fields": {
       "code": "ECON102-02",
+      "dept": "Economics",
       "name": "Principles of Macroeconomics",
       "time": "11:10 am - 12:20 pm,02:15 pm - 03:25 pm",
       "date": "TF,W2",
@@ -3688,6 +3995,7 @@
     "pk": 308,
     "fields": {
       "code": "ECON102-03",
+      "dept": "Economics",
       "name": "Principles of Macroeconomics",
       "time": "01:30 pm - 02:40 pm,02:15 pm - 03:25 pm",
       "date": "TF,W2",
@@ -3700,6 +4008,7 @@
     "pk": 309,
     "fields": {
       "code": "ECON103-01",
+      "dept": "Economics",
       "name": "Intro Prob&Stat Methods w/Lab",
       "time": "08:30 am - 09:40 am,08:30 am - 09:40 am",
       "date": "MTh,W1",
@@ -3712,6 +4021,7 @@
     "pk": 310,
     "fields": {
       "code": "ECON103-02",
+      "dept": "Economics",
       "name": "Intro Prob&Stat Methods w/Lab",
       "time": "11:10 am - 12:20 pm,11:10 am - 12:20 pm",
       "date": "MTh,W1",
@@ -3724,6 +4034,7 @@
     "pk": 311,
     "fields": {
       "code": "ECON103-03",
+      "dept": "Economics",
       "name": "Intro Prob&Stat Methods w/Lab",
       "time": "02:50 pm - 04:00 pm,03:35 pm - 04:45 pm",
       "date": "MTh,W1",
@@ -3736,6 +4047,7 @@
     "pk": 312,
     "fields": {
       "code": "ECON103-1LA",
+      "dept": "Economics",
       "name": "LAB: Prob&Statistical Methods",
       "time": "09:50 am - 11:00 am",
       "date": "W",
@@ -3748,6 +4060,7 @@
     "pk": 313,
     "fields": {
       "code": "ECON103-1LB",
+      "dept": "Economics",
       "name": "LAB: Prob&Statistical Methods",
       "time": "11:10 am - 12:20 pm",
       "date": "W",
@@ -3760,6 +4073,7 @@
     "pk": 314,
     "fields": {
       "code": "ECON103-2LA",
+      "dept": "Economics",
       "name": "LAB: Prob&Statistical Methods",
       "time": "09:50 am - 11:00 am",
       "date": "T",
@@ -3772,6 +4086,7 @@
     "pk": 315,
     "fields": {
       "code": "ECON103-2LB",
+      "dept": "Economics",
       "name": "LAB: Prob&Statistical Methods",
       "time": "11:10 am - 12:20 pm",
       "date": "T",
@@ -3784,6 +4099,7 @@
     "pk": 316,
     "fields": {
       "code": "ECON103-3LA",
+      "dept": "Economics",
       "name": "LAB: Intro Prob&Stat Method",
       "time": "01:30 pm - 02:40 pm",
       "date": "T",
@@ -3796,6 +4112,7 @@
     "pk": 317,
     "fields": {
       "code": "ECON103-3LB",
+      "dept": "Economics",
       "name": "LAB: Intro Prob&Stat Methods",
       "time": "02:50 pm - 04:00 pm",
       "date": "T",
@@ -3808,6 +4125,7 @@
     "pk": 318,
     "fields": {
       "code": "ECON201-01",
+      "dept": "Economics",
       "name": "Intermediate Micro Analysis",
       "time": "08:30 am - 09:40 am",
       "date": "TWF",
@@ -3820,6 +4138,7 @@
     "pk": 319,
     "fields": {
       "code": "ECON201-02",
+      "dept": "Economics",
       "name": "Intermediate Micro Analysis",
       "time": "08:30 am - 09:40 am",
       "date": "MWTh",
@@ -3832,6 +4151,7 @@
     "pk": 320,
     "fields": {
       "code": "ECON201-03",
+      "dept": "Economics",
       "name": "Intermediate Micro Analysis",
       "time": "11:10 am - 12:20 pm",
       "date": "TWF",
@@ -3844,6 +4164,7 @@
     "pk": 321,
     "fields": {
       "code": "ECON202-01",
+      "dept": "Economics",
       "name": "Intermediate Macro Analysis",
       "time": "08:30 am - 09:40 am,08:30 am - 09:40 am",
       "date": "MTh,W",
@@ -3856,6 +4177,7 @@
     "pk": 322,
     "fields": {
       "code": "ECON202-02",
+      "dept": "Economics",
       "name": "Intermediate Macro Analysis",
       "time": "09:50 am - 11:00 am",
       "date": "MWTh",
@@ -3868,6 +4190,7 @@
     "pk": 323,
     "fields": {
       "code": "ECON203-01",
+      "dept": "Economics",
       "name": "Econometrics",
       "time": "09:50 am - 11:00 am,09:50 am - 11:00 am",
       "date": "MTh,W",
@@ -3880,6 +4203,7 @@
     "pk": 324,
     "fields": {
       "code": "ECON203-02",
+      "dept": "Economics",
       "name": "Econometrics",
       "time": "11:10 am - 12:20 pm,11:10 am - 12:20 pm",
       "date": "MTh,W",
@@ -3892,6 +4216,7 @@
     "pk": 325,
     "fields": {
       "code": "ECON203-03",
+      "dept": "Economics",
       "name": "Econometrics",
       "time": "02:50 pm - 04:00 pm,03:35 pm - 04:45 pm",
       "date": "MTh,W",
@@ -3904,6 +4229,7 @@
     "pk": 326,
     "fields": {
       "code": "ECON210-01",
+      "dept": "Economics",
       "name": "Financial Markets",
       "time": "08:30 am - 09:40 am,08:30 am - 09:40 am",
       "date": "TF,W2",
@@ -3916,6 +4242,7 @@
     "pk": 327,
     "fields": {
       "code": "ECON214-01",
+      "dept": "Economics",
       "name": "Trade Policy",
       "time": "09:50 am - 11:00 am,09:50 am - 11:00 am",
       "date": "TF,W2",
@@ -3928,6 +4255,7 @@
     "pk": 328,
     "fields": {
       "code": "ECON228-01",
+      "dept": "Economics",
       "name": "Environmental & Resource Econ",
       "time": "02:50 pm - 04:00 pm,03:35 pm - 04:45 pm",
       "date": "MTh,W1",
@@ -3940,6 +4268,7 @@
     "pk": 329,
     "fields": {
       "code": "ECON232-01",
+      "dept": "Economics",
       "name": "Health Economics",
       "time": "01:30 pm - 02:40 pm",
       "date": "TF",
@@ -3952,6 +4281,7 @@
     "pk": 330,
     "fields": {
       "code": "ECON242-01",
+      "dept": "Economics",
       "name": "The Information Economy",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -3964,6 +4294,7 @@
     "pk": 331,
     "fields": {
       "code": "ECON303-01",
+      "dept": "Economics",
       "name": "Advanced Econometrics",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -3976,6 +4307,7 @@
     "pk": 332,
     "fields": {
       "code": "ECON310-01",
+      "dept": "Economics",
       "name": "Public Economics",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -3988,6 +4320,7 @@
     "pk": 333,
     "fields": {
       "code": "ECON311-01",
+      "dept": "Economics",
       "name": "Economics of Immigration",
       "time": "02:50 pm - 05:20 pm",
       "date": "Th",
@@ -4000,6 +4333,7 @@
     "pk": 334,
     "fields": {
       "code": "ECON313-01",
+      "dept": "Economics",
       "name": "International Macroeconomics",
       "time": "11:10 am - 12:20 pm,11:10 am - 12:20 pm",
       "date": "TF,W2",
@@ -4012,6 +4346,7 @@
     "pk": 335,
     "fields": {
       "code": "ECON334-01",
+      "dept": "Economics",
       "name": "Domestic Macroeconomic Policy",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -4024,6 +4359,7 @@
     "pk": 336,
     "fields": {
       "code": "ECON341-01",
+      "dept": "Economics",
       "name": "Industrial Organization",
       "time": "04:10 pm - 05:20 pm",
       "date": "MTh",
@@ -4036,6 +4372,7 @@
     "pk": 337,
     "fields": {
       "code": "ECON343-01",
+      "dept": "Economics",
       "name": "Sem: Feminist Economics",
       "time": "02:50 pm - 05:20 pm",
       "date": "Th",
@@ -4048,6 +4385,7 @@
     "pk": 338,
     "fields": {
       "code": "ECON380-01",
+      "dept": "Economics",
       "name": "Economics Research Seminar",
       "time": "06:00 pm - 07:30 pm",
       "date": "T",
@@ -4060,6 +4398,7 @@
     "pk": 339,
     "fields": {
       "code": "EDUC212-01",
+      "dept": "Education",
       "name": "History of American Education",
       "time": "01:30 pm - 04:00 pm",
       "date": "T",
@@ -4072,6 +4411,7 @@
     "pk": 340,
     "fields": {
       "code": "EDUC215-01",
+      "dept": "Education",
       "name": "Understand'g & Improv'g Schls",
       "time": "09:50 am - 12:20 pm",
       "date": "Th",
@@ -4084,6 +4424,7 @@
     "pk": 341,
     "fields": {
       "code": "EDUC216-01",
+      "dept": "Education",
       "name": "Education,Society&SocialPolicy",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -4096,6 +4437,7 @@
     "pk": 342,
     "fields": {
       "code": "EDUC300-01",
+      "dept": "Education",
       "name": "Teaching &Curriculum Classroom",
       "time": "02:50 pm - 04:30 pm,01:30 pm - 04:00 pm",
       "date": "M,Th",
@@ -4108,6 +4450,7 @@
     "pk": 343,
     "fields": {
       "code": "EDUC304-01",
+      "dept": "Education",
       "name": "Curric&Instr Element. Ed w/Lab",
       "time": "01:30 pm - 02:40 pm,04:10 pm - 06:40 pm",
       "date": "T,Th",
@@ -4120,6 +4463,7 @@
     "pk": 344,
     "fields": {
       "code": "EDUC310-01",
+      "dept": "Education",
       "name": "Child Literacy and Reading",
       "time": "09:50 am - 12:20 pm",
       "date": "W",
@@ -4132,6 +4476,7 @@
     "pk": 345,
     "fields": {
       "code": "EDUC314-01",
+      "dept": "Education",
       "name": "Learning&Teaching Mathematics",
       "time": "02:50 pm - 04:30 pm,03:55 pm - 06:25 pm",
       "date": "M,W1",
@@ -4144,6 +4489,7 @@
     "pk": 346,
     "fields": {
       "code": "EDUC321-01",
+      "dept": "Education",
       "name": "Bilingual Ed Policy & Politics",
       "time": "02:15 pm - 04:45 pm",
       "date": "W",
@@ -4156,6 +4502,7 @@
     "pk": 347,
     "fields": {
       "code": "EDUC322-01",
+      "dept": "Education",
       "name": "Sem: Digital Tech & Learning",
       "time": "09:50 am - 12:20 pm",
       "date": "T",
@@ -4168,6 +4515,7 @@
     "pk": 348,
     "fields": {
       "code": "EDUC325-01",
+      "dept": "Education",
       "name": "Sem: English as a 2nd Language",
       "time": "11:10 am - 01:20 pm,08:00 am - 08:20 am",
       "date": "M,M",
@@ -4180,6 +4528,7 @@
     "pk": 349,
     "fields": {
       "code": "ENG113-01",
+      "dept": "English",
       "name": "Studies in Fiction",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -4192,6 +4541,7 @@
     "pk": 350,
     "fields": {
       "code": "ENG115-01",
+      "dept": "English",
       "name": "Great Works of Poetry",
       "time": "03:35 pm - 05:55 pm",
       "date": "W",
@@ -4204,6 +4554,7 @@
     "pk": 351,
     "fields": {
       "code": "ENG120-01",
+      "dept": "English",
       "name": "Critical Interpretation",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -4216,6 +4567,7 @@
     "pk": 352,
     "fields": {
       "code": "ENG150-01",
+      "dept": "English",
       "name": "FYS: Translation Theory/Pract",
       "time": "08:30 am - 09:40 am",
       "date": "TF",
@@ -4228,6 +4580,7 @@
     "pk": 353,
     "fields": {
       "code": "ENG202-01",
+      "dept": "English",
       "name": "Poetry",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -4240,6 +4593,7 @@
     "pk": 354,
     "fields": {
       "code": "ENG203-01",
+      "dept": "English",
       "name": "Short Narrative",
       "time": "08:30 am - 09:40 am",
       "date": "TF",
@@ -4252,6 +4606,7 @@
     "pk": 355,
     "fields": {
       "code": "ENG203-02",
+      "dept": "English",
       "name": "Short Narrative",
       "time": "09:50 am - 12:20 pm",
       "date": "T",
@@ -4264,6 +4619,7 @@
     "pk": 356,
     "fields": {
       "code": "ENG204-01",
+      "dept": "English",
       "name": "The Art of Screenwriting",
       "time": "09:50 am - 12:20 pm",
       "date": "W",
@@ -4276,6 +4632,7 @@
     "pk": 357,
     "fields": {
       "code": "ENG205-01",
+      "dept": "English",
       "name": "Writing for Children",
       "time": "01:30 pm - 02:40 pm",
       "date": "MTh",
@@ -4288,6 +4645,7 @@
     "pk": 358,
     "fields": {
       "code": "ENG206-01",
+      "dept": "English",
       "name": "Tpc: Memoir",
       "time": "09:50 am - 12:20 pm",
       "date": "W",
@@ -4300,6 +4658,7 @@
     "pk": 359,
     "fields": {
       "code": "ENG213-01",
+      "dept": "English",
       "name": "Chaucer",
       "time": "02:15 pm - 04:45 pm",
       "date": "W",
@@ -4312,6 +4671,7 @@
     "pk": 360,
     "fields": {
       "code": "ENG222-01",
+      "dept": "English",
       "name": "Tpc: Ren Lit & Hist of Media",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -4324,6 +4684,7 @@
     "pk": 361,
     "fields": {
       "code": "ENG223-01",
+      "dept": "English",
       "name": "ShakespeareI-ElizabethanPeriod",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -4336,6 +4697,7 @@
     "pk": 362,
     "fields": {
       "code": "ENG227-01",
+      "dept": "English",
       "name": "Milton",
       "time": "01:30 pm - 02:40 pm",
       "date": "MTh",
@@ -4348,6 +4710,7 @@
     "pk": 363,
     "fields": {
       "code": "ENG253-01",
+      "dept": "English",
       "name": "Contemporary American Poetry",
       "time": "01:30 pm - 02:40 pm",
       "date": "MTh",
@@ -4360,6 +4723,7 @@
     "pk": 364,
     "fields": {
       "code": "ENG262-01",
+      "dept": "English",
       "name": "Tpc: Founding,Disunion,Reunion",
       "time": "02:15 pm - 04:45 pm",
       "date": "W",
@@ -4372,6 +4736,7 @@
     "pk": 365,
     "fields": {
       "code": "ENG268-01",
+      "dept": "English",
       "name": "American Literature Now",
       "time": "04:10 pm - 05:20 pm",
       "date": "MTh",
@@ -4384,6 +4749,7 @@
     "pk": 366,
     "fields": {
       "code": "ENG274-01",
+      "dept": "English",
       "name": "British Cinema and Literature",
       "time": "02:50 pm - 04:00 pm,06:30 pm - 08:15 pm",
       "date": "TF,W",
@@ -4396,6 +4762,7 @@
     "pk": 367,
     "fields": {
       "code": "ENG286-01",
+      "dept": "English",
       "name": "The Gay 1990s",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -4408,6 +4775,7 @@
     "pk": 368,
     "fields": {
       "code": "ENG287-01",
+      "dept": "English",
       "name": "Words, Music, Voices",
       "time": "02:50 pm - 04:00 pm",
       "date": "TF",
@@ -4420,6 +4788,7 @@
     "pk": 369,
     "fields": {
       "code": "ENG290-01",
+      "dept": "English",
       "name": "Law in Literature",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -4432,6 +4801,7 @@
     "pk": 370,
     "fields": {
       "code": "ENG324-01",
+      "dept": "English",
       "name": "Tpc:Shakespeare Perform Global",
       "time": "02:50 pm - 04:00 pm",
       "date": "MTh",
@@ -4444,6 +4814,7 @@
     "pk": 371,
     "fields": {
       "code": "ENG351-01",
+      "dept": "English",
       "name": "The Robert Garis Seminar",
       "time": "02:50 pm - 04:00 pm",
       "date": "TF",
@@ -4456,6 +4827,7 @@
     "pk": 372,
     "fields": {
       "code": "ENG355-01",
+      "dept": "English",
       "name": "Tpc: Irish Lit: Terror and Wit",
       "time": "01:30 pm - 02:40 pm",
       "date": "TF",
@@ -4468,6 +4840,7 @@
     "pk": 373,
     "fields": {
       "code": "ENG383-01",
+      "dept": "English",
       "name": "Tpc: 19th Century Novels",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -4480,6 +4853,7 @@
     "pk": 374,
     "fields": {
       "code": "ENG384-01",
+      "dept": "English",
       "name": "Tpc: Africa in the West",
       "time": "01:30 pm - 04:00 pm",
       "date": "T",
@@ -4492,6 +4866,7 @@
     "pk": 375,
     "fields": {
       "code": "ENG385-01",
+      "dept": "English",
       "name": "Tpc: Lowell, Bishop",
       "time": "04:10 pm - 06:30 pm",
       "date": "M",
@@ -4504,6 +4879,7 @@
     "pk": 376,
     "fields": {
       "code": "ENG387-01",
+      "dept": "English",
       "name": "Tpc: Brontë, Woolf",
       "time": "08:30 am - 11:00 am",
       "date": "W",
@@ -4516,6 +4892,7 @@
     "pk": 377,
     "fields": {
       "code": "ES101-01",
+      "dept": "Environmental Studies",
       "name": "Fundamentals of Envr Sci w/Lab",
       "time": "08:30 am - 09:40 am",
       "date": "MTh",
@@ -4528,6 +4905,7 @@
     "pk": 378,
     "fields": {
       "code": "ES101-L01",
+      "dept": "Environmental Studies",
       "name": "LAB:Intro ES:Methods& Analysis",
       "time": "12:30 pm - 04:00 pm",
       "date": "T",
@@ -4540,6 +4918,7 @@
     "pk": 379,
     "fields": {
       "code": "ES101-L02",
+      "dept": "Environmental Studies",
       "name": "LAB:Intro ES:Methods& Analysis",
       "time": "02:15 pm - 05:45 pm",
       "date": "W",
@@ -4552,6 +4931,7 @@
     "pk": 380,
     "fields": {
       "code": "ES102-01",
+      "dept": "Environmental Studies",
       "name": "Envir and Society: Climate Chg",
       "time": "08:30 am - 09:40 am",
       "date": "TF",
@@ -4564,6 +4944,7 @@
     "pk": 381,
     "fields": {
       "code": "ES103-01",
+      "dept": "Environmental Studies",
       "name": "FYS: Envir&Society: Food & Ag",
       "time": "01:30 pm - 02:40 pm,01:30 pm - 04:00 pm",
       "date": "T,F",
@@ -4576,6 +4957,7 @@
     "pk": 382,
     "fields": {
       "code": "ES201-01",
+      "dept": "Environmental Studies",
       "name": "Env, Health&Sustain Sci w/Lab",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -4588,6 +4970,7 @@
     "pk": 383,
     "fields": {
       "code": "ES201-L01",
+      "dept": "Environmental Studies",
       "name": "LAB: Env, Health&Sustain Sci",
       "time": "01:00 pm - 04:00 pm",
       "date": "T",
@@ -4600,6 +4983,7 @@
     "pk": 384,
     "fields": {
       "code": "ES210-01",
+      "dept": "Environmental Studies",
       "name": "Hydro-Water& Pollutants w/Lab",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -4612,6 +4996,7 @@
     "pk": 385,
     "fields": {
       "code": "ES210-L01",
+      "dept": "Environmental Studies",
       "name": "LAB: Hydrogeology",
       "time": "01:00 pm - 04:00 pm",
       "date": "F",
@@ -4624,6 +5009,7 @@
     "pk": 386,
     "fields": {
       "code": "ES214-01",
+      "dept": "Environmental Studies",
       "name": "Soc Cause & Conseq Env Probs",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -4636,6 +5022,7 @@
     "pk": 387,
     "fields": {
       "code": "ES228-01",
+      "dept": "Environmental Studies",
       "name": "Environmental & Resource Econ",
       "time": "02:50 pm - 04:00 pm,03:35 pm - 04:45 pm",
       "date": "MTh,W",
@@ -4648,6 +5035,7 @@
     "pk": 388,
     "fields": {
       "code": "ES229-01",
+      "dept": "Environmental Studies",
       "name": "Latin America: Food and Enviro",
       "time": "01:30 pm - 02:40 pm",
       "date": "MTh",
@@ -4660,6 +5048,7 @@
     "pk": 389,
     "fields": {
       "code": "ES247-01",
+      "dept": "Environmental Studies",
       "name": "Plant Diversity & Eco w/Lab",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -4672,6 +5061,7 @@
     "pk": 390,
     "fields": {
       "code": "ES247-L01",
+      "dept": "Environmental Studies",
       "name": "LAB: Plant Diversity & Eco",
       "time": "08:30 am - 12:00 pm",
       "date": "W",
@@ -4684,6 +5074,7 @@
     "pk": 391,
     "fields": {
       "code": "ES347-01",
+      "dept": "Environmental Studies",
       "name": "Adv Plant Div and Ecol w/Lab",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -4696,6 +5087,7 @@
     "pk": 392,
     "fields": {
       "code": "ES347-L01",
+      "dept": "Environmental Studies",
       "name": "LAB: Adv Plant Div and Ecol",
       "time": "08:30 am - 12:20 pm",
       "date": "W",
@@ -4708,6 +5100,7 @@
     "pk": 393,
     "fields": {
       "code": "ES381-01",
+      "dept": "Environmental Studies",
       "name": "U.S. Environmental Politics",
       "time": "09:50 am - 11:00 am,09:50 am - 11:00 am",
       "date": "TF,W2",
@@ -4720,6 +5113,7 @@
     "pk": 394,
     "fields": {
       "code": "ES383-01",
+      "dept": "Environmental Studies",
       "name": "The Science of Compliance",
       "time": "01:30 pm - 02:40 pm",
       "date": "TF",
@@ -4732,6 +5126,7 @@
     "pk": 395,
     "fields": {
       "code": "FREN101-01",
+      "dept": "French",
       "name": "Beginning French I",
       "time": "11:10 am - 12:20 pm,02:15 pm - 03:25 pm",
       "date": "MTh,W",
@@ -4744,6 +5139,7 @@
     "pk": 396,
     "fields": {
       "code": "FREN101-02",
+      "dept": "French",
       "name": "Beginning French I",
       "time": "01:30 pm - 02:40 pm,02:15 pm - 03:25 pm",
       "date": "MTh,W",
@@ -4756,6 +5152,7 @@
     "pk": 397,
     "fields": {
       "code": "FREN103-01",
+      "dept": "French",
       "name": "Intensive French",
       "time": "09:50 am - 11:00 am,02:15 pm - 04:00 pm",
       "date": "MTTh,W",
@@ -4768,6 +5165,7 @@
     "pk": 398,
     "fields": {
       "code": "FREN151-01",
+      "dept": "French",
       "name": "FYS: ReadWriteAdventureStory",
       "time": "02:50 pm - 04:00 pm",
       "date": "TF",
@@ -4780,6 +5178,7 @@
     "pk": 399,
     "fields": {
       "code": "FREN201-01",
+      "dept": "French",
       "name": "Fren Language Lit & Cultures I",
       "time": "02:50 pm - 04:00 pm,03:35 pm - 04:45 pm",
       "date": "TF,W",
@@ -4792,6 +5191,7 @@
     "pk": 400,
     "fields": {
       "code": "FREN201-02",
+      "dept": "French",
       "name": "Fren Language Lit & Cultures I",
       "time": "02:50 pm - 04:00 pm,03:35 pm - 04:45 pm",
       "date": "MTh,W",
@@ -4804,6 +5204,7 @@
     "pk": 401,
     "fields": {
       "code": "FREN201-03",
+      "dept": "French",
       "name": "Fren Language Lit & Cultures I",
       "time": "09:50 am - 11:00 am",
       "date": "MWTh",
@@ -4816,6 +5217,7 @@
     "pk": 402,
     "fields": {
       "code": "FREN205-01",
+      "dept": "French",
       "name": "Lit& Film in Cultural Contexts",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -4828,6 +5230,7 @@
     "pk": 403,
     "fields": {
       "code": "FREN206-01",
+      "dept": "French",
       "name": "Intermediate Spoken French",
       "time": "01:30 pm - 02:40 pm",
       "date": "TF",
@@ -4840,6 +5243,7 @@
     "pk": 404,
     "fields": {
       "code": "FREN206-02",
+      "dept": "French",
       "name": "Intermediate Spoken French",
       "time": "04:10 pm - 05:20 pm",
       "date": "MTh",
@@ -4852,6 +5256,7 @@
     "pk": 405,
     "fields": {
       "code": "FREN209-01",
+      "dept": "French",
       "name": "Tpc: The Paris of Poets",
       "time": "01:30 pm - 02:40 pm",
       "date": "MTh",
@@ -4864,6 +5269,7 @@
     "pk": 406,
     "fields": {
       "code": "FREN210-01",
+      "dept": "French",
       "name": "Tpc: Middle Ages Enlightenment",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -4876,6 +5282,7 @@
     "pk": 407,
     "fields": {
       "code": "FREN211-01",
+      "dept": "French",
       "name": "Studies in Language",
       "time": "01:30 pm - 02:40 pm",
       "date": "MTh",
@@ -4888,6 +5295,7 @@
     "pk": 408,
     "fields": {
       "code": "FREN213-01",
+      "dept": "French",
       "name": "French Drama 20th Century",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -4900,6 +5308,7 @@
     "pk": 409,
     "fields": {
       "code": "FREN218-01",
+      "dept": "French",
       "name": "Negritude,Independ.,Womn's Iss",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -4912,6 +5321,7 @@
     "pk": 410,
     "fields": {
       "code": "FREN222-01",
+      "dept": "French",
       "name": "Cinema Lumière to Present",
       "time": "04:10 pm - 05:20 pm",
       "date": "MTh",
@@ -4924,6 +5334,7 @@
     "pk": 411,
     "fields": {
       "code": "FREN308-01",
+      "dept": "French",
       "name": "Advanced Studies Language",
       "time": "02:50 pm - 04:00 pm",
       "date": "MTh",
@@ -4936,6 +5347,7 @@
     "pk": 412,
     "fields": {
       "code": "FREN315-01",
+      "dept": "French",
       "name": "Two Women: Sand & DeGouges",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -4948,6 +5360,7 @@
     "pk": 413,
     "fields": {
       "code": "FREN324-01",
+      "dept": "French",
       "name": "The Belle Epoque",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -4960,6 +5373,7 @@
     "pk": 414,
     "fields": {
       "code": "FREN335-01",
+      "dept": "French",
       "name": "Ethics & Difference",
       "time": "01:30 pm - 02:40 pm",
       "date": "TF",
@@ -4972,6 +5386,7 @@
     "pk": 415,
     "fields": {
       "code": "GEOS101-01",
+      "dept": "Geosciences",
       "name": "Earth Processes&Environ w/LAB",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -4984,6 +5399,7 @@
     "pk": 416,
     "fields": {
       "code": "GEOS101-L01",
+      "dept": "Geosciences",
       "name": "LAB: Earth Processes&Environ",
       "time": "01:00 pm - 04:00 pm",
       "date": "M",
@@ -4996,6 +5412,7 @@
     "pk": 417,
     "fields": {
       "code": "GEOS101-L02",
+      "dept": "Geosciences",
       "name": "LAB: Earth Processes&Environ",
       "time": "02:15 pm - 05:15 pm",
       "date": "W",
@@ -5008,6 +5425,7 @@
     "pk": 418,
     "fields": {
       "code": "GEOS102-01",
+      "dept": "Geosciences",
       "name": "The Dynamic Earth w/Lab",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -5020,6 +5438,7 @@
     "pk": 419,
     "fields": {
       "code": "GEOS102-L01",
+      "dept": "Geosciences",
       "name": "LAB: The Dynamic Earth",
       "time": "01:00 pm - 04:00 pm",
       "date": "T",
@@ -5032,6 +5451,7 @@
     "pk": 420,
     "fields": {
       "code": "GEOS102-L02",
+      "dept": "Geosciences",
       "name": "LAB: The Dynamic Earth",
       "time": "01:00 pm - 04:00 pm",
       "date": "Th",
@@ -5044,6 +5464,7 @@
     "pk": 421,
     "fields": {
       "code": "GEOS201-01",
+      "dept": "Geosciences",
       "name": "Env, Health&Sustain Sci w/Lab",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -5056,6 +5477,7 @@
     "pk": 422,
     "fields": {
       "code": "GEOS201-L01",
+      "dept": "Geosciences",
       "name": "LAB: Env, Health&Sustain Sci",
       "time": "01:00 pm - 04:00 pm",
       "date": "T",
@@ -5068,6 +5490,7 @@
     "pk": 423,
     "fields": {
       "code": "GEOS210-01",
+      "dept": "Geosciences",
       "name": "Hydro-Water&Pollutants w/Lab",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -5080,6 +5503,7 @@
     "pk": 424,
     "fields": {
       "code": "GEOS210-L01",
+      "dept": "Geosciences",
       "name": "LAB: Hydrogeology",
       "time": "01:00 pm - 04:00 pm",
       "date": "F",
@@ -5092,6 +5516,7 @@
     "pk": 425,
     "fields": {
       "code": "GEOS220-01",
+      "dept": "Geosciences",
       "name": "Volcanoes and Volcanism w/Lab",
       "time": "08:30 am - 11:00 am",
       "date": "MTh",
@@ -5104,6 +5529,7 @@
     "pk": 426,
     "fields": {
       "code": "GEOS304-01",
+      "dept": "Geosciences",
       "name": "Sedimentology with Laboratory",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -5116,6 +5542,7 @@
     "pk": 427,
     "fields": {
       "code": "GEOS304-L01",
+      "dept": "Geosciences",
       "name": "LAB: Sedimentology",
       "time": "01:00 pm - 04:00 pm",
       "date": "Th",
@@ -5128,6 +5555,7 @@
     "pk": 428,
     "fields": {
       "code": "GEOS318-01",
+      "dept": "Geosciences",
       "name": "Tectonics&Structral Geo w/Lab",
       "time": "None assigned",
       "date": "None assigned",
@@ -5140,6 +5568,7 @@
     "pk": 429,
     "fields": {
       "code": "GEOS318-L01",
+      "dept": "Geosciences",
       "name": "LAB: Tectonics&Structral Geo",
       "time": "None assigned",
       "date": "None assigned",
@@ -5152,6 +5581,7 @@
     "pk": 430,
     "fields": {
       "code": "GER101-01",
+      "dept": "German",
       "name": "Beginning German I",
       "time": "09:50 am - 11:00 am",
       "date": "MWTh",
@@ -5164,6 +5594,7 @@
     "pk": 431,
     "fields": {
       "code": "GER101-02",
+      "dept": "German",
       "name": "Beginning German I",
       "time": "11:10 am - 12:20 pm",
       "date": "MWTh",
@@ -5176,6 +5607,7 @@
     "pk": 432,
     "fields": {
       "code": "GER201-01",
+      "dept": "German",
       "name": "Intermediate German I",
       "time": "11:10 am - 12:20 pm",
       "date": "TWF",
@@ -5188,6 +5620,7 @@
     "pk": 433,
     "fields": {
       "code": "GER201-02",
+      "dept": "German",
       "name": "Intermediate German I",
       "time": "01:30 pm - 02:40 pm,02:15 pm - 03:25 pm",
       "date": "TF,W",
@@ -5200,6 +5633,7 @@
     "pk": 434,
     "fields": {
       "code": "GER258-01",
+      "dept": "German",
       "name": "Imagining Germany ",
       "time": "03:35 pm - 06:05 pm",
       "date": "W",
@@ -5212,6 +5646,7 @@
     "pk": 435,
     "fields": {
       "code": "GER276-01",
+      "dept": "German",
       "name": "Franz Kafka (in English)",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -5224,6 +5659,7 @@
     "pk": 436,
     "fields": {
       "code": "GER290-01",
+      "dept": "German",
       "name": "Law in Literature",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -5236,6 +5672,7 @@
     "pk": 437,
     "fields": {
       "code": "GER313-01",
+      "dept": "German",
       "name": "Sem: The Bauhaus",
       "time": "09:50 am - 12:20 pm",
       "date": "W",
@@ -5248,6 +5685,7 @@
     "pk": 438,
     "fields": {
       "code": "GER376-01",
+      "dept": "German",
       "name": "Kafka",
       "time": "11:10 am - 12:20 pm",
       "date": "MWTh",
@@ -5260,6 +5698,7 @@
     "pk": 439,
     "fields": {
       "code": "GRK101-01",
+      "dept": "Classical Studies",
       "name": "Beginning Greek I",
       "time": "08:50 am - 09:40 am",
       "date": "MTWTh",
@@ -5272,6 +5711,7 @@
     "pk": 440,
     "fields": {
       "code": "GRK201-01",
+      "dept": "Classical Studies",
       "name": "Athenian Literature",
       "time": "02:50 pm - 04:00 pm,12:30 pm - 01:20 pm",
       "date": "MTh,F",
@@ -5284,6 +5724,7 @@
     "pk": 441,
     "fields": {
       "code": "GRK309-01",
+      "dept": "Classical Studies",
       "name": "Plato's Symposium",
       "time": "01:30 pm - 02:40 pm",
       "date": "MTh",
@@ -5296,6 +5737,7 @@
     "pk": 442,
     "fields": {
       "code": "HEBR101-01",
+      "dept": "Jewish Studies",
       "name": "Elementary Hebrew I",
       "time": "09:50 am - 11:00 am,09:50 am - 11:00 am",
       "date": "MTh,W",
@@ -5308,6 +5750,7 @@
     "pk": 443,
     "fields": {
       "code": "HEBR201-01",
+      "dept": "Jewish Studies",
       "name": "Intermediate Hebrew I",
       "time": "11:10 am - 12:20 pm,11:10 am - 12:20 pm",
       "date": "MTh,W",
@@ -5320,6 +5763,7 @@
     "pk": 444,
     "fields": {
       "code": "HIST115-01",
+      "dept": "History",
       "name": "FYS: Routes of Exile",
       "time": "02:15 pm - 04:45 pm",
       "date": "W",
@@ -5332,6 +5776,7 @@
     "pk": 445,
     "fields": {
       "code": "HIST200-01",
+      "dept": "History",
       "name": "Roots of the Western Tradition",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -5344,6 +5789,7 @@
     "pk": 446,
     "fields": {
       "code": "HIST203-01",
+      "dept": "History",
       "name": "Out of Many: Amer Hist to 1877",
       "time": "None assigned",
       "date": "None assigned",
@@ -5356,6 +5802,7 @@
     "pk": 447,
     "fields": {
       "code": "HIST205-01",
+      "dept": "History",
       "name": "Making of the  Modern World",
       "time": "01:30 pm - 02:40 pm",
       "date": "MTh",
@@ -5368,6 +5815,7 @@
     "pk": 448,
     "fields": {
       "code": "HIST206-01",
+      "dept": "History",
       "name": "From Conquest to Revolution",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -5380,6 +5828,7 @@
     "pk": 449,
     "fields": {
       "code": "HIST213-01",
+      "dept": "History",
       "name": "Conquest and Crusade",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -5392,6 +5841,7 @@
     "pk": 450,
     "fields": {
       "code": "HIST222-01",
+      "dept": "History",
       "name": "Barbarian Kingdoms",
       "time": "01:30 pm - 02:40 pm",
       "date": "TF",
@@ -5404,6 +5854,7 @@
     "pk": 451,
     "fields": {
       "code": "HIST232-01",
+      "dept": "History",
       "name": "Europe 1350-1815",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -5416,6 +5867,7 @@
     "pk": 452,
     "fields": {
       "code": "HIST235-01",
+      "dept": "History",
       "name": "Adam Smith in Enlightenment",
       "time": "02:50 pm - 04:00 pm",
       "date": "MTh",
@@ -5428,6 +5880,7 @@
     "pk": 453,
     "fields": {
       "code": "HIST240-01",
+      "dept": "History",
       "name": "Cities in Modern Europe",
       "time": "08:30 am - 09:40 am",
       "date": "MTh",
@@ -5440,6 +5893,7 @@
     "pk": 454,
     "fields": {
       "code": "HIST243-01",
+      "dept": "History",
       "name": "Gndr & Sexlty in 20th C. Europ",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -5452,6 +5906,7 @@
     "pk": 455,
     "fields": {
       "code": "HIST245-01",
+      "dept": "History",
       "name": "History of Am. Capitalism",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -5464,6 +5919,7 @@
     "pk": 456,
     "fields": {
       "code": "HIST247-01",
+      "dept": "History",
       "name": "Russia Under the Romanovs",
       "time": "02:50 pm - 04:00 pm",
       "date": "TF",
@@ -5476,6 +5932,7 @@
     "pk": 457,
     "fields": {
       "code": "HIST253-01",
+      "dept": "History",
       "name": "Native America",
       "time": "None assigned",
       "date": "None assigned",
@@ -5488,6 +5945,7 @@
     "pk": 458,
     "fields": {
       "code": "HIST274-01",
+      "dept": "History",
       "name": "China,Japan,Korea&Global Persp",
       "time": "04:10 pm - 05:20 pm",
       "date": "MTh",
@@ -5500,6 +5958,7 @@
     "pk": 459,
     "fields": {
       "code": "HIST276-01",
+      "dept": "History",
       "name": "The City in South Asia",
       "time": "01:30 pm - 02:40 pm",
       "date": "MTh",
@@ -5512,6 +5971,7 @@
     "pk": 460,
     "fields": {
       "code": "HIST280-01",
+      "dept": "History",
       "name": "Tpcs in Chinese Commerce&Bus",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -5524,6 +5984,7 @@
     "pk": 461,
     "fields": {
       "code": "HIST302-01",
+      "dept": "History",
       "name": "Sem: WorldWarII as Memory&Myth",
       "time": "02:50 pm - 05:20 pm",
       "date": "Th",
@@ -5536,6 +5997,7 @@
     "pk": 462,
     "fields": {
       "code": "HIST312-01",
+      "dept": "History",
       "name": "Sem: Understanding Race in USA",
       "time": "09:50 am - 12:20 pm",
       "date": "W",
@@ -5548,6 +6010,7 @@
     "pk": 463,
     "fields": {
       "code": "HIST341-01",
+      "dept": "History",
       "name": "Sem: At the Margins",
       "time": "06:30 pm - 09:00 pm",
       "date": "Th",
@@ -5560,6 +6023,7 @@
     "pk": 464,
     "fields": {
       "code": "HIST359-01",
+      "dept": "History",
       "name": "Spanish World Modernity ",
       "time": "09:50 am - 12:20 pm",
       "date": "W",
@@ -5572,6 +6036,7 @@
     "pk": 465,
     "fields": {
       "code": "HIST382-01",
+      "dept": "History",
       "name": "Gandhi, Nehru, and Ambedkar",
       "time": "02:15 pm - 04:45 pm",
       "date": "W",
@@ -5584,6 +6049,7 @@
     "pk": 466,
     "fields": {
       "code": "HIST395-01",
+      "dept": "History",
       "name": "International History Seminar",
       "time": "02:50 pm - 05:20 pm",
       "date": "M",
@@ -5596,6 +6062,7 @@
     "pk": 467,
     "fields": {
       "code": "HNUR101-01",
+      "dept": "South Asian Studies",
       "name": "Elementary Hindi/Urdu",
       "time": "08:30 am - 09:40 am",
       "date": "TWF",
@@ -5608,6 +6075,7 @@
     "pk": 468,
     "fields": {
       "code": "HNUR201-01",
+      "dept": "South Asian Studies",
       "name": "Intermediate Hindi/Urdu",
       "time": "09:50 am - 11:00 am",
       "date": "MWTh",
@@ -5620,6 +6088,7 @@
     "pk": 469,
     "fields": {
       "code": "ITAS101-01",
+      "dept": "Italian Studies",
       "name": "Elementary Italian I",
       "time": "09:50 am - 11:00 am,09:50 am - 11:00 am",
       "date": "MTh,W",
@@ -5632,6 +6101,7 @@
     "pk": 470,
     "fields": {
       "code": "ITAS101-02",
+      "dept": "Italian Studies",
       "name": "Elementary Italian I",
       "time": "11:10 am - 12:20 pm",
       "date": "TWF",
@@ -5644,6 +6114,7 @@
     "pk": 471,
     "fields": {
       "code": "ITAS103-01",
+      "dept": "Italian Studies",
       "name": "Intensive Elementary Italian",
       "time": "02:50 pm - 04:00 pm,03:35 pm - 04:45 pm",
       "date": "TF,W",
@@ -5656,6 +6127,7 @@
     "pk": 472,
     "fields": {
       "code": "ITAS104-01",
+      "dept": "Italian Studies",
       "name": "FYS: The Cities of Italy",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -5668,6 +6140,7 @@
     "pk": 473,
     "fields": {
       "code": "ITAS201-01",
+      "dept": "Italian Studies",
       "name": "Intermediate Italian I",
       "time": "08:30 am - 09:40 am",
       "date": "MWTh",
@@ -5680,6 +6153,7 @@
     "pk": 474,
     "fields": {
       "code": "ITAS201-02",
+      "dept": "Italian Studies",
       "name": "Intermediate Italian I",
       "time": "09:50 am - 11:00 am",
       "date": "TWF",
@@ -5692,6 +6166,7 @@
     "pk": 475,
     "fields": {
       "code": "ITAS270-01",
+      "dept": "Italian Studies",
       "name": "Italy in the 21st Century",
       "time": "08:30 am - 09:40 am",
       "date": "MTh",
@@ -5704,6 +6179,7 @@
     "pk": 476,
     "fields": {
       "code": "ITAS275-01",
+      "dept": "Italian Studies",
       "name": "Desire from Dante to Milton",
       "time": "08:30 am - 09:40 am",
       "date": "TF",
@@ -5716,6 +6192,7 @@
     "pk": 477,
     "fields": {
       "code": "ITAS315-01",
+      "dept": "Italian Studies",
       "name": "Italian Mysteries",
       "time": "01:30 pm - 04:00 pm",
       "date": "M",
@@ -5728,6 +6205,7 @@
     "pk": 478,
     "fields": {
       "code": "JPN101-01",
+      "dept": "East Asian Languages and Cultures",
       "name": "Beginning Japanese I",
       "time": "08:30 am - 09:40 am",
       "date": "MTWTh",
@@ -5740,6 +6218,7 @@
     "pk": 479,
     "fields": {
       "code": "JPN101-02",
+      "dept": "East Asian Languages and Cultures",
       "name": "Beginning Japanese I",
       "time": "09:50 am - 11:00 am",
       "date": "MTWTh",
@@ -5752,6 +6231,7 @@
     "pk": 480,
     "fields": {
       "code": "JPN130-01",
+      "dept": "East Asian Languages and Cultures",
       "name": "Japanese Animation (in Eng)",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -5764,6 +6244,7 @@
     "pk": 481,
     "fields": {
       "code": "JPN201-01",
+      "dept": "East Asian Languages and Cultures",
       "name": "Intermediate Japanese I",
       "time": "11:10 am - 12:20 pm",
       "date": "MTWTh",
@@ -5776,6 +6257,7 @@
     "pk": 482,
     "fields": {
       "code": "JPN231-01",
+      "dept": "East Asian Languages and Cultures",
       "name": "Selectd Read'gs Adv Japanese I",
       "time": "09:50 am - 11:00 am",
       "date": "MWTh",
@@ -5788,6 +6270,7 @@
     "pk": 483,
     "fields": {
       "code": "JPN251-01",
+      "dept": "East Asian Languages and Cultures",
       "name": "Jpn Writers&Their Worlds(Eng)",
       "time": "02:50 pm - 04:00 pm",
       "date": "TF",
@@ -5800,6 +6283,7 @@
     "pk": 484,
     "fields": {
       "code": "JPN314-01",
+      "dept": "East Asian Languages and Cultures",
       "name": "Comtemporary Japanese Narrativ",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -5812,6 +6296,7 @@
     "pk": 485,
     "fields": {
       "code": "JPN355-01",
+      "dept": "East Asian Languages and Cultures",
       "name": "JpnWriters&Their Worlds ",
       "time": "02:50 pm - 04:00 pm,03:35 pm - 04:45 pm",
       "date": "TF,W",
@@ -5824,6 +6309,7 @@
     "pk": 486,
     "fields": {
       "code": "KOR101-01",
+      "dept": "East Asian Languages and Cultures",
       "name": "Beginning Korean",
       "time": "08:30 am - 09:40 am",
       "date": "MTWTh",
@@ -5836,6 +6322,7 @@
     "pk": 487,
     "fields": {
       "code": "KOR201-01",
+      "dept": "East Asian Languages and Cultures",
       "name": "Intermediate Korean",
       "time": "09:50 am - 11:00 am",
       "date": "MTWTh",
@@ -5848,6 +6335,7 @@
     "pk": 488,
     "fields": {
       "code": "KOR206-01",
+      "dept": "East Asian Languages and Cultures",
       "name": "Korean Culture & Language",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -5860,6 +6348,7 @@
     "pk": 489,
     "fields": {
       "code": "KOR231-01",
+      "dept": "East Asian Languages and Cultures",
       "name": "Advanced Intermediate Korean I",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -5872,6 +6361,7 @@
     "pk": 490,
     "fields": {
       "code": "LAT101-01",
+      "dept": "Classical Studies",
       "name": "Beginning Latin I",
       "time": "08:50 am - 09:40 am",
       "date": "TWThF",
@@ -5884,6 +6374,7 @@
     "pk": 491,
     "fields": {
       "code": "LAT200-01",
+      "dept": "Classical Studies",
       "name": "Intermediate Latin I",
       "time": "09:50 am - 11:00 am,10:10 am - 11:00 am",
       "date": "MTTh,W",
@@ -5896,6 +6387,7 @@
     "pk": 492,
     "fields": {
       "code": "LAT200-02",
+      "dept": "Classical Studies",
       "name": "Intermediate Latin I",
       "time": "01:30 pm - 02:40 pm,02:15 pm - 03:05 pm",
       "date": "MTh,W",
@@ -5908,6 +6400,7 @@
     "pk": 493,
     "fields": {
       "code": "LAT301-01",
+      "dept": "Classical Studies",
       "name": "Reading Latin Literature",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -5920,6 +6413,7 @@
     "pk": 494,
     "fields": {
       "code": "LING114-01",
+      "dept": "Cognitive and Linguistic Sciences",
       "name": "Introduction to Linguistics",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -5932,6 +6426,7 @@
     "pk": 495,
     "fields": {
       "code": "LING244-01",
+      "dept": "Cognitive and Linguistic Sciences",
       "name": "Language: Form and Meaning",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -5944,6 +6439,7 @@
     "pk": 496,
     "fields": {
       "code": "LING312-01",
+      "dept": "Cognitive and Linguistic Sciences",
       "name": "Bilingualism:Lang,Mind&Culture",
       "time": "01:30 pm - 04:00 pm",
       "date": "T",
@@ -5956,6 +6452,7 @@
     "pk": 497,
     "fields": {
       "code": "MATH101-01",
+      "dept": "Mathematics",
       "name": "Reasoning with Data",
       "time": "08:30 am - 09:40 am",
       "date": "MWTh",
@@ -5968,6 +6465,7 @@
     "pk": 498,
     "fields": {
       "code": "MATH115-01",
+      "dept": "Mathematics",
       "name": "Calculus I",
       "time": "11:10 am - 12:20 pm",
       "date": "TWF",
@@ -5980,6 +6478,7 @@
     "pk": 499,
     "fields": {
       "code": "MATH115-02",
+      "dept": "Mathematics",
       "name": "Calculus I",
       "time": "09:50 am - 11:00 am,09:50 am - 11:00 am",
       "date": "MTh,W",
@@ -5992,6 +6491,7 @@
     "pk": 500,
     "fields": {
       "code": "MATH115-03",
+      "dept": "Mathematics",
       "name": "Calculus I",
       "time": "02:50 pm - 04:00 pm,03:35 pm - 04:45 pm",
       "date": "TF,W",
@@ -6004,6 +6504,7 @@
     "pk": 501,
     "fields": {
       "code": "MATH115-04",
+      "dept": "Mathematics",
       "name": "Calculus I",
       "time": "01:30 pm - 02:40 pm,02:15 pm - 03:25 pm",
       "date": "TF,W",
@@ -6016,6 +6517,7 @@
     "pk": 502,
     "fields": {
       "code": "MATH116-01",
+      "dept": "Mathematics",
       "name": "Calculus II",
       "time": "09:50 am - 11:00 am",
       "date": "TWF",
@@ -6028,6 +6530,7 @@
     "pk": 503,
     "fields": {
       "code": "MATH116-02",
+      "dept": "Mathematics",
       "name": "Calculus II",
       "time": "08:30 am - 09:40 am",
       "date": "MWTh",
@@ -6040,6 +6543,7 @@
     "pk": 504,
     "fields": {
       "code": "MATH116-03",
+      "dept": "Mathematics",
       "name": "Calculus II",
       "time": "01:30 pm - 02:40 pm,02:15 pm - 03:25 pm",
       "date": "MTh,W",
@@ -6052,6 +6556,7 @@
     "pk": 505,
     "fields": {
       "code": "MATH116-04",
+      "dept": "Mathematics",
       "name": "Calculus II",
       "time": "02:50 pm - 04:00 pm,03:35 pm - 04:45 pm",
       "date": "MTh,W",
@@ -6064,6 +6569,7 @@
     "pk": 506,
     "fields": {
       "code": "MATH116-05",
+      "dept": "Mathematics",
       "name": "Calculus II",
       "time": "11:10 am - 12:20 pm",
       "date": "TWF",
@@ -6076,6 +6582,7 @@
     "pk": 507,
     "fields": {
       "code": "MATH116-06",
+      "dept": "Mathematics",
       "name": "Calculus II",
       "time": "09:50 am - 11:00 am,09:50 am - 11:00 am",
       "date": "MTh,W",
@@ -6088,6 +6595,7 @@
     "pk": 508,
     "fields": {
       "code": "MATH120-01",
+      "dept": "Mathematics",
       "name": "Calculus IIA",
       "time": "01:30 pm - 02:40 pm,02:15 pm - 03:25 pm",
       "date": "TF,W",
@@ -6100,6 +6608,7 @@
     "pk": 509,
     "fields": {
       "code": "MATH120-02",
+      "dept": "Mathematics",
       "name": "Calculus IIA",
       "time": "02:50 pm - 04:00 pm,03:35 pm - 04:45 pm",
       "date": "TF,W",
@@ -6112,6 +6621,7 @@
     "pk": 510,
     "fields": {
       "code": "MATH205-01",
+      "dept": "Mathematics",
       "name": "Multivariable Calculus",
       "time": "09:50 am - 11:00 am",
       "date": "MWTh",
@@ -6124,6 +6634,7 @@
     "pk": 511,
     "fields": {
       "code": "MATH205-02",
+      "dept": "Mathematics",
       "name": "Multivariable Calculus",
       "time": "11:10 am - 12:20 pm",
       "date": "MWTh",
@@ -6136,6 +6647,7 @@
     "pk": 512,
     "fields": {
       "code": "MATH205-03",
+      "dept": "Mathematics",
       "name": "Multivariable Calculus",
       "time": "08:30 am - 09:40 am",
       "date": "MWTh",
@@ -6148,6 +6660,7 @@
     "pk": 513,
     "fields": {
       "code": "MATH205-04",
+      "dept": "Mathematics",
       "name": "Multivariable Calculus",
       "time": "09:50 am - 11:00 am",
       "date": "TWF",
@@ -6160,6 +6673,7 @@
     "pk": 514,
     "fields": {
       "code": "MATH206-01",
+      "dept": "Mathematics",
       "name": "Linear Algebra",
       "time": "11:10 am - 12:20 pm",
       "date": "MWTh",
@@ -6172,6 +6686,7 @@
     "pk": 515,
     "fields": {
       "code": "MATH206-02",
+      "dept": "Mathematics",
       "name": "Linear Algebra",
       "time": "01:30 pm - 02:40 pm,02:15 pm - 03:25 pm",
       "date": "TF,W",
@@ -6184,6 +6699,7 @@
     "pk": 516,
     "fields": {
       "code": "MATH215-01",
+      "dept": "Mathematics",
       "name": "Mathematics for the Sciences I",
       "time": "08:30 am - 09:40 am",
       "date": "MWTh",
@@ -6196,6 +6712,7 @@
     "pk": 517,
     "fields": {
       "code": "MATH215-02",
+      "dept": "Mathematics",
       "name": "Mathematics for the Sciences I",
       "time": "11:10 am - 12:20 pm,11:10 am - 12:20 pm",
       "date": "MTh,W",
@@ -6208,6 +6725,7 @@
     "pk": 518,
     "fields": {
       "code": "MATH220-01",
+      "dept": "Mathematics",
       "name": "Prob & Elem Statistics",
       "time": "11:10 am - 12:20 pm",
       "date": "TWF",
@@ -6220,6 +6738,7 @@
     "pk": 519,
     "fields": {
       "code": "MATH225-01",
+      "dept": "Mathematics",
       "name": "Combinatorics&Graph Theory",
       "time": "08:30 am - 09:40 am,08:30 am - 09:40 am",
       "date": "MTh,W",
@@ -6232,6 +6751,7 @@
     "pk": 520,
     "fields": {
       "code": "MATH225-02",
+      "dept": "Mathematics",
       "name": "Combinatorics&Graph Theory",
       "time": "09:50 am - 11:00 am",
       "date": "TWF",
@@ -6244,6 +6764,7 @@
     "pk": 521,
     "fields": {
       "code": "MATH302-01",
+      "dept": "Mathematics",
       "name": "Elements of Analysis I",
       "time": "09:50 am - 11:00 am,09:50 am - 11:00 am",
       "date": "MTh,W",
@@ -6256,6 +6777,7 @@
     "pk": 522,
     "fields": {
       "code": "MATH305-01",
+      "dept": "Mathematics",
       "name": "Abstract Algebra",
       "time": "11:10 am - 12:20 pm",
       "date": "TWF",
@@ -6268,6 +6790,7 @@
     "pk": 523,
     "fields": {
       "code": "MATH307-01",
+      "dept": "Mathematics",
       "name": "Topology",
       "time": "01:30 pm - 02:40 pm,02:15 pm - 03:25 pm",
       "date": "MTh,W",
@@ -6280,6 +6803,7 @@
     "pk": 524,
     "fields": {
       "code": "MATH322-01",
+      "dept": "Mathematics",
       "name": "Advanced Linear Algebra",
       "time": "11:10 am - 12:20 pm",
       "date": "MWTh",
@@ -6292,6 +6816,7 @@
     "pk": 525,
     "fields": {
       "code": "MATH326-01",
+      "dept": "Mathematics",
       "name": "Advanced Combinatorics",
       "time": "08:30 am - 09:40 am",
       "date": "TWF",
@@ -6304,6 +6829,7 @@
     "pk": 526,
     "fields": {
       "code": "MATH349-01",
+      "dept": "Mathematics",
       "name": "Tpc: Matrix Groups",
       "time": "09:50 am - 11:00 am",
       "date": "TWF",
@@ -6316,6 +6842,7 @@
     "pk": 527,
     "fields": {
       "code": "ME/R275-01",
+      "dept": "Medieval Renaissance Studies",
       "name": "Desire from Dante to Milton",
       "time": "08:30 am - 09:40 am",
       "date": "TF",
@@ -6328,6 +6855,7 @@
     "pk": 528,
     "fields": {
       "code": "MUS102H-01",
+      "dept": "Music",
       "name": "Musicianship Lab",
       "time": "01:30 pm - 02:30 pm",
       "date": "M",
@@ -6340,6 +6868,7 @@
     "pk": 529,
     "fields": {
       "code": "MUS102H-02",
+      "dept": "Music",
       "name": "Musicianship Lab",
       "time": "04:15 pm - 05:15 pm",
       "date": "M",
@@ -6352,6 +6881,7 @@
     "pk": 530,
     "fields": {
       "code": "MUS102H-03",
+      "dept": "Music",
       "name": "Musicianship Lab",
       "time": "11:10 am - 12:10 pm",
       "date": "Th",
@@ -6364,6 +6894,7 @@
     "pk": 531,
     "fields": {
       "code": "MUS102H-04",
+      "dept": "Music",
       "name": "Musicianship Lab",
       "time": "05:20 pm - 06:20 pm",
       "date": "Th",
@@ -6376,6 +6907,7 @@
     "pk": 532,
     "fields": {
       "code": "MUS111-01",
+      "dept": "Music",
       "name": "Language of Music",
       "time": "11:10 am - 12:20 pm",
       "date": "TWF",
@@ -6388,6 +6920,7 @@
     "pk": 533,
     "fields": {
       "code": "MUS122-01",
+      "dept": "Music",
       "name": "Harmonic Concepts Tonal Music",
       "time": "09:50 am - 11:00 am",
       "date": "TWF",
@@ -6400,6 +6933,7 @@
     "pk": 534,
     "fields": {
       "code": "MUS200-01",
+      "dept": "Music",
       "name": "Hist West Mus: I",
       "time": "11:10 am - 12:20 pm",
       "date": "MWTh",
@@ -6412,6 +6946,7 @@
     "pk": 535,
     "fields": {
       "code": "MUS202-01",
+      "dept": "Music",
       "name": "A History of Western Music",
       "time": "09:50 am - 11:00 am",
       "date": "MWTh",
@@ -6424,6 +6959,7 @@
     "pk": 536,
     "fields": {
       "code": "MUS220-01",
+      "dept": "Music",
       "name": "Jazz Theory",
       "time": "01:30 pm - 04:00 pm",
       "date": "T",
@@ -6436,6 +6972,7 @@
     "pk": 537,
     "fields": {
       "code": "MUS235-01",
+      "dept": "Music",
       "name": "Tpc: Schubert,Schumann & Lyric",
       "time": "01:30 pm - 02:40 pm",
       "date": "TF",
@@ -6448,6 +6985,7 @@
     "pk": 538,
     "fields": {
       "code": "MUS276-01",
+      "dept": "Music",
       "name": "American Popular Music",
       "time": "01:30 pm - 02:40 pm",
       "date": "MTh",
@@ -6460,6 +6998,7 @@
     "pk": 539,
     "fields": {
       "code": "MUS287-01",
+      "dept": "Music",
       "name": "Words, Music, and Voices",
       "time": "02:50 pm - 04:00 pm",
       "date": "TF",
@@ -6472,6 +7011,7 @@
     "pk": 540,
     "fields": {
       "code": "MUS315-01",
+      "dept": "Music",
       "name": "Advanced Harmony",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -6484,6 +7024,7 @@
     "pk": 541,
     "fields": {
       "code": "MUS335-01",
+      "dept": "Music",
       "name": "Tpc: Schubert,Schumann & Lyric",
       "time": "01:30 pm - 02:40 pm",
       "date": "TF",
@@ -6496,6 +7037,7 @@
     "pk": 542,
     "fields": {
       "code": "MUS344-01",
+      "dept": "Music",
       "name": "Performing Music",
       "time": "02:15 pm - 04:45 pm",
       "date": "W",
@@ -6508,6 +7050,7 @@
     "pk": 543,
     "fields": {
       "code": "MUS378-01",
+      "dept": "Music",
       "name": "Deconstructive Audio",
       "time": "02:50 pm - 05:20 pm",
       "date": "Th",
@@ -6520,6 +7063,7 @@
     "pk": 544,
     "fields": {
       "code": "NEUR100-01",
+      "dept": "Neuroscience",
       "name": "Intro to Neuroscience w/Pract",
       "time": "08:30 am - 09:40 am",
       "date": "TF",
@@ -6532,6 +7076,7 @@
     "pk": 545,
     "fields": {
       "code": "NEUR100-02",
+      "dept": "Neuroscience",
       "name": "Intro to Neuroscience w/Pract",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -6544,6 +7089,7 @@
     "pk": 546,
     "fields": {
       "code": "NEUR100-L01",
+      "dept": "Neuroscience",
       "name": "Pract: Intro to Neuroscience",
       "time": "01:30 pm - 02:40 pm",
       "date": "M",
@@ -6556,6 +7102,7 @@
     "pk": 547,
     "fields": {
       "code": "NEUR100-L02",
+      "dept": "Neuroscience",
       "name": "Pract: Intro to Neuroscience",
       "time": "03:10 pm - 04:20 pm",
       "date": "M",
@@ -6568,6 +7115,7 @@
     "pk": 548,
     "fields": {
       "code": "NEUR100-L03",
+      "dept": "Neuroscience",
       "name": "Pract: Intro. to Neuroscience",
       "time": "01:30 pm - 02:40 pm",
       "date": "Th",
@@ -6580,6 +7128,7 @@
     "pk": 549,
     "fields": {
       "code": "NEUR100-L04",
+      "dept": "Neuroscience",
       "name": "Pract: Intro. to Neuroscience",
       "time": "03:10 pm - 04:20 pm",
       "date": "Th",
@@ -6592,6 +7141,7 @@
     "pk": 550,
     "fields": {
       "code": "NEUR200-01",
+      "dept": "Neuroscience",
       "name": "Neur, Netwrks & Behavior w/Lab",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -6604,6 +7154,7 @@
     "pk": 551,
     "fields": {
       "code": "NEUR200-L01",
+      "dept": "Neuroscience",
       "name": "LAB:Neurons, Networks&Behavior",
       "time": "02:15 pm - 05:45 pm",
       "date": "W",
@@ -6616,6 +7167,7 @@
     "pk": 552,
     "fields": {
       "code": "NEUR200-L02",
+      "dept": "Neuroscience",
       "name": "LAB:Neurons, Networks&Behavior",
       "time": "01:00 pm - 04:30 pm",
       "date": "Th",
@@ -6628,6 +7180,7 @@
     "pk": 553,
     "fields": {
       "code": "NEUR250G-01",
+      "dept": "Neuroscience",
       "name": "Tpc: Visual Neuroscience",
       "time": "None assigned",
       "date": "None assigned",
@@ -6640,6 +7193,7 @@
     "pk": 554,
     "fields": {
       "code": "NEUR250G-02",
+      "dept": "Neuroscience",
       "name": "Tpc: Behav. Neurophysiology",
       "time": "None assigned",
       "date": "None assigned",
@@ -6652,6 +7206,7 @@
     "pk": 555,
     "fields": {
       "code": "NEUR300-01",
+      "dept": "Neuroscience",
       "name": "Capstone Seminar  Neuroscience",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -6664,6 +7219,7 @@
     "pk": 556,
     "fields": {
       "code": "NEUR300-02",
+      "dept": "Neuroscience",
       "name": "Capstone Seminar  Neuroscience",
       "time": "01:30 pm - 02:40 pm",
       "date": "MTh",
@@ -6676,6 +7232,7 @@
     "pk": 557,
     "fields": {
       "code": "NEUR300-03",
+      "dept": "Neuroscience",
       "name": "Capstone Seminar  Neuroscience",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -6688,6 +7245,7 @@
     "pk": 558,
     "fields": {
       "code": "NEUR306-01",
+      "dept": "Neuroscience",
       "name": "Principals Neural Development",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -6700,6 +7258,7 @@
     "pk": 559,
     "fields": {
       "code": "NEUR315-01",
+      "dept": "Neuroscience",
       "name": "Neuroendocrinology w/Lab",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -6712,6 +7271,7 @@
     "pk": 560,
     "fields": {
       "code": "NEUR315-L01",
+      "dept": "Neuroscience",
       "name": "LAB: Neuroendocrinology",
       "time": "12:30 pm - 04:00 pm",
       "date": "T",
@@ -6724,6 +7284,7 @@
     "pk": 561,
     "fields": {
       "code": "NEUR320-01",
+      "dept": "Neuroscience",
       "name": "Vision and Art w/Lab",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -6736,6 +7297,7 @@
     "pk": 562,
     "fields": {
       "code": "NEUR320-L01",
+      "dept": "Neuroscience",
       "name": "LAB: Vision and Art",
       "time": "02:00 pm - 05:30 pm",
       "date": "F",
@@ -6748,6 +7310,7 @@
     "pk": 563,
     "fields": {
       "code": "NEUR332-01",
+      "dept": "Neuroscience",
       "name": "Tpc: Neuropharmacology",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -6760,6 +7323,7 @@
     "pk": 564,
     "fields": {
       "code": "NEUR350G-01",
+      "dept": "Neuroscience",
       "name": "Tpc: Visual Neuroscience",
       "time": "None assigned",
       "date": "None assigned",
@@ -6772,6 +7336,7 @@
     "pk": 565,
     "fields": {
       "code": "NEUR350G-02",
+      "dept": "Neuroscience",
       "name": "Tpc: Behav. Neurophysiology",
       "time": "None assigned",
       "date": "None assigned",
@@ -6784,6 +7349,7 @@
     "pk": 566,
     "fields": {
       "code": "PE100-1",
+      "dept": "Physical Education",
       "name": "Elem. Swimming",
       "time": "1:40-2:40 PM",
       "date": "TF",
@@ -6796,6 +7362,7 @@
     "pk": 567,
     "fields": {
       "code": "PE109-1",
+      "dept": "Physical Education",
       "name": "Take the Leap: Intro to Diving",
       "time": "1:40-2:40 PM",
       "date": "MTh",
@@ -6808,6 +7375,7 @@
     "pk": 568,
     "fields": {
       "code": "PE120-1",
+      "dept": "Physical Education",
       "name": "Ballet I",
       "time": "6:40-7:55 PM",
       "date": "MW",
@@ -6820,6 +7388,7 @@
     "pk": 569,
     "fields": {
       "code": "PE121-1",
+      "dept": "Physical Education",
       "name": "Ballet II",
       "time": "7:55-9:35 PM",
       "date": "M",
@@ -6832,6 +7401,7 @@
     "pk": 570,
     "fields": {
       "code": "PE123-1",
+      "dept": "Physical Education",
       "name": "Modern Jazz",
       "time": "6:30-7:30 PM",
       "date": "TTh",
@@ -6844,6 +7414,7 @@
     "pk": 571,
     "fields": {
       "code": "PE124-1",
+      "dept": "Physical Education",
       "name": "Dance Basics",
       "time": "7:30-8:30 PM",
       "date": "TTh",
@@ -6856,6 +7427,7 @@
     "pk": 572,
     "fields": {
       "code": "PE126-1",
+      "dept": "Physical Education",
       "name": "African Dance",
       "time": "9:50-11:30 AM",
       "date": "W",
@@ -6868,6 +7440,7 @@
     "pk": 573,
     "fields": {
       "code": "PE127-1",
+      "dept": "Physical Education",
       "name": "Classical Indian Dance",
       "time": "4:10-5:50 PM",
       "date": "M",
@@ -6880,6 +7453,7 @@
     "pk": 574,
     "fields": {
       "code": "PE140-1",
+      "dept": "Physical Education",
       "name": "Zumba (FYO)",
       "time": "3:00-4:00 PM",
       "date": "TF",
@@ -6892,6 +7466,7 @@
     "pk": 575,
     "fields": {
       "code": "PE140-2",
+      "dept": "Physical Education",
       "name": "Zumba",
       "time": "6:00-7:00 PM",
       "date": "TTh",
@@ -6904,6 +7479,7 @@
     "pk": 576,
     "fields": {
       "code": "PE141-1",
+      "dept": "Physical Education",
       "name": "Cardiovascular Fitness",
       "time": "8:30-9:30 AM",
       "date": "MTh",
@@ -6916,6 +7492,7 @@
     "pk": 577,
     "fields": {
       "code": "PE141-2",
+      "dept": "Physical Education",
       "name": "Cardiovascular Fitness",
       "time": "9:50-10:50 AM",
       "date": "MTh",
@@ -6928,6 +7505,7 @@
     "pk": 578,
     "fields": {
       "code": "PE141-3",
+      "dept": "Physical Education",
       "name": "Cardiovascular Fitness",
       "time": "9:50-10:50 AM",
       "date": "TF",
@@ -6940,6 +7518,7 @@
     "pk": 579,
     "fields": {
       "code": "PE142-1",
+      "dept": "Physical Education",
       "name": "Pilates (Term 2)",
       "time": "1:40-2:40 PM",
       "date": "MTh",
@@ -6952,6 +7531,7 @@
     "pk": 580,
     "fields": {
       "code": "PE142-1",
+      "dept": "Physical Education",
       "name": "Pilates (FYO)",
       "time": "8:30-9:30 AM",
       "date": "TF",
@@ -6964,6 +7544,7 @@
     "pk": 581,
     "fields": {
       "code": "PE142-2",
+      "dept": "Physical Education",
       "name": "Pilates (Term 2)",
       "time": "3:00-4:00 PM",
       "date": "MTh",
@@ -6976,6 +7557,7 @@
     "pk": 582,
     "fields": {
       "code": "PE142-2",
+      "dept": "Physical Education",
       "name": "Pilates",
       "time": "9:50-10:50 AM",
       "date": "TF",
@@ -6988,6 +7570,7 @@
     "pk": 583,
     "fields": {
       "code": "PE142-3",
+      "dept": "Physical Education",
       "name": "Pilates",
       "time": "7:00-8:00 PM",
       "date": "TTh",
@@ -7000,6 +7583,7 @@
     "pk": 584,
     "fields": {
       "code": "PE144-1",
+      "dept": "Physical Education",
       "name": "Fusion Fitness (FYO)",
       "time": "1:40-2:40 PM",
       "date": "TF",
@@ -7012,6 +7596,7 @@
     "pk": 585,
     "fields": {
       "code": "PE144-2",
+      "dept": "Physical Education",
       "name": "Fusion Fitness (FYO)",
       "time": "3:00-4:00 PM",
       "date": "TF",
@@ -7024,6 +7609,7 @@
     "pk": 586,
     "fields": {
       "code": "PE146-1",
+      "dept": "Physical Education",
       "name": "Strength Training",
       "time": "8:30-9:30 AM",
       "date": "TF",
@@ -7036,6 +7622,7 @@
     "pk": 587,
     "fields": {
       "code": "PE147-1",
+      "dept": "Physical Education",
       "name": "Sports Performance Training",
       "time": "1:40-2:40 PM",
       "date": "MTh",
@@ -7048,6 +7635,7 @@
     "pk": 588,
     "fields": {
       "code": "PE148-1",
+      "dept": "Physical Education",
       "name": "Couch to 5K (FYO)",
       "time": "8:30-9:30 AM",
       "date": "MTh",
@@ -7060,6 +7648,7 @@
     "pk": 589,
     "fields": {
       "code": "PE148-2",
+      "dept": "Physical Education",
       "name": "Couch to 5K",
       "time": "11:10-12:10 PM",
       "date": "MTh",
@@ -7072,6 +7661,7 @@
     "pk": 590,
     "fields": {
       "code": "PE149-1",
+      "dept": "Physical Education",
       "name": "Boot Camp Fitness",
       "time": "9:50-10:50 AM",
       "date": "MTh",
@@ -7084,6 +7674,7 @@
     "pk": 591,
     "fields": {
       "code": "PE150-1",
+      "dept": "Physical Education",
       "name": "Beginning Spinning (FYO)",
       "time": "9:50-10:50 AM",
       "date": "TF",
@@ -7096,6 +7687,7 @@
     "pk": 592,
     "fields": {
       "code": "PE150-2",
+      "dept": "Physical Education",
       "name": "Beginning Spinning",
       "time": "11:10-12:10 PM",
       "date": "TF",
@@ -7108,6 +7700,7 @@
     "pk": 593,
     "fields": {
       "code": "PE150-3",
+      "dept": "Physical Education",
       "name": "Beginning Spinning",
       "time": "8:30-9:30 AM",
       "date": "TF",
@@ -7120,6 +7713,7 @@
     "pk": 594,
     "fields": {
       "code": "PE151-1",
+      "dept": "Physical Education",
       "name": "Advanced Spinning",
       "time": "11:10-12:10 PM",
       "date": "MTh",
@@ -7132,6 +7726,7 @@
     "pk": 595,
     "fields": {
       "code": "PE152-1",
+      "dept": "Physical Education",
       "name": "Intro to Triathlon Training",
       "time": "9:50-10:50 AM",
       "date": "MTh",
@@ -7144,6 +7739,7 @@
     "pk": 596,
     "fields": {
       "code": "PE160-1",
+      "dept": "Physical Education",
       "name": "Self-Defense",
       "time": "8:30-9:30 AM",
       "date": "MTh",
@@ -7156,6 +7752,7 @@
     "pk": 597,
     "fields": {
       "code": "PE160-2",
+      "dept": "Physical Education",
       "name": "Self-Defense",
       "time": "9:50-10:50 AM",
       "date": "MTh",
@@ -7168,6 +7765,7 @@
     "pk": 598,
     "fields": {
       "code": "PE161-1",
+      "dept": "Physical Education",
       "name": "Tai Chi",
       "time": "12:30-1:30 PM",
       "date": "MTh",
@@ -7180,6 +7778,7 @@
     "pk": 599,
     "fields": {
       "code": "PE171-1",
+      "dept": "Physical Education",
       "name": "Badminton",
       "time": "1:40-2:40 PM",
       "date": "MTh",
@@ -7192,6 +7791,7 @@
     "pk": 600,
     "fields": {
       "code": "PE172-1",
+      "dept": "Physical Education",
       "name": "Fencing (Term 1)",
       "time": "11:10-12:10 PM",
       "date": "MTh",
@@ -7204,6 +7804,7 @@
     "pk": 601,
     "fields": {
       "code": "PE172-1",
+      "dept": "Physical Education",
       "name": "Fencing (Term 2)",
       "time": "11:10-12:10 PM",
       "date": "MTh",
@@ -7216,6 +7817,7 @@
     "pk": 602,
     "fields": {
       "code": "PE172-2",
+      "dept": "Physical Education",
       "name": "Fencing (Term 2)",
       "time": "3:00-4:00 PM",
       "date": "MW",
@@ -7228,6 +7830,7 @@
     "pk": 603,
     "fields": {
       "code": "PE173-1",
+      "dept": "Physical Education",
       "name": "Term Golf (Term 1)",
       "time": "1:40-2:40 PM",
       "date": "MTh",
@@ -7240,6 +7843,7 @@
     "pk": 604,
     "fields": {
       "code": "PE173-2",
+      "dept": "Physical Education",
       "name": "Term Golf (Term 1)",
       "time": "3:00-4:00 PM",
       "date": "MTh",
@@ -7252,6 +7856,7 @@
     "pk": 605,
     "fields": {
       "code": "PE177-1",
+      "dept": "Physical Education",
       "name": "Rock Climbing",
       "time": "7:00-9:00 PM",
       "date": "T",
@@ -7264,6 +7869,7 @@
     "pk": 606,
     "fields": {
       "code": "PE180-1",
+      "dept": "Physical Education",
       "name": "Elem. Squash",
       "time": "3:00-4:00 PM",
       "date": "MTh",
@@ -7276,6 +7882,7 @@
     "pk": 607,
     "fields": {
       "code": "PE184-1",
+      "dept": "Physical Education",
       "name": "Volleyball",
       "time": "9:50-10:50 AM",
       "date": "TF",
@@ -7288,6 +7895,7 @@
     "pk": 608,
     "fields": {
       "code": "PE190-1",
+      "dept": "Physical Education",
       "name": "Beginning Yoga (FYO)",
       "time": "1:40-2:40 PM",
       "date": "MTh",
@@ -7300,6 +7908,7 @@
     "pk": 609,
     "fields": {
       "code": "PE190-2",
+      "dept": "Physical Education",
       "name": "Beginning Yoga",
       "time": "6:00-7:00 PM",
       "date": "MW",
@@ -7312,6 +7921,7 @@
     "pk": 610,
     "fields": {
       "code": "PE190-3",
+      "dept": "Physical Education",
       "name": "Beginning Yoga",
       "time": "7:00-8:00 PM",
       "date": "MW",
@@ -7324,6 +7934,7 @@
     "pk": 611,
     "fields": {
       "code": "PE191-1",
+      "dept": "Physical Education",
       "name": "Continuing Yoga",
       "time": "3:00-4:00 PM",
       "date": "MTh",
@@ -7336,6 +7947,7 @@
     "pk": 612,
     "fields": {
       "code": "PEAC104-01",
+      "dept": "Peace and Justice Studies",
       "name": "Intro Peace/Conflict/Justice",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -7348,6 +7960,7 @@
     "pk": 613,
     "fields": {
       "code": "PEAC259-01",
+      "dept": "Peace and Justice Studies",
       "name": "Tpc: Hum. Rights Cult. Lat Am ",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -7360,6 +7973,7 @@
     "pk": 614,
     "fields": {
       "code": "PEAC304-01",
+      "dept": "Peace and Justice Studies",
       "name": "Seminar in P&J Studies",
       "time": "01:30 pm - 04:00 pm",
       "date": "T",
@@ -7372,6 +7986,7 @@
     "pk": 615,
     "fields": {
       "code": "PHIL103-01",
+      "dept": "Philosophy",
       "name": "Self&World:IntroMetaphy&Epist",
       "time": "01:30 pm - 02:40 pm",
       "date": "TF",
@@ -7384,6 +7999,7 @@
     "pk": 616,
     "fields": {
       "code": "PHIL106-01",
+      "dept": "Philosophy",
       "name": "Intro to Moral Philosophy",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -7396,6 +8012,7 @@
     "pk": 617,
     "fields": {
       "code": "PHIL108-01",
+      "dept": "Philosophy",
       "name": "FYS: Friendship",
       "time": "01:30 pm - 04:00 pm",
       "date": "T",
@@ -7408,6 +8025,7 @@
     "pk": 618,
     "fields": {
       "code": "PHIL201-01",
+      "dept": "Philosophy",
       "name": "Intro to Ancient Philosophy",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -7420,6 +8038,7 @@
     "pk": 619,
     "fields": {
       "code": "PHIL203-01",
+      "dept": "Philosophy",
       "name": "Philosophy of Art",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -7432,6 +8051,7 @@
     "pk": 620,
     "fields": {
       "code": "PHIL207-01",
+      "dept": "Philosophy",
       "name": "Philosophy of Language",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -7444,6 +8064,7 @@
     "pk": 621,
     "fields": {
       "code": "PHIL215-01",
+      "dept": "Philosophy",
       "name": "Philosophy of Mind",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -7456,6 +8077,7 @@
     "pk": 622,
     "fields": {
       "code": "PHIL216-01",
+      "dept": "Philosophy",
       "name": "Logic",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -7468,6 +8090,7 @@
     "pk": 623,
     "fields": {
       "code": "PHIL233-01",
+      "dept": "Philosophy",
       "name": "Environmental Ethics",
       "time": "01:30 pm - 02:40 pm",
       "date": "MTh",
@@ -7480,6 +8103,7 @@
     "pk": 624,
     "fields": {
       "code": "PHIL242-01",
+      "dept": "Philosophy",
       "name": "Existentialist Ethics",
       "time": "02:50 pm - 04:00 pm",
       "date": "MTh",
@@ -7492,6 +8116,7 @@
     "pk": 625,
     "fields": {
       "code": "PHIL300-01",
+      "dept": "Philosophy",
       "name": "Sem:Tpc: Early Mod Naturalism",
       "time": "09:50 am - 12:20 pm",
       "date": "W",
@@ -7504,6 +8129,7 @@
     "pk": 626,
     "fields": {
       "code": "PHIL342-01",
+      "dept": "Philosophy",
       "name": "Sem:Tpc: International Ethics",
       "time": "01:30 pm - 04:00 pm",
       "date": "Th",
@@ -7516,6 +8142,7 @@
     "pk": 627,
     "fields": {
       "code": "PHYS100-01",
+      "dept": "Physics",
       "name": "FYS: Einstein & the Dark Univ",
       "time": "12:30 pm - 03:30 pm",
       "date": "T",
@@ -7528,6 +8155,7 @@
     "pk": 628,
     "fields": {
       "code": "PHYS104-01",
+      "dept": "Physics",
       "name": "Fundamentals  Mechanics w/Lab",
       "time": "11:10 am - 12:20 pm",
       "date": "MWTh",
@@ -7540,6 +8168,7 @@
     "pk": 629,
     "fields": {
       "code": "PHYS104-02",
+      "dept": "Physics",
       "name": "Fundamentals  Mechanics w/Lab",
       "time": "08:30 am - 09:40 am",
       "date": "TWF",
@@ -7552,6 +8181,7 @@
     "pk": 630,
     "fields": {
       "code": "PHYS104-L01",
+      "dept": "Physics",
       "name": "LAB: Fundamentals of Mechanics",
       "time": "01:30 pm - 04:30 pm",
       "date": "M",
@@ -7564,6 +8194,7 @@
     "pk": 631,
     "fields": {
       "code": "PHYS104-L02",
+      "dept": "Physics",
       "name": "LAB: Fundamentals of Mechanics",
       "time": "12:30 pm - 03:30 pm",
       "date": "T",
@@ -7576,6 +8207,7 @@
     "pk": 632,
     "fields": {
       "code": "PHYS104-L03",
+      "dept": "Physics",
       "name": "LAB: Fundamentals of Mechanics",
       "time": "02:15 pm - 05:15 pm",
       "date": "W",
@@ -7588,6 +8220,7 @@
     "pk": 633,
     "fields": {
       "code": "PHYS104-L04",
+      "dept": "Physics",
       "name": "LAB: Fundamentals of Mechanics",
       "time": "01:30 pm - 04:30 pm",
       "date": "Th",
@@ -7600,6 +8233,7 @@
     "pk": 634,
     "fields": {
       "code": "PHYS106-01",
+      "dept": "Physics",
       "name": "Fund. Elec,Magn,&Optics w/Lab",
       "time": "09:50 am - 11:00 am,09:50 am - 11:00 am",
       "date": "TF,W",
@@ -7612,6 +8246,7 @@
     "pk": 635,
     "fields": {
       "code": "PHYS106-L01",
+      "dept": "Physics",
       "name": "LAB:PHYS 106 & 108",
       "time": "01:30 pm - 04:30 pm",
       "date": "M",
@@ -7624,6 +8259,7 @@
     "pk": 636,
     "fields": {
       "code": "PHYS106-L02",
+      "dept": "Physics",
       "name": "LAB:PHYS 106 & 108",
       "time": "12:30 pm - 03:30 pm",
       "date": "T",
@@ -7636,6 +8272,7 @@
     "pk": 637,
     "fields": {
       "code": "PHYS106-L03",
+      "dept": "Physics",
       "name": "LAB:PHYS 106 & 108",
       "time": "02:15 pm - 05:15 pm",
       "date": "W",
@@ -7648,6 +8285,7 @@
     "pk": 638,
     "fields": {
       "code": "PHYS106-L04",
+      "dept": "Physics",
       "name": "LAB:PHYS 106 & 108",
       "time": "01:30 pm - 04:30 pm",
       "date": "F",
@@ -7660,6 +8298,7 @@
     "pk": 639,
     "fields": {
       "code": "PHYS107-01",
+      "dept": "Physics",
       "name": "Princip& Applc.Mechanics w/Lab",
       "time": "11:10 am - 12:20 pm,11:10 am - 12:20 pm",
       "date": "MTh,W",
@@ -7672,6 +8311,7 @@
     "pk": 640,
     "fields": {
       "code": "PHYS107-02",
+      "dept": "Physics",
       "name": "Princip& Applc.Mechanics w/Lab",
       "time": "09:50 am - 11:00 am",
       "date": "TWF",
@@ -7684,6 +8324,7 @@
     "pk": 641,
     "fields": {
       "code": "PHYS107-L01",
+      "dept": "Physics",
       "name": "LAB:Princip. & Applc.Mechanics",
       "time": "01:30 pm - 04:30 pm",
       "date": "M",
@@ -7696,6 +8337,7 @@
     "pk": 642,
     "fields": {
       "code": "PHYS107-L02",
+      "dept": "Physics",
       "name": "LAB:Princip. & Applc.Mechanics",
       "time": "12:30 pm - 03:30 pm",
       "date": "T",
@@ -7708,6 +8350,7 @@
     "pk": 643,
     "fields": {
       "code": "PHYS107-L03",
+      "dept": "Physics",
       "name": "LAB:Princip. & Applc.Mechanics",
       "time": "02:15 pm - 05:15 pm",
       "date": "W",
@@ -7720,6 +8363,7 @@
     "pk": 644,
     "fields": {
       "code": "PHYS107-L04",
+      "dept": "Physics",
       "name": "LAB: Princip& Applc.Mechanics",
       "time": "01:30 pm - 04:30 pm",
       "date": "Th",
@@ -7732,6 +8376,7 @@
     "pk": 645,
     "fields": {
       "code": "PHYS108-01",
+      "dept": "Physics",
       "name": " Applc Elec,Magn&Optics w/Lab",
       "time": "09:50 am - 11:00 am",
       "date": "MWTh",
@@ -7744,6 +8389,7 @@
     "pk": 646,
     "fields": {
       "code": "PHYS108-L01",
+      "dept": "Physics",
       "name": "LAB:PHYS 106 & 108",
       "time": "01:30 pm - 04:30 pm",
       "date": "M",
@@ -7756,6 +8402,7 @@
     "pk": 647,
     "fields": {
       "code": "PHYS108-L02",
+      "dept": "Physics",
       "name": "LAB:PHYS 106 & 108",
       "time": "12:30 pm - 03:30 pm",
       "date": "T",
@@ -7768,6 +8415,7 @@
     "pk": 648,
     "fields": {
       "code": "PHYS108-L03",
+      "dept": "Physics",
       "name": "LAB:PHYS 106 & 108",
       "time": "02:15 pm - 05:15 pm",
       "date": "W",
@@ -7780,6 +8428,7 @@
     "pk": 649,
     "fields": {
       "code": "PHYS108-L04",
+      "dept": "Physics",
       "name": "LAB: PHYS 106 & 108",
       "time": "01:30 pm - 04:30 pm",
       "date": "F",
@@ -7792,6 +8441,7 @@
     "pk": 650,
     "fields": {
       "code": "PHYS202-01",
+      "dept": "Physics",
       "name": "Intro Quantum Mechanics w/Lab",
       "time": "11:10 am - 12:20 pm",
       "date": "MWTh",
@@ -7804,6 +8454,7 @@
     "pk": 651,
     "fields": {
       "code": "PHYS202-L01",
+      "dept": "Physics",
       "name": "LAB: Intro Quantum Mechanics",
       "time": "01:30 pm - 04:30 pm",
       "date": "M",
@@ -7816,6 +8467,7 @@
     "pk": 652,
     "fields": {
       "code": "PHYS202-L02",
+      "dept": "Physics",
       "name": "LAB: Intro Quantum Mechanics",
       "time": "01:30 pm - 04:30 pm",
       "date": "Th",
@@ -7828,6 +8480,7 @@
     "pk": 653,
     "fields": {
       "code": "PHYS302-01",
+      "dept": "Physics",
       "name": "Quantum Mechanics",
       "time": "02:50 pm - 04:00 pm,03:35 pm - 04:45 pm",
       "date": "MTh,W",
@@ -7840,6 +8493,7 @@
     "pk": 654,
     "fields": {
       "code": "PHYS314-01",
+      "dept": "Physics",
       "name": "Electromagnetic Theory",
       "time": "01:30 pm - 02:40 pm,02:15 pm - 03:25 pm",
       "date": "MTh,W",
@@ -7852,6 +8506,7 @@
     "pk": 655,
     "fields": {
       "code": "POL103-01",
+      "dept": "Political Science",
       "name": "FYS: Mexico- Rev. Dem & Drugs",
       "time": "02:15 pm - 04:45 pm",
       "date": "W",
@@ -7864,6 +8519,7 @@
     "pk": 656,
     "fields": {
       "code": "POL115-01",
+      "dept": "Political Science",
       "name": "FYS: Politics and Ethics",
       "time": "09:50 am - 12:20 pm",
       "date": "W",
@@ -7876,6 +8532,7 @@
     "pk": 657,
     "fields": {
       "code": "POL230-01",
+      "dept": "Political Science",
       "name": "Politics in Washington D.C",
       "time": "09:50 am - 12:20 pm",
       "date": "W",
@@ -7888,6 +8545,7 @@
     "pk": 658,
     "fields": {
       "code": "POL299-01",
+      "dept": "Political Science",
       "name": "Intro Research Meth in PolSci",
       "time": "01:30 pm - 04:00 pm",
       "date": "MTh",
@@ -7900,6 +8558,7 @@
     "pk": 659,
     "fields": {
       "code": "POL1200-01",
+      "dept": "Political Science",
       "name": "American Politics",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -7912,6 +8571,7 @@
     "pk": 660,
     "fields": {
       "code": "POL1200-02",
+      "dept": "Political Science",
       "name": "American Politics",
       "time": "08:30 am - 09:40 am",
       "date": "TF",
@@ -7924,6 +8584,7 @@
     "pk": 661,
     "fields": {
       "code": "POL1235-01",
+      "dept": "Political Science",
       "name": "Courts and Public Policy",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -7936,6 +8597,7 @@
     "pk": 662,
     "fields": {
       "code": "POL1300-01",
+      "dept": "Political Science",
       "name": "Public Policymaking",
       "time": "01:30 pm - 04:00 pm",
       "date": "M",
@@ -7948,6 +8610,7 @@
     "pk": 663,
     "fields": {
       "code": "POL1319-01",
+      "dept": "Political Science",
       "name": "CSPW: Campaigns and Elections",
       "time": "02:15 pm - 04:45 pm",
       "date": "W",
@@ -7960,6 +8623,7 @@
     "pk": 664,
     "fields": {
       "code": "POL1324-01",
+      "dept": "Political Science",
       "name": "Sem: Gender and Law",
       "time": "01:30 pm - 04:00 pm",
       "date": "T",
@@ -7972,6 +8636,7 @@
     "pk": 665,
     "fields": {
       "code": "POL1381-01",
+      "dept": "Political Science",
       "name": "U.S. Environmental Politics",
       "time": "09:50 am - 11:00 am,09:50 am - 11:00 am",
       "date": "TF,W2",
@@ -7984,6 +8649,7 @@
     "pk": 666,
     "fields": {
       "code": "POL2204-01",
+      "dept": "Political Science",
       "name": "Pol Econ of Dev & Underdev",
       "time": "01:30 pm - 02:40 pm",
       "date": "TF",
@@ -7996,6 +8662,7 @@
     "pk": 667,
     "fields": {
       "code": "POL2205-01",
+      "dept": "Political Science",
       "name": "Politics Europe & Euro Union",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -8008,6 +8675,7 @@
     "pk": 668,
     "fields": {
       "code": "POL2208-01",
+      "dept": "Political Science",
       "name": "Politics of China",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -8020,6 +8688,7 @@
     "pk": 669,
     "fields": {
       "code": "POL2214-01",
+      "dept": "Political Science",
       "name": "Soc Cause & Conseq Env Probs",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -8032,6 +8701,7 @@
     "pk": 670,
     "fields": {
       "code": "POL2307-01",
+      "dept": "Political Science",
       "name": "Women & Development",
       "time": "01:30 pm - 04:00 pm",
       "date": "T",
@@ -8044,6 +8714,7 @@
     "pk": 671,
     "fields": {
       "code": "POL2310-01",
+      "dept": "Political Science",
       "name": "Sem: PoliticsofCommunity Devel",
       "time": "01:30 pm - 04:00 pm",
       "date": "F",
@@ -8056,6 +8727,7 @@
     "pk": 672,
     "fields": {
       "code": "POL2336-01",
+      "dept": "Political Science",
       "name": "Transitional Justice",
       "time": "01:30 pm - 04:00 pm",
       "date": "M",
@@ -8068,6 +8740,7 @@
     "pk": 673,
     "fields": {
       "code": "POL3121-01",
+      "dept": "Political Science",
       "name": "After 9/11",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -8080,6 +8753,7 @@
     "pk": 674,
     "fields": {
       "code": "POL3221-01",
+      "dept": "Political Science",
       "name": "World Politics",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -8092,6 +8766,7 @@
     "pk": 675,
     "fields": {
       "code": "POL3221-02",
+      "dept": "Political Science",
       "name": "World Politics",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -8104,6 +8779,7 @@
     "pk": 676,
     "fields": {
       "code": "POL3224-01",
+      "dept": "Political Science",
       "name": "International Security",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -8116,6 +8792,7 @@
     "pk": 677,
     "fields": {
       "code": "POL3239-01",
+      "dept": "Political Science",
       "name": "Africa in the World",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -8128,6 +8805,7 @@
     "pk": 678,
     "fields": {
       "code": "POL3352-01",
+      "dept": "Political Science",
       "name": "Sem: Small Wars & Insurgencies",
       "time": "01:30 pm - 04:00 pm",
       "date": "Th",
@@ -8140,6 +8818,7 @@
     "pk": 679,
     "fields": {
       "code": "POL4201-01",
+      "dept": "Political Science",
       "name": "Intro. to Political Theory",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -8152,6 +8831,7 @@
     "pk": 680,
     "fields": {
       "code": "POL4248-01",
+      "dept": "Political Science",
       "name": "Power and Politics",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -8164,6 +8844,7 @@
     "pk": 681,
     "fields": {
       "code": "POL4249-01",
+      "dept": "Political Science",
       "name": "Politics Right, Left, Center",
       "time": "02:50 pm - 04:00 pm",
       "date": "MTh",
@@ -8176,6 +8857,7 @@
     "pk": 682,
     "fields": {
       "code": "POL4343-01",
+      "dept": "Political Science",
       "name": "Sem: Democracy & Difference",
       "time": "09:50 am - 12:20 pm",
       "date": "W",
@@ -8188,6 +8870,7 @@
     "pk": 683,
     "fields": {
       "code": "PORT103-01",
+      "dept": "Spanish",
       "name": "Intensive Element. Portuguese",
       "time": "11:10 am - 12:20 pm,12:30 pm - 12:50 pm",
       "date": "MTWTh,Th",
@@ -8200,6 +8883,7 @@
     "pk": 684,
     "fields": {
       "code": "PSYC101-01",
+      "dept": "Psychology",
       "name": "Intro to Psychology",
       "time": "08:30 am - 09:40 am",
       "date": "TF",
@@ -8212,6 +8896,7 @@
     "pk": 685,
     "fields": {
       "code": "PSYC101-02",
+      "dept": "Psychology",
       "name": "Intro to Psychology",
       "time": "01:30 pm - 02:40 pm",
       "date": "TF",
@@ -8224,6 +8909,7 @@
     "pk": 686,
     "fields": {
       "code": "PSYC101-03",
+      "dept": "Psychology",
       "name": "Intro to Psychology",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -8236,6 +8922,7 @@
     "pk": 687,
     "fields": {
       "code": "PSYC101-04",
+      "dept": "Psychology",
       "name": "Intro to Psychology",
       "time": "01:30 pm - 02:40 pm",
       "date": "MTh",
@@ -8248,6 +8935,7 @@
     "pk": 688,
     "fields": {
       "code": "PSYC101-05",
+      "dept": "Psychology",
       "name": "Intro to Psychology",
       "time": "08:30 am - 09:40 am",
       "date": "MTh",
@@ -8260,6 +8948,7 @@
     "pk": 689,
     "fields": {
       "code": "PSYC101-06",
+      "dept": "Psychology",
       "name": "Intro to Psychology",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -8272,6 +8961,7 @@
     "pk": 690,
     "fields": {
       "code": "PSYC205-01",
+      "dept": "Psychology",
       "name": "Statistics w/Lab",
       "time": "08:30 am - 09:40 am",
       "date": "MTh",
@@ -8284,6 +8974,7 @@
     "pk": 691,
     "fields": {
       "code": "PSYC205-02",
+      "dept": "Psychology",
       "name": "Statistics w/Lab",
       "time": "01:30 pm - 02:40 pm",
       "date": "MTh",
@@ -8296,6 +8987,7 @@
     "pk": 692,
     "fields": {
       "code": "PSYC205-03",
+      "dept": "Psychology",
       "name": "Statistics with Lab",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -8308,6 +9000,7 @@
     "pk": 693,
     "fields": {
       "code": "PSYC205-1LA",
+      "dept": "Psychology",
       "name": "LAB: Statistics",
       "time": "09:50 am - 11:00 am",
       "date": "M",
@@ -8320,6 +9013,7 @@
     "pk": 694,
     "fields": {
       "code": "PSYC205-1LB",
+      "dept": "Psychology",
       "name": "LAB: Statistics",
       "time": "09:50 am - 11:00 am",
       "date": "Th",
@@ -8332,6 +9026,7 @@
     "pk": 695,
     "fields": {
       "code": "PSYC205-2LA",
+      "dept": "Psychology",
       "name": "LAB: Statistics",
       "time": "02:15 pm - 03:25 pm",
       "date": "W",
@@ -8344,6 +9039,7 @@
     "pk": 696,
     "fields": {
       "code": "PSYC205-2LB",
+      "dept": "Psychology",
       "name": "LAB: Statistics",
       "time": "03:35 pm - 04:45 pm",
       "date": "W",
@@ -8356,6 +9052,7 @@
     "pk": 697,
     "fields": {
       "code": "PSYC205-3LA",
+      "dept": "Psychology",
       "name": "Statistics with Lab",
       "time": "01:30 pm - 02:40 pm",
       "date": "M",
@@ -8368,6 +9065,7 @@
     "pk": 698,
     "fields": {
       "code": "PSYC205-3LB",
+      "dept": "Psychology",
       "name": "Statistics with Lab",
       "time": "01:30 pm - 02:40 pm",
       "date": "Th",
@@ -8380,6 +9078,7 @@
     "pk": 699,
     "fields": {
       "code": "PSYC207-01",
+      "dept": "Psychology",
       "name": "Developmental Psychology",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -8392,6 +9091,7 @@
     "pk": 700,
     "fields": {
       "code": "PSYC210-01",
+      "dept": "Psychology",
       "name": "Social Psychology",
       "time": "02:50 pm - 04:00 pm",
       "date": "TF",
@@ -8404,6 +9104,7 @@
     "pk": 701,
     "fields": {
       "code": "PSYC212-01",
+      "dept": "Psychology",
       "name": "Personality",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -8416,6 +9117,7 @@
     "pk": 702,
     "fields": {
       "code": "PSYC213-01",
+      "dept": "Psychology",
       "name": "Abnormal Psychology",
       "time": "02:50 pm - 04:00 pm",
       "date": "MTh",
@@ -8428,6 +9130,7 @@
     "pk": 703,
     "fields": {
       "code": "PSYC214-01",
+      "dept": "Psychology",
       "name": "Evolution and Human Behavior",
       "time": "08:30 am - 09:40 am",
       "date": "TF",
@@ -8440,6 +9143,7 @@
     "pk": 704,
     "fields": {
       "code": "PSYC217-01",
+      "dept": "Psychology",
       "name": "Cognition",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -8452,6 +9156,7 @@
     "pk": 705,
     "fields": {
       "code": "PSYC219-01",
+      "dept": "Psychology",
       "name": "Biological  Psychology",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -8464,6 +9169,7 @@
     "pk": 706,
     "fields": {
       "code": "PSYC222-01",
+      "dept": "Psychology",
       "name": "Asian American Psychology",
       "time": "02:50 pm - 04:00 pm",
       "date": "TF",
@@ -8476,6 +9182,7 @@
     "pk": 707,
     "fields": {
       "code": "PSYC301-01",
+      "dept": "Psychology",
       "name": "Sem: Cooperation & Competition",
       "time": "02:15 pm - 04:45 pm",
       "date": "W",
@@ -8488,6 +9195,7 @@
     "pk": 708,
     "fields": {
       "code": "PSYC307R-01",
+      "dept": "Psychology",
       "name": "Res Meths in Develop Psych",
       "time": "08:30 am - 11:00 am",
       "date": "TF",
@@ -8500,6 +9208,7 @@
     "pk": 709,
     "fields": {
       "code": "PSYC312R-01",
+      "dept": "Psychology",
       "name": "Res Meth Personality Psyc",
       "time": "01:30 pm - 04:00 pm",
       "date": "MTh",
@@ -8512,6 +9221,7 @@
     "pk": 710,
     "fields": {
       "code": "PSYC313R-01",
+      "dept": "Psychology",
       "name": "Res Meths in Abnormal Psych",
       "time": "09:50 am - 12:20 pm",
       "date": "MTh",
@@ -8524,6 +9234,7 @@
     "pk": 711,
     "fields": {
       "code": "PSYC318-01",
+      "dept": "Psychology",
       "name": "Sem: Psychopharmacology",
       "time": "01:30 pm - 04:00 pm",
       "date": "M",
@@ -8536,6 +9247,7 @@
     "pk": 712,
     "fields": {
       "code": "PSYC328-01",
+      "dept": "Psychology",
       "name": "Sem: Genes,Brains & Human Vari",
       "time": "01:30 pm - 04:00 pm",
       "date": "F",
@@ -8548,6 +9260,7 @@
     "pk": 713,
     "fields": {
       "code": "PSYC334-01",
+      "dept": "Psychology",
       "name": "Sem: Psychology of Creativity",
       "time": "09:50 am - 12:20 pm",
       "date": "T",
@@ -8560,6 +9273,7 @@
     "pk": 714,
     "fields": {
       "code": "PSYC339-01",
+      "dept": "Psychology",
       "name": "Sem: Narrative Identity",
       "time": "01:30 pm - 04:00 pm",
       "date": "T",
@@ -8572,6 +9286,7 @@
     "pk": 715,
     "fields": {
       "code": "PSYC340-01",
+      "dept": "Psychology",
       "name": "Organizational Psychology",
       "time": "04:10 pm - 05:20 pm",
       "date": "MTh",
@@ -8584,6 +9299,7 @@
     "pk": 716,
     "fields": {
       "code": "PSYC345-01",
+      "dept": "Psychology",
       "name": "Sem:Tpc: Mindreading",
       "time": "01:30 pm - 04:00 pm",
       "date": "T",
@@ -8596,6 +9312,7 @@
     "pk": 717,
     "fields": {
       "code": "PSYC349-01",
+      "dept": "Psychology",
       "name": "Sem: Nonverbal Communication",
       "time": "06:15 pm - 08:45 pm",
       "date": "Th",
@@ -8608,6 +9325,7 @@
     "pk": 718,
     "fields": {
       "code": "QR140-01",
+      "dept": "Quantitative Reasoning",
       "name": "Intro Quantitative Reasoning",
       "time": "08:30 am - 09:40 am,08:30 am - 09:40 am",
       "date": "TF,W",
@@ -8620,6 +9338,7 @@
     "pk": 719,
     "fields": {
       "code": "QR140-02",
+      "dept": "Quantitative Reasoning",
       "name": "Intro Quantitative Reasoning",
       "time": "09:50 am - 11:00 am,09:50 am - 11:00 am",
       "date": "TF,W",
@@ -8632,6 +9351,7 @@
     "pk": 720,
     "fields": {
       "code": "QR140-03",
+      "dept": "Quantitative Reasoning",
       "name": "Intro Quantitative Reasoning",
       "time": "11:10 am - 12:20 pm,11:10 am - 12:20 pm",
       "date": "MW,Th",
@@ -8644,6 +9364,7 @@
     "pk": 721,
     "fields": {
       "code": "REL108-01",
+      "dept": "Religion",
       "name": "Intro to Asian Religions",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -8656,6 +9377,7 @@
     "pk": 722,
     "fields": {
       "code": "REL226-01",
+      "dept": "Religion",
       "name": "The Virgin Mary",
       "time": "02:50 pm - 04:00 pm",
       "date": "MTh",
@@ -8668,6 +9390,7 @@
     "pk": 723,
     "fields": {
       "code": "REL232-01",
+      "dept": "Religion",
       "name": "Popular Culture and Religion",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -8680,6 +9403,7 @@
     "pk": 724,
     "fields": {
       "code": "REL240-01",
+      "dept": "Religion",
       "name": "Romans, Jews,  and Christians",
       "time": "02:15 pm - 04:45 pm",
       "date": "W",
@@ -8692,6 +9416,7 @@
     "pk": 725,
     "fields": {
       "code": "REL252-01",
+      "dept": "Religion",
       "name": "Women and Religion in South As",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -8704,6 +9429,7 @@
     "pk": 726,
     "fields": {
       "code": "REL254-01",
+      "dept": "Religion",
       "name": "Chinese Thought and Religion",
       "time": "01:30 pm - 02:40 pm",
       "date": "MTh",
@@ -8716,6 +9442,7 @@
     "pk": 727,
     "fields": {
       "code": "REL261-01",
+      "dept": "Religion",
       "name": "Cities of the Islamic World",
       "time": "01:30 pm - 02:40 pm",
       "date": "TF",
@@ -8728,6 +9455,7 @@
     "pk": 728,
     "fields": {
       "code": "REL267-01",
+      "dept": "Religion",
       "name": "Muslim Ethics",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -8740,6 +9468,7 @@
     "pk": 729,
     "fields": {
       "code": "REL323-01",
+      "dept": "Religion",
       "name": "Seminar: Feminist Theologies",
       "time": "09:50 am - 12:20 pm",
       "date": "W",
@@ -8752,6 +9481,7 @@
     "pk": 730,
     "fields": {
       "code": "RUSS101-01",
+      "dept": "Russian",
       "name": "Elementary Russian I",
       "time": "08:30 am - 09:40 am,12:30 pm - 01:20 pm",
       "date": "TWF,F",
@@ -8764,6 +9494,7 @@
     "pk": 731,
     "fields": {
       "code": "RUSS201-01",
+      "dept": "Russian",
       "name": "Intermediate Russian I",
       "time": "11:10 am - 01:20 pm,11:10 am - 12:20 pm",
       "date": "TF,W",
@@ -8776,6 +9507,7 @@
     "pk": 732,
     "fields": {
       "code": "RUSS251-01",
+      "dept": "Russian",
       "name": "Russ Lit in Trans:  19th C.",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -8788,6 +9520,7 @@
     "pk": 733,
     "fields": {
       "code": "RUSS286-01",
+      "dept": "Russian",
       "name": "Vladimir Nabokov (in Eng)",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -8800,6 +9533,7 @@
     "pk": 734,
     "fields": {
       "code": "RUSS301-01",
+      "dept": "Russian",
       "name": "Tpc: Moscow",
       "time": "01:30 pm - 02:40 pm,02:15 pm - 03:25 pm",
       "date": "TF,W",
@@ -8812,6 +9546,7 @@
     "pk": 735,
     "fields": {
       "code": "RUSS386-01",
+      "dept": "Russian",
       "name": "Vladimir Nabokov (in Russ)",
       "time": "09:50 am - 11:00 am",
       "date": "W",
@@ -8824,6 +9559,7 @@
     "pk": 736,
     "fields": {
       "code": "SAS252-01",
+      "dept": "South Asia Studies",
       "name": "Women and Religion in South As",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -8836,6 +9572,7 @@
     "pk": 737,
     "fields": {
       "code": "SOC108-01",
+      "dept": "Sociology",
       "name": "Think'g Global:Intro Sociology",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -8848,6 +9585,7 @@
     "pk": 738,
     "fields": {
       "code": "SOC114-01",
+      "dept": "Sociology",
       "name": "FYS: Want to Be a Doctor?",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -8860,6 +9598,7 @@
     "pk": 739,
     "fields": {
       "code": "SOC137-01",
+      "dept": "Sociology",
       "name": "FYS: Reading Sociology",
       "time": "08:30 am - 09:40 am",
       "date": "MTh",
@@ -8872,6 +9611,7 @@
     "pk": 740,
     "fields": {
       "code": "SOC138-01",
+      "dept": "Sociology",
       "name": "Soc Constr Deviance: Intro Soc",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -8884,6 +9624,7 @@
     "pk": 741,
     "fields": {
       "code": "SOC190-01",
+      "dept": "Sociology",
       "name": "Intro Prob&Stat Methods w/Lab",
       "time": "08:30 am - 09:40 am,08:30 am - 09:40 am",
       "date": "MTh,W1",
@@ -8896,6 +9637,7 @@
     "pk": 742,
     "fields": {
       "code": "SOC190-02",
+      "dept": "Sociology",
       "name": "Intro Prob&Stat Methods w/Lab",
       "time": "11:10 am - 12:20 pm,11:10 am - 12:20 pm",
       "date": "MTh,W1",
@@ -8908,6 +9650,7 @@
     "pk": 743,
     "fields": {
       "code": "SOC190-03",
+      "dept": "Sociology",
       "name": "Intro Prob&Stat Methods w/Lab",
       "time": "02:50 pm - 04:00 pm,03:35 pm - 04:45 pm",
       "date": "MTh,W1",
@@ -8920,6 +9663,7 @@
     "pk": 744,
     "fields": {
       "code": "SOC190-1LA",
+      "dept": "Sociology",
       "name": "LAB: Prob&Statistical Methods",
       "time": "09:50 am - 11:00 am",
       "date": "W",
@@ -8932,6 +9676,7 @@
     "pk": 745,
     "fields": {
       "code": "SOC190-1LB",
+      "dept": "Sociology",
       "name": "LAB: Prob&Statistical Methods",
       "time": "11:10 am - 12:20 pm",
       "date": "W",
@@ -8944,6 +9689,7 @@
     "pk": 746,
     "fields": {
       "code": "SOC190-2LA",
+      "dept": "Sociology",
       "name": "LAB: Prob&Statistical Methods",
       "time": "09:50 am - 11:00 am",
       "date": "T",
@@ -8956,6 +9702,7 @@
     "pk": 747,
     "fields": {
       "code": "SOC190-2LB",
+      "dept": "Sociology",
       "name": "LAB: Prob&Statistical Methods",
       "time": "11:10 am - 12:20 pm",
       "date": "T",
@@ -8968,6 +9715,7 @@
     "pk": 748,
     "fields": {
       "code": "SOC190-3LA",
+      "dept": "Sociology",
       "name": "LAB: Intro Prob&Stat Method",
       "time": "01:30 pm - 02:40 pm",
       "date": "T",
@@ -8980,6 +9728,7 @@
     "pk": 749,
     "fields": {
       "code": "SOC190-3LB",
+      "dept": "Sociology",
       "name": "LAB: Intro Prob&Stat Method",
       "time": "02:50 pm - 04:00 pm",
       "date": "T",
@@ -8992,6 +9741,7 @@
     "pk": 750,
     "fields": {
       "code": "SOC200-01",
+      "dept": "Sociology",
       "name": "Classical Social Theory",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -9004,6 +9754,7 @@
     "pk": 751,
     "fields": {
       "code": "SOC204-01",
+      "dept": "Sociology",
       "name": "Social Problems",
       "time": "02:15 pm - 04:45 pm",
       "date": "W",
@@ -9016,6 +9767,7 @@
     "pk": 752,
     "fields": {
       "code": "SOC246-01",
+      "dept": "Sociology",
       "name": "U.S. Immigration ",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -9028,6 +9780,7 @@
     "pk": 753,
     "fields": {
       "code": "SOC289-01",
+      "dept": "Sociology",
       "name": "Tiananmen Movement in China",
       "time": "09:50 am - 12:20 pm",
       "date": "W",
@@ -9040,6 +9793,7 @@
     "pk": 754,
     "fields": {
       "code": "SOC304-01",
+      "dept": "Sociology",
       "name": "Sem: Modernity & Social Change",
       "time": "06:30 pm - 09:00 pm",
       "date": "M",
@@ -9052,6 +9806,7 @@
     "pk": 755,
     "fields": {
       "code": "SOC307-01",
+      "dept": "Sociology",
       "name": "Learning by Giving",
       "time": "01:30 pm - 02:40 pm",
       "date": "TF",
@@ -9064,6 +9819,7 @@
     "pk": 756,
     "fields": {
       "code": "SOC308-01",
+      "dept": "Sociology",
       "name": "Children in Society",
       "time": "01:30 pm - 04:00 pm",
       "date": "M",
@@ -9076,6 +9832,7 @@
     "pk": 757,
     "fields": {
       "code": "SOC314-01",
+      "dept": "Sociology",
       "name": "Med Sociol & Soc Epidemiology",
       "time": "01:30 pm - 04:00 pm",
       "date": "T",
@@ -9088,6 +9845,7 @@
     "pk": 758,
     "fields": {
       "code": "SPAN101-01",
+      "dept": "Spanish",
       "name": "Elementary Spanish I",
       "time": "08:30 am - 09:40 am",
       "date": "TWF",
@@ -9100,6 +9858,7 @@
     "pk": 759,
     "fields": {
       "code": "SPAN101-02",
+      "dept": "Spanish",
       "name": "Elementary Spanish I",
       "time": "01:30 pm - 02:40 pm,02:15 pm - 03:25 pm",
       "date": "TF,W",
@@ -9112,6 +9871,7 @@
     "pk": 760,
     "fields": {
       "code": "SPAN110-01",
+      "dept": "Spanish",
       "name": "FYS:Span for Heritage Speakers",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -9124,6 +9884,7 @@
     "pk": 761,
     "fields": {
       "code": "SPAN201-01",
+      "dept": "Spanish",
       "name": "Intermediate Spanish I",
       "time": "08:30 am - 09:40 am",
       "date": "MWTh",
@@ -9136,6 +9897,7 @@
     "pk": 762,
     "fields": {
       "code": "SPAN201-02",
+      "dept": "Spanish",
       "name": "Intermediate Spanish I",
       "time": "09:50 am - 11:00 am",
       "date": "TWF",
@@ -9148,6 +9910,7 @@
     "pk": 763,
     "fields": {
       "code": "SPAN201-03",
+      "dept": "Spanish",
       "name": "Intermediate Spanish I",
       "time": "11:10 am - 12:20 pm",
       "date": "TWF",
@@ -9160,6 +9923,7 @@
     "pk": 764,
     "fields": {
       "code": "SPAN201-04",
+      "dept": "Spanish",
       "name": "Intermediate Spanish I",
       "time": "09:50 am - 11:00 am",
       "date": "MWTh",
@@ -9172,6 +9936,7 @@
     "pk": 765,
     "fields": {
       "code": "SPAN201-05",
+      "dept": "Spanish",
       "name": "Intermediate Spanish I",
       "time": "11:10 am - 12:20 pm",
       "date": "MWTh",
@@ -9184,6 +9949,7 @@
     "pk": 766,
     "fields": {
       "code": "SPAN201-06",
+      "dept": "Spanish",
       "name": "Intermediate Spanish I",
       "time": "01:30 pm - 02:40 pm,02:15 pm - 03:25 pm",
       "date": "MTh,W",
@@ -9196,6 +9962,7 @@
     "pk": 767,
     "fields": {
       "code": "SPAN241-01",
+      "dept": "Spanish",
       "name": "Intro to Hispanic Studies",
       "time": "08:30 am - 09:40 am",
       "date": "MTh",
@@ -9208,6 +9975,7 @@
     "pk": 768,
     "fields": {
       "code": "SPAN241-02",
+      "dept": "Spanish",
       "name": "Intro to Hispanic Studies",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -9220,6 +9988,7 @@
     "pk": 769,
     "fields": {
       "code": "SPAN241-03",
+      "dept": "Spanish",
       "name": "Intro to Hispanic Studies",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -9232,6 +10001,7 @@
     "pk": 770,
     "fields": {
       "code": "SPAN242-01",
+      "dept": "Spanish",
       "name": "Literary Genres Spain&Latin Am",
       "time": "02:50 pm - 04:00 pm",
       "date": "TF",
@@ -9244,6 +10014,7 @@
     "pk": 771,
     "fields": {
       "code": "SPAN245-01",
+      "dept": "Spanish",
       "name": "Inventing the Americas",
       "time": "01:30 pm - 02:40 pm",
       "date": "TF",
@@ -9256,6 +10027,7 @@
     "pk": 772,
     "fields": {
       "code": "SPAN260-01",
+      "dept": "Spanish",
       "name": "Women, Gender, Love 21C Spain",
       "time": "01:30 pm - 02:40 pm",
       "date": "MTh",
@@ -9268,6 +10040,7 @@
     "pk": 773,
     "fields": {
       "code": "SPAN261-01",
+      "dept": "Spanish",
       "name": "Tpc: Hum. Rights Cult. Lat Am",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -9280,6 +10053,7 @@
     "pk": 774,
     "fields": {
       "code": "SPAN272-01",
+      "dept": "Spanish",
       "name": "Cultures of Spain",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -9292,6 +10066,7 @@
     "pk": 775,
     "fields": {
       "code": "SPAN300-01",
+      "dept": "Spanish",
       "name": "Hnr,Monarchy,Rel Gldn Age Dram",
       "time": "02:50 pm - 05:20 pm",
       "date": "M",
@@ -9304,6 +10079,7 @@
     "pk": 776,
     "fields": {
       "code": "SPAN323-01",
+      "dept": "Spanish",
       "name": "Sem: Modern Mexico",
       "time": "02:50 pm - 05:20 pm",
       "date": "Th",
@@ -9316,6 +10092,7 @@
     "pk": 777,
     "fields": {
       "code": "SPAN335-01",
+      "dept": "Spanish",
       "name": "Asia in Latin America",
       "time": "06:00 pm - 08:30 pm",
       "date": "W",
@@ -9328,6 +10105,7 @@
     "pk": 778,
     "fields": {
       "code": "SWA101-01",
+      "dept": "Africana Studies",
       "name": "Elementary Swahili",
       "time": "08:30 am - 09:40 am",
       "date": "MWTh",
@@ -9340,6 +10118,7 @@
     "pk": 779,
     "fields": {
       "code": "SWA201-01",
+      "dept": "Africana Studies",
       "name": "Intermediate Swahili I",
       "time": "09:50 am - 11:00 am",
       "date": "MWTh",
@@ -9352,6 +10131,7 @@
     "pk": 780,
     "fields": {
       "code": "THST130-01",
+      "dept": "Theatre Studies",
       "name": "Japanese Animation (in Eng)",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -9364,6 +10144,7 @@
     "pk": 781,
     "fields": {
       "code": "THST203-01",
+      "dept": "Theatre Studies",
       "name": "Plays, Production, Performance",
       "time": "02:50 pm - 04:00 pm",
       "date": "MTh",
@@ -9376,6 +10157,7 @@
     "pk": 782,
     "fields": {
       "code": "THST204-01",
+      "dept": "Theatre Studies",
       "name": "Introduction to Acting",
       "time": "01:30 pm - 04:00 pm",
       "date": "M",
@@ -9388,6 +10170,7 @@
     "pk": 783,
     "fields": {
       "code": "THST207-01",
+      "dept": "Theatre Studies",
       "name": "Stagecraft for Performance",
       "time": "09:50 am - 12:20 pm",
       "date": "Th",
@@ -9400,6 +10183,7 @@
     "pk": 784,
     "fields": {
       "code": "THST209-01",
+      "dept": "Theatre Studies",
       "name": "Intro to Art of Scenic Design",
       "time": "01:30 pm - 04:00 pm",
       "date": "T",
@@ -9412,6 +10196,7 @@
     "pk": 785,
     "fields": {
       "code": "THST210-01",
+      "dept": "Theatre Studies",
       "name": "Echoes of the Homeland",
       "time": "02:15 pm - 04:45 pm",
       "date": "W",
@@ -9424,6 +10209,7 @@
     "pk": 786,
     "fields": {
       "code": "THST212-01",
+      "dept": "Theatre Studies",
       "name": "Women, Center Stage",
       "time": "09:50 am - 12:20 pm",
       "date": "T",
@@ -9436,6 +10222,7 @@
     "pk": 787,
     "fields": {
       "code": "THST221-01",
+      "dept": "Theatre Studies",
       "name": "The Art of Playwriting",
       "time": "09:50 am - 12:20 pm",
       "date": "W",
@@ -9448,6 +10235,7 @@
     "pk": 788,
     "fields": {
       "code": "THST251-01",
+      "dept": "Theatre Studies",
       "name": "Jpn Writers&Their Worlds(Eng)",
       "time": "02:50 pm - 04:00 pm",
       "date": "TF",
@@ -9460,6 +10248,7 @@
     "pk": 789,
     "fields": {
       "code": "THST305-01",
+      "dept": "Theatre Studies",
       "name": "Advanced Scene Study",
       "time": "09:50 am - 12:20 pm",
       "date": "M",
@@ -9472,6 +10261,7 @@
     "pk": 790,
     "fields": {
       "code": "THST321-01",
+      "dept": "Theatre Studies",
       "name": "The Art of Playwriting",
       "time": "09:50 am - 12:20 pm",
       "date": "W",
@@ -9484,6 +10274,7 @@
     "pk": 791,
     "fields": {
       "code": "THST355-01",
+      "dept": "Theatre Studies",
       "name": "JpnWriters&Their Worlds ",
       "time": "02:50 pm - 04:00 pm,03:35 pm - 04:45 pm",
       "date": "TF,W",
@@ -9496,6 +10287,7 @@
     "pk": 792,
     "fields": {
       "code": "WGST100-01",
+      "dept": "Women and Gender Studies",
       "name": "FYS:The BodyFrom Rep ToFashion",
       "time": "01:30 pm - 04:00 pm",
       "date": "M",
@@ -9508,6 +10300,7 @@
     "pk": 793,
     "fields": {
       "code": "WGST120-01",
+      "dept": "Women and Gender Studies",
       "name": "Intro to Women's & Gender Stud",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -9520,6 +10313,7 @@
     "pk": 794,
     "fields": {
       "code": "WGST120-02",
+      "dept": "Women and Gender Studies",
       "name": "Intro to Women's & Gender Stud",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -9532,6 +10326,7 @@
     "pk": 795,
     "fields": {
       "code": "WGST150-01",
+      "dept": "Women and Gender Studies",
       "name": "Health and Society",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -9544,6 +10339,7 @@
     "pk": 796,
     "fields": {
       "code": "WGST200-01",
+      "dept": "Women and Gender Studies",
       "name": "Intro. to Reproductive Issues",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -9556,6 +10352,7 @@
     "pk": 797,
     "fields": {
       "code": "WGST220-01",
+      "dept": "Women and Gender Studies",
       "name": "AmHealthCareHst-Gndr,Race,Cls",
       "time": "02:15 pm - 04:45 pm",
       "date": "W",
@@ -9568,6 +10365,7 @@
     "pk": 798,
     "fields": {
       "code": "WGST223-01",
+      "dept": "Women and Gender Studies",
       "name": "Gendering the Bronze Screen",
       "time": "01:30 pm - 04:00 pm",
       "date": "T",
@@ -9580,6 +10378,7 @@
     "pk": 799,
     "fields": {
       "code": "WGST235-01",
+      "dept": "Women and Gender Studies",
       "name": "Politics of Sexuality",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -9592,6 +10391,7 @@
     "pk": 800,
     "fields": {
       "code": "WGST249-01",
+      "dept": "Women and Gender Studies",
       "name": "Asian Amer Women in Film",
       "time": "01:30 pm - 04:00 pm",
       "date": "Th",
@@ -9604,6 +10404,7 @@
     "pk": 801,
     "fields": {
       "code": "WGST299-01",
+      "dept": "Women and Gender Studies",
       "name": "Sexuality in Muslim&Arab World",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -9616,6 +10417,7 @@
     "pk": 802,
     "fields": {
       "code": "WGST305-01",
+      "dept": "Women and Gender Studies",
       "name": "Sem:Rep of Women,Natives&Othrs",
       "time": "02:15 pm - 04:45 pm",
       "date": "W",
@@ -9628,6 +10430,7 @@
     "pk": 803,
     "fields": {
       "code": "WGST310-01",
+      "dept": "Women and Gender Studies",
       "name": "Health Activism",
       "time": "02:50 pm - 05:20 pm",
       "date": "M",
@@ -9640,6 +10443,7 @@
     "pk": 804,
     "fields": {
       "code": "WGST314-01",
+      "dept": "Women and Gender Studies",
       "name": "Sem. Transnational Feminisms",
       "time": "09:50 am - 12:20 pm",
       "date": "W",
@@ -9652,6 +10456,7 @@
     "pk": 805,
     "fields": {
       "code": "WGST340-01",
+      "dept": "Women and Gender Studies",
       "name": "Sem: Global Health",
       "time": "01:30 pm - 04:00 pm",
       "date": "T",
@@ -9664,6 +10469,7 @@
     "pk": 806,
     "fields": {
       "code": "WRIT105-01",
+      "dept": "Writing",
       "name": "Eng120 Critical Interpretation",
       "time": "02:50 pm - 05:20 pm,02:50 pm - 04:00 pm",
       "date": "M,Th",
@@ -9676,6 +10482,7 @@
     "pk": 807,
     "fields": {
       "code": "WRIT105-02",
+      "dept": "Writing",
       "name": "Eng120 Critical Interpretation",
       "time": "09:50 am - 11:00 am,09:50 am - 11:00 am",
       "date": "TF,W",
@@ -9688,6 +10495,7 @@
     "pk": 808,
     "fields": {
       "code": "WRIT106-01",
+      "dept": "Writing",
       "name": "Narrative Theory",
       "time": "01:30 pm - 02:40 pm",
       "date": "TF",
@@ -9700,6 +10508,7 @@
     "pk": 809,
     "fields": {
       "code": "WRIT107-01",
+      "dept": "Writing",
       "name": "Arth 100 Ancient & Medieval",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -9712,6 +10521,7 @@
     "pk": 810,
     "fields": {
       "code": "WRIT107-02",
+      "dept": "Writing",
       "name": "ARTH 100 Ancient & Medieval",
       "time": "01:30 pm - 02:40 pm",
       "date": "TF",
@@ -9724,6 +10534,7 @@
     "pk": 811,
     "fields": {
       "code": "WRIT110-01",
+      "dept": "Writing",
       "name": "Wgst 108 Soc Constr of Gender",
       "time": "11:10 am - 01:20 pm,11:10 am - 12:20 pm",
       "date": "M,Th",
@@ -9736,6 +10547,7 @@
     "pk": 812,
     "fields": {
       "code": "WRIT111-01",
+      "dept": "Writing",
       "name": "Cams 115 Hitchcock, Auteur",
       "time": "02:50 pm - 04:00 pm,02:15 pm - 04:45 pm",
       "date": "TF,W",
@@ -9748,6 +10560,7 @@
     "pk": 813,
     "fields": {
       "code": "WRIT121-01",
+      "dept": "Writing",
       "name": "Almost Touching the Skies",
       "time": "08:30 am - 09:40 am",
       "date": "TF",
@@ -9760,6 +10573,7 @@
     "pk": 814,
     "fields": {
       "code": "WRIT121-02",
+      "dept": "Writing",
       "name": "Almost Touching the Skies",
       "time": "11:10 am - 12:20 pm",
       "date": "TF",
@@ -9772,6 +10586,7 @@
     "pk": 815,
     "fields": {
       "code": "WRIT122-01",
+      "dept": "Writing",
       "name": "Wellesley and the World",
       "time": "08:30 am - 09:40 am",
       "date": "MTh",
@@ -9784,6 +10599,7 @@
     "pk": 816,
     "fields": {
       "code": "WRIT122-02",
+      "dept": "Writing",
       "name": "Wellesley and the World",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -9796,6 +10612,7 @@
     "pk": 817,
     "fields": {
       "code": "WRIT132-01",
+      "dept": "Writing",
       "name": "Class Matters",
       "time": "09:50 am - 11:00 am",
       "date": "TF",
@@ -9808,6 +10625,7 @@
     "pk": 818,
     "fields": {
       "code": "WRIT135-01",
+      "dept": "Writing",
       "name": "Age of the Anti-Hero",
       "time": "01:30 pm - 02:40 pm",
       "date": "MTh",
@@ -9820,6 +10638,7 @@
     "pk": 819,
     "fields": {
       "code": "WRIT140-01",
+      "dept": "Writing",
       "name": "Romantic Comedies",
       "time": "02:50 pm - 04:00 pm",
       "date": "MTh",
@@ -9832,6 +10651,7 @@
     "pk": 820,
     "fields": {
       "code": "WRIT141-01",
+      "dept": "Writing",
       "name": "Love Manuals",
       "time": "01:30 pm - 02:40 pm",
       "date": "MTh",
@@ -9844,6 +10664,7 @@
     "pk": 821,
     "fields": {
       "code": "WRIT144-01",
+      "dept": "Writing",
       "name": "Making of the Modern Self",
       "time": "01:30 pm - 02:40 pm",
       "date": "TF",
@@ -9856,6 +10677,7 @@
     "pk": 822,
     "fields": {
       "code": "WRIT145-01",
+      "dept": "Writing",
       "name": "Do French Women Really",
       "time": "02:50 pm - 04:00 pm",
       "date": "TF",
@@ -9868,6 +10690,7 @@
     "pk": 823,
     "fields": {
       "code": "WRIT160-01",
+      "dept": "Writing",
       "name": "Magic of Everyday Life",
       "time": "09:50 am - 11:00 am",
       "date": "MTh",
@@ -9880,6 +10703,7 @@
     "pk": 824,
     "fields": {
       "code": "WRIT160-02",
+      "dept": "Writing",
       "name": "Magic of Everyday Life",
       "time": "04:10 pm - 05:20 pm",
       "date": "MTh",
@@ -9892,6 +10716,7 @@
     "pk": 825,
     "fields": {
       "code": "WRIT164-01",
+      "dept": "Writing",
       "name": "Supreme Court Shapes America",
       "time": "08:30 am - 09:40 am",
       "date": "TF",
@@ -9904,6 +10729,7 @@
     "pk": 826,
     "fields": {
       "code": "WRIT165-01",
+      "dept": "Writing",
       "name": "China Past and Present",
       "time": "01:30 pm - 02:40 pm",
       "date": "MTh",
@@ -9916,6 +10742,7 @@
     "pk": 827,
     "fields": {
       "code": "WRIT168-01",
+      "dept": "Writing",
       "name": "Illness and Therapy",
       "time": "11:10 am - 12:20 pm",
       "date": "MTh",
@@ -9928,6 +10755,7 @@
     "pk": 828,
     "fields": {
       "code": "WRIT170-01",
+      "dept": "Writing",
       "name": "Chemistry in the News",
       "time": "01:30 pm - 02:40 pm",
       "date": "TF",
@@ -9940,6 +10768,7 @@
     "pk": 829,
     "fields": {
       "code": "WRIT199-01",
+      "dept": "Writing",
       "name": "Writing Tutorial",
       "time": "None assigned",
       "date": "None assigned",
@@ -9952,6 +10781,7 @@
     "pk": 830,
     "fields": {
       "code": "WRIT199H-01",
+      "dept": "Writing",
       "name": "Writing Tutorial",
       "time": "None assigned",
       "date": "None assigned",
@@ -9964,6 +10794,7 @@
     "pk": 831,
     "fields": {
       "code": "WRIT225-01",
+      "dept": "Writing",
       "name": "Tpc: Memoir",
       "time": "09:50 am - 12:20 pm",
       "date": "W",
@@ -9976,6 +10807,7 @@
     "pk": 832,
     "fields": {
       "code": "WRIT307-01",
+      "dept": "Writing",
       "name": "Learning by Giving",
       "time": "01:30 pm - 02:40 pm",
       "date": "TF",
