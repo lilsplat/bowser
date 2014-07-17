@@ -138,29 +138,30 @@ class CourseSpider(scrapy.Spider):
             c['date'] = date.encode("UTF-8")
             c['prof'] = prof.encode("UTF-8")
             c['prof_site'] = prof_site.encode("UTF-8")
+            return c
             
-            dist = []
-            if len(distribution) == 0:
-                d = DjangoDistItem()
-                d['name'] = 'None assigned'
-                dist.append(d)
-            elif len(distribution) == 1:
-                d = DjangoDistItem()
-                d['name'] = distribution.pop().strip().encode("UTF-8")
-                dist.append(d) 
-            else:
-                for element in distribution:
-                    d = DjangoDistItem()
-                    d['name'] = element.strip().encode("UTF-8")
-                    dist.append(d)
+            # dist = []
+            # if len(distribution) == 0:
+            #     d = DjangoDistItem()
+            #     d['name'] = 'None assigned'
+            #     dist.append(d)
+            # elif len(distribution) == 1:
+            #     d = DjangoDistItem()
+            #     d['name'] = distribution.pop().strip().encode("UTF-8")
+            #     dist.append(d) 
+            # else:
+            #     for element in distribution:
+            #         d = DjangoDistItem()
+            #         d['name'] = element.strip().encode("UTF-8")
+            #         dist.append(d)
 
 
-            """ TO DO: fix this!! django does not recognize DjangoDistItem as an acceptable input to the dists field """
+            # """ TO DO: fix this!! django does not recognize DjangoDistItem as an acceptable input to the dists field """
 
-            test = dist[0]
+            # test = dist[0]
             # c['dists'] = test
 
-            # yield c
+            
 
 
 

@@ -6,6 +6,15 @@
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
 
-class TutorialPipeline(object):
-    def process_item(self, item, spider):
-        return item
+# class TutorialPipeline(object):
+#     def process_item(self, item, spider):
+#         return item
+
+from scrapy import log
+
+class DjangoPipeline(object):
+
+	def process_item(self, item, spider):
+		item.save()
+		log.msg("pipeline", level=log.INFO)
+		return item

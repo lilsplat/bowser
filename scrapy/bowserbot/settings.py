@@ -21,5 +21,10 @@ BOT_NAME = 'bowserbot'
 SPIDER_MODULES = ['bowserbot.spiders']
 NEWSPIDER_MODULE = 'bowserbot.spiders'
 
+ITEM_PIPELINES = {
+	
+	'bowserbot.pipelines.DjangoPipeline': 0
+}
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'tutorial (+http://www.yourdomain.com)'
