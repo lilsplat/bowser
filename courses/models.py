@@ -168,13 +168,13 @@ class Distribution(models.Model):
         else:
             return False
 
-    """Returns the number of courses left to take in the Distribution, given a list of Courses"""
-    def num_courses_togo(self, courses):
-        num_togo = self.num_courses
-        for course in courses:
-            if self.is_fulfilled_by(course) == True:
-                num_togo -= 1
-        return num_togo
+    # """Returns the number of courses left to take in the Distribution, given a list of Courses"""
+    # def num_courses_togo(self, courses):
+    #     num_togo = self.num_courses
+    #     for course in courses:
+    #         if self.is_fulfilled_by(course) == True:
+    #             num_togo -= 1
+    #     return num_togo
 
     """Returns a list of suggested courses to fulfill the Distribution, given a list of Courses"""
     def suggested_courses(self, courses):
