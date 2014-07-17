@@ -1,5 +1,7 @@
 # Ignore all compiled Python files
 *.py[cod]
 
+bowser/settings.pyc
+
 bowser_db
 
