@@ -123,11 +123,108 @@ UND = "Undecided"
 
 
 
+
+
+"""
+Distribution todo:
+- still working toward a better distribution model...how to correctly represent fulfillment of distribution??
+- otherwise working
+"""
+class Distribution(models.Model):
+    DISTRIBUTIONS = [
+        (AMTFV, "Arts, Music, Theatre, Film, Video"),
+        (EC, "Epistemology and Cognition"),
+        (HS, "Historical Studies"),
+        (LL, "Language and Literature"),
+        (MM, "Mathematical Modeling"),
+        (NPS, "Natural and Physical Sciences"),
+        (QRB, "QRB"), #basic QR
+        (QRF, "QRF"), #QR requirement
+        (REMP, "Religion, Ethics, and Moral Philosophy"),
+        (SBA, "Social and Behavioral Analysis"),
+        (NONE, "None"),
+        (LAB, "Lab"),
+        (FYS, "First Year Seminar"),
+    ]
+
+    name = models.CharField(max_length=200, choices=DISTRIBUTIONS, default=NONE)
+    num_courses = models.IntegerField(default=0)
+    #courses ok can be accessed by Distribution.course_set
+
+    def __unicode__(self):
+        return self.name
+
+    """Returns if a course counts toward the Distribution"""
+    def is_fulfilled_by(self, course):
+        if self.course_set.filter(name__contains=course.name).count() > 0:
+            return True
+        else:
+            return False
+
+    """Returns the number of courses left to take in the Distribution, given a list of Courses"""
+    def num_courses_togo(self, courses):
+        num_togo = self.num_courses
+        for course in courses:
+            if self.is_fulfilled_by(course) == True:
+                num_togo -= 1
+        return num_togo
+
+    """Returns a list of suggested courses to fulfill the Distribution, given a list of Courses"""
+    def suggested_courses(self, courses):
+        #additional functions: should compensate for fall/spring availability
+        suggestions = Distributions.course_set.all() #all available courses
+        for course in courses:
+            if self.is_fulfilled_by(course):
+                suggestions.remove(course)
+        return suggestions
+
+    def is_completed(self, courses):
+        """Returns if the distribution is complete, based on the given list of Courses"""
+        if self.num_courses_togo(courses) == 0:
+            return True
+        else:
+            return False
+
+
+
+"""
+Course ok
+"""
+class Course(models.Model):
+    code = models.CharField(max_length=200) #i.e. CS110
+    dept = models.CharField(max_length=200)
+    name = models.CharField(max_length=200) 
+    time = models.CharField(max_length=200) #i.e. 1:30-4:00pm
+    date = models.CharField(max_length=200) #i.e. TF
+    prof = models.CharField(max_length=200)
+    prof_site = models.CharField(max_length=200) #link to professor's website (comes on course browser)
+    comments = models.TextField(null=True, blank=True)
+    dists = models.ManyToManyField(Distribution)
+    # A corrolary to dists, to keep track of which majors each course counts toward
+    # majors = models.ManyToManyField(Major)
+
+    def __unicode__(self):
+        return course.code
+
+    #students can be accessed through Course.student_set
+
+    def conflicts(self, other_course):
+        """Returns whether this Course has a time conflict with another Course"""
+        try:
+            if (self.time == other_course.time) and (self.date == other_course.date):
+                return True
+            else:
+                return False
+        except:
+            raise Exception('please enter a valid course')
+
+    class Meta:
+        ordering = ['name'] #orders courses by name
+
+
 """Student todo:
-- figure out how to make username primary key (running into not null problems when migrating using south)
 - figure out if possible to make username = email.split('@')[0]
 - how to remove a course??????? gah
-- double check null/not null for all fields
 """
 class Student(models.Model):
     CLASS_YEAR = [
@@ -136,7 +233,7 @@ class Student(models.Model):
         (JUNIOR, 'Junior'),
         (SENIOR, 'Senior'),
         ]
-    username = models.CharField(max_length=200)#, primary_key=True)
+    username = models.CharField(max_length=200, unique=True, primary_key=True),
     email = models.EmailField()
     first_name = models.CharField(max_length=200)
     last_name = models.CharField(max_length=200)
@@ -244,101 +341,6 @@ class Student(models.Model):
 			if course in self.courses:
 				major_course_list.remove(course)
 		return major_course_list
-
-"""
-Distribution todo:
-- still working toward a better distribution model...how to correctly represent fulfillment of distribution??
-- otherwise working
-"""
-class Distribution(models.Model):
-    DISTRIBUTIONS = [
-        (AMTFV, "Arts, Music, Theatre, Film, Video"),
-        (EC, "Epistemology and Cognition"),
-        (HS, "Historical Studies"),
-        (LL, "Language and Literature"),
-        (MM, "Mathematical Modeling"),
-        (NPS, "Natural and Physical Sciences"),
-        (QRB, "QRB"), #basic QR
-        (QRF, "QRF"), #QR requirement
-        (REMP, "Religion, Ethics, and Moral Philosophy"),
-        (SBA, "Social and Behavioral Analysis"),
-        (NONE, "None"),
-        (LAB, "Lab"),
-        (FYS, "First Year Seminar"),
-    ]
-
-    name = models.CharField(max_length=200, choices=DISTRIBUTIONS, default=NONE)
-    num_courses = models.IntegerField(default=0)
-    #courses ok can be accessed by Distribution.course_set
-
-    def __unicode__(self):
-        return self.name
-
-    """Returns if a course counts toward the Distribution"""
-    def is_fulfilled_by(self, course):
-        if self.course_set.filter(name__contains=course.name).count() > 0:
-            return True
-        else:
-            return False
-
-    """Returns the number of courses left to take in the Distribution, given a list of Courses"""
-    def num_courses_togo(self, courses):
-        num_togo = self.num_courses
-        for course in courses:
-            if self.is_fulfilled_by(course) == True:
-                num_togo -= 1
-        return num_togo
-
-    """Returns a list of suggested courses to fulfill the Distribution, given a list of Courses"""
-    def suggested_courses(self, courses):
-        #additional functions: should compensate for fall/spring availability
-        suggestions = Distributions.course_set.all() #all available courses
-        for course in courses:
-            if self.is_fulfilled_by(course):
-                suggestions.remove(course)
-        return suggestions
-
-    def is_completed(self, courses):
-        """Returns if the distribution is complete, based on the given list of Courses"""
-        if self.num_courses_togo(courses) == 0:
-            return True
-        else:
-            return False
-
-"""
-Course ok
-"""
-class Course(models.Model):
-    code = models.CharField(max_length=200) #i.e. CS110
-    dept = models.CharField(max_length=200)
-    name = models.CharField(max_length=200) 
-    time = models.CharField(max_length=200) #i.e. 1:30-4:00pm
-    date = models.CharField(max_length=200) #i.e. TF
-    prof = models.CharField(max_length=200)
-    prof_site = models.CharField(max_length=200) #link to professor's website (comes on course browser)
-    comments = models.TextField(null=True, blank=True)
-    dists = models.ManyToManyField(Distribution)
-	# A corrolary to dists, to keep track of which majors each course counts toward
-    # majors = models.ManyToManyField(Major)
-
-    def __unicode__(self):
-        return course.code
-
-    #students can be accessed through Course.student_set
-
-    def conflicts(self, other_course):
-        """Returns whether this Course has a time conflict with another Course"""
-        try:
-            if (self.time == other_course.time) and (self.date == other_course.date):
-                return True
-            else:
-                return False
-        except:
-            raise Exception('please enter a valid course')
-
-    class Meta:
-        ordering = ['name'] #orders courses by name
-
 
 
 class Course_Bucket(models.Model):
