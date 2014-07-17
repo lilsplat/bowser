@@ -116,6 +116,14 @@ WGST = "WGST"
 WRIT = "WRIT"
 OTHER = "OTHER"
 UND = "Undecided"
+#??
+MES = "MES"
+ARTH = "ARTH"
+ARTS = "ARTS"
+EALL = "EALL"
+CLCV = "CLCV"
+HEBR = "HEBR"
+ITAS = "ITAS"
 
 
 
@@ -409,6 +417,14 @@ class Major(models.Model):
         (WRIT, 'Writing'),
         (OTHER, 'Other'),
         (UND, 'Undecided'),
+        #??? multidisciplinary/other majors and minors??
+        (MES, 'Middle Eastern Studies'),
+        (ARTH, 'Art History'),
+        (ARTS, 'Studio Art'),
+        (EALL, 'East Asian Language and Literature'),
+        (CLCV, 'Classical Studies'),
+        (HEBR, 'Jewish Studies'),
+        (ITAS, 'Italian Studies')
     ]
 
     name = models.CharField(max_length=200, choices=MAJORS, default=UND)
