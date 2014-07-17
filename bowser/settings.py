@@ -1,5 +1,9 @@
 # Django settings for bowser project.
 import os.path
+# from django.contrib import admin
+# from bowser.courses.models import *
+
+
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
@@ -94,7 +98,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     "django.core.context_processors.media",
     "django.core.context_processors.static",
     "django.core.context_processors.tz",
-    "django.contrib.messages.context_processors.messages"
+    "django.contrib.messages.context_processors.messages",
 )
 
 # List of callables that know how to import templates from various sources.
@@ -166,3 +170,6 @@ LOGGING = {
         },
     }
 }
+
+
+
