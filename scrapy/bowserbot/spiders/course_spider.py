@@ -98,7 +98,7 @@ class CourseSpider(scrapy.Spider):
         code = path.split("/").pop(12)
         code = code.split(".").pop(0)
 
-        # filewriter = open('course_browser_database/' + code + '.txt', 'w')
+        filewriter = open('course_browser_database/' + code + '_new.txt', 'w')
 
 
         for sel in response.xpath('//tbody/tr'): #each <tr> is a class table
@@ -125,20 +125,20 @@ class CourseSpider(scrapy.Spider):
             prof_site = 'https://courses.wellesley.edu/' + prof_site
 
             distribution = sel.xpath('th[11]/text()').extract() #has multiple object lists
-            # distribution = self.test_and_pop(distribution)
+            distribution = self.test_and_pop(distribution)
 
 
-            """ Do we need to encode UTF-8? """
+            # """ Do we need to encode UTF-8? """
 
-            c = DjangoCourseItem()
+            # c = DjangoCourseItem()
 
-            c['code'] = course.encode("UTF-8")
-            c['name'] = title.encode("UTF-8")
-            c['time'] = time.encode("UTF-8")
-            c['date'] = date.encode("UTF-8")
-            c['prof'] = prof.encode("UTF-8")
-            c['prof_site'] = prof_site.encode("UTF-8")
-            return c
+            # c['code'] = course.encode("UTF-8")
+            # c['name'] = title.encode("UTF-8")
+            # c['time'] = time.encode("UTF-8")
+            # c['date'] = date.encode("UTF-8")
+            # c['prof'] = prof.encode("UTF-8")
+            # c['prof_site'] = prof_site.encode("UTF-8")
+            # return c
             
             # dist = []
             # if len(distribution) == 0:
@@ -183,18 +183,18 @@ class CourseSpider(scrapy.Spider):
             # print 'writing delimiter'
             # filewriter.write("..")
 
-        #     filewriter.write(#crn.encode("UTF-8") + "\n" + 
-        #         course.encode("UTF-8") + "\n" + 
-        #         title.encode("UTF-8") + "\n" + 
-        #         # str(isCourseFull) + "\n" + 
-        #         time.encode("UTF-8") + "\n" + 
-        #         date.encode("UTF-8") + "\n" + 
-        #         prof.encode("UTF-8") + "\n" + 
-        #         prof_site.encode("UTF-8") + "\n" + 
-        #         distribution.encode("UTF-8") + 
-        #         "\n") #delimiter
+            filewriter.write(#crn.encode("UTF-8") + "\n" + 
+                course.encode("UTF-8") + "\n" + 
+                title.encode("UTF-8") + "\n" + 
+                # str(isCourseFull) + "\n" + 
+                time.encode("UTF-8") + "\n" + 
+                date.encode("UTF-8") + "\n" + 
+                prof.encode("UTF-8") + "\n" + 
+                prof_site.encode("UTF-8") + "\n" + 
+                distribution.encode("UTF-8") + 
+                "\n#\n") #delimiter
 
-        # filewriter.close()
+        filewriter.close()
 
     def test_and_pop(self, extracted_list):
         if len(extracted_list) == 0:
