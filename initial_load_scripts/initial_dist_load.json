@@ -1,0 +1,130 @@
+[
+  {
+    "model": "courses.distribution",
+    "pk": 1,
+    "fields": {
+      "name": "Foreign Language 100L",
+      "num_courses": "1"
+    }
+  },
+  {
+    "model": "courses.distribution",
+    "pk": 2,
+    "fields": {
+      "name": "Foreign Language 200L",
+      "num_courses": "1"
+    }
+  },
+  {
+    "model": "courses.distribution",
+    "pk": 3,
+    "fields": {
+      "name": "Basic QR",
+      "num_courses": "1"
+    }
+  },
+  {
+    "model": "courses.distribution",
+    "pk": 4,
+    "fields": {
+      "name": "QR Overlay",
+      "num_courses": "1"
+    }
+  },
+  {
+    "model": "courses.distribution",
+    "pk": 5,
+    "fields": {
+      "name": "Lab",
+      "num_courses": "1"
+    }
+  },
+  {
+    "model": "courses.distribution",
+    "pk": 6,
+    "fields": {
+      "name": "300-level",
+      "num_courses": "1"
+    }
+  },
+  {
+    "model": "courses.distribution",
+    "pk": 7,
+    "fields": {
+      "name": "FIrst Year Writing",
+      "num_courses": "1"
+    }
+  },
+  {
+    "model": "courses.distribution",
+    "pk": 8,
+    "fields": {
+      "name": "Language and Literature",
+      "num_courses": "1"
+    }
+  },
+  {
+    "model": "courses.distribution",
+    "pk": 9,
+    "fields": {
+      "name": "Arts, Music, Theater, Film and Video",
+      "num_courses": "1"
+    }
+  },
+  {
+    "model": "courses.distribution",
+    "pk": 10,
+    "fields": {
+      "name": "Language and Literature or Arts, Music, Theater, Film and Video",
+      "num_courses": "1"
+    }
+  },
+  {
+    "model": "courses.distribution",
+    "pk": 11,
+    "fields": {
+      "name": "Social and Behavioral Analysis",
+      "num_courses": "1"
+    }
+  },
+  {
+    "model": "courses.distribution",
+    "pk": 12,
+    "fields": {
+      "name": "Epistemology and Cognition or Historical Studies",
+      "num_courses": "1"
+    }
+  },
+  {
+    "model": "courses.distribution",
+    "pk": 13,
+    "fields": {
+      "name": "Historical Studies or Religion, Ethics, and Moral Philosophy",
+      "num_courses": "1"
+    }
+  },
+  {
+    "model": "courses.distribution",
+    "pk": 14,
+    "fields": {
+      "name": "Mathematical Modeling",
+      "num_courses": "1"
+    }
+  },
+  {
+    "model": "courses.distribution",
+    "pk": 15,
+    "fields": {
+      "name": "Natural and Physical Sciences",
+      "num_courses": "1"
+    }
+  },
+  {
+    "model": "courses.distribution",
+    "pk": 16,
+    "fields": {
+      "name": "Mathematical Modeling or Natural and Physical Sciences",
+      "num_courses": "1"
+    }
+  }
+]
