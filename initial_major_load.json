@@ -1,0 +1,324 @@
+[
+  {
+    "model": "courses.major",
+    "pk": 1,
+    "fields": {
+      "name": "Africana Studies"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 2,
+    "fields": {
+      "name": "American Studies"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 3,
+    "fields": {
+      "name": "Anthropology"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 4,
+    "fields": {
+      "name": "Art"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 5,
+    "fields": {
+      "name": "Astronomy"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 6,
+    "fields": {
+      "name": "Biological Chemistry"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 7,
+    "fields": {
+      "name": "Biological Sciences"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 8,
+    "fields": {
+      "name": "Cinema and Media Studies"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 9,
+    "fields": {
+      "name": "Chemistry"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 10,
+    "fields": {
+      "name": "Cognitive and Linguistic Sciences"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 11,
+    "fields": {
+      "name": "Classical Studies"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 12,
+    "fields": {
+      "name": "Comparative Literature"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 13,
+    "fields": {
+      "name": "Computer Science"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 14,
+    "fields": {
+      "name": "East Asian Languages and Cultures"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 15,
+    "fields": {
+      "name": "Economics"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 16,
+    "fields": {
+      "name": "Education"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 17,
+    "fields": {
+      "name": "English"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 18,
+    "fields": {
+      "name": "Environmental Studies"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 19,
+    "fields": {
+      "name": "French"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 20,
+    "fields": {
+      "name": "Geosciences"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 21,
+    "fields": {
+      "name": "German"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 22,
+    "fields": {
+      "name": "History"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 23,
+    "fields": {
+      "name": "Italian Studies"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 24,
+    "fields": {
+      "name": "Jewish Studies"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 25,
+    "fields": {
+      "name": "Mathematics"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 26,
+    "fields": {
+      "name": "Medieval Renaissance Studies"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 27,
+    "fields": {
+      "name": "Middle Eastern Studies"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 28,
+    "fields": {
+      "name": "Music"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 29,
+    "fields": {
+      "name": "Neuroscience"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 30,
+    "fields": {
+      "name": "Physical Education"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 31,
+    "fields": {
+      "name": "Peace and Justice Studies"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 32,
+    "fields": {
+      "name": "Philosophy"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 33,
+    "fields": {
+      "name": "Physics"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 34,
+    "fields": {
+      "name": "Political Science"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 35,
+    "fields": {
+      "name": "Psychology"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 36,
+    "fields": {
+      "name": "Quantitative Reasoning"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 37,
+    "fields": {
+      "name": "Religion"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 38,
+    "fields": {
+      "name": "Russian"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 39,
+    "fields": {
+      "name": "South Asia Studies"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 40,
+    "fields": {
+      "name": "Sociology"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 41,
+    "fields": {
+      "name": "Spanish"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 42,
+    "fields": {
+      "name": "Theatre Studies"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 43,
+    "fields": {
+      "name": "Women and Gender Studies"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 44,
+    "fields": {
+      "name": "Writing"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 45,
+    "fields": {
+      "name": "Other"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 46,
+    "fields": {
+      "name": "Undecided"
+    }
+  }
+]
