@@ -156,7 +156,6 @@ class Distribution(models.Model):
     ]
 
     name = models.CharField(max_length=200, choices=DISTRIBUTIONS, default=NONE)
-    num_courses = models.IntegerField(default=0)
     #courses ok can be accessed by Distribution.course_set
 
     def __unicode__(self):
