@@ -10,25 +10,29 @@ from django.test import TestCase
 from courses.models import *
 import datetime
 
+cs = Major.objects.create(name='CS')
+
+# class DistributionTester(TestCase):
+# 	def setUp(self):
+
+
 class StudentTester(TestCase):
 	def setUp(self):
-		cs = Major.objects.create(name='CS')
+		# cs = Major.objects.create(name='CS')
 		Student.objects.create(
 			email='lxie@wellesley.edu',
 			first_name='lily',
 			last_name='xie',
 			class_year='ju',
 			primary_major=cs,
-			# secondary_major=Major.objects.create(name='UND'),
-			gpa=1.2
+			gpa=1.0
 			)
 		Student.objects.create(
 			first_name='sravanti',
 			last_name='tekumalla',
 			# class_year=''
 			primary_major=Major.objects.create(name='CS'),
-			secondary_major=Major.objects.create(name='UND'),
-			gpa=1.2
+			gpa=1.0
 			)
 		Course.objects.create(code='cs111',name='Intro CS',time='1:00',
 			date='MF',prof='rhys',prof_site='blah')
@@ -39,6 +43,7 @@ class StudentTester(TestCase):
 	def test(self):
 		lily = Student.objects.get(first_name='lily')
 		print lily.email
+		print lily.email.split('@')[0]
 		print lily.username
 		self.assertEqual('lily', lily.first_name)
 		self.assertEqual('xie', lily.last_name)
