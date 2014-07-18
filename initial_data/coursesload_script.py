@@ -8,7 +8,7 @@ need to add semester field to models???
 
 import re
 
-f = open('initial_course_load.json','w')
+f = open('initial_course_load_1.json','w')
 f.write('[\n')
 x = 1
 
@@ -90,7 +90,7 @@ def parsedept(d):
     for dept in deptlist:
         dept = dept.split(',')
         if d == dept[0]:
-            print dept[1]
+            # print dept[1]
             return dept[1]
     
     return d
@@ -106,9 +106,13 @@ for chunk in read_data:
       f.write("    \"pk\": " + str(x) + ",\n")
       f.write("    \"fields\": {\n")
       code = chunk.pop(0)
+      code = re.search('[aA-zZ]+[0-9]+\S?\-*', code).group() #ABC-
+      code = code.strip('-') #ABC
+      print code
+      """problem: doesn't work for CS111G-01, keeps char G"""
       dept = code
-      dept = re.match('[aA-zZ]+', dept)
-      dept = dept.group()
+      dept = re.match('[aA-zZ]+', dept).group()
+      # dept = dept.group()
       dept = parsedept(dept)
       # print dept
       f.write("      \"code\": \"" + code + "\",\n")
