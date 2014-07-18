@@ -45,7 +45,7 @@ class StudentTester(TestCase):
 		print sravanti.primary_major
 
 		#arbitrarily gets first object in list b/c CS111-01
-		cs111 = Course.objects.filter(code__startswith='CS111')[0]
+		cs111 = Course.objects.filter(code='CS111')[0]
 		soc108 = Course.objects.filter(code__contains='SOC108')[0]
 
 		e1 = Enrollment.objects.create(student=lily, course=cs111, date_taken=datetime.date.today(), rating=5)
