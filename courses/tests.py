@@ -7,7 +7,7 @@ Replace this with more appropriate tests for your application.
 
 from django.utils import unittest
 from django.test import TestCase
-from courses.models import Course, Student, Distribution, Major
+from courses.models import Course, Student, Distribution, Major, Enrollment
 import datetime
 
 
@@ -27,7 +27,7 @@ class StudentTester(TestCase):
 			first_name='sravanti',
 			last_name='tekumalla',
 			# class_year=''
-			primary_major=Major.objects.get(name='Computer Science'),
+			primary_major=Major.objects.get(name='Sociology'),
 			gpa=1.0
 			)
 
@@ -42,19 +42,21 @@ class StudentTester(TestCase):
 		self.assertEqual('ju', lily.class_year)
 
 		sravanti = Student.objects.get(first_name='sravanti')
-		# cs111 = Course.objects.filter(code__startswith='CS111')
-		# print cs111
-		# soc100 = Course.objects.filter(code__startswith='SOC100')
+		print sravanti.primary_major
 
-		# e1 = Enrollment.objects.create(student=lily, course=cs111, date_taken=datetime.date.today(), rating=5)
-		# print e1.date_taken
+		#arbitrarily gets first object in list b/c CS111-01
+		cs111 = Course.objects.filter(code__startswith='CS111')[0]
+		soc108 = Course.objects.filter(code__contains='SOC108')[0]
 
-		# e2 = Enrollment.objects.create(student=sravanti,course=cs111,date_taken=datetime.date.today(),rating=5)
+		e1 = Enrollment.objects.create(student=lily, course=cs111, date_taken=datetime.date.today(), rating=5)
 
-		# print lily.courses
-		# print cs111.student_set.all()
+		e2 = Enrollment.objects.create(student=sravanti,course=cs111,date_taken=datetime.date.today(),rating=5)
 
-		print Course.objects.all()
+		print lily.courses
+		print cs111.student_set.all()
+
+		# for c in Course.objects.order_by('id'):
+		# 	print (c.code)
 
 
 class DistributionTester(TestCase):
