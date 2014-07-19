@@ -1,5 +1,5 @@
 from django.db import models
-
+from django.contrib.auth.models import User
 
 #------CLASS YEARS--------
 FIRSTYEAR = 'fy'
@@ -240,12 +240,13 @@ class Student(models.Model):
         (JUNIOR, 'Junior'),
         (SENIOR, 'Senior'),
         ]
-    username = models.CharField(max_length=200, unique=True, primary_key=True),
-    email = models.EmailField()
-    first_name = models.CharField(max_length=200)
-    last_name = models.CharField(max_length=200)
+	#user object stores username, pw
+    user = models.OneToOneField(User)
+    email = models.EmailField(max_length=200)
+    first_name = models.CharField(max_length=200, null=True, blank=True)
+    last_name = models.CharField(max_length=200, null=True, blank=True)
     class_year = models.CharField(max_length=200, choices=CLASS_YEAR, default=FIRSTYEAR)
-    primary_major = models.ForeignKey('Major', related_name='primary major')
+    primary_major = models.ForeignKey('Major', related_name='primary major', null=True)
     secondary_major = models.ForeignKey('Major', related_name='secondary major', null=True, blank=True) 
     major_requirements_completed = models.BooleanField(default=False)
     distribution_requirements_completed = models.BooleanField(default=False)
@@ -516,3 +517,12 @@ class Enrollment(models.Model):
 		unique_together = [('student', 'course')]
 
     #TODO: Figure out how to represent courses in models
+
+#for user auth
+class UserProfile(models.Model):
+    # Links UserProfile to a User model instance.
+    user = models.OneToOneField(User)
+    # additional attributes we wish to include.
+    email_verified = models.BooleanField()
+    def __unicode__(self):
+        return self.user.username
