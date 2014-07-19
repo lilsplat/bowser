@@ -9,7 +9,10 @@
       "time": "01:30 pm - 04:00 pm",
       "date": "T",
       "prof": "Selwyn Cudjoe",
-      "prof_site": "https://courses.wellesley.edu/faculty_profiles.php?user=scudjoe"
+      "prof_site": "https://courses.wellesley.edu/faculty_profiles.php?user=scudjoe",
+      "dists": [
+      {"name": "Language and Literature or Arts, Music, Theater, Film and Video"}
+      ]
     }
   },
   {

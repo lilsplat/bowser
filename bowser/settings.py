@@ -140,6 +140,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.admin',
+    # 'test_utils',
     'courses',
     'south' #to take care of migrations
     )
