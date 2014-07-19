@@ -33,27 +33,38 @@ class StudentTester(TestCase):
 
 	def test(self):
 		lily = Student.objects.get(first_name='lily')
-		print lily.email
-		print lily.email.split('@')[0]
-		print lily.username
-		print lily.primary_major
+		# print lily.email
+		# print lily.email.split('@')[0]
+		# print lily.username
+		# print lily.primary_major
 		self.assertEqual('lily', lily.first_name)
 		self.assertEqual('xie', lily.last_name)
 		self.assertEqual('ju', lily.class_year)
+		self.assertEqual(1.0, lily.gpa)
 
 		sravanti = Student.objects.get(first_name='sravanti')
 		print sravanti.primary_major
+		print sravanti.email
+		sravanti.email = 'stekumalla@wellesley.edu'
 
-		#arbitrarily gets first object in list b/c CS111-01
 		cs111 = Course.objects.filter(code='CS111')[0]
-		soc108 = Course.objects.filter(code__contains='SOC108')[0]
+		soc108 = Course.objects.filter(code='SOC108')[0]
 
 		e1 = Enrollment.objects.create(student=lily, course=cs111, date_taken=datetime.date.today(), rating=5)
-
 		e2 = Enrollment.objects.create(student=sravanti,course=cs111,date_taken=datetime.date.today(),rating=5)
 
 		print lily.courses
 		print cs111.student_set.all()
+
+		lily.qrb_passed = True 
+		lily.foreign_lang_passed = True
+		lily.save()
+		# lily.distributions_todo()
+		lily.add_course(soc108)
+		print Enrollment.objects.all()
+		lily.remove_course(soc108)
+
+		# Student.add_course(lily, soc108)
 
 		# for c in Course.objects.order_by('id'):
 		# 	print (c.code)
