@@ -257,27 +257,27 @@ class Student(models.Model):
 
     def __unicode__(self):
         return self.first_name + ' ' + self.last_name
-	
-	def add_course(self, course):
-		if course not in self.courses.all():
-			enrollment = Enrollment(
-				student=self,
-				course=course,
-				date_taken = None, #need to change this later
-				rating = None
-			)
-			enrollment.save()
-			return enrollment.save()
-		else:
-			#Course is already in student's course list
-			return None
- 
-	def remove_course(self, course):
-		enrollment = Enrollment.objects.get(
-			student=self,
-			course=course
-		)
-		enrollment.delete()
+
+    def add_course(self, course):
+        if course not in self.courses.all():
+            enrollment = Enrollment(
+                student=self,
+                course=course,
+                date_taken=None,
+                rating=None
+                )
+            # enrollment.save()
+            return enrollment.save()
+        else:
+            return None
+
+    def remove_course(self, course):
+        enrollment=Enrollment.objects.get(
+            student=self,
+            course=course
+            )
+        enrollment.delete()
+
 	
 	# def distributions_todo(self):
 	# # I'm thinking Distributions, courses and all our long lists will be in a SQL table
@@ -294,10 +294,10 @@ class Student(models.Model):
 
         #modify distribution_list to suit Student
         """not sure if you can do this comparison...field may return 1 or 0 instead of True or False"""
-        if foreign_lang_passed == False:
+        if self.foreign_lang_passed == False:
             distribution_list = LANG_REQ + distribution_list
             num_overlap += 4 #adding 4 lang classes to the overlap category at head of list
-        if qrb_passed == False:
+        if self.qrb_passed == False:
             distribution_list = distribution_list + QRB_REQ
 
         #copy Student's courses
