@@ -2,7 +2,7 @@ from django.shortcuts import render
 from courses.forms import UserForm
 from django.template import RequestContext
 from django.shortcuts import render_to_response
-
+from courses.models import Student
 def index(request):
     return render(request, 'courses/index.html')
 
@@ -27,6 +27,8 @@ def register(request):
 			user.set_password(user.password)
 			user.save()
 			registered = True
+			student = Student.objects.get_or_create(user=user)
+		
 
         # Invalid form or forms - mistakes or something else?
         # Print problems to the terminal.

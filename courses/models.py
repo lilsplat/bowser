@@ -240,24 +240,20 @@ class Student(models.Model):
         (JUNIOR, 'Junior'),
         (SENIOR, 'Senior'),
         ]
-	#user object stores username, pw
-    user = models.OneToOneField(User)
-    email = models.EmailField(max_length=200)
-    first_name = models.CharField(max_length=200, null=True, blank=True)
-    last_name = models.CharField(max_length=200, null=True, blank=True)
+	#user object stores username, pw, email
+    user = models.OneToOneField(User, unique=True)
     class_year = models.CharField(max_length=200, choices=CLASS_YEAR, default=FIRSTYEAR)
     primary_major = models.ForeignKey('Major', related_name='primary major', null=True)
     secondary_major = models.ForeignKey('Major', related_name='secondary major', null=True, blank=True) 
     major_requirements_completed = models.BooleanField(default=False)
     distribution_requirements_completed = models.BooleanField(default=False)
-    gpa = models.IntegerField()
-    courses = models.ManyToManyField('Course', through='Enrollment')
-
+    gpa = models.FloatField(default=2.0, null=True)
+    courses = models.ManyToManyField('Course', through='Enrollment', null=True)
     qrb_passed = models.BooleanField(default=False) #if they passed the QR assessment
     foreign_lang_passed = models.BooleanField(default=False) #if they passed the foreign lang requirement
 
     def __unicode__(self):
-        return self.first_name + ' ' + self.last_name
+        return self.user.username
 
     def add_course(self, course):
         if course not in self.courses.all():
@@ -267,7 +263,6 @@ class Student(models.Model):
                 date_taken=None,
                 rating=None
                 )
-            # enrollment.save()
             return enrollment.save()
         else:
             return None
@@ -277,7 +272,7 @@ class Student(models.Model):
             student=self,
             course=course
             )
-        enrollment.delete()
+        return enrollment.delete()
 
 	
 	# def distributions_todo(self):
