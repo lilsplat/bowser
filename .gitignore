@@ -5,3 +5,5 @@ bowser/settings.pyc
 
 bowser_db
 
+
+initial_data/initial_course_fixture.json
