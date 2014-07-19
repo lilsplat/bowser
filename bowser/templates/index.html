@@ -1,1 +1,15 @@
 {% extends "base.html" %}
+
+{% block title %}Bowser{% endblock %}
+
+{% if is_authenticated %}
+<nav>
+	<a> Profile </a>
+	<a> Sign out </a>
+</nav>
+
+{% else %}
+<nav>
+	<a> Sign up </a>
+	<a> About </a>
+{% end if %}
