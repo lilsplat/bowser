@@ -2,14 +2,6 @@
 
 {% block title %}Bowser{% endblock %}
 
-{% if is_authenticated %}
-<nav>
-	<a> Profile </a>
-	<a> Sign out </a>
-</nav>
+{% block content %}Sign up today!{% endblock %}
 
-{% else %}
-<nav>
-	<a> Sign up </a>
-	<a> About </a>
-{% end if %}
+{% block footer %}Bowser 2014{% endblock %}
