@@ -233,6 +233,7 @@ class Course(models.Model):
 - figure out if possible to make username = email.split('@')[0]
 - how to remove a course??????? gah
 """
+
 class Student(models.Model):
     CLASS_YEAR = [
         (FIRSTYEAR, 'First year'),

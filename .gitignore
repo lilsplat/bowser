@@ -7,3 +7,9 @@ bowser_db
 
 
 initial_data/initial_course_fixture.json
+
+courses/migrations/0001_initial.pyc
+
+bowser_db
+
+courses/migrations/0001_initial.py

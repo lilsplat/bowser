@@ -21,25 +21,21 @@ class StudentTester(TestCase):
 		st_user=User.objects.create_user('stekumalla','stekumalla@wellesley.edu','sravantipassword')
 		Student.objects.create(
 			user=lx_user,
-			email='lxie@wellesley.edu',
-			first_name='lily',
-			last_name='xie',
 			class_year='ju',
 			primary_major=Major.objects.get(name='Computer Science'),
 			gpa=1.0
 			)
 		Student.objects.create(
 			user=st_user,
-			first_name='sravanti',
-			last_name='tekumalla',
 			# class_year=''
 			primary_major=Major.objects.get(name='Sociology'),
 			gpa=1.0
 			)
 
 	def test(self):
-		t = Course.objects.get(id=1)
-		print t.dists
+		t = Course.objects.get(id=2)
+		print t.name
+		print t.dists.all()
 		# lily = Student.objects.get(first_name='lily')
 		# # print lily.email
 		# # print lily.email.split('@')[0]
