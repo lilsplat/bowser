@@ -13,3 +13,11 @@ courses/migrations/0001_initial.pyc
 bowser_db
 
 courses/migrations/0001_initial.py
+
+courses/tests.py
+
+courses/models.py
+
+courses/tests.pyc
+
+initial_data/course_dists_parse.py
