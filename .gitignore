@@ -21,3 +21,11 @@ courses/models.py
 courses/tests.pyc
 
 initial_data/course_dists_parse.py
+
+courses/models.py
+
+courses/tests.py
+
+courses/tests.pyc
+
+initial_data/course_dists_parse.py
