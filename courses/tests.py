@@ -23,89 +23,137 @@ class StudentTester(TestCase):
 			user=lx_user,
 			class_year='ju',
 			primary_major=Major.objects.get(name='Computer Science'),
-			gpa=1.0
+			gpa=1.0,
+			qrb_passed=False
+			# foreign_lang_passed=False
 			)
 		Student.objects.create(
 			user=st_user,
-			# class_year=''
-			primary_major=Major.objects.get(name='Sociology'),
-			gpa=1.0
+			primary_major=Major.objects.get(name='Computer Science'),
+			secondary_major=Major.objects.get(name='Sociology'),
+			gpa=1.0,
+			qrb_passed=True
+			# foreign_lang_passed=False
 			)
 
 	def test(self):
-		t = Course.objects.get(id=2)
-		print t.name
-		print t.dists.all()
-		# lily = Student.objects.get(first_name='lily')
-		# # print lily.email
-		# # print lily.email.split('@')[0]
-		# # print lily.username
-		# # print lily.primary_major
-		# self.assertEqual('lily', lily.first_name)
-		# self.assertEqual('xie', lily.last_name)
-		# self.assertEqual('ju', lily.class_year)
-		# self.assertEqual(1.0, lily.gpa)
+		"""TEST USER FIELDS"""
+		sravanti_object = User.objects.get(username='stekumalla')
+		lily_object = User.objects.get(username='lxie')
+		sravanti_object.save()
+		lily_object.save()
+		lily = Student.objects.get(user=lily_object)
+		sravanti = Student.objects.get(user=sravanti_object)
+		lily.save()
+		sravanti.save()
 
-		# sravanti = Student.objects.get(first_name='sravanti')
-		# print sravanti.primary_major
-		# print sravanti.email
-		# sravanti.email = 'stekumalla@wellesley.edu'
+		self.assertEqual('lxie',lily.user.username)
+		self.assertEqual('stekumalla',sravanti.user.username)
+		self.assertEqual('lxie@wellesley.edu',lily.user.email)
+		self.assertEqual('stekumalla@wellesley.edu',sravanti.user.email)
+		#password should be encrypted
+		self.assertNotEqual('lilypassword',lily.user.password)
+		self.assertNotEqual('sravantipassword',sravanti.user.password)
 
-		# cs111 = Course.objects.filter(code='CS111')[0]
-		# soc108 = Course.objects.filter(code='SOC108')[0]
+		"""TEST USER.NAME"""
+		lily_object.first_name='Lily'
+		lily_object.last_name='Xie'
+		lily_object.save()
+		lily.user = lily_object #why do i need to reassign????
+		lily.save()
 
-		# e1 = Enrollment.objects.create(student=lily, course=cs111, date_taken=datetime.date.today(), rating=5)
-		# e2 = Enrollment.objects.create(student=sravanti,course=cs111,date_taken=datetime.date.today(),rating=5)
+		sravanti_object.first_name='Sravanti'
+		sravanti_object.last_name='Tekumalla'
+		sravanti_object.save()
+		sravanti.user = sravanti_object
+		sravanti.save()
 
-		# cs111.dists.add(Distribution.objects.get(name="Mathematical Modeling"))
-		# print cs111.dists
-		# print lily.courses
-		# print cs111.student_set.all()
+		self.assertEqual('Lily',lily_object.first_name)
+		self.assertEqual('Lily',lily.user.first_name)
+		self.assertEqual('Tekumalla',sravanti_object.last_name)
+		self.assertEqual('Tekumalla',sravanti.user.last_name)
 
-		# lily.qrb_passed = True 
-		# lily.foreign_lang_passed = True
-		# lily.save()
-		# # lily.distributions_todo()
-		# lily.add_course(soc108)
-		# print Enrollment.objects.all()
-		# lily.remove_course(soc108)
+		"""TEST STUDENT FIELDS"""
+		self.assertEqual('ju', lily.class_year)
+		self.assertEqual(1.0, lily.gpa)
+		self.assertEqual(Major.objects.get(name='Computer Science'),lily.primary_major)
+		self.assertFalse(lily.qrb_passed)
 
-		# # Student.add_course(lily, soc108)
+		self.assertEqual(Major.objects.get(name='Sociology'),sravanti.secondary_major)
+		self.assertTrue(sravanti.qrb_passed)
+		#still need to test nullable fields
 
-		# # for c in Course.objects.order_by('id'):
-		# # 	print (c.code)
-		# lily.save()
-		# sravanti.save()
-		# cs111.save()
-		# soc108.save()
+		"""TEST ADDING AND REMOVING COURSES"""
+		astr206=Course.objects.filter(code='ASTR206')[0] #qr
+		cs307=Course.objects.filter(code='CS307')[0] #300 level
+		writ170=Course.objects.filter(code='WRIT170')[0] #fyw
+		amst268=Course.objects.filter(code='AMST268')[0] #lang and lit
+		arth100=Course.objects.filter(code='ARTH100')[0] #arts
+		soc108=Course.objects.filter(code='SOC108')[0] #sba
+		cs322=Course.objects.filter(code='CS322')[0] #epistemology
+		phil106=Course.objects.filter(code='PHIL106')[0] #epistemology
+		wgst220=Course.objects.filter(code='WGST220')[0] #history
+		cs111=Course.objects.filter(code='CS111')[0] #math
+		astr100=Course.objects.filter(code='ASTR100')[0] #nps
 
+		lily.add_course(astr206)
+		lily.add_course(cs307)
+		lily.add_course(writ170)
+		lily.add_course(amst268)
+		lily.add_course(arth100)
+		lily.add_course(soc108)
+		lily.add_course(cs322)
+		lily.add_course(phil106)
+		lily.add_course(wgst220)
+		lily.add_course(cs111)
+		lily.add_course(astr100)
+		lily.save()
+		print lily.courses
+		c= Enrollment.objects.filter(student=lily)
+		lily_course_codes=[]
+		for i in c:
+			lily_course_codes.append(i.course.code)
+			print i.course.code
 
-class DistributionTester(TestCase):
-	fixtures = ['initial_data_dump.json']
+		lily_courses=[]
+		for c in lily_course_codes:
+			print c 
+			lily_courses.append(Course.objects.filter(code=c)[0])
 
+		for c in lily_courses:
+			print c.name
 
-	def setUp(self):
-		Distribution.objects.create(name='mm')
-		Distribution.objects.create(name='sba')
-		Course.objects.create(code='cs111',name='Intro CS',time='1:00',
-			date='MF',prof='rhys',prof_site='blah')
-		Course.objects.create(code='soc100',name='Intro Soc',time='1:00',
-			date='MF',prof='x',prof_site='blah')
+		
 
-	def test(self):
-		mm = Distribution.objects.get(name='mm')
-		sba = Distribution.objects.get(name='sba')
-		cs111 = Course.objects.get(code='cs111')
-		soc100 = Course.objects.get(code='soc100')
-		cs111.dists.add(mm)
-		soc100.dists.add(sba)
+# class CourseTester(TestCase):
+# 	fixtures=['initial_data_dump.json']
+# 	def setUp(self):
+# 		Course.objects.create(
+# 			code='test100',
+# 			dept='Computer Science',
+# 			name='Amen 2 Testing',
+# 			time='1:00-4:00PM',
+# 			date='TF',
+# 			prof='Meek Mill',
+# 			prof_site='When they test me i just pee rose',
+# 			# dists=Distribution.objects.get(id=14)
+# 			)
+# 		Course.objects.create(
+# 			code='test300',
+# 			dept='Computer Science',
+# 			name='3hunnatest',
+# 			time='1:00-4:00PM',
+# 			date='TF',
+# 			prof='Dr Sosa',
+# 			prof_site='Bang bang it\'s macaroni time',
+# 			# dists=Distribution.objects.get(id=6)
+# 			)
 
-		courselist = [cs111, soc100]
+# 	def test(self):
+# 		test100=Course.objects.filter(code='test100')[0]
+# 		test300=Course.objects.filter(code='test300')[0]
+# 		# test100.dists=Distribution.objects.get(id=14)
 
-		self.assertTrue(mm.is_fulfilled_by(cs111))
-		self.assertTrue(sba.is_fulfilled_by(soc100))
-		self.assertFalse(mm.is_fulfilled_by(soc100))
-		self.assertFalse(sba.is_fulfilled_by(cs111))
 
 
 
