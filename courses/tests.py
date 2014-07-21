@@ -1,10 +1,3 @@
-"""
-This file demonstrates writing tests using the unittest module. These will pass
-when you run "manage.py test".
-
-Replace this with more appropriate tests for your application.
-"""
-
 from django.utils import unittest
 from django.test import TestCase
 # from test_utils import 
@@ -109,22 +102,34 @@ class StudentTester(TestCase):
 		lily.add_course(astr100)
 		lily.save()
 		print lily.courses
-		c= Enrollment.objects.filter(student=lily)
-		lily_course_codes=[]
-		for i in c:
-			lily_course_codes.append(i.course.code)
-			print i.course.code
-
-		lily_courses=[]
-		for c in lily_course_codes:
-			print c 
-			lily_courses.append(Course.objects.filter(code=c)[0])
-
-		for c in lily_courses:
-			print c.name
-
 		
 
+		""" TEST COMMENTS """
+		good_comment = Comment.objects.create(
+			comment_text = "yay this course rocks my socks off!",
+			comment_author = lily
+			)
+		mediocre_comment = Comment.objects.create(
+			comment_text = "eh, this course could have been better. maybe if i didn't fall asleep in class each day...",
+			comment_author = sravanti
+			)
+		bad_comment = Comment.object.create(
+			comment_text = "this course sucked. never again, never again.",
+			comment_author = lily
+			)
+		
+		good_comment.save()
+		mediocre_comment.save()
+		bad_comment.save()
+
+		cs111.comments_set.add(good_comment)
+		cs307.comments_set.add(mediocre_comment)
+		cs307.comments_set.add(bad_comment)
+		
+		print cs111.comments_set.all()
+		print cs307.comments_set.all()
+		
+			
 # class CourseTester(TestCase):
 # 	fixtures=['initial_data_dump.json']
 # 	def setUp(self):
@@ -137,6 +142,7 @@ class StudentTester(TestCase):
 # 			prof='Meek Mill',
 # 			prof_site='When they test me i just pee rose',
 # 			# dists=Distribution.objects.get(id=14)
+
 # 			)
 # 		Course.objects.create(
 # 			code='test300',
@@ -156,4 +162,8 @@ class StudentTester(TestCase):
 
 
 
-
+class CommentTester(TestCase):
+	def setUp(self):
+		Comment.objects.create(
+			comment_text = "this course rocks!"
+			comment_author = 
