@@ -205,8 +205,10 @@ class Course(models.Model):
     date = models.CharField(max_length=200) #i.e. TF
     prof = models.CharField(max_length=200)
     prof_site = models.CharField(max_length=200) #link to professor's website (comes on course browser)
-    comments = models.TextField(null=True, blank=True)
     dists = models.ManyToManyField(Distribution)
+    offered_in_fall = models.BooleanField()
+    offered_in_spring = models.BooleanField()
+    comments = models.ForeignKey('Comment')
     # A corrolary to dists, to keep track of which majors each course counts toward
     # majors = models.ManyToManyField(Major)
 
@@ -249,32 +251,28 @@ class Student(models.Model):
     major_requirements_completed = models.BooleanField(default=False)
     distribution_requirements_completed = models.BooleanField(default=False)
     gpa = models.FloatField(default=2.0, null=True)
-    courses = models.ManyToManyField('Course', through='Enrollment', null=True)
+    courses = models.ManyToManyField('Course', null=True)
     qrb_passed = models.BooleanField(default=False) #if they passed the QR assessment
     foreign_lang_passed = models.BooleanField(default=False) #if they passed the foreign lang requirement
 
     def __unicode__(self):
         return self.user.username
-
+	
     def add_course(self, course):
         if course not in self.courses.all():
-            enrollment = Enrollment(
-                student=self,
-                course=course,
-                date_taken=None,
-                rating=None
-                )
-            return enrollment.save()
+			self.courses.add(course)
+			courses.save()
+		# Course is already in student's list; don't add
         else:
             return None
 
     def remove_course(self, course):
-        enrollment=Enrollment.objects.get(
-            student=self,
-            course=course
-            )
-        return enrollment.delete()
-
+		if course in self.courses.all():
+			self.courses.remove(course)
+			courses.save()
+		else:
+		#Courses isn't in the student's list
+			raise Exception('Course not in studen\'s list')
 	
 	# def distributions_todo(self):
 	# # I'm thinking Distributions, courses and all our long lists will be in a SQL table
@@ -364,8 +362,7 @@ class Course_Bucket(models.Model):
 """
 Major ok
 """
-class Major(models.Model):
-    
+class Major(models.Model):   
     MAJORS = [
         (AFR, 'Africana Studies'),
         (AMST, 'American Studies'),
@@ -424,6 +421,10 @@ class Major(models.Model):
     ]
 
     name = models.CharField(max_length=200, choices=MAJORS, default=UND)
+	# Checks whether this is a major or minor.
+	# Because majors and minors have the same structure, 
+	# Add boolean to differentiate
+    is_minor = models.BooleanField()
 
     def __unicode__(self):
         return self.name
@@ -464,55 +465,9 @@ class Major(models.Model):
             return False
 
 
-#intermediaries 
-
-class Enrollment(models.Model):
-    ONE_STAR = "ONE_STAR"
-    TWO_STARS = "TWO_STARS"
-    THREE_STARS = "THREE_STARS"
-    FOUR_STARS = "FOUR_STARS"
-    FIVE_STARS = "FIVE_STARS"
-
-    RATINGS = [
-        (ONE_STAR, 1),
-        (TWO_STARS, 2),
-        (THREE_STARS, 3),
-        (FOUR_STARS, 4),
-        (FIVE_STARS, 5)
-    ]
-    """
-	SEMESTER_LIST = [
-		'FALL 2010',
-		'SPRING 2011',
-		'FALL 2011',
-		'SPRING 2012',
-		'FALL 2012',
-		'SPRING 2013',
-		'FALL 2013',
-		'SPRING 2014',
-		'FALL 2014',
-		'SPRING 2015',
-		'FALL 2015',
-		'SPRING 2016',
-		'FALL 2016',
-		'SPRING 2017',
-		'FALL 2017',
-		'SPRING 2018',
-		'FALL 2018',
-		'SPRING 2019',
-		'FALL 2019',
-		'SPRING 2020',
-	]
-    """
-    student = models.ForeignKey(Student)
-    course = models.ForeignKey(Course)
-    date_taken = models.CharField(max_length=200, null=True, blank=True)
-    rating = models.IntegerField(choices=RATINGS, null=True, blank=True)
-	
-    class Meta:
-		unique_together = [('student', 'course')]
-
-    #TODO: Figure out how to represent courses in models
+class Comment(models.Model):
+	comment_text = models.CharField(max_length=10000, null=True, blank=True)
+	comment_author = models.ForeignKey('Student')
 
 #for user auth
 class UserProfile(models.Model):
