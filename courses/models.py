@@ -208,7 +208,6 @@ class Course(models.Model):
     dists = models.ManyToManyField(Distribution)
     offered_in_fall = models.BooleanField()
     offered_in_spring = models.BooleanField()
-    comments = models.ForeignKey('Comment')
     # A corrolary to dists, to keep track of which majors each course counts toward
     # majors = models.ManyToManyField(Major)
 
@@ -468,6 +467,7 @@ class Major(models.Model):
 class Comment(models.Model):
 	comment_text = models.CharField(max_length=10000, null=True, blank=True)
 	comment_author = models.ForeignKey('Student')
+	course = models.ForeignKey('Course')
 
 #for user auth
 class UserProfile(models.Model):
