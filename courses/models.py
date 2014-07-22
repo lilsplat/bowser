@@ -206,8 +206,8 @@ class Course(models.Model):
     prof = models.CharField(max_length=200)
     prof_site = models.CharField(max_length=200) #link to professor's website (comes on course browser)
     dists = models.ManyToManyField(Distribution)
-    offered_in_fall = models.BooleanField()
-    offered_in_spring = models.BooleanField()
+    # offered_in_fall = models.BooleanField()
+    # offered_in_spring = models.BooleanField()
     # A corrolary to dists, to keep track of which majors each course counts toward
     # majors = models.ManyToManyField(Major)
 

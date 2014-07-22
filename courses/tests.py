@@ -2,7 +2,7 @@ from django.utils import unittest
 from django.test import TestCase
 # from test_utils import 
 from django.contrib.auth.models import User
-from courses.models import Course, Student, Distribution, Major, Enrollment
+from courses.models import Course, Student, Distribution, Major
 import datetime
 
 
@@ -17,7 +17,7 @@ class StudentTester(TestCase):
 			class_year='ju',
 			primary_major=Major.objects.get(name='Computer Science'),
 			gpa=1.0,
-			qrb_passed=False
+			qrb_passed=False,
 			# foreign_lang_passed=False
 			)
 		Student.objects.create(
@@ -25,11 +25,12 @@ class StudentTester(TestCase):
 			primary_major=Major.objects.get(name='Computer Science'),
 			secondary_major=Major.objects.get(name='Sociology'),
 			gpa=1.0,
-			qrb_passed=True
+			qrb_passed=True,
 			# foreign_lang_passed=False
 			)
 
 	def test(self):
+
 		"""TEST USER FIELDS"""
 		sravanti_object = User.objects.get(username='stekumalla')
 		lily_object = User.objects.get(username='lxie')
@@ -162,8 +163,8 @@ class StudentTester(TestCase):
 
 
 
-class CommentTester(TestCase):
-	def setUp(self):
-		Comment.objects.create(
-			comment_text = "this course rocks!"
-			comment_author = 
+# class CommentTester(TestCase):
+# 	def setUp(self):
+# 		Comment.objects.create(
+# 			comment_text = "this course rocks!"
+# 			comment_author = 
