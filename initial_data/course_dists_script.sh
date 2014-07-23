@@ -1,5 +1,5 @@
 # course_dists_script.sh
-
+# NB: THIS SCRIPT MUST BE RUN WHERE BOWSER_DB IS
 echo "The script starts now"
 echo "Hi, $USER!"
 echo

@@ -7,7 +7,7 @@ import datetime
 
 
 class StudentTester(TestCase):
-	fixtures = ['initial_data_dump.json']
+	fixtures = ['initial_data_dump_072214.json']
 
 	def setUp(self):
 		lx_user=User.objects.create_user('lxie','lxie@wellesley.edu','lilypassword')
@@ -103,32 +103,41 @@ class StudentTester(TestCase):
 		lily.add_course(astr100)
 		lily.save()
 		print lily.courses
+
+		tester=Course.objects.filter(code='AFR201')[0]
+		t2=Course.objects.filter(code='AFR208')[0]
+		t3=Course.objects.filter(code='CS111')[0]
+		print tester.dists.all()
+		print t2.dists.all()
+		print t3.dists.all()
+
+
 		
 
-		""" TEST COMMENTS """
-		good_comment = Comment.objects.create(
-			comment_text = "yay this course rocks my socks off!",
-			comment_author = lily
-			)
-		mediocre_comment = Comment.objects.create(
-			comment_text = "eh, this course could have been better. maybe if i didn't fall asleep in class each day...",
-			comment_author = sravanti
-			)
-		bad_comment = Comment.object.create(
-			comment_text = "this course sucked. never again, never again.",
-			comment_author = lily
-			)
+		# """ TEST COMMENTS """
+		# good_comment = Comment.objects.create(
+		# 	comment_text = "yay this course rocks my socks off!",
+		# 	comment_author = lily
+		# 	)
+		# mediocre_comment = Comment.objects.create(
+		# 	comment_text = "eh, this course could have been better. maybe if i didn't fall asleep in class each day...",
+		# 	comment_author = sravanti
+		# 	)
+		# bad_comment = Comment.object.create(
+		# 	comment_text = "this course sucked. never again, never again.",
+		# 	comment_author = lily
+		# 	)
 		
-		good_comment.save()
-		mediocre_comment.save()
-		bad_comment.save()
+		# good_comment.save()
+		# mediocre_comment.save()
+		# bad_comment.save()
 
-		cs111.comments_set.add(good_comment)
-		cs307.comments_set.add(mediocre_comment)
-		cs307.comments_set.add(bad_comment)
+		# cs111.comments_set.add(good_comment)
+		# cs307.comments_set.add(mediocre_comment)
+		# cs307.comments_set.add(bad_comment)
 		
-		print cs111.comments_set.all()
-		print cs307.comments_set.all()
+		# print cs111.comments_set.all()
+		# print cs307.comments_set.all()
 		
 			
 # class CourseTester(TestCase):
