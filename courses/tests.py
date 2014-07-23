@@ -145,37 +145,82 @@ class StudentTester(TestCase):
 		
 		print cs111.rating_set.all()
 		print cs307.rating_set.all()
+		print lily.rating_set.all()[0].comment_text
 		
 			
-# class CourseTester(TestCase):
-# 	fixtures=['initial_data_dump.json']
-# 	def setUp(self):
-# 		Course.objects.create(
-# 			code='test100',
-# 			dept='Computer Science',
-# 			name='Amen 2 Testing',
-# 			time='1:00-4:00PM',
-# 			date='TF',
-# 			prof='Meek Mill',
-# 			prof_site='When they test me i just pee rose',
-# 			# dists=Distribution.objects.get(id=14)
+class CourseTester(TestCase):
+	fixtures=['initial_data_dump_072214.json']
 
-# 			)
-# 		Course.objects.create(
-# 			code='test300',
-# 			dept='Computer Science',
-# 			name='3hunnatest',
-# 			time='1:00-4:00PM',
-# 			date='TF',
-# 			prof='Dr Sosa',
-# 			prof_site='Bang bang it\'s macaroni time',
-# 			# dists=Distribution.objects.get(id=6)
-# 			)
+	def setUp(self):
+		Course.objects.create(
+			code='test100',
+			dept='Computer Science',
+			name='Amen 2 Testing',
+			time='1:00-4:00PM',
+			date='TF',
+			prof='Meek Mill',
+			prof_site='When they test me i just pee rose'
+			# offered_in_fall=True,
+			# offered_in_spring=False
+			)
+		Course.objects.create(
+			code='test300',
+			dept='Computer Science',
+			name='3hunnatest',
+			time='1:00-4:00PM',
+			date='TF',
+			prof='Dr Sosa',
+			prof_site='Bang bang it\'s macaroni time'
+			# offered_in_fall=True,
+			# offered_in_spring=False
+			)
+		Course.objects.create(
+			code='test200',
+			dept='Computer Science',
+			name='blah',
+			time='9:50-11:00AM',
+			date='TF',
+			prof='Dr Sosa',
+			prof_site='Bang bang it\'s macaroni time'
+			# offered_in_fall=True,
+			# offered_in_spring=False
+			)
 
-# 	def test(self):
-# 		test100=Course.objects.filter(code='test100')[0]
-# 		test300=Course.objects.filter(code='test300')[0]
-# 		# test100.dists=Distribution.objects.get(id=14)
+	def test(self):
+		"""INITIALIZE"""
+		test100=Course.objects.filter(code='test100')[0]
+		test200=Course.objects.filter(code='test200')[0] #solely for testing conflicts
+		test300=Course.objects.filter(code='test300')[0]
+		test100.dists.add(Distribution.objects.get(id=14))
+		test100.dists.add(Distribution.objects.get(id=16))
+		test300.dists.add(Distribution.objects.get(id=14))
+		test300.dists.add(Distribution.objects.get(id=16))
+		test300.dists.add(Distribution.objects.get(id=6))
+		test100.save()
+		test300.save()
+		test200.save()
+
+		"""TEST FIELDS"""
+		self.assertEqual('test100',test100.code)
+		self.assertEqual('Computer Science',test300.dept)
+		self.assertEqual('3hunnatest',test300.name)
+		self.assertEqual('1:00-4:00PM',test100.time)
+		self.assertEqual('TF',test300.date)
+		self.assertEqual('Dr Sosa',test300.prof)
+		self.assertEqual('When they test me i just pee rose',test100.prof_site)
+
+		"""TEST CONFLICTS"""
+		self.assertTrue(test100.conflicts(test300))
+		self.assertTrue(test300.conflicts(test100))
+		self.assertFalse(test100.conflicts(test200))
+		self.assertFalse(test200.conflicts(test300))
+
+
+	# class MajorTester(TestCase):
+	# 	def setUp(self):
+	# 		cs=Major.objects.get
+
+
 
 
 
