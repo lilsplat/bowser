@@ -8,23 +8,19 @@ from django.db import models
 class Migration(SchemaMigration):
 
     def forwards(self, orm):
-        # Deleting field 'Course.offered_in_spring'
-        db.delete_column(u'courses_course', 'offered_in_spring')
-
-        # Deleting field 'Course.offered_in_fall'
-        db.delete_column(u'courses_course', 'offered_in_fall')
+        # Deleting model 'Rating'
+        db.delete_table(u'courses_rating')
 
 
     def backwards(self, orm):
-        # Adding field 'Course.offered_in_spring'
-        db.add_column(u'courses_course', 'offered_in_spring',
-                      self.gf('django.db.models.fields.BooleanField')(default=''),
-                      keep_default=False)
-
-        # Adding field 'Course.offered_in_fall'
-        db.add_column(u'courses_course', 'offered_in_fall',
-                      self.gf('django.db.models.fields.BooleanField')(default=''),
-                      keep_default=False)
+        # Adding model 'Rating'
+        db.create_table(u'courses_rating', (
+            ('course', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['courses.Course'], null=True, blank=True)),
+            ('comment_author', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['courses.Student'], null=True, blank=True)),
+            ('comment_text', self.gf('django.db.models.fields.CharField')(max_length=10000, null=True, blank=True)),
+            (u'id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
+        ))
+        db.send_create_signal(u'courses', ['Rating'])
 
 
     models = {
@@ -64,21 +60,16 @@ class Migration(SchemaMigration):
             'model': ('django.db.models.fields.CharField', [], {'max_length': '100'}),
             'name': ('django.db.models.fields.CharField', [], {'max_length': '100'})
         },
-        u'courses.comment': {
-            'Meta': {'object_name': 'Comment'},
-            'comment_author': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['courses.Student']"}),
-            'comment_text': ('django.db.models.fields.CharField', [], {'max_length': '10000', 'null': 'True', 'blank': 'True'}),
-            u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'})
-        },
         u'courses.course': {
             'Meta': {'ordering': "['name']", 'object_name': 'Course'},
             'code': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
-            'comments': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['courses.Comment']"}),
             'date': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
             'dept': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
             'dists': ('django.db.models.fields.related.ManyToManyField', [], {'to': u"orm['courses.Distribution']", 'symmetrical': 'False'}),
             u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'name': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
+            'offered_in_fall': ('django.db.models.fields.BooleanField', [], {'default': 'True'}),
+            'offered_in_spring': ('django.db.models.fields.BooleanField', [], {'default': 'False'}),
             'prof': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
             'prof_site': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
             'time': ('django.db.models.fields.CharField', [], {'max_length': '200'})
@@ -97,7 +88,7 @@ class Migration(SchemaMigration):
         u'courses.major': {
             'Meta': {'object_name': 'Major'},
             u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
-            'is_minor': ('django.db.models.fields.BooleanField', [], {}),
+            'is_minor': ('django.db.models.fields.BooleanField', [], {'default': 'False'}),
             'name': ('django.db.models.fields.CharField', [], {'default': "'Undecided'", 'max_length': '200'})
         },
         u'courses.student': {
