@@ -24,6 +24,7 @@ for chunk in all_courses:
 		d.append(4)
 	if "Lab" in course[6]:
 		d.append(5)
+	#ALSO AHVE TO CHECK POL13...
 	if 3==int(float(re.search('[0-9,-]',course[0]).group())):
 		if not "POL31" in course[0] and not "POL32" in course[0]:
 			d.append(6)

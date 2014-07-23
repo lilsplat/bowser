@@ -121,7 +121,9 @@ for chunk in read_data:
       f.write("      \"time\": \"" + chunk.pop(0) + "\",\n")
       f.write("      \"date\": \"" + chunk.pop(0) + "\",\n")
       f.write("      \"prof\": \"" + chunk.pop(0) + "\",\n")
-      f.write("      \"prof_site\": \"" + chunk.pop(0) + "\"\n")
+      f.write("      \"prof_site\": \"" + chunk.pop(0) + "\",\n")
+      f.write("      \"offered_in_fall\": true,\n")
+      f.write("      \"offered_in_spring\": false\n")
       f.write("    }\n")
       f.write("  },\n")
       x += 1

@@ -25,7 +25,8 @@ class Migration(SchemaMigration):
             ('date', self.gf('django.db.models.fields.CharField')(max_length=200)),
             ('prof', self.gf('django.db.models.fields.CharField')(max_length=200)),
             ('prof_site', self.gf('django.db.models.fields.CharField')(max_length=200)),
-            ('comments', self.gf('django.db.models.fields.TextField')(null=True, blank=True)),
+            ('offered_in_fall', self.gf('django.db.models.fields.BooleanField')(default=True)),
+            ('offered_in_spring', self.gf('django.db.models.fields.BooleanField')(default=False)),
         ))
         db.send_create_signal(u'courses', ['Course'])
 
@@ -53,6 +54,15 @@ class Migration(SchemaMigration):
         ))
         db.send_create_signal(u'courses', ['Student'])
 
+        # Adding M2M table for field courses on 'Student'
+        m2m_table_name = db.shorten_name(u'courses_student_courses')
+        db.create_table(m2m_table_name, (
+            ('id', models.AutoField(verbose_name='ID', primary_key=True, auto_created=True)),
+            ('student', models.ForeignKey(orm[u'courses.student'], null=False)),
+            ('course', models.ForeignKey(orm[u'courses.course'], null=False))
+        ))
+        db.create_unique(m2m_table_name, ['student_id', 'course_id'])
+
         # Adding model 'Course_Bucket'
         db.create_table(u'courses_course_bucket', (
             (u'id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
@@ -73,21 +83,9 @@ class Migration(SchemaMigration):
         db.create_table(u'courses_major', (
             (u'id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
             ('name', self.gf('django.db.models.fields.CharField')(default='Undecided', max_length=200)),
+            ('is_minor', self.gf('django.db.models.fields.BooleanField')(default=False)),
         ))
         db.send_create_signal(u'courses', ['Major'])
-
-        # Adding model 'Enrollment'
-        db.create_table(u'courses_enrollment', (
-            (u'id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
-            ('student', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['courses.Student'])),
-            ('course', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['courses.Course'])),
-            ('date_taken', self.gf('django.db.models.fields.CharField')(max_length=200, null=True, blank=True)),
-            ('rating', self.gf('django.db.models.fields.IntegerField')(null=True, blank=True)),
-        ))
-        db.send_create_signal(u'courses', ['Enrollment'])
-
-        # Adding unique constraint on 'Enrollment', fields ['student', 'course']
-        db.create_unique(u'courses_enrollment', ['student_id', 'course_id'])
 
         # Adding model 'UserProfile'
         db.create_table(u'courses_userprofile', (
@@ -99,9 +97,6 @@ class Migration(SchemaMigration):
 
 
     def backwards(self, orm):
-        # Removing unique constraint on 'Enrollment', fields ['student', 'course']
-        db.delete_unique(u'courses_enrollment', ['student_id', 'course_id'])
-
         # Deleting model 'Distribution'
         db.delete_table(u'courses_distribution')
 
@@ -114,6 +109,9 @@ class Migration(SchemaMigration):
         # Deleting model 'Student'
         db.delete_table(u'courses_student')
 
+        # Removing M2M table for field courses on 'Student'
+        db.delete_table(db.shorten_name(u'courses_student_courses'))
+
         # Deleting model 'Course_Bucket'
         db.delete_table(u'courses_course_bucket')
 
@@ -122,9 +120,6 @@ class Migration(SchemaMigration):
 
         # Deleting model 'Major'
         db.delete_table(u'courses_major')
-
-        # Deleting model 'Enrollment'
-        db.delete_table(u'courses_enrollment')
 
         # Deleting model 'UserProfile'
         db.delete_table(u'courses_userprofile')
@@ -170,12 +165,13 @@ class Migration(SchemaMigration):
         u'courses.course': {
             'Meta': {'ordering': "['name']", 'object_name': 'Course'},
             'code': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
-            'comments': ('django.db.models.fields.TextField', [], {'null': 'True', 'blank': 'True'}),
             'date': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
             'dept': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
             'dists': ('django.db.models.fields.related.ManyToManyField', [], {'to': u"orm['courses.Distribution']", 'symmetrical': 'False'}),
             u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'name': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
+            'offered_in_fall': ('django.db.models.fields.BooleanField', [], {'default': 'True'}),
+            'offered_in_spring': ('django.db.models.fields.BooleanField', [], {'default': 'False'}),
             'prof': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
             'prof_site': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
             'time': ('django.db.models.fields.CharField', [], {'max_length': '200'})
@@ -191,23 +187,16 @@ class Migration(SchemaMigration):
             u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'name': ('django.db.models.fields.CharField', [], {'default': "'NONE'", 'max_length': '200'})
         },
-        u'courses.enrollment': {
-            'Meta': {'unique_together': "[('student', 'course')]", 'object_name': 'Enrollment'},
-            'course': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['courses.Course']"}),
-            'date_taken': ('django.db.models.fields.CharField', [], {'max_length': '200', 'null': 'True', 'blank': 'True'}),
-            u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
-            'rating': ('django.db.models.fields.IntegerField', [], {'null': 'True', 'blank': 'True'}),
-            'student': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['courses.Student']"})
-        },
         u'courses.major': {
             'Meta': {'object_name': 'Major'},
             u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
+            'is_minor': ('django.db.models.fields.BooleanField', [], {'default': 'False'}),
             'name': ('django.db.models.fields.CharField', [], {'default': "'Undecided'", 'max_length': '200'})
         },
         u'courses.student': {
             'Meta': {'object_name': 'Student'},
             'class_year': ('django.db.models.fields.CharField', [], {'default': "'fy'", 'max_length': '200'}),
-            'courses': ('django.db.models.fields.related.ManyToManyField', [], {'to': u"orm['courses.Course']", 'null': 'True', 'through': u"orm['courses.Enrollment']", 'symmetrical': 'False'}),
+            'courses': ('django.db.models.fields.related.ManyToManyField', [], {'to': u"orm['courses.Course']", 'null': 'True', 'symmetrical': 'False'}),
             'distribution_requirements_completed': ('django.db.models.fields.BooleanField', [], {'default': 'False'}),
             'foreign_lang_passed': ('django.db.models.fields.BooleanField', [], {'default': 'False'}),
             'gpa': ('django.db.models.fields.FloatField', [], {'default': '2.0', 'null': 'True'}),
