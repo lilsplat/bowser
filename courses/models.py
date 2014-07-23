@@ -206,13 +206,13 @@ class Course(models.Model):
     prof = models.CharField(max_length=200)
     prof_site = models.CharField(max_length=200) #link to professor's website (comes on course browser)
     dists = models.ManyToManyField(Distribution)
-    # offered_in_fall = models.BooleanField()
-    # offered_in_spring = models.BooleanField()
+    offered_in_fall = models.BooleanField(default=True)#temporary for fall2014
+    offered_in_spring = models.BooleanField(default=False)
     # A corrolary to dists, to keep track of which majors each course counts toward
     # majors = models.ManyToManyField(Major)
 
     def __unicode__(self):
-        return course.code
+        return self.code
 
     #students can be accessed through Course.student_set
 
@@ -260,7 +260,7 @@ class Student(models.Model):
     def add_course(self, course):
         if course not in self.courses.all():
 			self.courses.add(course)
-			courses.save()
+			self.save()
 		# Course is already in student's list; don't add
         else:
             return None
@@ -268,7 +268,7 @@ class Student(models.Model):
     def remove_course(self, course):
 		if course in self.courses.all():
 			self.courses.remove(course)
-			courses.save()
+			self.save()
 		else:
 		#Courses isn't in the student's list
 			raise Exception('Course not in studen\'s list')
@@ -423,7 +423,7 @@ class Major(models.Model):
 	# Checks whether this is a major or minor.
 	# Because majors and minors have the same structure, 
 	# Add boolean to differentiate
-    is_minor = models.BooleanField()
+    is_minor = models.BooleanField(default=False)
 
     def __unicode__(self):
         return self.name
@@ -464,10 +464,10 @@ class Major(models.Model):
             return False
 
 
-class Comment(models.Model):
-	comment_text = models.CharField(max_length=10000, null=True, blank=True)
-	comment_author = models.ForeignKey('Student')
-	course = models.ForeignKey('Course')
+# class Rating(models.Model):
+#     comment_text = models.CharField(max_length=10000, null=True, blank=True)
+#     comment_author = models.ForeignKey('Student',blank=True,null=True)
+#     course = models.ForeignKey('Course',blank=True,null=True)
 
 #for user auth
 class UserProfile(models.Model):
