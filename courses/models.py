@@ -138,23 +138,7 @@ Distribution todo:
 - otherwise working
 """
 class Distribution(models.Model):
-    DISTRIBUTIONS = [
-        (AMTFV, "Arts, Music, Theatre, Film, Video"),
-        (EC, "Epistemology and Cognition"),
-        (HS, "Historical Studies"),
-        (LL, "Language and Literature"),
-        (MM, "Mathematical Modeling"),
-        (NPS, "Natural and Physical Sciences"),
-        (QRB, "QRB"), #basic QR
-        (QRF, "QRF"), #QR requirement
-        (REMP, "Religion, Ethics, and Moral Philosophy"),
-        (SBA, "Social and Behavioral Analysis"),
-        (NONE, "None"),
-        (LAB, "Lab"),
-        (FYS, "First Year Seminar"),
-    ]
-
-    name = models.CharField(max_length=200, choices=DISTRIBUTIONS, default=NONE)
+    name = models.CharField(max_length=200, default=NONE)
     #courses ok can be accessed by Distribution.course_set
 
     def __unicode__(self):
@@ -360,65 +344,8 @@ class Course_Bucket(models.Model):
 """
 Major ok
 """
-class Major(models.Model):   
-    MAJORS = [
-        (AFR, 'Africana Studies'),
-        (AMST, 'American Studies'),
-        (ANTH, 'Anthropology'),
-        (ART, 'Art'),
-        (ASTR, 'Astronomy'),
-        (BIOC, 'Biological Chemistry'),
-        (BISC, 'Biological Sciences'),
-        (CAMS, 'Cinema and Media Studies'),
-        (CHEM, 'Chemistry'),
-        (CLSC, 'Cognitive and Linguistic Sciences'),
-        (CLST, 'Classical Studies'),
-        (CPLT, 'Comparative Literature'),
-        (CS, 'Computer Science'),
-        (EALC, 'East Asian Languages and Cultures'),
-        (ECON, 'Economics'),
-        (EDUC, 'Education'),
-        (ENG, 'English'),
-        (ES, 'Environmental Studies'),
-        (FREN, 'French'),
-        (GEOS, 'Geosciences'),
-        (GER, 'German'),
-        (HIST, 'History'),
-        (ITST, 'Italian Studies'),
-        (JWST, 'Jewish Studies'),
-        (MATH, 'Mathematics'),
-        (MER, 'Medieval Renaissance Studies'),
-        (MES, 'Middle Eastern Studies'),
-        (MUS, 'Music'),
-        (NEUR, 'Neuroscience'),
-        (PE, 'Physical Education'),
-        (PEAC, 'Peace and Justice Studies'),
-        (PHIL, 'Philosophy'),
-        (PHYS, 'Physics'),
-        (POLS, 'Political Science'),
-        (PSYC, 'Psychology'),
-        (QR, 'Quantitative Reasoning'),
-        (REL, 'Religion'),
-        (RUSS, 'Russian'),
-        (SAS, 'South Asia Studies'),
-        (SOC, 'Sociology'),
-        (SPAN, 'Spanish'),
-        (THST, 'Theatre Studies'),
-        (WGST, 'Women and Gender Studies'),
-        (WRIT, 'Writing'),
-        (OTHER, 'Other'),
-        (UND, 'Undecided'),
-        #??? multidisciplinary/other majors and minors??
-        (MES, 'Middle Eastern Studies'),
-        (ARTH, 'Art History'),
-        (ARTS, 'Studio Art'),
-        (EALL, 'East Asian Language and Literature'),
-        (CLCV, 'Classical Studies'),
-        (HEBR, 'Jewish Studies'),
-        (ITAS, 'Italian Studies')
-    ]
-
-    name = models.CharField(max_length=200, choices=MAJORS, default=UND)
+class Major(models.Model):
+    name = models.CharField(max_length=200, default=UND)
 	# Checks whether this is a major or minor.
 	# Because majors and minors have the same structure, 
 	# Add boolean to differentiate
@@ -476,14 +403,4 @@ class Rating(models.Model):
     comment_text = models.CharField(max_length=10000)
     comment_author = models.ForeignKey('Student')
     comment_course = models.ForeignKey('Course')
-
-
-# class Rating(models.Model):
-#     comment_text = models.CharField(max_length=10000, null=True, blank=True)
-#     comment_author = models.ForeignKey('Student',blank=True,null=True)
-#     course = models.ForeignKey('Course',blank=True,null=True)
-
-
-# class Rating(models.Model):
-#     comment_text=models.CharField(max_length=10000,null=True,blank=True)
 
