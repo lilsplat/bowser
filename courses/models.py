@@ -132,7 +132,6 @@ ITAS = "ITAS"
 
 
 
-
 """
 Distribution todo:
 - still working toward a better distribution model...how to correctly represent fulfillment of distribution??
@@ -464,11 +463,6 @@ class Major(models.Model):
             return False
 
 
-# class Rating(models.Model):
-#     comment_text = models.CharField(max_length=10000, null=True, blank=True)
-#     comment_author = models.ForeignKey('Student',blank=True,null=True)
-#     course = models.ForeignKey('Course',blank=True,null=True)
-
 #for user auth
 class UserProfile(models.Model):
     # Links UserProfile to a User model instance.
@@ -477,3 +471,19 @@ class UserProfile(models.Model):
     email_verified = models.BooleanField()
     def __unicode__(self):
         return self.user.username
+
+class Rating(models.Model):
+    comment_text = models.CharField(max_length=10000)
+    comment_author = models.ForeignKey('Student')
+    comment_course = models.ForeignKey('Course')
+
+
+# class Rating(models.Model):
+#     comment_text = models.CharField(max_length=10000, null=True, blank=True)
+#     comment_author = models.ForeignKey('Student',blank=True,null=True)
+#     course = models.ForeignKey('Course',blank=True,null=True)
+
+
+# class Rating(models.Model):
+#     comment_text=models.CharField(max_length=10000,null=True,blank=True)
+

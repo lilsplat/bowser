@@ -2,7 +2,7 @@ from django.utils import unittest
 from django.test import TestCase
 # from test_utils import 
 from django.contrib.auth.models import User
-from courses.models import Course, Student, Distribution, Major
+from courses.models import Course, Student, Distribution, Major, Rating
 import datetime
 
 
@@ -27,6 +27,21 @@ class StudentTester(TestCase):
 			gpa=1.0,
 			qrb_passed=True,
 			# foreign_lang_passed=False
+			)
+		Rating.objects.create(
+			comment_text = "yay this course rocks my socks off!",
+			comment_author = Student.objects.get(user=lx_user),
+			comment_course=Course.objects.filter(code='CS111')[0]
+			)
+		Rating.objects.create(
+			comment_text = "eh, this course could have been better. maybe if i didn't fall asleep in class each day...",
+			comment_author = Student.objects.get(user=st_user),
+			comment_course=Course.objects.filter(code='CS111')[0]
+			)
+		Rating.objects.create(
+			comment_text = "this course sucked. never again, never again.",
+			comment_author = Student.objects.get(user=lx_user),
+			comment_course=Course.objects.filter(code='CS307')[0]
 			)
 
 	def test(self):
@@ -114,30 +129,22 @@ class StudentTester(TestCase):
 
 		
 
-		# """ TEST COMMENTS """
-		# good_comment = Comment.objects.create(
-		# 	comment_text = "yay this course rocks my socks off!",
-		# 	comment_author = lily
-		# 	)
-		# mediocre_comment = Comment.objects.create(
-		# 	comment_text = "eh, this course could have been better. maybe if i didn't fall asleep in class each day...",
-		# 	comment_author = sravanti
-		# 	)
-		# bad_comment = Comment.object.create(
-		# 	comment_text = "this course sucked. never again, never again.",
-		# 	comment_author = lily
-		# 	)
-		
-		# good_comment.save()
-		# mediocre_comment.save()
-		# bad_comment.save()
+		""" TEST COMMENTS """
+		good_comment=Rating.objects.get(id=1)
+		print good_comment.comment_text
 
-		# cs111.comments_set.add(good_comment)
-		# cs307.comments_set.add(mediocre_comment)
-		# cs307.comments_set.add(bad_comment)
+		mediocre_comment=Rating.objects.get(id=2)
+		print mediocre_comment.comment_text
+
+		bad_comment=Rating.objects.get(id=3)
+		print bad_comment.comment_text
+
+		good_comment.save()
+		mediocre_comment.save()
+		bad_comment.save()
 		
-		# print cs111.comments_set.all()
-		# print cs307.comments_set.all()
+		print cs111.rating_set.all()
+		print cs307.rating_set.all()
 		
 			
 # class CourseTester(TestCase):

@@ -87,15 +87,6 @@ class Migration(SchemaMigration):
         ))
         db.send_create_signal(u'courses', ['Major'])
 
-        # Adding model 'Comment'
-        db.create_table(u'courses_comment', (
-            (u'id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
-            ('comment_text', self.gf('django.db.models.fields.CharField')(max_length=10000, null=True, blank=True)),
-            ('comment_author', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['courses.Student'])),
-            ('course', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['courses.Course'])),
-        ))
-        db.send_create_signal(u'courses', ['Comment'])
-
         # Adding model 'UserProfile'
         db.create_table(u'courses_userprofile', (
             (u'id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
@@ -129,9 +120,6 @@ class Migration(SchemaMigration):
 
         # Deleting model 'Major'
         db.delete_table(u'courses_major')
-
-        # Deleting model 'Comment'
-        db.delete_table(u'courses_comment')
 
         # Deleting model 'UserProfile'
         db.delete_table(u'courses_userprofile')
@@ -173,13 +161,6 @@ class Migration(SchemaMigration):
             u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'model': ('django.db.models.fields.CharField', [], {'max_length': '100'}),
             'name': ('django.db.models.fields.CharField', [], {'max_length': '100'})
-        },
-        u'courses.comment': {
-            'Meta': {'object_name': 'Comment'},
-            'comment_author': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['courses.Student']"}),
-            'comment_text': ('django.db.models.fields.CharField', [], {'max_length': '10000', 'null': 'True', 'blank': 'True'}),
-            'course': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['courses.Course']"}),
-            u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'})
         },
         u'courses.course': {
             'Meta': {'ordering': "['name']", 'object_name': 'Course'},
