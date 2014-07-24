@@ -17,6 +17,6 @@ class StudentProfileForm(forms.ModelForm):
 		model = Student
 		exclude = (
 			'user', 
-			'major_requirements_completes', 
+			'major_requirements_completed', 
 			'distribution_requirements_completed'
 			) 
