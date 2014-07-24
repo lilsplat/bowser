@@ -4,122 +4,135 @@ import scrapy
 from scrapy.selector import Selector 
 from scrapy.http import HtmlResponse
 from bowserbot.items import *
-from courses.models import *
+# from courses.models import *
+import re
 
-
+filewriter=open('browser_spider_test.txt','w+')
 class BrowserSpider(scrapy.Spider):
     name = "browser_spider"
     allowed_domains = ["https://courses.wellesley.edu"]
 
-    start_urls = [
-    #change from /tutorial to /bowserbot
-        "https://courses.wellesley.edu/display_single_course_cb.php?crn=13275&semester=201409&pe_term=&skip_graphics=1&no_navs=1"
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/201409.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/201407", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/201406.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/201402.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/201401.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/201309.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/201307.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/201306.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/201302.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/201301.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/201209.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/201207.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/201206.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/201202.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/201201.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/201109.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/201107.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/201106.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/201102.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/201101.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/201009.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/201007.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/201006.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/201002.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/201001.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200909.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200907.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200906.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200902.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200901.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200809.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200807.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200806.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200802.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200801.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200709.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200707.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200706.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200702.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200701.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200609.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200607.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200606.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200602.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200601.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200509.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200507.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200506.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200502.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200501.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200409.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200407.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200406.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200402.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200401.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200309.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200307.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200306.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200302.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200301.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200209.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200207.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200206.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200202.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200201.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200109.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200107.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200106.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200102.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200101.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200009.txt", 
-        # "file:///Users/lilian/Documents/2014/GitHub/bowser/scrapy/bowserbot/course_browser_htmls/200007"]
+    start_urls=[]
+    filereader=open('course_urls.txt','r')
+    for line in filereader.readlines():
+        start_urls.append(line)
+            
 
-        ]
-
+    # start_urls = [
+    #     # "https://courses.wellesley.edu/display_single_course_cb.php?crn=13275&semester=201409&pe_term=&skip_graphics=1&no_navs=1"
+    #     "https://courses.wellesley.edu/display_single_course_cb.php?crn=10219&semester=201409&pe_term=&skip_graphics=1&no_navs=1%0A",
+    #     "https://courses.wellesley.edu/display_single_course_cb.php?crn=13275&semester=201409&pe_term=&skip_graphics=1&no_navs=1"
+    #     ]
 
     def parse(self, response):
-        self.log('A response from %s just arrived!' % response.url)
+        # self.log('A response from %s just arrived!' % response.url)
         for sel in response.xpath('//tbody'):
-            course=sel.xpath('tr[1]/th[2]/text()').extract()
-            crn=sel.xpath('tr[2]/th[2]/text()').extract()
-            title=sel.xpath('tr[3]/th[2]/text()').extract()
-            credit_hours=sel.xpath('tr[4]/th[2]/text()').extract()
-            description=sel.xpath('tr[5]/th[2]/text()').extract()
-            seats_available=sel.xpath('tr[6]/th[2]/text()').extract()
-            max_enrollment=sel.xpath('tr[7]/th[2]/text()').extract()
-            by_permission=sel.xpath('tr[8]/th[2]/text()').extract()
-            prereq=sel.xpath('tr[9]/th[2]/text()').extract()
-            dist=sel.xpath('tr[10]/th[2]/text()').extract()
-            notes=sel.xpath('tr[11]/th[2]/text()').extract()
-            prof=sel.xpath('tr[12]/th[2]/text()').extract()
-            time_and_date=sel.xpath('tr[13]/th[2]/text()').extract()
+            i=1
+
+            course=sel.xpath('tr['+str(i)+']/th[2]/text()').extract()
+            course=self.test_and_pop(course, 'course')
+            course=course.split(' ')
+            course=course[0]+course[1]
+            i+=1
+
+            crn=sel.xpath('tr['+str(i)+']/th[2]/text()').extract()
+            crn=self.test_and_pop(crn, 'crn')
+            i+=1
+
+            title=sel.xpath('tr['+str(i)+']/th[2]/text()').extract()
+            title=self.test_and_pop(title, 'title')
+            i+=1
+
+            credit_hours=sel.xpath('tr['+str(i)+']/th[2]/text()').extract()
+            credit_hours=self.test_and_pop(credit_hours, 'credit hours')
+            i+=1
+
+            #problem with /p/ -- some are, some aren't WHYHYHYYYY
+            description=sel.xpath('tr['+str(i)+']/th[2]/p/text()').extract()
+            description=self.test_and_pop(description, 'description')
+            i+=1
+
+            seats_available=sel.xpath('tr['+str(i)+']/th[2]/text()').extract()
+            seats_available=self.test_and_pop(seats_available, 'seats_available')
+            i+=1
+
+            max_enrollment=sel.xpath('tr['+str(i)+']/th[2]/text()').extract()
+            max_enrollment=self.test_and_pop(max_enrollment, 'max_enrollment')
+            i+=1
+
+            x=sel.xpath('tr['+str(i)+']/th[1]/b/text()').extract()
+            x=self.test_and_pop(x,'x')
+            if x == 'Permission of Instructor':
+                by_permission=sel.xpath('tr['+str(i)+']/th[2]/b/text()').extract()
+                by_permission=self.test_and_pop(by_permission,'by_permission')
+                i+=1
+            else:
+                by_permission='permission of instructor: None assigned'
+
+            prereq=sel.xpath('tr['+str(i)+']/th[2]/text()').extract()
+            prereq=self.test_and_pop(prereq, 'prereq')
+            i+=1
+
+            dist=sel.xpath('tr['+str(i)+']/th[2]/text()').extract()
+            dist=self.test_and_pop(dist, 'dist')
+            i+=1
+
+            x=sel.xpath('tr['+str(i)+']/th[1]/b/text()').extract()
+            x=self.test_and_pop(x,'x')
+            if x == 'Notes':
+                notes=sel.xpath('tr['+str(i)+']/th[2]/b/text()').extract()
+                notes=self.test_and_pop(notes,'notes')
+                i+=1
+            else:
+                notes='Notes: none assigned'
+
+            prof=sel.xpath('tr['+str(i)+']/th[2]/text()').extract()
+            prof=self.test_and_pop(prof, 'prof')
+            i+=1
+
+            time_and_date=sel.xpath('tr['+str(i)+']/th[2]/text()').extract()
+            time_and_date=self.test_and_pop(time_and_date, 'time_and_date')
             
-            print course
-            print crn
-            print title
-            print credit_hours
-            print description
-            print seats_available
-            print max_enrollment
-            print by_permission
-            print prereq
-            print dist
-            print notes
-            print time_and_date
-            print 'end'
+            # print 'course:' + str(course)
+            # print 'crn:' + str(crn)
+            # print 'title:' + str(title)
+            # print 'credit hours:' + str(credit_hours)
+            # print 'description:' + str(description)
+            # print 'seats_available:' + str(seats_available)
+            # print 'max_enrollment:' + str(max_enrollment)
+            # print 'by_permission:' + str(by_permission)
+            # print 'prereq:' + str(prereq)
+            # print 'dist:' + str(dist)
+            # print 'notes:' + str(notes)
+            # print 'time_and_date:' + str(time_and_date)
+            # print 'end'
+            filewriter.write(course.encode("UTF-8") + '\n')
+            filewriter.write(crn.encode("UTF-8") + '\n')
+            filewriter.write(title.encode("UTF-8") + '\n')
+            filewriter.write(credit_hours.encode("UTF-8") + '\n')
+            filewriter.write(description.encode("UTF-8") + '\n')
+            filewriter.write(seats_available.encode("UTF-8") + '\n')
+            filewriter.write(max_enrollment.encode("UTF-8") + '\n')
+            filewriter.write(by_permission.encode("UTF-8") + '\n')
+            filewriter.write(prereq.encode("UTF-8") + '\n')
+            filewriter.write(dist.encode("UTF-8") + '\n')
+            filewriter.write(notes.encode("UTF-8") + '\n')
+            filewriter.write(prof.encode("UTF-8") + '\n')
+            filewriter.write('time and date:')
+            filewriter.write(time_and_date.encode("UTF-8") + '\n')
+            filewriter.write("\n")
+
+    def test_and_pop(self, extracted_list, listname):
+        if len(extracted_list) == 0:
+            return listname + ': None assigned'
+        elif len(extracted_list) == 1:
+            return extracted_list.pop()
+        else:
+            string = extracted_list.pop().strip()
+            for element in extracted_list:
+                string = element.strip() + ',' + string
+            return string
+        
 
 
 """COMMENTED OFF STUFF FROM COURSE_SPIDER BELOW"""
@@ -229,18 +242,6 @@ class BrowserSpider(scrapy.Spider):
 
     #     filewriter.close()
 
-    # def test_and_pop(self, extracted_list):
-    #     if len(extracted_list) == 0:
-    #         return 'None assigned'
-    #     elif len(extracted_list) == 1:
-    #         return extracted_list.pop()
-    #     else:
-    #         string = extracted_list.pop().strip()
-    #         for element in extracted_list:
-    #             string = element.strip() + ',' + string
-    #         # print string
-    #         return string
-        
 
 
 

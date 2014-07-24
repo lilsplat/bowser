@@ -90,6 +90,9 @@ class CourseSpider(scrapy.Spider):
 
 
     def parse(self, response):
+        """Reads from html of the course browser page 
+        and saves the URLs of each course page to course_urls.txt,
+        to be read from and scraped using browser_spider"""
 
         self.log('A response from %s just arrived!' % response.url)
 
@@ -98,35 +101,41 @@ class CourseSpider(scrapy.Spider):
         code = path.split("/").pop(12)
         code = code.split(".").pop(0)
 
-        filewriter = open('course_browser_database/' + code + '_new.txt', 'w')
-
+        # filewriter = open('course_browser_database/' + code + '_new.txt', 'w')
+        filewriter=open('course_urls.txt','w+')
 
         for sel in response.xpath('//tbody/tr'): #each <tr> is a class table
             site=sel.xpath('th[2]/a/@href').extract()
 
-            course = sel.xpath('th[2]/a/text()').extract()
-            course = self.test_and_pop(course)
-            course = course.replace(" ","")
+            # print 'beginning writing\n'
+            directory=site[0].encode("UTF-8")
+            url='https://courses.wellesley.edu/'+directory
+            # print url
+            filewriter.write(url + '\n')
 
-            title = sel.xpath('th[3]/text()').extract()
-            title = self.test_and_pop(title)
+            # course = sel.xpath('th[2]/a/text()').extract()
+            # course = self.test_and_pop(course)
+            # course = course.replace(" ","")
 
-            time = sel.xpath('th[7]/text()').extract() #has empty and multiple object lists
-            time = self.test_and_pop(time)
+            # title = sel.xpath('th[3]/text()').extract()
+            # title = self.test_and_pop(title)
 
-            date = sel.xpath('th[8]/text()').extract() #has empty and multiple object lists
-            date = self.test_and_pop(date)
-            date = date.strip() #idk why but new line?
+            # time = sel.xpath('th[7]/text()').extract() #has empty and multiple object lists
+            # time = self.test_and_pop(time)
 
-            prof = sel.xpath('th[9]/a/text()').extract() #has empty lists
-            prof = self.test_and_pop(prof)
+            # date = sel.xpath('th[8]/text()').extract() #has empty and multiple object lists
+            # date = self.test_and_pop(date)
+            # date = date.strip() #idk why but new line?
 
-            prof_site = sel.xpath('th[9]/a/@href').extract() #has empty lists
-            prof_site = self.test_and_pop(prof_site)
-            prof_site = 'https://courses.wellesley.edu/' + prof_site
+            # prof = sel.xpath('th[9]/a/text()').extract() #has empty lists
+            # prof = self.test_and_pop(prof)
 
-            distribution = sel.xpath('th[11]/text()').extract() #has multiple object lists
-            distribution = self.test_and_pop(distribution)
+            # prof_site = sel.xpath('th[9]/a/@href').extract() #has empty lists
+            # prof_site = self.test_and_pop(prof_site)
+            # prof_site = 'https://courses.wellesley.edu/' + prof_site
+
+            # distribution = sel.xpath('th[11]/text()').extract() #has multiple object lists
+            # distribution = self.test_and_pop(distribution)
 
 
             # """ Do we need to encode UTF-8? """
@@ -162,12 +171,6 @@ class CourseSpider(scrapy.Spider):
             # test = dist[0]
             # c['dists'] = test
 
-            
-
-
-
-            print 'beginning writing\n'
-            print site
             # print 'writing crn %s' % str(crn)
             # filewriter.write(crn.encode("UTF-8") + '\n')
             # print 'writing title %s' % title
