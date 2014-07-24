@@ -1,0 +1,394 @@
+[
+  {
+    "model": "courses.major",
+    "pk": 1,
+    "fields": {
+      "code": "AFR",
+      "name": "Africana Studies"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 2,
+    "fields": {
+      "code": "AMST",
+      "name": "American Studies"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 3,
+    "fields": {
+      "code": "ANTH",
+      "name": "Anthropology"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 4,
+    "fields": {
+      "code": "ART",
+      "name": "Art"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 5,
+    "fields": {
+      "code": "ARTH",
+      "name": "Art History"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 6,
+    "fields": {
+      "code": "ARTS",
+      "name": "Studio Art"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 7,
+    "fields": {
+      "code": "ASTR",
+      "name": "Astronomy"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 8,
+    "fields": {
+      "code": "BIOC",
+      "name": "Biological Chemistry"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 9,
+    "fields": {
+      "code": "BISC",
+      "name": "Biological Sciences"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 10,
+    "fields": {
+      "code": "CAMS",
+      "name": "Cinema and Media Studies"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 11,
+    "fields": {
+      "code": "CHEM",
+      "name": "Chemistry"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 12,
+    "fields": {
+      "code": "CLSC",
+      "name": "Cognitive and Linguistic Sciences"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 13,
+    "fields": {
+      "code": "CLST",
+      "name": "Classical Studies"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 14,
+    "fields": {
+      "code": "CPLT",
+      "name": "Comparative Literature"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 15,
+    "fields": {
+      "code": "CS",
+      "name": "Computer Science"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 16,
+    "fields": {
+      "code": "EALC",
+      "name": "East Asian Languages and Cultures"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 17,
+    "fields": {
+      "code": "EALL",
+      "name": "East Asian Languages and Literature"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 18,
+    "fields": {
+      "code": "ECON",
+      "name": "Economics"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 19,
+    "fields": {
+      "code": "EDUC",
+      "name": "Education"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 20,
+    "fields": {
+      "code": "ENG",
+      "name": "English"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 21,
+    "fields": {
+      "code": "ES",
+      "name": "Environmental Studies"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 22,
+    "fields": {
+      "code": "FREN",
+      "name": "French"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 23,
+    "fields": {
+      "code": "GEOS",
+      "name": "Geosciences"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 24,
+    "fields": {
+      "code": "GER",
+      "name": "German"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 25,
+    "fields": {
+      "code": "HIST",
+      "name": "History"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 26,
+    "fields": {
+      "code": "ITST",
+      "name": "Italian Studies"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 27,
+    "fields": {
+      "code": "JWST",
+      "name": "Jewish Studies"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 28,
+    "fields": {
+      "code": "MATH",
+      "name": "Mathematics"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 29,
+    "fields": {
+      "code": "MER",
+      "name": "Medieval Renaissance Studies"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 30,
+    "fields": {
+      "code": "MES",
+      "name": "Middle Eastern Studies"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 31,
+    "fields": {
+      "code": "MUS",
+      "name": "Music"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 32,
+    "fields": {
+      "code": "NEUR",
+      "name": "Neuroscience"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 33,
+    "fields": {
+      "code": "PE",
+      "name": "Physical Education"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 34,
+    "fields": {
+      "code": "PEAC",
+      "name": "Peace and Justice Studies"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 35,
+    "fields": {
+      "code": "PHIL",
+      "name": "Philosophy"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 36,
+    "fields": {
+      "code": "PHYS",
+      "name": "Physics"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 37,
+    "fields": {
+      "code": "POLS",
+      "name": "Political Science"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 38,
+    "fields": {
+      "code": "PSYC",
+      "name": "Psychology"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 39,
+    "fields": {
+      "code": "QR",
+      "name": "Quantitative Reasoning"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 40,
+    "fields": {
+      "code": "REL",
+      "name": "Religion"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 41,
+    "fields": {
+      "code": "RUSS",
+      "name": "Russian"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 42,
+    "fields": {
+      "code": "SAS",
+      "name": "South Asia Studies"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 43,
+    "fields": {
+      "code": "SOC",
+      "name": "Sociology"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 44,
+    "fields": {
+      "code": "SPAN",
+      "name": "Spanish"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 45,
+    "fields": {
+      "code": "THST",
+      "name": "Theatre Studies"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 46,
+    "fields": {
+      "code": "WGST",
+      "name": "Women and Gender Studies"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 47,
+    "fields": {
+      "code": "WRIT",
+      "name": "Writing"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 48,
+    "fields": {
+      "code": "OTHER",
+      "name": "Other"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 49,
+    "fields": {
+      "code": "UND",
+      "name": "Undecided"
+    }
+  }
+]
