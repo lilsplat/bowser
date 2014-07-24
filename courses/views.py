@@ -2,7 +2,10 @@ from django.shortcuts import render
 from courses.forms import *
 from django.template import RequestContext
 from django.shortcuts import render_to_response
+from django.contrib.auth import authenticate, login
+from django.http import HttpResponseRedirect, HttpResponse
 from courses.models import Student
+
 def index(request):
     return render(request, 'courses/index.html')
 
@@ -44,6 +47,24 @@ def register(request):
             'courses/register.html',
             {'user_form': user_form, 'registered': registered},
             context)
+#login
+def user_login(request):
+	context = RequestContext(request)
+	if request.method == 'POST':
+		username = request.POST['username']
+		password = request.POST['password']
+		user = authenticate(username=username, password=password)
+		if user:
+			if user.is_active:
+				login(request, user)
+				return HttpResponseRedirect('/courses/create_profile')
+			else:
+				return HttpResponseNotFound('<h1>Page not found</h1>')
+		else:
+			return HttpResponse('Invalid login')
+	else:
+		return render_to_response('courses/login.html/', {}, context)
+
 
 def create_student_profile(request):
 	context = RequestContext(request)

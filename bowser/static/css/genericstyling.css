@@ -1,0 +1,28 @@
+#allcontent {
+background-color: #10267A; /* Wellesley blue */
+text-align: left;
+font-family: Verdana, Sans-serif;
+}
+
+.navbar-brand {
+font-size: 35px;
+}
+
+.pagecontent {
+background-color: #EFEFEF; /*bootstrap grey*/
+padding: 10px;
+padding-left: 20px;
+}
+
+#footer {
+background-color: #10267A; /* Wellesley blue */
+text-align: center;
+color: #FFFFFF;
+font-size: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+height: 25px;
+}
+
+
+
