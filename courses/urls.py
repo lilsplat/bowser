@@ -13,4 +13,5 @@ urlpatterns = patterns('',
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
     url(r'^$', views.index, name='index'),
 	url(r'^register/$', views.register, name='register'),
+	url(r'^create_profile/$', views.create_student_profile, name='create_profile'),
 )

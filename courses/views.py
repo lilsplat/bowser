@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from courses.forms import UserForm
+from courses.forms import *
 from django.template import RequestContext
 from django.shortcuts import render_to_response
 from courses.models import Student
@@ -27,8 +27,6 @@ def register(request):
 			user.set_password(user.password)
 			user.save()
 			registered = True
-			student = Student.objects.get_or_create(user=user)
-		
 
         # Invalid form or forms - mistakes or something else?
         # Print problems to the terminal.
@@ -46,3 +44,29 @@ def register(request):
             'courses/register.html',
             {'user_form': user_form, 'registered': registered},
             context)
+
+def create_student_profile(request):
+	context = RequestContext(request)
+	profile_created = False
+	if request.method == 'POST':
+		student_form = StudentProfileForm(data=request.POST)
+		if student_form.is_valid():
+			student_data = student_form.save()
+			student = Student.objects.filter(user=request.user)
+			student.class_year = stuent_data.class_year
+			student.primary_major = student_data.primary_major
+			student.secondary_major = student_data.secondary_major
+			student.gpa = student_data.gpa
+			student.qrb_passed = student_data.qrb_passed
+			student.add_course(student_data.course1)
+			student.add_course(student_data.course2)
+			student.save()
+			profile_created = True
+		else:
+			print student_form.errors
+	else:
+		student_form = StudentProfileForm()
+	return render_to_response(
+		'courses/create_profile.html',
+		{'student_form': student_form},  
+		context)

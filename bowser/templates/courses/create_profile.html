@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+		<title>Bowser | Create Profile </title>
+	</head>
+<body>
+	<h1> Create profile </h1>
+	
+	<form id="student_form" method="post" action"/courses/create_profile/"
+		enctype="multipart/form-data">
+	{% csrf_token %}
+	{{ student_form.as_p }}
+
+	<input type="submit" name="submit" value="Create Profile" />
+	</form>
+</body>
+</html>
