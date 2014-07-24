@@ -3,368 +3,391 @@
     "model": "courses.major",
     "pk": 1,
     "fields": {
-      "name": "Africana Studies",
-      "is_minor": false
+      "name": "AFR"
+      "name": "Africana Studies"
     }
   },
   {
     "model": "courses.major",
     "pk": 2,
     "fields": {
-      "name": "American Studies",
-      "is_minor": false
+      "name": "AMST"
+      "name": "American Studies"
     }
   },
   {
     "model": "courses.major",
     "pk": 3,
     "fields": {
-      "name": "Anthropology",
-      "is_minor": false
+      "name": "ANTH"
+      "name": "Anthropology"
     }
   },
   {
     "model": "courses.major",
     "pk": 4,
     "fields": {
-      "name": "Art",
-      "is_minor": false
+      "name": "ART"
+      "name": "Art"
     }
   },
   {
     "model": "courses.major",
     "pk": 5,
     "fields": {
-      "name": "Astronomy",
-      "is_minor": false
+      "name": "ARTH"
+      "name": "Art History"
     }
   },
   {
     "model": "courses.major",
     "pk": 6,
     "fields": {
-      "name": "Biological Chemistry",
-      "is_minor": false
+      "name": "ARTS"
+      "name": "Studio Art"
     }
   },
   {
     "model": "courses.major",
     "pk": 7,
     "fields": {
-      "name": "Biological Sciences",
-      "is_minor": false
+      "name": "ASTR"
+      "name": "Astronomy"
     }
   },
   {
     "model": "courses.major",
     "pk": 8,
     "fields": {
-      "name": "Cinema and Media Studies",
-      "is_minor": false
+      "name": "BIOC"
+      "name": "Biological Chemistry"
     }
   },
   {
     "model": "courses.major",
     "pk": 9,
     "fields": {
-      "name": "Chemistry",
-      "is_minor": false
+      "name": "BISC"
+      "name": "Biological Sciences"
     }
   },
   {
     "model": "courses.major",
     "pk": 10,
     "fields": {
-      "name": "Cognitive and Linguistic Sciences",
-      "is_minor": false
+      "name": "CAMS"
+      "name": "Cinema and Media Studies"
     }
   },
   {
     "model": "courses.major",
     "pk": 11,
     "fields": {
-      "name": "Classical Studies",
-      "is_minor": false
+      "name": "CHEM"
+      "name": "Chemistry"
     }
   },
   {
     "model": "courses.major",
     "pk": 12,
     "fields": {
-      "name": "Comparative Literature",
-      "is_minor": false
+      "name": "CLSC"
+      "name": "Cognitive and Linguistic Sciences"
     }
   },
   {
     "model": "courses.major",
     "pk": 13,
     "fields": {
-      "name": "Computer Science",
-      "is_minor": false
+      "name": "CLST"
+      "name": "Classical Studies"
     }
   },
   {
     "model": "courses.major",
     "pk": 14,
     "fields": {
-      "name": "East Asian Languages and Cultures",
-      "is_minor": false
+      "name": "CPLT"
+      "name": "Comparative Literature"
     }
   },
   {
     "model": "courses.major",
     "pk": 15,
     "fields": {
-      "name": "Economics",
-      "is_minor": false
+      "name": "CS"
+      "name": "Computer Science"
     }
   },
   {
     "model": "courses.major",
     "pk": 16,
     "fields": {
-      "name": "Education",
-      "is_minor": false
+      "name": "EALC"
+      "name": "East Asian Languages and Cultures"
     }
   },
   {
     "model": "courses.major",
     "pk": 17,
     "fields": {
-      "name": "English",
-      "is_minor": false
+      "name": "EALL"
+      "name": "East Asian Languages and Literature"
     }
   },
   {
     "model": "courses.major",
     "pk": 18,
     "fields": {
-      "name": "Environmental Studies",
-      "is_minor": false
+      "name": "ECON"
+      "name": "Economics"
     }
   },
   {
     "model": "courses.major",
     "pk": 19,
     "fields": {
-      "name": "French",
-      "is_minor": false
+      "name": "EDUC"
+      "name": "Education"
     }
   },
   {
     "model": "courses.major",
     "pk": 20,
     "fields": {
-      "name": "Geosciences",
-      "is_minor": false
+      "name": "ENG"
+      "name": "English"
     }
   },
   {
     "model": "courses.major",
     "pk": 21,
     "fields": {
-      "name": "German",
-      "is_minor": false
+      "name": "ES"
+      "name": "Environmental Studies"
     }
   },
   {
     "model": "courses.major",
     "pk": 22,
     "fields": {
-      "name": "History",
-      "is_minor": false
+      "name": "FREN"
+      "name": "French"
     }
   },
   {
     "model": "courses.major",
     "pk": 23,
     "fields": {
-      "name": "Italian Studies",
-      "is_minor": false
+      "name": "GEOS"
+      "name": "Geosciences"
     }
   },
   {
     "model": "courses.major",
     "pk": 24,
     "fields": {
-      "name": "Jewish Studies",
-      "is_minor": false
+      "name": "GER"
+      "name": "German"
     }
   },
   {
     "model": "courses.major",
     "pk": 25,
     "fields": {
-      "name": "Mathematics",
-      "is_minor": false
+      "name": "HIST"
+      "name": "History"
     }
   },
   {
     "model": "courses.major",
     "pk": 26,
     "fields": {
-      "name": "Medieval Renaissance Studies",
-      "is_minor": false
+      "name": "ITST"
+      "name": "Italian Studies"
     }
   },
   {
     "model": "courses.major",
     "pk": 27,
     "fields": {
-      "name": "Middle Eastern Studies",
-      "is_minor": false
+      "name": "JWST"
+      "name": "Jewish Studies"
     }
   },
   {
     "model": "courses.major",
     "pk": 28,
     "fields": {
-      "name": "Music",
-      "is_minor": false
+      "name": "MATH"
+      "name": "Mathematics"
     }
   },
   {
     "model": "courses.major",
     "pk": 29,
     "fields": {
-      "name": "Neuroscience",
-      "is_minor": false
+      "name": "MER"
+      "name": "Medieval Renaissance Studies"
     }
   },
   {
     "model": "courses.major",
     "pk": 30,
     "fields": {
-      "name": "Physical Education",
-      "is_minor": false
+      "name": "MES"
+      "name": "Middle Eastern Studies"
     }
   },
   {
     "model": "courses.major",
     "pk": 31,
     "fields": {
-      "name": "Peace and Justice Studies",
-      "is_minor": false
+      "name": "MUS"
+      "name": "Music"
     }
   },
   {
     "model": "courses.major",
     "pk": 32,
     "fields": {
-      "name": "Philosophy",
-      "is_minor": false
+      "name": "NEUR"
+      "name": "Neuroscience"
     }
   },
   {
     "model": "courses.major",
     "pk": 33,
     "fields": {
-      "name": "Physics",
-      "is_minor": false
+      "name": "PE"
+      "name": "Physical Education"
     }
   },
   {
     "model": "courses.major",
     "pk": 34,
     "fields": {
-      "name": "Political Science",
-      "is_minor": false
+      "name": "PEAC"
+      "name": "Peace and Justice Studies"
     }
   },
   {
     "model": "courses.major",
     "pk": 35,
     "fields": {
-      "name": "Psychology",
-      "is_minor": false
+      "name": "PHIL"
+      "name": "Philosophy"
     }
   },
   {
     "model": "courses.major",
     "pk": 36,
     "fields": {
-      "name": "Quantitative Reasoning",
-      "is_minor": false
+      "name": "PHYS"
+      "name": "Physics"
     }
   },
   {
     "model": "courses.major",
     "pk": 37,
     "fields": {
-      "name": "Religion",
-      "is_minor": false
+      "name": "POLS"
+      "name": "Political Science"
     }
   },
   {
     "model": "courses.major",
     "pk": 38,
     "fields": {
-      "name": "Russian",
-      "is_minor": false
+      "name": "PSYC"
+      "name": "Psychology"
     }
   },
   {
     "model": "courses.major",
     "pk": 39,
     "fields": {
-      "name": "South Asia Studies",
-      "is_minor": false
+      "name": "QR"
+      "name": "Quantitative Reasoning"
     }
   },
   {
     "model": "courses.major",
     "pk": 40,
     "fields": {
-      "name": "Sociology",
-      "is_minor": false
+      "name": "REL"
+      "name": "Religion"
     }
   },
   {
     "model": "courses.major",
     "pk": 41,
     "fields": {
-      "name": "Spanish",
-      "is_minor": false
+      "name": "RUSS"
+      "name": "Russian"
     }
   },
   {
     "model": "courses.major",
     "pk": 42,
     "fields": {
-      "name": "Theatre Studies",
-      "is_minor": false
+      "name": "SAS"
+      "name": "South Asia Studies"
     }
   },
   {
     "model": "courses.major",
     "pk": 43,
     "fields": {
-      "name": "Women and Gender Studies",
-      "is_minor": false
+      "name": "SOC"
+      "name": "Sociology"
     }
   },
   {
     "model": "courses.major",
     "pk": 44,
     "fields": {
-      "name": "Writing",
-      "is_minor": false
+      "name": "SPAN"
+      "name": "Spanish"
     }
   },
   {
     "model": "courses.major",
     "pk": 45,
     "fields": {
-      "name": "Other",
-      "is_minor": false
+      "name": "THST"
+      "name": "Theatre Studies"
     }
   },
   {
     "model": "courses.major",
     "pk": 46,
     "fields": {
-      "name": "Undecided",
-      "is_minor": false
+      "name": "WGST"
+      "name": "Women and Gender Studies"
     }
-  }
-]
+  },
+  {
+    "model": "courses.major",
+    "pk": 47,
+    "fields": {
+      "name": "WRIT"
+      "name": "Writing"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 48,
+    "fields": {
+      "name": "OTHER"
+      "name": "Other"
+    }
+  },
+  {
+    "model": "courses.major",
+    "pk": 49,
+    "fields": {
+      "name": "UND"
+      "name": "Undecided"
+    }
+  },
