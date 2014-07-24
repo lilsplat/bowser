@@ -1,0 +1,25 @@
+.jumbotron {
+text-align: center;
+margin-bottom: 0px;
+}
+
+#one {
+background-color: #8E3488; /*magenta*/
+border-color: #8E3488;
+}
+
+#one:hover{
+background-color: #722C6D; /*dark magenta*/
+border-color: #722C6D;
+}
+
+#two {
+background-color: #326A7E; /*teal*/
+border-color: #326A7E;
+}
+
+#two:hover {
+background-color: #285466; /*dark teal*/
+border-color: #285466;
+}
+
