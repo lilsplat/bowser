@@ -3,7 +3,7 @@
     "model": "courses.major",
     "pk": 1,
     "fields": {
-      "code": "AFR",
+      "name": "AFR"
       "name": "Africana Studies"
     }
   },
@@ -11,7 +11,7 @@
     "model": "courses.major",
     "pk": 2,
     "fields": {
-      "code": "AMST",
+      "name": "AMST"
       "name": "American Studies"
     }
   },
@@ -19,7 +19,7 @@
     "model": "courses.major",
     "pk": 3,
     "fields": {
-      "code": "ANTH",
+      "name": "ANTH"
       "name": "Anthropology"
     }
   },
@@ -27,7 +27,7 @@
     "model": "courses.major",
     "pk": 4,
     "fields": {
-      "code": "ART",
+      "name": "ART"
       "name": "Art"
     }
   },
@@ -35,7 +35,7 @@
     "model": "courses.major",
     "pk": 5,
     "fields": {
-      "code": "ARTH",
+      "name": "ARTH"
       "name": "Art History"
     }
   },
@@ -43,7 +43,7 @@
     "model": "courses.major",
     "pk": 6,
     "fields": {
-      "code": "ARTS",
+      "name": "ARTS"
       "name": "Studio Art"
     }
   },
@@ -51,7 +51,7 @@
     "model": "courses.major",
     "pk": 7,
     "fields": {
-      "code": "ASTR",
+      "name": "ASTR"
       "name": "Astronomy"
     }
   },
@@ -59,7 +59,7 @@
     "model": "courses.major",
     "pk": 8,
     "fields": {
-      "code": "BIOC",
+      "name": "BIOC"
       "name": "Biological Chemistry"
     }
   },
@@ -67,7 +67,7 @@
     "model": "courses.major",
     "pk": 9,
     "fields": {
-      "code": "BISC",
+      "name": "BISC"
       "name": "Biological Sciences"
     }
   },
@@ -75,7 +75,7 @@
     "model": "courses.major",
     "pk": 10,
     "fields": {
-      "code": "CAMS",
+      "name": "CAMS"
       "name": "Cinema and Media Studies"
     }
   },
@@ -83,7 +83,7 @@
     "model": "courses.major",
     "pk": 11,
     "fields": {
-      "code": "CHEM",
+      "name": "CHEM"
       "name": "Chemistry"
     }
   },
@@ -91,7 +91,7 @@
     "model": "courses.major",
     "pk": 12,
     "fields": {
-      "code": "CLSC",
+      "name": "CLSC"
       "name": "Cognitive and Linguistic Sciences"
     }
   },
@@ -99,7 +99,7 @@
     "model": "courses.major",
     "pk": 13,
     "fields": {
-      "code": "CLST",
+      "name": "CLST"
       "name": "Classical Studies"
     }
   },
@@ -107,7 +107,7 @@
     "model": "courses.major",
     "pk": 14,
     "fields": {
-      "code": "CPLT",
+      "name": "CPLT"
       "name": "Comparative Literature"
     }
   },
@@ -115,7 +115,7 @@
     "model": "courses.major",
     "pk": 15,
     "fields": {
-      "code": "CS",
+      "name": "CS"
       "name": "Computer Science"
     }
   },
@@ -123,7 +123,7 @@
     "model": "courses.major",
     "pk": 16,
     "fields": {
-      "code": "EALC",
+      "name": "EALC"
       "name": "East Asian Languages and Cultures"
     }
   },
@@ -131,7 +131,7 @@
     "model": "courses.major",
     "pk": 17,
     "fields": {
-      "code": "EALL",
+      "name": "EALL"
       "name": "East Asian Languages and Literature"
     }
   },
@@ -139,7 +139,7 @@
     "model": "courses.major",
     "pk": 18,
     "fields": {
-      "code": "ECON",
+      "name": "ECON"
       "name": "Economics"
     }
   },
@@ -147,7 +147,7 @@
     "model": "courses.major",
     "pk": 19,
     "fields": {
-      "code": "EDUC",
+      "name": "EDUC"
       "name": "Education"
     }
   },
@@ -155,7 +155,7 @@
     "model": "courses.major",
     "pk": 20,
     "fields": {
-      "code": "ENG",
+      "name": "ENG"
       "name": "English"
     }
   },
@@ -163,7 +163,7 @@
     "model": "courses.major",
     "pk": 21,
     "fields": {
-      "code": "ES",
+      "name": "ES"
       "name": "Environmental Studies"
     }
   },
@@ -171,7 +171,7 @@
     "model": "courses.major",
     "pk": 22,
     "fields": {
-      "code": "FREN",
+      "name": "FREN"
       "name": "French"
     }
   },
@@ -179,7 +179,7 @@
     "model": "courses.major",
     "pk": 23,
     "fields": {
-      "code": "GEOS",
+      "name": "GEOS"
       "name": "Geosciences"
     }
   },
@@ -187,7 +187,7 @@
     "model": "courses.major",
     "pk": 24,
     "fields": {
-      "code": "GER",
+      "name": "GER"
       "name": "German"
     }
   },
@@ -195,7 +195,7 @@
     "model": "courses.major",
     "pk": 25,
     "fields": {
-      "code": "HIST",
+      "name": "HIST"
       "name": "History"
     }
   },
@@ -203,7 +203,7 @@
     "model": "courses.major",
     "pk": 26,
     "fields": {
-      "code": "ITST",
+      "name": "ITST"
       "name": "Italian Studies"
     }
   },
@@ -211,7 +211,7 @@
     "model": "courses.major",
     "pk": 27,
     "fields": {
-      "code": "JWST",
+      "name": "JWST"
       "name": "Jewish Studies"
     }
   },
@@ -219,7 +219,7 @@
     "model": "courses.major",
     "pk": 28,
     "fields": {
-      "code": "MATH",
+      "name": "MATH"
       "name": "Mathematics"
     }
   },
@@ -227,7 +227,7 @@
     "model": "courses.major",
     "pk": 29,
     "fields": {
-      "code": "MER",
+      "name": "MER"
       "name": "Medieval Renaissance Studies"
     }
   },
@@ -235,7 +235,7 @@
     "model": "courses.major",
     "pk": 30,
     "fields": {
-      "code": "MES",
+      "name": "MES"
       "name": "Middle Eastern Studies"
     }
   },
@@ -243,7 +243,7 @@
     "model": "courses.major",
     "pk": 31,
     "fields": {
-      "code": "MUS",
+      "name": "MUS"
       "name": "Music"
     }
   },
@@ -251,7 +251,7 @@
     "model": "courses.major",
     "pk": 32,
     "fields": {
-      "code": "NEUR",
+      "name": "NEUR"
       "name": "Neuroscience"
     }
   },
@@ -259,7 +259,7 @@
     "model": "courses.major",
     "pk": 33,
     "fields": {
-      "code": "PE",
+      "name": "PE"
       "name": "Physical Education"
     }
   },
@@ -267,7 +267,7 @@
     "model": "courses.major",
     "pk": 34,
     "fields": {
-      "code": "PEAC",
+      "name": "PEAC"
       "name": "Peace and Justice Studies"
     }
   },
@@ -275,7 +275,7 @@
     "model": "courses.major",
     "pk": 35,
     "fields": {
-      "code": "PHIL",
+      "name": "PHIL"
       "name": "Philosophy"
     }
   },
@@ -283,7 +283,7 @@
     "model": "courses.major",
     "pk": 36,
     "fields": {
-      "code": "PHYS",
+      "name": "PHYS"
       "name": "Physics"
     }
   },
@@ -291,7 +291,7 @@
     "model": "courses.major",
     "pk": 37,
     "fields": {
-      "code": "POLS",
+      "name": "POLS"
       "name": "Political Science"
     }
   },
@@ -299,7 +299,7 @@
     "model": "courses.major",
     "pk": 38,
     "fields": {
-      "code": "PSYC",
+      "name": "PSYC"
       "name": "Psychology"
     }
   },
@@ -307,7 +307,7 @@
     "model": "courses.major",
     "pk": 39,
     "fields": {
-      "code": "QR",
+      "name": "QR"
       "name": "Quantitative Reasoning"
     }
   },
@@ -315,7 +315,7 @@
     "model": "courses.major",
     "pk": 40,
     "fields": {
-      "code": "REL",
+      "name": "REL"
       "name": "Religion"
     }
   },
@@ -323,7 +323,7 @@
     "model": "courses.major",
     "pk": 41,
     "fields": {
-      "code": "RUSS",
+      "name": "RUSS"
       "name": "Russian"
     }
   },
@@ -331,7 +331,7 @@
     "model": "courses.major",
     "pk": 42,
     "fields": {
-      "code": "SAS",
+      "name": "SAS"
       "name": "South Asia Studies"
     }
   },
@@ -339,7 +339,7 @@
     "model": "courses.major",
     "pk": 43,
     "fields": {
-      "code": "SOC",
+      "name": "SOC"
       "name": "Sociology"
     }
   },
@@ -347,7 +347,7 @@
     "model": "courses.major",
     "pk": 44,
     "fields": {
-      "code": "SPAN",
+      "name": "SPAN"
       "name": "Spanish"
     }
   },
@@ -355,7 +355,7 @@
     "model": "courses.major",
     "pk": 45,
     "fields": {
-      "code": "THST",
+      "name": "THST"
       "name": "Theatre Studies"
     }
   },
@@ -363,7 +363,7 @@
     "model": "courses.major",
     "pk": 46,
     "fields": {
-      "code": "WGST",
+      "name": "WGST"
       "name": "Women and Gender Studies"
     }
   },
@@ -371,7 +371,7 @@
     "model": "courses.major",
     "pk": 47,
     "fields": {
-      "code": "WRIT",
+      "name": "WRIT"
       "name": "Writing"
     }
   },
@@ -379,7 +379,7 @@
     "model": "courses.major",
     "pk": 48,
     "fields": {
-      "code": "OTHER",
+      "name": "OTHER"
       "name": "Other"
     }
   },
@@ -387,8 +387,7 @@
     "model": "courses.major",
     "pk": 49,
     "fields": {
-      "code": "UND",
+      "name": "UND"
       "name": "Undecided"
     }
-  }
-]
+  },

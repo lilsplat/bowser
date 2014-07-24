@@ -267,6 +267,7 @@ class Student(models.Model):
 
     def distributions_todo(self):
         distribution_list = DIST_REQ
+        print distribution_list
         num_overlap = 6 #default num 'overlap' courses i.e. courses that  can count for multiple majors; always at head of list
 
         #modify distribution_list to suit Student
@@ -345,6 +346,7 @@ class Course_Bucket(models.Model):
 Major ok
 """
 class Major(models.Model):
+    code = models.CharField(max_length=200, default="UND")
     name = models.CharField(max_length=200, default=UND)
 	# Checks whether this is a major or minor.
 	# Because majors and minors have the same structure, 
@@ -354,7 +356,7 @@ class Major(models.Model):
     def __unicode__(self):
         return self.name
 	
-	major_courses = Course.objects.filter(dept=self.name)
+	# major_courses = Course.objects.filter(dept=self.name)
 	#below methods are copied from the Distribution model.
     # """Returns if a course counts toward the Major"""
     def is_fulfilled_by(self, course):

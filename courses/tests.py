@@ -1,3 +1,12 @@
+# TODO:
+# - Test Distribution
+# - Fill out major, test Major
+# - Test Student.distributions_todo, num_distributions todo?
+# - Test Student.major_todo
+# - 
+
+
+
 from django.utils import unittest
 from django.test import TestCase
 # from test_utils import 
@@ -7,7 +16,7 @@ import datetime
 
 
 class StudentTester(TestCase):
-	fixtures = ['initial_data_dump_072214.json']
+	fixtures = ['initial_data_dump_072314.json']
 
 	def setUp(self):
 		lx_user=User.objects.create_user('lxie','lxie@wellesley.edu','lilypassword')
@@ -93,6 +102,7 @@ class StudentTester(TestCase):
 		#still need to test nullable fields
 
 		"""TEST ADDING AND REMOVING COURSES"""
+		#nb: in the future this should be improved!!!!
 		astr206=Course.objects.filter(code='ASTR206')[0] #qr
 		cs307=Course.objects.filter(code='CS307')[0] #300 level
 		writ170=Course.objects.filter(code='WRIT170')[0] #fyw
@@ -117,19 +127,20 @@ class StudentTester(TestCase):
 		lily.add_course(cs111)
 		lily.add_course(astr100)
 		lily.save()
-		print lily.courses
 
-		tester=Course.objects.filter(code='AFR201')[0]
-		t2=Course.objects.filter(code='AFR208')[0]
-		t3=Course.objects.filter(code='CS111')[0]
-		print tester.dists.all()
-		print t2.dists.all()
-		print t3.dists.all()
+		self.assertEqual(11,lily.courses.count())
+		self.assertEqual('ASTR206',lily.courses.filter(code='ASTR206')[0].code)
 
+		lily.remove_course(arth100)
+		lily.remove_course(astr100)
+		lily.save()
 
-		
+		self.assertEqual(9,lily.courses.count())
+
+		# lily.distributions_todo()
 
 		""" TEST COMMENTS """
+		#should move this to its own class duhhhh
 		good_comment=Rating.objects.get(id=1)
 		print good_comment.comment_text
 
@@ -149,7 +160,7 @@ class StudentTester(TestCase):
 		
 			
 class CourseTester(TestCase):
-	fixtures=['initial_data_dump_072214.json']
+	fixtures=['initial_data_dump_072314.json']
 
 	def setUp(self):
 		Course.objects.create(
@@ -215,10 +226,25 @@ class CourseTester(TestCase):
 		self.assertFalse(test100.conflicts(test200))
 		self.assertFalse(test200.conflicts(test300))
 
+		# testing course.dists
+		# tester=Course.objects.filter(code='AFR201')[0]
+		# t2=Course.objects.filter(code='AFR208')[0]
+		# t3=Course.objects.filter(code='CS111')[0]
+		# print tester.dists.all()
+		# print t2.dists.all()
+		# print t3.dists.all()
 
-	# class MajorTester(TestCase):
-	# 	def setUp(self):
-	# 		cs=Major.objects.get
+
+
+class MajorTester(TestCase):
+	fixtures = ['initial_data_dump_072314.json']
+	# def setUp(self):
+	def test(self):
+		print 'testing major'
+		cs=Major.objects.get(code='CS')
+		soc=Major.objects.get(code='SOC')
+
+		print Course.objects.filter(dept=cs.name).all()
 
 
 
