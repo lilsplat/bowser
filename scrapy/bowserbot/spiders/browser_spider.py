@@ -7,7 +7,6 @@ from bowserbot.items import *
 # from courses.models import *
 import re
 
-# filewriter=open('browser_spider_test.txt','w+')
 f=open('browser_spider_test.json','w+')
 
 class BrowserSpider(scrapy.Spider):
@@ -32,6 +31,7 @@ class BrowserSpider(scrapy.Spider):
                 code=self.test_and_pop(code, 'code')
                 code=code.split(' ')
                 code=code[0]+code[1]
+                code=code.encode("UTF-8")
                 i+=1
             else:
                 code='None assigned'
@@ -41,6 +41,7 @@ class BrowserSpider(scrapy.Spider):
             if category == 'CRN':
                 crn=sel.xpath('tr['+str(i)+']/th[2]/text()').extract()
                 crn=self.test_and_pop(crn, 'crn')
+                crn=crn.encode("UTF-8")
                 i+=1
             else:
                 crn='None assigned'
@@ -50,6 +51,9 @@ class BrowserSpider(scrapy.Spider):
             if category == 'Title':
                 title=sel.xpath('tr['+str(i)+']/th[2]/text()').extract()
                 title=self.test_and_pop(title, 'title')
+                title=title.encode("UTF-8")
+                title=title.split('\"')
+                title=''.join(title)
                 i+=1
             else:
                 title='None assigned'
@@ -59,6 +63,7 @@ class BrowserSpider(scrapy.Spider):
             if category == 'Credit Hours':
                 credit_hours=sel.xpath('tr['+str(i)+']/th[2]/text()').extract()
                 credit_hours=self.test_and_pop(credit_hours, 'credit hours')
+                credit_hours=credit_hours.encode("UTF-8")
                 i+=1
             else:
                 credit_hours='None assigned'
@@ -70,8 +75,16 @@ class BrowserSpider(scrapy.Spider):
                 if len(description) == 0: #if not in this tag
                     description=sel.xpath('tr['+str(i)+']/th[2]/p/text()').extract()
                 description=self.test_and_pop(description, 'description')
+                description=description.encode("UTF-8")
+                description=description.split('\"')
+                description=''.join(description)
+                description=description.split('\n')
+                description=' '.join(description)
                 i+=1
             else:
+                description='None assigned'
+
+            if len(description) < 3:
                 description='None assigned'
 
             category=sel.xpath('tr['+str(i)+']/th[1]/b/text()').extract()
@@ -79,6 +92,9 @@ class BrowserSpider(scrapy.Spider):
             if category == 'Additional Information':
                 addit_info=sel.xpath('tr['+str(i)+']/th[2]/text()').extract()
                 addit_info=self.test_and_pop(addit_info, 'seats_available')
+                addit_info=addit_info.encode("UTF-8")
+                addit_info=addit_info.split('\"')
+                addit_info=''.join(addit_info)
                 i+=1
             else:
                 addit_info='None assigned'
@@ -88,6 +104,7 @@ class BrowserSpider(scrapy.Spider):
             if category == 'Seats Available':
                 seats_available=sel.xpath('tr['+str(i)+']/th[2]/text()').extract()
                 seats_available=self.test_and_pop(seats_available, 'seats_available')
+                seats_available=seats_available.encode("UTF-8")
                 i+=1
             else:
                 seats_available='None assigned'
@@ -97,6 +114,7 @@ class BrowserSpider(scrapy.Spider):
             if category == 'Max. Enrollment':
                 max_enrollment=sel.xpath('tr['+str(i)+']/th[2]/text()').extract()
                 max_enrollment=self.test_and_pop(max_enrollment, 'max_enrollment')
+                max_enrollment=max_enrollment.encode("UTF-8")
                 i+=1
             else:
                 max_enrollment='None assigned'
@@ -107,6 +125,9 @@ class BrowserSpider(scrapy.Spider):
             if category == 'Permission of Instructor':
                 by_permission=sel.xpath('tr['+str(i)+']/th[2]/b/text()').extract()
                 by_permission=self.test_and_pop(by_permission,'by_permission')
+                by_permission=by_permission.encode("UTF-8")
+                by_permission=by_permission.split('\"')
+                by_permission=''.join(by_permission)
                 i+=1
             else:
                 by_permission='None assigned'
@@ -116,6 +137,9 @@ class BrowserSpider(scrapy.Spider):
             if category == 'Prerequisite(s)':
                 prereq=sel.xpath('tr['+str(i)+']/th[2]/text()').extract()
                 prereq=self.test_and_pop(prereq, 'prereq')
+                prereq=prereq.encode("UTF-8")
+                prereq=prereq.split('\"')
+                prereq=''.join(prereq)
                 i+=1
             else:
                 prereq='None assigned'
@@ -125,6 +149,7 @@ class BrowserSpider(scrapy.Spider):
             if category == 'Distributions':
                 dist=sel.xpath('tr['+str(i)+']/th[2]/text()').extract()
                 dist=self.test_and_pop(dist, 'dist')
+                dist=dist.encode("UTF-8")
                 i+=1
             else:
                 dist='None assigned'
@@ -134,6 +159,9 @@ class BrowserSpider(scrapy.Spider):
             if category == 'Notes':
                 notes=sel.xpath('tr['+str(i)+']/th[2]/b/text()').extract()
                 notes=self.test_and_pop(notes,'notes')
+                notes=notes.encode("UTF-8")
+                notes=notes.split('\"')
+                notes=''.join(notes)
                 i+=1
             else:
                 notes='None assigned'
@@ -143,6 +171,9 @@ class BrowserSpider(scrapy.Spider):
             if category == 'Crosslisted Courses:':
                 xlisted=sel.xpath('tr['+str(i)+']/th[2]/text()').extract()
                 xlisted=self.test_and_pop(xlisted, 'dist')
+                xlisted=xlisted.encode("UTF-8")
+                xlisted=xlisted.split('\"')
+                xlisted=''.join(xlisted)
                 i+=1
             else:
                 xlisted='None assigned'
@@ -152,17 +183,39 @@ class BrowserSpider(scrapy.Spider):
             if category == 'Instructor(s)':
                 prof=sel.xpath('tr['+str(i)+']/th[2]/text()').extract()
                 prof=self.test_and_pop(prof, 'prof')
+                prof=prof.encode("UTF-8")
                 i+=1
             else:
                 prof='None assigned'
 
+            #still need to fix this
             category=sel.xpath('tr['+str(i)+']/th[1]/b/text()').extract()
             category=self.test_and_pop(category, 'categoryname')
             if category == 'Meeting Time(s)':
                 time_and_date=sel.xpath('tr['+str(i)+']/th[2]/text()').extract()
                 time_and_date=self.test_and_pop(time_and_date, 'time_and_date')
+                time_and_date=time_and_date.encode("UTF-8")
+                time_and_date=time_and_date.split(',')
+                try:
+                    date=''
+                    starttime=''
+                    endtime=''
+                    for part in time_and_date:
+                        part=part.split(' - ')
+                        date+=part[0]
+                        starttime=part[1]
+                        starttime=starttime[:5]
+                        endtime=part[2]
+                        endtime=endtime[:5]
+                except IndexError:
+                    date='None assigned'
+                    starttime='None assigned'
+                    endtime='None assigned'
             else:
-                time_and_date='None assigned'
+                # time_and_date='None assigned'
+                date='None assigned'
+                starttime='None assigned'
+                endtime='None assigned'
             
             # print 'course:' + str(course)
             # print 'crn:' + str(crn)
@@ -199,35 +252,41 @@ class BrowserSpider(scrapy.Spider):
 
             #get rid of quotes for ints
 
-            dept=code
-            dept=re.search('[A-Z]+', dept).group()
-            dept=self.parsedept(code)
+            try:
+                dept=code
+                dept=re.search('[A-Z]+', dept).group()
+                dept=self.parsedept(dept)
+            except AttributeError:
+                dept='None assigned'
 
-            f.write("  {\n")
-            f.write("    \"model\": \"courses.course\",\n")
-            f.write("    \"pk\": " + str(BrowserSpider.pk) + ",\n")
-            f.write("    \"fields\": {\n")
-            f.write("      \"dept\": \"" + dept + "\",\n")
-            f.write("      \"code\": \"" + code.encode("UTF-8") + "\",\n")
-            f.write("      \"crn\": \"" + crn.encode("UTF-8") + "\",\n")
-            f.write("      \"title\": \"" + title.encode("UTF-8").strip('\"') + "\",\n")
-            f.write("      \"credit_hours\": \"" + credit_hours.encode("UTF-8") + "\",\n")
-            f.write("      \"description\": \"" + description.encode("UTF-8").strip('\"') + "\",\n")
-            f.write("      \"addit_info\": \"" + addit_info.encode("UTF-8").strip('\"') + "\",\n")
-            f.write("      \"seats_available\": \"" + seats_available.encode("UTF-8") + "\",\n")
-            f.write("      \"max_enrollment\": \"" + max_enrollment.encode("UTF-8") + "\",\n")
-            f.write("      \"by_permission\": \"" + by_permission.encode("UTF-8") + "\",\n")
-            f.write("      \"prereq\": \"" + prereq.encode("UTF-8").strip('\"') + "\",\n")
-            # f.write("      \"dist\": \"" + dist.encode("UTF-8") + "\",\n")
-            f.write("      \"notes\": \"" + notes.encode("UTF-8").strip('\"') + "\",\n")
-            f.write("      \"xlisted\": \"" + xlisted.encode("UTF-8").strip('\"') + "\",\n")
-            f.write("      \"prof\": \"" + prof.encode("UTF-8") + "\",\n")
-            f.write("      \"time_and_date\": \"" + time_and_date.encode("UTF-8")[:-6] + "\",\n")
-            f.write("      \"offered_in_fall\": true,\n")
-            f.write("      \"offered_in_spring\": false\n")
-            f.write("    }\n")
-            f.write("  },\n")
-            BrowserSpider.pk += 1
+            if (dept != 'PE' and dept != 'None assigned'):
+                f.write("  {\n")
+                f.write("    \"model\": \"courses.course\",\n")
+                f.write("    \"pk\": " + str(BrowserSpider.pk) + ",\n")
+                f.write("    \"fields\": {\n")
+                f.write("      \"dept\": \"" + dept + "\",\n")
+                f.write("      \"code\": \"" + code + "\",\n")
+                f.write("      \"crn\": \"" + crn + "\",\n")
+                f.write("      \"title\": \"" + title.strip('\"') + "\",\n")
+                f.write("      \"credit_hours\": \"" + credit_hours + "\",\n")
+                f.write("      \"description\": \"" + description.strip('\"') + "\",\n")
+                f.write("      \"addit_info\": \"" + addit_info.strip('\"') + "\",\n")
+                f.write("      \"seats_available\": \"" + seats_available + "\",\n")
+                f.write("      \"max_enrollment\": \"" + max_enrollment + "\",\n")
+                f.write("      \"by_permission\": \"" + by_permission + "\",\n")
+                f.write("      \"prereq\": \"" + prereq.strip('\"') + "\",\n")
+                # f.write("      \"dist\": \"" + dist + "\",\n")
+                f.write("      \"notes\": \"" + notes.strip('\"') + "\",\n")
+                f.write("      \"xlisted\": \"" + xlisted.strip('\"') + "\",\n")
+                f.write("      \"prof\": \"" + prof + "\",\n")
+                f.write("      \"date\": \"" + date + "\",\n")
+                f.write("      \"starttime\": \"" + starttime + "\",\n")
+                f.write("      \"endtime\": \"" + endtime + "\",\n")
+                f.write("      \"offered_in_fall\": true,\n")
+                f.write("      \"offered_in_spring\": false\n")
+                f.write("    }\n")
+                f.write("  },\n")
+                BrowserSpider.pk += 1
 
             #problems: sometimes there's a bug if there's a "" in Description
             #still need to better parse description for random tokens like , or ;

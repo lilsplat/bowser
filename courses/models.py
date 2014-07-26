@@ -55,7 +55,7 @@ DIST_REQ = [
     (ANY_300, "300-level"),
     #------------------------------------------------
     (W, "First Year Writing"),
-    #------------humanities dist area-----------------
+    #------------humanities dist area----------------
     (LL, "Language and Literature"),
     (AMTFV, "Arts, Music, Theater, Film and Video"),
     (LL_AMTFV, "Language and Literature or Arts, Music, Theater, Film and Video"),
@@ -131,7 +131,6 @@ ITAS = "ITAS"
 
 
 
-
 """
 Distribution todo:
 - still working toward a better distribution model...how to correctly represent fulfillment of distribution??
@@ -201,8 +200,9 @@ class Course(models.Model):
     prof = models.CharField(max_length=200)
     #need to fix into time and date separate
     # time_and_date = models.CharField(max_length=200)
-    time = models.CharField(max_length=200)
     date = models.CharField(max_length=200)
+    starttime = models.CharField(max_length=200)
+    endtime = models.CharField(max_length=200)
     offered_in_fall = models.BooleanField(default=True)#temporary for fall2014
     offered_in_spring = models.BooleanField(default=False)
 
@@ -217,7 +217,7 @@ class Course(models.Model):
     def conflicts(self, other_course):
         """Returns whether this Course has a time conflict with another Course"""
         try:
-            if (self.time == other_course.time) and (self.date == other_course.date):
+            if (self.starttime == other_course.starttime and self.date == other_course.date and self.endtime == other_course.endtime):
                 return True
             else:
                 return False
