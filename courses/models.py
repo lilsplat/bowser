@@ -175,24 +175,39 @@ class Distribution(models.Model):
         else:
             return False
 
+    class Meta:
+        ordering = ['name'] #orders courses by name
+
 
 
 """
 Course ok
 """
 class Course(models.Model):
-    code = models.CharField(max_length=200) #i.e. CS110
     dept = models.CharField(max_length=200)
-    name = models.CharField(max_length=200) 
-    time = models.CharField(max_length=200) #i.e. 1:30-4:00pm
-    date = models.CharField(max_length=200) #i.e. TF
+    code = models.CharField(max_length=200) #i.e. CS110, aka course
+    crn = models.CharField(max_length=200)
+    title = models.CharField(max_length=200)
+    credit_hours = models.CharField(max_length=200)
+    description = models.CharField(max_length=200)
+    addit_info = models.CharField(max_length=200)
+    #should these be ints
+    seats_available = models.CharField(max_length=200)
+    max_enrollment = models.CharField(max_length=200)
+    by_permission = models.CharField(max_length=200)
+    prereq = models.CharField(max_length=200)
+    notes = models.CharField(max_length=200)
+    xlisted = models.CharField(max_length=200)
     prof = models.CharField(max_length=200)
-    prof_site = models.CharField(max_length=200) #link to professor's website (comes on course browser)
-    dists = models.ManyToManyField(Distribution)
+    #need to fix into time and date separate
+    # time_and_date = models.CharField(max_length=200)
+    time = models.CharField(max_length=200)
+    date = models.CharField(max_length=200)
     offered_in_fall = models.BooleanField(default=True)#temporary for fall2014
     offered_in_spring = models.BooleanField(default=False)
-    # A corrolary to dists, to keep track of which majors each course counts toward
-    # majors = models.ManyToManyField(Major)
+
+    dists = models.ManyToManyField(Distribution)
+
 
     def __unicode__(self):
         return self.code
@@ -210,7 +225,7 @@ class Course(models.Model):
             raise Exception('please enter a valid course')
 
     class Meta:
-        ordering = ['name'] #orders courses by name
+        ordering = ['code'] #orders courses by name
 
 
 """Student todo:
@@ -327,6 +342,9 @@ class Student(models.Model):
 				major_course_list.remove(course)
 		return major_course_list
 
+    # class Meta:
+    #     ordering = ['name'] #orders courses by name
+
 
 class Course_Bucket(models.Model):
     name = models.CharField(max_length=200)
@@ -364,6 +382,9 @@ class Major(models.Model):
             return True
         else:
             return False
+
+    class Meta:
+        ordering = ['name'] #orders courses by name
         
 
     # """Returns the number of courses left to take in the Major, given a list of Courses"""
@@ -398,11 +419,18 @@ class UserProfile(models.Model):
     user = models.OneToOneField(User)
     # additional attributes we wish to include.
     email_verified = models.BooleanField()
+
     def __unicode__(self):
         return self.user.username
+
+    # class Meta:
+    #     ordering = ['name'] #orders courses by name
 
 class Rating(models.Model):
     comment_text = models.CharField(max_length=10000)
     comment_author = models.ForeignKey('Student')
     comment_course = models.ForeignKey('Course')
+
+    # class Meta:
+    #     ordering = ['name'] #orders courses by name
 
