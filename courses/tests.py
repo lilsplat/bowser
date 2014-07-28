@@ -14,7 +14,7 @@ import datetime
 
 
 class StudentTester(TestCase):
-	fixtures = ['initial_data_dump_072314.json']
+	fixtures = ['initial_data_dump_072814.json']
 
 	def setUp(self):
 		lx_user=User.objects.create_user('lxie','lxie@wellesley.edu','lilypassword')
@@ -158,7 +158,7 @@ class StudentTester(TestCase):
 		
 			
 class CourseTester(TestCase):
-	fixtures=['initial_data_dump_072314.json']
+	fixtures=['initial_data_dump_072814.json']
 
 	def setUp(self):
 		Course.objects.create(
@@ -235,7 +235,7 @@ class CourseTester(TestCase):
 
 
 class MajorTester(TestCase):
-	fixtures = ['initial_data_dump_072314.json']
+	fixtures = ['initial_data_dump_072814.json']
 	# def setUp(self):
 	def test(self):
 		print 'testing major'
