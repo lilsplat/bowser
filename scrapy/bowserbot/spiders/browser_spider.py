@@ -33,8 +33,13 @@ class BrowserSpider(scrapy.Spider):
                 code=sel.xpath('tr['+str(i)+']/th[2]/text()').extract()
                 code=self.test_and_pop(code, 'code')
                 code=code.split(' ')
+                if len(code) >= 4:
+                    code_ext=code[3]
+                else:
+                    code_ext=''
                 code=code[0]+code[1]
                 code=code.encode("UTF-8")
+                code_ext=code_ext.encode("UTF-8")
                 i+=1
             else:
                 code='None assigned'
@@ -170,11 +175,13 @@ class BrowserSpider(scrapy.Spider):
             category=sel.xpath('tr['+str(i)+']/th[1]/b/text()').extract()
             category=self.test_and_pop(category, 'categoryname')
             if category == 'Notes':
-                notes=sel.xpath('tr['+str(i)+']/th[2]/b/text()').extract()
+                notes=sel.xpath('tr['+str(i)+']/th[2]/text()').extract()
                 notes=self.test_and_pop(notes,'notes')
                 notes=notes.encode("UTF-8")
                 notes=notes.split('\"')
                 notes=''.join(notes)
+                notes=notes.split('\n')
+                notes=' '.join(notes)
                 i+=1
             else:
                 notes='None assigned'
@@ -272,7 +279,7 @@ class BrowserSpider(scrapy.Spider):
             except AttributeError:
                 dept='None assigned'
 
-            if (dept != 'PE' and dept != 'None assigned'):
+            if (dept != 'Physical Education' and dept != 'None assigned'):
                 f.write("  {\n")
                 f.write("    \"model\": \"courses.course\",\n")
                 f.write("    \"pk\": " + str(BrowserSpider.pk) + ",\n")
@@ -300,12 +307,8 @@ class BrowserSpider(scrapy.Spider):
                 f.write("    }\n")
                 f.write("  },\n")
                 # print 'course id:' + str(BrowserSpider.pk)
-                self.write_dist(dist,code)
+                self.write_dist(code,dist,credit_hours,code_ext,notes,title)
                 BrowserSpider.pk += 1
-
-            #problems: sometimes there's a bug if there's a "" in Description
-            #still need to better parse description for random tokens like , or ;
-    
 
     def test_and_pop(self, extracted_list, listname):
         if len(extracted_list) == 0:
@@ -317,9 +320,6 @@ class BrowserSpider(scrapy.Spider):
             for element in extracted_list:
                 string = element.strip() + ',' + string
             return string
-
-    # def remove_quotes(s):
-
 
     def parsedept(self,d):
         deptlist = ['AFR,Africana Studies',
@@ -393,48 +393,54 @@ class BrowserSpider(scrapy.Spider):
             if d == dept[0]:
                 # print dept[1]
                 return dept[1]
-            else:
-                return d
-                # print str(d) +' has no dept'
 
-    def write_dist(self,dist,code):
-        d=[]
-        course=str.split(dist,',')
-        # print course
-        for c in course:
-            if "QRB" in c:
-                d.append(3)
-            if "QRF" in c:
-                d.append(4)
-            if "Lab" in c:
-                d.append(5)
-            if 3==int(float(re.search('[0-9]',code).group())):
-                if (not 'POL31' in code and not 'POL32' in code):
-                    d.append(6)
-                if ('POL13' in code or 'POL23' in code or 'POL43' in code):
-                    d.append(6)
-            if "W" in c:
-                d.append(7)
-            if "Language" in c:
-                d.append(8)
-                d.append(10)
-            if "Arts" in c:
-                d.append(9)
-                d.append(10)
-            if "Social" in c:
-                d.append(11)
-            if "Epistemology" in c:
-                d.append(12)
-            if "Historical" in c:
-                d.append(13)
-            if "Religion" in c:
-                d.append(13)
-            if "Mathematical" in c:
-                d.append(14)
-                d.append(16)
-            if "Natural" in c:
-                d.append(15)
-                d.append(16)
+        return d
+
+    def write_dist(self,code,dist,credit_hours,code_ext,notes,title):
+        #('L' in code_ext or 'Laboratory' in title)
+        if (('L' in code_ext or 'Laboratory' in title)
+            and 'Does not fulfill the laboratory requirement.' not in notes
+            and 'Does not satisfy the laboratory requirement.' not in notes
+            and credit_hours == '0'):
+            d=[5] #delete all dists becasue this is lab
+        else:
+            d=[]
+            course=str.split(dist,',')
+            for c in course:
+                if "QRB" in c:
+                    d.append(3)
+                if "QRF" in c:
+                    d.append(4)
+                if "Lab" in c:
+                    d.append(5)
+                if 3==int(float(re.search('[0-9]',code).group())):
+                    if (not 'POL31' in code and not 'POL32' in code):
+                        d.append(6)
+                    if ('POL13' in code or 'POL23' in code or 'POL43' in code):
+                        d.append(6)
+                if "W" in c:
+                    d.append(7)
+                if "Language" in c:
+                    d.append(8)
+                    d.append(10)
+                if "Arts" in c:
+                    d.append(9)
+                    d.append(10)
+                if "Social" in c:
+                    d.append(11)
+                if "Epistemology" in c:
+                    d.append(12)
+                if "Historical" in c:
+                    d.append(13)
+                if "Religion" in c:
+                    d.append(13)
+                if "Mathematical" in c:
+                    d.append(14)
+                    d.append(16)
+                if "Natural" in c:
+                    d.append(15)
+                    d.append(16)
+
         d=list(set(d)) #get rid of duplicates
         # print d
         for distribution_id in d:
@@ -442,12 +448,5 @@ class BrowserSpider(scrapy.Spider):
             # print 'wrote: course id:' + str(BrowserSpider.pk) + '   dist id:' + str(distribution_id)
             distf.write("\n")
             BrowserSpider.dist_pk+=1
-            
-
-
-
-
-        
-
 
         
