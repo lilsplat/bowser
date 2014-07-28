@@ -1,3 +1,5 @@
+#NOT USED as of 6/28
+#see browser_spider in scrapy instead
 #course_dists_parse.py
 import re
 

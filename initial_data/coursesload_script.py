@@ -1,3 +1,6 @@
+#NOT USED as of 6/28
+#see browser_spider in scrapy
+
 """TODO:
 still needs to fill out the Distribution object, probably todo after distribution is filled into the table
 fix bug: manually need to add ] and delete , at end of .json
