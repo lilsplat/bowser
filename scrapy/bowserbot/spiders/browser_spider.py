@@ -75,8 +75,18 @@ class BrowserSpider(scrapy.Spider):
             category=self.test_and_pop(category,'categoryname')
             if category == 'Description':
                 description=sel.xpath('tr['+str(i)+']/th[2]/text()').extract()
-                if len(description) == 0: #if not in this tag
-                    description=sel.xpath('tr['+str(i)+']/th[2]/p/text()').extract()
+                if len(description) == 0: #if not in this tag, in p tag
+                    description=sel.xpath('tr['+str(i)+']/th[2]/p[1]/text()').extract()
+                if len(description) == 0: #for courses with added div
+                    description=sel.xpath('tr['+str(i)+']/th[2]/div/text()').extract()
+
+                if len(description) == 0: #for courses with Topics
+                    description=sel.xpath('tr['+str(i)+']/th[2]/div/p[2]/text()').extract()
+                if len(description) == 0: #more Topics
+                    description=sel.xpath('tr['+str(i)+']/th[2]/p[2]/text()').extract()
+                if len(description) == 0: #more Topics
+                    description=sel.xpath('tr['+str(i)+']/th[2]/p[3]/text()').extract()
+
                 description=self.test_and_pop(description, 'description')
                 description=description.encode("UTF-8")
                 description=description.split('\"')
@@ -289,6 +299,7 @@ class BrowserSpider(scrapy.Spider):
                 f.write("      \"offered_in_spring\": false\n")
                 f.write("    }\n")
                 f.write("  },\n")
+                # print 'course id:' + str(BrowserSpider.pk)
                 self.write_dist(dist,code)
                 BrowserSpider.pk += 1
 
@@ -298,7 +309,7 @@ class BrowserSpider(scrapy.Spider):
 
     def test_and_pop(self, extracted_list, listname):
         if len(extracted_list) == 0:
-            return listname + ': None assigned'
+            return 'None assigned'
         elif len(extracted_list) == 1:
             return extracted_list.pop()
         else:
@@ -384,12 +395,12 @@ class BrowserSpider(scrapy.Spider):
                 return dept[1]
             else:
                 return d
-                print str(d) +' has no dept'
+                # print str(d) +' has no dept'
 
     def write_dist(self,dist,code):
         d=[]
         course=str.split(dist,',')
-        print course
+        # print course
         for c in course:
             if "QRB" in c:
                 d.append(3)
@@ -425,9 +436,10 @@ class BrowserSpider(scrapy.Spider):
                 d.append(15)
                 d.append(16)
         d=list(set(d)) #get rid of duplicates
-        print d
+        # print d
         for distribution_id in d:
             distf.write("("+str(BrowserSpider.dist_pk)+","+str(BrowserSpider.pk)+","+str(distribution_id)+")")
+            # print 'wrote: course id:' + str(BrowserSpider.pk) + '   dist id:' + str(distribution_id)
             distf.write("\n")
             BrowserSpider.dist_pk+=1
             
