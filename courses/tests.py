@@ -5,8 +5,6 @@
 # - Test Student.major_todo
 # - 
 
-
-
 from django.utils import unittest
 from django.test import TestCase
 # from test_utils import 
@@ -245,8 +243,6 @@ class MajorTester(TestCase):
 		soc=Major.objects.get(code='SOC')
 
 		print Course.objects.filter(dept=cs.name).all()
-
-
 
 
 
