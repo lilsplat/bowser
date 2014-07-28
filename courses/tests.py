@@ -164,33 +164,60 @@ class CourseTester(TestCase):
 		Course.objects.create(
 			code='test100',
 			dept='Computer Science',
-			name='Amen 2 Testing',
-			time='1:00-4:00PM',
+			crn='12345',
+			title='Amen 2 Testing',
+			credit_hours='1',
+			description='AND I SAY CHURRRRRCH',
+			addit_info='featuring Drake',
+			seats_available='1',
+			max_enrollment='1',
+			by_permission='None assigned',
+			notes='When they test me i just pee rose',
+			xlisted='None assigned',
+			starttime='1:00',
+			endtime='4:00',
 			date='TF',
-			prof='Meek Mill',
-			prof_site='When they test me i just pee rose'
+			prof='Meek Mill'
 			# offered_in_fall=True,
 			# offered_in_spring=False
 			)
 		Course.objects.create(
 			code='test300',
-			dept='Computer Science',
-			name='3hunnatest',
-			time='1:00-4:00PM',
+			dept='Computer Science', #?
+			crn='23456',
+			credit_hours='1',
+			description='Bang bang it\'s macaroni time',
+			addit_info='yung chop on the beat',
+			seats_available='1',
+			max_enrollment='10',
+			by_permission='None assigned',
+			notes='None assigned',
+			xlisted='None assigned',
+			starttime='1:00',
+			endtime='4:00',
+			title='3hunnatest',
 			date='TF',
-			prof='Dr Sosa',
-			prof_site='Bang bang it\'s macaroni time'
+			prof='Dr Sosa'
 			# offered_in_fall=True,
 			# offered_in_spring=False
 			)
 		Course.objects.create(
 			code='test200',
 			dept='Computer Science',
-			name='blah',
-			time='9:50-11:00AM',
+			crn='12345',
+			credit_hours='1',
+			description='',
+			addit_info='',
+			seats_available='1',
+			max_enrollment='1',
+			by_permission='None assigned',
+			notes='None assigned',
+			xlisted='None assigned',
+			starttime='9:50',
+			endtime='11:00',
+			title='blah',
 			date='TF',
-			prof='Dr Sosa',
-			prof_site='Bang bang it\'s macaroni time'
+			prof='Dr Sosa'
 			# offered_in_fall=True,
 			# offered_in_spring=False
 			)
@@ -212,11 +239,21 @@ class CourseTester(TestCase):
 		"""TEST FIELDS"""
 		self.assertEqual('test100',test100.code)
 		self.assertEqual('Computer Science',test300.dept)
-		self.assertEqual('3hunnatest',test300.name)
-		self.assertEqual('1:00-4:00PM',test100.time)
+		self.assertEqual('3hunnatest',test300.title)
+		self.assertEqual('1:00',test100.starttime)
+		self.assertEqual('4:00',test100.endtime)
 		self.assertEqual('TF',test300.date)
 		self.assertEqual('Dr Sosa',test300.prof)
-		self.assertEqual('When they test me i just pee rose',test100.prof_site)
+		self.assertEqual('When they test me i just pee rose',test100.notes)
+		self.assertEqual('12345',test100.crn)
+		self.assertEqual('1',test100.credit_hours)
+		self.assertEqual('Bang bang it\'s macaroni time',test300.description)
+		self.assertEqual('featuring Drake',test100.addit_info)
+		self.assertEqual('1',test200.seats_available)
+		self.assertEqual('1',test200.max_enrollment)
+		self.assertEqual('None assigned',test200.notes)
+		self.assertEqual('None assigned',test200.xlisted)
+		self.assertEqual('Dr Sosa',test300.prof)
 
 		"""TEST CONFLICTS"""
 		self.assertTrue(test100.conflicts(test300))
@@ -224,7 +261,23 @@ class CourseTester(TestCase):
 		self.assertFalse(test100.conflicts(test200))
 		self.assertFalse(test200.conflicts(test300))
 
-		# testing course.dists
+		"""TEST FULL"""
+		self.assertTrue(test100.is_full())
+		self.assertFalse(test300.is_full())
+
+		"""TEST DISTRIBUTIONS"""
+
+		self.assertEqual('Mathematical Modeling',test100.dists.all()[0].name)
+		self.assertEqual('300-level',test300.dists.all()[0].name)
+		self.assertEqual('Mathematical Modeling or Natural and Physical Sciences',test100.dists.all()[1].name)
+		self.assertEqual(2,len(test100.dists.all()))
+		self.assertEqual(3,len(test300.dists.all()))
+
+		d=Distribution.objects.get(id=3)
+		print d
+		print d.course_set.all()
+
+
 		# tester=Course.objects.filter(code='AFR201')[0]
 		# t2=Course.objects.filter(code='AFR208')[0]
 		# t3=Course.objects.filter(code='CS111')[0]

@@ -183,7 +183,7 @@ class Distribution(models.Model):
 Course ok
 """
 class Course(models.Model):
-    dept = models.CharField(max_length=200)
+    dept = models.CharField(max_length=200) #i.e. CS
     code = models.CharField(max_length=200) #i.e. CS110, aka course
     crn = models.CharField(max_length=200)
     title = models.CharField(max_length=200)
@@ -208,7 +208,6 @@ class Course(models.Model):
 
     dists = models.ManyToManyField(Distribution)
 
-
     def __unicode__(self):
         return self.code
 
@@ -224,6 +223,15 @@ class Course(models.Model):
         except:
             raise Exception('please enter a valid course')
 
+    def is_full(self):
+        """Returns whether this Course's enrollment is full"""
+        try:
+            if (self.seats_available == self.max_enrollment):
+                return True
+            else:
+                return False
+        except:
+            raise Exception('please enter a valid course')
     class Meta:
         ordering = ['code'] #orders courses by name
 
