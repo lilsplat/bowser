@@ -7,10 +7,13 @@ from bowserbot.items import *
 # from courses.models import *
 import re
 
+#can't close these ruh roh...bad practice
 f=open('browser_spider_test.json','w+')
+distf=open('all_courses_fall2014_dists.txt','w+')
 
 class BrowserSpider(scrapy.Spider):
     pk=1
+    dist_pk=1
     name = "browser_spider"
     allowed_domains = ["https://courses.wellesley.edu"]
 
@@ -286,6 +289,7 @@ class BrowserSpider(scrapy.Spider):
                 f.write("      \"offered_in_spring\": false\n")
                 f.write("    }\n")
                 f.write("  },\n")
+                self.write_dist(dist,code)
                 BrowserSpider.pk += 1
 
             #problems: sometimes there's a bug if there's a "" in Description
@@ -381,7 +385,57 @@ class BrowserSpider(scrapy.Spider):
             else:
                 return d
                 print str(d) +' has no dept'
-        # return d
+
+    def write_dist(self,dist,code):
+        d=[]
+        course=str.split(dist,',')
+        print course
+        for c in course:
+            if "QRB" in c:
+                d.append(3)
+            if "QRF" in c:
+                d.append(4)
+            if "Lab" in c:
+                d.append(5)
+            if 3==int(float(re.search('[0-9]',code).group())):
+                if (not 'POL31' in code and not 'POL32' in code):
+                    d.append(6)
+                if ('POL13' in code or 'POL23' in code or 'POL43' in code):
+                    d.append(6)
+            if "W" in c:
+                d.append(7)
+            if "Language" in c:
+                d.append(8)
+                d.append(10)
+            if "Arts" in c:
+                d.append(9)
+                d.append(10)
+            if "Social" in c:
+                d.append(11)
+            if "Epistemology" in c:
+                d.append(12)
+            if "Historical" in c:
+                d.append(13)
+            if "Religion" in c:
+                d.append(13)
+            if "Mathematical" in c:
+                d.append(14)
+                d.append(16)
+            if "Natural" in c:
+                d.append(15)
+                d.append(16)
+        d=list(set(d)) #get rid of duplicates
+        print d
+        for distribution_id in d:
+            distf.write("("+str(BrowserSpider.dist_pk)+","+str(BrowserSpider.pk)+","+str(distribution_id)+")")
+            distf.write("\n")
+            BrowserSpider.dist_pk+=1
+            
+
+
+
+
+        
 
 
         

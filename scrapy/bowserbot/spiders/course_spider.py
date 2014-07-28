@@ -212,12 +212,8 @@ class CourseSpider(scrapy.Spider):
                 string = element.strip() + ',' + string
             # print string
             return string
-        
 
-
-
-
-    	
+    
     	   # page_title = response.selector.xpath('head/title/text()').extract()
     	   # filename = "tutorial/txt_docs/" + str(page_title.pop()) + ".txt" #saved in txt docs directory
     	   # f = open (filename, 'w') #new file writer with name of the title
