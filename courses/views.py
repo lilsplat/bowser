@@ -67,13 +67,16 @@ def user_login(request):
 
 
 def create_student_profile(request):
+	print request.user
 	context = RequestContext(request)
 	profile_created = False
 	if request.method == 'POST':
 		student_form = StudentProfileForm(data=request.POST)
+		print 'Student form posted'
 		if student_form.is_valid():
-			student_data = student_form.save()
+			print 'Student form valid'
 			student = Student.objects.filter(user=request.user)
+			student_data = student_form.save()
 			student.class_year = stuent_data.class_year
 			student.primary_major = student_data.primary_major
 			student.secondary_major = student_data.secondary_major
