@@ -18,13 +18,23 @@ class Migration(SchemaMigration):
         # Adding model 'Course'
         db.create_table(u'courses_course', (
             (u'id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
-            ('code', self.gf('django.db.models.fields.CharField')(max_length=200)),
             ('dept', self.gf('django.db.models.fields.CharField')(max_length=200)),
-            ('name', self.gf('django.db.models.fields.CharField')(max_length=200)),
-            ('time', self.gf('django.db.models.fields.CharField')(max_length=200)),
-            ('date', self.gf('django.db.models.fields.CharField')(max_length=200)),
+            ('code', self.gf('django.db.models.fields.CharField')(max_length=200)),
+            ('crn', self.gf('django.db.models.fields.CharField')(max_length=200)),
+            ('title', self.gf('django.db.models.fields.CharField')(max_length=200)),
+            ('credit_hours', self.gf('django.db.models.fields.CharField')(max_length=200)),
+            ('description', self.gf('django.db.models.fields.CharField')(max_length=200)),
+            ('addit_info', self.gf('django.db.models.fields.CharField')(max_length=200)),
+            ('seats_available', self.gf('django.db.models.fields.CharField')(max_length=200)),
+            ('max_enrollment', self.gf('django.db.models.fields.CharField')(max_length=200)),
+            ('by_permission', self.gf('django.db.models.fields.CharField')(max_length=200)),
+            ('prereq', self.gf('django.db.models.fields.CharField')(max_length=200)),
+            ('notes', self.gf('django.db.models.fields.CharField')(max_length=200)),
+            ('xlisted', self.gf('django.db.models.fields.CharField')(max_length=200)),
             ('prof', self.gf('django.db.models.fields.CharField')(max_length=200)),
-            ('prof_site', self.gf('django.db.models.fields.CharField')(max_length=200)),
+            ('date', self.gf('django.db.models.fields.CharField')(max_length=200)),
+            ('starttime', self.gf('django.db.models.fields.CharField')(max_length=200)),
+            ('endtime', self.gf('django.db.models.fields.CharField')(max_length=200)),
             ('offered_in_fall', self.gf('django.db.models.fields.BooleanField')(default=True)),
             ('offered_in_spring', self.gf('django.db.models.fields.BooleanField')(default=False)),
         ))
@@ -82,6 +92,7 @@ class Migration(SchemaMigration):
         # Adding model 'Major'
         db.create_table(u'courses_major', (
             (u'id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
+            ('code', self.gf('django.db.models.fields.CharField')(default='UND', max_length=200)),
             ('name', self.gf('django.db.models.fields.CharField')(default='Undecided', max_length=200)),
             ('is_minor', self.gf('django.db.models.fields.BooleanField')(default=False)),
         ))
@@ -94,6 +105,16 @@ class Migration(SchemaMigration):
             ('email_verified', self.gf('django.db.models.fields.BooleanField')()),
         ))
         db.send_create_signal(u'courses', ['UserProfile'])
+
+        # Adding model 'Rating'
+        db.create_table(u'courses_rating', (
+            (u'id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
+            ('score', self.gf('django.db.models.fields.IntegerField')(default=5)),
+            ('comment_text', self.gf('django.db.models.fields.CharField')(max_length=10000, null=True, blank=True)),
+            ('comment_author', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['courses.Student'])),
+            ('comment_course', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['courses.Course'])),
+        ))
+        db.send_create_signal(u'courses', ['Rating'])
 
 
     def backwards(self, orm):
@@ -123,6 +144,9 @@ class Migration(SchemaMigration):
 
         # Deleting model 'UserProfile'
         db.delete_table(u'courses_userprofile')
+
+        # Deleting model 'Rating'
+        db.delete_table(u'courses_rating')
 
 
     models = {
@@ -163,18 +187,28 @@ class Migration(SchemaMigration):
             'name': ('django.db.models.fields.CharField', [], {'max_length': '100'})
         },
         u'courses.course': {
-            'Meta': {'ordering': "['name']", 'object_name': 'Course'},
+            'Meta': {'ordering': "['code']", 'object_name': 'Course'},
+            'addit_info': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
+            'by_permission': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
             'code': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
+            'credit_hours': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
+            'crn': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
             'date': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
             'dept': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
+            'description': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
             'dists': ('django.db.models.fields.related.ManyToManyField', [], {'to': u"orm['courses.Distribution']", 'symmetrical': 'False'}),
+            'endtime': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
             u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
-            'name': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
+            'max_enrollment': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
+            'notes': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
             'offered_in_fall': ('django.db.models.fields.BooleanField', [], {'default': 'True'}),
             'offered_in_spring': ('django.db.models.fields.BooleanField', [], {'default': 'False'}),
+            'prereq': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
             'prof': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
-            'prof_site': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
-            'time': ('django.db.models.fields.CharField', [], {'max_length': '200'})
+            'seats_available': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
+            'starttime': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
+            'title': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
+            'xlisted': ('django.db.models.fields.CharField', [], {'max_length': '200'})
         },
         u'courses.course_bucket': {
             'Meta': {'object_name': 'Course_Bucket'},
@@ -183,15 +217,24 @@ class Migration(SchemaMigration):
             'name': ('django.db.models.fields.CharField', [], {'max_length': '200'})
         },
         u'courses.distribution': {
-            'Meta': {'object_name': 'Distribution'},
+            'Meta': {'ordering': "['name']", 'object_name': 'Distribution'},
             u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'name': ('django.db.models.fields.CharField', [], {'default': "'NONE'", 'max_length': '200'})
         },
         u'courses.major': {
-            'Meta': {'object_name': 'Major'},
+            'Meta': {'ordering': "['name']", 'object_name': 'Major'},
+            'code': ('django.db.models.fields.CharField', [], {'default': "'UND'", 'max_length': '200'}),
             u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'is_minor': ('django.db.models.fields.BooleanField', [], {'default': 'False'}),
             'name': ('django.db.models.fields.CharField', [], {'default': "'Undecided'", 'max_length': '200'})
+        },
+        u'courses.rating': {
+            'Meta': {'object_name': 'Rating'},
+            'comment_author': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['courses.Student']"}),
+            'comment_course': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['courses.Course']"}),
+            'comment_text': ('django.db.models.fields.CharField', [], {'max_length': '10000', 'null': 'True', 'blank': 'True'}),
+            u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
+            'score': ('django.db.models.fields.IntegerField', [], {'default': '5'})
         },
         u'courses.student': {
             'Meta': {'object_name': 'Student'},
