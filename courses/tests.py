@@ -7,7 +7,6 @@
 
 from django.utils import unittest
 from django.test import TestCase
-# from test_utils import 
 from django.contrib.auth.models import User
 from courses.models import Course, Student, Distribution, Major, Rating
 import datetime
@@ -38,17 +37,24 @@ class StudentTester(TestCase):
 		Rating.objects.create(
 			comment_text = "yay this course rocks my socks off!",
 			comment_author = Student.objects.get(user=lx_user),
-			comment_course=Course.objects.filter(code='CS111')[0]
+			comment_course=Course.objects.filter(code='CS111')[0],
+			score=5
 			)
 		Rating.objects.create(
 			comment_text = "eh, this course could have been better. maybe if i didn't fall asleep in class each day...",
 			comment_author = Student.objects.get(user=st_user),
-			comment_course=Course.objects.filter(code='CS111')[0]
+			comment_course=Course.objects.filter(code='CS111')[0],
+			score=3
 			)
 		Rating.objects.create(
 			comment_text = "this course sucked. never again, never again.",
 			comment_author = Student.objects.get(user=lx_user),
-			comment_course=Course.objects.filter(code='CS307')[0]
+			comment_course=Course.objects.filter(code='CS307')[0],
+			score=1
+			)
+		Rating.objects.create(
+			comment_author=Student.objects.get(user=lx_user),
+			comment_course=Course.objects.filter(code='CS111')[0],
 			)
 
 	def test(self):
@@ -100,63 +106,100 @@ class StudentTester(TestCase):
 		#still need to test nullable fields
 
 		"""TEST ADDING AND REMOVING COURSES"""
-		#nb: in the future this should be improved!!!!
-		astr206=Course.objects.filter(code='ASTR206')[0] #qr
-		cs307=Course.objects.filter(code='CS307')[0] #300 level
-		writ170=Course.objects.filter(code='WRIT170')[0] #fyw
-		amst268=Course.objects.filter(code='AMST268')[0] #lang and lit
-		arth100=Course.objects.filter(code='ARTH100')[0] #arts
-		soc108=Course.objects.filter(code='SOC108')[0] #sba
-		cs322=Course.objects.filter(code='CS322')[0] #epistemology
-		phil106=Course.objects.filter(code='PHIL106')[0] #epistemology
-		wgst220=Course.objects.filter(code='WGST220')[0] #history
-		cs111=Course.objects.filter(code='CS111')[0] #math
-		astr100=Course.objects.filter(code='ASTR100')[0] #nps
+		lily_courses=[]
+		qrbcourse=Distribution.objects.get(name='Basic QR').course_set.all()[0]
+		lily_courses.append(qrbcourse)
+		qrfcourse=Distribution.objects.get(name='QR Overlay').course_set.all()[10]
+		lily_courses.append(qrfcourse)
+		labcourse=Distribution.objects.get(name='Lab').course_set.all()[20]
+		lily_courses.append(labcourse)
+		tlevelcourse_1=Distribution.objects.get(name='300-level').course_set.all()[30]
+		lily_courses.append(tlevelcourse_1)
+		tlevelcourse_2=Distribution.objects.get(name='300-level').course_set.all()[40]
+		lily_courses.append(tlevelcourse_2)
+		tlevelcourse_3=Distribution.objects.get(name='300-level').course_set.all()[50]
+		lily_courses.append(tlevelcourse_3)
+		tlevelcourse_4=Distribution.objects.get(name='300-level').course_set.all()[60]
+		lily_courses.append(tlevelcourse_4)
+		fywcourse=Distribution.objects.get(name='First Year Writing').course_set.all()[0]
+		lily_courses.append(fywcourse)
+		llcourse=Distribution.objects.get(name='Language and Literature').course_set.all()[10]
+		lily_courses.append(llcourse)
+		artcourse=Distribution.objects.get(name='Arts, Music, Theater, Film and Video').course_set.all()[20]
+		lily_courses.append(artcourse)
+		ll_artcourse=Distribution.objects.get(name='Language and Literature or Arts, Music, Theater, Film and Video').course_set.all()[7]
+		lily_courses.append(ll_artcourse)
+		sbacourse=Distribution.objects.get(name='Social and Behavioral Analysis').course_set.all()[0]
+		lily_courses.append(sbacourse)
+		ec_hscourse=Distribution.objects.get(name='Epistemology and Cognition or Historical Studies').course_set.all()[10]
+		lily_courses.append(ec_hscourse)
+		hs_rempcourse=Distribution.objects.get(name='Historical Studies or Religion, Ethics, and Moral Philosophy').course_set.all()[20]
+		lily_courses.append(hs_rempcourse)
+		mmcourse=Distribution.objects.get(name='Mathematical Modeling').course_set.all()[30]
+		lily_courses.append(mmcourse)
+		npscourse=Distribution.objects.get(name='Natural and Physical Sciences').course_set.all()[0]
+		lily_courses.append(npscourse)
+		mm_npscourse=Distribution.objects.get(name='Mathematical Modeling or Natural and Physical Sciences').course_set.all()[10]
+		lily_courses.append(mm_npscourse)
 
-		lily.add_course(astr206)
-		lily.add_course(cs307)
-		lily.add_course(writ170)
-		lily.add_course(amst268)
-		lily.add_course(arth100)
-		lily.add_course(soc108)
-		lily.add_course(cs322)
-		lily.add_course(phil106)
-		lily.add_course(wgst220)
-		lily.add_course(cs111)
-		lily.add_course(astr100)
-		lily.save()
+		for c in lily_courses:
+			lily.add_course(c)
 
-		self.assertEqual(11,lily.courses.count())
-		self.assertEqual('ASTR206',lily.courses.filter(code='ASTR206')[0].code)
+		self.assertEqual(17,lily.courses.count())
 
-		lily.remove_course(arth100)
-		lily.remove_course(astr100)
-		lily.save()
+		lily.remove_course(qrbcourse)
+		self.assertEqual(16,lily.courses.count())
+		
+		print lily.distributions_todo()
+		# lily.remove_course(arth100)
+		# lily.remove_course(astr100)
+		# lily.save()
 
-		self.assertEqual(9,lily.courses.count())
+		# self.assertEqual(9,lily.courses.count())
+
+
+
+		# print lily.courses.all()
+		# for c in lily.courses.all():
+		# 	print str(c.id) + ': ' + c.code + str(c.dists.all())
+		# print lily.distributions_todo()
+
 
 		# lily.distributions_todo()
 
-		""" TEST COMMENTS """
+		""" TEST RATINGS """
 		#should move this to its own class duhhhh
 		good_comment=Rating.objects.get(id=1)
-		print good_comment.comment_text
-
 		mediocre_comment=Rating.objects.get(id=2)
-		print mediocre_comment.comment_text
-
 		bad_comment=Rating.objects.get(id=3)
-		print bad_comment.comment_text
-
+		empty_comment=Rating.objects.get(id=4)
 		good_comment.save()
 		mediocre_comment.save()
 		bad_comment.save()
-		
-		print cs111.rating_set.all()
-		print cs307.rating_set.all()
-		print lily.rating_set.all()[0].comment_text
-		
-			
+		empty_comment.save()
+
+		#testing comments
+		self.assertEqual('yay this course rocks my socks off!',good_comment.comment_text)
+		self.assertEqual('eh, this course could have been better. maybe if i didn\'t fall asleep in class each day...',mediocre_comment.comment_text)
+		self.assertEqual('this course sucked. never again, never again.',bad_comment.comment_text)
+		#testing scores
+		self.assertEqual(1,bad_comment.score)	
+		self.assertEqual(3,mediocre_comment.score)
+		self.assertEqual(5,good_comment.score)
+		self.assertEqual(5,empty_comment.score)
+		#testing course rating_set
+		cs111=Course.objects.filter(code='CS111')[0]
+		cs307=Course.objects.filter(code='CS307')[0]
+		self.assertTrue(3,len(cs111.rating_set.all()))
+		self.assertTrue(1,len(cs307.rating_set.all()))
+		#testing student rating_set
+		self.assertTrue(3,len(lily.rating_set.all()))
+		self.assertTrue(3,len(sravanti.rating_set.all()))
+
+		"""TESTING AVG_SCORE"""
+		self.assertAlmostEqual(13.0/3.0,cs111.avg_score())
+		self.assertAlmostEqual(1.0,cs307.avg_score())
+
 class CourseTester(TestCase):
 	fixtures=['initial_data_dump_072814.json']
 
@@ -272,18 +315,15 @@ class CourseTester(TestCase):
 		self.assertEqual('Mathematical Modeling or Natural and Physical Sciences',test100.dists.all()[1].name)
 		self.assertEqual(2,len(test100.dists.all()))
 		self.assertEqual(3,len(test300.dists.all()))
+		d=Distribution.objects.create(name='Testing')
+		test100.dists.add(d)
+		test200.dists.add(d)
+		self.assertEqual(2,len(d.course_set.all()))
 
-		d=Distribution.objects.get(id=3)
-		print d
-		print d.course_set.all()
-
-
-		# tester=Course.objects.filter(code='AFR201')[0]
-		# t2=Course.objects.filter(code='AFR208')[0]
-		# t3=Course.objects.filter(code='CS111')[0]
-		# print tester.dists.all()
-		# print t2.dists.all()
-		# print t3.dists.all()
+		#when repopulating db, use this as a test for dist/course parallel
+		# d=Distribution.objects.get(id=3)
+		# print d
+		# print d.course_set.all()
 
 
 
@@ -291,12 +331,72 @@ class MajorTester(TestCase):
 	fixtures = ['initial_data_dump_072814.json']
 	# def setUp(self):
 	def test(self):
-		print 'testing major'
+		# print 'testing major'
 		cs=Major.objects.get(code='CS')
 		soc=Major.objects.get(code='SOC')
 
-		print Course.objects.filter(dept=cs.name).all()
+		# print Course.objects.filter(dept=cs.name).all()
 
+class DistributionTester(TestCase):
+	fixtures = ['initial_data_dump_072814.json']
+
+	def setUp(self):
+		Distribution.objects.create(
+			name='Testing Dist'
+			)
+		Course.objects.create(
+			code='test123',
+			dept='Test',
+			crn='12345',
+			title='TAST',
+			credit_hours='1',
+			description='mmm',
+			addit_info='None',
+			seats_available='1',
+			max_enrollment='1',
+			by_permission='None',
+			prereq='None',
+			xlisted='None',
+			prof='None',
+			date='None',
+			starttime='None',
+			endtime='None'
+			)
+
+	def test(self):
+		"""INITIALIZE"""
+		testdist=Distribution.objects.get(name='Testing Dist')
+		qrb=Distribution.objects.get(name='Basic QR')
+		lab=Distribution.objects.get(name='Lab')
+		threehunna=Distribution.objects.get(name='300-level')
+		ll=Distribution.objects.get(name='Language and Literature')
+		ll_art=Distribution.objects.get(name='Language and Literature or Arts, Music, Theater, Film and Video')
+		qr140_1=Course.objects.filter(code='QR140')[0]
+		qr140_2=Course.objects.filter(code='QR140')[1]
+		cs307=Course.objects.filter(code='CS307')[0]
+		cs240=Course.objects.filter(code='CS240').exclude(credit_hours='0')[0]
+		cs240_lab=Course.objects.filter(code='CS240').filter(credit_hours='0')[0]
+		ealc245=Course.objects.filter(code='EALC245')[0]
+		test123=Course.objects.filter(code='test123')[0]
+		test123.dists.add(testdist)
+
+		"""TESTING IS_FULFILLED_BY"""
+		self.assertTrue(qrb.is_fulfilled_by(qr140_1))
+		self.assertTrue(qrb.is_fulfilled_by(qr140_2))
+		self.assertTrue(threehunna.is_fulfilled_by(cs307))
+		self.assertTrue(lab.is_fulfilled_by(cs240_lab))
+		self.assertFalse(lab.is_fulfilled_by(cs240)) #lab should be only fulfilled by the LAB, not the course
+		self.assertTrue(ll.is_fulfilled_by(ealc245))
+		self.assertTrue(ll_art.is_fulfilled_by(ealc245))
+		self.assertTrue(testdist.is_fulfilled_by(test123))
+
+		"""TESTING SUGGESTED_COURSES"""
+		nonlab_list=[cs240,cs307,test123]
+		lab_list=[cs240_lab]
+		mixed_list=[cs240_lab,test123,cs307]
+		self.assertIn('CS240',lab.suggested_courses(nonlab_list))
+		self.assertNotIn('CS240',lab.suggested_courses(lab_list))
+		self.assertNotIn('CS240',lab.suggested_courses(mixed_list))
 
 
 # class CommentTester(TestCase):
