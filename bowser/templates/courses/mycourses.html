@@ -1,0 +1,338 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/bootstrap-3.2.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/static/genericstyling.css">
+    <link rel="stylesheet" type="text/css" href="/static/mycoursesstyle.css" >
+	<title>My Courses</title>
+	
+</head>
+
+<body>
+
+<div id="allcontent">
+
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">B O W S E R</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+	<!-- TODO: Add actual links to the nav bar! -->
+	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+		<li><a href="#">Scheduler</a><li>
+		<li><a href="#">Checklist</a><li>
+		<li><a href="#">My Courses</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+		<li class="active"><a href="profile.html">Profile</a></li>
+		<li><a href="#">Logout</a></li>
+     </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav> 
+
+ <div class="pagecontent">
+ 
+ <h4> Use this page to log and enter optional reviews for past courses. </h4>
+ 
+ 
+  <!--~~~~~~~~~~~~~~~~~~~~~Honor Code callout-->
+ <!--source: www.css3-generator.weebly.com-->
+ 
+ <div class="bubble"> 
+ <p> <strong>Please Note:
+ <br></strong> It is <em>against the Honor Code</em> to discuss 
+ a professor's grading in this setting.  It is acceptable to reference the difficulty of 
+ coursework, but please refrain from any discussion regarding an instructor being a 
+ "hard" or "easy" grader, etc.</div>
+ 
+ 
+ <!--~~~~~~~~~~~~~~~~~~~~~Enter a New Course Box-->
+ 
+ 		<div id="new_course_entry" class="rounded_div">
+ 
+ 		<h4> Enter a New Course </h4>
+ 		
+ 		<form class="form-inline" role="form">
+ 		
+ 			<!-- Department dropdown -->
+			<div class="btn-group">
+  			<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+    			Department <span class="caret"></span>
+  			</button>
+  			<ul class="dropdown-menu" role="menu">
+    			<li><a href="#">Action</a></li>
+    			<li><a href="#">Another action</a></li>
+    			<li><a href="#">Something else here</a></li>
+  			</ul>
+  			</div>
+  		
+  
+   			<!-- Course dropdown -->
+   		
+			<div class="btn-group">
+  			<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+    			Course Number <span class="caret"></span>
+  			</button>
+  			<ul class="dropdown-menu" role="menu">
+    			<li><a href="#">Action</a></li>
+    			<li><a href="#">Another action</a></li>
+    			<li><a href="#">Something else here</a></li>
+  			</ul>
+			</div>
+		
+		
+			<!--Professor Input-->
+        		<div class="form-group">
+            	<input type="text" class="form-control" id="new_course_prof_input" 
+            	placeholder="Instructor">
+        		</div>
+        		
+        </form>
+        
+        <h4>Enter a Review</h4>
+        		
+        <form class="form-inline" role="form">
+        	
+        	<!--Reason for Enrolling dropdown-->
+        	<div class="btn-group">
+  			<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+    			Reason for Enrolling <span class="caret"></span>
+  			</button>
+  			<ul class="dropdown-menu" role="menu">
+    			<li><a href="#">Fulfill major/minor requirement</a></li>
+    			<li><a href="#">Fulfill distribution requirement</a></li>
+    			<li><a href="#">Elective/personal enrichment</a></li>
+  			</ul>
+			</div>
+			
+			<div class="ratings"> Rate course content:
+			
+			<!--
+			<div class="starRate">
+				<div>Currently rated: 3 stars<b></b></div>
+					<ul>
+						<li><a href="#"><span>Excellent</span></a></li>
+						<li><a href="#"><span>Good</span></a></li>
+						<li><a href="#"><span>Fair</span><b></b></a></li>
+						<li><a href="#"><span>Poor</span></a></li>
+						<li><a href="#"><span>Very Poor</span></a></li>
+					</ul>
+				</div>
+				-->
+			</div>
+				
+				
+			<div class="ratings">Rate quality of instruction:
+			
+			<!--	
+			<div class="starRate">
+				<div>Currently rated: 3 stars<b></b></div>
+					<ul>
+						<li><a href="#"><span>Excellent</span></a></li>
+						<li><a href="#"><span>Good</span></a></li>
+						<li><a href="#"><span>Fair</span><b></b></a></li>
+						<li><a href="#"><span>Poor</span></a></li>
+						<li><a href="#"><span>Very Poor</span></a></li>
+					</ul>
+				</div>
+				-->
+			</div>
+				
+		</form>
+        		
+        	<br>
+    
+        	<p> Enter additional comments about course content, workload, teaching style, 
+        	quality of instruction, instructor availability outside of class, etc. 
+        	Would you recommend this course to others with similar reasons for enrolling? 
+        	Please be as specific as possible to best help other students.
+        	
+        	<form action="demo_form.asp" class="usrform">
+			</form>
+				<textarea id="comments" rows="4" cols="83" placeholder="Enter comments..."
+				name="comment" class="paragraphtextinput" form="usrform"></textarea>
+				
+				<a href="#" class="btn btn-primary btn-success add_review_submit"> 
+				<span class="glyphicon glyphicon-ok-circle"></span> 
+				Submit and add to my Courses</a>
+        	
+        <!--	<a class="btn btn-primary btn-lg" id="greensubmit"
+        	role="button">Submit and add to My Courses</a> -->
+ </div> <!--/new-course-entry-->
+ 
+
+ 
+  
+ <!--~~~~~~~~~~~~~~~~~~~~~My courses-->
+ 
+ <div id="my_courses">
+
+ <h2> My Courses </h2>
+ 
+ 	<!--~~~~~~~~~~~~~This is the appearance for a student's course with no review added-->
+
+ 	<div class="added_course_without_review">
+ 	
+ 	<span class="course_title"> ASTR 100 - Life in the Universe </span>
+ 		<!--Add a Review toggle button-->
+ 		<br> <a href="#"><span class="add_review_toggle">+Add a Review</span></a>
+ 		
+ 	
+ 		
+ 		<!--~~~~~~~~~~~~~~~~~~~~~Toggle form to Add review to an existing course-->
+ 	
+ 	<div class="show_hide_add_review_toggle">
+ 		
+ 		<form class="form-inline" role="form">
+ 		
+ 			<!--Professor Input-->
+        		<br><div class="form-group">
+            	<input type="text" class="form-control" id="add_review_prof_input" 
+            	placeholder="Instructor">
+        		</div>
+        		
+        	
+        	<!--Reason for Enrolling dropdown-->
+        	<div class="btn-group">
+  			<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+    			Reason for Enrolling <span class="caret"></span>
+  			</button>
+  			<ul class="dropdown-menu" role="menu">
+    			<li><a href="#">Fulfill major/minor requirement</a></li>
+    			<li><a href="#">Fulfill distribution requirement</a></li>
+    			<li><a href="#">Elective/personal enrichment</a></li>
+  			</ul>
+			</div>
+			
+			<div class="ratings"> Rate course content:
+			
+			<!--
+			<div class="starRate">
+				<div>Currently rated: 3 stars<b></b></div>
+					<ul>
+						<li><a href="#"><span>Excellent</span></a></li>
+						<li><a href="#"><span>Good</span></a></li>
+						<li><a href="#"><span>Fair</span><b></b></a></li>
+						<li><a href="#"><span>Poor</span></a></li>
+						<li><a href="#"><span>Very Poor</span></a></li>
+					</ul>
+				</div>
+				-->
+			</div>
+				
+				
+			<div class="ratings">Rate quality of instruction:
+			
+			<!--	
+			<div class="starRate">
+				<div>Currently rated: 3 stars<b></b></div>
+					<ul>
+						<li><a href="#"><span>Excellent</span></a></li>
+						<li><a href="#"><span>Good</span></a></li>
+						<li><a href="#"><span>Fair</span><b></b></a></li>
+						<li><a href="#"><span>Poor</span></a></li>
+						<li><a href="#"><span>Very Poor</span></a></li>
+					</ul>
+				</div>
+				-->
+			</div>
+				
+		</form>
+        		
+        	<br>
+    
+        	<p> Enter additional comments about course content, workload, teaching style, 
+        	quality of instruction, instructor availability outside of class, etc. 
+        	Would you recommend this course to others with similar reasons for enrolling? 
+        	Please be as specific as possible to best help other students.
+        	
+        	<form action="demo_form.asp" class="usrform">
+			</form>
+				<textarea id="add_comments" rows="4" cols="104" placeholder="Enter comments..."
+				name="comment" class="paragraphtextinput" form="usrform"></textarea>
+        	
+        	<br> <a href="#" class="btn btn-xs btn-success add_review_submit">
+        	<span class="glyphicon glyphicon-ok-circle"></span> Submit Review</a>
+ 	
+ 	</div> <!--/show_hide_add_review_toggle--> 
+ 		
+ 	</div> <!--/addedcoursewithoutreview-->
+ 	
+ 	
+ 	<!--~~~~~~~~~~~~~~~~~~~~~This is the appearance for a student's course WITH a review added-->
+ 
+ 	<div class="added_course_with_review">
+ 	
+ 	<span class="course_title"> ASTR 100 - Life in the Universe </span>
+ 	
+ 	<!--Show Review toggle button-->
+ 		<br> <a href="#"><span class="show_review_toggle">+Show/Hide Review</span></a>
+ 	
+ 	<!--~~~~~~~~~~~~~~~~~~~~~Toggle to show/hide course review-->
+ 	
+ 	
+ 	<div class="show_hide_entered_review_toggle">
+ 	<br>Instructor: <span class="entered_instructor"> Wes Watters </span> <br>
+ 	Reason for Enrolling: <span class="entered_reason"> Fulfill distribution requirement </span>
+ 	<br>Course Content: <span class="entered_course_stars"></span><br>
+ 	Quality of Instruction: <span class="entered_instruction_stars"></span>
+ 	<br>
+ 	<br>
+ 	Comments: <br><span class="entered_comments">I loved this class!  I'm not a math or science
+ 	person but I found the work manageable and the course content very interesting.  Wes is 
+ 	funny, knowledgeable and very available outside of class.  Recommended to everyone!</span>
+ 	
+ 	
+ 	<!--Edit and Delete Review Buttons-->
+ 	<br>
+ 	<br>
+ 	<div class="btn-group" id="edit_and_delete_buttons">
+ 	
+ 	<a href="#" class="btn btn-xs btn-default edit_review_submit">
+ 	<span class="glyphicon glyphicon-pencil"></span> Edit </a>
+ 	
+ 	<a href="#" class="btn btn-xs btn-default">
+ 	<span class="glyphicon glyphicon-remove"></span> Delete Review</a>
+ 	
+ 	<a href="#" class="btn btn-xs btn-default edit_review_submit">
+ 	<span class="glyphicon glyphicon-trash"></span> Remove Course </a>
+ 	
+ 	</div> <!--/btn-group-->
+ 	
+ 	</div> <!--/show_hide_entered_review_toggle-->
+ 	
+ 	
+ 	</div> <!--/added_course_with_review-->
+ 	
+
+ 	
+ 	
+ </div> <!--/my_courses-->
+
+
+</div> <!--/pagecontent-->
+    
+</div> <!--/allcontent-->
+
+
+
+
+
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="../static/bootstrap-3.2.0-dist/js/bootstrap.js"></script>
+</body>
+</html>

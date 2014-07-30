@@ -97,3 +97,6 @@ def create_student_profile(request):
 		'courses/create_profile.html',
 		{'student_form': student_form},  
 		context)
+
+def load_mycourses(request):
+	return render_to_response('courses/mycourses.html')
