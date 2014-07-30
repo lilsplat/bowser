@@ -8,12 +8,12 @@
 from django.utils import unittest
 from django.test import TestCase
 from django.contrib.auth.models import User
-from courses.models import Course, Student, Distribution, Major, Rating
+from courses.models import Course, Student, Distribution, Major, Rating, CourseBucket
 import datetime
 
 
 class StudentTester(TestCase):
-	fixtures = ['initial_data_dump_072814.json']
+	fixtures = ['initial_data_dump_072914.json']
 
 	def setUp(self):
 		lx_user=User.objects.create_user('lxie','lxie@wellesley.edu','lilypassword')
@@ -142,30 +142,16 @@ class StudentTester(TestCase):
 		mm_npscourse=Distribution.objects.get(name='Mathematical Modeling or Natural and Physical Sciences').course_set.all()[10]
 		lily_courses.append(mm_npscourse)
 
-		for c in lily_courses:
-			lily.add_course(c)
+		# for c in lily_courses:
+		# 	lily.add_course(c)
 
-		self.assertEqual(17,lily.courses.count())
+		# self.assertEqual(17,lily.courses.count())
 
-		lily.remove_course(qrbcourse)
-		self.assertEqual(16,lily.courses.count())
+		# lily.remove_course(qrbcourse)
+		# self.assertEqual(16,lily.courses.count())
 		
-		print lily.distributions_todo()
-		# lily.remove_course(arth100)
-		# lily.remove_course(astr100)
-		# lily.save()
-
-		# self.assertEqual(9,lily.courses.count())
-
-
-
-		# print lily.courses.all()
-		# for c in lily.courses.all():
-		# 	print str(c.id) + ': ' + c.code + str(c.dists.all())
 		# print lily.distributions_todo()
 
-
-		# lily.distributions_todo()
 
 		""" TEST RATINGS """
 		#should move this to its own class duhhhh
@@ -201,7 +187,7 @@ class StudentTester(TestCase):
 		self.assertAlmostEqual(1.0,cs307.avg_score())
 
 class CourseTester(TestCase):
-	fixtures=['initial_data_dump_072814.json']
+	fixtures=['initial_data_dump_072914.json']
 
 	def setUp(self):
 		Course.objects.create(
@@ -325,20 +311,8 @@ class CourseTester(TestCase):
 		# print d
 		# print d.course_set.all()
 
-
-
-class MajorTester(TestCase):
-	fixtures = ['initial_data_dump_072814.json']
-	# def setUp(self):
-	def test(self):
-		# print 'testing major'
-		cs=Major.objects.get(code='CS')
-		soc=Major.objects.get(code='SOC')
-
-		# print Course.objects.filter(dept=cs.name).all()
-
 class DistributionTester(TestCase):
-	fixtures = ['initial_data_dump_072814.json']
+	fixtures = ['initial_data_dump_072914.json']
 
 	def setUp(self):
 		Distribution.objects.create(
@@ -404,3 +378,92 @@ class DistributionTester(TestCase):
 # 		Comment.objects.create(
 # 			comment_text = "this course rocks!"
 # 			comment_author = 
+
+
+
+class MajorTester(TestCase):
+	fixtures = ['initial_data_dump_072914.json']
+	def setUp(self):
+		Major.objects.create(
+			code='TEST',
+			name='Testing Major',
+			is_minor=False
+			)
+		CourseBucket.objects.create(
+			name='TEST Core',
+			num_pick='2',
+			major=Major.objects.get(code='TEST')
+			)
+		CourseBucket.objects.create(
+			name='TEST Lab',
+			num_pick='1',
+			major=Major.objects.get(code='TEST')
+			)
+	def test(self):
+		"""INITIALIZE"""
+		cs=Major.objects.get(code='CS')
+		soc=Major.objects.get(code='SOC')
+		test=Major.objects.get(code='TEST')
+		test_cb=CourseBucket.objects.get(name='TEST Core')
+		test_cb_lab=CourseBucket.objects.get(name='TEST Lab')
+		test.save()
+		test_cb.save()
+		test_cb_lab.save()
+
+		cs111=Course.objects.filter(code='CS111')[0]
+		cs240=Course.objects.filter(code='CS240').exclude(credit_hours='0')[0]
+		cs240_lab=Course.objects.filter(code='CS240').filter(credit_hours='0')[0]
+
+		test_cb.courses.add(cs111)
+		test_cb.courses.add(cs240)
+		test_cb.courses.add(cs240_lab)
+		test_cb.save()
+
+		test_cb_lab.courses.add(cs240_lab)
+		test_cb_lab.save()
+
+		cb_full_list=[cs111,cs240,cs240_lab]
+		cb_empty_list=[]
+		cb_half_list=[cs111]
+		cb_lab_list=[cs240_lab]
+
+		#testing coursebucket
+		"""TESTING IS_FULFILLED_BY"""
+		self.assertTrue(test_cb.is_fulfilled_by(cs111))
+		self.assertFalse(test_cb_lab.is_fulfilled_by(cs111))
+		self.assertFalse(test_cb_lab.is_fulfilled_by(cs240))
+		self.assertTrue(test_cb_lab.is_fulfilled_by(cs240_lab))
+
+		"""TESTING IS_FULFILLED"""
+		self.assertTrue(test_cb.is_fulfilled(cb_full_list))
+		self.assertFalse(test_cb.is_fulfilled(cb_empty_list))
+		self.assertFalse(test_cb.is_fulfilled(cb_half_list))
+		self.assertTrue(test_cb_lab.is_fulfilled(cb_full_list))
+
+		"""TESTING COURSE_CODES"""
+		self.assertEqual(2,len(test_cb.course_codes()))
+		self.assertEqual(1,len(test_cb_lab.course_codes()))
+
+		"""TESTING SUGGESTED_COURSES"""
+		self.assertEqual('CS240',test_cb.suggested_courses(cb_half_list)[0])
+		self.assertEqual([],test_cb.suggested_courses(cb_full_list))
+
+		#testing major
+		print test.coursebucket_set.all()
+		"""TESTING IS_FULFILLED"""
+		self.assertTrue(test.is_fulfilled(cb_full_list))
+		self.assertFalse(test.is_fulfilled(cb_empty_list))
+		self.assertFalse(test.is_fulfilled(cb_half_list))
+		self.assertFalse(test.is_fulfilled(cb_lab_list))
+
+		print test.cbs_togo(cb_full_list)
+		print test.cbs_togo(cb_half_list)
+		print test.cbs_togo(cb_empty_list)
+		print test.cbs_togo(cb_lab_list)
+
+		print test.suggested_cbs_togo(cb_full_list)
+		print test.suggested_cbs_togo(cb_half_list)
+		print test.suggested_cbs_togo(cb_empty_list)
+		print test.suggested_cbs_togo(cb_lab_list)
+
+		# print Course.objects.filter(dept=cs.name).all()

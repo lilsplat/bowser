@@ -178,75 +178,36 @@ ITAS = "ITAS"
 
 #------BEGIN MODELS--------
 
-
-
-"""
-Distribution todo:
-- still working toward a better distribution model...how to correctly represent fulfillment of distribution??
-- otherwise working
-"""
 class Distribution(models.Model):
     name = models.CharField(max_length=200, default=NONE)
-    #courses ok can be accessed by Distribution.course_set
 
     def __unicode__(self):
         return self.name
 
     """Returns if a course counts toward the Distribution"""
     def is_fulfilled_by(self, course):
-        if self.course_set.filter(id=course.id).count() > 0:
-            return True
-        else:
-            return False
+        return self.course_set.filter(id=course.id).exists()
 
-    def is_fulfilled_by_id(self,course_id):
-        """Returns if a Course counts toward the Distribution, given that Course's id"""
-        if self.course_set.filter(id=course_id).count() > 0:
-            return True
-        else:
-            return False
-
-    def is_fulfilled_by_many_id(self,course_ids):
-        """Returns what Course ids from a list of course_ids fulfill this Distribution"""
-        applicable_courses=[]
-        for c in course_ids:
-            if self.is_fulfilled_by_id(c):
-                applicable_courses.append(c)
-        return applicable_courses
-
-    # def course_ids(self):
-    #     """Returns a list of unique Course.ids that fulfill this Distribution"""
-    #     all_courses=self.course_set.all()
-    #     l=[]
-    #     for c in all_courses:
-    #         l.append(c.id)
-    #     return l
-
+    """Returns a readable list of unique Course.codes that fulfill this Distribution"""
     def course_codes(self):
-        """Returns a list of non-unique Course.codes that fulfill this Distribution"""
-        all_courses=self.course_set.all()
         l=[]
-        for c in all_courses:
+        for c in self.course_set.all():
             l.append(c.code.encode('UTF-8'))
-        return list(set(l))
+        return list(set(l)) #remove duplicates
 
     """Returns a list of suggested courses to fulfill the Distribution, given a list of Courses"""
-    def suggested_courses(self, courses):
+    def suggested_courses(self,courses):
         #additional functions: should compensate for fall/spring availability
         suggestions = self.course_codes() #all available courses
-        for course in courses:
-            if self.is_fulfilled_by(course):
-                suggestions.remove(course.code)
+        for c in courses:
+            if self.is_fulfilled_by(c):
+                suggestions.remove(c.code)
         return suggestions
 
     class Meta:
-        ordering = ['name'] #orders courses by name
+        ordering = ['name']
 
 
-
-"""
-Course ok
-"""
 class Course(models.Model):
     dept = models.CharField(max_length=200) #i.e. CS
     code = models.CharField(max_length=200) #i.e. CS110, aka course
@@ -262,7 +223,6 @@ class Course(models.Model):
     notes = models.CharField(max_length=200)
     xlisted = models.CharField(max_length=200)
     prof = models.CharField(max_length=200)
-    #need to fix into time and date separate
     date = models.CharField(max_length=200)
     starttime = models.CharField(max_length=200)
     endtime = models.CharField(max_length=200)
@@ -274,10 +234,8 @@ class Course(models.Model):
     def __unicode__(self):
         return self.code
 
-    #students can be accessed through Course.student_set
-
+    """Returns whether this Course has a time conflict with another Course"""
     def conflicts(self, other_course):
-        """Returns whether this Course has a time conflict with another Course"""
         try:
             if (self.starttime == other_course.starttime and self.date == other_course.date and self.endtime == other_course.endtime):
                 return True
@@ -286,8 +244,8 @@ class Course(models.Model):
         except:
             raise Exception('please enter a valid course')
 
+    """Returns whether this Course's enrollment is full"""
     def is_full(self):
-        """Returns whether this Course's enrollment is full"""
         try:
             if (self.seats_available == self.max_enrollment):
                 return True
@@ -296,12 +254,11 @@ class Course(models.Model):
         except:
             raise Exception('please enter a valid course')
 
+    """Returns this Course's mean score based on its Ratings"""
     def avg_score(self):
-        """Returns this Course's mean score based on its Ratings"""
-        scores=self.rating_set.all()
         i=0.0
         a=0.0
-        for s in scores:
+        for s in self.rating_set.all():
             a+=s.score
             i+=1
         return a/i
@@ -310,47 +267,40 @@ class Course(models.Model):
         ordering = ['code'] #orders courses by name
 
 
-"""Student todo:
-- figure out if possible to make username = email.split('@')[0]
-- how to remove a course??????? gah
-"""
-
 class Student(models.Model):
     CLASS_YEAR = [
-        (FIRSTYEAR, 'First year'),
+        (FIRSTYEAR, 'First Year'),
         (SOPHOMORE, 'Sophomore'),
         (JUNIOR, 'Junior'),
         (SENIOR, 'Senior'),
         ]
 	#user object stores username, pw, email
-    user = models.OneToOneField(User, unique=True)
+    user=models.OneToOneField(User, unique=True)
     class_year = models.CharField(max_length=200, choices=CLASS_YEAR, default=FIRSTYEAR)
     primary_major = models.ForeignKey('Major', related_name='primary major', null=True)
     secondary_major = models.ForeignKey('Major', related_name='secondary major', null=True, blank=True) 
-    major_requirements_completed = models.BooleanField(default=False)
-    distribution_requirements_completed = models.BooleanField(default=False)
     gpa = models.FloatField(default=2.0, null=True)
-    courses = models.ManyToManyField('Course', null=True)
+    courses = models.ManyToManyField('Course', null=True, blank=True)
     qrb_passed = models.BooleanField(default=False) #if they passed the QR assessment
     foreign_lang_passed = models.BooleanField(default=False) #if they passed the foreign lang requirement
 
     def __unicode__(self):
         return self.user.username
+
+    # def credit_hours_completed
 	
+    """Adds a Course to Student.courses iff the Course does not already exist"""
     def add_course(self, course):
         if course not in self.courses.all():
 			self.courses.add(course)
 			self.save()
-		# Course is already in student's list; don't add
-        else:
-            return None
 
+    """Removes a Course from Student.courses iff the Course exists"""
     def remove_course(self, course):
 		if course in self.courses.all():
 			self.courses.remove(course)
 			self.save()
 		else:
-		#Courses isn't in the student's list
 			raise Exception('Course not in studen\'s list')
 
     def distributions_todo(self):
@@ -440,150 +390,107 @@ class Student(models.Model):
                     all_dists.remove(d) #remove dist from list
                     break #stop loop
             dist_freq.remove(d) #remove this dist from all existing dists
-
-
         print '\ndists togo: ' 
         return all_dists+overlap_dists
         print '\n\ndone\n'
-
-
-
-        # for c in self.courses.all():
-        #     cds=[]
-        #     i=c.id
-        #     for d in c.dists.all():
-        #         cds.append(d.name) #temp name for readability
-        #     course_ids.append(i)
-        #     cds=(i,cds)
-        #     course_dists.append(cds)
-        #sort course_dists by length of dists
-        # course_dists=sorted(course_dists,key=lambda c: len(c[1])) 
-
-        
-        #check fulfillment of all other dists
-        # for dname in distribution_list:
-        #     d=Distribution.objects.get(name=dname)
-        # for c in course_dists:
-        #     for d in distribution_list:
-        #         if d in c[1]:
-        #             print d + ' fulfilled by: ' + str(c[0])
-        #             distribution_list.remove(d) #dist fulfilled
-        #             course_dists.remove(c) #course cannot be repeated
-        #             break
-
-
-
-        """NB: does not yet account for courses w/ multiple dists"""
-        #check fulfillment of all other dists
-        # for dname in distribution_list[num_overlap:]:
-        #     distribution=Distribution.objects.get(name=dname)
-        #     for course in courses_taken:
-        #         if distribution.is_fulfilled_by(course):
-        #             courses_taken.remove(course)
-        #             distribution_list.remove(dname)
-
-        # return distribution_list
-
-        """Possible solution to account for multiple dists commented out below"""
-        # #first loop: check fulfillment of all dists, first 'fitting' all courses with only 1 distribution
-        # #to a distribution
-        # for distribution in distribution_list[num_overlap:]:
-        #     for course in courses_taken:
-        #         if distribution.is_fulfilled_by(course):
-        #             if course.dists.count() > 1: #if course has multiple dists
-        #                 #do nothing, table this course
-        #             else:
-        #                 courses_taken.remove(course)
-        #                 distribution_list.remove(distribution)
-
-        # #second loop: arbitrarily assign all multi-dist courses to the first dist they fit
-        # for distribution in distribution_list[num_overlap:]:
-        #     for course in courses_taken:
-        #         if distribution.is_fulfilled_by(course):
-        #             courses_taken.remove(course)
-        #             distribution_list.remove(distribution)
-
-
 	
-	def major_todo(self):
-		major_course_list = primary_major.major_courses
-		for course in major_course_list:
-			if course in self.courses:
-				major_course_list.remove(course)
-		return major_course_list
+	# def major_todo(self):
+	# 	major_course_list = primary_major.major_courses
+	# 	for course in major_course_list:
+	# 		if course in self.courses:
+	# 			major_course_list.remove(course)
+	# 	return major_course_list
 
-    # class Meta:
-    #     ordering = ['name'] #orders courses by name
+    class Meta:
+        unique_together=('primary_major','secondary_major')
 
+#very similar to distribution
+class CourseBucket(models.Model):
+    name=models.CharField(max_length=200)
+    #number of unique courses from this coursebucket needed for it to be fulfilled
+    num_pick=models.IntegerField(default=1)
+    courses=models.ManyToManyField(Course)
+    major=models.ForeignKey('Major')
 
-class Course_Bucket(models.Model):
-    name = models.CharField(max_length=200)
-    courses = models.ManyToManyField(Course)
+    def __unicode__(self):
+        return self.name
 
-    def equals_course_named(self, course_name):
-        if Course_Bucket.objects.filter(courses__name__contains=course_name): 
+    def is_fulfilled_by(self, course):
+        return self.courses.filter(id=course.id).exists()
+    
+    def is_fulfilled(self,course_list):
+        num_fulfilled=0
+        for c in course_list:
+            if self.is_fulfilled_by(c):
+                num_fulfilled+=1
+        if num_fulfilled >= self.num_pick:
             return True
         else:
             return False
 
-    #wasn't sure which method was more appropriate
-    def equals_course(self, course):
-        return self.equals_course_named(course.name)
+    """Returns a readable list of unique Course.codes that fulfill this CourseBucket"""
+    def course_codes(self):
+        l=[]
+        for c in self.courses.all():
+            l.append(c.code.encode('UTF-8'))
+        return list(set(l)) #remove duplicates
 
-"""
-Major ok
-"""
+    """Returns a list of suggested courses to fulfill the CourseBucket, given a list of Courses"""
+    def suggested_courses(self,course_list):
+        #additional functions: should compensate for fall/spring availability
+        suggestions=self.course_codes() #all available courses
+        for c in course_list:
+            if self.is_fulfilled_by(c) and c.code in suggestions: #don't try to remove twice
+                suggestions.remove(c.code)
+        return suggestions
+
+
 class Major(models.Model):
     code = models.CharField(max_length=200, default="UND")
     name = models.CharField(max_length=200, default=UND)
-	# Checks whether this is a major or minor.
-	# Because majors and minors have the same structure, 
-	# Add boolean to differentiate
     is_minor = models.BooleanField(default=False)
 
     def __unicode__(self):
         return self.name
+
+    class Meta:
+        ordering = ['name'] #orders courses by name
+
+    def is_fulfilled(self,course_list):
+        for cb in self.coursebucket_set.all():
+            if not cb.is_fulfilled(course_list):
+                return False
+        return True
+
+    def cbs_togo(self,course_list):
+        togo=[]
+        for cb in self.coursebucket_set.all():
+            if not cb.is_fulfilled(course_list):
+                togo.append(cb.name)
+        return togo
+
+    def suggested_cbs_togo(self,course_list):
+        togo=[]
+        for cb in self.coursebucket_set.all():
+            if not cb.is_fulfilled(course_list):
+                togo.append((cb.name,cb.suggested_courses(course_list)))
+        return togo
 	
 	# major_courses = Course.objects.filter(dept=self.name)
 	#below methods are copied from the Distribution model.
     # """Returns if a course counts toward the Major"""
-    def is_fulfilled_by(self, course):
-        if self.course_set.filter(name__contains=course.name).count() > 0:
-            return True
-        else:
-            return False
+    # def is_fulfilled_by(self, course):
+    #     return self.course_set.filter(id=course.id).exists()
 
-    class Meta:
-        ordering = ['name'] #orders courses by name
-        
+    # """Returns a list of suggested courses to fulfill the Major, given a list of Courses"""
+    # def suggested_courses(self,courses):
+    #     #additional functions: should compensate for fall/spring availability
+    #     suggestions = self.course_codes() #all available courses
+    #     for c in courses:
+    #         if self.is_fulfilled_by(c):
+    #             suggestions.remove(c.code)
+    #     return suggestions
 
-    # """Returns the number of courses left to take in the Major, given a list of Courses"""
-    # def num_courses_togo(self, courses):
-    #     num_togo = self.num_courses
-    #     for course in courses:
-    #         if self.is_fulfilled_by(course) == True:
-    #             num_togo -= 1
-    #     return num_togo
-
-    """Returns a list of suggested courses to fulfill the Major, given a list of Courses"""
-    def suggested_courses(self, courses):
-
-        #additional functions: should compensate for fall/spring availability
-        suggestions = Distributions.course_set.all() #all available courses
-        for course in courses:
-            if self.is_fulfilled_by(course):
-                suggestions.remove(course)
-        return suggestions
-
-    """Returns if the major is complete, based on the given list of Courses"""
-    def is_completed(self, courses):
-        if self.num_courses_togo(courses) == 0:
-            return True
-        else:
-            return False
-
-
-#for user auth
 class UserProfile(models.Model):
     # Links UserProfile to a User model instance.
     user = models.OneToOneField(User)
@@ -592,9 +499,6 @@ class UserProfile(models.Model):
 
     def __unicode__(self):
         return self.user.username
-
-    # class Meta:
-    #     ordering = ['name'] #orders courses by name
 
 class Rating(models.Model):
     SCORES=[
