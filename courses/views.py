@@ -2,7 +2,7 @@ from django.shortcuts import render
 from courses.forms import *
 from django.template import RequestContext
 from django.shortcuts import render_to_response
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponseRedirect, HttpResponse
 from courses.models import Student
 
@@ -66,6 +66,9 @@ def user_login(request):
 	else:
 		return render_to_response('courses/login.html/', {}, context)
 
+def user_logout(request):
+    logout(request)
+    return render_to_response('courses/index.html')
 
 def create_student_profile(request):
 	print request.user
@@ -85,6 +88,7 @@ def create_student_profile(request):
 			#student.add_course(student_data.course2)
 			student.save()
 			profile_created = True
+			return render_to_response('courses/index.html', context)
 		else:
 			print student_form.errors
 	else:
