@@ -6,14 +6,14 @@ echo
 echo
 
 # ll = "Language and Literature"
-FILE=all_courses_fall2014_dists.txt
+FILE=all_courses_fall2014_semesters.txt
 
 s=""
 # while IFS='#' read -r line
 while IFS= read -r line
 do
 	val=$line
-	sqlite3 bowser_db "insert into courses_course_dist values $val ;"
+	sqlite3 bowser_db "insert into courses_course_semester values $val ;"
 	echo "inserted $val"
 	# echo
 	# echo

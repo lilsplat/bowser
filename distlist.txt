@@ -1,0 +1,21 @@
+1|Foreign Language 100L
+2|Foreign Language 200L
+3|Basic QR
+4|QR Overlay
+5|Lab
+6|300-level
+7|First Year Writing
+8|Language and Literature
+9|Arts, Music, Theater, Film and Video
+10|Language and Literature or Arts, Music, Theater, Film and Video
+11|Social and Behavioral Analysis
+12|Epistemology and Cognition or Historical Studies
+13|Historical Studies or Religion, Ethics, and Moral Philosophy
+14|Mathematical Modeling
+15|Natural and Physical Sciences
+16|Mathematical Modeling or Natural and Physical Sciences
+
+id|course_id|distribution_id
+
+languages are.....too hard. forget it
+so there are some index gaps cuz sometimes stuff be added twice (i.e. lang&lit and arts both add to theri own categories as well as cat. 10)
