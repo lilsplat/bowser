@@ -207,7 +207,6 @@ class Distribution(models.Model):
     class Meta:
         ordering = ['name']
 
-
 class Course(models.Model):
     dept = models.CharField(max_length=200) #i.e. CS
     code = models.CharField(max_length=200) #i.e. CS110, aka course
@@ -226,9 +225,8 @@ class Course(models.Model):
     date = models.CharField(max_length=200)
     starttime = models.CharField(max_length=200)
     endtime = models.CharField(max_length=200)
-    offered_in_fall = models.BooleanField(default=True)#temporary for fall2014
-    offered_in_spring = models.BooleanField(default=False)
 
+    semester=models.ManyToManyField('Semester')
     dists = models.ManyToManyField(Distribution)
 
     def __unicode__(self):
@@ -262,6 +260,9 @@ class Course(models.Model):
             a+=s.score
             i+=1
         return a/i
+
+    # def add_semester(self,semester):
+    #     if 
 
     class Meta:
         ordering = ['code'] #orders courses by name
@@ -515,4 +516,20 @@ class Rating(models.Model):
 
     # class Meta:
     #     ordering = ['name'] #orders courses by name
+
+class Semester(models.Model):
+    offered_in_fall = models.BooleanField(default=True)
+    offered_in_spring = models.BooleanField(default=False)
+    year = models.IntegerField() #e.g. 2014
+
+    def __unicode__(self):
+        if self.offered_in_fall:
+            return 'Fall ' + str(self.year)
+        else:
+            return 'Spring ' + str(self.year)
+
+    class Meta:
+        ordering = ['year']
+
+
 
