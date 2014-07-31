@@ -8,12 +8,12 @@
 from django.utils import unittest
 from django.test import TestCase
 from django.contrib.auth.models import User
-from courses.models import Course, Student, Distribution, Major, Rating, CourseBucket
+from courses.models import Course, Student, Distribution, Major, Rating, CourseBucket, Semester
 import datetime
 
 
 class StudentTester(TestCase):
-	fixtures = ['initial_data_dump_072914.json']
+	fixtures = ['initial_data_dump_073014.json']
 
 	def setUp(self):
 		lx_user=User.objects.create_user('lxie','lxie@wellesley.edu','lilypassword')
@@ -187,7 +187,7 @@ class StudentTester(TestCase):
 		self.assertAlmostEqual(1.0,cs307.avg_score())
 
 class CourseTester(TestCase):
-	fixtures=['initial_data_dump_072914.json']
+	fixtures=['initial_data_dump_073014.json']
 
 	def setUp(self):
 		Course.objects.create(
@@ -312,7 +312,7 @@ class CourseTester(TestCase):
 		# print d.course_set.all()
 
 class DistributionTester(TestCase):
-	fixtures = ['initial_data_dump_072914.json']
+	fixtures = ['initial_data_dump_073014.json']
 
 	def setUp(self):
 		Distribution.objects.create(
@@ -382,7 +382,7 @@ class DistributionTester(TestCase):
 
 
 class MajorTester(TestCase):
-	fixtures = ['initial_data_dump_072914.json']
+	fixtures = ['initial_data_dump_073014.json']
 	def setUp(self):
 		Major.objects.create(
 			code='TEST',
@@ -465,5 +465,7 @@ class MajorTester(TestCase):
 		print test.suggested_cbs_togo(cb_half_list)
 		print test.suggested_cbs_togo(cb_empty_list)
 		print test.suggested_cbs_togo(cb_lab_list)
+
+		
 
 		# print Course.objects.filter(dept=cs.name).all()
