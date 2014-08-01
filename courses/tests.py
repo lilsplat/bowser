@@ -10,6 +10,7 @@ from django.test import TestCase
 from django.contrib.auth.models import User
 from courses.models import Course, Student, Distribution, Major, Rating, CourseBucket, Semester
 import datetime
+from django.db.models import Count
 
 
 class StudentTester(TestCase):
@@ -142,15 +143,37 @@ class StudentTester(TestCase):
 		mm_npscourse=Distribution.objects.get(name='Mathematical Modeling or Natural and Physical Sciences').course_set.all()[10]
 		lily_courses.append(mm_npscourse)
 
-		# for c in lily_courses:
-		# 	lily.add_course(c)
+		for c in lily_courses:
+			lily.add_course(c)
+
+		lily.save()
+
+		"""TESTING TIME"""
+		tstart=datetime.datetime.now()
+		lily.distributions_todo_073114()
+		tend=datetime.datetime.now()
+		ttime=tend-tstart
+		print ttime.microseconds
+
+		ostart=datetime.datetime.now()
+		lily.distributions_todo()
+		oend=datetime.datetime.now()
+		otime=oend-ostart
+		print otime.microseconds
+
+		if otime.microseconds > ttime.microseconds:
+			print 'old one better'
+		else:
+			print 'new one better by'
+			print ttime-otime
+
 
 		# self.assertEqual(17,lily.courses.count())
 
 		# lily.remove_course(qrbcourse)
 		# self.assertEqual(16,lily.courses.count())
 		
-		# print lily.distributions_todo()
+		
 
 
 		""" TEST RATINGS """
@@ -466,6 +489,6 @@ class MajorTester(TestCase):
 		print test.suggested_cbs_togo(cb_empty_list)
 		print test.suggested_cbs_togo(cb_lab_list)
 
-		
+
 
 		# print Course.objects.filter(dept=cs.name).all()
