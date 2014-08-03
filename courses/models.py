@@ -312,8 +312,8 @@ class Student(models.Model):
     secondary_major = models.ForeignKey('Major', related_name='secondary major', null=True, blank=True) 
     gpa = models.FloatField(default=2.0, null=True)
     courses = models.ManyToManyField('Course', null=True, blank=True)
-    qrb_passed = models.BooleanField(default=False) #if they passed the QR assessment
-    foreign_lang_passed = models.BooleanField(default=False) #if they passed the foreign lang requirement
+    qrb_passed = models.BooleanField(default=False, verbose_name="Passed the QR assessment test?") #if they passed the QR assessment
+    foreign_lang_passed = models.BooleanField(default=False, verbose_name="Passed the Foreign Language requirement?") #if they passed the foreign lang requirement
 
     def __unicode__(self):
         return self.user.username
