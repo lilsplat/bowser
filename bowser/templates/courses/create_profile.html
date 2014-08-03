@@ -5,7 +5,7 @@
 	</head>
 <body>
 	<h1> Create profile </h1>
-	{% if is_authenticated %}	
+	{% if user.is_authenticated %}
 	<form id="student_form" method="post" action"/courses/create_profile/"
 		enctype="multipart/form-data">
 	{% csrf_token %}
