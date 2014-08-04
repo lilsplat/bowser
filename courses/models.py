@@ -211,6 +211,7 @@ class Distribution(models.Model):
 class Professor(models.Model):
     name=models.CharField(max_length=200)
     site=models.CharField(max_length=200)
+    rating=models.ForeignKey('Rating')
 
     def __unicode__(self):
         return self.name
@@ -272,7 +273,8 @@ class Course(models.Model):
     professor=models.ManyToManyField('Professor')
     timeanddate=models.ManyToManyField('TimeAndDate')
     semester=models.ManyToManyField('Semester')
-    dists=models.ManyToManyField(Distribution)
+    dists=models.ManyToManyField('Distribution')
+    rating=models.ManyToManyField('Rating')
 
     def __unicode__(self):
         return self.code
@@ -567,11 +569,8 @@ class Rating(models.Model):
     score = models.IntegerField(choices=SCORES,default=5)
     comment_text = models.CharField(max_length=10000,null=True,blank=True)
     comment_author = models.ForeignKey('Student')
-    comment_course = models.ForeignKey('Course')
-
-    # class Meta:
-    #     ordering = ['name'] #orders courses by name
-
+    # comment_course = models.ForeignKey('Course')
+    # comment_professor=models.ForeignKey('Professor')
 
 
 
