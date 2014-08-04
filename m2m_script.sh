@@ -6,8 +6,14 @@ echo
 echo
 
 #replace these
-FILE=all_courses_fall2014_profs.txt
-sqltable=courses_course_professor
+
+#prof m2m
+# FILE=all_courses_fall2014_profs.txt
+# sqltable=courses_course_professor
+
+#td m2m
+FILE=all_courses_fall2014_tds.txt
+sqltable=courses_course_timeanddate
 
 s=""
 # while IFS='#' read -r line
