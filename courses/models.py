@@ -103,7 +103,7 @@ OVERLAP_DIST_REQ=[
 ]
 
 DIST_REQ=[
-'Lab',
+# 'Lab',
 "First Year Writing",
 #------------humanities dist area----------------
 "Language and Literature",
@@ -208,56 +208,71 @@ class Distribution(models.Model):
     class Meta:
         ordering = ['name']
 
-# class Professor(models.Model):
-#     name=models.CharField(max_length=200)
+class Professor(models.Model):
+    name=models.CharField(max_length=200)
+    site=models.CharField(max_length=200)
 
-#     class Meta:
-#         ordering=['name']
+    def __unicode__(self):
+        return self.name
 
-# class TimeAndDate(models.Model):
-#     name=models.CharField(max_length=200) #i.e. TF09501100
-#     dates=models.CharField(max_length=200) #i.e. TF
-#     starttime=models.CharField(max_length=200) #i.e. 9:50
-#     endtime=models.CharField(max_length=200) #i.e. 11:00
+    class Meta:
+        ordering=['name']
 
-#     class Meta:
-#         ordering=['name']
+class TimeAndDate(models.Model):
+    dates=models.CharField(max_length=200) #i.e. TF,W
+    starttime=models.CharField(max_length=200) #i.e. 9:50 am
+    endtime=models.CharField(max_length=200) #i.e. 11:00 am
+
+    def __unicode__(self):
+        return self.dates + ' ' + self.starttime + '-' + self.endtime
 
 class Semester(models.Model):
-    offered_in_fall = models.BooleanField(default=True)
-    offered_in_spring = models.BooleanField(default=False)
+    SESSIONS=[
+    ('Fall','Fall'),
+    ('Spring','Spring'),
+    ('Wintersession','Wintersession'),
+    ('Summer I','Summer I'),
+    ('Summer II','Summer II'),
+    ]
+    session=models.CharField(max_length=200,choices=SESSIONS,default='Fall')
     year = models.IntegerField() #e.g. 2014
 
     def __unicode__(self):
-        if self.offered_in_fall:
-            return 'Fall ' + str(self.year)
-        else:
-            return 'Spring ' + str(self.year)
+        return session + ' ' + year
 
     class Meta:
         ordering = ['year']
 
 class Course(models.Model):
-    dept = models.CharField(max_length=200) #i.e. CS
-    code = models.CharField(max_length=200) #i.e. CS110, aka course
-    crn = models.CharField(max_length=200)
-    title = models.CharField(max_length=200)
-    credit_hours = models.CharField(max_length=200)
-    description = models.CharField(max_length=200)
-    addit_info = models.CharField(max_length=200)
-    seats_available = models.CharField(max_length=200)
-    max_enrollment = models.CharField(max_length=200)
-    by_permission = models.CharField(max_length=200)
-    prereq = models.CharField(max_length=200)
-    notes = models.CharField(max_length=200)
-    xlisted = models.CharField(max_length=200)
-    prof = models.CharField(max_length=200)
-    date = models.CharField(max_length=200)
-    starttime = models.CharField(max_length=200)
-    endtime = models.CharField(max_length=200)
+    """Static fields: Updated to most recently offered 
+    course info. If course has not been offered since 
+    Fall 2014, field is 'None'"""   
+    NO_COURSE='None'
+    dept = models.CharField(max_length=200,default=NO_COURSE) #i.e. CS
+    code = models.CharField(max_length=200,default=NO_COURSE) #i.e. CS110, aka course
+    crn = models.CharField(max_length=200,default=NO_COURSE)
+    title = models.CharField(max_length=200,default=NO_COURSE)
+    credit_hours = models.CharField(max_length=200,default=NO_COURSE)
+    description = models.CharField(max_length=200,default=NO_COURSE)
+    addit_info = models.CharField(max_length=200,default=NO_COURSE)
+    seats_available = models.CharField(max_length=200,default=NO_COURSE)
+    max_enrollment = models.CharField(max_length=200,default=NO_COURSE)
+    by_permission = models.CharField(max_length=200,default=NO_COURSE)
+    prereq = models.CharField(max_length=200,default=NO_COURSE)
+    notes = models.CharField(max_length=200,default=NO_COURSE)
+    xlisted = models.CharField(max_length=200,default=NO_COURSE)
 
+    """to delete"""
+    prof = models.CharField(max_length=200,default=NO_COURSE)
+    date = models.CharField(max_length=200,default=NO_COURSE)
+    starttime = models.CharField(max_length=200,default=NO_COURSE)
+    endtime = models.CharField(max_length=200,default=NO_COURSE)
+
+    """M2M fields"""
+    professor=models.ManyToManyField('Professor')
+    timeanddate=models.ManyToManyField('TimeAndDate')
     semester=models.ManyToManyField('Semester')
-    dists = models.ManyToManyField(Distribution)
+    dists=models.ManyToManyField(Distribution)
 
     def __unicode__(self):
         return self.code
@@ -290,9 +305,6 @@ class Course(models.Model):
             a+=s.score
             i+=1
         return a/i
-
-    # def add_semester(self,semester):
-    #     if 
 
     class Meta:
         ordering = ['code'] #orders courses by name
@@ -334,201 +346,109 @@ class Student(models.Model):
 		else:
 			raise Exception('Course not in studen\'s list')
 
-    def distributions_todo_073114(self):
-        all_dists = DIST_REQ
-        overlap_dists = OVERLAP_DIST_REQ
-        dists_todo=[] #list to be returned
-
-        """Check QRB"""
+    def all_dist_list(self):
+        #NB does not include foreign language
+        all_dists = DIST_REQ #Copy list of all distribution requirements
         if self.qrb_passed == False:
+            #if not passed, add QRB_REQ to list of reqs to be checked
             all_dists = all_dists + QRB_REQ
-            # print 'QRB is not complete'
+        return all_dists
 
+    """Returns a copied list of Student.courses.dists based on how frequently they appear in Student.courses"""
+    def most_freq_dists(self):
+        #First, create faux 'dictionary' of existing dist. names and their frequencies
+        dists_dict=[] #contains tuples (distname,frequency)
+        for distname in DIST_REQ+QRB_REQ:
+            d=self.courses.filter(dists=Distribution.objects.get(name=distname))
+            if d.exists():
+                dists_dict.append((distname,d.count()))
+        #Sort dictionary by frequency
+        dists_dict=sorted(dists_dict,key=lambda c: c[1])
+        #Use dictionary as a guide to fill search_dists with ordered Distribution objects
+        search_dists=[]
+        for d in dists_dict:
+            search_dists.append(Distribution.objects.get(name=d[0]))
+        return search_dists
+
+    """Returns a copied list of Student.courses sorted by how many Distributions they fulfill"""
+    def most_dist_courses(self):
+        course_dist=self.courses.annotate(num_dists=Count('dists')).order_by('-num_dists')
+        #Copy Course objects into list
+        course_dist_freq=[]
+        for c in course_dist:
+            course_dist_freq.append(c)
+        return course_dist_freq
+
+    """Returns a list of tuples (Distribution name,Course if completed/Not Completed if not completed)"""
+    def distributions_todo(self):
+        all_dists = self.all_dist_list() #Copy list of all distribution requirements
+        dists_todo=[] #Initialize list to be returned
+
+        #Initialize QuerySet
         self_courses=self.courses.all()
-        if self_courses: #checks if Student has taken any courses, creates cache
-            #check overlap courses
-            # print 'Checking overlap courses'
-            if self_courses.filter(dists=Distribution.objects.get(name='Lab')).exists():
-                # print 'Lab is fulfilled'
-                dists_todo.append(('Lab',self_courses.filter(dists=Distribution.objects.get(name='Lab'))[0].code))
-            else:
-                dists_todo.append(('Lab','None'))
+        #Check if Student has courses
+        #If so, create cache
+        if self_courses: 
+            #Non-destructively check overlap courses 
+            #Initialize overlap QuerySets
+            lab=self_courses.filter(dists=Distribution.objects.get(name='Lab'))
+            qrf=self_courses.filter(dists=Distribution.objects.get(name='QR Overlay'))
+            tl=self_courses.filter(dists=Distribution.objects.get(name='300-level'))
 
-            if self_courses.filter(dists=Distribution.objects.get(name='QR Overlay')).exists():
-                # print 'QR is fulfilled'
-                dists_todo.append(('QR Overlay',self_courses.filter(dists=Distribution.objects.get(name='QR Overlay'))[0].code))
+            #check lab
+            if lab.exists():
+                dists_todo.append(('Lab',lab[0].code))
             else:
-                dists_todo.append(('QR Overlay','None'))
+                dists_todo.append(('Lab','Not Completed'))
 
-            if self_courses.filter(dists=Distribution.objects.get(name='300-level')).exists():
-                tlevels=self_courses.filter(dists=Distribution.objects.get(name='300-level'))
-                if len(tlevels) > 4:
-                    num_tlevels=4 #assume full
+            #check qrf
+            if qrf.exists():
+                dists_todo.append(('QR Overlay',qrf[0].code))
+            else:
+                dists_todo.append(('QR Overlay','Not Completed'))
+
+            #check 4x300-levels
+            if tl.exists():
+                #calculate number of 300-levels completed
+                if len(tl) > 4:
+                    num_tl=4 #limit count to max of 4
                 else:
-                    num_tlevels=len(tlevels)
+                    num_tl=len(tl)
                 i=0
-                while i<num_tlevels:
-                    # print str(i+1) + ' 300-level done'
-                    dists_todo.append(('300-level',tlevels[i].code))
+                while i<num_tl: #add completed 300-levels
+                    dists_todo.append(('300-level',tl[i].code))
                     i+=1
-                for x in xrange(0,4-num_tlevels):
-                    # print str(x+1) + ' 300-level togo'
-                    dists_todo.append(('300-level','None'))
+                for x in xrange(0,4-num_tl): #add non-complete 300-levels
+                    dists_todo.append(('300-level','Not Completed'))
 
-            """Organize a list of Distributions by how frequently they appear in a Student's courses"""
-            # print 'Organizing lists'
-            search_dists=[] #contains tuples of dist name if it exists, and how frequent it is
-            # print 'Organizing search_dists'
-            for distname in all_dists:
-                d=self_courses.filter(dists=Distribution.objects.get(name=distname))
-                if d.exists():
-                    search_dists.append((distname,d.count()))
+            #Organize a list of Distributions by how frequently they appear in a Student's courses
+            search_dists=self.most_freq_dists()
+            #Organize a list of Student's Courses by how many Distributions they contain
+            course_dist_freq=self.most_dist_courses()
 
-            # print 'search dists name/count dictionary'
-            # print search_dists
-            search_dists=sorted(search_dists,key=lambda c: c[1]) #sort by frequency of dists
-            # print 'search dists name/count dictionary SORTED:'
-            # print search_dists
-
-            # print 'adding Dist objects to search_dists based on name'
-            search_dists_temp=[]
-            for d in search_dists:
-                search_dists_temp.append(Distribution.objects.get(name=d[0]))
-            search_dists=search_dists_temp
-            # print 'checking frequency match:'
-            # print search_dists
-
-            """Organize a list of Student's Courses by how many Distributions they contain"""
-            # print 'Organizing course_dist'
-            # print 'ordering by number of dists'
-            course_dist=self_courses.annotate(num_dists=Count('dists')).order_by('-num_dists')
-            # print course_dist
-            course_dist_freq=[]
-            # print 'adding Course objects to course_dist after ordering'
-            for c in course_dist:
-                course_dist_freq.append(c) #make copy of all course instances
-            # print 'checking frequency match:'
-            # print course_dist_freq
-
-            """Using search_dists and course_dist_freq, iterate through self_courses and determine which Courses fulfill which Distributions"""
+            #Using search_dists and course_dist_freq, iterate through self_courses and determine which Courses fulfill which Distributions
             # print 'starting to search.....'
             for d in search_dists:
                 # print 'searching for ' + d.name
                 for c in course_dist_freq:
                     # print '\t' + c.code
-                    if d.is_fulfilled_by(c):
+                    if d.is_fulfilled_by(c): #if found
                         # print '\tFOUND: ' + c.code + ' fulfills ' + d.name
                         dists_todo.append((d.name,c.code))
                         all_dists.remove(d.name)
                         course_dist_freq.remove(c) #no overlaps
                         break #stop loop
 
-            """Finally, mark all remaining Distributions as 'None' using all_dists"""
-            """STILL NEED TO check if foreign language and qrb is passed"""
-            # print 'Checking self.booleans'
-            if self.foreign_lang_passed == False:
-                all_dists = all_dists + LANG_REQ
-                # print 'Foreign lang is not complete'
-            # print 'remaining dists: '
-            # print all_dists
-            for d in all_dists:
-                dists_todo.append((d,'None'))
-            return dists_todo
-
-        else:
-            return 'Student has no courses'
-
-    def distributions_todo(self):
-        all_dists = DIST_REQ
-        overlap_dists = OVERLAP_DIST_REQ
-        dists_todo=[] #list to be returned
-
-        """Check if foreign language and qrb is passed"""
+        #Last step, clean up and add all unfulfilled Distributions to list as 'Not Completed'
         if self.foreign_lang_passed == False:
-            all_dists = all_dists + LANG_REQ
-        if self.qrb_passed == False:
-            all_dists = all_dists + QRB_REQ
+            dists_todo.append(('Foreign Language Requirement','Not completed'))
+        else:
+            dists_todo.append(('Foreign Language Requirement','Complete'))
+        for d in all_dists:
+            dists_todo.append((d,'Not completed'))
 
-        """Copy all Student_courses info so we only query the db here"""
-        course_dists=[] #tuple of (name,[dist_names])
-        dist_freq={} #dictionary of distributions and their frequencies
-        for c in self.courses.all(): #iterate through all courses
-            c_dists=[]
-            for d in c.dists.all(): #iterate through all c's dists
-                c_dists.append(d.name) #and add each dist to c_dists list
-                if d.name in dist_freq: #create and update dictionary
-                    dist_freq[d.name]+=1
-                else:
-                    dist_freq[d.name]=1
-            c_dists=(c.code,c_dists) #make c_dists a tuple including c's code for readability
-            course_dists.append(c_dists) #add tuple to the list
-        
-        # print 'unsorted dist_freq: '
-        # print dist_freq
-       
-        """Perform a non-destructive search to check for overlap courses"""
-        #check fulfillment of qrf and lab
-        if 'QR Overlay' in dist_freq:
-            overlap_dists.remove('QR Overlay')
-            # print 'QR Overlay fulfilled by '
-        if 'Lab' in dist_freq:
-            overlap_dists.remove('Lab')
-            # print 'Lab fulfilled by '
-        #check fulfillment of 300 levels
-        try:
-            if dist_freq['300-level'] >= 4:
-                overlap_dists.remove('300-level')
-                #remove all 300-level
-                overlap_dists=filter(lambda y: y!='300-level', overlap_dists) 
-                # print '300-levels fulfilled'
-            else:
-                i=0
-                while i < dist_freq['300-level']:
-                    overlap_dists.remove('300-level')
-                    i+=1
-                # print str(dist_freq['300-level']) + ' 300 levels done'
-        except:
-            i=0
-            #if exception caught, there are no 300 levels
-            # print 'No 300 levels taken'
+        return dists_todo
 
-        """Clean up dictionary"""
-        #non-destructively remove 300 and qrf from dist_freq
-        # print'\nremoving 300 and qrf from dist_freq: '
-        temp_dist_freq=dict(dist_freq)
-        del temp_dist_freq['300-level']
-        del temp_dist_freq['QR Overlay']
-        #and reconstruct dictionary
-        dist_freq=temp_dist_freq
-
-        """Attempt to find all dist requirements by searching for the Student's  
-        'rarest' dists first, through a course list organized by how 'specific'
-        each Course's dists are. If a dist is found in the Student's course
-        list, remove the dist from the list of all_dists. Finally, return
-        the list of all_dists."""
-        # print '\nsorted dist_freq: '
-        #sort dist_freq by frequency, least to most
-        dist_freq=sorted(dist_freq,key=dist_freq.get)
-        # print dist_freq
-        #sort course_dists by # of dists, least to most
-        course_dists=sorted(course_dists,key=lambda c: len(c[1]))
-        # print '\nsorted course_dists: '
-        # print course_dists
-
-        while len(dist_freq) > 0: #search through all dists that exist in the Student's course list
-            d=dist_freq[0].encode('UTF-8') #always search for dist_freq[0]
-            # print 'searching for dist: ' + str(d)
-            for c in course_dists: #iterate through Student's courses
-                # print 'reading: ' + str(c[0])
-                if d in c[1]: #if d is found
-                    # print 'found ' + str(d) + ' in ' + str(c[0]) + '\n'
-                    course_dists.remove(c) #remove course (no repeats)
-                    all_dists.remove(d) #remove dist from list
-                    break #stop loop
-            dist_freq.remove(d) #remove this dist from all existing dists
-        # print '\ndists togo: ' 
-        return all_dists+overlap_dists
-        # print '\n\ndone\n'
 	
 	# def major_todo(self):
 	# 	major_course_list = primary_major.major_courses
