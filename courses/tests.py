@@ -14,7 +14,7 @@ from django.db.models import Count
 
 
 class StudentTester(TestCase):
-	fixtures = ['initial_data_dump_073014.json']
+	fixtures = ['initial_data_dump_080214.json']
 
 	def setUp(self):
 		lx_user=User.objects.create_user('lxie','lxie@wellesley.edu','lilypassword')
@@ -148,24 +148,16 @@ class StudentTester(TestCase):
 
 		lily.save()
 
-		"""TESTING TIME"""
-		tstart=datetime.datetime.now()
-		lily.distributions_todo_073114()
-		tend=datetime.datetime.now()
-		ttime=tend-tstart
-		print ttime.microseconds
+		# ostart=datetime.datetime.now()
+		# lily.distributions_todo()
+		# oend=datetime.datetime.now()
+		# o=oend-ostart
+		# print o
 
-		ostart=datetime.datetime.now()
-		lily.distributions_todo()
-		oend=datetime.datetime.now()
-		otime=oend-ostart
-		print otime.microseconds
+		print 'start'
+		print Course.objects.all()
 
-		if otime.microseconds > ttime.microseconds:
-			print 'old one better'
-		else:
-			print 'new one better by'
-			print ttime-otime
+
 
 
 		# self.assertEqual(17,lily.courses.count())
@@ -210,7 +202,7 @@ class StudentTester(TestCase):
 		self.assertAlmostEqual(1.0,cs307.avg_score())
 
 class CourseTester(TestCase):
-	fixtures=['initial_data_dump_073014.json']
+	fixtures=['initial_data_dump_080214.json']
 
 	def setUp(self):
 		Course.objects.create(
@@ -335,7 +327,7 @@ class CourseTester(TestCase):
 		# print d.course_set.all()
 
 class DistributionTester(TestCase):
-	fixtures = ['initial_data_dump_073014.json']
+	fixtures = ['initial_data_dump_080214.json']
 
 	def setUp(self):
 		Distribution.objects.create(
@@ -405,7 +397,7 @@ class DistributionTester(TestCase):
 
 
 class MajorTester(TestCase):
-	fixtures = ['initial_data_dump_073014.json']
+	fixtures = ['initial_data_dump_080214.json']
 	def setUp(self):
 		Major.objects.create(
 			code='TEST',

@@ -10,6 +10,9 @@ import re
 #can't close these ruh roh...bad practice
 f=open('browser_spider_test.json','w+')
 distf=open('all_courses_fall2014_dists.txt','w+')
+proff=open('all_courses_fall2014_profs.txt','w+')
+tdf=open('all_courses_fall2014_timeanddate.txt','w+')
+#semesterf=open('all_courses_fall2014_semesters.txt','w+')
 
 class BrowserSpider(scrapy.Spider):
     pk=1

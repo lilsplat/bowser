@@ -1,0 +1,4378 @@
+[
+  {
+    "model": "courses.professor",
+    "pk": 1,
+    "fields": {
+      "name": "Jenny Johnson",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jjohnso3"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 2,
+    "fields": {
+      "name": "Quinn Slobodian",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=qslobodi"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 3,
+    "fields": {
+      "name": "Nancy Genero",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ngenero"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 4,
+    "fields": {
+      "name": "Kaca Bradonjic",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=kbradonj"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 5,
+    "fields": {
+      "name": "Richard Delaney",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 6,
+    "fields": {
+      "name": "Timothy Peltason",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=tpeltaso"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 7,
+    "fields": {
+      "name": "Sabine von Mering",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 8,
+    "fields": {
+      "name": "Robbin Chapman",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=rchapman"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 9,
+    "fields": {
+      "name": "Michelle Cromwell",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mcromwel"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 10,
+    "fields": {
+      "name": "Sharon Elkins",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=selkins"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 11,
+    "fields": {
+      "name": "Elizabeth Oakes",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=eoakes"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 12,
+    "fields": {
+      "name": "Philip Kohl",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=pkohl"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 13,
+    "fields": {
+      "name": "Lauri Wardell",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=lwardell"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 14,
+    "fields": {
+      "name": "Leslie Brown",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 15,
+    "fields": {
+      "name": "Susan Skeath van Mulbregt",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=sskeath"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 16,
+    "fields": {
+      "name": "Rhys Price Jones",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=rpricejo"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 17,
+    "fields": {
+      "name": "Yasmine Ramadan",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=yramadan"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 18,
+    "fields": {
+      "name": "Michael Hearn",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mhearn"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 19,
+    "fields": {
+      "name": "Margaret Keane",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mkeane"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 20,
+    "fields": {
+      "name": "Evelina Guzauskyte",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=eguzausk"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 21,
+    "fields": {
+      "name": "Hilton Als",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 22,
+    "fields": {
+      "name": "Carlos Vega",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=cvega"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 23,
+    "fields": {
+      "name": "Akila Weerapana",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=aweerapa"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 24,
+    "fields": {
+      "name": "Rowena He",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=rhe"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 25,
+    "fields": {
+      "name": "Pauline De Tholozany",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=pdetholo"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 26,
+    "fields": {
+      "name": "Lee Cuba",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=lcuba"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 27,
+    "fields": {
+      "name": "Marilyn Turnbull",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mturnbul"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 28,
+    "fields": {
+      "name": "Eugene Marshall",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=emarsha2"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 29,
+    "fields": {
+      "name": "Stephen Marini",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=smarini"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 30,
+    "fields": {
+      "name": "Andre Switala",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=aswitala"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 31,
+    "fields": {
+      "name": "Christa Skow",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=cskow"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 32,
+    "fields": {
+      "name": "Vernon Shetley",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=vshetley"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 33,
+    "fields": {
+      "name": "Andrea Sequeira",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=asequeir"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 34,
+    "fields": {
+      "name": "Pinar Keskin",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=pkeskin"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 35,
+    "fields": {
+      "name": "Jose Mur-Miranda",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 36,
+    "fields": {
+      "name": "Donna Trainor",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dtrainor"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 37,
+    "fields": {
+      "name": "Edward Hobbs",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ehobbs"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 38,
+    "fields": {
+      "name": "Guy Rogers",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=grogers"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 39,
+    "fields": {
+      "name": "Jeremy Weiss",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jweiss"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 40,
+    "fields": {
+      "name": "Nadya Hajj",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=nhajj"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 41,
+    "fields": {
+      "name": "Glenn Stark",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=gstark"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 42,
+    "fields": {
+      "name": "Helene Bilis",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=hbilis"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 43,
+    "fields": {
+      "name": "Darlene Howland",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dhowland"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 44,
+    "fields": {
+      "name": "Mary Ellen Clark",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mclark2"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 45,
+    "fields": {
+      "name": "Yue Hu",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=yhu"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 46,
+    "fields": {
+      "name": "David Ellerby",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dellerby"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 47,
+    "fields": {
+      "name": "Dana Hall Staff",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 48,
+    "fields": {
+      "name": "Craig Murphy",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=cmurphy"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 49,
+    "fields": {
+      "name": "Jennifer Hood-DeGrenier",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 50,
+    "fields": {
+      "name": "Eliko Akahori",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=eakahori"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 51,
+    "fields": {
+      "name": "Kyra Kulik-Johnson",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=kkulikjo"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 52,
+    "fields": {
+      "name": "Julie Matthaei",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jmatthae"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 53,
+    "fields": {
+      "name": "Sun-Hee Lee",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=slee6"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 54,
+    "fields": {
+      "name": "Kenzo Sung",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ksung"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 55,
+    "fields": {
+      "name": "Marc Tetel",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mtetel"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 56,
+    "fields": {
+      "name": "David Olsen",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dolsen"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 57,
+    "fields": {
+      "name": "Daniela Rivera",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=drivera"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 58,
+    "fields": {
+      "name": "Cassandra Pattanayak",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=cpattana"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 59,
+    "fields": {
+      "name": "Selwyn Cudjoe",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=scudjoe"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 60,
+    "fields": {
+      "name": "Bunny Harvey",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=bharvey"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 61,
+    "fields": {
+      "name": "Margery Lucas",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mlucas"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 62,
+    "fields": {
+      "name": "Stanley Chang",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=schang"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 63,
+    "fields": {
+      "name": "Nancy Kolodny",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=nkolodny"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 64,
+    "fields": {
+      "name": "Corrine Taylor",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ctaylor1"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 65,
+    "fields": {
+      "name": "Christopher Arumainayagam",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=carumain"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 66,
+    "fields": {
+      "name": "Carol Dougherty",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=cdougher"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 67,
+    "fields": {
+      "name": "Liang Liung",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=lliung"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 68,
+    "fields": {
+      "name": "Tony Mohammed",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=tmohamme"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 69,
+    "fields": {
+      "name": "Anne Le Brun",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 70,
+    "fields": {
+      "name": "Helen Wang",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=hwang"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 71,
+    "fields": {
+      "name": "Barbara Geller",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=bgeller"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 72,
+    "fields": {
+      "name": "Katharine Miller",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=cmiller"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 73,
+    "fields": {
+      "name": "Calvin Chin",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=cchin"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 74,
+    "fields": {
+      "name": "Kathleen Brogan",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=kbrogan"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 75,
+    "fields": {
+      "name": "Helen MacDonald",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 76,
+    "fields": {
+      "name": "David Ward",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dward"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 77,
+    "fields": {
+      "name": "Becky Kimball",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=bkimball"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 78,
+    "fields": {
+      "name": "Linda Carli",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=lcarli"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 79,
+    "fields": {
+      "name": "Nina Tumarkin",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ntumarki"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 80,
+    "fields": {
+      "name": "Marianne Harkless",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mharkles"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 81,
+    "fields": {
+      "name": "Patrick McEwan",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=pmcewan"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 82,
+    "fields": {
+      "name": "Kazuko Ozawa",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=kozawa"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 83,
+    "fields": {
+      "name": "Andrew Webb",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dwebb"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 84,
+    "fields": {
+      "name": "Sally Sommers Smith",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ssmith6"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 85,
+    "fields": {
+      "name": "Louise Darling",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ldarling"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 86,
+    "fields": {
+      "name": "Katie Ulissey",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=kulissey"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 87,
+    "fields": {
+      "name": "Elizabeth DeSombre",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=edesombr"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 88,
+    "fields": {
+      "name": "Samuel Nelson",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=snelson2"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 89,
+    "fields": {
+      "name": "Ryan Frace",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 90,
+    "fields": {
+      "name": "Catherine Gilhuly",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=cgilhuly"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 91,
+    "fields": {
+      "name": "Joy Renjilian-Burgy",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jrenjili"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 92,
+    "fields": {
+      "name": "Marie-Cecile Ganne-Schiermeier",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mgannesc"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 93,
+    "fields": {
+      "name": "Flavia Laviosa",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=flaviosa"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 94,
+    "fields": {
+      "name": "Martha McNamara",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mmcnamar"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 95,
+    "fields": {
+      "name": "Katherine Grandjean",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=kgrandje"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 96,
+    "fields": {
+      "name": "Phillip Levine",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=plevine"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 97,
+    "fields": {
+      "name": "Gary Harris",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=gharris"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 98,
+    "fields": {
+      "name": "Becky Geer",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=bgeer"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 99,
+    "fields": {
+      "name": "Gurminder Bhogal",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=gbhogal"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 100,
+    "fields": {
+      "name": "Margaret Cezair-Thompson",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mcezaire"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 101,
+    "fields": {
+      "name": "Martina Koniger",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mkoniger"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 102,
+    "fields": {
+      "name": "Joseph Joyce",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jjoyce"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 103,
+    "fields": {
+      "name": "Alison McIntyre",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=amcintyr"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 104,
+    "fields": {
+      "name": "Elena Creef",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ecreef"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 105,
+    "fields": {
+      "name": "Veronica Darer",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=vdarer"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 106,
+    "fields": {
+      "name": "Ama Abeberese",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=aabebere"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 107,
+    "fields": {
+      "name": "Phillip Deen",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 108,
+    "fields": {
+      "name": "Jonathan Imber",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jimber"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 109,
+    "fields": {
+      "name": "Maria Natividad",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mnativid"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 110,
+    "fields": {
+      "name": "Christopher Kenaley",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ckenaley"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 111,
+    "fields": {
+      "name": "Maria Waller",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mwaller"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 112,
+    "fields": {
+      "name": "Daniel Fetter",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dfetter"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 113,
+    "fields": {
+      "name": "Kristina Jones",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=kjones"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 114,
+    "fields": {
+      "name": "Janet McDonough",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jmcdonou"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 115,
+    "fields": {
+      "name": "Andrew Warren",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=awarren2"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 116,
+    "fields": {
+      "name": "Megan LaBella",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mlabella"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 117,
+    "fields": {
+      "name": "Lisa Rodensky",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=lrodensk"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 118,
+    "fields": {
+      "name": "Seok Jang",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 119,
+    "fields": {
+      "name": "Edward Cho",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=echo2"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 120,
+    "fields": {
+      "name": "Nurit Ben Yehuda",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 121,
+    "fields": {
+      "name": "Susan Reverby",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=sreverby"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 122,
+    "fields": {
+      "name": "Scott Gunther",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=sgunther"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 123,
+    "fields": {
+      "name": "Yuan-Chu Lam",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ylam"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 124,
+    "fields": {
+      "name": "Vicki Mistacco",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=vmistacc"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 125,
+    "fields": {
+      "name": "Stacie Goddard",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=sgoddard"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 126,
+    "fields": {
+      "name": "Kenneth Loewit",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 127,
+    "fields": {
+      "name": "Katherine Curhan",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 128,
+    "fields": {
+      "name": "Nikhil Rao",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=nrao"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 129,
+    "fields": {
+      "name": "Marilyn Sides",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=msides"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 130,
+    "fields": {
+      "name": "James Oles",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=joles"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 131,
+    "fields": {
+      "name": "Marjorie Agosin",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=magosin"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 132,
+    "fields": {
+      "name": "Jeannine Johnson",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jjohnso2"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 133,
+    "fields": {
+      "name": "Adele Wolfson",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=awolfson"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 134,
+    "fields": {
+      "name": "Ismar Volic",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ivolic"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 135,
+    "fields": {
+      "name": "Catia Confortini",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=cconfort"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 136,
+    "fields": {
+      "name": "Samuel Barkin",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 137,
+    "fields": {
+      "name": "Michelle LaBonte",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mlabonte"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 138,
+    "fields": {
+      "name": "Rachid Aadnani",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=raadnani"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 139,
+    "fields": {
+      "name": "Julia King",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jking"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 140,
+    "fields": {
+      "name": "Kimberly Cassibry",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=kcassibr"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 141,
+    "fields": {
+      "name": "Seth Neumuller",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=sneumull"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 142,
+    "fields": {
+      "name": "Courtney Coile",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ccoile"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 143,
+    "fields": {
+      "name": "Nancy Scherer",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=nscherer"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 144,
+    "fields": {
+      "name": "Kristina Steiner",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ksteiner"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 145,
+    "fields": {
+      "name": "Grace Ferris",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=gferris"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 146,
+    "fields": {
+      "name": "Salem Mekuria",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=smekuria"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 147,
+    "fields": {
+      "name": "Edward Silver",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=esilver"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 148,
+    "fields": {
+      "name": "Linda Sieck",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=lsieck"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 149,
+    "fields": {
+      "name": "Elizabeth Falconi",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=efalconi"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 150,
+    "fields": {
+      "name": "Nancy Marshall",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=nmarshal"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 151,
+    "fields": {
+      "name": "Daniel Zitnick",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dzitnick"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 152,
+    "fields": {
+      "name": "Jennifer Musto",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jmusto"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 153,
+    "fields": {
+      "name": "Stephen Chen",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=schen7"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 154,
+    "fields": {
+      "name": "Michele Respaut",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mrespaut"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 155,
+    "fields": {
+      "name": "Jean Herbst",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jherbst"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 156,
+    "fields": {
+      "name": "Margery Sokoloff",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=msokolof"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 157,
+    "fields": {
+      "name": "Virginia Quinan",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=vquinan"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 158,
+    "fields": {
+      "name": "Weina Zhao",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=wzhao"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 159,
+    "fields": {
+      "name": "Sarah Wall-Randell",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=swallran"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 160,
+    "fields": {
+      "name": "Jessica Polito",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jpolito"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 161,
+    "fields": {
+      "name": "Wesley Watters",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=wwatters"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 162,
+    "fields": {
+      "name": "Katherine Woolfalk",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=kwoolfal"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 163,
+    "fields": {
+      "name": "Ira Silver",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=isilver"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 164,
+    "fields": {
+      "name": "Inela Selimovic",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=iselimov"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 165,
+    "fields": {
+      "name": "Paul Fisher",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=pfisher"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 166,
+    "fields": {
+      "name": "Barbara Beltz",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=bbeltz"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 167,
+    "fields": {
+      "name": "Brandon Abbs",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=babbs"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 168,
+    "fields": {
+      "name": "Gretchen Hayden-Ruckert",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ghaydenr"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 169,
+    "fields": {
+      "name": "Cord Whitaker",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=cwhitak3"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 170,
+    "fields": {
+      "name": "Jonathan Tannenhauser",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jtannenh"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 171,
+    "fields": {
+      "name": "Randy Shull",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=rshull"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 172,
+    "fields": {
+      "name": "David McGovern",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dmcgover"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 173,
+    "fields": {
+      "name": "Franklyn Turbak",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=fturbak"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 174,
+    "fields": {
+      "name": "Betsy Seder",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=bseder"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 175,
+    "fields": {
+      "name": "Darakhshan Mir",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dmir"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 176,
+    "fields": {
+      "name": "Heddi Siebel",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=hsiebel"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 177,
+    "fields": {
+      "name": "Theodore Ducas",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=tducas"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 178,
+    "fields": {
+      "name": "Liz Owen",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=lowen"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 179,
+    "fields": {
+      "name": "Jonathan Cheek",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jcheek"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 180,
+    "fields": {
+      "name": "Alison Hickey",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ahickey"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 181,
+    "fields": {
+      "name": "James Noggle",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jnoggle"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 182,
+    "fields": {
+      "name": "Jocelyne Dolce",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jdolce"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 183,
+    "fields": {
+      "name": "Tracy McAskill",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=tmcaskil"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 184,
+    "fields": {
+      "name": "Michal Ben-Josef Hirsch",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mbenjose"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 185,
+    "fields": {
+      "name": "Andrea Levitt",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=alevitt"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 186,
+    "fields": {
+      "name": "Joseph Swingle",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jswingle"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 187,
+    "fields": {
+      "name": "Maria Klien",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mklien"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 188,
+    "fields": {
+      "name": "Sarah Allen",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=sallen3"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 189,
+    "fields": {
+      "name": "Thomas Hansen",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=thansen"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 190,
+    "fields": {
+      "name": "Oscar Fernandez",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ofernand"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 191,
+    "fields": {
+      "name": "Nancy Mukundan",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=nmukunda"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 192,
+    "fields": {
+      "name": "Serena Grattarola",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=sgrattar"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 193,
+    "fields": {
+      "name": "Michael Jeffries",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mjeffrie"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 194,
+    "fields": {
+      "name": "Joanne Zhao Qu",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=zqu"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 195,
+    "fields": {
+      "name": "Lawrence Rosenwald",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=lrosenwa"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 196,
+    "fields": {
+      "name": "Barbara Beatty",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=bbeatty"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 197,
+    "fields": {
+      "name": "Timothy McGrath",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=tmcgrath"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 198,
+    "fields": {
+      "name": "Connie Bauman",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=cbauman"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 199,
+    "fields": {
+      "name": "Amanda McCarthy",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=amccart1"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 200,
+    "fields": {
+      "name": "Robert Berg",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=rberg"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 201,
+    "fields": {
+      "name": "Kristin Gainey",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 202,
+    "fields": {
+      "name": "Robin McKnight",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=rmcknigh"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 203,
+    "fields": {
+      "name": "Joel Krieger",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jkrieger"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 204,
+    "fields": {
+      "name": "William Joseph",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=wjoseph"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 205,
+    "fields": {
+      "name": "Kimberly O'Donnell",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=kodonnel"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 206,
+    "fields": {
+      "name": "Peggy Levitt",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=plevitt"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 207,
+    "fields": {
+      "name": "Tanya McNeill",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 208,
+    "fields": {
+      "name": "Monika Totten",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mtotten"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 209,
+    "fields": {
+      "name": "Didem Vardar-Ulu",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dvardar"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 210,
+    "fields": {
+      "name": "William Coleman",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=wcoleman"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 211,
+    "fields": {
+      "name": "Ann Velenchik",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=avelench"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 212,
+    "fields": {
+      "name": "Christopher Candland",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ccandlan"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 213,
+    "fields": {
+      "name": "Soo Hong",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=shong"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 214,
+    "fields": {
+      "name": "Anjeana Hans",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ahans"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 215,
+    "fields": {
+      "name": "James Moyer",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jmoyer"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 216,
+    "fields": {
+      "name": "Donald Elmore",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=delmore"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 217,
+    "fields": {
+      "name": "Elizabeth Dionne",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=edionne"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 218,
+    "fields": {
+      "name": "Barbara Lynn-Davis",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=blynndav"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 219,
+    "fields": {
+      "name": "Qiuyan Tang",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=qtang"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 220,
+    "fields": {
+      "name": "Irene Mata",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=imata"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 221,
+    "fields": {
+      "name": "James Wallenstein",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=wwallens"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 222,
+    "fields": {
+      "name": "Elizabeth Davis",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=epierce"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 223,
+    "fields": {
+      "name": "Bonnie Dix",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=bdix"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 224,
+    "fields": {
+      "name": "Robin Akert",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=rakert"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 225,
+    "fields": {
+      "name": "Lena Zuckerwise",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=lzuckerw"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 226,
+    "fields": {
+      "name": "Ryan Quintana",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=rquintan"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 227,
+    "fields": {
+      "name": "Rebecca Bedell",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=rbedell"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 228,
+    "fields": {
+      "name": "Nora Hussey",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=nhussey"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 229,
+    "fields": {
+      "name": "Eiko Torii-Williams",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=etorii"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 230,
+    "fields": {
+      "name": "Martin Brody",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mbrody"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 231,
+    "fields": {
+      "name": "Margery Sabin",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=msabin"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 232,
+    "fields": {
+      "name": "Maria San Filippo",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 233,
+    "fields": {
+      "name": "Jennifer Kroll",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jkroll"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 234,
+    "fields": {
+      "name": "Gamil Kaliouby",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=gkalioub"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 235,
+    "fields": {
+      "name": "Ato Quayson",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 236,
+    "fields": {
+      "name": "Daniel Harris-McCoy",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 237,
+    "fields": {
+      "name": "Vachik Hacopian",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=vhacopia"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 238,
+    "fields": {
+      "name": "Venita Datta",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=vdatta"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 239,
+    "fields": {
+      "name": "Richard Newman",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=rnewman2"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 240,
+    "fields": {
+      "name": "Jens Kruse",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jkruse"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 241,
+    "fields": {
+      "name": "Margaret Vendryes",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 242,
+    "fields": {
+      "name": "Thomas Nolden",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=tnolden"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 243,
+    "fields": {
+      "name": "Miyuki Hatano-Cohen",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mhatano"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 244,
+    "fields": {
+      "name": "Alla Epsteyn",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=aepsteyn"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 245,
+    "fields": {
+      "name": "Winifred Wood",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=wwood"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 246,
+    "fields": {
+      "name": "Smitha Radhakrishnan",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=sradhakr"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 247,
+    "fields": {
+      "name": "Sharon Gobes",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=sgobes"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 248,
+    "fields": {
+      "name": "Katie Ulissey",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=culissey"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 249,
+    "fields": {
+      "name": "Simone Helluy",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=shelluy"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 250,
+    "fields": {
+      "name": "Candice Ivy",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=civy"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 251,
+    "fields": {
+      "name": "Caitlin Pickul",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=cpickul"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 252,
+    "fields": {
+      "name": "Brian Tjaden",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=btjaden"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 253,
+    "fields": {
+      "name": "Monica Higgins",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mhiggin2"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 254,
+    "fields": {
+      "name": "Daniel Brabander",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dbraband"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 255,
+    "fields": {
+      "name": "Carlos Dorrien",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=cdorrien"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 256,
+    "fields": {
+      "name": "Jill Syverson-Stork",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jsyverso"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 257,
+    "fields": {
+      "name": "Francine Weiss",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=fweiss"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 258,
+    "fields": {
+      "name": "Nikki Greene",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ngreene"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 259,
+    "fields": {
+      "name": "Sherry Makerney",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=smakerne"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 260,
+    "fields": {
+      "name": "Beth Hennessey",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=bhenness"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 261,
+    "fields": {
+      "name": "Mary McGowan",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mmcgowan"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 262,
+    "fields": {
+      "name": "Anastasia Karakasidou",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=akarakas"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 263,
+    "fields": {
+      "name": "Stephen Slivan",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=sslivan"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 264,
+    "fields": {
+      "name": "Geofred Osoro",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=gosoro"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 265,
+    "fields": {
+      "name": "Kristin Butcher",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=kbutcher"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 266,
+    "fields": {
+      "name": "Jacqueline McAllister",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jmcallis"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 267,
+    "fields": {
+      "name": "Anna Grinfeld",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=agrinfel"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 268,
+    "fields": {
+      "name": "Frank Bidart",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=fbidart"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 269,
+    "fields": {
+      "name": "Tucker Crum",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=tcrum"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 270,
+    "fields": {
+      "name": "Yoshimi Maeno",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ymaeno"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 271,
+    "fields": {
+      "name": "Pashington Obeng",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=pobeng"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 272,
+    "fields": {
+      "name": "Merrill Baker-Medard",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mbakerme"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 273,
+    "fields": {
+      "name": "Meredith Martin",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mmartin"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 274,
+    "fields": {
+      "name": "Justine De Young",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 275,
+    "fields": {
+      "name": "Sebastian Smee",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ssmee"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 276,
+    "fields": {
+      "name": "Erin Battat",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ebattat"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 277,
+    "fields": {
+      "name": "Matthew Gelvin",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mgelvin"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 278,
+    "fields": {
+      "name": "Mary Ellen Clark",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mclark3"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 279,
+    "fields": {
+      "name": "Mingwei Song",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=msong2"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 280,
+    "fields": {
+      "name": "Petr Eltsov",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 281,
+    "fields": {
+      "name": "Tracy Gleason",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=tgleason"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 282,
+    "fields": {
+      "name": "T. Kaye Peterman",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=kpeterma"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 283,
+    "fields": {
+      "name": "Yoshihisa Matsusaka",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ymatsusa"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 284,
+    "fields": {
+      "name": "Octavio Gonzalez",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ogonzale"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 285,
+    "fields": {
+      "name": "Sima Shakhsari",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=sshakhsa"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 286,
+    "fields": {
+      "name": "Olga Shurchkov",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=oshurchk"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 287,
+    "fields": {
+      "name": "Maurizio Viano",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mviano"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 288,
+    "fields": {
+      "name": "Megan Nunez",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mnunez"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 289,
+    "fields": {
+      "name": "Melissa Beers",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mbeers"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 290,
+    "fields": {
+      "name": "Francesca Southerden",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=fsouther"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 291,
+    "fields": {
+      "name": "Robert Paarlberg",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=rpaarlbe"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 292,
+    "fields": {
+      "name": "James Battat",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jbattat"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 293,
+    "fields": {
+      "name": "Benjamin Vining",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=bvining"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 294,
+    "fields": {
+      "name": "Julia Fan",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 295,
+    "fields": {
+      "name": "Lynne Viti",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=lviti"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 296,
+    "fields": {
+      "name": "Karen Lange",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=klange2"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 297,
+    "fields": {
+      "name": "Phyllis McGibbon",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=pmcgibbo"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 298,
+    "fields": {
+      "name": "Katherine Steinmetz",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 299,
+    "fields": {
+      "name": "Lamia Balafrej",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=lbalafre"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 300,
+    "fields": {
+      "name": "Angela Carpenter",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=acarpent"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 301,
+    "fields": {
+      "name": "Idan Ginsburg",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 302,
+    "fields": {
+      "name": "Lois Roach",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=lroach"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 303,
+    "fields": {
+      "name": "Wendy Bauer",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=wbauer"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 304,
+    "fields": {
+      "name": "John Cameron",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jcameron"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 305,
+    "fields": {
+      "name": "Marianne Moore",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mmoore"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 306,
+    "fields": {
+      "name": "Diego Arciniegas",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=darcinie"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 307,
+    "fields": {
+      "name": "James Turner",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jturner"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 308,
+    "fields": {
+      "name": "Hahrie Han",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=hhan"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 309,
+    "fields": {
+      "name": "Sharon Rabinoff",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=srabinof"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 310,
+    "fields": {
+      "name": "Adam Van Arsdale",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=avanarsd"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 311,
+    "fields": {
+      "name": "Brenna Greer",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=bgreer"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 312,
+    "fields": {
+      "name": "Christopher Baylor",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 313,
+    "fields": {
+      "name": "Sergei Tsvetkov",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=stsvetko"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 314,
+    "fields": {
+      "name": "T. James Kodera",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jkodera"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 315,
+    "fields": {
+      "name": "David Kelley",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dkelley"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 316,
+    "fields": {
+      "name": "Alejandra Osorio",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=aosorio"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 317,
+    "fields": {
+      "name": "Qing-Min Meng",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=qmeng"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 318,
+    "fields": {
+      "name": "Steven Simon",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ssimon2"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 319,
+    "fields": {
+      "name": "Thomas Cushman",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=tcushman"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 320,
+    "fields": {
+      "name": "David Lindauer",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dlindaue"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 321,
+    "fields": {
+      "name": "William Cain",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=wcain"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 322,
+    "fields": {
+      "name": "Heather Bryant",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=hbryant"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 323,
+    "fields": {
+      "name": "Jacqueline Musacchio",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jmusacch"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 324,
+    "fields": {
+      "name": "Samantha Cameron",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=scameron"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 325,
+    "fields": {
+      "name": "Elizabeth Young",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=eyoung"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 326,
+    "fields": {
+      "name": "Julie Norem",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jnorem"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 327,
+    "fields": {
+      "name": "Kristen Poston",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=kfay"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 328,
+    "fields": {
+      "name": "Sandor Kadar",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=skadar"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 329,
+    "fields": {
+      "name": "William Quivers",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=wquivers"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 330,
+    "fields": {
+      "name": "Michael Maizels",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mmaizels"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 331,
+    "fields": {
+      "name": "Lidwien Kapteijns",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=lkapteij"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 332,
+    "fields": {
+      "name": "Benjamin Wood",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=bwood5"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 333,
+    "fields": {
+      "name": "Yu Jin Ko",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=yko"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 334,
+    "fields": {
+      "name": "Anne Brubaker",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=abrubake"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 335,
+    "fields": {
+      "name": "Donna Patterson",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dpatters"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 336,
+    "fields": {
+      "name": "Hannah Reese",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=hreese"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 337,
+    "fields": {
+      "name": "Monica Capobianco",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mcapobia"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 338,
+    "fields": {
+      "name": "Mark Prokosch",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mprokosc"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 339,
+    "fields": {
+      "name": "Mary Beth Tierney-Tello",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mtierney"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 340,
+    "fields": {
+      "name": "Panagiotis Metaxas",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=pmetaxas"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 341,
+    "fields": {
+      "name": "Orit Shaer",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=oshaer"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 342,
+    "fields": {
+      "name": "Matthew Blanton",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mblanton"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 343,
+    "fields": {
+      "name": "Manolo Nunez-Negron",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 344,
+    "fields": {
+      "name": "Nicholas Rodenhouse",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=nrodenho"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 345,
+    "fields": {
+      "name": "John Goss",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jgoss"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 346,
+    "fields": {
+      "name": "Riyaz Latif",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=rlatif"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 347,
+    "fields": {
+      "name": "Emily Buchholtz",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ebuchhol"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 348,
+    "fields": {
+      "name": "Yoon Lee",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ylee"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 349,
+    "fields": {
+      "name": "Yuichiro Suzuki",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ysuzuki"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 350,
+    "fields": {
+      "name": "Elisabeth Ford",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 351,
+    "fields": {
+      "name": "Alice Friedman",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=afriedma"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 352,
+    "fields": {
+      "name": "Deborah Weaver",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dweaver"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 353,
+    "fields": {
+      "name": "Dorothy Webb",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dwebb3"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 354,
+    "fields": {
+      "name": "Thomas Hodge",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=thodge"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 355,
+    "fields": {
+      "name": "Melinda Lopez",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mlopez"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 356,
+    "fields": {
+      "name": "Dora Carrico-Moniz",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dcarrico"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 357,
+    "fields": {
+      "name": "Claire Fontijn",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=cfontijn"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 358,
+    "fields": {
+      "name": "Zsuzsanna Szegedi",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=zszegedi"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 359,
+    "fields": {
+      "name": "Neelima Shukla-Bhatt",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=nshuklab"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 360,
+    "fields": {
+      "name": "Erinn Staley",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=estaley"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 361,
+    "fields": {
+      "name": "Angela Bahns",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=abahns"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 362,
+    "fields": {
+      "name": "Robert Meyer",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 363,
+    "fields": {
+      "name": "Carla Shalaby",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=cshalaby"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 364,
+    "fields": {
+      "name": "Athena Kirk",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 365,
+    "fields": {
+      "name": "Adriana Brook",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 366,
+    "fields": {
+      "name": "David Collins",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dcollins"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 367,
+    "fields": {
+      "name": "Marion Just",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mjust"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 368,
+    "fields": {
+      "name": "Sally Theran",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=stheran"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 369,
+    "fields": {
+      "name": "Andrew Mowbray",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=amowbray"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 370,
+    "fields": {
+      "name": "Stella Kakavouli",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=skakavou"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 371,
+    "fields": {
+      "name": "Rita Freed",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=rfreed"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 372,
+    "fields": {
+      "name": "Adam Cooper",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 373,
+    "fields": {
+      "name": "Charles Fisk",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=cfisk"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 374,
+    "fields": {
+      "name": "Sergio Parussa",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=sparussa"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 375,
+    "fields": {
+      "name": "Michael Wiest",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mwiest"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 376,
+    "fields": {
+      "name": "Jeffrey Hughes",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jhughes"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 377,
+    "fields": {
+      "name": "Tessa Spillane",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=tspillan"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 378,
+    "fields": {
+      "name": "Daniel Sichel",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dsichel"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 379,
+    "fields": {
+      "name": "Paul Reisberg",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=preisber"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 380,
+    "fields": {
+      "name": "Patricia Berman",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=pberman"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 381,
+    "fields": {
+      "name": "Carlos Ramos",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=cramos"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 382,
+    "fields": {
+      "name": "Roxanne Euben",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=reuben"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 383,
+    "fields": {
+      "name": "Deborah Bauer",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dbauer"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 384,
+    "fields": {
+      "name": "David Towlun",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dtowlun"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 385,
+    "fields": {
+      "name": "Tyler Moore",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 386,
+    "fields": {
+      "name": "Richard Delacy",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=rdelacy"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 387,
+    "fields": {
+      "name": "Raymond Starr",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=rstarr"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 388,
+    "fields": {
+      "name": "Kenneth Hawes",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=khawes"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 389,
+    "fields": {
+      "name": "Charlene Galarneau",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=cgalarne"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 390,
+    "fields": {
+      "name": "Katherine Ruffin",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=kruffin"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 391,
+    "fields": {
+      "name": "Gesa Fromming",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=gfrommin"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 392,
+    "fields": {
+      "name": "Brett Danaher",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=bdanaher"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 393,
+    "fields": {
+      "name": "Nicholas Blegen",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=nblegen"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 394,
+    "fields": {
+      "name": "Mala Radhakrishnan",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mradhakr"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 395,
+    "fields": {
+      "name": "Chiyo Crawford",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ccrawfo2"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 396,
+    "fields": {
+      "name": "Beth Gifford",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=bgifford"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 397,
+    "fields": {
+      "name": "Susan Meyer",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=smeyer"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 398,
+    "fields": {
+      "name": "Jennie Pyers",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jpyers"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 399,
+    "fields": {
+      "name": "Clara Lieu",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=clieu"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 400,
+    "fields": {
+      "name": "Heather Mattila",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=hmattila"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 401,
+    "fields": {
+      "name": "Nathan Stewart",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 402,
+    "fields": {
+      "name": "Alexander Diesl",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=adiesl"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 403,
+    "fields": {
+      "name": "Leon Webster",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 404,
+    "fields": {
+      "name": "Catherine Wearing",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=cwearing"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 405,
+    "fields": {
+      "name": "Jenny Tang",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jtang"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 406,
+    "fields": {
+      "name": "Ryan Madigan",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 407,
+    "fields": {
+      "name": "Steffani Jemison",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=sjemison"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 408,
+    "fields": {
+      "name": "Diane Tutin",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dtutin"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 409,
+    "fields": {
+      "name": "Erich Matthes",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ematthes"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 410,
+    "fields": {
+      "name": "Tamar Barzel",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=tbarzel"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 411,
+    "fields": {
+      "name": "Kathleen Gilbert",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=kgilbert"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 412,
+    "fields": {
+      "name": "Patty Magill",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=pmagill"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 413,
+    "fields": {
+      "name": "Casey Rothschild",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=crothsch"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 414,
+    "fields": {
+      "name": "Sohie Lee",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=slee"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 415,
+    "fields": {
+      "name": "Andrew Schultz",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=aschult2"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 416,
+    "fields": {
+      "name": "Valerie Ramseyer",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=vramseye"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 417,
+    "fields": {
+      "name": "Helena de Bres",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=hdebres"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 418,
+    "fields": {
+      "name": "Katrin Monecke",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=kmonecke"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 419,
+    "fields": {
+      "name": "Megan Kerr",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mkerr"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 420,
+    "fields": {
+      "name": "Ellen Hildreth",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ehildret"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 421,
+    "fields": {
+      "name": "Deborah Matzner",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dmatzner"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 422,
+    "fields": {
+      "name": "Keri O'Meara",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=komeara"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 423,
+    "fields": {
+      "name": "Alissa Spielberg",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=aspielbe"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 424,
+    "fields": {
+      "name": "Alden Griffith",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=agriffit"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 425,
+    "fields": {
+      "name": "Laura Grattan",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=lgrattan"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 426,
+    "fields": {
+      "name": "Ruth Rogers",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=rrogers"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 427,
+    "fields": {
+      "name": "Elena Gascon-Vera",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=egasconv"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 428,
+    "fields": {
+      "name": "Corinne Gartner",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=cgartner"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 429,
+    "fields": {
+      "name": "Amy Bard",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 430,
+    "fields": {
+      "name": "Rosanna Hertz",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=rhertz"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 431,
+    "fields": {
+      "name": "Eniana Mustafaraj",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=emustafa"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 432,
+    "fields": {
+      "name": "Wendy Berry",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=wberry"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 433,
+    "fields": {
+      "name": "Dorothy Webb",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dwebb1"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 434,
+    "fields": {
+      "name": "Shiao Wei Tham",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=stham"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 435,
+    "fields": {
+      "name": "Douglas Blum",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dblum"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 436,
+    "fields": {
+      "name": "Amy Marshall",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=amarsha2"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 437,
+    "fields": {
+      "name": "Brian Kuscher",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=bkuscher"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 438,
+    "fields": {
+      "name": "Paul MacDonald",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=pmacdon2"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 439,
+    "fields": {
+      "name": "Nolan Flynn",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=nflynn"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 440,
+    "fields": {
+      "name": "Simon Grote",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=sgrote"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 441,
+    "fields": {
+      "name": "Eileen O'Connor",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=eoconno2"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 442,
+    "fields": {
+      "name": "Tom Burke",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=tburke"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 443,
+    "fields": {
+      "name": "Bryan Burns",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=bburns"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 444,
+    "fields": {
+      "name": "Jeremy Wilmer",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jwilmer"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 445,
+    "fields": {
+      "name": "Wilton Virgo",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 446,
+    "fields": {
+      "name": "Joshua Lederman",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jlederma"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 447,
+    "fields": {
+      "name": "Justin Armstrong",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jarmstro"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 448,
+    "fields": {
+      "name": "Eunice Han",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ehan3"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 449,
+    "fields": {
+      "name": "Margaret Carroll",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mcarroll"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 450,
+    "fields": {
+      "name": "Ifeanyi Menkiti",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=imenkiti"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 451,
+    "fields": {
+      "name": "Karl-Josef Dietz",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=kdietz"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 452,
+    "fields": {
+      "name": "Gauri Shastry",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=gshastry"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 453,
+    "fields": {
+      "name": "Courtney Lannert",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 454,
+    "fields": {
+      "name": "Paul Wink",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=pwink"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 455,
+    "fields": {
+      "name": "Eve Zimmerman",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ezimmerm"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 456,
+    "fields": {
+      "name": "Amy Banzaert",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=abanzaer"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 457,
+    "fields": {
+      "name": "C. Pat Giersch",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=cgiersch"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 458,
+    "fields": {
+      "name": "David Hawkins",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dhawkins"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 459,
+    "fields": {
+      "name": "Daniela Bartalesi-Graf",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dbartale"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 460,
+    "fields": {
+      "name": "Adam Matthews",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=amatthe2"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 461,
+    "fields": {
+      "name": "Victor Kazanjian",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 462,
+    "fields": {
+      "name": "Catherine Masson",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=cmasson"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 463,
+    "fields": {
+      "name": "Nicholas Knouf",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=nknouf"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 464,
+    "fields": {
+      "name": "Adam Schwartz",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=aschwar1"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 465,
+    "fields": {
+      "name": "Becky Kimball",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=rkimbal2"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 466,
+    "fields": {
+      "name": "Alan Shuchat",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ashuchat"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 467,
+    "fields": {
+      "name": "Kyung-Hong Park",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=kpark4"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 468,
+    "fields": {
+      "name": "Lisa Graham",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=lgraham1"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 469,
+    "fields": {
+      "name": "Gabriella Sanchez",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 470,
+    "fields": {
+      "name": "Gizem Saka",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 471,
+    "fields": {
+      "name": "Lara Tohme",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 472,
+    "fields": {
+      "name": "Nancy Hall",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=nhall"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 473,
+    "fields": {
+      "name": "Ann Trenk",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=atrenk"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 474,
+    "fields": {
+      "name": "Julia McPhee",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jmcphee"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 475,
+    "fields": {
+      "name": "Mona Hall",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mhall1"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 476,
+    "fields": {
+      "name": "Sylvaine Egron-Sparrow",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=segronsp"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 477,
+    "fields": {
+      "name": "Andrea Evans",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 478,
+    "fields": {
+      "name": "Barry Lydgate",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=blydgate"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 479,
+    "fields": {
+      "name": "Louise Marlow",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=lmarlow"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 480,
+    "fields": {
+      "name": "None assigned",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 481,
+    "fields": {
+      "name": "David Haines",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dhaines"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 482,
+    "fields": {
+      "name": "Matthew Sergi",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=msergi"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 483,
+    "fields": {
+      "name": "Marta Rainer",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mrainer"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 484,
+    "fields": {
+      "name": "Kristin Burkholder",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 485,
+    "fields": {
+      "name": "Adrian Huang",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ahuang2"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 486,
+    "fields": {
+      "name": "Carla Verschoor",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=cverscho"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 487,
+    "fields": {
+      "name": "Marie-Paule Tranvouez",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mtranvou"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 488,
+    "fields": {
+      "name": "Nadine Lysiak",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 489,
+    "fields": {
+      "name": "Julia Miwa",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jmiwa"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 490,
+    "fields": {
+      "name": "Carolin Ferwerda",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=cferwerd"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 491,
+    "fields": {
+      "name": "Rene Alexander Orquiza",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=rorquiza"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 492,
+    "fields": {
+      "name": "Jane Howland",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jhowland"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 493,
+    "fields": {
+      "name": "Dai Chen",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dchen"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 494,
+    "fields": {
+      "name": "Sheila Brachfeld-Child",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=sbrachfe"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 495,
+    "fields": {
+      "name": "Eun-Jo Lee",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=elee5"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 496,
+    "fields": {
+      "name": "Rana Abdul-Aziz",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=rabdulaz"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 497,
+    "fields": {
+      "name": "Lois Wasserspring",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=lwassers"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 498,
+    "fields": {
+      "name": "Molly Blasing",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 499,
+    "fields": {
+      "name": "Noah Rubin",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=nrubin"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 500,
+    "fields": {
+      "name": "Koichi Hagimoto",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=khagimot"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 501,
+    "fields": {
+      "name": "Joshua Wood",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jwood5"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 502,
+    "fields": {
+      "name": "Frances Malino",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=fmalino"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 503,
+    "fields": {
+      "name": "Jonathan Adler",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jadler"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 504,
+    "fields": {
+      "name": "Filomina Steady",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=fsteady"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 505,
+    "fields": {
+      "name": "Luther Tyler",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ltyler1"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 506,
+    "fields": {
+      "name": "Dominique Bluher",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 507,
+    "fields": {
+      "name": "Kim McLeod",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=kmcleod"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 508,
+    "fields": {
+      "name": "Benjamin Alberti",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 509,
+    "fields": {
+      "name": "Eric Hilt",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ehilt"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 510,
+    "fields": {
+      "name": "Vanja Klepac-Ceraj",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=vklepacc"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 511,
+    "fields": {
+      "name": "Amanda Luyster",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 512,
+    "fields": {
+      "name": "Nicholas Doe",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ndoe"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 513,
+    "fields": {
+      "name": "Layli Maparyan",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=lmaparya"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 514,
+    "fields": {
+      "name": "Daniel Chiasson",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=dchiasso"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 515,
+    "fields": {
+      "name": "Paul Galvez",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=pgalvez"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 516,
+    "fields": {
+      "name": "Wilfrid Rollman",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=wrollman"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 517,
+    "fields": {
+      "name": "Scott Anderson",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=sanderso"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 518,
+    "fields": {
+      "name": "Adam Weiner",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=aweiner"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 519,
+    "fields": {
+      "name": "Sang-Hyoung Park",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=spark6"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 520,
+    "fields": {
+      "name": "Michael Broshi",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user="
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 521,
+    "fields": {
+      "name": "Frederic Shultz",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=fshultz"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 522,
+    "fields": {
+      "name": "Christen Deveney",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=cdeveney"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 523,
+    "fields": {
+      "name": "Bevil Conway",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=bconway"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 524,
+    "fields": {
+      "name": "Jason Miller",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jmiller6"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 525,
+    "fields": {
+      "name": "Katherine Goodall",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=kgoodall"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 526,
+    "fields": {
+      "name": "Suzanne Stumpf",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=sstumpf"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 527,
+    "fields": {
+      "name": "James Petterson",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jpetters"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 528,
+    "fields": {
+      "name": "Heping Liu",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=hliu"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 529,
+    "fields": {
+      "name": "Kristin Williams",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=kwillia6"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 530,
+    "fields": {
+      "name": "Anjali Prabhu",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=aprabhu"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 531,
+    "fields": {
+      "name": "David Russell",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=drussell"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 532,
+    "fields": {
+      "name": "James Besancon",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=jbesanco"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 533,
+    "fields": {
+      "name": "Katharine Moon",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=kmoon"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 534,
+    "fields": {
+      "name": "George Caplan",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=gcaplan"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 535,
+    "fields": {
+      "name": "Cori Grande",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=cgrande"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 536,
+    "fields": {
+      "name": "Antonio Igrejas",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=aigrejas"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 537,
+    "fields": {
+      "name": "Carolyn Morley",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=cmorley"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 538,
+    "fields": {
+      "name": "Philip Hirschhorn",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=phirschh"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 539,
+    "fields": {
+      "name": "Markella Rutherford",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mrutherf"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 540,
+    "fields": {
+      "name": "Peter Lane",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=plane"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 541,
+    "fields": {
+      "name": "Thomas Bauer",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=tbauer"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 542,
+    "fields": {
+      "name": "Codruta Morari",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=cmorari"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 543,
+    "fields": {
+      "name": "Charles Bu",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=cbu"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 544,
+    "fields": {
+      "name": "Ellen Widmer",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=ewidmer"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 545,
+    "fields": {
+      "name": "Gale Fuller",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=gfuller"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 546,
+    "fields": {
+      "name": "Marcia Thomas",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mthomas"
+    }
+  },
+  {
+    "model": "courses.professor",
+    "pk": 547,
+    "fields": {
+      "name": "Martin Magid",
+      "site": "https://courses.wellesley.edu/faculty_profiles.php?user=mmagid"
+    }
+  }
+]

@@ -1,0 +1,248 @@
+ANTH299-01
+Home and Away
+None assigned
+None assigned
+Justin Armstrong
+https://courses.wellesley.edu/faculty_profiles.php?user=jarmstro
+Social and Behavioral Analysis
+#
+ARTS108-01
+Photography I
+09:00 am - 01:00 pm
+MTTh
+Andrew Warren
+https://courses.wellesley.edu/faculty_profiles.php?user=awarren2
+Arts, Music, Theatre, Film and Video
+#
+ARTS221-01
+Digital Imaging
+02:00 pm - 06:00 pm
+MTTh
+Andrew Warren
+https://courses.wellesley.edu/faculty_profiles.php?user=awarren2
+Arts, Music, Theatre, Film and Video
+#
+BISC104-01
+Science or Science Fiction
+09:00 am - 12:00 pm
+MWF
+Martina Koniger
+https://courses.wellesley.edu/faculty_profiles.php?user=mkoniger
+Natural and Physical Science
+#
+BISC110-01
+Intro Cellular Biology w/Lab
+09:30 am - 12:00 pm
+MWF
+Adam Matthews
+https://courses.wellesley.edu/faculty_profiles.php?user=amatthe2
+Natural and Physical Science
+#
+BISC110-L01
+LAB: Intro Cellular Biology
+09:00 am - 01:00 pm
+TTh
+Adam Matthews
+https://courses.wellesley.edu/faculty_profiles.php?user=amatthe2
+Natural and Physical Science
+#
+CAMS138-01
+Photography I
+09:00 am - 11:00 am
+MTTh
+Andrew Warren
+https://courses.wellesley.edu/faculty_profiles.php?user=awarren2
+Arts, Music, Theatre, Film and Video
+#
+CAMS239-01
+Digital Imaging
+02:00 pm - 06:00 pm
+MTTh
+Andrew Warren
+https://courses.wellesley.edu/faculty_profiles.php?user=awarren2
+Arts, Music, Theatre, Film and Video
+#
+CHEM211-01
+Organic Chemistry I w/Lab
+01:30 pm - 03:30 pm
+MTWTh
+Nicholas Doe
+https://courses.wellesley.edu/faculty_profiles.php?user=ndoe
+Natural and Physical Science
+#
+CHEM211-L01
+LAB:Organic Chemistry I
+09:00 am - 12:30 pm
+MTh
+Nicholas Doe
+https://courses.wellesley.edu/faculty_profiles.php?user=ndoe
+Natural and Physical Science
+#
+CHEM306-01
+Sem:Tpc:Chem of Drug Discovery
+10:00 am - 12:00 pm
+MTWTh
+Adrian Huang
+https://courses.wellesley.edu/faculty_profiles.php?user=ahuang2
+Natural and Physical Science
+#
+ECON103-01
+Intro Prob&Stat Methods w/Lab
+09:00 am - 10:30 am
+MTWThF
+Joseph Swingle
+https://courses.wellesley.edu/faculty_profiles.php?user=jswingle
+QRF,Social and Behavioral Analysis
+#
+ECON103-1LA
+Intro Prob&Stat Methods w/Lab
+10:45 am - 12:15 pm
+TTh
+Joseph Swingle
+https://courses.wellesley.edu/faculty_profiles.php?user=jswingle
+QRF,Social and Behavioral Analysis
+#
+EDUC200-01
+Early Childhood Education
+01:30 pm - 04:30 pm
+MWTh
+Darlene Howland
+https://courses.wellesley.edu/faculty_profiles.php?user=dhowland
+Social and Behavioral Analysis
+#
+ENG262-01
+Tpc:Founding,Disunion,Reunion
+01:30 pm - 04:30 pm
+MWTh
+Luther Tyler
+https://courses.wellesley.edu/faculty_profiles.php?user=ltyler1
+Language and Literature
+#
+HIST229-01
+Alexander the Great
+01:00 pm - 04:00 pm
+TWTh
+Guy Rogers
+https://courses.wellesley.edu/faculty_profiles.php?user=grogers
+Historical Studies
+#
+HIST329-01
+Alexander the Great
+01:00 pm - 04:00 pm
+TWTh
+Guy Rogers
+https://courses.wellesley.edu/faculty_profiles.php?user=grogers
+Historical Studies
+#
+MATH101-01
+Reasoning with Data
+10:00 am - 12:00 pm
+MTWTh
+Alexander Diesl
+https://courses.wellesley.edu/faculty_profiles.php?user=adiesl
+Mathematical Modeling,QRF
+#
+MATH116-01
+Calculus II
+09:00 am - 12:00 pm
+TWF
+Andrew Schultz
+https://courses.wellesley.edu/faculty_profiles.php?user=aschult2
+Mathematical Modeling
+#
+MATH205-01
+Multivariable Calculus
+01:30 pm - 04:00 pm
+MTWThF
+Alexander Diesl
+https://courses.wellesley.edu/faculty_profiles.php?user=adiesl
+Mathematical Modeling
+#
+PSYC205-01
+Statistics w/lab
+06:30 pm - 08:10 pm
+TWTh
+Jonathan Cheek
+https://courses.wellesley.edu/faculty_profiles.php?user=jcheek
+QRF,Social and Behavioral Analysis
+#
+PSYC205-02
+Statistics with Lab
+01:30 pm - 03:10 pm
+TWTh
+Jonathan Cheek
+https://courses.wellesley.edu/faculty_profiles.php?user=jcheek
+QRF,Social and Behavioral Analysis
+#
+PSYC205-1LA
+LAB: Statistics
+08:20 pm - 09:10 pm
+TWTh
+Jonathan Cheek
+https://courses.wellesley.edu/faculty_profiles.php?user=jcheek
+QRF,Social and Behavioral Analysis
+#
+PSYC205-2LA
+LAB: Statistics
+03:20 pm - 04:10 pm
+TWTh
+Jonathan Cheek
+https://courses.wellesley.edu/faculty_profiles.php?user=jcheek
+QRF,Social and Behavioral Analysis
+#
+REL108-01
+Intro to Asian Religions
+10:00 am - 12:40 pm
+MTW
+T. James Kodera
+https://courses.wellesley.edu/faculty_profiles.php?user=jkodera
+Religion, Ethics and Moral Philosophy
+#
+SOC190-01
+Intro Prob&Statistical Methods
+09:00 am - 10:30 am
+MTWThF
+Joseph Swingle
+https://courses.wellesley.edu/faculty_profiles.php?user=jswingle
+QRF,Social and Behavioral Analysis
+#
+SOC190-1LA
+Intro Prob&Statistical Methods
+10:45 am - 12:15 pm
+TTh
+Joseph Swingle
+https://courses.wellesley.edu/faculty_profiles.php?user=jswingle
+QRF,Social and Behavioral Analysis
+#
+SOC204-01
+Social Problems
+09:30 am - 12:00 pm
+MTWTh
+Ira Silver
+https://courses.wellesley.edu/faculty_profiles.php?user=isilver
+Social and Behavioral Analysis
+#
+SOC320-01
+Technology,Society &the Future
+01:30 pm - 04:00 pm
+MTW
+Ira Silver
+https://courses.wellesley.edu/faculty_profiles.php?user=isilver
+Social and Behavioral Analysis
+#
+SPAN201-01
+Intermediate Spanish I
+08:30 am - 11:45 am
+TWTh
+Eileen O'Connor
+https://courses.wellesley.edu/faculty_profiles.php?user=eoconno2
+None
+#
+WGST121-01
+Reading Elvis Presley
+06:00 pm - 08:45 pm
+MWTh
+Elena Creef
+https://courses.wellesley.edu/faculty_profiles.php?user=ecreef
+Arts, Music, Theatre, Film and Video
+#

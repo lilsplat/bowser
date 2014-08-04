@@ -1,0 +1,272 @@
+ANTH299-01
+Home and Away: Human Geography
+None assigned
+None assigned
+Justin Armstrong
+https://courses.wellesley.edu/faculty_profiles.php?user=jarmstro
+Social and Behavioral Analysis
+#
+ARTS210-01
+Color
+12:00 pm - 05:00 pm
+WThF
+Clara Lieu
+https://courses.wellesley.edu/faculty_profiles.php?user=clieu
+Arts, Music, Theatre, Film and Video
+#
+BISC104-01
+Science or Science Fiction
+09:00 am - 12:00 pm
+MWF
+Martina Koniger
+https://courses.wellesley.edu/faculty_profiles.php?user=mkoniger
+Natural and Physical Science
+#
+CAMS209-01
+Desiring Difference:Gender&Sex
+01:30 pm - 05:20 pm
+MW
+Maria San Filippo
+https://courses.wellesley.edu/faculty_profiles.php?user=
+Arts, Music, Theatre, Film and Video
+#
+CHEM105-01
+Fundamentals Chemistry w/Lab
+10:00 am - 12:00 pm
+MTWTh
+Nancy Mukundan
+https://courses.wellesley.edu/faculty_profiles.php?user=nmukunda
+Mathematical Modeling,Natural and Physical Science
+#
+CHEM105-L01
+LAB:Fundamentals Chemistry
+01:00 pm - 04:30 pm
+MTh
+Adrian Huang
+https://courses.wellesley.edu/faculty_profiles.php?user=ahuang2
+Mathematical Modeling,Natural and Physical Science
+#
+CHEM211-01
+Organic Chemistry I w/Lab
+01:30 pm - 03:30 pm
+MTWTh
+Nicholas Doe
+https://courses.wellesley.edu/faculty_profiles.php?user=ndoe
+Natural and Physical Science
+#
+CHEM211-L01
+Organic Chemistry I w/Lab
+09:00 am - 12:30 pm
+MTh
+Amanda McCarthy
+https://courses.wellesley.edu/faculty_profiles.php?user=amccart1
+Natural and Physical Science
+#
+CPLT113-01
+Studies in Fiction
+01:30 pm - 04:10 pm
+MWTh
+Marilyn Sides
+https://courses.wellesley.edu/faculty_profiles.php?user=msides
+Language and Literature
+#
+ECON101-01
+Principles of Microeconomics
+01:00 pm - 04:00 pm
+TWTh
+Andre Switala
+https://courses.wellesley.edu/faculty_profiles.php?user=aswitala
+Social and Behavioral Analysis
+#
+ECON103-01
+Intro Prob&Statistical Methods
+09:00 am - 10:30 am
+MTWThF
+Joseph Swingle
+https://courses.wellesley.edu/faculty_profiles.php?user=jswingle
+Social and Behavioral Analysis,Does not satisfy the laboratory requirement,QRF
+#
+ECON103-1LA
+LAB: Prob&Statistical Methods
+10:45 am - 12:15 pm
+TTh
+Joseph Swingle
+https://courses.wellesley.edu/faculty_profiles.php?user=jswingle
+Social and Behavioral Analysis,Does not satisfy the laboratory requirement,QRF
+#
+ECON202-01
+Intermediate Macro Analysis
+09:00 am - 11:30 am
+MTTh
+Joseph Joyce
+https://courses.wellesley.edu/faculty_profiles.php?user=jjoyce
+Social and Behavioral Analysis
+#
+ENG113-01
+Studies in Fiction
+01:30 pm - 04:10 pm
+MWTh
+Marilyn Sides
+https://courses.wellesley.edu/faculty_profiles.php?user=msides
+Language and Literature
+#
+ENG121-01
+Jane Austen's Novels
+01:00 pm - 04:00 pm
+MWTh
+Yoon Lee
+https://courses.wellesley.edu/faculty_profiles.php?user=ylee
+Language and Literature
+#
+ENG203-S01
+Short Narrative
+06:00 pm - 08:45 pm
+MWTh
+Adam Schwartz
+https://courses.wellesley.edu/faculty_profiles.php?user=aschwar1
+Language and Literature
+#
+ENG223-01
+Elizabethan Shakespeare
+09:00 am - 12:00 pm
+MWTh
+Yu Jin Ko
+https://courses.wellesley.edu/faculty_profiles.php?user=yko
+Arts, Music, Theatre, Film and Video,Language and Literature
+#
+ENG247-01
+Arthurian Legends
+01:20 pm - 04:00 pm
+MWF
+Sarah Wall-Randell
+https://courses.wellesley.edu/faculty_profiles.php?user=swallran
+Language and Literature
+#
+ENG253-01
+Contemporary American Poetry
+None assigned
+None assigned
+None assigned
+https://courses.wellesley.edu/faculty_profiles.php?user=
+Language and Literature
+#
+HIST229-01
+Alexander the Great
+01:00 pm - 04:00 pm
+TWTh
+Guy Rogers
+https://courses.wellesley.edu/faculty_profiles.php?user=grogers
+Historical Studies
+#
+HIST329-01
+Alexander the Great
+01:00 pm - 04:00 pm
+TWTh
+Guy Rogers
+https://courses.wellesley.edu/faculty_profiles.php?user=grogers
+Historical Studies
+#
+MATH116-01
+Calculus II
+10:00 am - 12:00 pm
+MTWTh
+Alexander Diesl
+https://courses.wellesley.edu/faculty_profiles.php?user=adiesl
+Mathematical Modeling
+#
+ME/R247-01
+Arthurian Legends
+01:20 pm - 04:00 pm
+MWF
+Sarah Wall-Randell
+https://courses.wellesley.edu/faculty_profiles.php?user=swallran
+Language and Literature
+#
+PHIL103-01
+Self&World:IntroMetaphy&Epist
+09:00 am - 12:00 pm
+MWTh
+Eugene Marshall
+https://courses.wellesley.edu/faculty_profiles.php?user=emarsha2
+Epistemology and Cognition
+#
+POL2307-01
+Sem:Women & Development
+None assigned
+None assigned
+Lois Wasserspring
+https://courses.wellesley.edu/faculty_profiles.php?user=lwassers
+Social and Behavioral Analysis
+#
+POL2307S-01
+Sem:Women & Development
+None assigned
+None assigned
+Lois Wasserspring
+https://courses.wellesley.edu/faculty_profiles.php?user=lwassers
+Social and Behavioral Analysis
+#
+PSYC205-01
+Statistics with Lab
+06:30 pm - 09:00 pm
+TWTh
+Jonathan Cheek
+https://courses.wellesley.edu/faculty_profiles.php?user=jcheek
+Social and Behavioral Analysis,Does not satisfy the laboratory requirement,QRF
+#
+PSYC327-01
+Sem:Psych of Human Sexuality
+01:00 pm - 03:40 pm
+TWTh
+Jonathan Cheek
+https://courses.wellesley.edu/faculty_profiles.php?user=jcheek
+Social and Behavioral Analysis
+#
+SOC190-01
+Intro Prob&Statistical Methods
+09:00 am - 10:30 am
+MTWThF
+Joseph Swingle
+https://courses.wellesley.edu/faculty_profiles.php?user=jswingle
+Social and Behavioral Analysis,Does not satisfy the laboratory requirement,QRF
+#
+SOC190-L01
+Intro Prob&Statistical Methods
+10:45 am - 12:15 pm
+TTh
+Joseph Swingle
+https://courses.wellesley.edu/faculty_profiles.php?user=jswingle
+Social and Behavioral Analysis,Does not satisfy the laboratory requirement,QRF
+#
+SPAN101-01
+Elementary Spanish I
+08:30 am - 11:45 am
+TWTh
+Joy Renjilian-Burgy
+https://courses.wellesley.edu/faculty_profiles.php?user=jrenjili
+None
+#
+SPAN201-01
+Intermediate Spanish I
+08:30 am - 11:45 am
+TWTh
+Joy Renjilian-Burgy
+https://courses.wellesley.edu/faculty_profiles.php?user=jrenjili
+None
+#
+THST101-01
+Can We Have An Argument?
+01:00 pm - 03:30 pm
+TWTh
+Diego Arciniegas
+https://courses.wellesley.edu/faculty_profiles.php?user=darcinie
+Arts, Music, Theatre, Film and Video
+#
+WGST121-01
+Reading Elvis Presley
+06:00 pm - 08:45 pm
+MWTh
+Elena Creef
+https://courses.wellesley.edu/faculty_profiles.php?user=ecreef
+Arts, Music, Theatre, Film and Video
+#

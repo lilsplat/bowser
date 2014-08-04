@@ -1,0 +1,5033 @@
+[
+  {
+    "model": "courses.timeanddate",
+    "pk": 1,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "08:30 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 2,
+    "fields": {
+      "dates": "M,MTh",
+      "starttime": "08:30 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 3,
+    "fields": {
+      "dates": "M",
+      "starttime": "04:10 pm",
+      "endtime": "06:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 4,
+    "fields": {
+      "dates": "MWTh",
+      "starttime": "10:00 am",
+      "endtime": "12:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 5,
+    "fields": {
+      "dates": "F",
+      "starttime": "12:30 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 6,
+    "fields": {
+      "dates": "MTW",
+      "starttime": "09:30 am",
+      "endtime": "12:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 7,
+    "fields": {
+      "dates": "M,Th",
+      "starttime": "06:30 pm",
+      "endtime": "09:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 8,
+    "fields": {
+      "dates": "MThF",
+      "starttime": "02:50 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 9,
+    "fields": {
+      "dates": "T",
+      "starttime": "06:15 pm",
+      "endtime": "08:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 10,
+    "fields": {
+      "dates": "MTW",
+      "starttime": "02:00 pm",
+      "endtime": "06:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 11,
+    "fields": {
+      "dates": "M,M",
+      "starttime": "11:10 am",
+      "endtime": "01:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 12,
+    "fields": {
+      "dates": "MTh,W",
+      "starttime": "02:15 pm",
+      "endtime": "03:35 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 13,
+    "fields": {
+      "dates": "MTTh",
+      "starttime": "09:00 am",
+      "endtime": "11:30 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 14,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "01:30 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 15,
+    "fields": {
+      "dates": "MTThF,W",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 16,
+    "fields": {
+      "dates": "TF",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 17,
+    "fields": {
+      "dates": "TF,W2",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 18,
+    "fields": {
+      "dates": "TWTh",
+      "starttime": "03:20 pm",
+      "endtime": "04:10 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 19,
+    "fields": {
+      "dates": "M,W1",
+      "starttime": "04:10 pm",
+      "endtime": "06:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 20,
+    "fields": {
+      "dates": "TWTh",
+      "starttime": "06:30 pm",
+      "endtime": "08:10 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 21,
+    "fields": {
+      "dates": "T,Th",
+      "starttime": "01:30 pm",
+      "endtime": "04:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 22,
+    "fields": {
+      "dates": "T,F",
+      "starttime": "01:30 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 23,
+    "fields": {
+      "dates": "MTh,TW",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 24,
+    "fields": {
+      "dates": "MWTh",
+      "starttime": "08:30 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 25,
+    "fields": {
+      "dates": "M",
+      "starttime": "06:00 pm",
+      "endtime": "09:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 26,
+    "fields": {
+      "dates": "TF",
+      "starttime": "02:50 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 27,
+    "fields": {
+      "dates": "M",
+      "starttime": "01:30 pm",
+      "endtime": "04:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 28,
+    "fields": {
+      "dates": "F,W",
+      "starttime": "01:30 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 29,
+    "fields": {
+      "dates": "M,Th",
+      "starttime": "04:10 pm",
+      "endtime": "06:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 30,
+    "fields": {
+      "dates": "MTThF",
+      "starttime": "01:30 pm",
+      "endtime": "02:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 31,
+    "fields": {
+      "dates": "MTh,T",
+      "starttime": "02:50 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 32,
+    "fields": {
+      "dates": "T,W",
+      "starttime": "07:00 pm",
+      "endtime": "09:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 33,
+    "fields": {
+      "dates": "Th,W",
+      "starttime": "04:10 pm",
+      "endtime": "06:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 34,
+    "fields": {
+      "dates": "Th",
+      "starttime": "06:00 pm",
+      "endtime": "08:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 35,
+    "fields": {
+      "dates": "T,Th",
+      "starttime": "08:30 pm",
+      "endtime": "10:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 36,
+    "fields": {
+      "dates": "MWTh",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 37,
+    "fields": {
+      "dates": "M",
+      "starttime": "12:30 pm",
+      "endtime": "04:10 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 38,
+    "fields": {
+      "dates": "TF",
+      "starttime": "09:50 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 39,
+    "fields": {
+      "dates": "MTh,W",
+      "starttime": "04:10 pm",
+      "endtime": "05:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 40,
+    "fields": {
+      "dates": "T",
+      "starttime": "11:10 am",
+      "endtime": "01:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 41,
+    "fields": {
+      "dates": "F",
+      "starttime": "01:00 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 42,
+    "fields": {
+      "dates": "TF",
+      "starttime": "9:50",
+      "endtime": "10:50 AM"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 43,
+    "fields": {
+      "dates": "WThF",
+      "starttime": "12:00 pm",
+      "endtime": "05:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 44,
+    "fields": {
+      "dates": "T,F",
+      "starttime": "07:00 pm",
+      "endtime": "09:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 45,
+    "fields": {
+      "dates": "TF,W",
+      "starttime": "08:30 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 46,
+    "fields": {
+      "dates": "Th",
+      "starttime": "01:30 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 47,
+    "fields": {
+      "dates": "TF,Th",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 48,
+    "fields": {
+      "dates": "T",
+      "starttime": "7:00",
+      "endtime": "9:00 PM"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 49,
+    "fields": {
+      "dates": "MTThF,W",
+      "starttime": "01:30 pm",
+      "endtime": "02:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 50,
+    "fields": {
+      "dates": "TF,W",
+      "starttime": "06:30 pm",
+      "endtime": "08:15 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 51,
+    "fields": {
+      "dates": "W",
+      "starttime": "08:30 am",
+      "endtime": "10:20 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 52,
+    "fields": {
+      "dates": "F",
+      "starttime": "12:30 pm",
+      "endtime": "02:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 53,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "1:40",
+      "endtime": "2:40 PM"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 54,
+    "fields": {
+      "dates": "MW",
+      "starttime": "06:30 pm",
+      "endtime": "09:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 55,
+    "fields": {
+      "dates": "Th",
+      "starttime": "11:10 am",
+      "endtime": "01:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 56,
+    "fields": {
+      "dates": "W,F,T",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 57,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "01:00 pm",
+      "endtime": "03:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 58,
+    "fields": {
+      "dates": "M",
+      "starttime": "09:50 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 59,
+    "fields": {
+      "dates": "T,Th",
+      "starttime": "03:00 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 60,
+    "fields": {
+      "dates": "M,Th",
+      "starttime": "01:30 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 61,
+    "fields": {
+      "dates": "TTh",
+      "starttime": "09:00 am",
+      "endtime": "01:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 62,
+    "fields": {
+      "dates": "Th",
+      "starttime": "03:10 pm",
+      "endtime": "04:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 63,
+    "fields": {
+      "dates": "TTh",
+      "starttime": "06:00 pm",
+      "endtime": "07:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 64,
+    "fields": {
+      "dates": "MTh,WF",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 65,
+    "fields": {
+      "dates": "MTThF,W",
+      "starttime": "02:15 pm",
+      "endtime": "03:25 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 66,
+    "fields": {
+      "dates": "W",
+      "starttime": "08:30 am",
+      "endtime": "11:30 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 67,
+    "fields": {
+      "dates": "MTh,W",
+      "starttime": "08:30 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 68,
+    "fields": {
+      "dates": "M,T",
+      "starttime": "06:30 pm",
+      "endtime": "07:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 69,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "12:30",
+      "endtime": "1:30 PM"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 70,
+    "fields": {
+      "dates": "TWTh",
+      "starttime": "12:30 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 71,
+    "fields": {
+      "dates": "W",
+      "starttime": "05:45 pm",
+      "endtime": "09:45 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 72,
+    "fields": {
+      "dates": "MTTh,W",
+      "starttime": "02:15 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 73,
+    "fields": {
+      "dates": "MWTh",
+      "starttime": "01:30 pm",
+      "endtime": "02:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 74,
+    "fields": {
+      "dates": "M,Th",
+      "starttime": "06:30 pm",
+      "endtime": "09:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 75,
+    "fields": {
+      "dates": "None assigned",
+      "starttime": "08:30 am",
+      "endtime": "08:31 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 76,
+    "fields": {
+      "dates": "F,MWTh",
+      "starttime": "12:30 pm",
+      "endtime": "01:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 77,
+    "fields": {
+      "dates": "TBA",
+      "starttime": "None assigned",
+      "endtime": "None assigned"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 78,
+    "fields": {
+      "dates": "M",
+      "starttime": "04:10 pm",
+      "endtime": "06:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 79,
+    "fields": {
+      "dates": "F,T",
+      "starttime": "01:33 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 80,
+    "fields": {
+      "dates": "MTW,Th",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 81,
+    "fields": {
+      "dates": "TWTh",
+      "starttime": "09:00 am",
+      "endtime": "12:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 82,
+    "fields": {
+      "dates": "W",
+      "starttime": "09:50 am",
+      "endtime": "10:50 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 83,
+    "fields": {
+      "dates": "M,Th",
+      "starttime": "02:50 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 84,
+    "fields": {
+      "dates": "MTh,W",
+      "starttime": "11:10 am",
+      "endtime": "12:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 85,
+    "fields": {
+      "dates": "F",
+      "starttime": "01:00 pm",
+      "endtime": "04:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 86,
+    "fields": {
+      "dates": "W",
+      "starttime": "02:15 pm",
+      "endtime": "05:45 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 87,
+    "fields": {
+      "dates": "MWTh",
+      "starttime": "06:00 pm",
+      "endtime": "08:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 88,
+    "fields": {
+      "dates": "MTWTh,Th",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 89,
+    "fields": {
+      "dates": "W",
+      "starttime": "02:50 pm",
+      "endtime": "05:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 90,
+    "fields": {
+      "dates": "Th",
+      "starttime": "01:30 pm",
+      "endtime": "05:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 91,
+    "fields": {
+      "dates": "TWTh",
+      "starttime": "09:30 am",
+      "endtime": "12:10 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 92,
+    "fields": {
+      "dates": "MTTh",
+      "starttime": "02:00 pm",
+      "endtime": "06:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 93,
+    "fields": {
+      "dates": "M,Th",
+      "starttime": "01:30 pm",
+      "endtime": "05:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 94,
+    "fields": {
+      "dates": "Th",
+      "starttime": "01:30 pm",
+      "endtime": "04:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 95,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "11:10 am",
+      "endtime": "12:10 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 96,
+    "fields": {
+      "dates": "MTh,W1",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 97,
+    "fields": {
+      "dates": "M,MTh",
+      "starttime": "04:30 pm",
+      "endtime": "06:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 98,
+    "fields": {
+      "dates": "MTWTh",
+      "starttime": "08:30 am",
+      "endtime": "10:30 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 99,
+    "fields": {
+      "dates": "Th",
+      "starttime": "02:50 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 100,
+    "fields": {
+      "dates": "M,F,F",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 101,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "04:10 pm",
+      "endtime": "05:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 102,
+    "fields": {
+      "dates": "W",
+      "starttime": "03:35 pm",
+      "endtime": "05:35 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 103,
+    "fields": {
+      "dates": "TF",
+      "starttime": "01:00 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 104,
+    "fields": {
+      "dates": "F,T",
+      "starttime": "01:30 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 105,
+    "fields": {
+      "dates": "MW",
+      "starttime": "01:30 pm",
+      "endtime": "05:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 106,
+    "fields": {
+      "dates": "MTh,W",
+      "starttime": "11:30 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 107,
+    "fields": {
+      "dates": "F,W",
+      "starttime": "02:15 pm",
+      "endtime": "04:45 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 108,
+    "fields": {
+      "dates": "F,MTh",
+      "starttime": "08:30 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 109,
+    "fields": {
+      "dates": "M,W",
+      "starttime": "06:30 pm",
+      "endtime": "09:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 110,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "11:10",
+      "endtime": "12:10 PM"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 111,
+    "fields": {
+      "dates": "T,W",
+      "starttime": "03:35 pm",
+      "endtime": "06:05 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 112,
+    "fields": {
+      "dates": "MTWThF",
+      "starttime": "10:00 am",
+      "endtime": "02:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 113,
+    "fields": {
+      "dates": "M",
+      "starttime": "01:30 pm",
+      "endtime": "02:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 114,
+    "fields": {
+      "dates": "MWThF",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 115,
+    "fields": {
+      "dates": "MTTh,W",
+      "starttime": "04:00 pm",
+      "endtime": "05:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 116,
+    "fields": {
+      "dates": "MTWThF,MTWThF",
+      "starttime": "10:00 am",
+      "endtime": "12:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 117,
+    "fields": {
+      "dates": "TF,TF",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 118,
+    "fields": {
+      "dates": "M",
+      "starttime": "11:10 am",
+      "endtime": "01:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 119,
+    "fields": {
+      "dates": "TF,W",
+      "starttime": "03:35 pm",
+      "endtime": "04:45 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 120,
+    "fields": {
+      "dates": "MW,Th",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 121,
+    "fields": {
+      "dates": "Th",
+      "starttime": "09:50 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 122,
+    "fields": {
+      "dates": "TF",
+      "starttime": "12:30 pm",
+      "endtime": "03:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 123,
+    "fields": {
+      "dates": "M,Th",
+      "starttime": "02:50 pm",
+      "endtime": "04:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 124,
+    "fields": {
+      "dates": "MTh,W1",
+      "starttime": "03:35 pm",
+      "endtime": "04:45 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 125,
+    "fields": {
+      "dates": "M",
+      "starttime": "05:30 pm",
+      "endtime": "08:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 126,
+    "fields": {
+      "dates": "W",
+      "starttime": "02:15 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 127,
+    "fields": {
+      "dates": "TF,W2",
+      "starttime": "01:30 pm",
+      "endtime": "02:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 128,
+    "fields": {
+      "dates": "MTWThF",
+      "starttime": "01:30 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 129,
+    "fields": {
+      "dates": "W",
+      "starttime": "04:15 pm",
+      "endtime": "06:05 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 130,
+    "fields": {
+      "dates": "F",
+      "starttime": "10:30 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 131,
+    "fields": {
+      "dates": "Th",
+      "starttime": "08:30 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 132,
+    "fields": {
+      "dates": "MTWTh",
+      "starttime": "02:00 pm",
+      "endtime": "05:45 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 133,
+    "fields": {
+      "dates": "TWTh",
+      "starttime": "06:30 pm",
+      "endtime": "09:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 134,
+    "fields": {
+      "dates": "TWTh",
+      "starttime": "01:00 pm",
+      "endtime": "03:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 135,
+    "fields": {
+      "dates": "F,W",
+      "starttime": "09:50 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 136,
+    "fields": {
+      "dates": "M,W",
+      "starttime": "03:35 pm",
+      "endtime": "06:05 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 137,
+    "fields": {
+      "dates": "F",
+      "starttime": "01:30 pm",
+      "endtime": "03:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 138,
+    "fields": {
+      "dates": "F,T",
+      "starttime": "04:10 pm",
+      "endtime": "05:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 139,
+    "fields": {
+      "dates": "MTWF",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 140,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "01:30 pm",
+      "endtime": "03:25 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 141,
+    "fields": {
+      "dates": "MTh,W1",
+      "starttime": "02:15 pm",
+      "endtime": "03:25 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 142,
+    "fields": {
+      "dates": "Th",
+      "starttime": "04:10 pm",
+      "endtime": "05:10 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 143,
+    "fields": {
+      "dates": "M,Th",
+      "starttime": "08:30 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 144,
+    "fields": {
+      "dates": "W",
+      "starttime": "06:00 pm",
+      "endtime": "09:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 145,
+    "fields": {
+      "dates": "W",
+      "starttime": "07:30 pm",
+      "endtime": "09:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 146,
+    "fields": {
+      "dates": "MTWThF",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 147,
+    "fields": {
+      "dates": "M,Th",
+      "starttime": "04:10 pm",
+      "endtime": "05:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 148,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "01:40 pm",
+      "endtime": "02:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 149,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "3:00",
+      "endtime": "4:00 PM"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 150,
+    "fields": {
+      "dates": "F",
+      "starttime": "08:30 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 151,
+    "fields": {
+      "dates": "Th",
+      "starttime": "05:20 pm",
+      "endtime": "06:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 152,
+    "fields": {
+      "dates": "MTWThF,MTWThF",
+      "starttime": "01:00 pm",
+      "endtime": "02:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 153,
+    "fields": {
+      "dates": "MWF",
+      "starttime": "09:00 am",
+      "endtime": "12:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 154,
+    "fields": {
+      "dates": "M",
+      "starttime": "04:10 pm",
+      "endtime": "05:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 155,
+    "fields": {
+      "dates": "Th",
+      "starttime": "01:30 pm",
+      "endtime": "05:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 156,
+    "fields": {
+      "dates": "W",
+      "starttime": "08:30 pm",
+      "endtime": "10:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 157,
+    "fields": {
+      "dates": "M,W",
+      "starttime": "02:15 pm",
+      "endtime": "04:45 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 158,
+    "fields": {
+      "dates": "W",
+      "starttime": "10:00 am",
+      "endtime": "12:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 159,
+    "fields": {
+      "dates": "TWThF",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 160,
+    "fields": {
+      "dates": "MTh,W1",
+      "starttime": "08:30 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 161,
+    "fields": {
+      "dates": "TTh",
+      "starttime": "6:00",
+      "endtime": "7:00 PM"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 162,
+    "fields": {
+      "dates": "TF",
+      "starttime": "1:40",
+      "endtime": "2:40 PM"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 163,
+    "fields": {
+      "dates": "T",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 164,
+    "fields": {
+      "dates": "T",
+      "starttime": "08:30 am",
+      "endtime": "10:20 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 165,
+    "fields": {
+      "dates": "Th",
+      "starttime": "04:10 pm",
+      "endtime": "05:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 166,
+    "fields": {
+      "dates": "Th",
+      "starttime": "04:10 pm",
+      "endtime": "07:10 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 167,
+    "fields": {
+      "dates": "MTh,W",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 168,
+    "fields": {
+      "dates": "F,TThF",
+      "starttime": "08:30 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 169,
+    "fields": {
+      "dates": "MTh,W1",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 170,
+    "fields": {
+      "dates": "W,W",
+      "starttime": "09:50 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 171,
+    "fields": {
+      "dates": "T,TF",
+      "starttime": "02:50 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 172,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "09:50 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 173,
+    "fields": {
+      "dates": "MWTh",
+      "starttime": "01:30 pm",
+      "endtime": "04:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 174,
+    "fields": {
+      "dates": "M,MTh",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 175,
+    "fields": {
+      "dates": "TF,W",
+      "starttime": "11:10 am",
+      "endtime": "12:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 176,
+    "fields": {
+      "dates": "T",
+      "starttime": "08:30 am",
+      "endtime": "11:30 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 177,
+    "fields": {
+      "dates": "MTWThF",
+      "starttime": "09:00 am",
+      "endtime": "10:30 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 178,
+    "fields": {
+      "dates": "M",
+      "starttime": "09:30 pm",
+      "endtime": "11:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 179,
+    "fields": {
+      "dates": "TF,W",
+      "starttime": "07:00 pm",
+      "endtime": "08:10 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 180,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "01:30 pm",
+      "endtime": "02:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 181,
+    "fields": {
+      "dates": "MTW",
+      "starttime": "10:00 am",
+      "endtime": "12:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 182,
+    "fields": {
+      "dates": "MTWTh",
+      "starttime": "08:30 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 183,
+    "fields": {
+      "dates": "TF",
+      "starttime": "01:30 pm",
+      "endtime": "03:25 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 184,
+    "fields": {
+      "dates": "F",
+      "starttime": "02:00 pm",
+      "endtime": "03:10 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 185,
+    "fields": {
+      "dates": "T",
+      "starttime": "01:00 pm",
+      "endtime": "04:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 186,
+    "fields": {
+      "dates": "T,TF",
+      "starttime": "12:30 pm",
+      "endtime": "01:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 187,
+    "fields": {
+      "dates": "W",
+      "starttime": "02:50 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 188,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "06:00 pm",
+      "endtime": "07:10 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 189,
+    "fields": {
+      "dates": "T",
+      "starttime": "07:30 pm",
+      "endtime": "09:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 190,
+    "fields": {
+      "dates": "MWF",
+      "starttime": "09:00 am",
+      "endtime": "11:30 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 191,
+    "fields": {
+      "dates": "M,W",
+      "starttime": "04:10 pm",
+      "endtime": "05:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 192,
+    "fields": {
+      "dates": "MW",
+      "starttime": "7:00",
+      "endtime": "8:00 PM"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 193,
+    "fields": {
+      "dates": "Th,W",
+      "starttime": "02:15 pm",
+      "endtime": "03:25 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 194,
+    "fields": {
+      "dates": "Th,W",
+      "starttime": "04:10 pm",
+      "endtime": "06:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 195,
+    "fields": {
+      "dates": "Th",
+      "starttime": "06:30 pm",
+      "endtime": "09:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 196,
+    "fields": {
+      "dates": "T",
+      "starttime": "06:30 pm",
+      "endtime": "07:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 197,
+    "fields": {
+      "dates": "TF",
+      "starttime": "09:50 am",
+      "endtime": "10:50 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 198,
+    "fields": {
+      "dates": "TF,Th",
+      "starttime": "12:30 pm",
+      "endtime": "01:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 199,
+    "fields": {
+      "dates": "MTh,W",
+      "starttime": "10:10 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 200,
+    "fields": {
+      "dates": "W",
+      "starttime": "03:30 pm",
+      "endtime": "06:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 201,
+    "fields": {
+      "dates": "Sat",
+      "starttime": "02:00 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 202,
+    "fields": {
+      "dates": "M,W1",
+      "starttime": "03:35 pm",
+      "endtime": "06:05 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 203,
+    "fields": {
+      "dates": "MWTh",
+      "starttime": "01:00 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 204,
+    "fields": {
+      "dates": "F,T",
+      "starttime": "09:50 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 205,
+    "fields": {
+      "dates": "TF",
+      "starttime": "08:30 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 206,
+    "fields": {
+      "dates": "MWTh,T",
+      "starttime": "08:30 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 207,
+    "fields": {
+      "dates": "TTh",
+      "starttime": "10:45 am",
+      "endtime": "12:15 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 208,
+    "fields": {
+      "dates": "M,Th",
+      "starttime": "03:00 pm",
+      "endtime": "06:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 209,
+    "fields": {
+      "dates": "M",
+      "starttime": "08:30 pm",
+      "endtime": "10:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 210,
+    "fields": {
+      "dates": "M",
+      "starttime": "01:30 pm",
+      "endtime": "05:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 211,
+    "fields": {
+      "dates": "W",
+      "starttime": "08:30 am",
+      "endtime": "12:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 212,
+    "fields": {
+      "dates": "TF,W2",
+      "starttime": "02:15 pm",
+      "endtime": "03:25 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 213,
+    "fields": {
+      "dates": "T",
+      "starttime": "02:50 pm",
+      "endtime": "03:50 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 214,
+    "fields": {
+      "dates": "T,Th",
+      "starttime": "12:30 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 215,
+    "fields": {
+      "dates": "Th",
+      "starttime": "05:10 pm",
+      "endtime": "08:10 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 216,
+    "fields": {
+      "dates": "M,Th",
+      "starttime": "07:30 pm",
+      "endtime": "09:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 217,
+    "fields": {
+      "dates": "M,W",
+      "starttime": "06:30 pm",
+      "endtime": "09:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 218,
+    "fields": {
+      "dates": "W",
+      "starttime": "08:30 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 219,
+    "fields": {
+      "dates": "W",
+      "starttime": "02:15 pm",
+      "endtime": "03:25 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 220,
+    "fields": {
+      "dates": "MWTh",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 221,
+    "fields": {
+      "dates": "MTWTh,Th",
+      "starttime": "08:30 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 222,
+    "fields": {
+      "dates": "TTh",
+      "starttime": "7:30",
+      "endtime": "8:30 PM"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 223,
+    "fields": {
+      "dates": "MTWThF",
+      "starttime": "08:30 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 224,
+    "fields": {
+      "dates": "W",
+      "starttime": "05:30 pm",
+      "endtime": "08:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 225,
+    "fields": {
+      "dates": "T,Th",
+      "starttime": "08:30 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 226,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "02:50 pm",
+      "endtime": "05:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 227,
+    "fields": {
+      "dates": "T",
+      "starttime": "09:30 pm",
+      "endtime": "11:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 228,
+    "fields": {
+      "dates": "MW",
+      "starttime": "07:00 pm",
+      "endtime": "08:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 229,
+    "fields": {
+      "dates": "M",
+      "starttime": "08:30 am",
+      "endtime": "11:30 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 230,
+    "fields": {
+      "dates": "M,W",
+      "starttime": "02:15 pm",
+      "endtime": "03:25 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 231,
+    "fields": {
+      "dates": "TF,W2",
+      "starttime": "02:50 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 232,
+    "fields": {
+      "dates": "T,TF",
+      "starttime": "07:00 pm",
+      "endtime": "09:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 233,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "09:50 am",
+      "endtime": "10:50 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 234,
+    "fields": {
+      "dates": "M",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 235,
+    "fields": {
+      "dates": "W",
+      "starttime": "06:30 pm",
+      "endtime": "09:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 236,
+    "fields": {
+      "dates": "Th",
+      "starttime": "08:30 pm",
+      "endtime": "10:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 237,
+    "fields": {
+      "dates": "F",
+      "starttime": "09:50 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 238,
+    "fields": {
+      "dates": "Th",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 239,
+    "fields": {
+      "dates": "TF,W",
+      "starttime": "02:15 pm",
+      "endtime": "03:05 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 240,
+    "fields": {
+      "dates": "Th",
+      "starttime": "04:15 pm",
+      "endtime": "05:15 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 241,
+    "fields": {
+      "dates": "TThF",
+      "starttime": "01:00 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 242,
+    "fields": {
+      "dates": "Th",
+      "starttime": "10:30 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 243,
+    "fields": {
+      "dates": "M,Th",
+      "starttime": "04:20 pm",
+      "endtime": "05:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 244,
+    "fields": {
+      "dates": "F",
+      "starttime": "02:50 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 245,
+    "fields": {
+      "dates": "MTWTh",
+      "starttime": "01:30 pm",
+      "endtime": "03:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 246,
+    "fields": {
+      "dates": "TF,Th",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 247,
+    "fields": {
+      "dates": "M,T",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 248,
+    "fields": {
+      "dates": "T,Th",
+      "starttime": "04:10 pm",
+      "endtime": "06:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 249,
+    "fields": {
+      "dates": "MTh,M",
+      "starttime": "07:00 pm",
+      "endtime": "09:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 250,
+    "fields": {
+      "dates": "MTTh",
+      "starttime": "09:00 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 251,
+    "fields": {
+      "dates": "T",
+      "starttime": "08:30 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 252,
+    "fields": {
+      "dates": "MTh,T",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 253,
+    "fields": {
+      "dates": "M,WTh",
+      "starttime": "12:30 pm",
+      "endtime": "03:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 254,
+    "fields": {
+      "dates": "M",
+      "starttime": "04:10 pm",
+      "endtime": "06:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 255,
+    "fields": {
+      "dates": "T,Th",
+      "starttime": "07:00 pm",
+      "endtime": "09:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 256,
+    "fields": {
+      "dates": "T,M,T",
+      "starttime": "04:10 pm",
+      "endtime": "05:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 257,
+    "fields": {
+      "dates": "T",
+      "starttime": "07:00 pm",
+      "endtime": "09:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 258,
+    "fields": {
+      "dates": "TWTh",
+      "starttime": "08:30 am",
+      "endtime": "11:45 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 259,
+    "fields": {
+      "dates": "Th",
+      "starttime": "01:30 pm",
+      "endtime": "02:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 260,
+    "fields": {
+      "dates": "T,TF",
+      "starttime": "08:30 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 261,
+    "fields": {
+      "dates": "TF",
+      "starttime": "08:30 am",
+      "endtime": "09:30 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 262,
+    "fields": {
+      "dates": "F",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 263,
+    "fields": {
+      "dates": "W",
+      "starttime": "06:30 pm",
+      "endtime": "09:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 264,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "06:30 pm",
+      "endtime": "09:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 265,
+    "fields": {
+      "dates": "W",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 266,
+    "fields": {
+      "dates": "MTh,W",
+      "starttime": "02:15 pm",
+      "endtime": "03:25 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 267,
+    "fields": {
+      "dates": "W",
+      "starttime": "08:30 am",
+      "endtime": "08:31 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 268,
+    "fields": {
+      "dates": "M",
+      "starttime": "12:30 pm",
+      "endtime": "05:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 269,
+    "fields": {
+      "dates": "F",
+      "starttime": "01:30 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 270,
+    "fields": {
+      "dates": "MTWTh",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 271,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "12:30 pm",
+      "endtime": "01:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 272,
+    "fields": {
+      "dates": "MW",
+      "starttime": "6:00",
+      "endtime": "7:00 PM"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 273,
+    "fields": {
+      "dates": "TWF",
+      "starttime": "02:50 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 274,
+    "fields": {
+      "dates": "W",
+      "starttime": "05:00 pm",
+      "endtime": "07:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 275,
+    "fields": {
+      "dates": "T",
+      "starttime": "01:30 pm",
+      "endtime": "02:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 276,
+    "fields": {
+      "dates": "F,T",
+      "starttime": "02:50 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 277,
+    "fields": {
+      "dates": "TF,W",
+      "starttime": "01:30 pm",
+      "endtime": "02:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 278,
+    "fields": {
+      "dates": "Th",
+      "starttime": "04:30 pm",
+      "endtime": "05:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 279,
+    "fields": {
+      "dates": "W",
+      "starttime": "01:30 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 280,
+    "fields": {
+      "dates": "MWTh,TF",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 281,
+    "fields": {
+      "dates": "TF,W2",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 282,
+    "fields": {
+      "dates": "W",
+      "starttime": "09:30 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 283,
+    "fields": {
+      "dates": "M,Th",
+      "starttime": "02:50 pm",
+      "endtime": "05:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 284,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 285,
+    "fields": {
+      "dates": "W",
+      "starttime": "06:15 pm",
+      "endtime": "08:35 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 286,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "11:10 am",
+      "endtime": "01:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 287,
+    "fields": {
+      "dates": "Th",
+      "starttime": "02:50 pm",
+      "endtime": "03:50 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 288,
+    "fields": {
+      "dates": "MTh,TW",
+      "starttime": "08:30 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 289,
+    "fields": {
+      "dates": "W",
+      "starttime": "02:15 pm",
+      "endtime": "04:45 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 290,
+    "fields": {
+      "dates": "TF",
+      "starttime": "3:00",
+      "endtime": "4:00 PM"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 291,
+    "fields": {
+      "dates": "Th",
+      "starttime": "06:30 pm",
+      "endtime": "10:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 292,
+    "fields": {
+      "dates": "T",
+      "starttime": "12:30 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 293,
+    "fields": {
+      "dates": "W",
+      "starttime": "03:35 pm",
+      "endtime": "06:05 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 294,
+    "fields": {
+      "dates": "M,F,F",
+      "starttime": "12:30 pm",
+      "endtime": "01:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 295,
+    "fields": {
+      "dates": "MTWThF",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 296,
+    "fields": {
+      "dates": "MW",
+      "starttime": "6:40",
+      "endtime": "7:55 PM"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 297,
+    "fields": {
+      "dates": "W,M,TF",
+      "starttime": "02:15 pm",
+      "endtime": "03:25 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 298,
+    "fields": {
+      "dates": "TTh",
+      "starttime": "04:30 pm",
+      "endtime": "06:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 299,
+    "fields": {
+      "dates": "M,T",
+      "starttime": "04:10 pm",
+      "endtime": "05:45 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 300,
+    "fields": {
+      "dates": "MTh,W1",
+      "starttime": "02:50 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 301,
+    "fields": {
+      "dates": "W",
+      "starttime": "04:00 pm",
+      "endtime": "07:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 302,
+    "fields": {
+      "dates": "MTWTh",
+      "starttime": "10:00 am",
+      "endtime": "12:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 303,
+    "fields": {
+      "dates": "M,M",
+      "starttime": "06:30 pm",
+      "endtime": "09:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 304,
+    "fields": {
+      "dates": "TWF,F",
+      "starttime": "12:30 pm",
+      "endtime": "01:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 305,
+    "fields": {
+      "dates": "MTThF",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 306,
+    "fields": {
+      "dates": "T",
+      "starttime": "06:30 pm",
+      "endtime": "09:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 307,
+    "fields": {
+      "dates": "Th,Th",
+      "starttime": "11:10 am",
+      "endtime": "01:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 308,
+    "fields": {
+      "dates": "Th",
+      "starttime": "08:30 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 309,
+    "fields": {
+      "dates": "M",
+      "starttime": "08:30 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 310,
+    "fields": {
+      "dates": "TWTh",
+      "starttime": "12:00 pm",
+      "endtime": "03:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 311,
+    "fields": {
+      "dates": "F,MWTh",
+      "starttime": "08:30 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 312,
+    "fields": {
+      "dates": "TF,W",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 313,
+    "fields": {
+      "dates": "Th",
+      "starttime": "01:30 pm",
+      "endtime": "03:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 314,
+    "fields": {
+      "dates": "T",
+      "starttime": "01:30 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 315,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "12:30 pm",
+      "endtime": "01:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 316,
+    "fields": {
+      "dates": "M,Th",
+      "starttime": "01:30 pm",
+      "endtime": "05:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 317,
+    "fields": {
+      "dates": "MTTh",
+      "starttime": "09:00 am",
+      "endtime": "01:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 318,
+    "fields": {
+      "dates": "TF",
+      "starttime": "01:30 pm",
+      "endtime": "02:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 319,
+    "fields": {
+      "dates": "TWTh",
+      "starttime": "01:00 pm",
+      "endtime": "03:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 320,
+    "fields": {
+      "dates": "M",
+      "starttime": "02:50 pm",
+      "endtime": "05:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 321,
+    "fields": {
+      "dates": "TWF",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 322,
+    "fields": {
+      "dates": "TF,W",
+      "starttime": "01:30 pm",
+      "endtime": "02:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 323,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "8:30",
+      "endtime": "9:30 AM"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 324,
+    "fields": {
+      "dates": "T",
+      "starttime": "05:00 pm",
+      "endtime": "08:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 325,
+    "fields": {
+      "dates": "F,T",
+      "starttime": "01:30 pm",
+      "endtime": "04:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 326,
+    "fields": {
+      "dates": "MTWTh,Th",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 327,
+    "fields": {
+      "dates": "TF,W",
+      "starttime": "02:15 pm",
+      "endtime": "04:45 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 328,
+    "fields": {
+      "dates": "TTh",
+      "starttime": "7:00",
+      "endtime": "8:00 PM"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 329,
+    "fields": {
+      "dates": "MTh,W1",
+      "starttime": "01:30 pm",
+      "endtime": "02:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 330,
+    "fields": {
+      "dates": "T,F",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 331,
+    "fields": {
+      "dates": "TF",
+      "starttime": "01:40 pm",
+      "endtime": "02:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 332,
+    "fields": {
+      "dates": "F",
+      "starttime": "01:30 pm",
+      "endtime": "04:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 333,
+    "fields": {
+      "dates": "MTWTh",
+      "starttime": "08:50 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 334,
+    "fields": {
+      "dates": "T",
+      "starttime": "06:00 pm",
+      "endtime": "07:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 335,
+    "fields": {
+      "dates": "T",
+      "starttime": "08:30 pm",
+      "endtime": "10:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 336,
+    "fields": {
+      "dates": "W",
+      "starttime": "10:30 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 337,
+    "fields": {
+      "dates": "MTW",
+      "starttime": "09:00 am",
+      "endtime": "11:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 338,
+    "fields": {
+      "dates": "W",
+      "starttime": "09:30 pm",
+      "endtime": "11:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 339,
+    "fields": {
+      "dates": "W",
+      "starttime": "03:35 pm",
+      "endtime": "05:55 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 340,
+    "fields": {
+      "dates": "M,W",
+      "starttime": "02:50 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 341,
+    "fields": {
+      "dates": "MTTh,W",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 342,
+    "fields": {
+      "dates": "MTTh,W",
+      "starttime": "10:10 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 343,
+    "fields": {
+      "dates": "T,Th",
+      "starttime": "02:50 pm",
+      "endtime": "05:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 344,
+    "fields": {
+      "dates": "TF,Th",
+      "starttime": "01:30 pm",
+      "endtime": "02:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 345,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "08:30 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 346,
+    "fields": {
+      "dates": "T",
+      "starttime": "12:30 pm",
+      "endtime": "03:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 347,
+    "fields": {
+      "dates": "T,M,T",
+      "starttime": "09:50 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 348,
+    "fields": {
+      "dates": "W",
+      "starttime": "05:00 pm",
+      "endtime": "11:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 349,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "08:30 am",
+      "endtime": "09:30 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 350,
+    "fields": {
+      "dates": "F,T",
+      "starttime": "12:30 pm",
+      "endtime": "03:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 351,
+    "fields": {
+      "dates": "TWTh",
+      "starttime": "05:00 pm",
+      "endtime": "07:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 352,
+    "fields": {
+      "dates": "M",
+      "starttime": "03:10 pm",
+      "endtime": "04:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 353,
+    "fields": {
+      "dates": "M,T",
+      "starttime": "12:30 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 354,
+    "fields": {
+      "dates": "T,Th",
+      "starttime": "06:30 pm",
+      "endtime": "09:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 355,
+    "fields": {
+      "dates": "TF",
+      "starttime": "11:10",
+      "endtime": "12:10 PM"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 356,
+    "fields": {
+      "dates": "T",
+      "starttime": "01:00 pm",
+      "endtime": "03:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 357,
+    "fields": {
+      "dates": "TWTh",
+      "starttime": "02:30 pm",
+      "endtime": "05:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 358,
+    "fields": {
+      "dates": "M,Th",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 359,
+    "fields": {
+      "dates": "W",
+      "starttime": "08:30 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 360,
+    "fields": {
+      "dates": "TWTh",
+      "starttime": "01:30 pm",
+      "endtime": "04:10 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 361,
+    "fields": {
+      "dates": "Th",
+      "starttime": "05:00 pm",
+      "endtime": "08:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 362,
+    "fields": {
+      "dates": "MTTh,W",
+      "starttime": "09:00 am",
+      "endtime": "11:30 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 363,
+    "fields": {
+      "dates": "MW",
+      "starttime": "3:00",
+      "endtime": "4:00 PM"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 364,
+    "fields": {
+      "dates": "TWThF",
+      "starttime": "08:50 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 365,
+    "fields": {
+      "dates": "F",
+      "starttime": "02:00 pm",
+      "endtime": "05:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 366,
+    "fields": {
+      "dates": "TF,W",
+      "starttime": "02:50 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 367,
+    "fields": {
+      "dates": "TTh",
+      "starttime": "07:00 pm",
+      "endtime": "08:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 368,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "03:00 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 369,
+    "fields": {
+      "dates": "M,M",
+      "starttime": "04:10 pm",
+      "endtime": "05:10 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 370,
+    "fields": {
+      "dates": "W",
+      "starttime": "06:30 pm",
+      "endtime": "08:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 371,
+    "fields": {
+      "dates": "W",
+      "starttime": "02:15 pm",
+      "endtime": "06:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 372,
+    "fields": {
+      "dates": "MTWThF",
+      "starttime": "09:00 am",
+      "endtime": "12:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 373,
+    "fields": {
+      "dates": "F,T",
+      "starttime": "11:10 am",
+      "endtime": "01:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 374,
+    "fields": {
+      "dates": "MTh,T",
+      "starttime": "07:00 pm",
+      "endtime": "09:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 375,
+    "fields": {
+      "dates": "T",
+      "starttime": "10:30 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 376,
+    "fields": {
+      "dates": "MWTh",
+      "starttime": "01:00 pm",
+      "endtime": "03:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 377,
+    "fields": {
+      "dates": "Th",
+      "starttime": "06:00 pm",
+      "endtime": "09:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 378,
+    "fields": {
+      "dates": "Th",
+      "starttime": "07:30 pm",
+      "endtime": "09:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 379,
+    "fields": {
+      "dates": "MTWTh",
+      "starttime": "09:30 am",
+      "endtime": "12:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 380,
+    "fields": {
+      "dates": "T,M,T",
+      "starttime": "01:30 pm",
+      "endtime": "03:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 381,
+    "fields": {
+      "dates": "M",
+      "starttime": "07:30 pm",
+      "endtime": "09:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 382,
+    "fields": {
+      "dates": "M",
+      "starttime": "06:30 pm",
+      "endtime": "09:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 383,
+    "fields": {
+      "dates": "T",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 384,
+    "fields": {
+      "dates": "TWF",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 385,
+    "fields": {
+      "dates": "TWTh",
+      "starttime": "01:00 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 386,
+    "fields": {
+      "dates": "T",
+      "starttime": "08:30 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 387,
+    "fields": {
+      "dates": "M",
+      "starttime": "07:30 pm",
+      "endtime": "09:10 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 388,
+    "fields": {
+      "dates": "M",
+      "starttime": "06:30 pm",
+      "endtime": "09:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 389,
+    "fields": {
+      "dates": "M",
+      "starttime": "04:10 pm",
+      "endtime": "05:50 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 390,
+    "fields": {
+      "dates": "Th",
+      "starttime": "08:30 am",
+      "endtime": "10:20 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 391,
+    "fields": {
+      "dates": "Th",
+      "starttime": "12:30 pm",
+      "endtime": "05:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 392,
+    "fields": {
+      "dates": "F",
+      "starttime": "01:30 pm",
+      "endtime": "02:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 393,
+    "fields": {
+      "dates": "Th",
+      "starttime": "06:30 pm",
+      "endtime": "08:50 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 394,
+    "fields": {
+      "dates": "MThF",
+      "starttime": "08:30 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 395,
+    "fields": {
+      "dates": "TWThF",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 396,
+    "fields": {
+      "dates": "T,W",
+      "starttime": "06:30 pm",
+      "endtime": "08:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 397,
+    "fields": {
+      "dates": "MWF",
+      "starttime": "01:20 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 398,
+    "fields": {
+      "dates": "M",
+      "starttime": "01:30 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 399,
+    "fields": {
+      "dates": "T,Th",
+      "starttime": "01:30 pm",
+      "endtime": "02:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 400,
+    "fields": {
+      "dates": "Th",
+      "starttime": "01:30 pm",
+      "endtime": "02:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 401,
+    "fields": {
+      "dates": "F",
+      "starttime": "08:30 am",
+      "endtime": "10:20 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 402,
+    "fields": {
+      "dates": "MTh,W",
+      "starttime": "01:30 pm",
+      "endtime": "02:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 403,
+    "fields": {
+      "dates": "TF,W",
+      "starttime": "09:50 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 404,
+    "fields": {
+      "dates": "TF,W",
+      "starttime": "02:15 pm",
+      "endtime": "03:25 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 405,
+    "fields": {
+      "dates": "M",
+      "starttime": "7:55",
+      "endtime": "9:35 PM"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 406,
+    "fields": {
+      "dates": "W,W",
+      "starttime": "02:15 pm",
+      "endtime": "04:15 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 407,
+    "fields": {
+      "dates": "W",
+      "starttime": "03:00 pm",
+      "endtime": "06:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 408,
+    "fields": {
+      "dates": "TWTh",
+      "starttime": "08:20 pm",
+      "endtime": "09:10 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 409,
+    "fields": {
+      "dates": "M,M",
+      "starttime": "08:00 am",
+      "endtime": "08:20 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 410,
+    "fields": {
+      "dates": "TF",
+      "starttime": "01:30 pm",
+      "endtime": "03:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 411,
+    "fields": {
+      "dates": "F,T",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 412,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 413,
+    "fields": {
+      "dates": "MWTh",
+      "starttime": "01:30 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 414,
+    "fields": {
+      "dates": "MTh,W",
+      "starttime": "02:15 pm",
+      "endtime": "03:05 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 415,
+    "fields": {
+      "dates": "F,T",
+      "starttime": "12:30 pm",
+      "endtime": "02:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 416,
+    "fields": {
+      "dates": "M,W",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 417,
+    "fields": {
+      "dates": "TF,W2",
+      "starttime": "03:35 pm",
+      "endtime": "04:45 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 418,
+    "fields": {
+      "dates": "MTh,W",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 419,
+    "fields": {
+      "dates": "TF",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 420,
+    "fields": {
+      "dates": "MTh,F",
+      "starttime": "02:50 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 421,
+    "fields": {
+      "dates": "MTWTh",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 422,
+    "fields": {
+      "dates": "M,MTh",
+      "starttime": "12:30 pm",
+      "endtime": "01:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 423,
+    "fields": {
+      "dates": "W",
+      "starttime": "08:30 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 424,
+    "fields": {
+      "dates": "M",
+      "starttime": "06:00 pm",
+      "endtime": "08:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 425,
+    "fields": {
+      "dates": "M",
+      "starttime": "06:15 pm",
+      "endtime": "08:45 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 426,
+    "fields": {
+      "dates": "F",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 427,
+    "fields": {
+      "dates": "MTWTh",
+      "starttime": "09:00 am",
+      "endtime": "12:45 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 428,
+    "fields": {
+      "dates": "T",
+      "starttime": "06:15 pm",
+      "endtime": "08:45 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 429,
+    "fields": {
+      "dates": "MW",
+      "starttime": "06:30 pm",
+      "endtime": "07:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 430,
+    "fields": {
+      "dates": "M",
+      "starttime": "03:30 pm",
+      "endtime": "06:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 431,
+    "fields": {
+      "dates": "MTTh,W",
+      "starttime": "01:30 pm",
+      "endtime": "02:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 432,
+    "fields": {
+      "dates": "W,M,TF",
+      "starttime": "01:30 pm",
+      "endtime": "02:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 433,
+    "fields": {
+      "dates": "W",
+      "starttime": "03:35 pm",
+      "endtime": "04:45 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 434,
+    "fields": {
+      "dates": "TF",
+      "starttime": "01:30 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 435,
+    "fields": {
+      "dates": "T",
+      "starttime": "06:00 pm",
+      "endtime": "09:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 436,
+    "fields": {
+      "dates": "W",
+      "starttime": "02:15 pm",
+      "endtime": "04:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 437,
+    "fields": {
+      "dates": "T",
+      "starttime": "02:50 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 438,
+    "fields": {
+      "dates": "T",
+      "starttime": "01:00 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 439,
+    "fields": {
+      "dates": "M",
+      "starttime": "01:30 pm",
+      "endtime": "05:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 440,
+    "fields": {
+      "dates": "M,W1",
+      "starttime": "02:50 pm",
+      "endtime": "04:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 441,
+    "fields": {
+      "dates": "W",
+      "starttime": "02:15 pm",
+      "endtime": "04:05 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 442,
+    "fields": {
+      "dates": "M",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 443,
+    "fields": {
+      "dates": "T",
+      "starttime": "06:30 pm",
+      "endtime": "10:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 444,
+    "fields": {
+      "dates": "TThF",
+      "starttime": "02:50 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 445,
+    "fields": {
+      "dates": "Th",
+      "starttime": "01:00 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 446,
+    "fields": {
+      "dates": "M",
+      "starttime": "02:50 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 447,
+    "fields": {
+      "dates": "MW",
+      "starttime": "06:40 pm",
+      "endtime": "07:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 448,
+    "fields": {
+      "dates": "W2,F,T",
+      "starttime": "01:30 pm",
+      "endtime": "02:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 449,
+    "fields": {
+      "dates": "Th",
+      "starttime": "06:15 pm",
+      "endtime": "08:45 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 450,
+    "fields": {
+      "dates": "W",
+      "starttime": "06:00 pm",
+      "endtime": "08:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 451,
+    "fields": {
+      "dates": "M",
+      "starttime": "08:30 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 452,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "02:50 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 453,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "01:00 pm",
+      "endtime": "04:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 454,
+    "fields": {
+      "dates": "T,F",
+      "starttime": "11:10 am",
+      "endtime": "01:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 455,
+    "fields": {
+      "dates": "W",
+      "starttime": "09:50 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 456,
+    "fields": {
+      "dates": "W2,F,T",
+      "starttime": "02:15 pm",
+      "endtime": "03:25 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 457,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "9:50",
+      "endtime": "10:50 AM"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 458,
+    "fields": {
+      "dates": "F",
+      "starttime": "03:30 pm",
+      "endtime": "04:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 459,
+    "fields": {
+      "dates": "Th",
+      "starttime": "11:10 am",
+      "endtime": "12:10 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 460,
+    "fields": {
+      "dates": "TF,W",
+      "starttime": "10:10 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 461,
+    "fields": {
+      "dates": "M,Th",
+      "starttime": "01:30 pm",
+      "endtime": "03:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 462,
+    "fields": {
+      "dates": "TF,TF",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 463,
+    "fields": {
+      "dates": "M",
+      "starttime": "02:50 pm",
+      "endtime": "05:50 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 464,
+    "fields": {
+      "dates": "MTW",
+      "starttime": "01:30 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 465,
+    "fields": {
+      "dates": "T,T",
+      "starttime": "06:30 pm",
+      "endtime": "08:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 466,
+    "fields": {
+      "dates": "MTh,W1",
+      "starttime": "04:10 pm",
+      "endtime": "05:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 467,
+    "fields": {
+      "dates": "M,W",
+      "starttime": "02:50 pm",
+      "endtime": "05:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 468,
+    "fields": {
+      "dates": "MTWThF",
+      "starttime": "09:00 am",
+      "endtime": "02:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 469,
+    "fields": {
+      "dates": "MWF",
+      "starttime": "09:30 am",
+      "endtime": "12:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 470,
+    "fields": {
+      "dates": "T,T",
+      "starttime": "01:30 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 471,
+    "fields": {
+      "dates": "W1",
+      "starttime": "08:30 am",
+      "endtime": "?"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 472,
+    "fields": {
+      "dates": "MW",
+      "starttime": "03:00 pm",
+      "endtime": "06:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 473,
+    "fields": {
+      "dates": "MTTh,W",
+      "starttime": "08:30 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 474,
+    "fields": {
+      "dates": "M",
+      "starttime": "01:30 pm",
+      "endtime": "02:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 475,
+    "fields": {
+      "dates": "Th,Th",
+      "starttime": "08:00 am",
+      "endtime": "08:20 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 476,
+    "fields": {
+      "dates": "TWTh",
+      "starttime": "01:40 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 477,
+    "fields": {
+      "dates": "T,TF",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 478,
+    "fields": {
+      "dates": "T",
+      "starttime": "06:30 pm",
+      "endtime": "08:50 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 479,
+    "fields": {
+      "dates": "TF",
+      "starttime": "03:00 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 480,
+    "fields": {
+      "dates": "Th,W",
+      "starttime": "07:00 pm",
+      "endtime": "09:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 481,
+    "fields": {
+      "dates": "F,W",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 482,
+    "fields": {
+      "dates": "M,Th",
+      "starttime": "11:10 am",
+      "endtime": "01:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 483,
+    "fields": {
+      "dates": "TWF",
+      "starttime": "08:30 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 484,
+    "fields": {
+      "dates": "M",
+      "starttime": "07:45 pm",
+      "endtime": "09:25 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 485,
+    "fields": {
+      "dates": "TTh",
+      "starttime": "06:30 pm",
+      "endtime": "09:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 486,
+    "fields": {
+      "dates": "W",
+      "starttime": "06:00 pm",
+      "endtime": "09:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 487,
+    "fields": {
+      "dates": "T",
+      "starttime": "01:30 pm",
+      "endtime": "02:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 488,
+    "fields": {
+      "dates": "M,W",
+      "starttime": "03:55 pm",
+      "endtime": "06:25 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 489,
+    "fields": {
+      "dates": "TWF,F",
+      "starttime": "08:30 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 490,
+    "fields": {
+      "dates": "TF",
+      "starttime": "08:30 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 491,
+    "fields": {
+      "dates": "MTh",
+      "starttime": "09:00 am",
+      "endtime": "12:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 492,
+    "fields": {
+      "dates": "None assigned",
+      "starttime": "None assigned",
+      "endtime": "None assigned"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 493,
+    "fields": {
+      "dates": "T",
+      "starttime": "09:50 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 494,
+    "fields": {
+      "dates": "TThF",
+      "starttime": "01:30 pm",
+      "endtime": "02:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 495,
+    "fields": {
+      "dates": "MW",
+      "starttime": "06:00 pm",
+      "endtime": "07:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 496,
+    "fields": {
+      "dates": "TTh",
+      "starttime": "07:30 pm",
+      "endtime": "08:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 497,
+    "fields": {
+      "dates": "MTh,F",
+      "starttime": "12:30 pm",
+      "endtime": "01:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 498,
+    "fields": {
+      "dates": "Th",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 499,
+    "fields": {
+      "dates": "MTWTh,Th",
+      "starttime": "12:30 pm",
+      "endtime": "12:50 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 500,
+    "fields": {
+      "dates": "M,W",
+      "starttime": "02:15 pm",
+      "endtime": "05:15 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 501,
+    "fields": {
+      "dates": "W",
+      "starttime": "9:50",
+      "endtime": "11:30 AM"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 502,
+    "fields": {
+      "dates": "F,T",
+      "starttime": "01:30 pm",
+      "endtime": "02:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 503,
+    "fields": {
+      "dates": "M",
+      "starttime": "4:10",
+      "endtime": "5:50 PM"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 504,
+    "fields": {
+      "dates": "T",
+      "starttime": "01:30 pm",
+      "endtime": "03:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 505,
+    "fields": {
+      "dates": "M,W",
+      "starttime": "02:50 pm",
+      "endtime": "04:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 506,
+    "fields": {
+      "dates": "M",
+      "starttime": "06:30 pm",
+      "endtime": "10:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 507,
+    "fields": {
+      "dates": "M",
+      "starttime": "01:00 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 508,
+    "fields": {
+      "dates": "F,T",
+      "starttime": "12:30 pm",
+      "endtime": "01:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 509,
+    "fields": {
+      "dates": "M",
+      "starttime": "04:15 pm",
+      "endtime": "05:15 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 510,
+    "fields": {
+      "dates": "F,TThF",
+      "starttime": "12:30 pm",
+      "endtime": "01:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 511,
+    "fields": {
+      "dates": "M,Th",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 512,
+    "fields": {
+      "dates": "T,F",
+      "starttime": "01:30 pm",
+      "endtime": "02:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 513,
+    "fields": {
+      "dates": "MTTh",
+      "starttime": "09:00 am",
+      "endtime": "12:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 514,
+    "fields": {
+      "dates": "T",
+      "starttime": "06:00 pm",
+      "endtime": "08:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 515,
+    "fields": {
+      "dates": "W,W",
+      "starttime": "02:15 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 516,
+    "fields": {
+      "dates": "F,MTh",
+      "starttime": "12:30 pm",
+      "endtime": "02:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 517,
+    "fields": {
+      "dates": "TF,W2",
+      "starttime": "08:30 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 518,
+    "fields": {
+      "dates": "MTTh",
+      "starttime": "01:00 pm",
+      "endtime": "03:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 519,
+    "fields": {
+      "dates": "Th",
+      "starttime": "01:00 pm",
+      "endtime": "04:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 520,
+    "fields": {
+      "dates": "M,MTh",
+      "starttime": "01:30 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 521,
+    "fields": {
+      "dates": "MTh,W",
+      "starttime": "02:50 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 522,
+    "fields": {
+      "dates": "W",
+      "starttime": "06:30 pm",
+      "endtime": "10:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 523,
+    "fields": {
+      "dates": "MTTh,W",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 524,
+    "fields": {
+      "dates": "MWTh",
+      "starttime": "06:00 pm",
+      "endtime": "08:45 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 525,
+    "fields": {
+      "dates": "MWTh",
+      "starttime": "09:00 am",
+      "endtime": "12:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 526,
+    "fields": {
+      "dates": "TWTh",
+      "starttime": "01:30 pm",
+      "endtime": "03:10 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 527,
+    "fields": {
+      "dates": "TF,W",
+      "starttime": "11:10 am",
+      "endtime": "01:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 528,
+    "fields": {
+      "dates": "T",
+      "starttime": "06:00 pm",
+      "endtime": "09:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 529,
+    "fields": {
+      "dates": "MTTh,W",
+      "starttime": "02:15 pm",
+      "endtime": "03:25 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 530,
+    "fields": {
+      "dates": "T",
+      "starttime": "03:20 pm",
+      "endtime": "06:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 531,
+    "fields": {
+      "dates": "M,WTh",
+      "starttime": "09:00 am",
+      "endtime": "12:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 532,
+    "fields": {
+      "dates": "W",
+      "starttime": "02:15 pm",
+      "endtime": "05:15 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 533,
+    "fields": {
+      "dates": "W",
+      "starttime": "06:15 pm",
+      "endtime": "08:45 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 534,
+    "fields": {
+      "dates": "TF,W",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 535,
+    "fields": {
+      "dates": "M,W",
+      "starttime": "07:00 pm",
+      "endtime": "09:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 536,
+    "fields": {
+      "dates": "MTh,M",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 537,
+    "fields": {
+      "dates": "TTh",
+      "starttime": "6:30",
+      "endtime": "7:30 PM"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 538,
+    "fields": {
+      "dates": "M,F,F",
+      "starttime": "08:30 am",
+      "endtime": "09:40 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 539,
+    "fields": {
+      "dates": "T",
+      "starttime": "08:30 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 540,
+    "fields": {
+      "dates": "TF",
+      "starttime": "11:10 am",
+      "endtime": "12:10 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 541,
+    "fields": {
+      "dates": "TWF",
+      "starttime": "09:00 am",
+      "endtime": "12:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 542,
+    "fields": {
+      "dates": "Th",
+      "starttime": "05:45 pm",
+      "endtime": "09:45 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 543,
+    "fields": {
+      "dates": "M,Th",
+      "starttime": "01:30 pm",
+      "endtime": "02:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 544,
+    "fields": {
+      "dates": "MW",
+      "starttime": "03:00 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 545,
+    "fields": {
+      "dates": "M,MTh",
+      "starttime": "11:10 am",
+      "endtime": "12:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 546,
+    "fields": {
+      "dates": "T,W",
+      "starttime": "02:15 pm",
+      "endtime": "04:45 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 547,
+    "fields": {
+      "dates": "T,Th",
+      "starttime": "01:30 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 548,
+    "fields": {
+      "dates": "TF",
+      "starttime": "8:30",
+      "endtime": "9:30 AM"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 549,
+    "fields": {
+      "dates": "M,W1",
+      "starttime": "03:55 pm",
+      "endtime": "06:25 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 550,
+    "fields": {
+      "dates": "M",
+      "starttime": "07:00 pm",
+      "endtime": "09:30 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 551,
+    "fields": {
+      "dates": "MWTh",
+      "starttime": "02:50 pm",
+      "endtime": "04:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 552,
+    "fields": {
+      "dates": "MTh,W",
+      "starttime": "03:35 pm",
+      "endtime": "04:45 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 553,
+    "fields": {
+      "dates": "MWTh",
+      "starttime": "04:10 pm",
+      "endtime": "05:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 554,
+    "fields": {
+      "dates": "MWTh",
+      "starttime": "01:30 pm",
+      "endtime": "04:10 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 555,
+    "fields": {
+      "dates": "W",
+      "starttime": "03:30 pm",
+      "endtime": "06:00 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 556,
+    "fields": {
+      "dates": "W",
+      "starttime": "09:50 am",
+      "endtime": "11:00 am"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 557,
+    "fields": {
+      "dates": "Th",
+      "starttime": "02:50 pm",
+      "endtime": "05:20 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 558,
+    "fields": {
+      "dates": "W",
+      "starttime": "04:10 pm",
+      "endtime": "06:40 pm"
+    }
+  },
+  {
+    "model": "courses.timeanddate",
+    "pk": 559,
+    "fields": {
+      "dates": "TTh",
+      "starttime": "06:30 pm",
+      "endtime": "07:30 pm"
+    }
+  }
+]

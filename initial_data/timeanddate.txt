@@ -1,0 +1,5379 @@
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		Th
+02:50 pm - 05:20 pm		M
+09:50 am - 12:20 pm		F
+02:15 pm - 04:45 pm		W
+09:50 am - 11:00 am		MTh
+07:00 pm - 09:30 pm		M
+01:30 pm - 04:00 pm		T
+09:50 am - 12:20 pm		T
+11:10 am - 12:20 pm		MTh
+06:00 pm - 07:10 pm		MTh
+02:50 pm - 04:00 pm		TF
+09:50 am - 11:00 am		MTh
+04:10 pm - 05:20 pm		MTh
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		Th
+09:50 am - 11:00 am		TF
+02:50 pm - 04:00 pm		MTh
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		MTh
+10:00 am - 12:00 pm		W
+06:00 pm - 08:30 pm		W
+09:50 am - 11:00 am		MTh
+02:15 pm - 04:45 pm		W
+06:00 pm - 08:30 pm		T
+01:30 pm - 04:00 pm,01:30 pm - 02:40 pm		M,Th
+08:30 am - 09:40 am		MTWTh
+09:50 am - 11:00 am		MTWTh
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am		MWTh
+09:50 am - 12:20 pm		W
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		W
+09:50 am - 11:00 am		W
+11:10 am - 12:20 pm		Th
+02:50 pm - 04:00 pm		T
+01:30 pm - 02:40 pm		Th
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		TF
+01:30 pm - 04:00 pm		T
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		MTh
+01:30 pm - 04:00 pm		T
+02:15 pm - 04:45 pm		W
+09:50 am - 12:20 pm		W
+09:50 am - 12:20 pm		T
+01:30 pm - 04:00 pm		M
+01:30 pm - 04:00 pm		MTh
+09:50 am - 12:20 pm		TF
+06:30 pm - 09:00 pm		MW
+09:50 am - 12:20 pm		TF
+01:30 pm - 04:00 pm		MTh
+09:50 am - 12:20 pm		TF
+01:30 pm - 05:20 pm		M
+01:30 pm - 04:00 pm		TF
+01:30 pm - 04:00 pm		TF
+09:50 am - 12:20 pm		MTh
+06:30 pm - 09:00 pm,02:15 pm - 04:45 pm		M,W
+01:30 pm - 04:00 pm		MTh
+12:30 pm - 05:20 pm		Th
+01:30 pm - 04:00 pm,01:30 pm - 02:40 pm		M,Th
+06:30 pm - 08:30 pm,01:30 pm - 04:00 pm		T,T
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		MTh
+02:50 pm - 04:00 pm		MTh
+07:30 pm - 09:30 pm		T
+09:30 pm - 11:30 pm		T
+07:30 pm - 09:30 pm		W
+09:30 pm - 11:30 pm		W
+None assigned		None assigned
+12:30 pm - 03:30 pm		T
+02:50 pm - 04:00 pm		TF
+04:10 pm - 05:20 pm		Th
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		TF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		Th
+01:00 pm - 04:30 pm		F
+11:10 am - 12:20 pm		Th
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		MTh
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		Th
+08:30 am - 09:40 am		MTh
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		TF
+01:30 pm - 05:00 pm		M
+06:00 pm - 09:30 pm		M
+12:30 pm - 04:00 pm		T
+08:30 am - 12:00 pm		W
+02:15 pm - 05:45 pm		W
+06:00 pm - 09:30 pm		Th
+01:00 pm - 04:30 pm		F
+08:30 am - 09:40 am		MTh
+09:50 am - 11:00 am		TF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+06:30 pm - 10:00 pm		T
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		F
+11:10 am - 12:20 pm		M
+11:10 am - 12:20 pm		Th
+01:30 pm - 05:00 pm		M
+06:00 pm - 09:30 pm		M
+12:30 pm - 04:00 pm		T
+08:30 am - 12:00 pm		W
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		Th
+06:00 pm - 09:30 pm		Th
+01:00 pm - 04:30 pm		F
+11:10 am - 12:20 pm		T
+11:10 am - 12:20 pm		F
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+06:30 pm - 10:00 pm		T
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		Th
+01:00 pm - 04:30 pm		F
+08:30 am - 09:40 am		MTh
+01:00 pm - 04:30 pm		F
+09:50 am - 11:00 am		MTh
+01:30 pm - 05:00 pm		M
+11:10 am - 12:20 pm		MTh
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+11:10 am - 12:20 pm		MTh
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+09:50 am - 11:00 am		TF
+01:00 pm - 04:30 pm		Th
+11:10 am - 12:20 pm		TF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		Th
+01:00 pm - 04:30 pm		F
+11:10 am - 12:20 pm		MTh
+08:30 am - 12:20 pm		W
+09:50 am - 11:00 am		MTh
+02:15 pm - 04:45 pm		W
+09:50 am - 11:00 am		TF
+01:00 pm - 04:30 pm		Th
+09:50 am - 11:00 am		TF
+12:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm		TF
+12:30 pm - 04:00 pm		T
+09:50 am - 11:00 am		MTh
+01:30 pm - 05:00 pm		M
+11:10 am - 12:20 pm		TF
+06:00 pm - 09:30 pm		M
+02:15 pm - 04:45 pm		W
+09:50 am - 12:20 pm		W
+02:15 pm - 04:45 pm		W
+09:50 am - 12:20 pm		W
+01:30 pm - 04:00 pm		F
+11:10 am - 12:20 pm		MTh
+08:30 am - 12:20 pm		W
+11:10 am - 12:20 pm,07:00 pm - 09:00 pm		MTh,M
+02:50 pm - 04:00 pm		TF
+01:30 pm - 05:20 pm		M
+09:50 am - 12:20 pm		TF
+07:00 pm - 09:00 pm,11:10 am - 01:20 pm		T,F
+04:10 pm - 05:20 pm,06:30 pm - 09:30 pm		M,W
+11:10 am - 01:20 pm,11:10 am - 12:20 pm		T,F
+01:30 pm - 04:00 pm		MTh
+09:50 am - 12:20 pm		W
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		Th
+02:50 pm - 04:00 pm,06:30 pm - 08:15 pm		TF,W
+06:00 pm - 08:30 pm		T
+06:30 pm - 08:30 pm,01:30 pm - 04:00 pm		T,T
+01:30 pm - 04:00 pm,01:30 pm - 02:40 pm		M,Th
+02:50 pm - 05:20 pm		Th
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am		TWF
+11:10 am - 12:20 pm		TWF
+01:30 pm - 05:00 pm		M
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+01:30 pm - 05:00 pm		Th
+12:30 pm - 04:00 pm		F
+11:10 am - 12:20 pm		MTWTh
+01:30 pm - 05:00 pm		Th
+02:50 pm - 04:00 pm		MTh
+11:10 am - 12:20 pm		MWThF
+02:15 pm - 05:45 pm		W
+01:30 pm - 05:00 pm		Th
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+08:30 am - 09:40 am		TWF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+01:30 pm - 05:00 pm		Th
+12:30 pm - 04:00 pm		F
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm		TWF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+01:30 pm - 05:00 pm		Th
+12:30 pm - 04:00 pm		F
+09:50 am - 11:00 am		MWTh
+09:50 am - 11:00 am		TWF
+01:30 pm - 05:00 pm		M
+02:15 pm - 05:45 pm		W
+01:30 pm - 05:00 pm		Th
+12:30 pm - 04:00 pm		F
+09:50 am - 11:00 am		TWF
+02:15 pm - 05:45 pm		W
+12:30 pm - 04:00 pm		F
+01:30 pm - 04:00 pm		M
+01:00 pm - 04:30 pm		T
+11:10 am - 12:20 pm		Th
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+08:30 am - 09:40 am,08:30 am - 09:40 am		MTh,W
+08:30 am - 09:40 am		MWTh
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+12:30 pm - 04:00 pm		F
+09:50 am - 11:00 am		TF
+12:30 pm - 04:00 pm		T
+12:30 pm - 04:00 pm		F
+08:30 am - 09:40 am		MTWTh
+09:50 am - 11:00 am		TWThF
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm		MWTh
+11:10 am - 12:20 pm		MTWTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTTh,W
+08:30 am - 09:40 am		TWF
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		TF,W
+01:30 pm - 02:40 pm		TF
+04:10 pm - 05:20 pm,06:30 pm - 09:30 pm		M,W
+09:50 am - 11:00 am		TWF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		TF
+02:15 pm - 04:45 pm		W
+01:30 pm - 02:40 pm		MTh
+08:30 am - 09:40 am		TF
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+08:30 am - 09:40 am		T
+09:50 am - 11:00 am		T
+11:10 am - 12:20 pm		T
+01:30 pm - 02:40 pm		T
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		TF
+08:30 am - 10:20 am		W
+10:30 am - 12:20 pm		W
+02:15 pm - 04:05 pm		W
+02:15 pm - 04:05 pm		W
+04:15 pm - 06:05 pm		W
+10:30 am - 12:20 pm		Th
+08:30 am - 09:40 am		TF
+08:30 am - 09:40 am		M
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		W
+11:10 am - 12:20 pm		W
+11:10 am - 12:20 pm		TWF
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+01:30 pm - 03:20 pm		Th
+08:30 am - 10:20 am		F
+10:30 am - 12:20 pm		F
+01:30 pm - 03:20 pm		F
+02:50 pm - 04:00 pm		TF
+08:30 am - 09:40 am		TWF
+01:30 pm - 02:40 pm		TF
+01:30 pm - 04:30 pm		M
+05:30 pm - 08:30 pm		M
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		MTh
+09:50 am - 12:20 pm		T
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		T
+11:10 am - 12:20 pm		T
+02:15 pm - 03:25 pm		W
+01:30 pm - 02:40 pm		TF
+01:30 pm - 02:40 pm		TF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W1
+08:30 am - 09:40 am,08:30 am - 09:40 am		TF,W2
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W1
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		TF,W2
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W1
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W2
+08:30 am - 09:40 am,08:30 am - 09:40 am		MTh,W1
+11:10 am - 12:20 pm,02:15 pm - 03:25 pm		TF,W2
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W2
+08:30 am - 09:40 am,08:30 am - 09:40 am		MTh,W1
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W1
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W1
+09:50 am - 11:00 am		W
+11:10 am - 12:20 pm		W
+09:50 am - 11:00 am		T
+11:10 am - 12:20 pm		T
+01:30 pm - 02:40 pm		T
+02:50 pm - 04:00 pm		T
+08:30 am - 09:40 am		TWF
+08:30 am - 09:40 am		MWTh
+11:10 am - 12:20 pm		TWF
+08:30 am - 09:40 am,08:30 am - 09:40 am		MTh,W
+09:50 am - 11:00 am		MWTh
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W
+08:30 am - 09:40 am,08:30 am - 09:40 am		TF,W2
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W2
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W1
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+02:50 pm - 05:20 pm		Th
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		TF,W2
+11:10 am - 12:20 pm		MTh
+04:10 pm - 05:20 pm		MTh
+02:50 pm - 05:20 pm		Th
+06:00 pm - 07:30 pm		T
+01:30 pm - 04:00 pm		T
+09:50 am - 12:20 pm		Th
+11:10 am - 12:20 pm		TF
+02:50 pm - 04:30 pm,01:30 pm - 04:00 pm		M,Th
+01:30 pm - 02:40 pm,04:10 pm - 06:40 pm		T,Th
+09:50 am - 12:20 pm		W
+02:50 pm - 04:30 pm,03:55 pm - 06:25 pm		M,W1
+02:15 pm - 04:45 pm		W
+09:50 am - 12:20 pm		T
+11:10 am - 01:20 pm,08:00 am - 08:20 am		M,M
+09:50 am - 11:00 am		TF
+03:35 pm - 05:55 pm		W
+09:50 am - 11:00 am		MTh
+08:30 am - 09:40 am		TF
+09:50 am - 11:00 am		MTh
+08:30 am - 09:40 am		TF
+09:50 am - 12:20 pm		T
+09:50 am - 12:20 pm		W
+01:30 pm - 02:40 pm		MTh
+09:50 am - 12:20 pm		W
+02:15 pm - 04:45 pm		W
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 02:40 pm		MTh
+02:15 pm - 04:45 pm		W
+04:10 pm - 05:20 pm		MTh
+02:50 pm - 04:00 pm,06:30 pm - 08:15 pm		TF,W
+11:10 am - 12:20 pm		MTh
+02:50 pm - 04:00 pm		TF
+09:50 am - 11:00 am		MTh
+02:50 pm - 04:00 pm		MTh
+02:50 pm - 04:00 pm		TF
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		T
+04:10 pm - 06:30 pm		M
+08:30 am - 11:00 am		W
+08:30 am - 09:40 am		MTh
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+08:30 am - 09:40 am		TF
+01:30 pm - 02:40 pm,01:30 pm - 04:00 pm		T,F
+11:10 am - 12:20 pm		TF
+01:00 pm - 04:00 pm		T
+09:50 am - 11:00 am		TF
+01:00 pm - 04:00 pm		F
+09:50 am - 11:00 am		MTh
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		MTh
+08:30 am - 12:00 pm		W
+11:10 am - 12:20 pm		MTh
+08:30 am - 12:20 pm		W
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W2
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm,02:15 pm - 03:25 pm		MTh,W
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+09:50 am - 11:00 am,02:15 pm - 04:00 pm		MTTh,W
+02:50 pm - 04:00 pm		TF
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		TF,W
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W
+09:50 am - 11:00 am		MWTh
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		TF
+04:10 pm - 05:20 pm		MTh
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		TF
+04:10 pm - 05:20 pm		MTh
+02:50 pm - 04:00 pm		MTh
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		MTh
+01:00 pm - 04:00 pm		M
+02:15 pm - 05:15 pm		W
+09:50 am - 11:00 am		TF
+01:00 pm - 04:00 pm		T
+01:00 pm - 04:00 pm		Th
+11:10 am - 12:20 pm		TF
+01:00 pm - 04:00 pm		T
+09:50 am - 11:00 am		TF
+01:00 pm - 04:00 pm		F
+08:30 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+01:00 pm - 04:00 pm		Th
+None assigned		None assigned
+None assigned		None assigned
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm		MWTh
+11:10 am - 12:20 pm		TWF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+03:35 pm - 06:05 pm		W
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		MTh
+09:50 am - 12:20 pm		W
+11:10 am - 12:20 pm		MWTh
+08:50 am - 09:40 am		MTWTh
+02:50 pm - 04:00 pm,12:30 pm - 01:20 pm		MTh,F
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+02:15 pm - 04:45 pm		W
+11:10 am - 12:20 pm		TF
+None assigned		None assigned
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		MTh
+02:50 pm - 04:00 pm		MTh
+08:30 am - 09:40 am		MTh
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		TF
+02:50 pm - 04:00 pm		TF
+None assigned		None assigned
+04:10 pm - 05:20 pm		MTh
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		MTh
+02:50 pm - 05:20 pm		Th
+09:50 am - 12:20 pm		W
+06:30 pm - 09:00 pm		Th
+09:50 am - 12:20 pm		W
+02:15 pm - 04:45 pm		W
+02:50 pm - 05:20 pm		M
+08:30 am - 09:40 am		TWF
+09:50 am - 11:00 am		MWTh
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+11:10 am - 12:20 pm		TWF
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		TF,W
+11:10 am - 12:20 pm		TF
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am		TWF
+08:30 am - 09:40 am		MTh
+08:30 am - 09:40 am		TF
+01:30 pm - 04:00 pm		M
+08:30 am - 09:40 am		MTWTh
+09:50 am - 11:00 am		MTWTh
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		MTWTh
+09:50 am - 11:00 am		MWTh
+02:50 pm - 04:00 pm		TF
+11:10 am - 12:20 pm		MTh
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		TF,W
+08:30 am - 09:40 am		MTWTh
+09:50 am - 11:00 am		MTWTh
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		TF
+08:50 am - 09:40 am		TWThF
+09:50 am - 11:00 am,10:10 am - 11:00 am		MTTh,W
+01:30 pm - 02:40 pm,02:15 pm - 03:05 pm		MTh,W
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		TF
+01:30 pm - 04:00 pm		T
+08:30 am - 09:40 am		MWTh
+11:10 am - 12:20 pm		TWF
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		TF,W
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+09:50 am - 11:00 am		TWF
+08:30 am - 09:40 am		MWTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W
+11:10 am - 12:20 pm		TWF
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		TF,W
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm		MWTh
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am		TWF
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+08:30 am - 09:40 am		MWTh
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+11:10 am - 12:20 pm		TWF
+08:30 am - 09:40 am,08:30 am - 09:40 am		MTh,W
+09:50 am - 11:00 am		TWF
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+11:10 am - 12:20 pm		TWF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+11:10 am - 12:20 pm		MWTh
+08:30 am - 09:40 am		TWF
+09:50 am - 11:00 am		TWF
+08:30 am - 09:40 am		TF
+01:30 pm - 02:30 pm		M
+04:15 pm - 05:15 pm		M
+11:10 am - 12:10 pm		Th
+05:20 pm - 06:20 pm		Th
+11:10 am - 12:20 pm		TWF
+09:50 am - 11:00 am		TWF
+11:10 am - 12:20 pm		MWTh
+09:50 am - 11:00 am		MWTh
+01:30 pm - 04:00 pm		T
+01:30 pm - 02:40 pm		TF
+01:30 pm - 02:40 pm		MTh
+02:50 pm - 04:00 pm		TF
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		TF
+02:15 pm - 04:45 pm		W
+02:50 pm - 05:20 pm		Th
+08:30 am - 09:40 am		TF
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		M
+03:10 pm - 04:20 pm		M
+01:30 pm - 02:40 pm		Th
+03:10 pm - 04:20 pm		Th
+09:50 am - 11:00 am		MTh
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		Th
+None assigned		None assigned
+None assigned		None assigned
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+12:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm		TF
+02:00 pm - 05:30 pm		F
+09:50 am - 11:00 am		MTh
+None assigned		None assigned
+None assigned		None assigned
+1:40-2:40 PM		TF
+1:40-2:40 PM		MTh
+6:40-7:55 PM		MW
+7:55-9:35 PM		M
+6:30-7:30 PM		TTh
+7:30-8:30 PM		TTh
+9:50-11:30 AM		W
+4:10-5:50 PM		M
+3:00-4:00 PM		TF
+6:00-7:00 PM		TTh
+8:30-9:30 AM		MTh
+9:50-10:50 AM		MTh
+9:50-10:50 AM		TF
+1:40-2:40 PM		MTh
+8:30-9:30 AM		TF
+3:00-4:00 PM		MTh
+9:50-10:50 AM		TF
+7:00-8:00 PM		TTh
+1:40-2:40 PM		TF
+3:00-4:00 PM		TF
+8:30-9:30 AM		TF
+1:40-2:40 PM		MTh
+8:30-9:30 AM		MTh
+11:10-12:10 PM		MTh
+9:50-10:50 AM		MTh
+9:50-10:50 AM		TF
+11:10-12:10 PM		TF
+8:30-9:30 AM		TF
+11:10-12:10 PM		MTh
+9:50-10:50 AM		MTh
+8:30-9:30 AM		MTh
+9:50-10:50 AM		MTh
+12:30-1:30 PM		MTh
+1:40-2:40 PM		MTh
+11:10-12:10 PM		MTh
+11:10-12:10 PM		MTh
+3:00-4:00 PM		MW
+1:40-2:40 PM		MTh
+3:00-4:00 PM		MTh
+7:00-9:00 PM		T
+3:00-4:00 PM		MTh
+9:50-10:50 AM		TF
+1:40-2:40 PM		MTh
+6:00-7:00 PM		MW
+7:00-8:00 PM		MW
+3:00-4:00 PM		MTh
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+01:30 pm - 04:00 pm		T
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		T
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		MTh
+02:50 pm - 04:00 pm		MTh
+09:50 am - 12:20 pm		W
+01:30 pm - 04:00 pm		Th
+12:30 pm - 03:30 pm		T
+11:10 am - 12:20 pm		MWTh
+08:30 am - 09:40 am		TWF
+01:30 pm - 04:30 pm		M
+12:30 pm - 03:30 pm		T
+02:15 pm - 05:15 pm		W
+01:30 pm - 04:30 pm		Th
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W
+01:30 pm - 04:30 pm		M
+12:30 pm - 03:30 pm		T
+02:15 pm - 05:15 pm		W
+01:30 pm - 04:30 pm		F
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+09:50 am - 11:00 am		TWF
+01:30 pm - 04:30 pm		M
+12:30 pm - 03:30 pm		T
+02:15 pm - 05:15 pm		W
+01:30 pm - 04:30 pm		Th
+09:50 am - 11:00 am		MWTh
+01:30 pm - 04:30 pm		M
+12:30 pm - 03:30 pm		T
+02:15 pm - 05:15 pm		W
+01:30 pm - 04:30 pm		F
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 04:30 pm		M
+01:30 pm - 04:30 pm		Th
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+02:15 pm - 04:45 pm		W
+09:50 am - 12:20 pm		W
+09:50 am - 12:20 pm		W
+01:30 pm - 04:00 pm		MTh
+11:10 am - 12:20 pm		MTh
+08:30 am - 09:40 am		TF
+09:50 am - 11:00 am		MTh
+01:30 pm - 04:00 pm		M
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		T
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W2
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		MTh
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		F
+01:30 pm - 04:00 pm		M
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		TF
+01:30 pm - 04:00 pm		Th
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+02:50 pm - 04:00 pm		MTh
+09:50 am - 12:20 pm		W
+11:10 am - 12:20 pm,12:30 pm - 12:50 pm		MTWTh,Th
+08:30 am - 09:40 am		TF
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		MTh
+08:30 am - 09:40 am		MTh
+11:10 am - 12:20 pm		MTh
+08:30 am - 09:40 am		MTh
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		M
+09:50 am - 11:00 am		Th
+02:15 pm - 03:25 pm		W
+03:35 pm - 04:45 pm		W
+01:30 pm - 02:40 pm		M
+01:30 pm - 02:40 pm		Th
+09:50 am - 11:00 am		TF
+02:50 pm - 04:00 pm		TF
+11:10 am - 12:20 pm		MTh
+02:50 pm - 04:00 pm		MTh
+08:30 am - 09:40 am		TF
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		MTh
+02:50 pm - 04:00 pm		TF
+02:15 pm - 04:45 pm		W
+08:30 am - 11:00 am		TF
+01:30 pm - 04:00 pm		MTh
+09:50 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		M
+01:30 pm - 04:00 pm		F
+09:50 am - 12:20 pm		T
+01:30 pm - 04:00 pm		T
+04:10 pm - 05:20 pm		MTh
+01:30 pm - 04:00 pm		T
+06:15 pm - 08:45 pm		Th
+08:30 am - 09:40 am,08:30 am - 09:40 am		TF,W
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MW,Th
+11:10 am - 12:20 pm		MTh
+02:50 pm - 04:00 pm		MTh
+09:50 am - 11:00 am		MTh
+02:15 pm - 04:45 pm		W
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		TF
+09:50 am - 12:20 pm		W
+08:30 am - 09:40 am,12:30 pm - 01:20 pm		TWF,F
+11:10 am - 01:20 pm,11:10 am - 12:20 pm		TF,W
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+09:50 am - 11:00 am		W
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		TF
+08:30 am - 09:40 am		MTh
+11:10 am - 12:20 pm		TF
+08:30 am - 09:40 am,08:30 am - 09:40 am		MTh,W1
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W1
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W1
+09:50 am - 11:00 am		W
+11:10 am - 12:20 pm		W
+09:50 am - 11:00 am		T
+11:10 am - 12:20 pm		T
+01:30 pm - 02:40 pm		T
+02:50 pm - 04:00 pm		T
+11:10 am - 12:20 pm		MTh
+02:15 pm - 04:45 pm		W
+09:50 am - 11:00 am		MTh
+09:50 am - 12:20 pm		W
+06:30 pm - 09:00 pm		M
+01:30 pm - 02:40 pm		TF
+01:30 pm - 04:00 pm		M
+01:30 pm - 04:00 pm		T
+08:30 am - 09:40 am		TWF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+09:50 am - 11:00 am		MTh
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am		TWF
+11:10 am - 12:20 pm		TWF
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+08:30 am - 09:40 am		MTh
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+02:50 pm - 04:00 pm		TF
+01:30 pm - 02:40 pm		TF
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		MTh
+02:50 pm - 05:20 pm		M
+02:50 pm - 05:20 pm		Th
+06:00 pm - 08:30 pm		W
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm		TF
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 04:00 pm		M
+09:50 am - 12:20 pm		Th
+01:30 pm - 04:00 pm		T
+02:15 pm - 04:45 pm		W
+09:50 am - 12:20 pm		T
+09:50 am - 12:20 pm		W
+02:50 pm - 04:00 pm		TF
+09:50 am - 12:20 pm		M
+09:50 am - 12:20 pm		W
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		TF,W
+01:30 pm - 04:00 pm		M
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		T
+09:50 am - 11:00 am		MTh
+01:30 pm - 04:00 pm		Th
+11:10 am - 12:20 pm		MTh
+02:15 pm - 04:45 pm		W
+02:50 pm - 05:20 pm		M
+09:50 am - 12:20 pm		W
+01:30 pm - 04:00 pm		T
+02:50 pm - 05:20 pm,02:50 pm - 04:00 pm		M,Th
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		TF
+11:10 am - 01:20 pm,11:10 am - 12:20 pm		M,Th
+02:50 pm - 04:00 pm,02:15 pm - 04:45 pm		TF,W
+08:30 am - 09:40 am		TF
+11:10 am - 12:20 pm		TF
+08:30 am - 09:40 am		MTh
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		MTh
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 02:40 pm		TF
+02:50 pm - 04:00 pm		TF
+09:50 am - 11:00 am		MTh
+04:10 pm - 05:20 pm		MTh
+08:30 am - 09:40 am		TF
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		TF
+None assigned		None assigned
+None assigned		None assigned
+09:50 am - 12:20 pm		W
+01:30 pm - 02:40 pm		TF
+02:00 pm - 06:00 pm		MTW
+06:00 pm - 08:30 pm		MWTh
+09:00 am - 12:00 pm		MWTh
+09:00 am - 12:00 pm		MWF
+09:30 am - 12:10 pm		TWTh
+10:00 am - 12:00 pm		MTWTh
+08:30 am - 11:45 am		TWTh
+08:30 am - 11:45 am		TWTh
+01:00 pm - 04:00 pm		TWTh
+01:30 pm - 04:00 pm		MWTh
+09:00 am - 12:00 pm		TWF
+01:00 pm - 03:30 pm		MWTh
+None assigned		None assigned
+09:00 am - 01:00 pm		MTTh
+02:00 pm - 06:00 pm		MTTh
+09:00 am - 12:00 pm		MWF
+09:30 am - 12:00 pm		MWF
+09:00 am - 01:00 pm		TTh
+09:00 am - 11:00 am		MTTh
+02:00 pm - 06:00 pm		MTTh
+01:30 pm - 03:30 pm		MTWTh
+09:00 am - 12:30 pm		MTh
+10:00 am - 12:00 pm		MTWTh
+09:00 am - 10:30 am		MTWThF
+10:45 am - 12:15 pm		TTh
+01:30 pm - 04:30 pm		MWTh
+01:30 pm - 04:30 pm		MWTh
+01:00 pm - 04:00 pm		TWTh
+01:00 pm - 04:00 pm		TWTh
+10:00 am - 12:00 pm		MTWTh
+09:00 am - 12:00 pm		TWF
+01:30 pm - 04:00 pm		MTWThF
+06:30 pm - 08:10 pm		TWTh
+01:30 pm - 03:10 pm		TWTh
+08:20 pm - 09:10 pm		TWTh
+03:20 pm - 04:10 pm		TWTh
+10:00 am - 12:40 pm		MTW
+09:00 am - 10:30 am		MTWThF
+10:45 am - 12:15 pm		TTh
+09:30 am - 12:00 pm		MTWTh
+01:30 pm - 04:00 pm		MTW
+08:30 am - 11:45 am		TWTh
+06:00 pm - 08:45 pm		MWTh
+01:30 pm - 04:00 pm		T
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		MTh
+02:50 pm - 05:20 pm		Th
+02:15 pm - 04:45 pm		W
+09:50 am - 12:20 pm		T
+07:00 pm - 09:30 pm		M
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		MTh
+02:15 pm - 04:45 pm		W
+11:10 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		Th
+11:10 am - 12:20 pm		TF
+04:10 pm - 05:20 pm		MTh
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		W
+11:10 am - 12:20 pm		W
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 04:00 pm		T
+06:00 pm - 08:30 pm		Th
+06:00 pm - 08:30 pm		M
+01:30 pm - 04:00 pm		M
+02:15 pm - 04:45 pm		W
+08:30 am - 09:40 am		MTWTh
+09:50 am - 11:00 am		MTWTh
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+08:30 am - 09:40 am		MTh
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		W
+09:50 am - 11:00 am		Th
+01:30 pm - 02:40 pm		Th
+11:10 am - 12:20 pm		Th
+02:50 pm - 04:00 pm		T
+11:10 am - 12:20 pm		W
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		TF
+01:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		TF
+01:30 pm - 04:00 pm		Th
+09:50 am - 12:20 pm		Th
+09:50 am - 12:20 pm		W
+01:30 pm - 04:00 pm		M
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		Th
+09:50 am - 12:20 pm		TF
+06:30 pm - 09:00 pm		MW
+02:50 pm - 05:20 pm,02:15 pm - 04:45 pm		M,W
+09:50 am - 12:20 pm		TF
+08:30 am - 12:20 pm		T
+09:50 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		TF
+09:50 am - 12:20 pm		MTh
+01:30 pm - 05:20 pm,01:30 pm - 02:40 pm		M,Th
+01:30 pm - 04:00 pm		TF
+01:30 pm - 04:00 pm		MTh
+01:30 pm - 04:00 pm		Th
+01:30 pm - 04:00 pm		TF
+06:30 pm - 09:00 pm		TTh
+01:30 pm - 04:00 pm		TF
+06:30 pm - 09:00 pm,02:15 pm - 04:45 pm		M,W
+01:30 pm - 02:40 pm		TF
+02:50 pm - 04:00 pm		MTh
+11:10 am - 12:20 pm		TF
+08:30 pm - 10:30 pm		T
+08:30 pm - 10:30 pm		W
+08:30 pm - 10:30 pm		Th
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm,07:00 pm - 08:10 pm		TF,W
+09:50 am - 11:00 am		MTh
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+01:00 pm - 04:30 pm		Th
+01:00 pm - 04:30 pm		F
+09:50 am - 11:00 am		TWF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm		MWTh
+11:10 am - 12:20 pm		TF
+08:30 am - 09:40 am		MTh
+11:10 am - 12:20 pm		MTh
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+08:30 am - 12:00 pm		W
+01:00 pm - 04:30 pm		Th
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+08:30 am - 12:00 pm		W
+01:00 pm - 04:30 pm		Th
+06:00 pm - 09:30 pm		Th
+01:00 pm - 04:30 pm		F
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+06:30 pm - 10:00 pm		T
+01:00 pm - 04:30 pm		Th
+06:00 pm - 09:30 pm		Th
+01:00 pm - 04:30 pm		F
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		T
+09:50 am - 11:00 am		F
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+08:30 am - 12:00 pm		W
+01:00 pm - 04:30 pm		Th
+06:00 pm - 09:30 pm		Th
+01:00 pm - 04:30 pm		F
+09:50 am - 11:00 am		T
+09:50 am - 11:00 am		F
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+06:30 pm - 10:00 pm		T
+01:00 pm - 04:30 pm		Th
+06:00 pm - 09:30 pm		Th
+01:00 pm - 04:30 pm		F
+08:30 am - 09:40 am		TF
+11:10 am - 12:20 pm		MTh
+01:30 pm - 05:00 pm		M
+09:50 am - 11:00 am		TF
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		F
+09:50 am - 11:00 am		TF
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		Th
+09:50 am - 11:00 am		MTh
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+01:00 pm - 04:30 pm		Th
+01:00 pm - 04:30 pm		F
+08:30 am - 09:40 am		MTh
+02:15 pm - 05:45 pm		W
+01:30 pm - 05:00 pm		Th
+01:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm		MTh
+12:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm		TF
+01:30 pm - 05:00 pm		Th
+09:50 am - 11:00 am		MTh
+06:30 pm - 10:00 pm		M
+02:15 pm - 04:45 pm		W
+06:30 pm - 09:00 pm		T
+06:30 pm - 09:00 pm		Th
+11:10 am - 12:20 pm,07:00 pm - 09:00 pm		MTh,T
+08:30 am - 12:20 pm		T
+02:50 pm - 05:20 pm,02:15 pm - 04:45 pm		M,W
+12:30 pm - 01:20 pm,12:30 pm - 02:40 pm		F,T
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		MTh
+06:00 pm - 08:30 pm		Th
+09:50 am - 12:20 pm		W
+09:50 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		MTh
+02:50 pm - 04:00 pm		MTh
+06:30 pm - 09:00 pm		TTh
+03:35 pm - 06:05 pm		W
+01:30 pm - 04:00 pm		M
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+08:30 am - 09:40 am		TWF
+09:50 am - 11:00 am		TWF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+01:30 pm - 05:00 pm		Th
+12:30 pm - 04:00 pm		F
+01:00 pm - 03:30 pm		T
+09:50 am - 11:00 am		MWTh
+09:50 am - 11:00 am		TWF
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+02:15 pm - 05:45 pm		W
+01:30 pm - 05:00 pm		Th
+01:30 pm - 05:00 pm		Th
+12:30 pm - 04:00 pm		F
+09:50 am - 11:00 am		TWF
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+01:30 pm - 05:00 pm		Th
+12:30 pm - 04:00 pm		F
+08:30 am - 09:40 am		MWTh
+08:30 am - 09:40 am		TWF
+11:10 am - 12:20 pm		TWF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+01:30 pm - 05:00 pm		Th
+01:30 pm - 05:00 pm		Th
+12:30 pm - 04:00 pm		F
+08:30 am - 09:40 am		MWTh
+08:30 am - 09:40 am		MWTh
+01:30 pm - 05:00 pm		Th
+12:30 pm - 04:00 pm		F
+09:50 am - 11:00 am		TWF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+06:30 pm - 09:00 pm		T
+01:30 pm - 04:00 pm		M
+11:10 am - 12:20 pm		MWTh
+11:10 am - 12:20 pm		TWF
+02:15 pm - 05:45 pm		W
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+01:00 pm - 04:00 pm		TF
+08:30 am - 09:40 am,08:30 am - 09:40 am		MWTh,T
+09:50 am - 11:00 am		MTWTh
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm		MWTh
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTTh,W
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTTh,W
+08:30 am - 09:40 am		TWF
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		TF,W
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		TWF
+01:30 pm - 02:40 pm		TF
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		TF
+02:50 pm - 04:00 pm		MTh
+11:10 am - 12:20 pm		MTh
+02:50 pm - 04:00 pm		TF
+01:30 pm - 02:40 pm		TF
+08:30 am - 09:40 am		TF
+02:15 pm - 04:45 pm		W
+02:15 pm - 04:45 pm		W
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		MTh
+08:30 am - 09:40 am		T
+09:50 am - 11:00 am		T
+11:10 am - 12:20 pm		T
+01:30 pm - 02:40 pm		T
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		TF
+08:30 am - 10:20 am		W
+10:30 am - 12:20 pm		W
+02:15 pm - 04:05 pm		W
+08:30 am - 10:20 am		Th
+10:30 am - 12:20 pm		Th
+08:30 am - 09:40 am		MTh
+08:30 am - 10:20 am		W
+02:15 pm - 04:05 pm		W
+02:50 pm - 04:00 pm		MTh
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		MTh
+08:30 am - 10:20 am		T
+10:30 am - 12:20 pm		T
+01:30 pm - 03:20 pm		T
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm,11:10 am - 12:20 pm,11:10 am - 12:20 pm		W,F,T
+08:30 am - 09:40 am,08:30 am - 09:40 am		TF,W
+09:50 am - 11:00 am		MTh
+02:50 pm - 04:00 pm		TF
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W1
+08:30 am - 09:40 am,08:30 am - 09:40 am		TF,W2
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W2
+08:30 am - 09:40 am,08:30 am - 09:40 am		MTh,W1
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W1
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W2
+08:30 am - 09:40 am,08:30 am - 09:40 am		MTh,W1
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W1
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W1
+09:50 am - 11:00 am		W
+11:10 am - 12:20 pm		W
+08:30 am - 09:40 am		T
+09:50 am - 11:00 am		T
+01:30 pm - 02:40 pm		T
+02:50 pm - 04:00 pm		T
+08:30 am - 09:40 am		TWF
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W
+08:30 am - 09:40 am,08:30 am - 09:40 am		MTh,W1
+11:10 am - 12:20 pm		TWF
+09:50 am - 11:00 am		MWTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		TF,W2
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W1
+02:50 pm - 05:20 pm		Th
+02:15 pm - 04:45 pm		W
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		MTh
+08:30 am - 09:40 am,08:30 am - 09:40 am		TF,W2
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		MTh
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		TF,W2
+08:30 am - 09:40 am		MTh
+02:50 pm - 05:20 pm		Th
+06:00 pm - 07:30 pm		T
+02:15 pm - 04:45 pm		W
+09:50 am - 12:20 pm		Th
+01:30 pm - 04:00 pm		Th
+02:15 pm - 06:00 pm		W
+04:10 pm - 06:40 pm		W
+None assigned		None assigned
+04:10 pm - 06:40 pm		M
+09:50 am - 12:20 pm		W
+01:30 pm - 04:00 pm		T
+02:50 pm - 04:00 pm		TF
+09:50 am - 12:20 pm		W
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		MTh
+08:30 am - 09:40 am		MTh
+11:10 am - 12:20 pm		TF
+02:50 pm - 04:00 pm		MTh
+09:50 am - 12:20 pm		W
+08:30 am - 09:40 am		TF
+01:30 pm - 02:40 pm		TF
+09:50 am - 12:20 pm		W
+02:50 pm - 04:00 pm		MTh
+09:50 am - 11:00 am		TF
+02:15 pm - 04:45 pm		W
+01:30 pm - 02:40 pm		MTh
+02:50 pm - 04:00 pm		TF
+02:50 pm - 04:00 pm		TF
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+09:50 am - 12:20 pm		W
+01:30 pm - 02:40 pm		MTh
+04:10 pm - 06:20 pm		M
+11:10 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		Th
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		TF
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		M
+09:50 am - 11:00 am		MTh
+01:30 pm - 04:00 pm		TF
+08:30 am - 09:40 am		MTh
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		MTh
+08:30 am - 12:00 pm		W
+02:15 pm - 05:45 pm		W
+01:30 pm - 04:00 pm		T
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W1
+11:10 am - 12:20 pm		TF
+09:30 am - 12:20 pm		W
+01:30 pm - 04:00 pm		Th
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		M
+05:00 pm - 08:00 pm		Th
+01:30 pm - 04:00 pm		TF
+05:00 pm - 08:30 pm		T
+05:30 pm - 08:30 pm		W
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+08:30 am - 09:40 am,09:50 am - 11:00 am		MTh,W
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+08:30 am - 09:40 am,02:15 pm - 04:00 pm		MTTh,W
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		TF
+02:50 pm - 04:00 pm		MTh
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+02:50 pm - 04:00 pm		TF
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+02:50 pm - 04:00 pm		TF
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+01:00 pm - 04:00 pm		M
+01:00 pm - 04:00 pm		T
+08:30 am - 11:30 am		W
+02:15 pm - 05:15 pm		W
+08:30 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		TF
+01:30 pm - 04:00 pm		Th
+11:10 am - 12:20 pm,07:00 pm - 08:10 pm		TF,W
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm		TWF
+02:15 pm - 04:45 pm		W
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		TF,W
+09:50 am - 11:00 am		TWF
+01:30 pm - 02:40 pm		TF
+02:15 pm - 04:45 pm		W
+08:50 am - 09:40 am		MTWTh
+11:10 am - 12:20 pm,02:15 pm - 03:05 pm		TF,W
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm		MWTh
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		TF
+02:50 pm - 04:00 pm		MTh
+11:10 am - 12:20 pm		TF
+02:50 pm - 04:00 pm		TF
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		MTh
+04:10 pm - 05:20 pm		MTh
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+09:50 am - 12:20 pm		W
+01:30 pm - 02:40 pm		TF
+02:15 pm - 04:45 pm		W
+02:15 pm - 04:45 pm		W
+09:50 am - 12:20 pm		W
+08:30 am - 09:40 am		TWF
+08:30 am - 09:40 am,11:10 am - 12:20 pm		TF,W
+01:30 pm - 02:40 pm,09:50 am - 11:00 am		TF,W
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+09:50 am - 11:00 am		TWF
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+11:10 am - 12:20 pm		MTWTh
+11:10 am - 12:20 pm		TF
+01:30 pm - 04:00 pm		T
+08:30 am - 09:40 am		MTWTh
+09:50 am - 11:00 am		MTWTh
+11:10 am - 12:20 pm		MTWThF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTThF,W
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W
+02:50 pm - 04:00 pm		MTh
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		MTh
+02:15 pm - 04:45 pm		W
+08:30 am - 09:40 am,08:30 am - 09:40 am		MTh,TW
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTTh,W
+01:30 pm - 02:40 pm		TF
+01:30 pm - 02:40 pm,11:10 am - 12:20 pm		M,Th
+08:50 am - 09:40 am		MTWTh
+09:50 am - 11:00 am,10:10 am - 11:00 am		TF,W
+01:30 pm - 02:40 pm		MTh
+02:50 pm - 04:00 pm		MTh
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		TF
+01:30 pm - 04:00 pm		T
+08:30 am - 09:40 am		TWF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		TF,W
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am		MWTh
+09:50 am - 11:00 am		TWF
+11:10 am - 12:20 pm		TWF
+11:10 am - 12:20 pm		TWF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+08:30 am - 09:40 am		MWTh
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am		TWF
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+11:10 am - 12:20 pm		MWTh
+11:10 am - 12:20 pm		TWF
+09:50 am - 11:00 am		TWF
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm		MWTh
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+08:30 am - 09:40 am,08:30 am - 09:40 am		TF,W
+01:30 pm - 02:30 pm		M
+04:15 pm - 05:15 pm		M
+11:10 am - 12:10 pm		Th
+04:15 pm - 05:15 pm		Th
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+11:10 am - 12:20 pm		TWF
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W
+11:10 am - 12:20 pm		TWF
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		MTh
+01:30 pm - 04:00 pm		Th
+01:30 pm - 04:00 pm		M
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		Th
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		M
+03:10 pm - 04:20 pm		M
+01:30 pm - 02:40 pm		Th
+03:10 pm - 04:20 pm		Th
+09:50 am - 12:20 pm		W
+09:50 am - 11:00 am		TF
+12:30 pm - 04:00 pm		T
+01:00 pm - 04:30 pm		Th
+09:50 am - 11:00 am		MTh
+02:15 pm - 05:45 pm		W
+01:30 pm - 04:00 pm		F
+08:30 am - 09:40 am		TF
+09:50 am - 11:00 am		TF
+12:30 pm - 04:00 pm		T
+03:00 pm - 04:00 pm		TF
+08:30 am - 09:30 am		MTh
+09:50 am - 10:50 am		TF
+09:50 am - 10:50 am		MTh
+01:40 pm - 02:40 pm		MTh
+08:30 am - 09:30 am		TF
+03:00 pm - 04:00 pm		MTh
+09:50 am - 10:50 am		TF
+06:00 pm - 07:00 pm		TTh
+11:10 am - 12:10 pm		TF
+01:40 pm - 02:40 pm		TF
+08:30 am - 09:30 am		TF
+08:30 am - 09:30 am		MTh
+01:40 pm - 02:40 pm		MTh
+01:40 pm - 02:40 pm		TF
+09:50 am - 10:50 am		MTh
+09:50 am - 10:50 am		TF
+11:10 am - 12:10 pm		MTh
+11:10 am - 12:10 pm		TF
+11:10 am - 12:10 pm		MTh
+01:40 pm - 02:40 pm		MTh
+08:30 am - 09:40 am		MThF
+06:40 pm - 07:40 pm		MW
+07:45 pm -09:25 pm		M
+07:30 pm - 08:30 pm		TTh
+06:30 pm - 07:30 pm		TTh
+09:50 am - 10:50 am		W
+03:00 pm - 04:00 pm		MW
+01:40 pm - 02:40 pm		MTh
+03:00 pm - 04:00 pm		MTh
+TBA		TBA
+11:10 am - 12:20 pm		TF
+09:50 am - 10:50 am		MTh
+12:30 pm - 01:30 pm		MTh
+05:00 pm - 11:00 pm		W
+03:00 pm - 04:00 pm		MTh
+08:30 am - 09:30 am		MTh
+09:50 am - 10:50 am		MTh
+09:50 am - 10:50 am		TF
+01:40 pm - 02:40 pm		MTh
+06:00 pm - 07:00 pm		MW
+07:00 pm - 08:00 pm		MW
+03:00 pm - 04:00 pm		MTh
+09:50 am - 11:00 am		MTh
+06:30 pm - 09:00 pm		Th
+01:30 pm - 04:00 pm		M
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 02:40 pm		MTh
+04:10 pm - 05:20 pm		MTh
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		MTh
+02:50 pm - 05:20 pm		Th
+01:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm		MWTh
+02:15 pm - 05:15 pm		W
+01:30 pm - 04:30 pm		Th
+11:10 am - 12:20 pm		TWF
+09:50 am - 11:00 am		MWTh
+01:30 pm - 04:30 pm		M
+12:30 pm - 03:30 pm		T
+02:15 pm - 05:15 pm		W
+01:30 pm - 04:30 pm		Th
+09:50 am - 11:00 am		MWTh
+01:30 pm - 04:30 pm		M
+12:30 pm - 03:30 pm		T
+09:50 am - 11:00 am		TWF
+02:15 pm - 05:15 pm		W
+01:30 pm - 04:30 pm		Th
+12:30 pm - 03:30 pm		T
+03:00 pm - 04:00 pm,01:30 pm - 04:30 pm		T,Th
+09:50 am - 11:00 am		TWF
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+01:30 pm - 04:30 pm,12:30 pm - 03:30 pm		F,T
+09:50 am - 11:00 am		TF
+08:30 am - 09:40 am		TF
+11:10 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		T
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 04:00 pm		Th
+01:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm		MTh
+08:30 am - 09:40 am		MTh
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		MTh
+08:30 am - 12:20 pm		W
+01:30 pm - 04:00 pm		F
+01:30 pm - 04:00 pm		Th
+01:30 pm - 04:00 pm		M
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		TF
+01:30 pm - 02:40 pm		MTh
+09:50 am - 12:20 pm		W
+02:15 pm - 04:45 pm		W
+02:50 pm - 04:00 pm		TF
+02:50 pm - 04:00 pm		MTh
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+02:50 pm - 05:20 pm		Th
+09:50 am - 12:20 pm		W
+09:50 am - 11:00 am,08:30 am - 09:40 am		MTWTh,Th
+08:30 am - 09:40 am		TF
+01:30 pm - 02:40 pm		MTh
+08:30 am - 09:40 am		TF
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		TF
+02:50 pm - 04:00 pm		M
+02:50 pm - 04:00 pm		Th
+02:15 pm - 03:25 pm		W
+03:35 pm - 04:45 pm		W
+11:10 am - 12:20 pm		T
+11:10 am - 12:20 pm		F
+09:50 am - 11:00 am		TF
+08:30 am - 09:40 am		MTh
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		MTh
+08:30 am - 09:40 am		TF
+02:15 pm - 04:45 pm		W
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		MTh
+02:15 pm - 04:45 pm		W
+08:30 am - 11:00 am		MTh
+01:30 pm - 04:00 pm		Th
+09:50 am - 12:20 pm		MTh
+09:50 am - 12:20 pm		TF
+01:30 pm - 04:00 pm		M
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		M
+04:10 pm - 05:20 pm		MTh
+01:30 pm - 04:00 pm		Th
+01:30 pm - 04:00 pm		T
+06:15 pm - 08:45 pm		M
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+01:30 pm - 02:40 pm		TF
+01:30 pm - 04:00 pm		Th
+01:30 pm - 04:00 pm		Th
+11:10 am - 12:20 pm		MTh
+02:15 pm - 04:45 pm		W
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+09:50 am - 12:20 pm		W
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		T
+12:30 pm - 01:20 pm,08:30 am - 09:40 am		F,TThF
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		TF,W
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		TF
+02:15 pm - 03:25 pm		W
+09:50 am - 11:00 am		M
+11:10 am - 12:20 pm		TF
+01:30 pm - 04:00 pm		M
+02:50 pm - 04:00 pm		MTh
+08:30 am - 09:40 am,08:30 am - 09:40 am		MTh,W1
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W1
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W1
+09:50 am - 11:00 am		W
+11:10 am - 12:20 pm		W
+08:30 am - 09:40 am		T
+09:50 am - 11:00 am		T
+01:30 pm - 02:40 pm		T
+02:50 pm - 04:00 pm		T
+08:30 am - 09:40 am		TF
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		MTh
+08:30 am - 09:40 am		MTh
+02:15 pm - 04:45 pm		W
+11:10 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		T
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		M
+09:50 am - 12:20 pm		W
+01:30 pm - 02:40 pm		TF
+01:30 pm - 04:00 pm		Th
+08:30 am - 09:40 am		TWF
+09:50 am - 11:00 am		MWTh
+08:30 am - 09:40 am		MWTh
+11:10 am - 12:20 pm		TWF
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		TF,W
+08:30 am - 09:40 am		MTh
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+02:50 pm - 04:00 pm		TF
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+01:30 pm - 04:00 pm		Th
+06:00 pm - 08:30 pm		Th
+01:30 pm - 04:00 pm		M
+03:30 pm - 06:30 pm		M
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+08:30 am - 09:40 am		MWTh
+09:50 am - 12:20 pm		M
+02:50 pm - 04:00 pm		MTh
+02:15 pm - 03:25 pm		W
+09:50 am - 12:20 pm		W
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		M
+02:15 pm - 04:45 pm		W
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		MTh
+02:15 pm - 04:45 pm		W
+09:50 am - 12:20 pm		W
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		TF
+01:30 pm - 04:00 pm		Th
+01:30 pm - 04:00 pm		Th
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+01:30 pm - 04:00 pm		M
+01:30 pm - 04:00 pm		M
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		T
+12:30 pm - 01:20 pm,09:50 am - 11:00 am		M,MTh
+11:10 am - 12:20 pm,11:10 am - 01:20 pm		F,T
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		MWTh
+11:10 am - 12:20 pm,11:10 am - 01:20 pm		F,T
+02:50 pm - 05:20 pm		MTh
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W
+02:50 pm - 05:20 pm,02:50 pm - 04:00 pm		M,Th
+01:30 pm - 02:40 pm		MTh
+08:30 am - 09:40 am		TF
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		TF
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		MTh
+02:50 pm - 04:00 pm		MTh
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		MTh
+None assigned		None assigned
+08:30 am - 09:40 am		TF
+02:15 pm - 04:45 pm		W
+None assigned		None assigned
+08:30 am - 08:31 am		W
+08:30 am - 08:31 am		W
+08:30 am - 08:31 am		W
+10:00 am - 12:00 pm,01:00 pm - 02:30 pm		MTWThF,MTWThF
+08:30 am - 08:31 am		W
+09:00 am - 12:30 pm		MTWThF
+08:30 am - 08:31 am		None assigned
+08:30 am - 08:31 am		W
+09:00 am - 02:00 pm		MTWThF
+08:30 am - ?		W1
+08:30 am - 08:31 am		W
+11:10 am - 12:20 pm		MTh
+07:00 pm - 09:30 pm		M
+07:00 pm - 09:30 pm		T
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		M
+02:50 pm - 05:20 pm		Th
+02:15 pm - 04:45 pm		W
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		TF
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		T
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		Th
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		TF
+02:15 pm - 04:45 pm		W
+11:10 am - 12:20 pm		TF
+04:10 pm - 05:20 pm		MTh
+02:50 pm - 04:00 pm		MTh
+06:30 pm - 09:00 pm		M
+08:30 am - 09:40 am		MTWTh
+09:50 am - 11:00 am		MTWTh
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		W
+11:10 am - 12:20 pm		W
+11:10 am - 12:20 pm		Th
+01:30 pm - 02:40 pm		T
+09:50 am - 11:00 am		Th
+01:30 pm - 02:40 pm		Th
+01:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		MTh
+09:50 am - 12:20 pm		W
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		M
+01:30 pm - 04:00 pm		Th
+02:15 pm - 04:45 pm		W
+09:50 am - 12:20 pm		TF
+01:30 pm - 04:00 pm		TF
+06:30 pm - 09:00 pm		MW
+09:50 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		MTh
+09:50 am - 12:20 pm		TF
+01:30 pm - 05:20 pm		M
+01:30 pm - 04:00 pm		TF
+09:50 am - 12:20 pm		MTh
+06:30 pm - 09:00 pm,02:15 pm - 04:45 pm		M,W
+06:30 pm - 09:00 pm		TTh
+06:30 pm - 08:30 pm,01:30 pm - 04:00 pm		T,T
+02:50 pm - 05:20 pm,02:15 pm - 04:45 pm		M,W
+01:30 pm - 02:40 pm,01:30 pm - 05:20 pm		M,Th
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		MTh
+02:50 pm - 04:00 pm		MTh
+07:30 pm - 09:30 pm		T
+09:30 pm - 11:30 pm		T
+07:30 pm - 09:30 pm		W
+09:30 pm - 11:30 pm		W
+07:30 pm - 09:30 pm		Th
+11:10 am - 12:20 pm		TF
+04:10 pm - 05:20 pm		Th
+11:10 am - 12:20 pm		TF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		Th
+01:00 pm - 04:30 pm		F
+01:30 pm - 05:00 pm,08:30 am - 09:40 am		M,Th
+12:30 pm - 04:00 pm,08:30 am - 09:40 am		T,Th
+09:50 am - 11:00 am		TWF
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		MTh
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+08:30 am - 12:00 pm		W
+01:00 pm - 04:30 pm		Th
+08:30 am - 09:40 am		MTh
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		TF
+01:30 pm - 05:00 pm		M
+06:30 pm - 10:00 pm		M
+12:30 pm - 04:00 pm		T
+08:30 am - 12:00 pm		W
+02:15 pm - 05:45 pm		W
+06:00 pm - 09:30 pm		Th
+01:00 pm - 04:30 pm		F
+08:30 am - 09:40 am		MTh
+11:10 am - 12:20 pm		MTh
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+06:30 pm - 10:00 pm		T
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		F
+11:10 am - 12:20 pm		M
+11:10 am - 12:20 pm		Th
+01:30 pm - 05:00 pm		M
+06:30 pm - 10:00 pm		M
+12:30 pm - 04:00 pm		T
+08:30 am - 12:00 pm		W
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		Th
+06:00 pm - 09:30 pm		Th
+01:00 pm - 04:30 pm		F
+08:30 am - 09:40 am		M
+08:30 am - 09:40 am		Th
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+06:30 pm - 10:00 pm		T
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		Th
+01:00 pm - 04:30 pm		F
+08:30 am - 09:40 am		MTh
+01:00 pm - 04:30 pm		F
+09:50 am - 11:00 am		MTh
+01:30 pm - 05:00 pm		M
+11:10 am - 12:20 pm		MTh
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+11:10 am - 12:20 pm		MTh
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+09:50 am - 11:00 am		TF
+01:00 pm - 04:30 pm		Th
+11:10 am - 12:20 pm		TF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		Th
+01:00 pm - 04:30 pm		F
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+01:00 pm - 04:30 pm		Th
+09:50 am - 11:00 am		TF
+12:30 pm - 04:00 pm		T
+09:50 am - 11:00 am		MTh
+12:30 pm - 04:00 pm		T
+02:15 pm - 04:45 pm		W
+09:50 am - 12:20 pm		W
+09:50 am - 12:20 pm		W
+01:30 pm - 04:00 pm		Th
+06:00 pm - 08:30 pm		M
+02:15 pm - 04:45 pm		W
+11:10 am - 12:20 pm		MTh
+01:30 pm - 05:00 pm		M
+06:00 pm - 08:30 pm		Th
+07:00 pm - 09:00 pm,02:50 pm - 04:00 pm		T,TF
+02:50 pm - 04:00 pm,07:00 pm - 09:00 pm		MTh,T
+01:30 pm - 05:20 pm		M
+09:50 am - 12:20 pm		MTh
+07:00 pm - 09:00 pm,03:35 pm - 06:05 pm		M,W
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		MTh
+09:50 am - 12:20 pm		W
+06:30 pm - 08:30 pm,01:30 pm - 04:00 pm		T,T
+06:30 pm - 09:00 pm		TTh
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		Th
+02:50 pm - 05:20 pm,02:15 pm - 04:45 pm		M,W
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am		TWF
+11:10 am - 12:20 pm		TWF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+12:30 pm - 04:00 pm		F
+02:15 pm - 05:45 pm		W
+01:30 pm - 05:00 pm		M
+01:30 pm - 05:00 pm		Th
+12:30 pm - 04:00 pm		F
+11:10 am - 12:20 pm		MTWThF
+12:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm		MWThF
+02:15 pm - 05:45 pm		W
+01:30 pm - 05:00 pm		Th
+08:30 am - 09:40 am		TWF
+09:50 am - 11:00 am		MWTh
+12:30 pm - 04:00 pm		T
+12:30 pm - 04:00 pm		F
+02:15 pm - 05:45 pm		W
+01:30 pm - 05:00 pm		Th
+09:50 am - 11:00 am		MWTh
+09:50 am - 11:00 am		TWF
+08:30 am - 09:40 am		TWF
+02:15 pm - 05:45 pm		W
+12:30 pm - 04:00 pm		T
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		F
+01:30 pm - 05:00 pm		Th
+12:30 pm - 04:00 pm		T
+08:30 am - 09:40 am		TWF
+11:10 am - 12:20 pm		TWF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		F
+02:15 pm - 05:45 pm		W
+01:30 pm - 05:00 pm		Th
+08:30 am - 09:40 am		MWTh
+08:30 am - 09:40 am		MWTh
+01:30 pm - 05:00 pm		Th
+02:15 pm - 05:45 pm		W
+12:30 pm - 04:00 pm		F
+11:10 am - 12:20 pm		TF
+01:30 pm - 04:30 pm		Th
+01:30 pm - 05:00 pm,08:30 am - 09:40 am		M,Th
+12:30 pm - 04:00 pm,08:30 am - 09:40 am		T,Th
+09:50 am - 11:00 am		MWTh
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+01:30 pm - 05:00 pm		Th
+09:50 am - 11:00 am		TWF
+12:30 pm - 03:30 pm		TF
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTTh,W
+11:10 am - 12:20 pm		TWThF
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm		MWTh
+11:10 am - 12:20 pm		MTWTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTTh,W
+08:30 am - 09:40 am		TWF
+11:10 am - 12:20 pm		TWF
+01:30 pm - 02:40 pm		TF
+02:50 pm - 04:00 pm		MTh
+02:15 pm - 04:45 pm		W
+08:30 am - 09:40 am		MWTh
+02:50 pm - 04:00 pm		MTh
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 02:40 pm,01:30 pm - 04:00 pm		F,T
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		TF
+06:15 pm - 08:45 pm		M
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+08:30 am - 09:40 am		T
+09:50 am - 11:00 am		T
+11:10 am - 12:20 pm		T
+01:30 pm - 02:40 pm		T
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		TF
+08:30 am - 10:20 am		W
+10:30 am - 12:20 pm		W
+02:15 pm - 04:05 pm		W
+02:15 pm - 04:05 pm		W
+04:15 pm - 06:05 pm		W
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		MTh
+10:30 am - 12:20 pm		T
+01:30 pm - 03:20 pm		T
+10:30 am - 12:20 pm		W
+08:30 am - 09:40 am,08:30 am - 09:40 am		TF,W
+01:30 pm - 02:40 pm		TF
+08:30 am - 11:30 am		M
+02:50 pm - 05:50 pm		M
+06:30 pm - 09:30 pm		M
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 02:40 pm		MTh
+08:30 am - 09:40 am		MTh
+08:30 am - 09:40 am		W
+02:15 pm - 03:25 pm		W
+None assigned		None assigned
+08:30 am - 09:40 am,08:30 am - 09:40 am		MTh,W1
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W1
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W1
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W1
+08:30 am - 09:40 am,08:30 am - 09:40 am		TF,W2
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W2
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+08:30 am - 09:40 am,08:30 am - 09:40 am		MTh,W1
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+11:10 am - 12:20 pm		TWF
+02:50 pm - 04:00 pm,02:15 pm - 03:25 pm		MTh,W1
+08:30 am - 09:40 am,08:30 am - 09:40 am		TF,W2
+09:50 am - 11:00 am		T
+11:10 am - 12:20 pm		T
+09:50 am - 11:00 am		W
+11:10 am - 12:20 pm		W
+08:30 am - 09:40 am		TWF
+11:10 am - 12:20 pm		TWF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+08:30 am - 09:40 am,08:30 am - 09:40 am		MTh,W1
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W1
+08:30 am - 09:40 am		TWF
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+04:10 pm - 06:40 pm		W
+02:50 pm - 04:00 pm		TF
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W2
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W2
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		TF,W2
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		MTh
+02:50 pm - 05:20 pm		Th
+06:00 pm - 07:30 pm		T
+09:50 am - 12:20 pm		W
+01:30 pm - 04:00 pm		T
+09:50 am - 12:20 pm		Th
+11:10 am - 12:20 pm		TF
+02:15 pm - 04:45 pm		W
+02:50 pm - 04:30 pm,01:30 pm - 04:00 pm		M,Th
+04:10 pm - 06:40 pm,02:15 pm - 03:25 pm		Th,W
+09:50 am - 12:20 pm		W
+02:50 pm - 04:30 pm,03:55 pm - 06:25 pm		M,W
+11:10 am - 01:20 pm,08:00 am - 08:20 am		Th,Th
+09:50 am - 12:20 pm		T
+09:50 am - 11:00 am		MTh
+08:30 am - 09:40 am		TF
+03:35 pm - 05:55 pm		W
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		TF
+02:50 pm - 04:00 pm		MTh
+09:50 am - 12:20 pm		W
+01:30 pm - 02:40 pm		MTh
+09:50 am - 12:20 pm		W
+01:30 pm - 02:40 pm		MTh
+08:30 am - 09:40 am		TF
+02:50 pm - 04:00 pm		MTh
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		TF
+02:15 pm - 04:45 pm		W
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+02:50 pm - 04:00 pm		TF
+11:10 am - 12:20 pm		TF
+08:30 am - 11:00 am		W
+04:10 pm - 06:30 pm		M
+11:10 am - 12:20 pm		TF
+02:50 pm - 04:00 pm		TF
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		MTh
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+08:30 am - 09:40 am		TF
+01:30 pm - 04:00 pm,01:30 pm - 02:40 pm		F,T
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		TF
+01:30 pm - 04:00 pm		TF
+01:30 pm - 04:00 pm		MTh
+09:50 am - 11:00 am,11:10 am - 12:20 pm		MTh,W
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+08:30 am - 09:40 am,02:15 pm - 04:00 pm		MTTh,W
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		TF,W
+08:30 am - 09:40 am,09:50 am - 11:00 am		TF,W
+02:50 pm - 04:00 pm,09:50 am - 11:00 am		MTh,W
+11:10 am - 12:20 pm		TF
+08:30 am - 09:40 am		MTh
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		TF
+None assigned		None assigned
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		MTh
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 02:40 pm		MTh
+04:10 pm - 05:20 pm		MTh
+11:10 am - 12:20 pm		TF
+02:50 pm - 05:20 pm		W
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+01:00 pm - 04:00 pm		M
+01:00 pm - 04:00 pm		T
+08:30 am - 11:30 am		W
+02:15 pm - 05:15 pm		W
+11:10 am - 12:20 pm		MTh
+01:00 pm - 04:00 pm		Th
+11:10 am - 12:20 pm		TF
+01:00 pm - 04:00 pm		T
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+08:30 am - 09:40 am		MWTh
+11:10 am - 12:20 pm		TWF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+02:50 pm - 04:00 pm		MWTh
+02:50 pm - 05:20 pm		W
+08:50 am - 09:40 am		TWThF
+09:50 am - 11:00 am,10:10 am - 11:00 am		MTh,W
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+02:15 pm - 04:45 pm		W
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		TF
+02:50 pm - 04:00 pm		MTh
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		TF
+02:50 pm - 04:00 pm		MTh
+04:10 pm - 05:20 pm		MTh
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 02:40 pm		TF
+09:50 am - 12:20 pm		W
+09:50 am - 12:20 pm		W
+01:30 pm - 02:40 pm		TF
+02:15 pm - 04:45 pm		W
+08:30 am - 09:40 am		TWF
+09:50 am - 11:00 am,01:30 pm - 02:40 pm		TF,Th
+09:50 am - 11:00 am		MWTh
+08:30 am - 09:40 am		TWF
+11:10 am - 12:20 pm		MTWThF
+01:30 pm - 02:40 pm		TF
+08:30 am - 09:40 am		MWTh
+11:10 am - 12:20 pm		TWF
+08:30 am - 09:40 am		TF
+01:30 pm - 04:00 pm		T
+08:30 am - 09:40 am		MTWTh
+09:50 am - 11:00 am		MTWTh
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		MTWThF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTThF,W
+02:50 pm - 04:00 pm		MWTh
+01:30 pm - 02:40 pm		MTh
+02:50 pm - 04:00 pm		MTh
+02:50 pm - 04:00 pm,04:10 pm - 05:20 pm		F,T
+02:15 pm - 04:45 pm		W
+08:30 am - 09:40 am		MTWTh
+11:10 am - 12:20 pm		MTWTh
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 02:40 pm		TF
+08:50 am - 09:40 am		TWThF
+11:10 am - 12:20 pm,11:30 am - 12:20 pm		MTh,W
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		TF
+01:30 pm - 04:00 pm		M
+11:10 am - 12:20 pm		TWF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		TF,W
+11:10 am - 12:20 pm		TWF
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+08:30 am - 09:40 am		MWTh
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+11:10 am - 12:20 pm		TWF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		TF,W
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+08:30 am - 09:40 am,08:30 am - 09:40 am		MTh,W
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W
+08:30 am - 09:40 am		TWF
+08:30 am - 09:40 am		MWTh
+11:10 am - 12:20 pm		MWTh
+09:50 am - 11:00 am		TWF
+08:30 am - 09:40 am		TWF
+11:10 am - 12:20 pm		TWF
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+09:50 am - 11:00 am		TWF
+09:50 am - 11:00 am		TWF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+02:50 pm - 04:00 pm		MTh
+11:10 am - 12:20 pm		TF
+01:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		M
+04:10 pm - 05:20 pm		M
+01:30 pm - 02:30 pm		Th
+04:10 pm - 05:10 pm		Th
+09:50 am - 11:00 am		MWTh
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 02:40 pm,02:15 pm - 03:35 pm		MTh,W
+01:30 pm - 04:00 pm		T
+04:10 pm - 05:20 pm		MTh
+01:30 pm - 04:00 pm		T
+02:50 pm - 05:20 pm		M
+02:50 pm - 04:00 pm		MTh
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		TF
+04:10 pm - 05:20 pm		MTh
+03:30 pm - 06:00 pm		W
+02:50 pm - 05:20 pm		M
+08:30 am - 09:40 am		TF
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		M
+03:10 pm - 04:20 pm		M
+01:30 pm - 02:40 pm		Th
+03:10 pm - 04:20 pm		Th
+09:50 am - 11:00 am		MTh
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		Th
+08:30 am - 09:40 am		MTh
+11:10 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		M
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+12:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm		MTh
+03:00 pm - 04:00 pm		TF
+06:00 pm - 07:00 pm		TTh
+09:50 am - 10:50 am		MTh
+08:30 am - 09:30 am		TF
+09:50 am - 10:50 am		TF
+07:00 pm - 08:00 pm		TTh
+01:40 pm - 02:40 pm		TF
+03:00 pm - 04:00 pm		TF
+08:30 am - 09:30 am		MTh
+01:40 pm - 02:40 pm		MTh
+01:40 pm - 02:40 pm		TF
+01:40 pm - 02:40 pm		MTh
+08:30 am - 09:30 am		MTh
+09:50 am - 10:50 am		MTh
+11:10 am - 12:10 pm		TF
+11:10 am - 12:10 pm		MTh
+09:50 am - 10:50 am		TF
+11:10 am - 12:10 pm		TF
+01:40 pm - 02:40 pm		TF
+11:10 am - 12:10 pm		MTh
+06:30 pm - 07:30 pm		MW
+07:30 pm -09:10 pm		M
+06:30 pm - 07:30 pm		TTh
+07:30 pm - 08:30 pm		TTh
+09:50 am - 10:50 am		W
+04:10 pm -05:50 pm		M
+03:00 pm - 04:00 pm		MW
+01:40 pm - 02:40 pm		MTh
+03:00 pm - 04:00 pm		MTh
+TBA		TBA
+09:50 am - 10:50 am		MTh
+11:10 am - 12:20 pm		MTh
+08:30 am - 09:30 am		MTh
+09:50 am - 10:50 am		MTh
+12:30 pm - 01:30 pm		MTh
+07:00 pm - 08:00 pm		TTh
+02:00 pm - 04:00 pm		Sat
+03:00 pm - 04:00 pm		MTh
+07:00 pm - 08:00 pm		TTh
+07:00 pm - 08:00 pm		TTh
+01:40 pm - 02:40 pm		MTh
+09:50 am - 10:50 am		MTh
+09:50 am - 10:50 am		TF
+08:30 am - 09:30 am		MTh
+09:50 am - 10:50 am		TF
+01:40 pm - 02:40 pm		MTh
+06:00 pm - 07:00 pm		MW
+07:00 pm - 08:00 pm		MW
+03:00 pm - 04:00 pm		MTh
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		MTh
+02:50 pm - 05:20 pm		M
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+02:50 pm - 04:00 pm		MTh
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		MTh
+04:10 pm - 05:20 pm		MTh
+01:30 pm - 04:00 pm		T
+02:15 pm - 04:45 pm		W
+01:30 pm - 02:40 pm		TF
+08:30 am - 09:40 am		TWF
+09:50 am - 11:00 am		TWF
+01:30 pm - 04:30 pm		M
+12:30 pm - 03:30 pm		T
+02:15 pm - 05:15 pm		W
+01:30 pm - 04:30 pm		Th
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 04:30 pm		M
+12:30 pm - 03:30 pm		T
+02:15 pm - 05:15 pm		W
+01:30 pm - 04:30 pm		F
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 04:30 pm		M
+12:30 pm - 03:30 pm		T
+02:15 pm - 05:15 pm		W
+01:30 pm - 04:30 pm		Th
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+01:30 pm - 04:30 pm		M
+12:30 pm - 03:30 pm		T
+02:15 pm - 05:15 pm		W
+01:30 pm - 04:30 pm		F
+11:10 am - 12:20 pm		TWF
+01:30 pm - 04:30 pm		M
+01:30 pm - 04:30 pm		F
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+01:30 pm - 04:00 pm		M
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 04:00 pm		MTh
+01:30 pm - 02:40 pm		TF
+08:30 am - 09:40 am		TF
+11:10 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		MTh
+02:50 pm - 04:00 pm		MTh
+09:50 am - 12:20 pm		W
+02:50 pm - 05:20 pm		M
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		MTh
+02:15 pm - 04:45 pm		W
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		MTh
+02:50 pm - 05:20 pm		Th
+09:50 am - 11:00 am,12:30 pm - 12:50 pm		MTWTh,Th
+08:30 am - 09:40 am		MTh
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		TF
+08:30 am - 09:40 am		TF
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		MTh
+02:15 pm - 03:25 pm		W
+03:35 pm - 04:45 pm		W
+02:50 pm - 04:00 pm		M
+02:50 pm - 04:00 pm		Th
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+08:30 am - 09:40 am		MTh
+06:15 pm - 08:45 pm		M
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		TF
+01:30 pm - 04:00 pm		T
+08:30 am - 11:00 am		TF
+01:30 pm - 04:00 pm		MTh
+09:50 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		Th
+06:30 pm - 09:00 pm		T
+06:15 pm - 08:45 pm		Th
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		M
+06:15 pm - 08:45 pm		T
+01:30 pm - 04:00 pm		T
+08:30 am - 09:40 am,08:30 am - 09:40 am		TF,W
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MW,Th
+01:30 pm - 02:40 pm		TF
+01:30 pm - 02:40 pm		MTh
+09:50 am - 12:20 pm		W
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		MTh
+04:10 pm - 05:20 pm		MTh
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+09:50 am - 12:20 pm		W
+02:15 pm - 04:45 pm		W
+12:30 pm - 01:20 pm,08:30 am - 09:40 am		F,TThF
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		TF,W
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+09:50 am - 12:20 pm		W
+09:50 am - 12:20 pm		W
+01:30 pm - 04:00 pm		T
+09:50 am - 11:00 am		MTh
+08:30 am - 09:40 am		MTh
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+02:50 pm - 04:00 pm,02:15 pm - 03:25 pm		MTh,W1
+08:30 am - 09:40 am,08:30 am - 09:40 am		TF,W2
+09:50 am - 11:00 am		T
+11:10 am - 12:20 pm		T
+09:50 am - 11:00 am		W
+11:10 am - 12:20 pm		W
+11:10 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		MTh
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 02:40 pm		TF
+01:30 pm - 04:00 pm		Th
+01:30 pm - 04:00 pm		M
+08:30 am - 09:40 am		TWF
+11:10 am - 12:20 pm		MWTh
+08:30 am - 09:40 am		MTh
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm		TWF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W
+08:30 am - 09:40 am		TWF
+09:50 am - 11:00 am		TWF
+08:30 am - 09:40 am		MTh
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		MTh
+02:50 pm - 04:00 pm		TF
+08:00 am - 08:20 am,11:10 am - 01:20 pm		M,M
+02:50 pm - 05:20 pm		M
+01:30 pm - 04:00 pm		T
+03:30 pm - 06:30 pm		W
+09:50 am - 11:00 am		MWTh
+08:30 am - 09:40 am		MWTh
+11:10 am - 12:20 pm		TF
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 04:00 pm		M
+09:50 am - 12:20 pm		M
+09:50 am - 12:20 pm		Th
+01:30 pm - 04:00 pm		T
+02:15 pm - 04:45 pm		W
+09:50 am - 12:20 pm		W
+02:50 pm - 04:00 pm		TF
+01:30 pm - 04:00 pm		M
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		T
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 04:00 pm		Th
+02:15 pm - 04:45 pm		W
+02:50 pm - 05:20 pm		M
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		T
+11:10 am - 01:20 pm,11:10 am - 12:20 pm		M,Th
+01:30 pm - 02:40 pm,12:30 pm - 02:40 pm		F,T
+11:10 am - 12:20 pm		TF
+11:10 am - 01:20 pm,11:10 am - 12:20 pm		M,Th
+04:10 pm - 06:30 pm,04:10 pm - 05:20 pm		M,Th
+09:50 am - 11:00 am		TWF
+01:30 pm - 02:40 pm		TF
+02:50 pm - 04:00 pm		TF
+01:30 pm - 02:40 pm		MTh
+02:50 pm - 04:00 pm		MTh
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+08:30 am - 09:40 am		TF
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		MTh
+04:10 pm - 05:20 pm		MTh
+09:50 am - 11:00 am		MTh
+08:30 am - 09:40 am		TF
+02:50 pm - 04:00 pm		TF
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		TF
+None assigned		None assigned
+None assigned		None assigned
+09:50 am - 12:20 pm		W
+01:30 pm - 02:40 pm		TF
+02:50 pm - 05:20 pm		Th
+01:00 pm - 04:00 pm		TWTh
+09:00 am - 11:30 am,04:00 pm - 05:00 pm		MTTh,W
+09:00 am - 12:00 pm		TWTh
+01:00 pm - 03:30 pm		MWTh
+06:00 pm - 08:45 pm		MWTh
+01:30 pm - 04:30 pm		MWTh
+02:30 pm - 05:00 pm		TWTh
+09:00 am - 12:00 pm		MTTh
+09:30 am - 12:10 pm		TWTh
+09:00 am - 11:40 am		MTW
+05:00 pm - 07:30 pm		TWTh
+08:30 am - 11:45 am		TWTh
+08:30 am - 11:45 am		TWTh
+01:30 pm - 04:00 pm		MWTh
+01:30 pm - 05:20 pm		MW
+None assigned		None assigned
+02:00 pm - 06:00 pm		MTW
+09:00 am - 12:45 pm		MTWTh
+02:00 pm - 05:45 pm		MTWTh
+09:00 am - 12:00 pm		MWF
+10:00 am - 12:00 pm		MTWTh
+01:00 pm - 04:30 pm		MTh
+01:30 pm - 03:30 pm		MTWTh
+09:00 am - 12:30 pm		MTh
+01:00 pm - 04:00 pm		MWTh
+01:30 pm - 04:10 pm		MWTh
+09:00 am - 12:00 pm		MTTh
+09:00 am - 10:30 am		MTWThF
+10:45 am - 12:15 pm		TTh
+01:00 pm - 04:00 pm		TThF
+01:30 pm - 04:30 pm		MWTh
+01:30 pm - 04:10 pm		MWTh
+01:30 pm - 04:30 pm		MWTh
+10:00 am - 12:00 pm		MTWTh
+09:00 am - 12:00 pm		MWTh
+09:00 am - 12:00 pm		MWTh
+08:30 am - 10:30 am		MTWTh
+03:00 pm - 06:00 pm		MW
+12:00 pm - 03:00 pm		TWTh
+06:30 pm - 09:00 pm		TWTh
+01:30 pm - 04:10 pm		TWTh
+09:00 am - 10:30 am		MTWThF
+10:45 am - 12:15 pm		TTh
+09:30 am - 12:00 pm		MTW
+08:30 am - 11:45 am		TWTh
+08:30 am - 11:45 am		TWTh
+01:00 pm - 03:30 pm		TWTh
+06:00 pm - 08:45 pm		MWTh
+None assigned		None assigned
+None assigned		None assigned
+11:10 am - 12:20 pm		MTh
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 02:40 pm		MTh
+07:00 pm - 09:30 pm		M
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		M
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		MTh
+02:50 pm - 04:00 pm,02:15 pm - 04:45 pm		M,W
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		TF
+02:50 pm - 05:20 pm		W
+09:50 am - 12:20 pm		T
+06:30 pm - 08:50 pm		T
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		TF
+06:30 pm - 09:00 pm,04:10 pm - 05:10 pm		M,M
+02:50 pm - 04:00 pm		MTh
+11:10 am - 12:20 pm		MTh
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm		TF
+08:30 am - 09:40 am		MTWTh
+09:50 am - 11:00 am		MTWTh
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm		MWTh
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		W
+01:30 pm - 02:40 pm		T
+02:50 pm - 04:00 pm		T
+11:10 am - 12:20 pm		W
+02:15 pm - 03:25 pm		W
+01:30 pm - 02:40 pm		F
+11:10 am - 12:20 pm		MTh
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		TF
+01:30 pm - 04:00 pm		Th
+01:30 pm - 04:00 pm		T
+09:50 am - 11:00 am		TF
+01:30 pm - 04:00 pm		M
+01:30 pm - 04:00 pm		Th
+02:15 pm - 04:45 pm		W
+03:35 pm - 06:05 pm		W
+01:30 pm - 04:00 pm		T
+09:50 am - 12:20 pm		T
+09:50 am - 12:20 pm		M
+09:50 am - 12:20 pm		W
+02:15 pm - 04:45 pm		W
+09:50 am - 12:20 pm		TF
+09:50 am - 12:20 pm		MTh
+12:30 pm - 05:20 pm		M
+09:50 am - 12:20 pm		MTh
+09:50 am - 12:20 pm		TF
+12:30 pm - 04:10 pm		M
+01:30 pm - 04:00 pm		TF
+01:30 pm - 04:00 pm		MTh
+01:30 pm - 04:00 pm		MTh
+09:50 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		TF
+01:30 pm - 03:00 pm,04:10 pm - 05:20 pm,09:50 am - 12:20 pm		T,M,T
+02:50 pm - 05:20 pm,02:15 pm - 04:45 pm		M,W
+01:30 pm - 02:40 pm		TF
+01:30 pm - 02:40 pm		MTh
+08:30 pm - 10:30 pm		T
+08:30 pm - 10:30 pm		W
+08:30 pm - 10:30 pm		Th
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		TF,W2
+06:00 pm - 08:30 pm		W
+09:50 am - 11:00 am		MTh
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		F
+09:50 am - 11:00 am		TWF
+12:30 pm - 04:00 pm		T
+01:30 pm - 05:00 pm		M
+09:50 am - 11:00 am		TWF
+11:10 am - 12:20 pm		MWTh
+08:30 am - 09:40 am		MTh
+09:50 am - 11:00 am		MTh
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+08:30 am - 12:00 pm		W
+01:00 pm - 04:30 pm		Th
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+01:30 pm - 05:00 pm		M
+06:30 pm - 10:00 pm		M
+12:30 pm - 04:00 pm		T
+08:30 am - 12:00 pm		W
+01:00 pm - 04:30 pm		Th
+01:00 pm - 04:30 pm		F
+08:30 am - 09:40 am		MTh
+09:50 am - 11:00 am		TF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+06:30 pm - 10:00 pm		T
+06:30 pm - 10:00 pm		Th
+01:00 pm - 04:30 pm		Th
+01:00 pm - 04:30 pm		F
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		T
+09:50 am - 11:00 am		F
+01:30 pm - 05:00 pm		M
+06:30 pm - 10:00 pm		M
+12:30 pm - 04:00 pm		T
+08:30 am - 12:00 pm		W
+01:00 pm - 04:30 pm		Th
+01:00 pm - 04:30 pm		F
+09:50 am - 11:00 am		T
+09:50 am - 11:00 am		F
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+06:30 pm - 10:00 pm		T
+06:30 pm - 10:00 pm		Th
+01:00 pm - 04:30 pm		Th
+01:00 pm - 04:30 pm		F
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		MTh
+01:30 pm - 05:00 pm		M
+11:10 am - 12:20 pm		MTh
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+09:50 am - 11:00 am		MTh
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		F
+09:50 am - 11:00 am		TF
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		Th
+09:50 am - 11:00 am		MTh
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		F
+11:10 am - 12:20 pm		TF
+02:15 pm - 05:45 pm		W
+01:30 pm - 05:00 pm		Th
+01:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm		TF
+01:00 pm - 04:30 pm		F
+09:50 am - 11:00 am		TF
+02:15 pm - 04:45 pm		W
+06:30 pm - 09:00 pm		T
+09:50 am - 12:20 pm		W
+11:10 am - 01:20 pm,11:10 am - 12:20 pm		M,Th
+06:30 pm - 09:30 pm,01:30 pm - 02:40 pm		T,Th
+12:30 pm - 04:10 pm		M
+09:50 am - 12:20 pm		MTh
+04:20 pm - 05:30 pm,03:00 pm - 06:00 pm		M,Th
+04:10 pm - 05:20 pm,06:30 pm - 09:30 pm		M,W
+01:30 pm - 02:40 pm		TF
+02:50 pm - 04:00 pm,02:15 pm - 04:45 pm		M,W
+06:30 pm - 09:00 pm,04:10 pm - 05:10 pm		M,M
+11:10 am - 12:20 pm,09:50 am - 12:20 pm		F,W
+09:50 am - 12:20 pm		W
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		T
+02:50 pm - 05:20 pm,02:15 pm - 04:45 pm		M,W
+03:35 pm - 06:05 pm		W
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 05:00 pm		Th
+02:15 pm - 05:45 pm		W
+08:30 am - 09:40 am		TWF
+09:50 am - 11:00 am		MWTh
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+01:30 pm - 05:00 pm		Th
+12:30 pm - 04:00 pm		F
+11:10 am - 12:20 pm		TWF
+09:50 am - 11:00 am		TWF
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+01:30 pm - 05:00 pm		Th
+12:30 pm - 04:00 pm		F
+12:30 pm - 04:00 pm		T
+01:30 pm - 05:00 pm		Th
+08:30 am - 09:40 am		TWF
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+01:30 pm - 05:00 pm		Th
+12:30 pm - 04:00 pm		F
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am		TWF
+11:10 am - 12:20 pm		TWF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+01:30 pm - 05:00 pm		Th
+12:30 pm - 04:00 pm		F
+12:30 pm - 04:00 pm		F
+01:30 pm - 05:00 pm		M
+08:30 am - 09:40 am		MWTh
+01:30 pm - 05:00 pm		Th
+12:30 pm - 04:00 pm		F
+02:15 pm - 05:45 pm		W
+09:50 am - 11:00 am		TWF
+12:30 pm - 04:00 pm		T
+01:30 pm - 05:00 pm		M
+11:10 am - 12:20 pm		MWTh
+12:30 pm - 04:00 pm		T
+None assigned		None assigned
+01:30 pm - 04:00 pm		Th
+02:15 pm - 04:45 pm		W
+09:50 am - 11:00 am		TWF
+09:50 am - 11:00 am		TWF
+01:30 pm - 05:00 pm		Th
+11:10 am - 12:20 pm		MWTh
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm		TWF
+08:30 am - 09:40 am		MTWTh
+09:50 am - 11:00 am		MTWTh
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTTh,W
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTTh,W
+08:30 am - 09:40 am		TWF
+11:10 am - 12:20 pm		TWF
+02:15 pm - 04:45 pm		W
+01:30 pm - 02:40 pm		TF
+04:10 pm - 05:20 pm,06:30 pm - 09:30 pm		M,W
+09:50 am - 11:00 am		TWF
+02:50 pm - 04:00 pm		TF
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		TF
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 02:40 pm		TF
+02:50 pm - 04:00 pm		MTh
+11:10 am - 12:20 pm		TF
+02:50 pm - 04:00 pm		MTh
+11:10 am - 12:20 pm		TF
+08:30 am - 09:40 am		TF
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+02:50 pm - 04:00 pm		TF
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+08:30 am - 09:40 am		T
+09:50 am - 11:00 am		T
+11:10 am - 12:20 pm		T
+01:30 pm - 02:40 pm		T
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+08:30 am - 10:20 am		W
+10:30 am - 12:20 pm		W
+02:15 pm - 04:05 pm		W
+08:30 am - 10:20 am		Th
+04:15 pm - 06:05 pm		W
+08:30 am - 09:40 am		TF
+08:30 am - 10:20 am		W
+02:15 pm - 04:05 pm		W
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 03:20 pm		T
+09:50 am - 11:00 am		MTh
+10:30 am - 12:20 pm		F
+01:30 pm - 03:20 pm		F
+08:30 am - 10:20 am		F
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		TWF
+08:30 am - 09:40 am		MWTh
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		MTh
+08:30 am - 09:40 am,08:30 am - 09:40 am		MTh,W1
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W1
+08:30 am - 09:40 am,08:30 am - 09:40 am		TF,W2
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W1
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W1
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W1
+11:10 am - 12:20 pm		TWF
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W1
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W1
+09:50 am - 11:00 am		TF
+08:30 am - 09:40 am		T
+09:50 am - 11:00 am		T
+01:30 pm - 02:40 pm		T
+02:50 pm - 04:00 pm		T
+09:50 am - 11:00 am		W
+11:10 am - 12:20 pm		W
+09:50 am - 11:00 am		MWTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W1
+08:30 am - 09:40 am		TWF
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		TF,W
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+08:30 am - 09:40 am		MTh
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W2
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W1
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W2
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		TF,W2
+08:30 am - 09:40 am		TF
+04:10 pm - 05:20 pm		MTh
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W1
+01:30 pm - 04:00 pm		Th
+01:30 pm - 04:00 pm		T
+06:00 pm - 07:30 pm		T
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		Th
+09:50 am - 12:20 pm		W
+03:35 pm - 05:35 pm		W
+04:00 pm - 07:00 pm		W
+None assigned		None assigned
+04:10 pm - 06:40 pm		M
+09:50 am - 12:20 pm		W
+01:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+08:30 am - 09:40 am		TF
+01:30 pm - 02:40 pm		TF
+02:15 pm - 04:45 pm		W
+09:50 am - 12:20 pm		W
+02:50 pm - 04:00 pm		MTh
+09:50 am - 11:00 am		MTh
+02:50 pm - 04:00 pm		TF
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+03:35 pm - 05:55 pm		W
+01:30 pm - 02:40 pm		TF
+02:50 pm - 04:00 pm		TF
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		MTh
+04:10 pm - 06:30 pm		M
+01:30 pm - 02:40 pm		TF
+01:30 pm - 04:00 pm		Th
+06:30 pm - 08:30 pm,02:15 pm - 04:45 pm		T,W
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		MTh
+01:30 pm - 04:00 pm		M
+08:30 am - 09:40 am		MTh
+09:50 am - 11:00 am		TF
+01:00 pm - 04:00 pm		T
+02:15 pm - 04:00 pm		W
+09:50 am - 11:00 am		MTh
+08:30 am - 12:00 pm		W
+02:50 pm - 04:00 pm		MTh
+11:10 am - 12:20 pm		TF
+02:15 pm - 05:15 pm		W
+11:10 am - 12:20 pm		TF
+01:00 pm - 04:30 pm		F
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 04:00 pm		MTh
+06:00 pm - 09:00 pm		W
+01:30 pm - 04:00 pm,02:15 pm - 04:45 pm		F,W
+06:00 pm - 09:00 pm		T
+05:10 pm - 08:10 pm		Th
+09:50 am - 11:00 am,11:10 am - 12:20 pm		MTh,W
+08:30 am - 09:40 am,11:10 am - 12:20 pm		TF,W
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+08:30 am - 09:40 am		MWTh
+08:30 am - 09:40 am,02:15 pm - 04:00 pm		MTTh,W
+11:10 am - 12:20 pm		MTh
+02:50 pm - 04:00 pm		TF
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		TF
+02:50 pm - 05:20 pm		M
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		TF
+01:00 pm - 04:00 pm		M
+01:00 pm - 04:00 pm		T
+08:30 am - 11:30 am		W
+02:15 pm - 05:15 pm		W
+01:00 pm - 03:30 pm		MTh
+09:50 am - 11:00 am		TF
+01:00 pm - 04:00 pm		T
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		TF,W2
+08:30 am - 09:40 am		MTh
+09:50 am - 11:00 am		TWF
+11:10 am - 12:20 pm		TWF
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		TF
+02:50 pm - 05:20 pm		M
+08:50 am - 09:40 am		TWThF
+09:50 am - 11:00 am,10:10 am - 11:00 am		MTh,W
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		TF
+02:50 pm - 04:00 pm		TF
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		TF
+02:50 pm - 04:00 pm		MTh
+02:50 pm - 04:00 pm		MTh
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		TF
+02:15 pm - 04:45 pm		W
+09:50 am - 12:20 pm		W
+02:15 pm - 04:45 pm		W
+09:50 am - 12:20 pm		W
+02:50 pm - 05:20 pm		M
+04:10 pm - 05:20 pm,03:35 pm - 04:45 pm		MTh,W
+09:50 am - 11:00 am		TWF
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am		TWF
+11:10 am - 12:20 pm		MWTh
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTThF,W
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		TF
+01:30 pm - 04:00 pm		T
+08:30 am - 09:40 am		MTWThF
+09:50 am - 11:00 am		MTWThF
+11:10 am - 12:20 pm		MTWThF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTThF,W
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+01:30 pm - 04:00 pm		M
+08:30 am - 09:40 am		MTWTh
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTTh,W
+01:30 pm - 02:40 pm		TF
+02:15 pm - 04:45 pm		W
+02:15 pm - 04:45 pm		W
+08:50 am - 09:40 am		MTWTh
+09:50 am - 11:00 am,11:10 am - 12:00 pm		TF,W
+11:10 am - 12:20 pm		MTh
+02:50 pm - 04:00 pm		MTh
+11:10 am - 12:20 pm		MTh
+08:30 am - 09:40 am		MWTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		TF,W2
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		TF,W2
+11:10 am - 12:20 pm		TWF
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W1
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W2
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W1
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W1
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+09:50 am - 11:00 am		TWF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+09:50 am - 11:00 am		TWF
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		TF,W
+09:50 am - 11:00 am		TWF
+11:10 am - 12:20 pm		TWF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W1
+11:10 am - 12:20 pm		MWTh
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W1
+08:30 am - 09:40 am		TWF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+01:30 pm - 02:40 pm		TF
+09:50 am - 12:20 pm		W
+None assigned		None assigned
+None assigned		None assigned
+None assigned		None assigned
+None assigned		None assigned
+09:50 am - 11:00 am		MWTh
+09:50 am - 11:00 am		MWTh
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 02:40 pm		MTh
+04:10 pm - 05:20 pm		MTh
+01:30 pm - 02:40 pm		MTh
+12:30 pm - 01:20 pm		MTh
+04:10 pm - 05:20 pm		MTh
+02:15 pm - 04:45 pm		W
+08:30 am - 09:40 am		TF
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		Th
+03:10 pm - 04:20 pm		Th
+02:00 pm - 03:10 pm		F
+03:30 pm - 04:40 pm		F
+09:50 am - 11:00 am		TF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		MTh
+02:15 pm - 05:45 pm		W
+11:10 am - 12:20 pm		TF
+12:30 pm - 04:00 pm		T
+09:50 am - 11:00 am		TF
+12:30 pm - 04:00 pm		T
+12:30 pm - 02:40 pm,08:30 am - 09:40 am		F,MTh
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		MTh
+01:30 pm - 04:00 pm		T
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		MTh
+02:50 pm - 04:00 pm		MTh
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		MTh
+None assigned		None assigned
+None assigned		None assigned
+04:10 pm - 05:20 pm		MTh
+02:50 pm - 05:20 pm		M
+09:50 am - 12:20 pm		W
+01:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm		MWTh
+02:15 pm - 05:15 pm		W
+01:30 pm - 04:30 pm		Th
+08:30 am - 09:40 am		TWF
+09:50 am - 11:00 am		TWF
+01:30 pm - 04:30 pm		M
+12:30 pm - 03:30 pm		T
+02:15 pm - 05:15 pm		W
+01:30 pm - 04:30 pm		Th
+09:50 am - 11:00 am		MWTh
+01:30 pm - 04:30 pm		M
+12:30 pm - 03:30 pm		T
+01:30 pm - 04:30 pm		Th
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		TF,W
+01:30 pm - 04:30 pm		M
+02:15 pm - 05:15 pm		W
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		MWTh
+01:30 pm - 04:30 pm,12:30 pm - 03:30 pm		F,T
+11:10 am - 12:20 pm		TWF
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+01:30 pm - 04:30 pm,12:30 pm - 03:30 pm		F,T
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W
+11:10 am - 12:20 pm		TF
+08:30 am - 09:40 am		TF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+01:30 pm - 02:40 pm		TF
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 04:00 pm		T
+09:50 am - 12:20 pm		W
+02:15 pm - 04:45 pm		W
+09:50 am - 11:00 am		MTh
+08:30 am - 09:40 am		MTh
+01:30 pm - 04:00 pm		M
+09:50 am - 11:00 am		MTh
+01:30 pm - 04:00 pm		M
+01:30 pm - 04:00 pm		T
+09:50 am - 12:20 pm		W
+09:50 am - 12:20 pm		W
+11:10 am - 12:20 pm		MTh
+08:30 am - 09:40 am		TF
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		MTh
+02:15 pm - 04:45 pm		W
+09:50 am - 12:20 pm		T
+02:50 pm - 04:00 pm		MTh
+08:30 am - 09:40 am		MTh
+11:10 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		Th
+01:30 pm - 04:00 pm		Th
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		MTh
+08:30 am - 09:40 am		MTh
+01:30 pm - 02:40 pm		TF
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		TF
+02:50 pm - 04:00 pm		M
+02:50 pm - 04:00 pm		Th
+11:10 am - 12:20 pm		T
+11:10 am - 12:20 pm		F
+02:50 pm - 04:00 pm		T
+02:50 pm - 04:00 pm		F
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		TF
+02:50 pm - 04:00 pm		MTh
+08:30 am - 09:40 am		MTh
+08:30 am - 09:40 am		TF
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		MTh
+08:30 am - 11:00 am		TF
+01:30 pm - 04:00 pm		TF
+09:50 am - 12:20 pm		MTh
+06:15 pm - 08:45 pm		T
+06:15 pm - 08:45 pm		M
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		M
+11:10 am - 12:20 pm		TF
+01:30 pm - 04:00 pm		M
+01:30 pm - 04:00 pm		Th
+01:30 pm - 04:00 pm		Th
+01:30 pm - 04:00 pm		F
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W
+02:15 pm - 04:00 pm		W
+01:30 pm - 04:00 pm		Th
+11:10 am - 12:20 pm		TF
+02:50 pm - 04:00 pm		TF
+09:50 am - 11:00 am		MTh
+02:50 pm - 04:00 pm		MTh
+02:15 pm - 04:45 pm		W
+01:30 pm - 02:40 pm		TF
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		MTh
+09:50 am - 12:20 pm		W
+12:30 pm - 01:20 pm,08:30 am - 09:40 am		F,MWTh
+11:10 am - 12:20 pm		TWF
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		W
+01:30 pm - 02:40 pm		TF
+09:50 am - 12:20 pm		W
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W1
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W1
+09:50 am - 11:00 am		TF
+08:30 am - 09:40 am		T
+09:50 am - 11:00 am		T
+01:30 pm - 02:40 pm		T
+02:50 pm - 04:00 pm		T
+09:50 am - 11:00 am		W
+11:10 am - 12:20 pm		W
+08:30 am - 09:40 am		TF
+09:50 am - 11:00 am		MTh
+06:30 pm - 09:00 pm		Th
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 04:00 pm		F
+01:30 pm - 04:00 pm		M
+09:50 am - 12:20 pm		W
+06:30 pm - 08:50 pm		T
+08:30 am - 09:40 am		MWTh
+02:50 pm - 04:00 pm		TWF
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am		MWTh
+09:50 am - 11:00 am		TWF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+11:10 am - 12:20 pm		MWTh
+04:10 pm - 05:20 pm,03:35 pm - 04:45 pm		MTh,W
+08:30 am - 09:40 am		MTh
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		MTh
+11:10 am - 01:20 pm		MTh
+02:50 pm - 04:00 pm		TF
+09:50 am - 12:20 pm		W
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		M
+01:30 pm - 04:00 pm		Th
+03:30 pm - 06:30 pm		M
+09:50 am - 11:00 am		MWTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+02:15 pm - 04:45 pm		W
+09:50 am - 12:20 pm		M
+01:30 pm - 04:00 pm		T
+02:50 pm - 04:00 pm		Th
+11:10 am - 12:20 pm		T
+09:50 am - 12:20 pm		W
+01:30 pm - 04:00 pm		T
+09:50 am - 12:20 pm		W
+08:30 am - 09:40 am		TF
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 04:00 pm		Th
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		MTh
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		M
+01:30 pm - 04:00 pm		Th
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		T
+02:15 pm - 04:45 pm		W
+11:10 am - 12:20 pm,11:10 am - 01:20 pm		F,T
+12:30 pm - 01:20 pm,08:30 am - 09:40 am		M,MTh
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm,11:10 am - 01:20 pm		F,T
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W2
+08:30 am - 09:40 am,08:30 am - 09:40 am		TF,W2
+11:10 am - 12:20 pm		MTh
+02:50 pm - 04:00 pm		MTh
+11:10 am - 12:20 pm		MTh
+02:50 pm - 04:00 pm		TF
+09:50 am - 11:00 am		TF
+02:50 pm - 04:00 pm		TF
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 02:40 pm		MTh
+04:10 pm - 05:20 pm		MTh
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		MTh
+None assigned		None assigned
+None assigned		None assigned
+02:50 pm - 04:00 pm		MTh
+09:50 am - 11:00 am		MTh
+None assigned		None assigned
+None assigned		None assigned
+None assigned		None assigned
+None assigned		None assigned
+10:00 am - 12:00 pm,01:00 pm - 02:30 pm		MTWThF,MTWThF
+None assigned		None assigned
+None assigned		None assigned
+09:00 am - 12:30 pm		MTWThF
+None assigned		None assigned
+None assigned		None assigned
+None assigned		None assigned
+09:00 am - 02:00 pm		MTWThF
+None assigned		None assigned
+01:30 pm - 04:00 pm		T
+07:00 pm - 09:30 pm		M
+07:00 pm - 09:30 pm		T
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		MTh
+02:15 pm - 04:45 pm		W
+02:50 pm - 05:20 pm		Th
+11:10 am - 12:20 pm		MTh
+02:50 pm - 04:00 pm		TF
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		M
+01:30 pm - 04:00 pm		Th
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		MTh
+06:30 pm - 09:00 pm		T
+01:30 pm - 04:00 pm		T
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+01:30 pm - 04:00 pm		M
+01:30 pm - 04:00 pm		Th
+06:30 pm - 09:00 pm		M
+01:30 pm - 03:00 pm,01:30 pm - 04:00 pm		M,Th
+08:30 am - 09:40 am		MTWTh
+09:50 am - 11:00 am		MTWTh
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+02:15 pm - 04:45 pm		W
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		W
+11:10 am - 12:20 pm		W
+11:10 am - 12:20 pm		Th
+01:30 pm - 02:40 pm		T
+02:50 pm - 04:00 pm		T
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		M
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		MTh
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		T
+09:50 am - 12:20 pm		Th
+09:50 am - 12:20 pm		M
+01:30 pm - 04:00 pm		MTh
+09:50 am - 12:20 pm		TF
+06:30 pm - 09:00 pm		MTh
+12:30 pm - 05:20 pm		M
+01:30 pm - 04:00 pm		TF
+09:50 am - 12:20 pm		TF
+01:30 pm - 05:20 pm		M
+01:30 pm - 04:00 pm		TF
+09:50 am - 12:20 pm		MTh
+09:50 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		MTh
+06:30 pm - 09:00 pm		MTh
+01:30 pm - 04:00 pm		MTh
+01:30 pm - 04:00 pm		TF
+01:30 pm - 03:00 pm,01:30 pm - 04:00 pm		M,Th
+02:15 pm - 04:15 pm,09:50 am - 12:20 pm		W,W
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		MTh
+02:50 pm - 04:00 pm		MTh
+07:30 pm - 09:30 pm		M
+09:30 pm - 11:30 pm		M
+07:30 pm - 09:30 pm		T
+09:30 pm - 11:30 pm		T
+07:30 pm - 09:30 pm		W
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		Th
+01:00 pm - 04:30 pm		F
+09:50 am - 11:00 am		TWF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+None assigned		None assigned
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		MTh
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+08:30 am - 12:00 pm		W
+01:00 pm - 04:30 pm		Th
+08:30 am - 09:40 am		MTh
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		TF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+06:30 pm - 10:00 pm		M
+08:30 am - 12:00 pm		W
+02:15 pm - 05:45 pm		W
+06:30 pm - 10:00 pm		Th
+01:00 pm - 04:30 pm		F
+01:00 pm - 04:30 pm		Th
+08:30 am - 09:40 am		MTh
+11:10 am - 12:20 pm		MTh
+01:30 pm - 05:00 pm		M
+02:15 pm - 05:45 pm		W
+08:30 am - 12:00 pm		W
+01:00 pm - 04:30 pm		Th
+01:00 pm - 04:30 pm		F
+12:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm		M
+11:10 am - 12:20 pm		Th
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+06:30 pm - 10:00 pm		M
+08:30 am - 12:00 pm		W
+02:15 pm - 05:45 pm		W
+06:30 pm - 10:00 pm		Th
+01:00 pm - 04:30 pm		F
+01:00 pm - 04:30 pm		Th
+11:10 am - 12:20 pm		Th
+09:50 am - 11:00 am		Th
+01:30 pm - 05:00 pm		M
+02:15 pm - 05:45 pm		W
+08:30 am - 12:00 pm		W
+01:00 pm - 04:30 pm		Th
+01:00 pm - 04:30 pm		F
+12:30 pm - 04:00 pm		T
+09:50 am - 11:00 am		MTh
+01:00 pm - 04:30 pm		F
+11:10 am - 12:20 pm		MTh
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		Th
+06:30 pm - 07:40 pm,09:50 am - 11:00 am		M,T
+01:00 pm - 04:30 pm		Th
+11:10 am - 12:20 pm		TF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		Th
+01:00 pm - 04:30 pm		F
+06:00 pm - 08:30 pm		T
+02:15 pm - 04:45 pm		W
+09:50 am - 11:00 am		TF
+01:00 pm - 04:30 pm		Th
+09:50 am - 11:00 am		TF
+12:30 pm - 04:00 pm		T
+06:00 pm - 08:30 pm		Th
+02:15 pm - 05:45 pm		W
+09:50 am - 12:20 pm		W
+06:00 pm - 08:30 pm		M
+07:00 pm - 09:00 pm,02:50 pm - 04:00 pm		T,TF
+02:50 pm - 04:00 pm,07:00 pm - 09:00 pm		MTh,T
+01:30 pm - 05:20 pm		M
+01:30 pm - 04:00 pm		TF
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 04:00 pm		M
+09:50 am - 12:20 pm		MTh
+06:30 pm - 09:00 pm		MTh
+01:30 pm - 04:00 pm		T
+02:15 pm - 04:15 pm,09:50 am - 12:20 pm		W,W
+01:30 pm - 03:00 pm,01:30 pm - 04:00 pm		M,Th
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am		TWF
+11:10 am - 12:20 pm		TWF
+01:30 pm - 05:00 pm		M
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+12:30 pm - 04:00 pm		F
+12:30 pm - 04:00 pm		F
+12:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm		MTWThF
+01:30 pm - 05:00 pm		Th
+11:10 am - 12:20 pm		MWThF
+02:15 pm - 05:45 pm		W
+01:30 pm - 05:00 pm		Th
+08:30 am - 09:40 am		TWF
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		TF,W
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+01:30 pm - 05:00 pm		Th
+12:30 pm - 04:00 pm		F
+09:50 am - 11:00 am		MWTh
+09:50 am - 11:00 am		TWF
+08:30 am - 09:40 am		TWF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+12:30 pm - 04:00 pm		F
+01:30 pm - 05:00 pm		Th
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 05:00 pm		M
+01:30 pm - 05:00 pm		Th
+12:30 pm - 04:00 pm		F
+08:30 am - 09:40 am		MWTh
+01:30 pm - 05:00 pm		Th
+12:30 pm - 04:00 pm		F
+02:15 pm - 05:45 pm		W
+09:50 am - 11:00 am		TWF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+01:00 pm - 04:30 pm		F
+None assigned		None assigned
+None assigned		None assigned
+09:50 am - 11:00 am		MWTh
+02:15 pm - 05:45 pm		W
+12:30 pm - 04:00 pm		T
+01:30 pm - 05:00 pm		Th
+12:30 pm - 03:30 pm		TF
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTTh,W
+11:10 am - 12:20 pm		TWThF
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm		MWTh
+11:10 am - 12:20 pm		MTWF
+02:15 pm - 03:25 pm,01:30 pm - 02:40 pm,01:30 pm - 02:40 pm		W,M,TF
+08:30 am - 09:40 am		TWF
+01:30 pm - 02:00 pm,02:15 pm - 03:25 pm		TF,W
+02:50 pm - 04:00 pm		TF
+09:50 am - 11:00 am		TF
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am		TWF
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		MTh
+02:50 pm - 04:00 pm		TF
+01:30 pm - 02:40 pm		MTh
+02:15 pm - 04:45 pm		W
+08:30 am - 09:40 am		MTh
+09:50 am - 11:00 am		MTh
+08:30 am - 09:40 am		T
+09:50 am - 11:00 am		T
+11:10 am - 12:20 pm		T
+01:30 pm - 02:40 pm		T
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+08:30 am - 10:20 am		W
+10:30 am - 12:20 pm		W
+02:15 pm - 04:05 pm		W
+01:30 pm - 03:20 pm		Th
+01:30 pm - 02:40 pm		MTh
+08:30 am - 09:40 am		F
+09:50 am - 11:00 am		F
+01:30 pm - 03:20 pm		T
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		MTh
+10:30 am - 12:20 pm		T
+01:30 pm - 03:20 pm		T
+01:30 pm - 03:20 pm		T
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+08:30 am - 09:40 am		TF
+02:50 pm - 05:50 pm		M
+06:30 pm - 09:30 pm		M
+01:30 pm - 04:30 pm		F
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		W
+02:15 pm - 03:25 pm		W
+02:50 pm - 04:00 pm		MTh
+02:15 pm - 04:45 pm		W
+02:50 pm - 04:00 pm		MTh
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W1
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W1
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W1
+02:50 pm - 04:00 pm,02:15 pm - 03:25 pm		MTh,W1
+04:10 pm - 05:20 pm,03:35 pm - 04:45 pm		MTh,W1
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+08:30 am - 09:40 am,08:30 am - 09:40 am		TF,W2
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W1
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		TF,W2
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W2
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W1
+08:30 am - 09:40 am,08:30 am - 09:40 am		TF,W2
+09:50 am - 11:00 am		W
+09:50 am - 11:00 am		T
+11:10 am - 12:20 pm		W
+11:10 am - 12:20 pm		T
+09:50 am - 11:00 am		MWTh
+08:30 am - 09:40 am		MWTh
+11:10 am - 12:20 pm		TWF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W2
+08:30 am - 09:40 am		MWTh
+11:10 am - 12:20 pm		MWTh
+11:10 am - 12:20 pm		TWF
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		TF,W2
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W2
+11:10 am - 12:20 pm		MTh
+02:50 pm - 05:20 pm		Th
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		MTh
+02:15 pm - 04:45 pm		W
+08:30 am - 09:40 am,08:30 am - 09:40 am		TF,W2
+02:50 pm - 04:00 pm		MTh
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W2
+02:50 pm - 05:20 pm		Th
+01:30 pm - 02:40 pm		MTh
+08:30 am - 09:40 am		MTh
+04:10 pm - 05:20 pm		MTh
+06:00 pm - 07:30 pm		T
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		T
+09:50 am - 12:20 pm		W
+11:10 am - 12:20 pm		TF
+02:50 pm - 04:30 pm,01:30 pm - 04:00 pm		M,Th
+04:10 pm - 06:40 pm,02:15 pm - 03:25 pm		Th,W
+09:50 am - 12:20 pm		W
+02:50 pm - 04:30 pm,03:55 pm - 06:25 pm		M,W
+11:10 am - 01:20 pm		M
+02:15 pm - 04:45 pm		W
+01:30 pm - 02:40 pm		MTh
+08:30 am - 09:40 am		MTh
+04:10 pm - 06:30 pm		M
+11:10 am - 12:20 pm		TF
+02:50 pm - 04:00 pm		TF
+02:50 pm - 04:00 pm		MTh
+09:50 am - 12:20 pm		W
+08:30 am - 09:40 am		TF
+02:50 pm - 04:00 pm		TF
+11:10 am - 12:20 pm		MTh
+02:50 pm - 04:00 pm		MTh
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		TF
+02:15 pm - 04:45 pm		W
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		MTh
+02:50 pm - 04:00 pm		TF
+09:50 am - 11:00 am		MTh
+09:50 am - 12:20 pm		W
+09:50 am - 11:00 am		TF
+08:30 am - 11:00 am		W
+02:50 pm - 04:00 pm		TF
+03:35 pm - 05:55 pm		W
+01:30 pm - 02:40 pm		TF
+02:50 pm - 04:00 pm		MTh
+06:30 pm - 09:30 pm,02:15 pm - 03:25 pm		M,W
+09:50 am - 11:00 am		MTh
+08:30 am - 09:40 am		MTh
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+01:30 pm - 05:00 pm		Th
+08:30 am - 09:40 am		TF
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		MTh
+01:30 pm - 04:00 pm		MTh
+11:10 am - 12:20 pm		TF
+None assigned		None assigned
+03:20 pm - 06:00 pm		T
+06:30 pm - 07:30 pm		T
+09:50 am - 11:00 am,11:10 am - 12:20 pm		MTh,W
+08:30 am - 09:40 am,11:10 am - 12:20 pm		TF,W
+08:30 am - 09:40 am,02:15 pm - 04:00 pm		MTTh,W
+04:10 pm - 05:20 pm		MTh
+02:50 pm - 04:00 pm,02:15 pm - 03:25 pm		TF,W
+11:10 am - 12:20 pm,09:50 am - 11:00 am		MTh,W
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		TF
+02:50 pm - 04:00 pm		TF
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 02:40 pm		TF
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+08:30 am - 11:30 am		T
+01:00 pm - 04:00 pm		T
+08:30 am - 11:30 am		W
+02:15 pm - 05:15 pm		W
+08:30 am - 11:00 am		MTh
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		TF
+01:00 pm - 04:00 pm		T
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm		TWF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+06:15 pm - 08:35 pm		W
+08:50 am - 09:40 am		MTWTh
+11:10 am - 12:20 pm,11:10 am - 12:00 pm		TF,W
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+02:15 pm - 04:45 pm		W
+09:50 am - 11:00 am		MTh
+02:50 pm - 04:00 pm		MTh
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		TF
+06:30 pm - 08:40 pm		W
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		TF
+04:10 pm - 05:20 pm		MTh
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		MTh
+08:30 am - 09:40 am		MTh
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 02:40 pm		MTh
+02:15 pm - 04:45 pm		W
+09:50 am - 12:20 pm		W
+09:50 am - 12:20 pm		W
+09:50 am - 12:20 pm		W
+02:15 pm - 04:45 pm		W
+01:30 pm - 02:40 pm		MWTh
+09:50 am - 11:00 am		MTh
+08:30 am - 09:40 am		W
+11:10 am - 12:20 pm		W
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am		TWF
+09:50 am - 11:00 am		MTWThF
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		MWTh
+11:10 am - 12:20 pm		TWF
+02:50 pm - 04:00 pm		TF
+08:30 am - 09:40 am		TF
+01:30 pm - 04:00 pm		T
+08:30 am - 09:40 am		MTWThF
+09:50 am - 11:00 am		MTWThF
+11:10 am - 12:20 pm		MTWThF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTThF,W
+02:50 pm - 04:00 pm		MThF
+01:30 pm - 02:40 pm		MTh
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 04:00 pm		T
+08:30 am - 09:40 am		MTWTh
+11:10 am - 12:20 pm		MTWTh
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 02:40 pm		TF
+08:50 am - 09:40 am		TWThF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+08:30 am - 09:40 am		MWTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W1
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W1
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W
+11:10 am - 12:20 pm		TWF
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am		MWTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		TF,W
+11:10 am - 12:20 pm		TWF
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+08:30 am - 09:40 am		TWF
+09:50 am - 11:00 am		TWF
+09:50 am - 11:00 am		MWTh
+09:50 am - 11:00 am		TWF
+11:10 am - 12:20 pm		TWF
+08:30 am - 09:40 am		TWF
+09:50 am - 11:00 am		MWTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+09:50 am - 11:00 am		TWF
+11:10 am - 12:20 pm		TWF
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W1
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W1
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 02:30 pm		T
+02:50 pm - 03:50 pm		T
+02:50 pm - 03:50 pm		Th
+04:10 pm - 05:10 pm		Th
+09:50 am - 11:00 am		MWTh
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W
+11:10 am - 12:20 pm		MWTh
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 04:00 pm		T
+01:30 pm - 02:40 pm		MTh
+04:10 pm - 05:20 pm		MTh
+09:50 am - 11:00 am		MTh
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm		TF
+02:15 pm - 04:45 pm		W
+08:30 am - 09:40 am		TF
+01:30 pm - 02:40 pm		Th
+03:10 pm - 04:20 pm		Th
+09:50 am - 11:00 am		MTh
+01:30 pm - 05:00 pm		M
+02:15 pm - 05:45 pm		W
+02:15 pm - 04:45 pm		W
+02:15 pm - 04:45 pm		W
+09:50 am - 11:00 am		TF
+12:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm		MTh
+01:00 pm - 04:30 pm		Th
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		MTh
+02:15 pm - 04:45 pm		W
+01:30 pm - 02:40 pm		MTh
+02:15 pm - 04:45 pm		W
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		T
+01:30 pm - 02:40 pm		MTh
+02:50 pm - 04:00 pm		MTh
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		TF
+04:10 pm - 05:20 pm		MTh
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+09:50 am - 12:20 pm		W
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		T
+01:30 pm - 02:40 pm		TF
+08:30 am - 09:40 am		TWF
+09:50 am - 11:00 am		TWF
+01:30 pm - 04:30 pm		M
+12:30 pm - 03:30 pm		T
+02:15 pm - 05:15 pm		W
+01:30 pm - 04:30 pm		Th
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 04:30 pm		M
+02:15 pm - 05:15 pm		W
+01:30 pm - 04:30 pm		Th
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 04:30 pm		M
+02:15 pm - 05:15 pm		W
+01:30 pm - 04:30 pm		Th
+12:30 pm - 03:30 pm		T
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+01:30 pm - 04:30 pm		M
+02:15 pm - 05:15 pm		W
+01:30 pm - 04:30 pm		Th
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+12:30 pm - 03:30 pm		T
+01:30 pm - 04:30 pm		F
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W
+None assigned		None assigned
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 02:40 pm		TF
+01:30 pm - 04:00 pm		TF
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm		MTh
+02:50 pm - 04:00 pm		TF
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		MTh
+08:30 am - 09:40 am		MTh
+08:30 am - 11:00 am		T
+09:50 am - 12:20 pm		W
+08:30 am - 11:00 am		W
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		MTh
+09:50 am - 12:20 pm		T
+08:30 am - 09:40 am		TF
+01:30 pm - 02:40 pm		MTh
+11:10 am - 01:20 pm		T
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		TF
+08:30 am - 09:40 am		MTh
+08:30 am - 09:40 am		TF
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		M
+11:10 am - 12:20 pm		Th
+01:30 pm - 02:40 pm		T
+01:30 pm - 02:40 pm		F
+None assigned		None assigned
+09:50 am - 11:00 am		TF
+02:50 pm - 04:00 pm		TF
+11:10 am - 12:20 pm		TF
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 02:40 pm		TF
+01:30 pm - 02:40 pm		MTh
+08:30 am - 09:40 am		TF
+09:50 am - 11:00 am		TF
+02:15 pm - 04:45 pm		W
+09:50 am - 12:20 pm		MTh
+08:30 am - 11:00 am		TF
+01:30 pm - 04:00 pm		MTh
+01:30 pm - 04:00 pm		T
+09:50 am - 12:20 pm		M
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		Th
+02:50 pm - 04:00 pm		TF
+06:15 pm - 08:45 pm		W
+08:30 am - 09:40 am,08:30 am - 09:40 am		TF,W
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MW,Th
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		T
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		M
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+04:10 pm - 05:20 pm		MTh
+01:30 pm - 04:00 pm		Th
+02:15 pm - 04:45 pm		W
+12:30 pm - 01:20 pm,08:30 am - 09:40 am		F,TThF
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		TF,W
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+02:50 pm - 04:00 pm		M
+01:30 pm - 04:00 pm		M
+08:30 am - 09:40 am		MTh
+01:30 pm - 02:40 pm		MTh
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W1
+08:30 am - 09:40 am,08:30 am - 09:40 am		TF,W2
+09:50 am - 11:00 am		T
+09:50 am - 11:00 am		W
+11:10 am - 12:20 pm		W
+11:10 am - 12:20 pm		T
+11:10 am - 12:20 pm		TF
+01:30 pm - 04:00 pm		M
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		Th
+01:30 pm - 04:00 pm		M
+09:50 am - 12:20 pm		W
+01:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm		MWTh
+08:30 am - 09:40 am		TWF
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am		MWTh
+08:30 am - 09:40 am		TWF
+09:50 am - 11:00 am		TWF
+11:10 am - 12:20 pm		TWF
+11:10 am - 12:20 pm		TWF
+08:30 am - 09:40 am		MTh
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		TF
+02:50 pm - 04:00 pm		MTh
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 02:40 pm		MTh
+06:00 pm - 09:30 pm		T
+01:30 pm - 04:00 pm		T
+03:30 pm - 06:30 pm		W
+08:30 am - 09:40 am		MWTh
+09:50 am - 12:20 pm		M
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 04:00 pm		M
+01:30 pm - 04:00 pm		T
+02:15 pm - 04:45 pm		W
+09:50 am - 12:20 pm		W
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		MTh
+01:30 pm - 04:00 pm		T
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 02:40 pm		TF
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		Th
+01:30 pm - 04:00 pm		M
+02:15 pm - 04:45 pm		W
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+11:10 am - 01:20 pm,11:10 am - 12:20 pm		M,Th
+11:10 am - 12:20 pm,11:10 am - 01:20 pm		F,T
+11:10 am - 12:20 pm		TF
+08:30 am - 09:40 am		MWTh
+11:10 am - 01:20 pm,11:10 am - 12:20 pm		M,Th
+04:10 pm - 06:30 pm,04:10 pm - 05:20 pm		M,Th
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm		TWF
+01:30 pm - 02:40 pm		TF
+02:50 pm - 04:00 pm		TF
+01:30 pm - 02:40 pm		MTh
+04:10 pm - 05:20 pm		MTh
+02:50 pm - 04:00 pm		TF
+09:50 am - 11:00 am		TF
+08:30 am - 09:40 am		TF
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 02:40 pm		MTh
+08:30 am - 09:40 am		MTh
+11:10 am - 12:20 pm		MTh
+02:50 pm - 04:00 pm		TF
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		TF
+None assigned		None assigned
+None assigned		None assigned
+09:50 am - 12:20 pm		W
+08:30 am - 09:40 am		TF
+01:00 pm - 03:40 pm		MTTh
+09:00 am - 11:30 am		MWF
+12:30 pm - 04:00 pm		TWTh
+01:30 pm - 05:20 pm		MW
+10:00 am - 12:30 pm		MWTh
+01:00 pm - 04:00 pm		TWTh
+09:00 am - 12:00 pm,12:30 pm - 03:30 pm		M,WTh
+01:00 pm - 03:30 pm		MWTh
+06:00 pm - 08:45 pm		MWTh
+02:30 pm - 05:00 pm		TWTh
+09:00 am - 12:00 pm		MWTh
+09:30 am - 12:10 pm		TWTh
+09:00 am - 11:40 am		MTW
+01:40 pm - 04:00 pm		TWTh
+09:30 am - 12:00 pm		MTW
+08:30 am - 11:45 am		TWTh
+04:30 pm - 06:30 pm		TTh
+None assigned		None assigned
+12:00 pm - 05:00 pm		WThF
+09:00 am - 12:00 pm		MWF
+01:30 pm - 05:20 pm		MW
+10:00 am - 12:00 pm		MTWTh
+01:00 pm - 04:30 pm		MTh
+01:30 pm - 03:30 pm		MTWTh
+09:00 am - 12:30 pm		MTh
+01:30 pm - 04:10 pm		MWTh
+01:00 pm - 04:00 pm		TWTh
+09:00 am - 10:30 am		MTWThF
+10:45 am - 12:15 pm		TTh
+09:00 am - 11:30 am		MTTh
+01:30 pm - 04:10 pm		MWTh
+01:00 pm - 04:00 pm		MWTh
+06:00 pm - 08:45 pm		MWTh
+09:00 am - 12:00 pm		MWTh
+01:20 pm - 04:00 pm		MWF
+None assigned		None assigned
+01:00 pm - 04:00 pm		TWTh
+01:00 pm - 04:00 pm		TWTh
+10:00 am - 12:00 pm		MTWTh
+01:20 pm - 04:00 pm		MWF
+09:00 am - 12:00 pm		MWTh
+None assigned		None assigned
+None assigned		None assigned
+06:30 pm - 09:00 pm		TWTh
+01:00 pm - 03:40 pm		TWTh
+09:00 am - 10:30 am		MTWThF
+10:45 am - 12:15 pm		TTh
+08:30 am - 11:45 am		TWTh
+08:30 am - 11:45 am		TWTh
+01:00 pm - 03:30 pm		TWTh
+06:00 pm - 08:45 pm		MWTh
+None assigned		None assigned
+None assigned		None assigned
+None assigned		None assigned
+01:30 pm - 04:00 pm		T
+01:30 pm - 02:40 pm		MTh
+02:15 pm - 04:45 pm		W
+09:50 am - 12:20 pm		M
+01:30 pm - 04:00 pm		Th
+07:00 pm - 09:30 pm		M
+09:50 am - 12:20 pm		W
+07:00 pm - 09:30 pm		T
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		MTh
+04:10 pm - 05:20 pm		MTh
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		T
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		Th
+06:00 pm - 08:30 pm		T
+06:30 pm - 09:30 pm		M
+01:30 pm - 04:00 pm		M
+08:30 am - 09:40 am		MTWTh
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,TW
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am		MWTh
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		W
+01:30 pm - 02:40 pm		T
+02:50 pm - 04:00 pm		T
+11:10 am - 12:20 pm		Th
+11:10 am - 12:20 pm		T
+11:10 am - 12:20 pm		F
+11:10 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm		TF
+01:30 pm - 04:00 pm		Th
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		TF
+01:30 pm - 04:00 pm		M
+09:50 am - 12:20 pm		Th
+09:50 am - 12:20 pm		W
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		Th
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		T
+09:50 am - 12:20 pm		W
+01:30 pm - 04:00 pm		TF
+06:30 pm - 09:00 pm		TTh
+12:30 pm - 05:20 pm		M
+01:30 pm - 04:00 pm		MTh
+09:50 am - 12:20 pm		TF
+01:30 pm - 05:20 pm		M
+01:30 pm - 04:00 pm		TF
+09:50 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		MTh
+09:50 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		MTh
+01:30 pm - 05:20 pm		Th
+12:30 pm - 05:20 pm		Th
+06:30 pm - 09:00 pm		MW
+04:10 pm - 05:45 pm,12:30 pm - 04:00 pm		M,T
+01:30 pm - 04:00 pm		TF
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 02:40 pm		MTh
+08:30 pm - 10:30 pm		M
+08:30 pm - 10:30 pm		T
+08:30 pm - 10:30 pm		W
+11:10 am - 12:20 pm		MTh
+02:50 pm - 04:00 pm		MTh
+11:10 am - 12:20 pm		MTh
+02:50 pm - 04:00 pm		MTh
+08:30 pm - 10:30 pm		M
+08:30 pm - 10:30 pm		T
+08:30 pm - 10:30 pm		W
+01:30 pm - 04:00 pm,08:30 pm - 10:30 pm		T,Th
+04:10 pm - 05:20 pm		MTh
+09:50 am - 11:00 am		TF
+06:00 pm - 09:30 pm		W
+04:30 pm - 05:30 pm		Th
+09:50 am - 11:00 am		TF
+08:30 am - 09:40 am		TF
+09:50 am - 11:00 am		TF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+08:30 am - 12:00 pm		W
+01:00 pm - 04:30 pm		Th
+08:30 am - 09:40 am		MTh
+11:10 am - 12:20 pm		TF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+06:30 pm - 10:00 pm		T
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		Th
+06:30 pm - 10:00 pm		Th
+09:50 am - 11:00 am		MTh
+08:30 am - 09:40 am		TF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+06:30 pm - 10:00 pm		T
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		Th
+01:00 pm - 04:30 pm		F
+11:10 am - 12:20 pm		MTh
+08:30 am - 09:40 am		T
+11:10 am - 12:20 pm		T
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+06:30 pm - 10:00 pm		T
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		Th
+06:30 pm - 10:00 pm		Th
+09:50 am - 11:00 am		M
+09:50 am - 11:00 am		Th
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+06:30 pm - 10:00 pm		T
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		Th
+01:00 pm - 04:30 pm		F
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		TF
+12:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm		MTh
+01:30 pm - 05:00 pm		M
+11:10 am - 12:20 pm		MTh
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+09:50 am - 11:00 am		MTh
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		F
+09:50 am - 11:00 am		TF
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		Th
+09:50 am - 11:00 am		MTh
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		F
+02:15 pm - 04:45 pm		W
+11:10 am - 12:20 pm		TF
+02:15 pm - 05:45 pm		W
+01:30 pm - 05:00 pm		Th
+11:10 am - 12:20 pm		MTh
+01:30 pm - 05:00 pm		Th
+09:50 am - 11:00 am		TF
+08:30 am - 12:00 pm		W
+06:30 pm - 09:00 pm		M
+06:30 pm - 09:00 pm		T
+06:30 pm - 09:00 pm		W
+09:50 am - 11:00 am		TF
+06:30 pm - 09:30 pm,02:50 pm - 04:00 pm		M,Th
+01:30 pm - 05:20 pm		M
+01:30 pm - 04:00 pm		MTh
+07:00 pm - 09:30 pm,02:50 pm - 05:20 pm		T,Th
+06:30 pm - 09:30 pm		W
+11:10 am - 12:20 pm,11:10 am - 01:20 pm		F,T
+08:30 am - 11:00 am		Th
+01:30 pm - 05:20 pm		Th
+09:50 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		MTh
+06:30 pm - 09:00 pm		MW
+08:30 am - 11:00 am		TF
+03:35 pm - 06:05 pm		W
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 05:00 pm		M
+02:15 pm - 05:45 pm		W
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+01:30 pm - 05:00 pm		Th
+12:30 pm - 04:00 pm		F
+11:10 am - 12:20 pm		TWF
+09:50 am - 11:00 am		TWF
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+01:30 pm - 05:00 pm		Th
+12:30 pm - 04:00 pm		F
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+08:30 am - 09:40 am		TWF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am		TWF
+11:10 am - 12:20 pm		TWF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+01:30 pm - 05:00 pm		Th
+12:30 pm - 04:00 pm		F
+12:30 pm - 04:00 pm		F
+06:00 pm - 09:30 pm		T
+01:30 pm - 05:00 pm		Th
+08:30 am - 09:40 am		MWTh
+12:30 pm - 04:00 pm		T
+12:30 pm - 04:00 pm		F
+02:15 pm - 05:45 pm		W
+11:10 am - 12:20 pm		MWTh
+12:30 pm - 04:00 pm		T
+01:30 pm - 05:00 pm		Th
+01:30 pm - 04:00 pm		Th
+06:00 pm - 09:30 pm		M
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+01:30 pm - 05:00 pm		M
+01:30 pm - 05:00 pm		Th
+11:10 am - 12:20 pm,09:50 am - 11:00 am		MTh,W
+01:30 pm - 05:00 pm		M
+11:10 am - 12:20 pm		TWF
+01:30 pm - 05:00 pm		Th
+12:30 pm - 04:00 pm		T
+08:30 am - 09:40 am		MTWTh
+09:50 am - 11:00 am		MTWTh
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTW,Th
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTTh,W
+08:30 am - 09:40 am		TWF
+11:10 am - 12:20 pm		TWF
+06:30 pm - 09:30 pm		W
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		TWF
+08:30 am - 09:40 am		MWTh
+01:30 pm - 02:40 pm		TF
+01:30 pm - 04:00 pm		T
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		TF
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+08:30 am - 09:40 am		T
+09:50 am - 11:00 am		T
+11:10 am - 12:20 pm		T
+01:30 pm - 02:40 pm		T
+02:50 pm - 04:00 pm		T
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+08:30 am - 10:20 am		W
+10:30 am - 12:20 pm		W
+02:15 pm - 04:05 pm		W
+02:15 pm - 04:05 pm		W
+01:30 pm - 02:40 pm		MTh
+08:30 am - 10:20 am		W
+02:15 pm - 04:05 pm		W
+02:50 pm - 04:00 pm		MTh
+02:50 pm - 04:00 pm		W
+01:30 pm - 02:40 pm		MTh
+10:30 am - 12:20 pm		T
+01:30 pm - 03:20 pm		T
+09:50 am - 11:00 am		TF
+08:30 am - 09:40 am		MWTh
+08:30 am - 09:40 am		TF
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		MTh
+04:10 pm - 05:20 pm,03:35 pm - 04:45 pm		MTh,W1
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W2
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		TF,W2
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W2
+08:30 am - 09:40 am,08:30 am - 09:40 am		MTh,W1
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W1
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W1
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W2
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W1
+01:30 pm - 02:40 pm		T
+02:50 pm - 04:00 pm		T
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W2
+09:50 am - 11:00 am		W
+11:10 am - 12:20 pm		W
+08:30 am - 09:40 am		TWF
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am		MWTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W1
+08:30 am - 09:40 am,08:30 am - 09:40 am		TF,W2
+11:10 am - 12:20 pm		TWF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W1
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W1
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W2
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W1
+02:50 pm - 05:20 pm		Th
+02:15 pm - 03:25 pm,01:30 pm - 02:40 pm,01:30 pm - 02:40 pm		W2,F,T
+11:10 am - 12:20 pm		TF
+08:30 am - 09:40 am,08:30 am - 09:40 am		TF,W2
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		TF
+04:10 pm - 05:20 pm		MTh
+06:00 pm - 07:30 pm		T
+09:50 am - 12:20 pm		W
+01:30 pm - 04:00 pm		T
+03:00 pm - 06:00 pm		W
+03:00 pm - 06:00 pm		W
+None assigned		None assigned
+None assigned		None assigned
+04:10 pm - 06:40 pm		M
+09:50 am - 12:20 pm		W
+02:15 pm - 04:45 pm		W
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		TF
+08:30 am - 09:40 am		MTh
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		MTh
+09:50 am - 12:20 pm		W
+11:10 am - 12:20 pm		TF
+08:30 am - 11:00 am		Th
+02:15 pm - 04:45 pm		W
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		MTh
+02:50 pm - 04:00 pm		TF
+02:50 pm - 04:00 pm		TF
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		TF
+02:50 pm - 04:00 pm		TF
+01:30 pm - 02:40 pm		TF
+04:10 pm - 05:20 pm		MTh
+09:50 am - 12:20 pm		W
+02:15 pm - 04:45 pm		W
+02:50 pm - 04:00 pm		MTh
+02:15 pm - 04:45 pm		W
+01:30 pm - 02:40 pm		TF
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 02:40 pm		TF
+02:50 pm - 04:00 pm		MTh
+08:30 am - 09:40 am		TF
+11:10 am - 12:20 pm		TF
+01:00 pm - 04:00 pm		M
+08:30 am - 11:30 am		W
+02:15 pm - 05:15 pm		W
+02:15 pm - 04:45 pm		W
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		TWF
+01:00 pm - 04:00 pm		F
+06:30 pm - 09:00 pm		M
+05:45 pm - 09:45 pm		W
+01:30 pm - 04:00 pm		MTh
+None assigned		None assigned
+05:45 pm - 09:45 pm		Th
+01:30 pm - 02:40 pm,11:10 am - 12:20 pm		MTh,W
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		TF,W
+11:10 am - 12:20 pm		MWTh
+09:50 am - 11:00 am		MWTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+09:50 am - 11:00 am,02:15 pm - 04:00 pm		MTTh,W
+01:30 pm - 02:40 pm		MTh
+02:50 pm - 04:00 pm		MTh
+08:30 am - 09:40 am		TF
+01:30 pm - 02:40 pm		TF
+02:50 pm - 04:00 pm		MTh
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		TF
+01:30 pm - 02:40 pm		MTh
+08:30 am - 11:00 am		TF
+02:15 pm - 04:45 pm		W
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+01:00 pm - 04:00 pm		Th
+08:30 am - 11:30 am		T
+01:00 pm - 04:00 pm		T
+08:30 am - 11:30 am		W
+02:15 pm - 05:15 pm		W
+08:30 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+01:00 pm - 04:00 pm		T
+08:30 am - 11:00 am		MTh
+04:10 pm - 05:20 pm		MTh
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		TWF
+01:00 pm - 04:00 pm		F
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+11:10 am - 12:20 pm		MWTh
+09:50 am - 11:00 am		TWF
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		TF,W
+06:15 pm - 08:30 pm		T
+08:50 am - 09:40 am		TWThF
+09:50 am - 11:00 am,10:10 am - 11:00 am		TF,W
+09:50 am - 11:00 am		MTh
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		MTh
+02:50 pm - 04:00 pm		MTh
+04:10 pm - 05:20 pm		MTh
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+02:15 pm - 04:45 pm		W
+09:50 am - 12:20 pm		W
+09:50 am - 12:20 pm		W
+02:15 pm - 04:45 pm		W
+02:50 pm - 05:20 pm		M
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am		TWF
+None assigned		None assigned
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W
+08:30 am - 09:40 am		TF
+09:50 am - 11:00 am		MWTh
+09:50 am - 11:00 am		MTWThF
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		MTh
+01:30 pm - 04:00 pm		Th
+08:30 am - 09:40 am		MTWThF
+09:50 am - 11:00 am		MTWThF
+11:10 am - 12:20 pm		MTWThF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTThF,W
+02:50 pm - 04:00 pm		TThF
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		TF
+02:15 pm - 04:45 pm		W
+08:30 am - 09:40 am		MTWTh
+11:10 am - 12:20 pm		MTWTh
+12:30 pm - 02:40 pm,12:30 pm - 01:20 pm		F,T
+02:50 pm - 04:00 pm		MTh
+08:50 am - 09:40 am		MTWTh
+11:10 am - 12:20 pm,11:10 am - 12:00 pm		MTh,W
+01:30 pm - 02:40 pm		MTh
+02:50 pm - 04:00 pm		MTh
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		MWTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W
+11:10 am - 12:20 pm		MWTh
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W
+11:10 am - 12:20 pm		TWF
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		TF,W
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+08:30 am - 09:40 am,08:30 am - 09:40 am		MTh,W
+09:50 am - 11:00 am		MWTh
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		TF,W
+08:30 am - 09:40 am		TWF
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+11:10 am - 12:20 pm		TWF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+09:50 am - 11:00 am		MTh
+02:15 pm - 04:45 pm		W
+11:10 am - 12:20 pm		MWTh
+09:50 am - 11:00 am		TWF
+09:50 am - 11:00 am		TWF
+11:10 am - 12:20 pm		MWTh
+02:50 pm - 05:20 pm		Th
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		MTh
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		M
+02:50 pm - 05:20 pm		Th
+02:15 pm - 04:45 pm		W
+08:30 am - 09:40 am		MTh
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		Th
+03:10 pm - 04:20 pm		Th
+02:00 pm - 03:10 pm		F
+03:30 pm - 04:40 pm		F
+11:10 am - 12:20 pm		TF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm,11:10 am - 12:20 pm		M,MTh
+09:50 am - 11:00 am		MTh
+12:30 pm - 02:40 pm,08:30 am - 09:40 am		F,MTh
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		TF
+04:10 pm - 05:20 pm		MTh
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		MTh
+08:30 am - 09:40 am		TF
+01:30 pm - 02:40 pm		TF
+None assigned		None assigned
+02:50 pm - 05:20 pm		M
+01:30 pm - 04:00 pm		T
+02:50 pm - 04:00 pm		MTh
+11:10 am - 12:20 pm		MWTh
+12:30 pm - 03:30 pm		T
+02:15 pm - 05:15 pm		W
+01:30 pm - 04:30 pm		Th
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm		TWF
+01:30 pm - 04:30 pm		M
+12:30 pm - 03:30 pm		T
+02:15 pm - 05:15 pm		W
+01:30 pm - 04:30 pm		Th
+09:50 am - 11:00 am		MWTh
+02:15 pm - 05:15 pm		W
+01:30 pm - 04:30 pm		F
+01:30 pm - 04:30 pm		Th
+09:50 am - 11:00 am		TWF
+01:30 pm - 04:30 pm		M
+12:30 pm - 03:30 pm		T
+11:10 am - 12:20 pm,02:15 pm - 05:15 pm		M,W
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+01:30 pm - 04:30 pm,12:30 pm - 03:30 pm		F,T
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 03:25 pm		MTh
+01:30 pm - 04:30 pm,12:30 pm - 03:30 pm		F,T
+09:50 am - 11:00 am		TF
+01:30 pm - 04:00 pm		Th
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W1
+11:10 am - 12:20 pm		TF
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W
+11:10 am - 12:20 pm		TF
+08:30 am - 11:00 am		T
+11:10 am - 12:20 pm		MTh
+08:30 am - 09:40 am		MTh
+02:15 pm - 04:45 pm		W
+09:50 am - 12:20 pm		W
+01:30 pm - 04:00 pm		M
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		TF
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		M
+09:50 am - 11:00 am		MTh
+01:30 pm - 04:00 pm		Th
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		MTh
+08:30 am - 09:40 am		TF
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		MTh
+02:50 pm - 04:00 pm		M
+02:50 pm - 04:00 pm		Th
+02:50 pm - 04:00 pm		Th
+01:30 pm - 02:40 pm		T
+01:30 pm - 02:40 pm		F
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+08:30 am - 09:40 am		MTh
+06:15 pm - 08:45 pm		M
+06:15 pm - 08:45 pm		M
+01:30 pm - 04:00 pm		Th
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		TF
+01:30 pm - 04:00 pm		MTh
+08:30 am - 11:00 am		TF
+01:30 pm - 04:00 pm		M
+01:30 pm - 04:00 pm		TF
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		F
+06:15 pm - 08:45 pm		T
+01:30 pm - 04:00 pm		Th
+01:30 pm - 04:00 pm		T
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		M
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+09:50 am - 11:00 am		TF
+02:15 pm - 04:45 pm		W
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		TF
+02:15 pm - 04:45 pm		W
+11:10 am - 12:20 pm		MTh
+None assigned		None assigned
+01:30 pm - 04:00 pm		M
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		M
+01:30 pm - 04:00 pm		Th
+02:50 pm - 05:20 pm		M
+01:30 pm - 04:00 pm		Th
+12:30 pm - 01:20 pm,08:30 am - 09:40 am		F,TThF
+11:10 am - 12:20 pm		TWF
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 02:40 pm		TF
+02:15 pm - 03:25 pm		W
+01:30 pm - 04:00 pm		M
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W1
+01:30 pm - 02:40 pm		T
+02:50 pm - 04:00 pm		T
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W2
+09:50 am - 11:00 am		W
+11:10 am - 12:20 pm		W
+01:30 pm - 04:00 pm		T
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		MTh
+08:30 am - 09:40 am		MTh
+11:10 am - 12:20 pm		TF
+01:30 pm - 04:00 pm		M
+01:30 pm - 04:00 pm		Th
+None assigned		None assigned
+08:30 am - 09:40 am		MWTh
+08:30 am - 09:40 am		TWF
+08:30 am - 09:40 am		MWTh
+11:10 am - 12:20 pm		TWF
+09:50 am - 11:00 am		TWF
+09:50 am - 11:00 am		TWF
+09:50 am - 11:00 am		MWTh
+02:50 pm - 04:00 pm		MWTh
+04:10 pm - 05:20 pm		MWTh
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+08:30 am - 09:40 am		MTh
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		TF
+08:30 am - 09:40 am		TF
+09:50 am - 11:00 am		TF
+06:30 pm - 08:50 pm		Th
+01:30 pm - 04:00 pm		M
+01:30 pm - 04:00 pm		T
+02:15 pm - 04:45 pm		W
+09:50 am - 12:20 pm		M
+09:50 am - 12:20 pm		W
+01:30 pm - 04:00 pm		T
+09:50 am - 11:00 am		MTh
+01:30 pm - 04:00 pm		M
+02:15 pm - 04:45 pm		W
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+01:30 pm - 04:00 pm		M
+02:15 pm - 04:45 pm		W
+06:30 pm - 09:30 pm		W
+01:30 pm - 04:00 pm		Th
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm,12:30 pm - 01:20 pm		TF,Th
+12:30 pm - 01:20 pm,08:30 am - 09:40 am		T,TF
+11:10 am - 12:20 pm,09:50 am - 11:00 am		TF,TF
+12:30 pm - 01:20 pm,11:10 am - 12:20 pm		T,TF
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		MTh
+02:50 pm - 04:00 pm		MTh
+09:50 am - 11:00 am		MTh
+08:30 am - 09:40 am		TF
+04:10 pm - 05:20 pm		MTh
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		MTh
+08:30 am - 09:40 am		MTh
+02:50 pm - 04:00 pm		MTh
+02:50 pm - 04:00 pm		TF
+01:30 pm - 02:40 pm		TF
+None assigned		None assigned
+None assigned		None assigned
+02:15 pm - 04:45 pm		W
+01:30 pm - 03:00 pm		TF
+None assigned		None assigned
+None assigned		None assigned
+None assigned		None assigned
+None assigned		None assigned
+None assigned		None assigned
+10:00 am - 02:30 pm		MTWThF
+None assigned		None assigned
+09:00 am - 12:30 pm		MTWThF
+None assigned		None assigned
+None assigned		None assigned
+None assigned		None assigned
+09:00 am - 02:00 pm		MTWThF
+None assigned		None assigned
+None assigned		None assigned
+None assigned		None assigned
+None assigned		None assigned
+11:10 am - 12:20 pm		TF
+01:30 pm - 04:00 pm		T
+09:50 am - 12:20 pm		M
+01:30 pm - 04:00 pm		M
+07:00 pm - 09:30 pm		T
+07:00 pm - 09:30 pm		M
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		F
+11:10 am - 12:20 pm		MTh
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		Th
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm,09:50 am - 12:20 pm		TF,W
+11:10 am - 12:20 pm		MTh
+06:30 pm - 09:00 pm		M
+01:30 pm - 04:00 pm		M
+06:30 pm - 09:00 pm		T
+08:30 am - 09:40 am		MTWTh
+09:50 am - 11:00 am		MTWTh
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am		MWTh
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		W
+11:10 am - 12:20 pm		W
+01:30 pm - 02:40 pm		T
+02:50 pm - 04:00 pm		T
+11:10 am - 12:20 pm		Th
+01:30 pm - 02:40 pm,01:30 pm - 04:00 pm		M,Th
+01:30 pm - 04:00 pm		T
+01:30 pm - 02:40 pm		TF
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		MTh
+02:15 pm - 04:45 pm		W
+02:50 pm - 05:20 pm		Th
+09:50 am - 12:20 pm		W
+09:50 am - 12:20 pm		T
+09:50 am - 12:20 pm		MTh
+09:50 am - 12:20 pm		TF
+06:30 pm - 09:00 pm		TTh
+12:30 pm - 05:20 pm		M
+01:30 pm - 04:00 pm,01:30 pm - 04:00 pm		F,T
+01:30 pm - 04:00 pm		TF
+01:30 pm - 05:20 pm		M
+09:50 am - 12:20 pm		TF
+09:50 am - 12:20 pm,09:50 am - 12:20 pm		F,T
+01:30 pm - 04:00 pm		MTh
+09:50 am - 12:20 pm		MTh
+06:30 pm - 09:00 pm		MW
+01:30 pm - 04:00 pm		TF
+01:30 pm - 04:00 pm		MTh
+09:50 am - 12:20 pm,02:15 pm - 04:00 pm		W,W
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		MTh
+07:30 pm - 09:30 pm		M
+09:30 pm - 11:30 pm		M
+07:30 pm - 09:30 pm		T
+09:30 pm - 11:30 pm		T
+07:30 pm - 09:30 pm		W
+02:50 pm - 04:00 pm		MTh
+02:50 pm - 04:00 pm		MTh
+07:30 pm - 09:30 pm		M
+09:30 pm - 11:30 pm		M
+07:30 pm - 09:30 pm		T
+09:30 pm - 11:30 pm		T
+07:30 pm - 09:30 pm		W
+01:30 pm - 04:00 pm,07:30 pm - 09:30 pm		M,Th
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		TF
+None assigned		None assigned
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+01:00 pm - 04:30 pm		F
+08:30 am - 09:40 am		TF
+09:50 am - 11:00 am		MTh
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+08:30 am - 12:00 pm		W
+01:00 pm - 04:30 pm		Th
+08:30 am - 09:40 am		MTh
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+06:30 pm - 10:00 pm		T
+08:30 am - 12:00 pm		W
+02:15 pm - 05:45 pm		W
+06:30 pm - 10:00 pm		Th
+01:00 pm - 04:30 pm		F
+08:30 am - 09:40 am		MTh
+09:50 am - 11:00 am		TF
+01:30 pm - 05:00 pm		M
+02:15 pm - 05:45 pm		W
+06:30 pm - 10:00 pm		W
+01:00 pm - 04:30 pm		Th
+01:00 pm - 04:30 pm		F
+09:50 am - 11:00 am		Th
+09:50 am - 11:00 am		M
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+06:30 pm - 10:00 pm		T
+08:30 am - 12:00 pm		W
+02:15 pm - 05:45 pm		W
+06:30 pm - 10:00 pm		Th
+01:00 pm - 04:30 pm		F
+01:00 pm - 04:30 pm		Th
+08:30 am - 09:40 am		Th
+08:30 am - 09:40 am		M
+01:30 pm - 05:00 pm		M
+02:15 pm - 05:45 pm		W
+06:30 pm - 10:00 pm		W
+01:00 pm - 04:30 pm		Th
+01:00 pm - 04:30 pm		F
+12:30 pm - 04:00 pm		T
+01:30 pm - 02:40 pm,01:30 pm - 04:00 pm		M,Th
+09:50 am - 11:00 am		MTh
+01:30 pm - 05:00 pm		M
+01:00 pm - 04:30 pm		F
+11:10 am - 12:20 pm		MTh
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		Th
+09:50 am - 11:00 am		TF
+01:00 pm - 04:30 pm		Th
+11:10 am - 12:20 pm		TF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		Th
+01:00 pm - 04:30 pm		F
+09:50 am - 11:00 am		MTh
+01:00 pm - 04:30 pm		Th
+09:50 am - 11:00 am		TF
+12:30 pm - 04:00 pm		T
+06:30 pm - 09:00 pm		W
+01:30 pm - 05:00 pm		M
+09:50 am - 12:20 pm		W
+02:15 pm - 04:45 pm		W
+11:10 am - 12:20 pm		TF
+07:00 pm - 09:30 pm,03:35 pm - 06:05 pm		T,W
+01:30 pm - 05:20 pm		M
+01:33 pm - 04:00 pm,01:30 pm - 04:00 pm		F,T
+04:30 pm - 06:30 pm,11:10 am - 12:20 pm		M,MTh
+01:30 pm - 02:40 pm		MTh
+06:30 pm - 09:00 pm,09:50 am - 11:00 am		M,Th
+04:10 pm - 06:30 pm,07:00 pm - 09:30 pm		Th,W
+09:50 am - 12:20 pm,09:50 am - 12:20 pm		F,T
+06:30 pm - 09:00 pm		MW
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		M
+09:50 am - 12:20 pm,02:15 pm - 04:00 pm		W,W
+09:50 am - 12:20 pm		T
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am		TWF
+11:10 am - 12:20 pm		TWF
+08:30 am - 09:40 am		TWF
+01:30 pm - 05:00 pm		M
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+12:30 pm - 04:00 pm		F
+12:30 pm - 04:00 pm		F
+02:15 pm - 05:45 pm		W
+11:10 am - 12:20 pm		MTWThF
+01:30 pm - 05:00 pm		Th
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,WF
+01:30 pm - 05:00 pm		Th
+12:30 pm - 04:00 pm		T
+08:30 am - 09:40 am		TWF
+11:10 am - 12:20 pm		TWF
+12:30 pm - 04:00 pm		T
+01:30 pm - 05:00 pm		Th
+12:30 pm - 04:00 pm		F
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+11:10 am - 12:20 pm		TWF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+02:15 pm - 05:45 pm		W
+01:30 pm - 05:00 pm		Th
+12:30 pm - 04:00 pm		F
+06:00 pm - 09:30 pm		T
+06:00 pm - 09:30 pm		Th
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 05:00 pm		M
+01:30 pm - 05:00 pm		Th
+12:30 pm - 04:00 pm		F
+09:50 am - 11:00 am		TWF
+01:30 pm - 05:00 pm		M
+12:30 pm - 04:00 pm		T
+09:50 am - 11:00 am		MWTh
+01:30 pm - 05:00 pm		Th
+12:30 pm - 04:00 pm		F
+11:10 am - 12:20 pm		MWTh
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+08:30 am - 09:40 am		TF
+09:50 am - 11:00 am		TWF
+01:30 pm - 05:00 pm		M
+01:30 pm - 05:00 pm		Th
+12:30 pm - 04:00 pm		F
+08:30 am - 09:40 am		MTWTh
+09:50 am - 11:00 am		MTWTh
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 02:40 pm		MTThF
+09:50 am - 11:00 am		MTThF
+08:30 am - 09:40 am		TWF
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		TWF
+08:30 am - 09:40 am		MWTh
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		MTh
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		M
+01:30 pm - 02:40 pm		MTh
+02:15 pm - 04:45 pm		W
+02:50 pm - 04:00 pm		TF
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+08:30 am - 09:40 am		T
+09:50 am - 11:00 am		T
+11:10 am - 12:20 pm		T
+01:30 pm - 02:40 pm		T
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+08:30 am - 10:20 am		W
+10:30 am - 12:20 pm		W
+02:15 pm - 04:05 pm		W
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		W
+02:50 pm - 04:00 pm		W
+11:10 am - 12:20 pm		MTh
+10:30 am - 12:20 pm		T
+01:30 pm - 03:20 pm		T
+09:50 am - 11:00 am		TWF
+08:30 am - 09:40 am		TF
+02:15 pm - 05:15 pm		W
+04:10 pm - 07:10 pm		Th
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 02:40 pm		TF
+08:30 am - 09:40 am		MTh
+08:30 am - 09:40 am		W
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		TF
+08:30 am - 09:40 am,08:30 am - 09:40 am		MTh,W1
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W1
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W1
+08:30 am - 09:40 am,08:30 am - 09:40 am		TF,W2
+08:30 am - 09:40 am,08:30 am - 09:40 am		MTh,W1
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W1
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W2
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W1
+01:30 pm - 02:40 pm		T
+02:50 pm - 04:00 pm		T
+02:50 pm - 04:00 pm,02:15 pm - 03:25 pm		MTh,W1
+09:50 am - 11:00 am		T
+11:10 am - 12:20 pm		T
+01:30 pm - 02:40 pm,03:35 pm - 04:45 pm		TF,W2
+09:50 am - 11:00 am		W
+11:10 am - 12:20 pm		W
+08:30 am - 09:40 am,08:30 am - 09:40 am		MTh,W
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+11:10 am - 12:20 pm		TWF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W2
+08:30 am - 09:40 am		TWF
+11:10 am - 12:20 pm		TWF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+08:30 am - 09:40 am		MTh
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		TF,W2
+09:50 am - 11:00 am		TF
+04:10 pm - 05:20 pm		MTh
+09:50 am - 11:00 am		MTh
+08:30 am - 09:40 am		TF
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		MTh
+02:50 pm - 05:20 pm		Th
+01:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		M,Th
+06:00 pm - 07:30 pm		T
+02:15 pm - 04:45 pm		W
+09:50 am - 12:20 pm		W
+11:10 am - 12:20 pm		TF
+02:50 pm - 04:30 pm,01:30 pm - 04:00 pm		M,Th
+04:10 pm - 06:40 pm,02:15 pm - 03:25 pm		Th,W
+11:10 am - 01:20 pm		Th
+09:50 am - 12:20 pm		W
+04:10 pm - 06:40 pm,03:35 pm - 06:05 pm		M,W1
+01:30 pm - 04:00 pm		T
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		MTh
+08:30 am - 09:40 am		MTh
+02:50 pm - 04:00 pm		MTh
+04:10 pm - 06:30 pm		M
+09:50 am - 12:20 pm		W
+09:50 am - 12:20 pm		F
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		TF
+02:50 pm - 04:00 pm		TF
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		TF
+03:35 pm - 05:55 pm		W
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		MTh
+02:50 pm - 04:00 pm		MTh
+09:50 am - 12:20 pm		W
+01:30 pm - 02:40 pm		MTh
+09:50 am - 12:20 pm		W
+01:30 pm - 02:40 pm		TF
+02:50 pm - 04:00 pm		TF
+02:15 pm - 04:45 pm		W
+02:50 pm - 04:00 pm		MTh
+11:10 am - 12:20 pm		MTh
+08:30 am - 09:40 am		TF
+12:30 pm - 04:00 pm		T
+02:15 pm - 05:45 pm		W
+01:00 pm - 04:30 pm		Th
+08:30 am - 09:40 am		MTh
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		M
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		M
+05:10 pm - 08:10 pm		Th
+08:30 am - 09:40 am,11:10 am - 12:20 pm		MTh,W
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		TF,W
+09:50 am - 11:00 am,02:15 pm - 04:00 pm		MTTh,W
+11:10 am - 12:20 pm		MWTh
+09:50 am - 11:00 am		TWF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+01:30 pm - 02:40 pm		TF
+01:30 pm - 02:40 pm		MTh
+04:10 pm - 05:20 pm		MTh
+01:30 pm - 02:40 pm		MTh
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 02:40 pm		TF
+02:50 pm - 04:00 pm		MTh
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		TF
+08:30 am - 09:40 am		MTh
+09:50 am - 11:00 am		TF
+01:00 pm - 04:00 pm		M
+01:00 pm - 04:00 pm		T
+08:30 am - 11:30 am		W
+02:15 pm - 05:15 pm		W
+01:00 pm - 04:00 pm		Th
+09:50 am - 11:00 am		MTh
+08:30 am - 09:40 am		TF
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		TF
+01:30 pm - 04:00 pm		M
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 04:00 pm		T
+08:30 am - 09:40 am		TWF
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		TF,W
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 02:40 pm		TF
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W
+08:50 am - 09:40 am		TWThF
+11:10 am - 12:20 pm,10:10 am - 11:00 am		TF,W
+01:30 pm - 02:40 pm		TF
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+02:15 pm - 04:45 pm		W
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		TF
+04:10 pm - 05:20 pm		MTh
+09:50 am - 11:00 am		MTh
+02:50 pm - 04:00 pm		TF
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+None assigned		None assigned
+11:10 am - 12:20 pm		TF
+02:50 pm - 04:00 pm		MTh
+04:10 pm - 05:20 pm		MTh
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		MTh
+01:30 pm - 02:40 pm		MTh
+02:50 pm - 04:00 pm		MTh
+11:10 am - 12:20 pm		MTh
+02:15 pm - 04:45 pm		W
+09:50 am - 12:20 pm		W
+09:50 am - 12:20 pm		W
+09:50 am - 12:20 pm		W
+02:15 pm - 04:45 pm		W
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am		TWF
+05:00 pm - 07:00 pm		W
+08:30 am - 09:40 am		MWTh
+08:30 am - 09:40 am		TWF
+09:50 am - 11:00 am,09:50 am - 11:00 am		MWTh,TF
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm		TWF
+04:10 pm - 06:30 pm,07:00 pm - 09:30 pm		Th,W
+01:30 pm - 02:40 pm		MTh
+08:30 am - 09:40 am		TF
+01:30 pm - 04:00 pm		T
+08:30 am - 09:40 am		MTWThF
+09:50 am - 11:00 am		MTWThF
+02:15 pm - 04:45 pm		W
+11:10 am - 12:20 pm		MTWThF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTThF,W
+02:50 pm - 04:00 pm		TThF
+01:30 pm - 02:40 pm		MTh
+02:50 pm - 04:00 pm		MTh
+02:15 pm - 04:45 pm		W
+08:30 am - 09:40 am		MTWTh
+11:10 am - 12:20 pm		MTWTh
+02:50 pm - 04:00 pm		MTh
+08:30 am - 09:40 am,12:30 pm - 01:20 pm,09:50 am - 11:00 am		M,F,F
+08:50 am - 09:40 am		MTWTh
+11:10 am - 12:20 pm,11:30 am - 12:20 pm		MTh,W
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		MTh
+01:30 pm - 04:00 pm		Th
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		TF,W
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm		MWTh
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W
+08:30 am - 09:40 am		TWF
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W
+08:30 am - 09:40 am		TWF
+01:30 pm - 02:40 pm		TThF
+02:50 pm - 04:00 pm		TThF
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+09:50 am - 11:00 am		TWF
+09:50 am - 11:00 am		TWF
+11:10 am - 12:20 pm		TWF
+08:30 am - 09:40 am,08:30 am - 09:40 am		MTh,W
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		TF,W
+09:50 am - 11:00 am		TWF
+09:50 am - 11:00 am		MWTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		TF,W
+09:50 am - 11:00 am		TWF
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W1
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm		TWF
+11:10 am - 12:20 pm		MWTh
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 02:40 pm		TF
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		T
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		MTh
+02:15 pm - 04:45 pm		W
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		Th
+03:10 pm - 04:20 pm		Th
+08:30 am - 09:40 am		MTh
+01:30 pm - 05:00 pm		M
+02:15 pm - 05:45 pm		W
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		TF
+12:30 pm - 04:00 pm		T
+06:00 pm - 08:30 pm		Th
+01:30 pm - 05:00 pm		M
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		MTh
+02:15 pm - 04:45 pm		W
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		TF
+01:30 pm - 04:00 pm		T
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		MTh
+None assigned		None assigned
+02:50 pm - 05:20 pm		M
+01:30 pm - 04:00 pm		T
+01:30 pm - 02:40 pm		TF
+08:30 am - 09:40 am		MWTh
+09:50 am - 11:00 am		MWTh
+01:30 pm - 04:30 pm		M
+12:30 pm - 03:30 pm		T
+02:15 pm - 05:15 pm		W
+01:30 pm - 04:30 pm		Th
+11:10 am - 12:20 pm		TWF
+01:30 pm - 04:30 pm		M
+12:30 pm - 03:30 pm		T
+02:15 pm - 05:15 pm		W
+01:30 pm - 04:30 pm		Th
+09:50 am - 11:00 am		MWTh
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 04:30 pm		M
+12:30 pm - 03:30 pm		T
+02:15 pm - 05:15 pm		W
+01:30 pm - 04:30 pm		Th
+09:50 am - 11:00 am		TWF
+01:30 pm - 04:30 pm		M
+12:30 pm - 03:30 pm		T
+02:15 pm - 05:15 pm		W
+01:30 pm - 04:30 pm		Th
+11:10 am - 12:20 pm		MWTh
+01:30 pm - 04:30 pm		Th
+02:50 pm - 04:00 pm,03:35 pm - 04:45 pm		MTh,W
+01:30 pm - 03:25 pm		TF
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		MTh,W
+01:30 pm - 04:00 pm		T
+01:30 pm - 02:40 pm		MTh
+02:15 pm - 04:45 pm		W
+08:30 am - 11:00 am		M
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am		TF
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		MTh
+08:30 am - 11:00 am		W
+02:50 pm - 05:20 pm		Th
+01:30 pm - 04:00 pm		M
+02:15 pm - 04:45 pm		W
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 04:00 pm		T
+09:50 am - 12:20 pm		M
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		M
+09:50 am - 12:20 pm		W
+01:30 pm - 04:00 pm		Th
+01:30 pm - 02:40 pm		MTh
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		TF
+08:30 am - 09:40 am		MTh
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		MTh
+02:50 pm - 04:00 pm		M
+02:50 pm - 04:00 pm		Th
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		T
+01:30 pm - 02:40 pm		F
+02:50 pm - 04:00 pm		MTh
+04:10 pm - 05:20 pm		M
+04:10 pm - 05:20 pm		Th
+09:50 am - 11:00 am		TF
+08:30 am - 09:40 am		MTh
+02:50 pm - 04:00 pm		TF
+08:30 am - 09:40 am		TF
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		M
+01:30 pm - 04:00 pm		T
+08:30 am - 11:00 am		MTh
+01:30 pm - 04:00 pm		MTh
+08:30 am - 11:00 am		TF
+01:30 pm - 04:00 pm		Th
+02:15 pm - 04:45 pm		W
+01:30 pm - 04:00 pm		T
+06:15 pm - 08:45 pm		W
+08:30 am - 09:40 am,08:30 am - 09:40 am		TF,W
+09:50 am - 11:00 am,09:50 am - 11:00 am		TF,W
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+09:50 am - 11:00 am		TF
+09:50 am - 11:00 am		TF
+01:30 pm - 02:40 pm		TF
+02:15 pm - 04:45 pm		W
+02:50 pm - 04:00 pm		TF
+01:30 pm - 04:00 pm		M
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		MTh
+02:15 pm - 04:45 pm		W
+04:10 pm - 05:20 pm		MTh
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		TF
+11:10 am - 12:20 pm		MTh
+09:50 am - 12:20 pm		W
+01:30 pm - 04:00 pm		T
+12:30 pm - 01:20 pm,08:30 am - 09:40 am		F,TThF
+11:10 am - 12:20 pm		TWF
+09:50 am - 11:00 am		TF
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 02:40 pm,02:15 pm - 03:25 pm		TF,W
+01:30 pm - 02:40 pm		M
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		TF
+09:50 am - 11:00 am,09:50 am - 11:00 am		MTh,W1
+01:30 pm - 02:40 pm		T
+02:50 pm - 04:00 pm		T
+02:50 pm - 04:00 pm,02:15 pm - 03:25 pm		MTh,W1
+09:50 am - 11:00 am		T
+11:10 am - 12:20 pm		T
+01:30 pm - 02:40 pm,03:35 pm - 04:45 pm		TF,W2
+09:50 am - 11:00 am		W
+11:10 am - 12:20 pm		W
+09:50 am - 11:00 am		MTh
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		Th
+01:30 pm - 04:00 pm		M
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		Th
+08:30 am - 09:40 am,08:30 am - 09:40 am		MTh,W
+08:30 am - 09:40 am		MWTh
+08:30 am - 09:40 am		MWTh
+08:30 am - 09:40 am		TWF
+09:50 am - 11:00 am		MWTh
+09:50 am - 11:00 am		TWF
+11:10 am - 12:20 pm		TWF
+11:10 am - 12:20 pm,11:10 am - 12:20 pm		MTh,W
+08:30 am - 09:40 am		MTh
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+02:50 pm - 04:00 pm		MTh
+11:10 am - 12:20 pm		MTh
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		TF
+09:50 am - 11:00 am		MTh
+11:10 am - 01:20 pm		M
+01:30 pm - 04:00 pm		Th
+01:30 pm - 04:00 pm		M
+03:30 pm - 06:30 pm		W
+09:50 am - 12:20 pm		M
+02:15 pm - 04:45 pm		W
+02:50 pm - 04:00 pm		MTh
+01:30 pm - 04:00 pm		M
+01:30 pm - 04:00 pm		T
+02:15 pm - 04:45 pm		W
+09:50 am - 12:20 pm		W
+02:50 pm - 04:00 pm		MTh
+11:10 am - 12:20 pm		TF
+01:30 pm - 02:40 pm		MTh
+12:30 pm - 02:40 pm		F
+01:30 pm - 04:00 pm		T
+11:10 am - 12:20 pm		MTh
+01:30 pm - 04:00 pm		T
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		TF
+01:30 pm - 04:00 pm		T
+01:30 pm - 04:00 pm		M
+01:30 pm - 04:00 pm		W
+01:30 pm - 04:00 pm		Th
+01:30 pm - 02:40 pm,01:30 pm - 04:00 pm		F,T
+11:10 am - 12:20 pm,11:10 am - 01:20 pm		M,Th
+11:10 am - 12:20 pm,09:50 am - 11:00 am		TF,TF
+02:50 pm - 05:20 pm,02:50 pm - 04:00 pm		M,Th
+09:50 am - 11:00 am		MTh
+09:50 am - 11:00 am		MTh
+11:10 am - 12:20 pm		TF
+02:50 pm - 04:00 pm		TF
+01:30 pm - 02:40 pm		TF
+11:10 am - 12:20 pm		TF
+08:30 am - 09:40 am		MTh
+01:30 pm - 02:40 pm		MTh
+09:50 am - 11:00 am		TF
+08:30 am - 09:40 am		TF
+02:50 pm - 04:00 pm		MTh
+11:10 am - 12:20 pm		MTh
+09:50 am - 11:00 am		MTh
+01:30 pm - 02:40 pm		TF
+02:50 pm - 04:00 pm		TF
+08:30 am - 09:40 am		MTh
+01:30 pm - 02:40 pm,11:10 am - 12:20 pm		MTh,W1
+02:50 pm - 04:00 pm,11:10 am - 12:20 pm		TF,W2
+02:15 pm - 04:30 pm		W
+02:50 pm - 04:00 pm		TF
+11:10 am - 12:20 pm		TF
