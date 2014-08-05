@@ -112,8 +112,8 @@
  	
  	
  	<div class="show_hide_entered_review_toggle">
- 	<br>Instructor: <span class="entered_instructor"> ?? </span> <br>
- 	Reason for Enrolling: <span class="entered_reason"> ???</span>
+ 	<br>Fills distributions: <span class="entered_instructor">{% for dist in course.dists.all %}{{dist}}; {% endfor %} </span> <br>
+ 	Credit hours: <span class="entered_reason">{{ course.credit_hours }}</span>
  	<br>Course Content: <span class="entered_course_stars"></span><br>
  	Quality of Instruction: <span class="entered_instruction_stars"></span>
  	<br>
