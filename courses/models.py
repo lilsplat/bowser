@@ -253,12 +253,32 @@ class Section(models.Model):
     prof=models.ForeignKey('Professor')
     timeanddate=models.ForeignKey('TimeAndDate')
     semester=models.ForeignKey('Semester')
-    course=models.ForeignKey('CourseTemp')
+    course=models.ForeignKey('Course')
+
+    # """Returns whether this Section has a time conflict with another Course"""
+    # def conflicts(self, other_section):
+    #     try:
+    #         if (self.timeanddate.starttime == other_course.timeanddate):
+    #             return True
+    #         else:
+    #             return False
+    #     except:
+    #         raise Exception('please enter a valid course')
+
+    """Returns whether this Course's enrollment is full"""
+    def is_full(self):
+        try:
+            if (self.seats_available == self.max_enrollment):
+                return True
+            else:
+                return False
+        except:
+            raise Exception('please enter a valid course')
 
     def __unicode__(self):
         return 'prof: '+self.prof.name + ', section number: ' + self.sec_id + ', t&d:' + self.timeanddate.__unicode__()
 
-class CourseTemp(models.Model):
+class Course(models.Model):
     NONE='None assigned'
     dept=models.CharField(max_length=200,default=NONE)
     code=models.CharField(max_length=200,default=NONE)
@@ -278,73 +298,82 @@ class CourseTemp(models.Model):
     def __unicode__(self):
         return self.code
 
+    # """Returns this Course's mean score based on its Ratings"""
+    # def avg_score(self):
+    #     i=0.0
+    #     a=0.0
+    #     for s in self.rating_set.all():
+    #         a+=s.score
+    #         i+=1
+    #     return a/i
 
-class Course(models.Model):
-    """Static fields: Updated to most recently offered 
-    course info. If course has not been offered since 
-    Fall 2014, field is 'None'"""   
-    NO_COURSE='None'
-    dept = models.CharField(max_length=200,default=NO_COURSE) #i.e. CS
-    code = models.CharField(max_length=200,default=NO_COURSE) #i.e. CS110, aka course
-    crn = models.CharField(max_length=200,default=NO_COURSE)
-    title = models.CharField(max_length=200,default=NO_COURSE)
-    credit_hours = models.CharField(max_length=200,default=NO_COURSE)
-    description = models.CharField(max_length=200,default=NO_COURSE)
-    addit_info = models.CharField(max_length=200,default=NO_COURSE)
-    seats_available = models.CharField(max_length=200,default=NO_COURSE)
-    max_enrollment = models.CharField(max_length=200,default=NO_COURSE)
-    by_permission = models.CharField(max_length=200,default=NO_COURSE)
-    prereq = models.CharField(max_length=200,default=NO_COURSE)
-    notes = models.CharField(max_length=200,default=NO_COURSE)
-    xlisted = models.CharField(max_length=200,default=NO_COURSE)
 
-    """to delete"""
-    prof = models.CharField(max_length=200,default=NO_COURSE)
-    date = models.CharField(max_length=200,default=NO_COURSE)
-    starttime = models.CharField(max_length=200,default=NO_COURSE)
-    endtime = models.CharField(max_length=200,default=NO_COURSE)
+# class Course(models.Model):
+#     """Static fields: Updated to most recently offered 
+#     course info. If course has not been offered since 
+#     Fall 2014, field is 'None'"""   
+#     NO_COURSE='None'
+#     dept = models.CharField(max_length=200,default=NO_COURSE) #i.e. CS
+#     code = models.CharField(max_length=200,default=NO_COURSE) #i.e. CS110, aka course
+#     crn = models.CharField(max_length=200,default=NO_COURSE)
+#     title = models.CharField(max_length=200,default=NO_COURSE)
+#     credit_hours = models.CharField(max_length=200,default=NO_COURSE)
+#     description = models.CharField(max_length=200,default=NO_COURSE)
+#     addit_info = models.CharField(max_length=200,default=NO_COURSE)
+#     seats_available = models.CharField(max_length=200,default=NO_COURSE)
+#     max_enrollment = models.CharField(max_length=200,default=NO_COURSE)
+#     by_permission = models.CharField(max_length=200,default=NO_COURSE)
+#     prereq = models.CharField(max_length=200,default=NO_COURSE)
+#     notes = models.CharField(max_length=200,default=NO_COURSE)
+#     xlisted = models.CharField(max_length=200,default=NO_COURSE)
 
-    """M2M fields"""
-    professor=models.ManyToManyField('Professor')
-    timeanddate=models.ManyToManyField('TimeAndDate')
-    semester=models.ManyToManyField('Semester')
-    dists=models.ManyToManyField('Distribution')
-    rating=models.ManyToManyField('Rating')
+#     """to delete"""
+#     prof = models.CharField(max_length=200,default=NO_COURSE)
+#     date = models.CharField(max_length=200,default=NO_COURSE)
+#     starttime = models.CharField(max_length=200,default=NO_COURSE)
+#     endtime = models.CharField(max_length=200,default=NO_COURSE)
 
-    def __unicode__(self):
-        return self.code
+#     """M2M fields"""
+#     professor=models.ManyToManyField('Professor')
+#     timeanddate=models.ManyToManyField('TimeAndDate')
+#     semester=models.ManyToManyField('Semester')
+#     dists=models.ManyToManyField('Distribution')
+#     rating=models.ManyToManyField('Rating')
 
-    """Returns whether this Course has a time conflict with another Course"""
-    def conflicts(self, other_course):
-        try:
-            if (self.starttime == other_course.starttime and self.date == other_course.date and self.endtime == other_course.endtime):
-                return True
-            else:
-                return False
-        except:
-            raise Exception('please enter a valid course')
+#     def __unicode__(self):
+#         return self.code
 
-    """Returns whether this Course's enrollment is full"""
-    def is_full(self):
-        try:
-            if (self.seats_available == self.max_enrollment):
-                return True
-            else:
-                return False
-        except:
-            raise Exception('please enter a valid course')
+#     """Returns whether this Course has a time conflict with another Course"""
+#     def conflicts(self, other_course):
+#         try:
+#             if (self.starttime == other_course.starttime and self.date == other_course.date and self.endtime == other_course.endtime):
+#                 return True
+#             else:
+#                 return False
+#         except:
+#             raise Exception('please enter a valid course')
 
-    """Returns this Course's mean score based on its Ratings"""
-    def avg_score(self):
-        i=0.0
-        a=0.0
-        for s in self.rating_set.all():
-            a+=s.score
-            i+=1
-        return a/i
+#     """Returns whether this Course's enrollment is full"""
+#     def is_full(self):
+#         try:
+#             if (self.seats_available == self.max_enrollment):
+#                 return True
+#             else:
+#                 return False
+#         except:
+#             raise Exception('please enter a valid course')
 
-    class Meta:
-        ordering = ['code'] #orders courses by name
+#     """Returns this Course's mean score based on its Ratings"""
+#     def avg_score(self):
+#         i=0.0
+#         a=0.0
+#         for s in self.rating_set.all():
+#             a+=s.score
+#             i+=1
+#         return a/i
+
+#     class Meta:
+#         ordering = ['code'] #orders courses by name
 
 
 class Student(models.Model):
