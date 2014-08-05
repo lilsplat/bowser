@@ -211,7 +211,7 @@ class Distribution(models.Model):
 class Professor(models.Model):
     name=models.CharField(max_length=200)
     site=models.CharField(max_length=200)
-    rating=models.ForeignKey('Rating')
+    # rating=models.ForeignKey('Rating')
 
     def __unicode__(self):
         return self.name
@@ -236,13 +236,48 @@ class Semester(models.Model):
     ('Summer II','Summer II'),
     ]
     session=models.CharField(max_length=200,choices=SESSIONS,default='Fall')
-    year = models.IntegerField() #e.g. 2014
+    year=models.IntegerField() #e.g. 2014
 
     def __unicode__(self):
-        return session + ' ' + year
+        return self.session + ' ' + self.year
 
     class Meta:
         ordering = ['year']
+
+class Section(models.Model):
+    NONE='None assigned'
+    sec_id=models.CharField(max_length=200,default=NONE)
+    crn=models.CharField(max_length=200,default=NONE)
+    seats_available=models.CharField(max_length=200,default=NONE)
+    max_enrollment=models.CharField(max_length=200,default=NONE)
+    prof=models.ForeignKey('Professor')
+    timeanddate=models.ForeignKey('TimeAndDate')
+    semester=models.ForeignKey('Semester')
+    course=models.ForeignKey('CourseTemp')
+
+    def __unicode__(self):
+        return 'prof: '+self.prof.name + ', section number: ' + self.sec_id + ', t&d:' + self.timeanddate.__unicode__()
+
+class CourseTemp(models.Model):
+    NONE='None assigned'
+    dept=models.CharField(max_length=200,default=NONE)
+    code=models.CharField(max_length=200,default=NONE)
+    title=models.CharField(max_length=200,default=NONE)
+    credit_hours=models.CharField(max_length=200,default=NONE)
+    description=models.CharField(max_length=200,default=NONE)
+    addit_info=models.CharField(max_length=200,default=NONE)
+    by_permission=models.CharField(max_length=200,default=NONE)
+    prereq=models.CharField(max_length=200,default=NONE)
+    notes=models.CharField(max_length=200,default=NONE)
+    xlisted=models.CharField(max_length=200,default=NONE)
+
+    dists=models.ManyToManyField('Distribution')
+    # sections=models.ForeignKey('Section')
+    # ratings=models.ManyToManyField('Rating')
+
+    def __unicode__(self):
+        return self.code
+
 
 class Course(models.Model):
     """Static fields: Updated to most recently offered 
