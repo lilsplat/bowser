@@ -373,7 +373,7 @@ class Section(models.Model):
 class Course(models.Model):
     NONE='None assigned'
     dept=models.CharField(max_length=200,default=NONE,choices=DEPARTMENTS)
-    code=models.CharField(max_length=200,default=NONE)
+    code=models.IntegerField(max_length=3,default=0)
     title=models.CharField(max_length=200,default=NONE)
     credit_hours=models.CharField(max_length=200,default=NONE)
     description=models.CharField(max_length=200,default=NONE)
@@ -382,7 +382,6 @@ class Course(models.Model):
     prereq=models.CharField(max_length=200,default=NONE)
     notes=models.CharField(max_length=200,default=NONE)
     xlisted=models.CharField(max_length=200,default=NONE)
-
     dists=models.ManyToManyField('Distribution')
 
     def __unicode__(self):

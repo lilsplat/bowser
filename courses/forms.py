@@ -28,3 +28,8 @@ class AddCourseForm(forms.ModelForm):
 			'dept',
 			'code'
 		)	
+
+class AddCourseRatingForm(forms.ModelForm):
+	class Meta:
+		model = CourseRating
+		exclude = ('comment_author')

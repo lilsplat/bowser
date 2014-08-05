@@ -65,7 +65,7 @@
  		<div id="new_course_entry" class="rounded_div">
  
  		<h4> Enter a New Course </h4>
-	<form id="add_course_form" method="post" action"/courses/create_profile/"
+	<form id="add_course_form" class="form-inline"  method="post" action"/courses/addcourse/"
 		enctype="multipart/form-data">
 	{% csrf_token %}
 	{{ add_course_form.as_p }}
@@ -75,71 +75,31 @@
 
  	        <h4>Enter a Review</h4>
         		
-        <form class="form-inline" role="form">
-        	
-        	<!--Reason for Enrolling dropdown-->
-        	<div class="btn-group">
-  			<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-    			Reason for Enrolling <span class="caret"></span>
-  			</button>
-  			<ul class="dropdown-menu" role="menu">
-    			<li><a href="#">Fulfill major/minor requirement</a></li>
-    			<li><a href="#">Fulfill distribution requirement</a></li>
-    			<li><a href="#">Elective/personal enrichment</a></li>
-  			</ul>
-			</div>
-			
-			<div class="ratings"> Rate course content:
-			
-			<!--
-			<div class="starRate">
-				<div>Currently rated: 3 stars<b></b></div>
-					<ul>
-						<li><a href="#"><span>Excellent</span></a></li>
-						<li><a href="#"><span>Good</span></a></li>
-						<li><a href="#"><span>Fair</span><b></b></a></li>
-						<li><a href="#"><span>Poor</span></a></li>
-						<li><a href="#"><span>Very Poor</span></a></li>
-					</ul>
+        <form id="add_course_rating_form" class="form-inline"  method="post" action"/courses/addcourse/"
+		enctype="multipart/form-data">
+			{% csrf_token %}
+   			<div class="ratings"> Rate course content:
+				{{ add_course_rating_form.score }}
+					</div>
+				
+			<div class="ratings">Professor:
+				{{ add_course_rating_form.comment_professor }}
 				</div>
-				-->
-			</div>
-				
-				
-			<div class="ratings">Rate quality of instruction:
-			
-			<!--	
-			<div class="starRate">
-				<div>Currently rated: 3 stars<b></b></div>
-					<ul>
-						<li><a href="#"><span>Excellent</span></a></li>
-						<li><a href="#"><span>Good</span></a></li>
-						<li><a href="#"><span>Fair</span><b></b></a></li>
-						<li><a href="#"><span>Poor</span></a></li>
-						<li><a href="#"><span>Very Poor</span></a></li>
-					</ul>
-				</div>
-				-->
-			</div>
-				
-		</form>
-        		
         	<br>
     
         	<p> Enter additional comments about course content, workload, teaching style, 
         	quality of instruction, instructor availability outside of class, etc. 
         	Would you recommend this course to others with similar reasons for enrolling? 
         	Please be as specific as possible to best help other students.
-        	
-        	<form action="demo_form.asp" class="usrform">
-			</form>
+				{{ add_course_rating_form.comment_text }}			
+        <!--	
 				<textarea id="comments" rows="4" cols="83" placeholder="Enter comments..."
-				name="comment" class="paragraphtextinput" form="usrform"></textarea>
+				name="comment" class="paragraphtextinput" form="usrform"></textarea> -->
 				
 				<a href="#" class="btn btn-primary btn-success add_review_submit"> 
 				<span class="glyphicon glyphicon-ok-circle"></span> 
 				Submit and add to my Courses</a>
-        	
+       </form> 	
         <!--	<a class="btn btn-primary btn-lg" id="greensubmit"
         	role="button">Submit and add to My Courses</a> -->
  </div> <!--/new-course-entry-->
