@@ -339,6 +339,13 @@ class Course(models.Model):
             i+=1
         return a/i
 
+    """Returns all Professors that have taught this Course"""
+    def all_profs(self):
+        prof_list=[]
+        for s in self.section_set.all():
+            prof_list.append(s.prof)
+        return prof_list
+
 
 # class Course(models.Model):
 #     """Static fields: Updated to most recently offered 
