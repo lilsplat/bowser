@@ -373,7 +373,7 @@ class Section(models.Model):
 class Course(models.Model):
     NONE='None assigned'
     dept=models.CharField(max_length=200,default=NONE,choices=DEPARTMENTS)
-    code=models.IntegerField(max_length=3,default=0)
+    code=models.CharField(max_length=200,default=NONE)
     title=models.CharField(max_length=200,default=NONE)
     credit_hours=models.CharField(max_length=200,default=NONE)
     description=models.CharField(max_length=200,default=NONE)
