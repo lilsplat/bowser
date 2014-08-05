@@ -48,18 +48,6 @@
  
  <h4> Use this page to log and enter optional reviews for past courses. </h4>
  
- 
-  <!--~~~~~~~~~~~~~~~~~~~~~Honor Code callout-->
- <!--source: www.css3-generator.weebly.com-->
- 
- <div class="bubble"> 
- <p> <strong>Please Note:
- <br></strong> It is <em>against the Honor Code</em> to discuss 
- a professor's grading in this setting.  It is acceptable to reference the difficulty of 
- coursework, but please refrain from any discussion regarding an instructor being a 
- "hard" or "easy" grader, etc.</div>
- 
- 
  <!--~~~~~~~~~~~~~~~~~~~~~Enter a New Course Box-->
  
  		<div id="new_course_entry" class="rounded_div">
@@ -68,19 +56,25 @@
 	<form id="add_course_form" class="form-inline"  method="post" action"/courses/addcourse/"
 		enctype="multipart/form-data">
 	{% csrf_token %}
-	{{ add_course_form.as_p }}
+	{{ add_course_form.code }}
 
-	<input type="submit" name="submit" value="Create Profile" />
+	<input type="submit" name="submit" value="Add Course" />
 	</form>
 
  	        <h4>Enter a Review</h4>
-        		
+ <div class="alert alert-warning alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+  <strong>Please Note:</strong> It is <em>against the Honor Code</em> to discuss 
+ a professor's grading in this setting.  It is acceptable to reference the difficulty of 
+ coursework, but please refrain from any discussion regarding an instructor being a 
+ "hard" or "easy" grader, etc.</div> 
+       		
         <form id="add_course_rating_form" class="form-inline"  method="post" action"/courses/addcourse/"
 		enctype="multipart/form-data">
 			{% csrf_token %}
    			<div class="ratings"> Rate course content:
-				{{ add_course_rating_form.score }}
-					</div>
+		{{ add_course_rating_form.score }} <br>
+			</div>
 				
 			<div class="ratings">Professor:
 				{{ add_course_rating_form.comment_professor }}
@@ -263,6 +257,6 @@
 
 
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<script src="../static/bootstrap-3.2.0-dist/js/bootstrap.js"></script>
+<script src="/static/bootstrap-3.2.0-dist/js/bootstrap.js"></script>
 </body>
 </html>

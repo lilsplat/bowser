@@ -21,13 +21,9 @@ class StudentProfileForm(forms.ModelForm):
 			'distribution_requirements_completed'
 			) 
 
-class AddCourseForm(forms.ModelForm):
-	class Meta:
-		model = Course
-		fields = (
-			'dept',
-			'code'
-		)	
+class AddCourseForm(forms.Form):
+	dept = forms.CharField(max_length=100, widget=forms.Select(choices=DEPARTMENTS))
+	code = forms.ModelChoiceField(queryset=Course.objects.all())
 
 class AddCourseRatingForm(forms.ModelForm):
 	class Meta:
