@@ -93,9 +93,23 @@ from django.db.models import Count
 # 		ctemp.save()
 
 """CHECKING DUPLICATE SCRIPT"""
-for c in Course.objects.all():
-	print c
-	print c.section_set.all()
-	print '\n\n'
+# for c in Course.objects.all():
+# 	print c
+# 	print c.section_set.all()
+# 	print '\n\n'
+
+"""RENAMING LABS AND OTHER SECTIONS"""
+# labs=Course.objects.filter(credit_hours='0')
+# print labs
+# for l in labs:
+# 	old_code=l.code
+# 	print 'old code: ' + old_code
+# 	new_code=old_code + 'L'
+# 	print 'new code: ' + new_code
+# 	l.code=new_code
+# 	l.save()
+
+
+
 
 
