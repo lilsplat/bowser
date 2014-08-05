@@ -65,45 +65,15 @@
  		<div id="new_course_entry" class="rounded_div">
  
  		<h4> Enter a New Course </h4>
- 		
- 		<form class="form-inline" role="form">
- 		
- 			<!-- Department dropdown -->
-			<div class="btn-group">
-  			<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-    			Department <span class="caret"></span>
-  			</button>
-  			<ul class="dropdown-menu" role="menu">
-    			<li><a href="#">Action</a></li>
-    			<li><a href="#">Another action</a></li>
-    			<li><a href="#">Something else here</a></li>
-  			</ul>
-  			</div>
-  		
-  
-   			<!-- Course dropdown -->
-   		
-			<div class="btn-group">
-  			<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-    			Course Number <span class="caret"></span>
-  			</button>
-  			<ul class="dropdown-menu" role="menu">
-    			<li><a href="#">Action</a></li>
-    			<li><a href="#">Another action</a></li>
-    			<li><a href="#">Something else here</a></li>
-  			</ul>
-			</div>
-		
-		
-			<!--Professor Input-->
-        		<div class="form-group">
-            	<input type="text" class="form-control" id="new_course_prof_input" 
-            	placeholder="Instructor">
-        		</div>
-        		
-        </form>
-        
-        <h4>Enter a Review</h4>
+	<form id="add_course_form" method="post" action"/courses/create_profile/"
+		enctype="multipart/form-data">
+	{% csrf_token %}
+	{{ add_course_form.as_p }}
+
+	<input type="submit" name="submit" value="Create Profile" />
+	</form>
+
+ 	        <h4>Enter a Review</h4>
         		
         <form class="form-inline" role="form">
         	
