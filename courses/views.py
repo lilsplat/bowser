@@ -99,4 +99,9 @@ def create_student_profile(request):
 		context)
 
 def load_mycourses(request):
-	return render_to_response('courses/mycourses.html')
+	context = RequestContext(request)
+	return render_to_response(
+	'courses/mycourses.html',
+	{'add_course_form': AddCourseForm(),
+	'add_course_rating_form': AddCourseRatingForm()},
+	context)

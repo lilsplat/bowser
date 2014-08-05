@@ -20,3 +20,16 @@ class StudentProfileForm(forms.ModelForm):
 			'major_requirements_completed', 
 			'distribution_requirements_completed'
 			) 
+
+class AddCourseForm(forms.ModelForm):
+	class Meta:
+		model = Course
+		fields = (
+			'dept',
+			'code'
+		)	
+
+class AddCourseRatingForm(forms.ModelForm):
+	class Meta:
+		model = CourseRating
+		exclude = ('comment_author')
