@@ -4,6 +4,8 @@ from django.template import RequestContext
 from django.shortcuts import render_to_response
 from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponseRedirect, HttpResponse
+from django.views.decorators.http import require_http_methods
+from django.contrib.auth.decorators import login_required
 from courses.models import Student
 
 def index(request):
@@ -84,8 +86,6 @@ def create_student_profile(request):
 			student.secondary_major = student_data.secondary_major
 			student.gpa = student_data.gpa
 			student.qrb_passed = student_data.qrb_passed
-			#student.add_course(student_data.course1)
-			#student.add_course(student_data.course2)
 			student.save()
 			profile_created = True
 			return render_to_response('courses/index.html', context)
@@ -100,8 +100,31 @@ def create_student_profile(request):
 
 def load_mycourses(request):
 	context = RequestContext(request)
+	student = Student.objects.get(user=request.user)
+	courses = student.courses.all()
+	course_form = AddCourseRatingForm()
 	return render_to_response(
 	'courses/mycourses.html',
 	{'add_course_form': AddCourseForm(),
-	'add_course_rating_form': AddCourseRatingForm()},
+	'add_course_rating_form': AddCourseRatingForm(),
+	'courses': courses},
 	context)
+
+@require_http_methods(['POST'])
+@login_required
+def add_course(request):
+	print 'starting'
+	student = Student.objects.get(user=request.user)
+	print student
+	try:
+		course = Course.objects.get(code=request.POST.get('code'))
+		print course
+	except ValueError:
+		return HttpRequestBadResponse('Invalid course name')
+	student.add_course(course)
+	student.save()
+	print 'student saved'
+	if request.is_ajax():
+		return HttpResponse("")
+	return redirect('/courses/mycourses.html')
+	

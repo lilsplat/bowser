@@ -57,10 +57,7 @@
 		enctype="multipart/form-data">
 	{% csrf_token %}
 	{{ add_course_form.code }}
-
-	<input type="submit" name="submit" value="Add Course" />
-	</form>
-
+		
  	        <h4>Enter a Review</h4>
  <div class="alert alert-warning alert-dismissible" role="alert">
   <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -68,31 +65,28 @@
  a professor's grading in this setting.  It is acceptable to reference the difficulty of 
  coursework, but please refrain from any discussion regarding an instructor being a 
  "hard" or "easy" grader, etc.</div> 
-       		
-        <form id="add_course_rating_form" class="form-inline"  method="post" action"/courses/addcourse/"
-		enctype="multipart/form-data">
-			{% csrf_token %}
    			<div class="ratings"> Rate course content:
 		{{ add_course_rating_form.score }} <br>
 			</div>
 				
 			<div class="ratings">Professor:
-				{{ add_course_rating_form.comment_professor }}
+				{{ add_course_rating_form.comment_professor }} <br>
 				</div>
         	<br>
     
         	<p> Enter additional comments about course content, workload, teaching style, 
         	quality of instruction, instructor availability outside of class, etc. 
         	Would you recommend this course to others with similar reasons for enrolling? 
-        	Please be as specific as possible to best help other students.
-				{{ add_course_rating_form.comment_text }}			
+        	Please be as specific as possible to best help other students. <br>
+				{{ add_course_rating_form.comment_text }} <br>			
         <!--	
 				<textarea id="comments" rows="4" cols="83" placeholder="Enter comments..."
 				name="comment" class="paragraphtextinput" form="usrform"></textarea> -->
 				
-				<a href="#" class="btn btn-primary btn-success add_review_submit"> 
+				<a href="/courses/addcourse" type="submit" class="btn btn-primary btn-success add_review_submit"> 
 				<span class="glyphicon glyphicon-ok-circle"></span> 
 				Submit and add to my Courses</a>
+			<div id="add-course-successful"></div>
        </form> 	
         <!--	<a class="btn btn-primary btn-lg" id="greensubmit"
         	role="button">Submit and add to My Courses</a> -->
@@ -106,102 +100,10 @@
  <div id="my_courses">
 
  <h2> My Courses </h2>
- 
- 	<!--~~~~~~~~~~~~~This is the appearance for a student's course with no review added-->
-
- 	<div class="added_course_without_review">
- 	
- 	<span class="course_title"> ASTR 100 - Life in the Universe </span>
- 		<!--Add a Review toggle button-->
- 		<br> <a href="#"><span class="add_review_toggle">+Add a Review</span></a>
- 		
- 	
- 		
- 		<!--~~~~~~~~~~~~~~~~~~~~~Toggle form to Add review to an existing course-->
- 	
- 	<div class="show_hide_add_review_toggle">
- 		
- 		<form class="form-inline" role="form">
- 		
- 			<!--Professor Input-->
-        		<br><div class="form-group">
-            	<input type="text" class="form-control" id="add_review_prof_input" 
-            	placeholder="Instructor">
-        		</div>
-        		
-        	
-        	<!--Reason for Enrolling dropdown-->
-        	<div class="btn-group">
-  			<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-    			Reason for Enrolling <span class="caret"></span>
-  			</button>
-  			<ul class="dropdown-menu" role="menu">
-    			<li><a href="#">Fulfill major/minor requirement</a></li>
-    			<li><a href="#">Fulfill distribution requirement</a></li>
-    			<li><a href="#">Elective/personal enrichment</a></li>
-  			</ul>
-			</div>
-			
-			<div class="ratings"> Rate course content:
-			
-			<!--
-			<div class="starRate">
-				<div>Currently rated: 3 stars<b></b></div>
-					<ul>
-						<li><a href="#"><span>Excellent</span></a></li>
-						<li><a href="#"><span>Good</span></a></li>
-						<li><a href="#"><span>Fair</span><b></b></a></li>
-						<li><a href="#"><span>Poor</span></a></li>
-						<li><a href="#"><span>Very Poor</span></a></li>
-					</ul>
-				</div>
-				-->
-			</div>
-				
-				
-			<div class="ratings">Rate quality of instruction:
-			
-			<!--	
-			<div class="starRate">
-				<div>Currently rated: 3 stars<b></b></div>
-					<ul>
-						<li><a href="#"><span>Excellent</span></a></li>
-						<li><a href="#"><span>Good</span></a></li>
-						<li><a href="#"><span>Fair</span><b></b></a></li>
-						<li><a href="#"><span>Poor</span></a></li>
-						<li><a href="#"><span>Very Poor</span></a></li>
-					</ul>
-				</div>
-				-->
-			</div>
-				
-		</form>
-        		
-        	<br>
-    
-        	<p> Enter additional comments about course content, workload, teaching style, 
-        	quality of instruction, instructor availability outside of class, etc. 
-        	Would you recommend this course to others with similar reasons for enrolling? 
-        	Please be as specific as possible to best help other students.
-        	
-        	<form action="demo_form.asp" class="usrform">
-			</form>
-				<textarea id="add_comments" rows="4" cols="104" placeholder="Enter comments..."
-				name="comment" class="paragraphtextinput" form="usrform"></textarea>
-        	
-        	<br> <a href="#" class="btn btn-xs btn-success add_review_submit">
-        	<span class="glyphicon glyphicon-ok-circle"></span> Submit Review</a>
- 	
- 	</div> <!--/show_hide_add_review_toggle--> 
- 		
- 	</div> <!--/addedcoursewithoutreview-->
- 	
- 	
  	<!--~~~~~~~~~~~~~~~~~~~~~This is the appearance for a student's course WITH a review added-->
- 
+	{% for course in courses %}
  	<div class="added_course_with_review">
- 	
- 	<span class="course_title"> ASTR 100 - Life in the Universe </span>
+ 	<span class="course_title">{{course.code}} | {{ course.title }} </span>
  	
  	<!--Show Review toggle button-->
  		<br> <a href="#"><span class="show_review_toggle">+Show/Hide Review</span></a>
@@ -210,8 +112,8 @@
  	
  	
  	<div class="show_hide_entered_review_toggle">
- 	<br>Instructor: <span class="entered_instructor"> Wes Watters </span> <br>
- 	Reason for Enrolling: <span class="entered_reason"> Fulfill distribution requirement </span>
+ 	<br>Instructor: <span class="entered_instructor"> ?? </span> <br>
+ 	Reason for Enrolling: <span class="entered_reason"> ???</span>
  	<br>Course Content: <span class="entered_course_stars"></span><br>
  	Quality of Instruction: <span class="entered_instruction_stars"></span>
  	<br>
@@ -241,7 +143,7 @@
  	
  	
  	</div> <!--/added_course_with_review-->
- 	
+ {% endfor %}	
 
  	
  	
