@@ -373,6 +373,8 @@ class Section(models.Model):
 class Course(models.Model):
     NONE='None assigned'
     dept=models.CharField(max_length=200,default=NONE,choices=DEPARTMENTS)
+    #NB: all labs, disc, or conf courses have 'L' appended onto the code
+    #of their main course, e.g. the lab of CS111's code is CS111L
     code=models.CharField(max_length=200,default=NONE)
     title=models.CharField(max_length=200,default=NONE)
     credit_hours=models.CharField(max_length=200,default=NONE)
