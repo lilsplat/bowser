@@ -93,7 +93,7 @@ from django.db.models import Count
 # 		ctemp.save()
 
 """CHECKING DUPLICATE SCRIPT"""
-for c in CourseTemp.objects.all():
+for c in Course.objects.all():
 	print c
 	print c.section_set.all()
 	print '\n\n'
