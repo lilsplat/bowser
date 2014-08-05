@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 from django.db.models import Count
+from datetime import datetime
 
 #------CLASS YEARS--------
 FIRSTYEAR = 'fy'
@@ -211,10 +212,18 @@ class Distribution(models.Model):
 class Professor(models.Model):
     name=models.CharField(max_length=200)
     site=models.CharField(max_length=200)
-    # rating=models.ForeignKey('Rating')
 
     def __unicode__(self):
         return self.name
+
+    """Returns this Professor's mean score based on their ProfRating"""
+    def avg_score(self):
+        i=0.0
+        a=0.0
+        for s in self.profrating_set.all():
+            a+=s.score
+            i+=1
+        return a/i
 
     class Meta:
         ordering=['name']
@@ -226,6 +235,37 @@ class TimeAndDate(models.Model):
 
     def __unicode__(self):
         return self.dates + ' ' + self.starttime + '-' + self.endtime
+
+    """Returns dates as a list of days, i.e. MTuThW1 --> [M, Tu, Th, W1]"""
+    def datelist(self):
+        dlist=[]
+        for i in self.dates:
+            if i.isupper():
+                dlist.append(i)
+            else:
+                dlist[len(dlist)-1]+=i
+        return dlist
+
+    """Returns whether this TimeAndDate has a time conflict with another TimeAndDate"""
+    def conflicts(self, other_section):
+        #check basic equality
+        if self == other_section:
+            return True
+        #check overlapping date and time
+        if set(self.datelist()).intersection(set(other_section.datelist())):
+            #if start and end times are the same, there is overlap
+            if ((this_start == other_start) and (this_end == other_end)):
+                return True
+            #otherwise, check inexact overlap
+            this_start=datetime.strptime(self.starttime.encode('UTF-8'),'%I:%M')
+            this_end=datetime.strptime(self.endtime.encode('UTF-8'),'%I:%M')
+            other_start=datetime.strptime(other_section.starttime.encode('UTF-8'),'%I:%M')
+            other_end=datetime.strptime(other_section.endtime.encode('UTF-8'),'%I:%M')
+            if ((this_start < other_end) and (this_end > other_start)):
+                return True
+            
+        #if none of this is true, there is no overlap, return false
+        return False
 
 class Semester(models.Model):
     SESSIONS=[
@@ -255,17 +295,7 @@ class Section(models.Model):
     semester=models.ForeignKey('Semester')
     course=models.ForeignKey('Course')
 
-    # """Returns whether this Section has a time conflict with another Course"""
-    # def conflicts(self, other_section):
-    #     try:
-    #         if (self.timeanddate.starttime == other_course.timeanddate):
-    #             return True
-    #         else:
-    #             return False
-    #     except:
-    #         raise Exception('please enter a valid course')
-
-    """Returns whether this Course's enrollment is full"""
+    """Returns whether this Section's enrollment is full"""
     def is_full(self):
         try:
             if (self.seats_available == self.max_enrollment):
@@ -274,6 +304,10 @@ class Section(models.Model):
                 return False
         except:
             raise Exception('please enter a valid course')
+
+    """Returns whether this Section has a time conflict with another section"""
+    def conflicts(self,other_section):
+        return self.timeanddate.conflicts(other_section.timeanddate)
 
     def __unicode__(self):
         return 'prof: '+self.prof.name + ', section number: ' + self.sec_id + ', t&d:' + self.timeanddate.__unicode__()
@@ -292,20 +326,18 @@ class Course(models.Model):
     xlisted=models.CharField(max_length=200,default=NONE)
 
     dists=models.ManyToManyField('Distribution')
-    # sections=models.ForeignKey('Section')
-    # ratings=models.ManyToManyField('Rating')
 
     def __unicode__(self):
         return self.code
 
-    # """Returns this Course's mean score based on its Ratings"""
-    # def avg_score(self):
-    #     i=0.0
-    #     a=0.0
-    #     for s in self.rating_set.all():
-    #         a+=s.score
-    #         i+=1
-    #     return a/i
+    """Returns this Course's mean score based on its CourseRating"""
+    def avg_score(self):
+        i=0.0
+        a=0.0
+        for s in self.courserating_set.all():
+            a+=s.score
+            i+=1
+        return a/i
 
 
 # class Course(models.Model):
@@ -531,7 +563,7 @@ class CourseBucket(models.Model):
     name=models.CharField(max_length=200)
     #number of unique courses from this coursebucket needed for it to be fulfilled
     num_pick=models.IntegerField(default=1)
-    courses=models.ManyToManyField(Course)
+    courses=models.ManyToManyField('Course')
     major=models.ForeignKey('Major')
 
     def __unicode__(self):
@@ -622,7 +654,7 @@ class UserProfile(models.Model):
     def __unicode__(self):
         return self.user.username
 
-class Rating(models.Model):
+class CourseRating(models.Model):
     SCORES=[
     (1, 'One star'),
     (2, 'Two stars'),
@@ -633,8 +665,21 @@ class Rating(models.Model):
     score = models.IntegerField(choices=SCORES,default=5)
     comment_text = models.CharField(max_length=10000,null=True,blank=True)
     comment_author = models.ForeignKey('Student')
-    # comment_course = models.ForeignKey('Course')
-    # comment_professor=models.ForeignKey('Professor')
+    comment_professor=models.ForeignKey('Professor')
+
+class ProfRating(models.Model):
+    SCORES=[
+    (1, 'One star'),
+    (2, 'Two stars'),
+    (3, 'Three stars'),
+    (4, 'Four stars'),
+    (5, 'Five stars')
+    ]
+    score = models.IntegerField(choices=SCORES,default=5)
+    comment_text = models.CharField(max_length=10000,null=True,blank=True)
+    comment_author = models.ForeignKey('Student')
+    comment_course = models.ForeignKey('Course')
+
 
 
 
