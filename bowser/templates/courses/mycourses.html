@@ -102,10 +102,7 @@
  <h2> My Courses </h2>
  	<!--~~~~~~~~~~~~~~~~~~~~~This is the appearance for a student's course WITH a review added-->
 	{% for course in courses %}
-		{% for review in reviews.all %}
-		{% if review.comment_course.title == course.title %}
-			{% with review as course_review %}
- 	<div class="added_course_with_review">
+	 	<div class="added_course_with_review">
  	<span class="course_title">{{course.code}} | {{ course.title }} </span>
  	
  	<!--Show Review toggle button-->
@@ -113,26 +110,34 @@
  	
  	<!--~~~~~~~~~~~~~~~~~~~~~Toggle to show/hide course review-->
  	
- 	
+<!-- TODO: Django templates doesn't like when I save the review as a variable / the looping, thus messy code. Fix it! --> 	
  	<div class="show_hide_entered_review_toggle">
  	<br>Fills distributions: <span class="entered_instructor">
-	{% for dist in course.dists.all %}
-		{{dist}}; 
-	{% endfor %} </span> <br>
- 	Credit hours: <span class="entered_reason">
-	{{ course.credit_hours }}</span>
- 	<br>Course Content: <span class="entered_course_stars">{{ course_review.score }}</span>
+		{% for dist in course.dists.all %}
+			{{dist}}; 
+		{% endfor %} </span> <br>
+ 	Credit hours: <span class="entered_reason">	{{ course.credit_hours }}</span>
+	<br><br><span class="course_title"> Course review: </span>
+ 	<br>Course Content: <span class="entered_course_stars">	
+		{% for review in reviews.all %}
+		{% if review.comment_course.title == course.title %}
+			{{ review.score }}
+		{% endif %}
+		{% endfor %}
+</span>
 	<br>Quality of Instruction: <span class="entered_instruction_stars"></span>
+ 	<br>Comments: <br><span class="entered_comments">
+       {% for review in reviews.all %}
+		{% if review.comment_course.title == course.title %}
+			{{ review.comment_text }}
+		{% endif %}
+		{% endfor %}
+
+	</span>
+ 		 	<!--Edit and Delete Review Buttons-->
  	<br>
  	<br>
- 	Comments: <br><span class="entered_comments">
-	{{course_review.comment_text}}	</span>
- 		{% endwith %}	
- 		{% endif %}
-	{% endfor %}	
- 	<!--Edit and Delete Review Buttons-->
- 	<br>
- 	<br>
+	
  	<div class="btn-group" id="edit_and_delete_buttons">
  	
  	<a href="#" class="btn btn-xs btn-default edit_review_submit">
@@ -150,6 +155,7 @@
  	
  	
  	</div> <!--/added_course_with_review-->
+
  {% endfor %}	
 
  	
