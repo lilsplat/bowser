@@ -27,8 +27,8 @@ class AddCourseForm(forms.Form):
 class AddCourseRatingForm(forms.ModelForm):
 	class Meta:
 		model = CourseRating
-		exclude = ('comment_author')
+		fields = ('score', 'comment_text')
 	def __init__(self, *args, **kwargs):
 		super(AddCourseRatingForm, self).__init__(*args, **kwargs)
-		self.fields['comment_text'].widget.attrs['style'] = "width:500px;height:100px;"
+		self.fields['comment_text'].widget.attrs['style'] = "width:400px;height:50px;"
 

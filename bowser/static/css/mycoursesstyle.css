@@ -5,9 +5,16 @@ border-color: #3889E5;
 color: #FFFFFF;
 padding: 10px;
 padding-top: 1px;
-width: 650px;
-overflow: auto;
+width: 450px;
+overflow: visible;
 margin-bottom: 20px;
+/* adding this in -ST */
+float: right;
+position: fixed;
+height: 600px;
+right: 10px;
+bottom: 100px;
+top: 155px;
 }
 
 #instructor{
@@ -78,7 +85,8 @@ float: right;
 background-color: #10267A;
 color: #FFFFFF;
 border-radius: 10px;
-width: 800px;
+/*width: 800px;*/
+width: 700px;
 padding: 10px;
 padding-left: 10px;
 padding-bottom: 10px;

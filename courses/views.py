@@ -104,19 +104,32 @@ def load_mycourses(request):
 	# for when user adds a new course
 	if request.method == 'POST':
 		course_form = AddCourseForm(request.POST)
-		review_form = AddCourseRatingForm(request.POST)
+		rating_form = AddCourseRatingForm(request.POST)
 		if course_form.is_valid():
 			code = course_form.cleaned_data['code']
 			try: 
-				print 'CODE: ' + str(code)
 				course = Course.objects.get(code=code)
-				print str(course)
 				student.add_course(course)
 				student.save()
 			except ValueError:
 				return HttpRequestBadResponse("invalid course name")
-			if request.is_ajax():
-				return HttpResponse("")
+			# not able to process rating information for some reason
+		if rating_form.is_valid():
+			score = rating_form.cleaned_data['score']
+			text = rating_form.cleaned_data['comment_text']
+			print 'score: ' + str(score)
+			print 'text: ' + text
+			print 'processing rating'
+			course_rating, created = CourseRating.objects.get_or_create(
+				comment_author=student,
+				comment_course=course
+				)
+			print 'course rating: ' + str(course_rating)
+			print 'course score: ' + str(course_rating.score)
+			course_rating.score = score 
+			course_rating.comment_text = text
+			course_rating.save()
+
 	courses = student.courses.all()
 	course_reviews = CourseRating.objects.all().filter(comment_author=student)
 	prof_reviews = ProfRating.objects.all().filter(comment_author=student)

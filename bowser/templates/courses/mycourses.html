@@ -65,7 +65,6 @@
 		
  	        <h4>Enter a Review</h4>
  <div class="alert alert-warning alert-dismissible" role="alert">
-  <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
   <strong>Please Note:</strong> It is <em>against the Honor Code</em> to discuss 
  a professor's grading in this setting.  It is acceptable to reference the difficulty of 
  coursework, but please refrain from any discussion regarding an instructor being a 
@@ -156,8 +155,12 @@
  	
  	
  	</div> <!--/added_course_with_review-->
-
- {% endfor %}	
+	<!-- if there are no courses for a student yet -->
+	{% empty %}
+	<h2> Looks like you haven't added any courses yet! <br>
+		Add courses and course reviews in <br>
+		the box to your right. </h2>
+{% endfor %}	
 
  	
  	
