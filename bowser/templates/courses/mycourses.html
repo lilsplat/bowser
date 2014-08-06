@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/static/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="/static/css/genericstyling.css">
     <link rel="stylesheet" type="text/css" href="/static/css/mycoursesstyle.css" >
+	<script src="/static/scripts/courses.js"></script>
 	<title>My Courses</title>
 	
 </head>
@@ -38,7 +39,11 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
 		<li class="active"><a href="profile.html">Profile</a></li>
-		<li><a href="#">Logout</a></li>
+		{% if user.is_authenticated %}
+		<li><a href="/courses/logout">Logout</a></li>
+		{% else %}
+		<li><a href="/courses/login">Login</a><li>
+		{% endif %}
      </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -53,7 +58,7 @@
  		<div id="new_course_entry" class="rounded_div">
  
  		<h4> Enter a New Course </h4>
-	<form id="add_course_form" class="form-inline"  method="post" action"/courses/addcourse/"
+	<form id="add_course_form" class="form-inline" method="post" action"/courses/add_course/"
 		enctype="multipart/form-data">
 	{% csrf_token %}
 	{{ add_course_form.code }}
@@ -83,9 +88,8 @@
 				<textarea id="comments" rows="4" cols="83" placeholder="Enter comments..."
 				name="comment" class="paragraphtextinput" form="usrform"></textarea> -->
 				
-				<a href="/courses/addcourse" type="submit" class="btn btn-primary btn-success add_review_submit"> 
-				<span class="glyphicon glyphicon-ok-circle"></span> 
-				Submit and add to my Courses</a>
+				<input href="/courses/add_course" type="submit" class="btn btn-primary btn-success add_review_submit"> 
+				</input> 
 			<div id="add-course-successful"></div>
        </form> 	
         <!--	<a class="btn btn-primary btn-lg" id="greensubmit"

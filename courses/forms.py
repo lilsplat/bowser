@@ -22,7 +22,6 @@ class StudentProfileForm(forms.ModelForm):
 			) 
 
 class AddCourseForm(forms.Form):
-	dept = forms.CharField(max_length=100, widget=forms.Select(choices=DEPARTMENTS))
 	code = forms.ModelChoiceField(queryset=Course.objects.all())
 
 class AddCourseRatingForm(forms.ModelForm):

@@ -101,6 +101,22 @@ def create_student_profile(request):
 def load_mycourses(request):
 	context = RequestContext(request)
 	student = Student.objects.get(user=request.user)
+	# for when user adds a new course
+	if request.method == 'POST':
+		course_form = AddCourseForm(request.POST)
+		review_form = AddCourseRatingForm(request.POST)
+		if course_form.is_valid():
+			code = course_form.cleaned_data['code']
+			try: 
+				print 'CODE: ' + str(code)
+				course = Course.objects.get(code=code)
+				print str(course)
+				student.add_course(course)
+				student.save()
+			except ValueError:
+				return HttpRequestBadResponse("invalid course name")
+			if request.is_ajax():
+				return HttpResponse("")
 	courses = student.courses.all()
 	course_reviews = CourseRating.objects.all().filter(comment_author=student)
 	prof_reviews = ProfRating.objects.all().filter(comment_author=student)
@@ -114,21 +130,4 @@ def load_mycourses(request):
 	'prof_reviews': prof_reviews},
 	context)
 
-@require_http_methods(['POST'])
-@login_required
-def add_course(request):
-	print 'starting'
-	student = Student.objects.get(user=request.user)
-	print student
-	try:
-		course = Course.objects.get(code=request.POST.get('code'))
-		print course
-	except ValueError:
-		return HttpRequestBadResponse('Invalid course name')
-	student.add_course(course)
-	student.save()
-	print 'student saved'
-	if request.is_ajax():
-		return HttpResponse("")
-	return redirect('/courses/mycourses.html')
-	
+
