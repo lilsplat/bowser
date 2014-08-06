@@ -615,7 +615,6 @@ class Student(models.Model):
 
         return dists_todo
 
-	
 	# def major_todo(self):
 	# 	major_course_list = primary_major.major_courses
 	# 	for course in major_course_list:
@@ -734,6 +733,12 @@ class CourseRating(models.Model):
     comment_text = models.CharField(max_length=10000,null=True,blank=True)
     comment_author = models.ForeignKey('Student')
     comment_course = models.ForeignKey('Course')
+
+    def __unicode__(self):
+		return str(self.comment_course) + ' | ' + str(self.comment_author)
+
+    class Meta:
+        unique_together = ("comment_author", "comment_course")
     
 
 class ProfRating(models.Model):
@@ -748,8 +753,12 @@ class ProfRating(models.Model):
     comment_text = models.CharField(max_length=10000,null=True,blank=True)
     comment_author = models.ForeignKey('Student')
     comment_professor=models.ForeignKey('Professor')
-    
 
+    def __unicode__(self):
+	    return str(self.comment_prof) + ' | ' + str(self.comment_author)
+   
+    class Meta:
+        unique_together = ("comment_author", "comment_professor")
 
 
 
