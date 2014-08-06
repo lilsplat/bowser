@@ -102,14 +102,14 @@ def load_mycourses(request):
 	context = RequestContext(request)
 	student = Student.objects.get(user=request.user)
 	courses = student.courses.all()
-	course_reviews = CourseRating.objects.get(comment_author=student)
+	course_reviews = CourseRating.objects.all().filter(comment_author=student)
 	course_form = AddCourseRatingForm()
 	return render_to_response(
 	'courses/mycourses.html',
 	{'add_course_form': AddCourseForm(),
 	'add_course_rating_form': AddCourseRatingForm(),
 	'courses': courses,
-	'course_reviews': course_reviews},
+	'reviews': course_reviews},
 	context)
 
 @require_http_methods(['POST'])

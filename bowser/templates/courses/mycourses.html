@@ -112,15 +112,23 @@
  	
  	
  	<div class="show_hide_entered_review_toggle">
- 	<br>Fills distributions: <span class="entered_instructor">{% for dist in course.dists.all %}{{dist}}; {% endfor %} </span> <br>
- 	Credit hours: <span class="entered_reason">{{ course.credit_hours }}</span>
+ 	<br>Fills distributions: <span class="entered_instructor">
+	{% for dist in course.dists.all %}
+		{{dist}}; 
+	{% endfor %} </span> <br>
+ 	Credit hours: <span class="entered_reason">
+	{{ course.credit_hours }}</span>
  	<br>Course Content: <span class="entered_course_stars"></span><br>
  	Quality of Instruction: <span class="entered_instruction_stars"></span>
  	<br>
  	<br>
- 	Comments: <br><span class="entered_comments">I loved this class!  I'm not a math or science
- 	person but I found the work manageable and the course content very interesting.  Wes is 
- 	funny, knowledgeable and very available outside of class.  Recommended to everyone!</span>
+ 	Comments: <br><span class="entered_comments">
+	{% for review in reviews.all %} 
+	{% if review.comment_course.title == course.title  %} 
+	{{review.comment_text}}
+	{% endif %}
+	{% endfor %}
+	</span>
  	
  	
  	<!--Edit and Delete Review Buttons-->
