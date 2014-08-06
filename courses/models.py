@@ -332,12 +332,14 @@ class Semester(models.Model):
     ('Wintersession','Wintersession'),
     ('Summer I','Summer I'),
     ('Summer II','Summer II'),
+    ('Archive','Archive') #temp
     ]
     session=models.CharField(max_length=200,choices=SESSIONS,default='Fall')
     year=models.IntegerField() #e.g. 2014
+    #0000 for archive
 
     def __unicode__(self):
-        return self.session + ' ' + self.year
+        return self.session + ' ' + str(self.year)
 
     class Meta:
         ordering = ['year']
@@ -731,7 +733,8 @@ class CourseRating(models.Model):
     score = models.IntegerField(choices=SCORES,default=5)
     comment_text = models.CharField(max_length=10000,null=True,blank=True)
     comment_author = models.ForeignKey('Student')
-    comment_professor=models.ForeignKey('Professor')
+    comment_course = models.ForeignKey('Course')
+    
 
 class ProfRating(models.Model):
     SCORES=[
@@ -744,7 +747,8 @@ class ProfRating(models.Model):
     score = models.IntegerField(choices=SCORES,default=5)
     comment_text = models.CharField(max_length=10000,null=True,blank=True)
     comment_author = models.ForeignKey('Student')
-    comment_course = models.ForeignKey('Course')
+    comment_professor=models.ForeignKey('Professor')
+    
 
 
 
