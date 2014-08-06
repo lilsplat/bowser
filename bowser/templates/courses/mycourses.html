@@ -102,6 +102,9 @@
  <h2> My Courses </h2>
  	<!--~~~~~~~~~~~~~~~~~~~~~This is the appearance for a student's course WITH a review added-->
 	{% for course in courses %}
+		{% for review in reviews.all %}
+		{% if review.comment_course.title == course.title %}
+			{% with review as course_review %}
  	<div class="added_course_with_review">
  	<span class="course_title">{{course.code}} | {{ course.title }} </span>
  	
@@ -118,19 +121,15 @@
 	{% endfor %} </span> <br>
  	Credit hours: <span class="entered_reason">
 	{{ course.credit_hours }}</span>
- 	<br>Course Content: <span class="entered_course_stars"></span><br>
- 	Quality of Instruction: <span class="entered_instruction_stars"></span>
+ 	<br>Course Content: <span class="entered_course_stars">{{ course_review.score }}</span>
+	<br>Quality of Instruction: <span class="entered_instruction_stars"></span>
  	<br>
  	<br>
  	Comments: <br><span class="entered_comments">
-	{% for review in reviews.all %} 
-	{% if review.comment_course.title == course.title  %} 
-	{{review.comment_text}}
-	{% endif %}
-	{% endfor %}
-	</span>
- 	
- 	
+	{{course_review.comment_text}}	</span>
+ 		{% endwith %}	
+ 		{% endif %}
+	{% endfor %}	
  	<!--Edit and Delete Review Buttons-->
  	<br>
  	<br>
