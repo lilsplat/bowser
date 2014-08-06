@@ -400,12 +400,30 @@ class Course(models.Model):
             i+=1
         return a/i
 
-    """Returns all Professors that have taught this Course"""
+    """Returns all Professors that have ever taught this Course"""
     def all_profs(self):
         prof_list=[]
         for s in self.section_set.all():
             prof_list.append(s.prof)
         return prof_list
+
+    """Returns all Sections for the current year"""
+    def current_sections(self,current_session,current_year):
+        sec_list=[]
+        for s in self.section_set.all():
+            if s.semester.session==current_session and s.semester.year==current_year:
+                sec_list.append(s)
+        return sec_list
+
+    """Returns all Professors teaching in the current session and year"""
+    def current_profs(self,current_session,current_year):
+        current_secs=self.current_sections(current_session,current_year)
+        prof_list=[]
+        for s in current_secs:
+            prof_list.append(s.prof)
+        return prof_list
+
+
 
 
 # class Course(models.Model):
