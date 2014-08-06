@@ -110,26 +110,23 @@
  	
  	<!--~~~~~~~~~~~~~~~~~~~~~Toggle to show/hide course review-->
  	
-<!-- TODO: Django templates doesn't like when I save the review as a variable / the looping, thus messy code. Fix it! --> 	
  	<div class="show_hide_entered_review_toggle">
  	<br>Fills distributions: <span class="entered_instructor">
 		{% for dist in course.dists.all %}
 			{{dist}}; 
 		{% endfor %} </span> <br>
  	Credit hours: <span class="entered_reason">	{{ course.credit_hours }}</span>
+	{% for review in reviews.all %}
+	{% if review.comment_course.title == course.title %}
+	{% with review as course_review %}
 	<br><br><span class="course_title"> Course review: </span>
  	<br>Course Content: <span class="entered_course_stars">	
-		{% for review in reviews.all %}
-		{% if review.comment_course.title == course.title %}
-			{{ review.score }}
-		{% endif %}
-		{% endfor %}
+			{{ course_review.score }}
 </span>
 	<br>Quality of Instruction: <span class="entered_instruction_stars"></span>
  	<br>Comments: <br><span class="entered_comments">
-       {% for review in reviews.all %}
-		{% if review.comment_course.title == course.title %}
-			{{ review.comment_text }}
+			{{ course_review.comment_text }}
+		{% endwith %}
 		{% endif %}
 		{% endfor %}
 
