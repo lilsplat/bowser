@@ -530,6 +530,17 @@ class Student(models.Model):
 		else:
 			raise Exception('Course not in studen\'s list')
 
+    """Returns every CourseRating and ProfRating a Student has authored"""
+    def get_ratings(self):
+        profratings=[]
+        courseratings=[]
+        for p in self.profrating_set.all():
+            profratings.append(p)
+        for c in self.courserating_set.all():
+            courseratings.append(c)
+        return profratings+courserating
+
+    """Returns a String list representation of Student's Distributions regardless of completion"""
     def all_dist_list(self):
         #NB does not include foreign language
         all_dists = DIST_REQ #Copy list of all distribution requirements
