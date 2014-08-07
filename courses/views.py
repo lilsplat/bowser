@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from courses.forms import *
 from django.template import RequestContext
-from django.shortcuts import render_to_response
+from django.shortcuts import render_to_response, redirect
 from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponseRedirect, HttpResponse
 from django.views.decorators.http import require_http_methods
@@ -62,7 +62,7 @@ def user_login(request):
 		if user:
 			if user.is_active:
 				login(request, user)
-				return HttpResponseRedirect('/courses/create_profile')
+				return redirect('/')
 			else:
 				return HttpResponseNotFound('<h1>Page not found</h1>')
 		else:
@@ -72,7 +72,7 @@ def user_login(request):
 
 def user_logout(request):
     logout(request)
-    return render_to_response('courses/index.html')
+    return redirect('/')
 
 def create_student_profile(request):
 	print request.user
@@ -119,15 +119,10 @@ def load_mycourses(request):
 		if rating_form.is_valid():
 			score = rating_form.cleaned_data['score']
 			text = rating_form.cleaned_data['comment_text']
-			print 'score: ' + str(score)
-			print 'text: ' + text
-			print 'processing rating'
 			course_rating, created = CourseRating.objects.get_or_create(
 				comment_author=student,
 				comment_course=course
 				)
-			print 'course rating: ' + str(course_rating)
-			print 'course score: ' + str(course_rating.score)
 			course_rating.score = score 
 			course_rating.comment_text = text
 			course_rating.save()
