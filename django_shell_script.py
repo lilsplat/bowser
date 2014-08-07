@@ -110,103 +110,121 @@ from django.db.models import Count
 # 	l.save()
 
 """READING ARCHIVE JSON FILE, CHECKING FOR DUPLICATES"""
-import json
-from pprint import pprint
-json_data=open('browser_spider_archives.json')
-data=json.load(json_data)
-json_data.close()
-i=0
-"""HEY IM STILL WORKING ON THIS...DONT RUN PLZ FUTUTRE ME"""
-"""todo: add dists"""
-while i < len(data):
-	i=i+1
-	acode=data[i]['fields']['code']
-	#take care of lab courses	
-	acredit=data[i]['fields']['credit_hours']
-	if acredit == '0':
-		acode+='L'
-	#if course exists, add section
-	print 'reading ' + acode
-	if Course.objects.filter(code=acode).exists():
-		print acode + ' already exists'
-		sprofs=data[i]['fields']['prof']
-		if ',' in sprofs:
-			sprofs=sprofs.split(',')
-		else:
-			temp_sprofs=[]
-			temp_sprofs.append(sprofs)
-			sprofs=temp_sprofs
-		print sprofs
-		print '\nadding ' + str(len(sprofs)) + ' sections:'
-		for p in sprofs:
-			#add section
-			print p
-			sc=Course.objects.get(code=acode)
-			ssem=Semester.objects.get(session='Archive')
-			sid=Course.objects.get(code=acode).section_set.filter(semester__session='Archive').count()
-			sid+=1 #increment
-			print 'adding section ' + str(sid)
-			scrn=data[i]['fields']['crn']
-			sseats=data[i]['fields']['seats_available']
-			smax=data[i]['fields']['max_enrollment']
-			sprof=Professor.objects.filter(name=p)[0]
-			stad=TimeAndDate.objects.filter(starttime=data[i]['fields']['starttime']).filter(endtime=data[i]['fields']['endtime']).get(dates=data[i]['fields']['date'])
-			print 'crn: ' + scrn + ', sseats: ' + sseats + ', smax: ' + smax 
-			sec=Section.objects.create(sec_id=sid,crn=scrn,seats_available=sseats,max_enrollment=smax,prof=sprof,timeanddate=stad,semester=ssem,course=sc)
-			sec.save()
-			print 'saved' 
-	else: #if course does not exist, add course and section
-		#create course
-		print acode + ' does not exist'
-		print 'adding course'
-		cdept=data[i]['fields']['dept']
-		ccode=acode
-		ctitle=data[i]['fields']['title']
-		chours=acredit
-		cdes=data[i]['fields']['description']
-		caddit=data[i]['fields']['addit_info']
-		cbyperm=data[i]['fields']['by_permission']
-		cprereq=data[i]['fields']['prereq']
-		cnotes=data[i]['fields']['notes']
-		cxlist=data[i]['fields']['xlisted']
-		print 'dept ' + cdept + ' code ' + ccode + ' title ' + ctitle
-		print 'hours ' + chours + ' descrp ' + cdes + ' addit ' + caddit
-		print 'by perm ' + cbyperm + ' prereq ' + cprereq + ' notes ' + cnotes + ' xlist ' + cxlist
-		# cdist
-		c=Course.objects.create(dept=cdept,code=ccode,title=ctitle,credit_hours=chours,description=cdes,addit_info=caddit,by_permission=cbyperm,prereq=cprereq,notes=cnotes,xlisted=cxlist)
-		c.save()
-		#create section
-		print 'course saved' 
-		print '\nadding section'
-		sprofs=data[i]['fields']['prof']
-		if ',' in sprofs:
-			sprofs=sprofs.split(',')
-		else:
-			temp_sprofs=[]
-			temp_sprofs.append(sprofs)
-			sprofs=temp_sprofs
-		print sprofs
-		for p in sprofs:
-			#add section
-			sc=Course.objects.get(code=acode)
-			ssem=Semester.objects.get(session='Archive')
-			sid=Course.objects.get(code=acode).section_set.filter(semester__session='Archive').count()
-			sid+=1 #increment
-			scrn=data[i]['fields']['crn']
-			sseats=data[i]['fields']['seats_available']
-			smax=data[i]['fields']['max_enrollment']
-			sprof=Professor.objects.filter(name=p)[0]
-			stad=TimeAndDate.objects.filter(starttime=data[i]['fields']['starttime']).filter(endtime=data[i]['fields']['endtime']).get(dates=data[i]['fields']['date'])
-			print 'crn: ' + scrn + ', sseats: ' + sseats + ', smax: ' + smax 
-			sec=Section.objects.create(sec_id=sid,crn=scrn,seats_available=sseats,max_enrollment=smax,prof=sprof,timeanddate=stad,semester=ssem,course=sc)
-			sec.save()
-			print 'saved'
+# import json
+# from pprint import pprint
+# json_data=open('browser_spider_archives.json')
+# data=json.load(json_data)
+# json_data.close()
+# i=0
+# while i < len(data):
+# 	i=i+1
+# 	acode=data[i]['fields']['code']
+# 	#take care of lab courses	
+# 	acredit=data[i]['fields']['credit_hours']
+# 	if acredit == '0':
+# 		acode+='L'
+# 	#if course exists, add section
+# 	print 'reading ' + acode
+# 	if Course.objects.filter(code=acode).exists():
+# 		print acode + ' already exists'
+# 		sprofs=data[i]['fields']['prof']
+# 		if ',' in sprofs:
+# 			sprofs=sprofs.split(',')
+# 		else:
+# 			temp_sprofs=[]
+# 			temp_sprofs.append(sprofs)
+# 			sprofs=temp_sprofs
+# 		print sprofs
+# 		print '\nadding ' + str(len(sprofs)) + ' sections:'
+# 		for p in sprofs:
+# 			#add section
+# 			print p
+# 			sc=Course.objects.get(code=acode)
+# 			ssem=Semester.objects.get(session='Archive')
+# 			sid=Course.objects.get(code=acode).section_set.filter(semester__session='Archive').count()
+# 			sid+=1 #increment
+# 			print 'adding section ' + str(sid)
+# 			scrn=data[i]['fields']['crn']
+# 			sseats=data[i]['fields']['seats_available']
+# 			smax=data[i]['fields']['max_enrollment']
+# 			sprof=Professor.objects.filter(name=p)[0]
+# 			stad=TimeAndDate.objects.filter(starttime=data[i]['fields']['starttime']).filter(endtime=data[i]['fields']['endtime']).get(dates=data[i]['fields']['date'])
+# 			print 'crn: ' + scrn + ', sseats: ' + sseats + ', smax: ' + smax 
+# 			sec=Section.objects.create(sec_id=sid,crn=scrn,seats_available=sseats,max_enrollment=smax,prof=sprof,timeanddate=stad,semester=ssem,course=sc)
+# 			sec.save()
+# 			print 'saved' 
+# 	else: #if course does not exist, add course and section
+# 		#create course
+# 		print acode + ' does not exist'
+# 		print 'adding course'
+# 		cdept=data[i]['fields']['dept']
+# 		ccode=acode
+# 		ctitle=data[i]['fields']['title']
+# 		chours=acredit
+# 		cdes=data[i]['fields']['description']
+# 		caddit=data[i]['fields']['addit_info']
+# 		cbyperm=data[i]['fields']['by_permission']
+# 		cprereq=data[i]['fields']['prereq']
+# 		cnotes=data[i]['fields']['notes']
+# 		cxlist=data[i]['fields']['xlisted']
+# 		print 'dept ' + cdept + ' code ' + ccode + ' title ' + ctitle
+# 		print 'hours ' + chours + ' descrp ' + cdes + ' addit ' + caddit
+# 		print 'by perm ' + cbyperm + ' prereq ' + cprereq + ' notes ' + cnotes + ' xlist ' + cxlist
+# 		# cdist
+# 		c=Course.objects.create(dept=cdept,code=ccode,title=ctitle,credit_hours=chours,description=cdes,addit_info=caddit,by_permission=cbyperm,prereq=cprereq,notes=cnotes,xlisted=cxlist)
+# 		c.save()
+# 		#create section
+# 		print 'course saved' 
+# 		print '\nadding section'
+# 		sprofs=data[i]['fields']['prof']
+# 		if ',' in sprofs:
+# 			sprofs=sprofs.split(',')
+# 		else:
+# 			temp_sprofs=[]
+# 			temp_sprofs.append(sprofs)
+# 			sprofs=temp_sprofs
+# 		print sprofs
+# 		for p in sprofs:
+# 			#add section
+# 			sc=Course.objects.get(code=acode)
+# 			ssem=Semester.objects.get(session='Archive')
+# 			sid=Course.objects.get(code=acode).section_set.filter(semester__session='Archive').count()
+# 			sid+=1 #increment
+# 			scrn=data[i]['fields']['crn']
+# 			sseats=data[i]['fields']['seats_available']
+# 			smax=data[i]['fields']['max_enrollment']
+# 			sprof=Professor.objects.filter(name=p)[0]
+# 			stad=TimeAndDate.objects.filter(starttime=data[i]['fields']['starttime']).filter(endtime=data[i]['fields']['endtime']).get(dates=data[i]['fields']['date'])
+# 			print 'crn: ' + scrn + ', sseats: ' + sseats + ', smax: ' + smax 
+# 			sec=Section.objects.create(sec_id=sid,crn=scrn,seats_available=sseats,max_enrollment=smax,prof=sprof,timeanddate=stad,semester=ssem,course=sc)
+# 			sec.save()
+# 			print 'saved'
 
-	# else:
-	# 	print 'DNE: ' + acode
-	print '\n\n'
-	print '-------------'
-	print '\n'
+# 	# else:
+# 	# 	print 'DNE: ' + acode
+# 	print '\n\n'
+# 	print '-------------'
+# 	print '\n'
 
+"""ADDING ARCHIVE DISTS"""
+# f=open('archive_dists.txt','r')
+# for l in f.readlines():
+# 	l=l.split(',')
+# 	# print l[1]
+# 	if l[0] != '5': #lab
+# 		d=Distribution.objects.get(id=l[0].strip())
+# 		c=Course.objects.get(code=l[1].strip())
+# 		if d in c.dists.all():
+# 			print c.code + '\'s dists exist'
+# 		else:
+# 			c.dists.add(d)
 
+# f.close()
 
+"""ADDING ALL LABS"""
+# for c in Course.objects.all():
+# 	if 'L' in c.code[-1:]:
+# 		if c.credit_hours=='0':
+# 			print c
+# 			if c.dists.all().count() == 0:
+# 				c.dists.add(Distribution.objects.get(name='Lab'))
