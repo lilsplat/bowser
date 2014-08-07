@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/static/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="/static/css/genericstyling.css">
     <link rel="stylesheet" type="text/css" href="/static/css/mycoursesstyle.css" >
+	<script src="/static/scripts/courses.js"></script>
 	<title>My Courses</title>
 	
 </head>
@@ -38,7 +39,11 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
 		<li class="active"><a href="profile.html">Profile</a></li>
-		<li><a href="#">Logout</a></li>
+		{% if user.is_authenticated %}
+		<li><a href="/courses/logout">Logout</a></li>
+		{% else %}
+		<li><a href="/courses/login">Login</a><li>
+		{% endif %}
      </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -53,14 +58,13 @@
  		<div id="new_course_entry" class="rounded_div">
  
  		<h4> Enter a New Course </h4>
-	<form id="add_course_form" class="form-inline"  method="post" action"/courses/addcourse/"
+	<form id="add_course_form" class="form-inline" method="post" action"/courses/add_course/"
 		enctype="multipart/form-data">
 	{% csrf_token %}
 	{{ add_course_form.code }}
 		
  	        <h4>Enter a Review</h4>
  <div class="alert alert-warning alert-dismissible" role="alert">
-  <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
   <strong>Please Note:</strong> It is <em>against the Honor Code</em> to discuss 
  a professor's grading in this setting.  It is acceptable to reference the difficulty of 
  coursework, but please refrain from any discussion regarding an instructor being a 
@@ -83,9 +87,8 @@
 				<textarea id="comments" rows="4" cols="83" placeholder="Enter comments..."
 				name="comment" class="paragraphtextinput" form="usrform"></textarea> -->
 				
-				<a href="/courses/addcourse" type="submit" class="btn btn-primary btn-success add_review_submit"> 
-				<span class="glyphicon glyphicon-ok-circle"></span> 
-				Submit and add to my Courses</a>
+				<input href="/courses/add_course" type="submit" class="btn btn-primary btn-success add_review_submit"> 
+				</input> 
 			<div id="add-course-successful"></div>
        </form> 	
         <!--	<a class="btn btn-primary btn-lg" id="greensubmit"
@@ -102,7 +105,7 @@
  <h2> My Courses </h2>
  	<!--~~~~~~~~~~~~~~~~~~~~~This is the appearance for a student's course WITH a review added-->
 	{% for course in courses %}
- 	<div class="added_course_with_review">
+	 	<div class="added_course_with_review">
  	<span class="course_title">{{course.code}} | {{ course.title }} </span>
  	
  	<!--Show Review toggle button-->
@@ -110,22 +113,31 @@
  	
  	<!--~~~~~~~~~~~~~~~~~~~~~Toggle to show/hide course review-->
  	
- 	
  	<div class="show_hide_entered_review_toggle">
- 	<br>Fills distributions: <span class="entered_instructor">{% for dist in course.dists.all %}{{dist}}; {% endfor %} </span> <br>
- 	Credit hours: <span class="entered_reason">{{ course.credit_hours }}</span>
- 	<br>Course Content: <span class="entered_course_stars"></span><br>
- 	Quality of Instruction: <span class="entered_instruction_stars"></span>
+ 	<br>Fills distributions: <span class="entered_instructor">
+		{% for dist in course.dists.all %}
+			{{dist}}; 
+		{% endfor %} </span> <br>
+ 	Credit hours: <span class="entered_reason">	{{ course.credit_hours }}</span>
+	{% for review in reviews.all %}
+	{% if review.comment_course.title == course.title %}
+	{% with review as course_review %}
+	<br><br><span class="course_title"> Course review: </span>
+ 	<br>Course Content: <span class="entered_course_stars">	
+			{{ course_review.score }}
+</span>
+	<br>Quality of Instruction: <span class="entered_instruction_stars"></span>
+ 	<br>Comments: <br><span class="entered_comments">
+			{{ course_review.comment_text }}
+		{% endwith %}
+		{% endif %}
+		{% endfor %}
+
+	</span>
+ 		 	<!--Edit and Delete Review Buttons-->
  	<br>
  	<br>
- 	Comments: <br><span class="entered_comments">I loved this class!  I'm not a math or science
- 	person but I found the work manageable and the course content very interesting.  Wes is 
- 	funny, knowledgeable and very available outside of class.  Recommended to everyone!</span>
- 	
- 	
- 	<!--Edit and Delete Review Buttons-->
- 	<br>
- 	<br>
+	
  	<div class="btn-group" id="edit_and_delete_buttons">
  	
  	<a href="#" class="btn btn-xs btn-default edit_review_submit">
@@ -143,7 +155,12 @@
  	
  	
  	</div> <!--/added_course_with_review-->
- {% endfor %}	
+	<!-- if there are no courses for a student yet -->
+	{% empty %}
+	<h2> Looks like you haven't added any courses yet! <br>
+		Add courses and course reviews in <br>
+		the box to your right. </h2>
+{% endfor %}	
 
  	
  	

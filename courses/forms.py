@@ -22,14 +22,13 @@ class StudentProfileForm(forms.ModelForm):
 			) 
 
 class AddCourseForm(forms.Form):
-	dept = forms.CharField(max_length=100, widget=forms.Select(choices=DEPARTMENTS))
 	code = forms.ModelChoiceField(queryset=Course.objects.all())
 
 class AddCourseRatingForm(forms.ModelForm):
 	class Meta:
 		model = CourseRating
-		exclude = ('comment_author')
+		fields = ('score', 'comment_text')
 	def __init__(self, *args, **kwargs):
 		super(AddCourseRatingForm, self).__init__(*args, **kwargs)
-		self.fields['comment_text'].widget.attrs['style'] = "width:500px;height:100px;"
+		self.fields['comment_text'].widget.attrs['style'] = "width:400px;height:50px;"
 
