@@ -31,6 +31,8 @@ def register(request):
 			user = user_form.save()
 			user.set_password(user.password)
 			user.save()
+			#login new user
+			user_login(request)
 			registered = True
 			#create student to correspond with user
 			student = Student.objects.get_or_create(user=user)
