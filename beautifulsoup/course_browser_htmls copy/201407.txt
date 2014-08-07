@@ -530,7 +530,7 @@ TWTh</th>
 MWTh</th> 
 <th valign="top" align="left"><a target=_fac href=faculty_profiles.php?user=nmarshal>Nancy Marshall</a></th> 
 <th valign="top" align="left"></th> 
-<th valign="top" align="left">Language and Literature<hr>
+<th valign="top" align="left">Language and Literature, 
 Social and Behavioral Analysis</th> 
 <th valign="top" align="left"><a href="display_single_course_cb.php?crn=30517&semester=201407&pe_term=&skip_graphics=1&no_navs=1" onclick="return hs.htmlExpand(this, { objectType: 'iframe', width:800} )">More</a></th> 
 <th valign="top" align="left">201407</th> 
