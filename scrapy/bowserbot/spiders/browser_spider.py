@@ -8,11 +8,15 @@ from bowserbot.items import *
 import re
 
 #can't close these ruh roh...bad practice
-f=open('browser_spider_test.json','w+')
-distf=open('all_courses_fall2014_dists.txt','w+')
-proff=open('all_courses_fall2014_profs.txt','w+')
-tdf=open('all_courses_fall2014_timeanddate.txt','w+')
+# f=open('browser_spider_test.json','w+')
+# distf=open('all_courses_fall2014_dists.txt','w+')
+# proff=open('all_courses_fall2014_profs.txt','w+')
+# tdf=open('all_courses_fall2014_timeanddate.txt','w+')
 #semesterf=open('all_courses_fall2014_semesters.txt','w+')
+f=open('browser_spider_archives.json','w+')
+distf=open('archive_dists.txt','w+')
+proff=open('archive_profs.txt','w+')
+tdf=open('archive_timeanddate.txt','w+')
 
 class BrowserSpider(scrapy.Spider):
     pk=1
@@ -21,9 +25,29 @@ class BrowserSpider(scrapy.Spider):
     allowed_domains = ["https://courses.wellesley.edu"]
 
     start_urls=[]
-    filereader=open('course_urls.txt','r')
-    for line in filereader.readlines():
-        start_urls.append(line)
+    semesters=['201109',
+    '201201',
+    '201202',
+    '201206',
+    '201207',
+    '201209',
+    '201301',
+    '201302',
+    '201306',
+    '201307',
+    '201309',
+    '201401',
+    '201402',
+    '201406',
+    '201407'
+    ]
+    for s in semesters:
+        filereader=open(s+'_course_urls.txt','r')
+        for line in filereader.readlines():
+            start_urls.append(line)
+    # filereader=open('course_urls.txt','r')
+    # for line in filereader.readlines():
+    #     start_urls.append(line)
 
     def parse(self, response):
         # self.log('A response from %s just arrived!' % response.url)

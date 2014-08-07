@@ -103,42 +103,42 @@ class ArchivedCourseSpider(scrapy.Spider):
         code = path.split("/").pop(12)
         code = code.split(".").pop(0)
 
-        filewriter = open('course_browser_database/' + code + '_new.txt', 'w')
-        # filewriter=open('course_urls.txt','w+')
+        # filewriter = open('course_browser_database/' + code + '_new.txt', 'w')
+        filewriter=open(code+'_course_urls.txt','w+')
         
 
         for sel in response.xpath('//tbody/tr'): #each <tr> is a class table
-            # site=sel.xpath('th[2]/a/@href').extract()
+            site=sel.xpath('th[2]/a/@href').extract()
 
-            # print 'beginning writing\n'
-            # directory=site[0].encode("UTF-8")
-            # url='https://courses.wellesley.edu/'+directory
-            # print url
-            # filewriter.write(url + '\n')
+            print 'beginning writing\n'
+            directory=site[0].encode("UTF-8")
+            url='https://courses.wellesley.edu/'+directory
+            print url
+            filewriter.write(url + '\n')
 
-            course = sel.xpath('th[2]/a/text()').extract()
-            course = self.test_and_pop(course)
-            course = course.replace(" ","")
+            # course = sel.xpath('th[2]/a/text()').extract()
+            # course = self.test_and_pop(course)
+            # course = course.replace(" ","")
 
-            title = sel.xpath('th[3]/text()').extract()
-            title = self.test_and_pop(title)
+            # title = sel.xpath('th[3]/text()').extract()
+            # title = self.test_and_pop(title)
 
-            time = sel.xpath('th[7]/text()').extract() #has empty and multiple object lists
-            time = self.test_and_pop(time)
+            # time = sel.xpath('th[7]/text()').extract() #has empty and multiple object lists
+            # time = self.test_and_pop(time)
 
-            date = sel.xpath('th[8]/text()').extract() #has empty and multiple object lists
-            date = self.test_and_pop(date)
-            date = date.strip() #idk why but new line?
+            # date = sel.xpath('th[8]/text()').extract() #has empty and multiple object lists
+            # date = self.test_and_pop(date)
+            # date = date.strip() #idk why but new line?
 
-            prof = sel.xpath('th[9]/a/text()').extract() #has empty lists
-            prof = self.test_and_pop(prof)
+            # prof = sel.xpath('th[9]/a/text()').extract() #has empty lists
+            # prof = self.test_and_pop(prof)
 
-            prof_site = sel.xpath('th[9]/a/@href').extract() #has empty lists
-            prof_site = self.test_and_pop(prof_site)
-            prof_site = 'https://courses.wellesley.edu/' + prof_site
+            # prof_site = sel.xpath('th[9]/a/@href').extract() #has empty lists
+            # prof_site = self.test_and_pop(prof_site)
+            # prof_site = 'https://courses.wellesley.edu/' + prof_site
 
-            distribution = sel.xpath('th[11]/text()').extract() #has multiple object lists
-            distribution = self.test_and_pop(distribution)
+            # distribution = sel.xpath('th[11]/text()').extract() #has multiple object lists
+            # distribution = self.test_and_pop(distribution)
 
 
             # """ Do we need to encode UTF-8? """
@@ -191,19 +191,19 @@ class ArchivedCourseSpider(scrapy.Spider):
             # print 'writing delimiter'
             # filewriter.write("..")
 
-            filewriter.write(#crn.encode("UTF-8") + "\n" + 
-                course.encode("UTF-8") + "\n" + 
-                title.encode("UTF-8") + "\n" + 
-                # str(isCourseFull) + "\n" + 
-                time.encode("UTF-8") + "\n" + 
-                date.encode("UTF-8") + "\n" + 
-                prof.encode("UTF-8") + "\n" + 
-                prof_site.encode("UTF-8") + "\n" + 
-                distribution.encode("UTF-8") + 
-                "\n#\n") #delimiter
+            # filewriter.write(#crn.encode("UTF-8") + "\n" + 
+            #     course.encode("UTF-8") + "\n" + 
+            #     title.encode("UTF-8") + "\n" + 
+            #     # str(isCourseFull) + "\n" + 
+            #     time.encode("UTF-8") + "\n" + 
+            #     date.encode("UTF-8") + "\n" + 
+            #     prof.encode("UTF-8") + "\n" + 
+            #     prof_site.encode("UTF-8") + "\n" + 
+            #     distribution.encode("UTF-8") + 
+            #     "\n#\n") #delimiter
 
-            ArchivedCourseSpider.profwriter.write(prof.encode("UTF-8")+'\t'+prof_site.encode("UTF-8")+'\n')
-            ArchivedCourseSpider.tdwriter.write(time.encode("UTF-8")+'\t\t'+date.encode("UTF-8")+'\n')
+            # ArchivedCourseSpider.profwriter.write(prof.encode("UTF-8")+'\t'+prof_site.encode("UTF-8")+'\n')
+            # ArchivedCourseSpider.tdwriter.write(time.encode("UTF-8")+'\t\t'+date.encode("UTF-8")+'\n')
 
         filewriter.close()
 
