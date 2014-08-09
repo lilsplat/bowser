@@ -471,9 +471,9 @@ class BrowserSpider(scrapy.Spider):
         d=list(set(d)) #get rid of duplicates
         # print d
         for distribution_id in d:
-            distf.write("("+str(BrowserSpider.dist_pk)+","+str(BrowserSpider.pk)+","+str(distribution_id)+")")
-            # print 'wrote: course id:' + str(BrowserSpider.pk) + '   dist id:' + str(distribution_id)
+            distf.write(str(distribution_id)+','+code)
+            # distf.write("("+str(BrowserSpider.dist_pk)+","+str(BrowserSpider.pk)+","+str(distribution_id)+")")
             distf.write("\n")
-            BrowserSpider.dist_pk+=1
+            # BrowserSpider.dist_pk+=1
 
         

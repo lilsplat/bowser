@@ -24,3 +24,5 @@ echo
 # sqlite3 test.db  "insert into n (f,l) values ('john','smith');"
 echo "Done"
 echo
+
+#563 course objects in old bowserdb
