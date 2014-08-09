@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <link rel="icon" href="../../favicon.ico">
+    
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/bootstrap-3.2.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/genericstyling.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/landingstyle.css" >
+    
+    
+    <!--Bootstrap core css-->
+    
+   
+    <!-- Custom styles for this template -->
+    <link href="signin.css" rel="stylesheet">
+
+
+    <script src="static/assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+	<title>Welcome to Bowser!</title>
+	
+</head>
+
+<body>
+
+<div class="green_background">
+
+ <div id="top_banner">
+<!-- <span id="welcome"> Welcome to </span> -->
+ 	<div id="bowser_title"> B O W S E R 
+ 		<div id="description">
+ 		&mdash;Wellesley's <strong>one-stop</strong> source for course browsing</div></div> 
+ </div>
+ <div id="features" class="container-fluid">
+
+<div id="features_heading"><h2> Use Bowser to... </h2> </div>
+<br>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-shopping-cart"></span>
+          <h3>Easily Shop for Courses </h3>
+          <p> Use the built-in course browser to search for classes by department, subject,
+          day, time, or distribution fulfillments, and read reviews written by past students.
+          Loved your bio class?  Remember that time you signed up for calc not realizing
+          what you were getting into?  Leave reviews of your classes to help others!</p>
+        </div>
+        
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-calendar"></span>
+          <h3>Arrange the Perfect Schedule</h3>
+          <p> Bowser's dynamic calendar allows for easy viewing of your weekly class schedule
+          alongside the Wellesley course browser.  Add and delete courses as you browse to 
+          try various scheduling options.  Yes, Hermione, you can fit in 5 classes, work-study,
+          violin lessons AND zumba.  We just don't recommend it.
+          </div>
+        
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-stats"></span>
+          <h3>Track Degree Requirements</h3>
+          <p> Log your past courses and easily view your completion of major, minor and 
+          distribution requirements. Still need to cover your QR overlay?  No worries--Bowser
+          can provide a list of all the possible courses that fill the requirement.  Don't
+          be that kid who suddenly realizes senior spring your classes only add up to 31.5 units.
+          </div>
+      </div><!-- /.row -->
+
+ </div> 
+
+ <div class="green_background">
+ 
+ <div id="Login_or_create_box">
+ <br>
+ <a class="btn btn-primary btn-lg login" href="#login_form" role="button">Sign In</a>
+ <br> <br> &mdash;OR&mdash;
+ <br> <br>
+ <a class="btn btn-primary btn-lg create" href="#create_account_form" role="button">Create an Account</a>
+ </div>
+ </div> 
+ 
+
+<div id="center_content">
+ 
+ <!--Login form-->
+ <div id="login_form">
+ <form class="form-signin" role="form" method="post" action="/courses/login/">
+		{% csrf_token %}
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <a href="#"><span class="create_account">Don't have an account?  Create one!</span></a>
+       <br> 
+        <br>
+        <div class="input-group">
+  			<input type="email" class="form-control" name="email" placeholder="Email">
+  			<span class="input-group-addon">@wellesley.edu</span>
+		</div>
+
+		<input type="password" class="form-control" name="password" placeholder="Password" required>
+       <!-- <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+          <br> 
+        </div> -->
+        <button class="btn btn-lg btn-primary btn-block login" type="submit">Sign In</button>
+      </form>
+ </div>
+      
+<!--Create account form-->
+ <div id="create_account_form">
+ <form class="form-signin" role="form">
+        <h2 class="form-signin-heading">Create an account</h2>
+        <a href="#"><span class="create_account">Already have an account?  Log in here!</span></a>
+        <br><br>
+          <div class="input-group">
+  			<input type="email" class="form-control" placeholder="Email">
+  			<span class="input-group-addon">@wellesley.edu</span>
+		</div>
+        <br><input type="password" class="form-control" placeholder="Create a Password" required>
+        
+        
+		<!-- Grad year dropdown -->
+  <button type="button" class="btn btn-block btn-default btn-lg dropdown-toggle" data-toggle="dropdown">
+    Year of Graduation <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#">2015</a></li>
+    <li><a href="#">2016</a></li>
+    <li><a href="#">2017</a></li>
+    <li><a href="#">2018</a></li>
+    <li><a href="#">2019</a></li>
+    <li><a href="#">2020</a></li>
+  </ul><br>
+
+		<!-- major 1 dropdown -->
+  <button type="button" class="btn btn-block btn-default btn-lg dropdown-toggle" data-toggle="dropdown">
+Major 1 <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#">Undeclared</a></li>
+  </ul> <br>
+  
+		<!-- major 2 dropdown -->
+    <button type="button" class="btn btn-block btn-default btn-lg dropdown-toggle" data-toggle="dropdown">
+   Intended Major 2 <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#">Undeclared/None</a></li>
+  </ul> <br>
+  
+		<!-- minor dropdown -->
+      <button type="button" class="btn btn-block btn-default btn-lg dropdown-toggle" data-toggle="dropdown">
+   Intended Minor <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#">Undeclared/None</a></li>
+  </ul> <br>
+        
+<!--
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div> -->
+        <button class="btn btn-lg btn-primary btn-block create" type="submit">Create Account</button>
+      </form>
+ </div>
+    
+    </div> <!--/center_content-->
+    
+    
+     <!--~~~~~~~~~~~~~~ FEATURES-->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+    
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="/static/bootstrap-3.2.0-dist/js/bootstrap.js"></script>
+
+  </body>
+</html>

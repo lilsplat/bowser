@@ -1,0 +1,154 @@
+.green_background{
+background-color: #6BB18E; 
+}
+
+#top_banner{
+/*padding-bottom: 20px;*/
+}
+
+#welcome{
+padding-left: 20px;
+font-size: 25px;
+margin-bottom: 0px;
+padding-bottom: 0px;
+}
+
+#bowser_title{
+font-size: 45px;
+padding-left: 75px;
+background-color: #10267A; 
+color:#EFEFEF;
+width: 100%;
+border-style: solid;
+border-width: 0px 0px 5px 0px;
+border-color: #3672A6; 
+}
+
+#description {
+font-size: 22px;
+margin-left: 20px;
+display: inline-block;
+vertical-align: middle; 
+}
+
+#Login_or_create_box{
+border-style: solid;
+border-width: 1px;
+border-color: #CACACA;
+background-color: #B1DDC6; 
+font-size: 15px;
+border-radius: 10px;
+width: 500px;
+height: 200px;
+padding-top: 0px;
+text-align: center;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
+.login{
+width: 190px;
+background-color: #326A7E;
+border-color: #326A7E;
+text-align: center;
+}
+
+.login:hover {
+background-color: #285466; /*dark teal*/
+border-color: #285466;
+}
+
+.create{
+width: 190px;
+background-color: #8E3488; /*magenta*/
+border-color: #8E3488;
+}
+
+.create:hover {
+background-color: #722C6D; /*dark magenta*/
+border-color: #722C6D;
+}
+
+
+#center_content {
+background-color: #7FCBDE; #868686; #10267A; /*Wellesley blue*/
+color: #FFFFFF;
+padding: 20px;
+border-style: solid;
+border-width: 5px 0px 0px 0px;
+border-color: #10267A; #868686;
+text-align: center;
+z-index: 1;
+}
+
+#features_heading{
+text-align: left;
+}
+
+#features{
+margin: auto;
+text-align: center;
+color: black;
+border-style: solid;
+border-width: 5px 0px 5px 0px;
+border-color: #10267A; #868686;
+background-color: #EFEFEF;
+padding-bottom: 20px;
+z-index: 1;
+}
+
+span.glyphicon-shopping-cart {
+font-size: 90px;
+}
+
+span.glyphicon-calendar {
+font-size: 90px;
+}
+
+span.glyphicon-stats {
+font-size: 90px;
+}
+
+
+
+
+
+
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+

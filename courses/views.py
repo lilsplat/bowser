@@ -14,21 +14,13 @@ def index(request):
 def register(request):
     # get the request's context.
     context = RequestContext(request)
-
-    # A boolean value for telling the template whether the registration was successful.
-    # Set to False initially. Code changes value to True when registration succeeds.
     registered = False
-
-    # If it's a HTTP POST, we're interested in processing form data.
     if request.method == 'POST':
-        # Attempt to grab information from the raw form information.
-        # Note that we make use of both UserForm and UserProfileForm.
         user_form = UserForm(data=request.POST)
-
-        # If the two forms are valid...
         if user_form.is_valid():
-		# Save the user's form data to the database.
-			user = user_form.save()
+			user = user_form.save(commit=False)
+			user.username += '@wellesley.edu'
+			user.email = user.username
 			user.set_password(user.password)
 			user.save()
 			#login new user
@@ -68,7 +60,7 @@ def user_login(request):
 		else:
 			return HttpResponse('Invalid login')
 	else:
-		return render_to_response('courses/login.html/', {}, context)
+		return render_to_response('courses/landing.html/', {}, context)
 
 def user_logout(request):
     logout(request)
@@ -140,4 +132,14 @@ def load_mycourses(request):
 	'prof_reviews': prof_reviews},
 	context)
 
-
+@require_http_methods(['POST'])
+def delete_course(request):
+	path = request.path
+	print path
+	course = Course.objects.get(code=request.POST['code'])
+	student = Student.objects.get(user=request.user)
+	student.remove_course(course)
+	student.save()
+	if request.is_ajax():
+		return HttpResponse("")
+	return redirect('/mycourses')

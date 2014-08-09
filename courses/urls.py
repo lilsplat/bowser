@@ -17,4 +17,5 @@ urlpatterns = patterns('',
 	url(r'^logout/$', views.user_logout, name='logout'),
 	url(r'^create_profile/$', views.create_student_profile, name='create_profile'),
 	url(r'^mycourses/$', views.load_mycourses, name='load_mycourses'),
+	url(r'^mycourses/delete_course/(?P<code> \d+)/$', views.delete_course, name='delete_course'),
 )
