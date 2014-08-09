@@ -28,9 +28,7 @@ def register(request):
 			registered = True
 			#create student to correspond with user
 			student = Student.objects.get_or_create(user=user)
-        # Invalid form or forms - mistakes or something else?
-        # Print problems to the terminal.
-        # They'll also be shown to the user.
+        # Erros that will also be shown to the user.
         else:
             print user_form.errors
 
@@ -50,6 +48,8 @@ def user_login(request):
 	if request.method == 'POST':
 		username = request.POST['username']
 		password = request.POST['password']
+		#to account for the way we ask users to input their username/email
+		username += "@wellesley.edu"
 		user = authenticate(username=username, password=password)
 		if user:
 			if user.is_active:
