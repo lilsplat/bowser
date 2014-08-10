@@ -667,12 +667,12 @@ class Major(models.Model):
 	
 class UserProfile(models.Model):
     # Links UserProfile to a User model instance.
-    user = models.OneToOneField(User)
+	user = models.OneToOneField(User)
     # additional attributes we wish to include.
-    email_verified = models.BooleanField()
-
-    def __unicode__(self):
-        return self.user.username
+	email_verified = models.BooleanField()
+	
+	def __unicode__(self):
+		return self.user.username
 
 class CourseRating(models.Model):
     SCORES=[
