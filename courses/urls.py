@@ -19,4 +19,5 @@ urlpatterns = patterns('',
 	url(r'^mycourses/$', views.load_mycourses, name='load_mycourses'),
 	url(r'^myschedule/$', views.load_myschedule, name='load_myschedule'),
 	url(r'^mycourses/delete_course/(?P<code> \d+)/$', views.delete_course, name='delete_course'),
+    url(r'^checklist/$', views.checklist, name='checklist')
 )
