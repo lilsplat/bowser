@@ -102,9 +102,7 @@ def checklist(request):
 	# return HttpResponse("")
 	return render_to_response(
 		'courses/checklist.html',
-		{'ds': ds,
-		'cs': cs,
-		'dists_todo': dists_todo},
+		{'dists_todo': dists_todo},
 		context
 		)
 
