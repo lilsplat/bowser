@@ -18,4 +18,5 @@ urlpatterns = patterns('',
 	url(r'^register/$', views.create_student_profile, name='create_student_profile'),
 	url(r'^mycourses/$', views.load_mycourses, name='load_mycourses'),
 	url(r'^mycourses/delete_course/(?P<code> \d+)/$', views.delete_course, name='delete_course'),
+    url(r'^checklist/$', views.checklist, name='checklist')
 )

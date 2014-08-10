@@ -95,6 +95,19 @@ def create_student_profile(request):
 		student_form = StudentProfileForm()
 	return redirect('/')
 
+def checklist(request):
+	context=RequestContext(request)
+	student=Student.objects.get(user=request.user)
+	dists_todo=student.distributions_todo()
+	# return HttpResponse("")
+	return render_to_response(
+		'courses/checklist.html',
+		{'ds': ds,
+		'cs': cs,
+		'dists_todo': dists_todo},
+		context
+		)
+
 def load_mycourses(request):
 	context = RequestContext(request)
 	student = Student.objects.get(user=request.user)
