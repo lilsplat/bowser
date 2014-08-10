@@ -12,7 +12,6 @@ def index(request):
     return render(request, 'courses/index.html')
 
 def register(request):
-    # get the request's context.
     context = RequestContext(request)
     registered = False
     if request.method == 'POST':
@@ -28,19 +27,16 @@ def register(request):
 			registered = True
 			#create student to correspond with user
 			student = Student.objects.get_or_create(user=user)
-        # Erros that will also be shown to the user.
+        # errors that will also be shown to the user.
         else:
             print user_form.errors
-
-    # Not a HTTP POST, so we render our form using two ModelForm instances.
-    # These forms will be blank, ready for user input.
     else:
         user_form = UserForm()
-
-    # Render the template depending on the context.
-    return render_to_response(
+   
+	#include registration form too 
+	return render_to_response(
             'courses/register.html',
-            {'user_form': user_form, 'registered': registered},
+            {'user_form': user_form, 'register_form': StudentProfileForm()},
             context)
 #login
 def user_login(request):
@@ -54,13 +50,14 @@ def user_login(request):
 		if user:
 			if user.is_active:
 				login(request, user)
+				print 'user logged in'
 				return redirect('/')
 			else:
 				return HttpResponseNotFound('<h1>Page not found</h1>')
 		else:
-			return HttpResponse('Invalid login')
+			return HttpResponse('Invalid Login')
 	else:
-		return render_to_response('courses/landing.html/', {}, context)
+		return render_to_response('courses/landing.html/', {'register_form':StudentProfileForm()}, context)
 
 def user_logout(request):
     logout(request)
@@ -71,26 +68,32 @@ def create_student_profile(request):
 	context = RequestContext(request)
 	profile_created = False
 	if request.method == 'POST':
-		student_form = StudentProfileForm(data=request.POST)
+		student_form = StudentProfileForm(request.POST)
+		print 'student form data variable created'
 		if student_form.is_valid():
-			student_data = student_form.save(commit=False)
-			student = Student.objects.get(user=request.user)
-			student.class_year = student_data.class_year
-			student.primary_major = student_data.primary_major
-			student.secondary_major = student_data.secondary_major
-			student.gpa = student_data.gpa
-			student.qrb_passed = student_data.qrb_passed
+			print 'student form valid'
+			#student_data = student_form.save(commit=False)
+			print 'student data saved'
+			#first create a user object
+			username = student_form.cleaned_data['username'] + '@wellesley.edu'
+ 			password = student_form.cleaned_data['password']
+			print 'username and password saved'
+			user = User.objects.create_user(username, username, password)
+			print 'user created'
+			print 'user: ' + str(user)
+			# now create corresponding student object
+			student, created  = Student.objects.get_or_create(user=user)
+			student.class_year = student_form.cleaned_data['class_year']
+			student.primary_major = student_form.cleaned_data['primary_major']
+			student.secondary_major = student_form.cleaned_data['secondary_major']
 			student.save()
 			profile_created = True
-			return render_to_response('courses/index.html', context)
+			return redirect('/') 
 		else:
 			print student_form.errors
 	else:
 		student_form = StudentProfileForm()
-	return render_to_response(
-		'courses/create_profile.html',
-		{'student_form': student_form},  
-		context)
+	return redirect('/')
 
 def load_mycourses(request):
 	context = RequestContext(request)

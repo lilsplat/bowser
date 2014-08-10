@@ -12,10 +12,10 @@ urlpatterns = patterns('',
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
     url(r'^$', views.index, name='index'),
-	url(r'^register/$', views.register, name='register'),
+	#url(r'^register/$', views.register, name='register'),
 	url(r'^login/$', views.user_login, name='login'),
 	url(r'^logout/$', views.user_logout, name='logout'),
-	url(r'^create_profile/$', views.create_student_profile, name='create_profile'),
+	url(r'^register/$', views.create_student_profile, name='create_student_profile'),
 	url(r'^mycourses/$', views.load_mycourses, name='load_mycourses'),
 	url(r'^mycourses/delete_course/(?P<code> \d+)/$', views.delete_course, name='delete_course'),
 )

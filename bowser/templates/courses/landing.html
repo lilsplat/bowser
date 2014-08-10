@@ -105,7 +105,7 @@
 		{% csrf_token %}
 		{{ user_form.non_field_errors }}
         <h2 class="form-signin-heading">Please sign in</h2>
-        <a href="#"><span class="create_account">Don't have an account?  Create one!</span></a>
+        <a href="#create_account_form"><span class="create_account">Don't have an account?  Create one!</span></a>
        <br> 
         <br>
         <div class="input-group">
@@ -127,53 +127,22 @@
       
 <!--Create account form-->
  <div id="create_account_form">
- <form class="form-signin" role="form">
+ <form class="form-signin" action="../register/" method="post" id="register_form" role="form">
         <h2 class="form-signin-heading">Create an account</h2>
-        <a href="#"><span class="create_account">Already have an account?  Log in here!</span></a>
+		{% csrf_token %}
+        <a href="#login_form"><span class="create_account">Already have an account?  Log in here!</span></a>
         <br><br>
           <div class="input-group">
-  			<input type="email" class="form-control" placeholder="Email">
+  			<input name="username" class="form-control" placeholder="Email">
   			<span class="input-group-addon">@wellesley.edu</span>
 		</div>
-        <br><input type="password" class="form-control" placeholder="Create a Password" required>
+        <br><input type="password" name="password" class="form-control" placeholder="Create a Password" required>
         
-        
-		<!-- Grad year dropdown -->
-  <button type="button" class="btn btn-block btn-default btn-lg dropdown-toggle" data-toggle="dropdown">
-    Year of Graduation <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" role="menu">
-    <li><a href="#">2015</a></li>
-    <li><a href="#">2016</a></li>
-    <li><a href="#">2017</a></li>
-    <li><a href="#">2018</a></li>
-    <li><a href="#">2019</a></li>
-    <li><a href="#">2020</a></li>
-  </ul><br>
-
-		<!-- major 1 dropdown -->
-  <button type="button" class="btn btn-block btn-default btn-lg dropdown-toggle" data-toggle="dropdown">
-Major 1 <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" role="menu">
-    <li><a href="#">Undeclared</a></li>
-  </ul> <br>
-  
-		<!-- major 2 dropdown -->
-    <button type="button" class="btn btn-block btn-default btn-lg dropdown-toggle" data-toggle="dropdown">
-   Intended Major 2 <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" role="menu">
-    <li><a href="#">Undeclared/None</a></li>
-  </ul> <br>
-  
-		<!-- minor dropdown -->
-      <button type="button" class="btn btn-block btn-default btn-lg dropdown-toggle" data-toggle="dropdown">
-   Intended Minor <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" role="menu">
-    <li><a href="#">Undeclared/None</a></li>
-  </ul> <br>
+   <h3> Year of Graduation   </h3> {{register_form.class_year}}
+	 <br>
+   <h3> Major 1 </h3> {{register_form.primary_major}}
+   <h3> Intended Major 2 or minor </h3> {{register_form.secondary_major}}  
+<br><br> 
         
 <!--
         <div class="checkbox">

@@ -1,6 +1,8 @@
 from courses.models import *
 from django.contrib.auth.models import User
 from django import forms
+from crispy_forms.helper import FormHelper
+from crispy_forms.layout import *
 
 #Creates user
 class UserForm(forms.ModelForm):
@@ -12,14 +14,12 @@ class UserForm(forms.ModelForm):
 
 #Creates student course profile
 class StudentProfileForm(forms.ModelForm):
-		
+	username = forms.CharField(max_length=30)
+	password = forms.CharField(widget=forms.PasswordInput())
 	class Meta:
 		model = Student
-		exclude = (
-			'user', 
-			'major_requirements_completed', 
-			'distribution_requirements_completed'
-			) 
+		fields = ('class_year', 'primary_major', 'secondary_major')
+	
 
 class AddCourseForm(forms.Form):
 	code = forms.ModelChoiceField(queryset=Course.objects.all())

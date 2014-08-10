@@ -90,6 +90,9 @@ STATICFILES_FINDERS = (
 #    'django.contrib.staticfiles.finders.DefaultStorageFinder',
 )
 
+#for crispy forms
+CRISPY_TEMPLATE_PACK = 'bootstrap3'
+
 # Make this unique, and don't share it with anybody.
 SECRET_KEY = 's2%z@g2r%bq*6l^*hoqsv=#(nzy3z@3%3^p_@0pl2kln)b3ud%'
 
@@ -143,7 +146,8 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # 'test_utils',
     'courses',
-    'south' #to take care of migrations
+    'south', #to take care of migrations
+	'crispy_forms', #to render forms with boostrap styling nicely
     )
 
 # A sample logging configuration. The only tangible logging
