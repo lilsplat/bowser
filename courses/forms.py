@@ -1,6 +1,7 @@
 from courses.models import *
 from django.contrib.auth.models import User
 from django import forms
+from django.forms.models import modelformset_factory
 from crispy_forms.helper import FormHelper
 from crispy_forms.layout import *
 
@@ -32,3 +33,11 @@ class AddCourseRatingForm(forms.ModelForm):
 		super(AddCourseRatingForm, self).__init__(*args, **kwargs)
 		self.fields['comment_text'].widget.attrs['style'] = "width:400px;height:50px;"
 
+#for an individual section
+class SectionForm(forms.ModelForm):
+	class Meta:
+		model = Section
+		fields = ('course',)
+
+#for a set of sections (e.g. a course schedule)
+SectionFormSet = modelformset_factory(Section, fields=('course',))

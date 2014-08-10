@@ -325,6 +325,20 @@ class TimeAndDate(models.Model):
         #if none of this is true, there is no overlap, return false
         return False
 
+""" Checks a list of courses to see if they all conflict with each other """
+def schedule_conflicts(self, section_list):
+	for section in section_list:
+		#remove course and return it to compare
+		current_section = section_list.pop()
+		for section in section_list:
+			#check against all other course sections for conflicts
+			if current_section.conflicts(section):
+				#return conflicting pair
+				return [section, current_section]
+		#return None
+	return None
+
+
 class Semester(models.Model):
     SESSIONS=[
     ('Fall','Fall'),
