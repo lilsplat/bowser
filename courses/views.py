@@ -163,7 +163,6 @@ def delete_course(request):
 def load_myschedule(request):
     context = RequestContext(request)
     section_form = modelformset_factory(Section, form=SectionForm, max_num=5)
-    return render_to_response(
-    'courses/schedule.html',
-    {'section_form': section_form,},
-    context)
+    return render_to_response('courses/schedule.html',
+    	{'section_form': section_form,},
+    	context)

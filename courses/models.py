@@ -589,13 +589,6 @@ class Student(models.Model):
 
         return dists_todo
 
-	# def major_todo(self):
-	# 	major_course_list = primary_major.major_courses
-	# 	for course in major_course_list:
-	# 		if course in self.courses:
-	# 			major_course_list.remove(course)
-	# 	return major_course_list
-
     class Meta:
         unique_together=('primary_major','secondary_major')
 

@@ -75,14 +75,15 @@
                   </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
               </nav> 
-	</div>
-<!-- start checklist -->
 
+<!-- start checklist -->
+<div class="pagecontent">
+		<h4> Use this page to see which distribution requirements you've filled already and which ones you have yet to fill. </h4>
               <div id="my_checklist">
                 <h2> My Checklist </h2>
                 {% for dist, course in dists_todo %}
                 <div class="dist">
-                  <span class="d_title">{{dist}}</span>
+                  <span class="d_title">{{dist}}:</span>
                   <span class="c_title">{{course}}</span>
                 </div>
                 {% endfor %}
