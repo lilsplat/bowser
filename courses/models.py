@@ -664,21 +664,7 @@ class Major(models.Model):
                 togo.append((cb.name,cb.suggested_courses(course_list)))
         return togo
 	
-	# major_courses = Course.objects.filter(dept=self.name)
-	#below methods are copied from the Distribution model.
-    # """Returns if a course counts toward the Major"""
-    # def is_fulfilled_by(self, course):
-    #     return self.course_set.filter(id=course.id).exists()
-
-    # """Returns a list of suggested courses to fulfill the Major, given a list of Courses"""
-    # def suggested_courses(self,courses):
-    #     #additional functions: should compensate for fall/spring availability
-    #     suggestions = self.course_codes() #all available courses
-    #     for c in courses:
-    #         if self.is_fulfilled_by(c):
-    #             suggestions.remove(c.code)
-    #     return suggestions
-
+	
 class UserProfile(models.Model):
     # Links UserProfile to a User model instance.
     user = models.OneToOneField(User)
