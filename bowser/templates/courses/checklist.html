@@ -14,7 +14,7 @@
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="/static/bootstrap-3.2.0-dist/css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="/static/css/genericstyling.css">
-  <link rel="stylesheet" type="text/css" href="/static/css/landingstyle.css" >
+  <link rel="stylesheet" type="text/css" href="/static/css/mycoursesstyle.css" >
 
 
   <!--Bootstrap core css-->
@@ -75,14 +75,23 @@
                   </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
               </nav> 
-	</div>
-<!-- start checklist -->
 
+<!-- start checklist -->
+<div class="pagecontent">
+		<h4> Use this page to see which distribution requirements you've filled already and which ones you have yet to fill. </h4>
               <div id="my_checklist">
                 <h2> My Checklist </h2>
+				<div class="added_course_with_review">
+					<span class="course_title">Distribution 1 </span><br>
+					<ul>
+						<li>{{dists_todo.0}}</li>
+						<li>{{dists_todo.1}}</li>
+						<li>{{dists_todo.2}}</li>
+					</ul>
+				</div>
                 {% for dist, course in dists_todo %}
                 <div class="dist">
-                  <span class="d_title">{{dist}}</span>
+                  <span class="d_title">{{dist}}:</span>
                   <span class="c_title">{{course}}</span>
                 </div>
                 {% endfor %}

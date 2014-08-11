@@ -595,13 +595,6 @@ class Student(models.Model):
 
         return dists_todo
 
-	# def major_todo(self):
-	# 	major_course_list = primary_major.major_courses
-	# 	for course in major_course_list:
-	# 		if course in self.courses:
-	# 			major_course_list.remove(course)
-	# 	return major_course_list
-
     class Meta:
         unique_together=('primary_major','secondary_major')
 
@@ -677,29 +670,15 @@ class Major(models.Model):
                 togo.append((cb.name,cb.suggested_courses(course_list)))
         return togo
 	
-	# major_courses = Course.objects.filter(dept=self.name)
-	#below methods are copied from the Distribution model.
-    # """Returns if a course counts toward the Major"""
-    # def is_fulfilled_by(self, course):
-    #     return self.course_set.filter(id=course.id).exists()
-
-    # """Returns a list of suggested courses to fulfill the Major, given a list of Courses"""
-    # def suggested_courses(self,courses):
-    #     #additional functions: should compensate for fall/spring availability
-    #     suggestions = self.course_codes() #all available courses
-    #     for c in courses:
-    #         if self.is_fulfilled_by(c):
-    #             suggestions.remove(c.code)
-    #     return suggestions
-
+	
 class UserProfile(models.Model):
     # Links UserProfile to a User model instance.
-    user = models.OneToOneField(User)
+	user = models.OneToOneField(User)
     # additional attributes we wish to include.
-    email_verified = models.BooleanField()
-
-    def __unicode__(self):
-        return self.user.username
+	email_verified = models.BooleanField()
+	
+	def __unicode__(self):
+		return self.user.username
 
 class CourseRating(models.Model):
     SCORES=[
