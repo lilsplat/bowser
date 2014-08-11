@@ -1,29 +1,165 @@
-name | num_pick | courses | major | is_minor
+cb;AASM Minor Core;1;Asian American Studies;True;AMST151
+cb;AASM Minor 300 Level;1;Asian American Studies;True;
+cb;AASM Elective;3;Asian American Studies;True;EDUC212,HIST203,HIST244,POL1210,CHIN209,JPN352,HIST270,HIST277,REL259,ENG269,AMST211,WGST249,WGST305,ARTH205,HIST245,CAMS205,SAS302,HIST252,HIST275,SPAN255,LING312,POL3227,SOC221,WGST206
+m;ANTH;Anthropology;True
+cb;ANTH Major Core;1;Anthropology;False;ANTH104
+cb;ANTH Major Core;1;Anthropology;False;ANTH204,ANTH206
+cb;ANTH Major Core;1;Anthropology;False;ANTH300
+cb;ANTH Major Core;1;Anthropology;False;ANTH301
+cb;ANTH Major Elective;5;False;AFR226,AFR235,AFR297,ARTH236,LING114,PEAC259,SPAN261
+cb;ANTH Minor Core;1;Anthropology;True;ANTH104
+cb;ANTH Minor 200-level;2;Anthropology;True;
+cb;ANTH Minor 300-level;2;Anthropology;True;
+m;ARCH;Architecture;False
+cb;ARCH Major Core;1;Architecture;False;ARTH100
+cb;ARCH Major Core;1;Architecture;False;ARTH101
+cb;ARCH Major Core;1;Architecture;False;ARTS105
+cb;ARCH Major Core;1;Architecture;False;ARTS113
+cb;ARCH Major Core;1;Architecture;False;ARTH200,ARTH231,ARTH228,ARTS216
+cb;ARCH Major 200-level;2;Architecture;False;ARTH200,ARTH201,ARTH202,ARTH203,ARTH228,ARTH230,ARTH231,ARTH236,ARTH237,ARTH238,ARTH240,ARTH241,ARTH243,ARTH245,ARTH247,ARTH259,ARTH266,ARTH289,ARTS207,ARTS216,ARTS217,ARTS219,ARTS220,ARTS221,CAMS239,ARTS222,ARTS255,CAMS255,MATH205,THST209
+cb;ARCH Major 300-level;2;Architecture;False;ARTH309,ARTH318,ARTH320,ARTH325,ARTH340,AMST340,ARTH344,ARTS307,ARTS314,ARTS317,ANTH362,CAMS362,ARTS321,CAMS321,ARTS322
+cb;ARCH Major Elective;2;Architecture;False;ARTH100,ARTH101,ARTH200,ARTH201,ARTH202,ARTH203,ARTH228,ARTH230,ARTH231,ARTH236,ARTH237,ARTH238,ARTH241,ARTH243,ARTH245,ARTH247,ARTH259,ARTH266,ARTH289,ARTH309,ARTH318,ARTH320,ARTH325,ARTH340,AMST340,ARTH344,ARTS105,ARTS109,ARTS113,ARTS207,ARTS216,ARTS217,ARTS219,ARTS220,ARTS221,CAMS239,ARTS222,ARTS255,CAMS255,ARTS307,ARTS314,ARTS317,ANTH362,CAMS362,ARTS321,CAMS321,ARTS322,MATH115,MATH116,MATH120,MATH205,PHYS104,PHYS107,THST209
+m;ARTH;Art History;True
+cb;ARTH Major Core;1;Art History;False;ARTH100
+cb;ARTH Major Core;1;Art History;False;ARTH101
+cb;ARTH Major Core;1;Art History;False;ARTS105,ARTS106,ARTS108,CAMS138,ARTS109,ARTS113,ARTS165,CAMS135,ARTS204
+cb;ARTH Major Non-100 Elective;4;Art History;False;ARTH201,ARTH202,ARTH203,ARTH227,ARTH241,ARTH242,ARTH243,ARTH256,ARTH267,ARTH268,ARTH290,ARTH302,ARTH332,ARTH343,ARTH373,ARTH218,ARTH221,ARTH244,ARTH245,ARTH246,ARTH251,ARTH259,ARTH305,ARTH311,ARTH325,ARTH330,ARTH331,ARTH342,CAMS342,ARTH200,ARTH205,ARTH224,ARTH225,ARTH226,CAMS207,ARTH228,ARTH230,ARTH231,ARTH232,ARTH235,ARTH237,ARTH245,ARTH255,ARTH261,ARTH266,ARTH262,ARTH289,ARTH292,ARTH303,ARTH309,ARTH311,ARTH312,ARTH316,ARTH318,ARTH320,ARTH322,ARTH333,ARTH334,ARTH335,ARTH338,ARTH340,AMST340,ARTH342,CAMS342,ARTH380,ARTH388,ARTH391,CAMS341,ARTH203,ARTH211,ARTH215,ARTH227,ARTH236,ARTH238,ARTH239,ARTH240,ARTH247,ARTH248,ARTH264,ARTH249,ARTH292,ARTH255,ARTH258,ARTH264,ARTH292,ARTH316,ARTH322,ARTH337,ARTH338,ARTH341,ARTH344,ARTH346,ARTH347,ARTH364,ARTH397;AFR207,AFR222,CAMS203,CHIN243,CAMS205,JPN256,CAMS241,WGST249,CHIN243,CAMS203,FREN222,ITAS261,JPN256,CAMS205,PHIL203,SPAN265,WGST249,CAMS241
+cb;ARTH Major 300-level;2;Art History;False;ARTH302,ARTH332,ARTH343,ARTH373,ARTH305,ARTH311,ARTH325,ARTH330,ARTH331,ARTH342,CAMS342,ARTH303,ARTH309,ARTH311,ARTH312,ARTH316,ARTH318,ARTH320,ARTH322,ARTH333,ARTH334,ARTH335,ARTH338,ARTH340,AMST340,ARTH342,CAMS342,ARTH380,ARTH388,ARTH391,CAMS341,ARTH316,ARTH322,ARTH337,ARTH338,ARTH341,ARTH344,ARTH346,ARTH347,ARTH364,ARTH397
+cb;ARTH Minor Core;1;Art History;True;ARTH101
+cb;ARTH Minor Core;1;Art History;True;ARTH100
+cb;ARTH Minor Elective;2;Art History;True;ARTH201,ARTH202,ARTH203,ARTH227,ARTH241,ARTH242,ARTH243,ARTH256,ARTH267,ARTH268,ARTH290,ARTH302,ARTH332,ARTH343,ARTH373,ARTH218,ARTH221,ARTH244,ARTH245,ARTH246,ARTH251,ARTH259,ARTH305,ARTH311,ARTH325,ARTH330,ARTH331,ARTH342,CAMS342,ARTH200,ARTH205,ARTH224,ARTH225,ARTH226,ARTH207,ARTH228,ARTH230,ARTH231,ARTH232,ARTH235,ARTH237,ARTH245,ARTH255,ARTH261,ARTH266,ARTH262,ARTH289,ARTH292,ARTH303,ARTH309,ARTH311,ARTH312,ARTH316,ARTH318,ARTH320,ARTH322,ARTH333,ARTH334,ARTH335,ARTH338,ARTH340,AMST340,ARTH342,CAMS342,ARTH80,ARTH391,CAMS341,ARTH211,ARTH227,ARTH236,ARTH 238,ARTH 239,ARTH 240,ARTH 247, ARTH 248, ARTH 249, ARTH 292, ARTH 255, ARTH 258, ARTH 264, ARTH 292, ARTH 316, ARTH 322, ARTH 337, ARTH 341, ARTH 346, ARTH 344, ARTH 347, ARTH 364, ARTH 397
+cb;ARTH Minor 300-level;2;Art History;True;ARTH302,ARTH332,ARTH343,ARTH373,ARTH305,ARTH311,ARTH325,ARTH330,ARTH331,ARTH342,CAMS342,ARTH303,ARTH309,ARTH311,ARTH312,ARTH316,ARTH318,ARTH320,ARTH322,ARTH333,ARTH334,ARTH335,ARTH338,ARTH340,AMST340,ARTH342,CAMS342,ARTH80,ARTH391,CAMS341,ARTH 316, ARTH 322, ARTH 337, ARTH 341, ARTH 346, ARTH 344, ARTH 347, ARTH 364, ARTH 397
+cb;ARTS Major Core;1;Studio Art;False;ARTH100
+cb;ARTS Major Core;1;Studio Art;False;ARTH101
+cb;ARTS Major Core;1;Studio Art;False;ARTH105
+cb;ARTS Major Core;2;Studio Art;False;ARTH106,ARTS108,CAMS138,ARTS109,ARTS113,ARTS115,WRIT115,ARTS165
+cb;ARTS Major Art History;1;Studio Art;False;
+cb;ARTS Major Non-100;3;Studio Art;False;
+cb;ARTS Major 300-level;2;Studio Art;False;
+m;ARTS;Studio Art;True
+cb;ARTS Minor Core;1;Studio Art;True;ARTH100,ARTH101
+cb;ARTS Minor Core;1;Studio Art;True;ARTS105
+cb;ARTS Minor 100-level;1;Studio Art;True;
+cb;ARTS Minor Non-100;3;Studio Art;True;
+cb;ARTS Minor 300-level;1;Studio Art;True;
+cb;ASTR Major Core;1;Astrology;False;ASTR206
+cb;ASTR Major Core;1;Astrology;False;PHYS107
+cb;ASTR Major Core;1;Astrology;False;PHYS106,PHYS108
+cb;ASTR Major 100-level;1;Astrology;False;
+cb;ASTR Major 300-level;2;Astrology;False;
+cb;ASTR Major Math 200-level;1;Astrology;False;
+cb;ASTR Major 200-level or above;2;Astrology;False;
+cb;ASTR Elective;1;Astrology;False
+m;ASTR;Astrology;True
+cb;ASTR Minor Core;1;Astrology;True;ASTR206
+cb;ASTR Minor 300-level;1;Astrology;True;
+cb;ASTR Minor Elective;3;Astrology;True;
+m;ASPH;Astrophysics;False
+cb;ASPH Major Core;1;Astrophysics;False;PHYS107
+cb;ASPH Major Core;1;Astrophysics;False;PHYS108
+cb;ASPH Major Core;1;Astrophysics;False;PHYS202
+cb;ASPH Major Core;1;Astrophysics;False;PHYS302
+cb;ASPH Major Core;1;Astrophysics;False;PHYS305
+cb;ASPH Major Core;1;Astrophysics;False;PHYS310
+cb;ASPH Major Core;1;Astrophysics;False;PHYS314
+cb;ASPH Major Core;1;Astrophysics;False;MATH215
+cb;ASPH Major Core;1;Astrophysics;False;PHYS216
+cb;ASPH Major 100-level;1;Astrophysics;False;
+cb;ASPH Major Core;1;Astrophysics;False;ASTR206
+cb;ASPH Major Core;1;Astrophysics;False;ASTR311
+cb;ASPH Major 300-level;1;Astrophysics;False;
+cb;CHEM Major Core;1;Chemistry;False;CHEM105,CHEM105P
+cb;CHEM Major Core;1;Chemistry;False;CHEM205
+cb;CHEM Major Core;1;Chemistry;False;CHEM211
+cb;CHEM Major Core;1;Chemistry;False;CHEM212
+cb;CHEM Major Core;1;Chemistry;False;CHEM330
+cb;CHEM Major Core;3;Chemistry;False;CHEM222,CHEM223,CHEM335,CHEM341,CHEM361
+cb;CHEM Major Research;1;Chemistry;False;CHEM250,CHEM350,CHEM355,CHEM360,CHEM355,CHEM360,CHEM365,CHEM370
+cb;CHEM Major 300-level;1;Chemistry;False;
+cb;CHEM Major Math;1;Chemistry;False;MATH215,MATH205
+cb;CHEM Major Physics;1;Chemistry;False;PHYS106,PHYS108
+m;CHEM;Chemistry;True
+cb;CHEM Minor Core;1;Chemistry;True;CHEM105,CHEM105P,CHEM205,CHEM120
+cb;CHEM Minor Core;1;Chemistry;True;CHEM211
+cb;CHEM Minor Core;1;Chemistry;True;CHEM330,CHEM331
+cb;CHEM Minor Core;1;Chemistry;True;CHEM223,CHEM222,CHEM341,CHEM361
+cb;CHEM Minor 200 or 300-level;1;Chemistry;True;
+cb;CAMS Major Core;1;Cinema and Media Studies;False;CAMS101
+cb;CAMS Major Core;1;Cinema and Media Studies;False;CAMS201
+cb;CAMS Major Core;1;Cinema and Media Studies;False;CAMS202
+cb;CAMS Major Core;1;Cinema and Media Studies;False;CAMS200,CAMS218
+cb;CAMS Major Core;2;Cinema and Media Studies;False;CAMS209,CAMS213,CAMS222,CAMS225,CAMS227,CAMS270,CAMS272
+cb;CAMS Major 300-level;2;Cinema and Media Studies;False;ENG385,FREN314,FREN331,POL1316,SPAN304,SPAN315,RAST322
+cb;CAMS Major Elective;2;Cinema and Media Studies;False;CAMS235,ARTS265,CAMS335,ARTS365,CAMS238,ARTS208,CAMS338,ARTS308,CAMS230,ARTS260,CAMS239,ARTS221,CAMS255,ARTS255,MUS275,ARTS313,ARTS321,AMST274,WGST274,AFR207,AFR222,AFR261,ANTH219,CAMS219,ANTH239,CS114,ENG385,FREN222,FREN314,FREN331,ITAS261,JPN130,THST130,JPN259,THST130,JPN130,MUS275,POL1316,SOC231,SPAN265,SPAN268,SPAN304,SPAN315,THST209,WGST207,MUS277,RAST222,RAST322,SPAN264
+m;CAMS,Cinema and Media Studies;True
+cb;CAMS Minor Core;1;Cinema and Media Studies;True;CAMS101
+cb;CAMS Minor Core;1;Cinema and Media Studies;True;CAMS201
+cb;CAMS Minor Core;1;Cinema and Media Studies;True;CAMS202
+cb;CAMS Minor Elective;2;Cinema and Media Studies;True;CAMS235,ARTS265,CAMS335,ARTS365,CAMS238,ARTS208,CAMS338,ARTS308,CAMS230,ARTS260,CAMS239,ARTS221,CAMS255,ARTS255,MUS275,ARTS313,ARTS321,AMST274,WGST274,AFR207,AFR222,AFR261,ANTH219,CAMS219,ANTH239,CS114,ENG385,FREN222,FREN314,FREN331,ITAS261,JPN130,THST130,JPN259,THST130,JPN130,MUS275,POL1316,SOC231,SPAN265,SPAN268,SPAN304,SPAN315,THST209,WGST207,MUS277,RAST222,RAST322,SPAN264
+cb;CAMS Minor 300-level;1;Cinema and Media Studies;True;ENG385,FREN314,FREN331,POL1316,SPAN304,SPAN315,RAST322
+cb;CLSC Major Linguistics;1;Cognitive and Linguistic Sciences;False;
+cb;CLSC Major Formal Systems;1;Cognitive and Linguistic Sciences;False;
+cb;CLSC Major Core;1;Cognitive and Linguistic Sciences;False;PHIL215
+cb;CLSC Major Core;1;Cognitive and Linguistic Sciences;False;CLSC300
+cb;CLSC Major Elective;5;Cognitive and Linguistic Sciences;False;NEUR100
+cb;CPLT Major Core;1;Comparative Literature;False;CPLT180
+cb;CPLT Major Core;1;Comparative Literature;False;CPLT180
 
-AFR MAJOR=====================================
-c;AFR 300;2;FREN330;Africana Studies
-AFR Elective;6;FREN330,AFR234,AFR204,AFR280;Africana Studies
-AFR MINOR=====================================
-c;AFR 300;1;FREN330;Africana Studies
-c;AFR Elective;3;FREN330,AFR234,AFR204,AFR208;Africana Studies
-AMST MAJOR====================================
-c;AMST Elective;1;ECON223,SPAN255,CAMS207,PSYC346,WGST330,POL2305,AMST269,AMST283,ECON329,AFR266,AMST320,CAMS272,ECON226,AFR320,ECON325,ECON238
 
-c=CourseBucket.objects.create(name='AFR 300',num_pick=1,major=Major.objects.filter(name='Africana Studies').get(is_minor=True))
+major/cb | code | name | is_minor
+major/cb | name | #num_pick | Major | is_minor | courses
 
-for co in clist:
-try:
-c.courses.add(Course.objects.get(code=co))
-except:
-print co
+cb;BIOC Major Core;1;Biological Chemistry;False;BISC219
+cb;BIOC Major Core;1;Biological Chemistry;False;BISC220
+cb;BIOC Major Core;1;Biological Chemistry;False;BISC223
+cb;BIOC Major Core;1;Biological Chemistry;False;BISC320
+cb;BIOC Major Core;1;Biological Chemistry;False;BISC323
+cb;BIOC Major Core;1;Biological Chemistry;False;BISC331
+cb;BIOC Major Core;1;Biological Chemistry;False;CHEM105
+cb;BIOC Major Core;1;Biological Chemistry;False;CHEM205
+cb;BIOC Major Core;1;Biological Chemistry;False;CHEM211
 
+cb;CLST; classics
 
 
+AASM Minor 300 Level ?? empty
+CourseBucket: AMST SBA,EC,REMP need to add SBA,EC,REMP from American Studies but got lazy lol
+CourseBucket: ANTH Major Elective need to add all ANTH courses
+CourseBucket: ANTH Minor 200 need to add all 200 level anth courses
+ARCH Major 200-level add all architecture 200 levels
+ARCH Major 300-level add all architecture 300 levels
+ARCH Major Electives add all arch classes
 
-major/cb | code | name | is_major
-major/cb | name | #num_pick | Course | Major | is_major
+ARTS Major Art History add arth courses
+ARTS Major Non-100 add all non-100 level studio art courses
+ARTS Major 300-level add all 300-level studio art courses
 
+ARTS Minor 100-level
+ARTS Minor Non-100
+ARTS Minor 300-level ---- exclude ARTS 250s and 350s
 
+ASTR Major 100-level
+ASTR Major 300-level
+ASTR Major Math 200-level
+ASTR Major 200-level or above
+ASTR Elective
 
+ASTR Minor 300-level
+ASTR Minor Elective
 
+ASPH Major 100-level add 100 level ASTR course
+ASPH Major 300-level add 300 level ASTR or ASPH course
 
+CHEM Major 300-level
+
+CHEM Minor 200 or 300-level excluding CHEM 250/CHEM 350/CHEM 351/CHEM 355/CHEM 365
+
+CAMS Major 300-level add all CAMS classes
+CAMS Major Elective add all CAMS calsses
+
+CAMS Minor Elective add all CAMS classes
+CAMS Minor 300-level add all CAMS classes
+
+CLSC Major Linguistics add all LING courses
+CLSC Major Formal Systems add...idk
+CLSC Major Elective add all CLSC and LING courses
