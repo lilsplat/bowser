@@ -605,6 +605,7 @@ class CourseBucket(models.Model):
     num_pick=models.IntegerField(default=1)
     courses=models.ManyToManyField('Course')
     major=models.ForeignKey('Major')
+    manual_completion=models.BooleanField(default=False)
 
     def __unicode__(self):
         return self.name
@@ -613,17 +614,26 @@ class CourseBucket(models.Model):
         return self.courses.filter(id=course.id).exists()
     
     def is_fulfilled(self,course_list):
+        #check if manual completion is True
+        if manual_completion:
+            return True
+        #else, check fulfillment 
         num_fulfilled=0
         for c in course_list:
             if self.is_fulfilled_by(c):
                 num_fulfilled+=1
-        if num_fulfilled >= self.num_pick:
-            return True
-        else:
-            return False
+            if num_fulfilled >= self.num_pick:
+                return True
+        #if none of the above is true, return false
+        return False
 
     """Returns a readable list of unique Course.codes that fulfill this CourseBucket"""
     def course_codes(self):
+        #if there are no courses, ask student to consult the dept page
+        if self.courses.all().count() == 0:
+            manual_message='Please consult ' + self.name + '\'s department page for more information.'
+            return [manual_message]
+        #else, create list
         l=[]
         for c in self.courses.all():
             l.append(c.code.encode('UTF-8'))
@@ -632,6 +642,11 @@ class CourseBucket(models.Model):
     """Returns a list of suggested courses to fulfill the CourseBucket, given a list of Courses"""
     def suggested_courses(self,course_list):
         #additional functions: should compensate for fall/spring availability
+        #if there are no courses, ask student to consult the dept page
+        if self.courses.all().count() == 0:
+            manual_message='Please consult ' + self.name + '\'s department page for more information.'
+            return [manual_message]
+        #else, create list
         suggestions=self.course_codes() #all available courses
         for c in course_list:
             if self.is_fulfilled_by(c) and c.code in suggestions: #don't try to remove twice
