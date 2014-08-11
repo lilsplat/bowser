@@ -115,8 +115,8 @@ def checklist(request):
 	for dist in Distribution.objects.all():
 		if student.has_fulfilled_dist(dist):
 			dists_completed.append(dist)
+	#percentage of dists fulfilled
 	percentage = float(len(dists_completed)/16)*100
-	# return HttpResponse("")
 	return render_to_response(
 		'courses/checklist.html',
 		{'dists_todo': dists_todo,

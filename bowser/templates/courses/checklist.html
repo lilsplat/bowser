@@ -55,8 +55,6 @@
               </button>
               <a class="navbar-brand" href="#">B O W S E R</a>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <!-- TODO: Add actual links to the nav bar! -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
@@ -80,7 +78,7 @@
 <div class="pagecontent">
 		<h4> Use this page to see which distribution requirements you've filled already and which ones you have yet to fill. </h4>
 <!-- start progress bars -->
-<h5> Your distribution progress: {{percentage}} %</h5>
+<h5> Your distribution progress: {{ dists_completed|length }} out of 16 </h5>
 <div class="progress" style="width:25%;">
 <!-- if student has completed more than 50% of distributions -->
 	{% if percentage  > 60 %}
@@ -100,23 +98,25 @@
 	{% endif %}
 </div>
 <!-- end progress bars -->
-
+<!-- start checklist -->
               <div id="my_checklist">
-                <h2> My Checklist </h2>
-				<div class="added_course_with_review">
-					<span class="course_title">Distribution 1 </span><br>
-					<ul>
-						<li>{{dists_todo.0}}</li>
-						<li>{{dists_todo.1}}</li>
-						<li>{{dists_todo.2}}</li>
-					</ul>
-				</div> <!-- end added_course_with_review -->
+                <h2> Distributions to be completed:</h2>
                 {% for dist, course in dists_todo %}
-                <div class="dist">
-                  <span class="d_title">{{dist}}:</span>
-                  <span class="c_title">{{course}}</span>
-                </div> <!-- end dist -->
+				{% if "Not completed" in course %}
+				<div class="added_course_with_review" style="background: #ff6666">
+					<h5> {{ dist }} </h5>
+                </div> <!-- end added_course_with_review -->
+				{% endif %}
                 {% endfor %}
+				
+				<h2> Distributions completed: </h2>
+				{% for dist, course in dists_todo %}
+				{% if "Not completed" not in course %}
+				<div class="added_course_with_review" style="background: #58af74">
+					<span class="c_title">{{ dist }} : {{ course }}</span>
+				</div>
+				{% endif %}
+				{% endfor %}
               </div> <!-- end my_checklist -->
 	</div> <!-- end pagecontent -->
 
