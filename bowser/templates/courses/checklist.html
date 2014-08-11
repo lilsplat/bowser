@@ -14,7 +14,7 @@
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="/static/bootstrap-3.2.0-dist/css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="/static/css/genericstyling.css">
-  <link rel="stylesheet" type="text/css" href="/static/css/mycoursesstyle.css" >
+  <link rel="stylesheet" type="text/css" href="/static/css/checkliststyle.css" >
 
 
   <!--Bootstrap core css-->
@@ -79,7 +79,7 @@
 		<h4> Use this page to see which distribution requirements you've filled already and which ones you have yet to fill. </h4>
 <!-- start progress bars -->
 <h5> Your distribution progress: {{ dists_completed|length }} out of 16 </h5>
-<div class="progress" style="width:25%;">
+<div class="progress" >
 <!-- if student has completed more than 50% of distributions -->
 	{% if percentage  > 60 %}
   <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="{{ percentage }}" aria-valuemin="0" aria-valuemax="16" style="width:{{ percentage }}%">
@@ -99,7 +99,10 @@
 </div>
 <!-- end progress bars -->
 <!-- start checklist -->
-              <div id="my_checklist">
+<div class="container">
+<div class="row">
+<!-- left div -->
+	<div class="col-md-6">
                 <h2> Distributions to be completed:</h2>
                 {% for dist, course in dists_todo %}
 				{% if "Not completed" in course %}
@@ -108,7 +111,8 @@
                 </div> <!-- end added_course_with_review -->
 				{% endif %}
                 {% endfor %}
-				
+	</div>
+	<div class="col-md-6">
 				<h2> Distributions completed: </h2>
 				{% for dist, course in dists_todo %}
 				{% if "Not completed" not in course %}
@@ -117,7 +121,9 @@
 				</div>
 				{% endif %}
 				{% endfor %}
-              </div> <!-- end my_checklist -->
+	</div> 
+	</div> <!-- end row div -->
+	</div> <!-- end container div -->
 	</div> <!-- end pagecontent -->
 
 
