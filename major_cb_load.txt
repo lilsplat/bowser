@@ -1,0 +1,29 @@
+name | num_pick | courses | major | is_minor
+
+AFR MAJOR=====================================
+c;AFR 300;2;FREN330;Africana Studies
+AFR Elective;6;FREN330,AFR234,AFR204,AFR280;Africana Studies
+AFR MINOR=====================================
+c;AFR 300;1;FREN330;Africana Studies
+c;AFR Elective;3;FREN330,AFR234,AFR204,AFR208;Africana Studies
+AMST MAJOR====================================
+c;AMST Elective;1;ECON223,SPAN255,CAMS207,PSYC346,WGST330,POL2305,AMST269,AMST283,ECON329,AFR266,AMST320,CAMS272,ECON226,AFR320,ECON325,ECON238
+
+c=CourseBucket.objects.create(name='AFR 300',num_pick=1,major=Major.objects.filter(name='Africana Studies').get(is_minor=True))
+
+for co in clist:
+try:
+c.courses.add(Course.objects.get(code=co))
+except:
+print co
+
+
+
+
+major/cb | code | name | is_major
+major/cb | name | #num_pick | Course | Major | is_major
+
+
+
+
+

@@ -455,11 +455,17 @@ class Student(models.Model):
     courses = models.ManyToManyField('Course', null=True, blank=True)
     qrb_passed = models.BooleanField(default=False, verbose_name="Passed the QR assessment test?") #if they passed the QR assessment
     foreign_lang_passed = models.BooleanField(default=False, verbose_name="Passed the Foreign Language requirement?") #if they passed the foreign lang requirement
+    multi_passed = models.BooleanField(default=False, verbose_name="Passed the Multicultural requirement?") #if they passed the Multicultural requirement
 
     def __unicode__(self):
         return self.user.username
 
-    # def credit_hours_completed
+    """Returns whether a Student has fulfilled a particular Distribution"""
+    def has_fulfilled_dist(self,dist):
+        for c in self.courses.all():
+            if dist.is_fulfilled_by(c):
+                return True
+        return False
 	
     """Adds a Course to Student.courses iff the Course does not already exist"""
     def add_course(self, course):
