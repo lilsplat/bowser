@@ -1,3 +1,4 @@
+from __future__ import division
 from django.shortcuts import render
 from courses.forms import *
 from django.template import RequestContext
@@ -50,7 +51,9 @@ def user_login(request):
 	context = RequestContext(request)
 	if request.method == 'POST':
 		username = request.POST['username']
+		print username
 		password = request.POST['password']
+		print password
 		#to account for the way we ask users to input their username/email
 		username += "@wellesley.edu"
 		user = authenticate(username=username, password=password)
@@ -107,10 +110,18 @@ def checklist(request):
 	context=RequestContext(request)
 	student=Student.objects.get(user=request.user)
 	dists_todo=student.distributions_todo()
+	#create list of fulfilled dists
+	dists_completed = []
+	for dist in Distribution.objects.all():
+		if student.has_fulfilled_dist(dist):
+			dists_completed.append(dist)
+	percentage = float(len(dists_completed)/16)*100
 	# return HttpResponse("")
 	return render_to_response(
 		'courses/checklist.html',
-		{'dists_todo': dists_todo},
+		{'dists_todo': dists_todo,
+		'dists_completed': dists_completed,
+		'percentage': percentage},
 		context
 		)
 

@@ -79,6 +79,28 @@
 <!-- start checklist -->
 <div class="pagecontent">
 		<h4> Use this page to see which distribution requirements you've filled already and which ones you have yet to fill. </h4>
+<!-- start progress bars -->
+<h5> Your distribution progress: {{percentage}} %</h5>
+<div class="progress" style="width:25%;">
+<!-- if student has completed more than 50% of distributions -->
+	{% if percentage  > 60 %}
+  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="{{ percentage }}" aria-valuemin="0" aria-valuemax="16" style="width:{{ percentage }}%">
+    <span class="sr-only">40% Complete (success)</span>
+	</div>
+<!-- if student has completed between 25% and 50% of distributions -->
+	{% elif  percentage > 40 %}
+    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="{{ percentage }}" aria-valuemin="0" aria-valuemax="16" style="width:{{ percentage }}%">
+    <span class="sr-only">60% Complete (warning)</span>
+  </div>
+	{% elif percentage >= 0 %}
+<!-- if student has completed less than 25% of distributions -->
+<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="{{ percentage }}" aria-valuemin="0" aria-valuemax="16" style="width:{{ percentage }}%">
+    <span class="sr-only">20% Complete</span>
+  </div>
+	{% endif %}
+</div>
+<!-- end progress bars -->
+
               <div id="my_checklist">
                 <h2> My Checklist </h2>
 				<div class="added_course_with_review">
@@ -88,20 +110,18 @@
 						<li>{{dists_todo.1}}</li>
 						<li>{{dists_todo.2}}</li>
 					</ul>
-				</div>
+				</div> <!-- end added_course_with_review -->
                 {% for dist, course in dists_todo %}
                 <div class="dist">
                   <span class="d_title">{{dist}}:</span>
                   <span class="c_title">{{course}}</span>
-                </div>
+                </div> <!-- end dist -->
                 {% endfor %}
-              </div>
+              </div> <!-- end my_checklist -->
+	</div> <!-- end pagecontent -->
 
 
-
-<!-- end nav bar -->
-
-
+<!-- end checklist -->
 
               <!--~~~~~~~~~~~~~~ FEATURES-->
 
