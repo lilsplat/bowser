@@ -6,7 +6,7 @@ cb;ANTH Major Core;1;Anthropology;False;ANTH104
 cb;ANTH Major Core;1;Anthropology;False;ANTH204,ANTH206
 cb;ANTH Major Core;1;Anthropology;False;ANTH300
 cb;ANTH Major Core;1;Anthropology;False;ANTH301
-cb;ANTH Major Elective;5;False;AFR226,AFR235,AFR297,ARTH236,LING114,PEAC259,SPAN261
+cb;ANTH Major Elective;5;Anthropology;False;AFR226,AFR235,AFR297,ARTH236,LING114,PEAC259,SPAN261
 cb;ANTH Minor Core;1;Anthropology;True;ANTH104
 cb;ANTH Minor 200-level;2;Anthropology;True;
 cb;ANTH Minor 300-level;2;Anthropology;True;
@@ -42,18 +42,18 @@ cb;ARTS Minor Core;1;Studio Art;True;ARTS105
 cb;ARTS Minor 100-level;1;Studio Art;True;
 cb;ARTS Minor Non-100;3;Studio Art;True;
 cb;ARTS Minor 300-level;1;Studio Art;True;
-cb;ASTR Major Core;1;Astrology;False;ASTR206
-cb;ASTR Major Core;1;Astrology;False;PHYS107
-cb;ASTR Major Core;1;Astrology;False;PHYS106,PHYS108
-cb;ASTR Major 100-level;1;Astrology;False;
-cb;ASTR Major 300-level;2;Astrology;False;
-cb;ASTR Major Math 200-level;1;Astrology;False;
-cb;ASTR Major 200-level or above;2;Astrology;False;
-cb;ASTR Elective;1;Astrology;False
-m;ASTR;Astrology;True
-cb;ASTR Minor Core;1;Astrology;True;ASTR206
-cb;ASTR Minor 300-level;1;Astrology;True;
-cb;ASTR Minor Elective;3;Astrology;True;
+cb;ASTR Major Core;1;Astronomy;False;ASTR206
+cb;ASTR Major Core;1;Astronomy;False;PHYS107
+cb;ASTR Major Core;1;Astronomy;False;PHYS106,PHYS108
+cb;ASTR Major 100-level;1;Astronomy;False;
+cb;ASTR Major 300-level;2;Astronomy;False;
+cb;ASTR Major Math 200-level;1;Astronomy;False;
+cb;ASTR Major 200-level or above;2;Astronomy;False;
+cb;ASTR Elective;1;Astronomy;False;
+m;ASTR;Astronomy;True
+cb;ASTR Minor Core;1;Astronomy;True;ASTR206
+cb;ASTR Minor 300-level;1;Astronomy;True;
+cb;ASTR Minor Elective;3;Astronomy;True;
 m;ASPH;Astrophysics;False
 cb;ASPH Major Core;1;Astrophysics;False;PHYS107
 cb;ASPH Major Core;1;Astrophysics;False;PHYS108
@@ -91,7 +91,7 @@ cb;CAMS Major Core;1;Cinema and Media Studies;False;CAMS200,CAMS218
 cb;CAMS Major Core;2;Cinema and Media Studies;False;CAMS209,CAMS213,CAMS222,CAMS225,CAMS227,CAMS270,CAMS272
 cb;CAMS Major 300-level;2;Cinema and Media Studies;False;ENG385,FREN314,FREN331,POL1316,SPAN304,SPAN315,RAST322
 cb;CAMS Major Elective;2;Cinema and Media Studies;False;CAMS235,ARTS265,CAMS335,ARTS365,CAMS238,ARTS208,CAMS338,ARTS308,CAMS230,ARTS260,CAMS239,ARTS221,CAMS255,ARTS255,MUS275,ARTS313,ARTS321,AMST274,WGST274,AFR207,AFR222,AFR261,ANTH219,CAMS219,ANTH239,CS114,ENG385,FREN222,FREN314,FREN331,ITAS261,JPN130,THST130,JPN259,THST130,JPN130,MUS275,POL1316,SOC231,SPAN265,SPAN268,SPAN304,SPAN315,THST209,WGST207,MUS277,RAST222,RAST322,SPAN264
-m;CAMS,Cinema and Media Studies;True
+m;CAMS;Cinema and Media Studies;True
 cb;CAMS Minor Core;1;Cinema and Media Studies;True;CAMS101
 cb;CAMS Minor Core;1;Cinema and Media Studies;True;CAMS201
 cb;CAMS Minor Core;1;Cinema and Media Studies;True;CAMS202
@@ -104,6 +104,54 @@ cb;CLSC Major Core;1;Cognitive and Linguistic Sciences;False;CLSC300
 cb;CLSC Major Elective;5;Cognitive and Linguistic Sciences;False;NEUR100
 cb;CPLT Major Core;1;Comparative Literature;False;CPLT180
 cb;CPLT Major Core;1;Comparative Literature;False;CPLT180
+cb;CPLT Major Concentration;3;Comparative Literature;False;
+cb;CPLT Major Pre-Modern Study;1;Comparative Literature;False;
+cb;CPLT Major Theory of Literature;1;Comparative Literature;False;
+cb;CPLT Major 300-level;2;Comparative Literature;False;
+cb;CPLT Major Independent Work;1;Comparative Literature;False;
+cb;CS Major Core;1;Computer Science;False;CS111
+cb;CS Major Core;1;Computer Science;False;CS230
+cb;CS Major Core;1;Computer Science;False;CS231
+cb;CS Major Core;1;Computer Science;False;CS235
+cb;CS Major Core;1;Computer Science;False;CS240
+cb;CS Major Core;1;Computer Science;False;CS251
+cb;CS Major 300-level;2;Computer Science;False;
+cb;CS Major 200- or 300-level;1;Computer Science;False;
+cb;CS Major Math Core;1;Computer Science;False;MATH225
+cb;CS Major Math 200- or 300-levels;1;Computer Science;False;
+m;CS;Computer Science;True
+cb;CS Minor Core;1;Computer Science;True;CS111
+cb;CS Minor Core;1;Computer Science;True;CS230
+cb;CS Minor Core;1;Computer Science;True;CS231,CS235,CS240
+cb;CS Minor 200- or 300-level;1;Computer Science;True;
+cb;CS Minor 300-level;1;Computer Science;True;
+m;CHIN;Chinese Language and Culture;False;
+cb;CHIN Major Core;3;Chinese Language and Culture;False;CHIN202,CHIN301,CHIN302,CHIN203,CHIN204,CHIN306,CHIN307
+cb;CHIN Major Non-Language;1;Chinese Language and Culture;False;CHIN150,CHIN208,CHIN209,CHIN210,CHIN211,CHIN311,CHIN212,CHIN312,CHIN213,CHIN223,CHIN323,CHIN225,CHIN230,CHIN330,CHIN231,CHIN331,CHIN232,CHIN332,CHIN243,CHIN244,CHIN344,CHIN317,CHIN326,CHIN338,CHIN339,CHIN381,EALC325,EALC225,LING244,EALC225
+cb;CHIN Major Non-Language 300-level Literature;2;Chinese Language and Culture;False;CHIN311,CHIN312,CHIN323,CHIN330,CHIN331,CHIN332,CHIN344,CHIN317,CHIN326,CHIN338,CHIN339,CHIN381,EALC325
+cb;CHIN Major Elective;2;Chinese Language and Culture;False;
+m;CHIN;Chinese Language and Culture;True
+cb;CHIN Minor Core;3;Chinese Language and Culture;True;CHIN202,CHIN301,CHIN302,CHIN203,CHIN204,CHIN306,CHIN307,CHIN310
+cb;CHIN Minor Non-Language;2;Chinese Language and Culture;True;CHIN150,CHIN208,CHIN209,CHIN210,CHIN211,CHIN311,CHIN212,CHIN312,CHIN213,CHIN223,CHIN323,CHIN225,CHIN230,CHIN330,CHIN231,CHIN331,CHIN232,CHIN332,CHIN243,CHIN244,CHIN344,CHIN317,CHIN326,CHIN338,CHIN339,CHIN381,EALC325,EALC225,LING244,EALC225
+m;JPN;Japanese Language and Culture;False
+cb;JPN Major Core;1;Japanese Language and Culture;False;JPN202
+cb;JPN Major Core;1;Japanese Language and Culture;False;JPN231
+cb;JPN Major Core;1;Japanese Language and Culture;False;JPN232
+cb;JPN Major Non-Language;2;Japanese Language and Culture;False;
+cb;JPN Major 300-level;2;Japanese Language and Culture;False;
+cb;JPN Major Elective;1;Japanese Language and Culture;False;
+m;EAS;East Asian Studies;False
+cb;EAS Language;4;East Asian Languages and Literature;False;
+cb;EAS Non-Language Humanities;1;East Asian Languages and Literature;False;AMST212,ARTH238,ARTH240,ARTH248,ARTH255,ARTH341,ARTH346,CAMS203,CHIN243,CHIN208,CHIN211,CHIN212,CHIN223,CHIN231,CHIN243,CAMS203,CHIN244,CHIN311,CHIN312,CHIN326,CHIN331,CHIN338,CHIN339,CHIN381,EALC225,EALC245,EALC325,JPN130,THST130,JPN251,THST251,JPN252,JPN255,THST255,JPN256,CAMS205,JPN257,JPN312,THST312,JPN314,JPN315,JPN351,THST351,JPN352,JPN353,THST353,JPN355,THST355,KOR206,KOR256,REL108,REL253,REL254,REL255,REL257,REL259,REL290,REL353,REL354,REL357,CHIN338,JPN312,JPN314
+cb;EAS Non-Language History and Social Sciences;1;East Asian Languages and Literature;False;HIST269,HIST274,HIST277,HIST278,HIST280,HIST346,HIST352,HIST372,KOR256,POL2208,POL2304,POL2308,POL3227
+cb;EAS Non-Language 300-level;2;East Asian Languages and Literature;False;ARTH341,ARTH346,CHIN311,CHIN312,CHIN326,CHIN331,CHIN338,CHIN339,CHIN381,EALC325,JPN312,THST312,JPN314,JPN315,JPN351,THST351,JPN352,JPN353,THST353,JPN355,THST355,REL353,REL354,REL357,CHIN338,JPN312,JPN314,POL2304,POL2308,HIST346,HIST352,HIST372,POL2304,POL2308,POL3227
+cb;EAS Non-Language Concentration;2;East Asian Languages and Literature;False;
+
+
+
+removing so it doesn't get crazy
+
+
 
 
 major/cb | code | name | is_minor
@@ -163,3 +211,16 @@ CAMS Minor 300-level add all CAMS classes
 CLSC Major Linguistics add all LING courses
 CLSC Major Formal Systems add...idk
 CLSC Major Elective add all CLSC and LING courses
+
+CS Major 300-level add all CS 300 levels
+CS Major 200- or 300-level add all cs 200-300 levels
+CS Major Math 200- or 300-levels
+
+CS Minor 200- or 300-level
+CS Minor 300-level
+
+CHIN Minor Non-Language add EALC courses
+
+EAS Language
+EAS Non-Language 300-level
+EAS Non-Language Concentration

@@ -1,0 +1,104 @@
+u'AFR',
+ u'AMST',
+ u'ANTH',
+ u'ART',
+ u'ARTH',
+ u'ARTS',
+ u'ASTR',
+ u'BIOC',
+ u'BISC',
+ u'CAMS',
+ u'CHEM',
+ u'CLSC',
+ u'CLST',
+ u'CPLT',
+ u'CS',
+ u'EALC',
+ u'EALL',
+ u'ECON',
+ u'EDUC',
+ u'ENG',
+ u'ES',
+ u'FREN',
+ u'GEOS',
+ u'GER',
+ u'HIST',
+ u'ITST',
+ u'JWST',
+ u'MATH',
+ u'MER',
+ u'MES',
+ u'MUS',
+ u'NEUR',
+ u'OTHER',
+ u'PE',
+ u'PEAC',
+ u'PHIL',
+ u'PHYS',
+ u'POLS',
+ u'PSYC',
+ u'QR',
+ u'REL',
+ u'RUSS',
+ u'SAS',
+ u'SOC',
+ u'SPAN',
+ u'THST',
+ u'UND',
+ u'WGST',
+ u'WRIT',
+
+
+
+
+ Africana Studies
+Africana Studies
+American Studies
+Anthropology
+Art
+Art History
+Asian American Studies
+Astronomy
+Biological Chemistry
+Biological Sciences
+Chemistry
+Cinema and Media Studies
+Classical Studies
+Cognitive and Linguistic Sciences
+Comparative Literature
+Computer Science
+East Asian Languages and Cultures
+East Asian Languages and Literature
+Economics
+Education
+English
+Environmental Studies
+French
+Geosciences
+German
+History
+Italian Studies
+Jewish Studies
+Mathematics
+Medieval Renaissance Studies
+Middle Eastern Studies
+Music
+Neuroscience
+Other
+Peace and Justice Studies
+Philosophy
+Physical Education
+Physics
+Political Science
+Psychology
+Quantitative Reasoning
+Religion
+Russian
+Sociology
+South Asia Studies
+Spanish
+Studio Art
+Theatre Studies
+Undecided
+Women and Gender Studies
+Writing

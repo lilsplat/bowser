@@ -1,0 +1,55 @@
+CHEM Major ResearchCHEM360
+CHEM Major ResearchCHEM365
+CHEM Major ResearchCHEM350
+CHEM Major ResearchCHEM355
+CHEM Major ResearchCHEM370
+CHEM Major ResearchCHEM250
+CAMS Major CoreCAMS272
+CAMS Major 300-levelSPAN304
+CAMS Major ElectiveITAS261
+CAMS Major ElectiveSPAN304
+CAMS Major ElectiveJPN259
+CAMS Minor ElectiveITAS261
+CAMS Minor ElectiveSPAN304
+CAMS Minor ElectiveJPN259
+CAMS Minor 300-levelSPAN304
+CHIN Major Non-LanguageEALC225
+CHIN Major Non-LanguageEALC225
+CHIN Major Non-LanguageEALC325
+CHIN Major Non-LanguageCHIN225
+CHIN Major Non-LanguageCHIN210
+CHIN Major Non-LanguageCHIN150
+CHIN Major Non-LanguageCHIN317
+CHIN Major Non-LanguageCHIN330
+CHIN Major Non-LanguageCHIN332
+CHIN Major Non-LanguageCHIN381
+CHIN Major Non-LanguageCHIN230
+CHIN Major Non-LanguageCHIN232
+CHIN Major Non-Language 300-level LiteratureEALC325
+CHIN Major Non-Language 300-level LiteratureCHIN317
+CHIN Major Non-Language 300-level LiteratureCHIN330
+CHIN Major Non-Language 300-level LiteratureCHIN332
+CHIN Major Non-Language 300-level LiteratureCHIN381
+CHIN Minor Non-LanguageEALC225
+CHIN Minor Non-LanguageEALC225
+CHIN Minor Non-LanguageEALC325
+CHIN Minor Non-LanguageCHIN225
+CHIN Minor Non-LanguageCHIN210
+CHIN Minor Non-LanguageCHIN150
+CHIN Minor Non-LanguageCHIN317
+CHIN Minor Non-LanguageCHIN330
+CHIN Minor Non-LanguageCHIN332
+CHIN Minor Non-LanguageCHIN381
+CHIN Minor Non-LanguageCHIN230
+CHIN Minor Non-LanguageCHIN232
+EAS Non-Language HumanitiesEALC225
+EAS Non-Language HumanitiesEALC325
+EAS Non-Language HumanitiesREL353
+EAS Non-Language HumanitiesTHST255
+EAS Non-Language HumanitiesCHIN381
+EAS Non-Language HumanitiesJPN255
+EAS Non-Language HumanitiesREL354
+EAS Non-Language 300-levelEALC325
+EAS Non-Language 300-levelREL353
+EAS Non-Language 300-levelREL354
+EAS Non-Language 300-levelCHIN381
