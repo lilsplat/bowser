@@ -414,6 +414,16 @@ class Course(models.Model):
             i+=1
         return a/i
 
+    """Returns a String list of Distribution names, excluding those with 'OR' for readabilitly"""
+    def mycourses_dists(self):
+        dist_names=[]
+        for d in self.dists.all():
+            if 'or' not in d.name:
+                dist_names.append(d.name)
+            if 'Historical Studies' in d.name:
+                dist_names.append(d.name)
+        return list(set(dist_names)) #get rid of duplicates
+
     """Returns all Professors that have ever taught this Course"""
     def all_profs(self):
         prof_list=[]
@@ -631,7 +641,7 @@ class CourseBucket(models.Model):
     def course_codes(self):
         #if there are no courses, ask student to consult the dept page
         if self.courses.all().count() == 0:
-            manual_message='Please consult ' + self.name + '\'s department page for more information.'
+            manual_message='Please consult ' + self.major.name + '\'s department page for more information.'
             return [manual_message]
         #else, create list
         l=[]
@@ -644,7 +654,7 @@ class CourseBucket(models.Model):
         #additional functions: should compensate for fall/spring availability
         #if there are no courses, ask student to consult the dept page
         if self.courses.all().count() == 0:
-            manual_message='Please consult ' + self.name + '\'s department page for more information.'
+            manual_message='Please consult ' + self.major.name + '\'s department page for more information.'
             return [manual_message]
         #else, create list
         suggestions=self.course_codes() #all available courses
@@ -652,7 +662,6 @@ class CourseBucket(models.Model):
             if self.is_fulfilled_by(c) and c.code in suggestions: #don't try to remove twice
                 suggestions.remove(c.code)
         return suggestions
-
 
 class Major(models.Model):
     code = models.CharField(max_length=200, default="UND")
