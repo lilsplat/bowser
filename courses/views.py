@@ -4,12 +4,19 @@ from django.template import RequestContext
 from django.shortcuts import render_to_response, redirect
 from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponseRedirect, HttpResponse
+from django.core.urlresolvers import reverse
 from django.views.decorators.http import require_http_methods
 from django.contrib.auth.decorators import login_required
 from courses.models import Student
 
 def index(request):
-    return render(request, 'courses/index.html')
+	context = RequestContext(request)
+	if request.user.is_authenticated():
+		return render_to_response('courses/index.html', context)
+	else:
+		return render_to_response('courses/landing.html', 
+		{'user_form': UserForm(), 'register_form': StudentProfileForm()},
+		context)
 
 def register(request):
     context = RequestContext(request)
@@ -57,7 +64,7 @@ def user_login(request):
 		else:
 			return HttpResponse('Invalid Login')
 	else:
-		return render_to_response('courses/landing.html/', {'register_form':StudentProfileForm()}, context)
+		return redirect(reverse('courses.views.index')) 
 
 def user_logout(request):
     logout(request)
@@ -72,7 +79,6 @@ def create_student_profile(request):
 		print 'student form data variable created'
 		if student_form.is_valid():
 			print 'student form valid'
-			#student_data = student_form.save(commit=False)
 			print 'student data saved'
 			#first create a user object
 			username = student_form.cleaned_data['username'] + '@wellesley.edu'
@@ -88,7 +94,9 @@ def create_student_profile(request):
 			student.secondary_major = student_form.cleaned_data['secondary_major']
 			student.save()
 			profile_created = True
-			return redirect('/') 
+			#log in user before redirecting to home page
+			user_login(request)
+			return redirect(reverse('courses.views.index'))
 		else:
 			print student_form.errors
 	else:

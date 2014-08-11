@@ -105,7 +105,7 @@
 		{% csrf_token %}
 		{{ user_form.non_field_errors }}
         <h2 class="form-signin-heading">Please sign in</h2>
-        <a href="#create_account_form"><span class="create_account">Don't have an account?  Create one!</span></a>
+        <!--<a href="#create_account_form"><span class="create_account">Don't have an account?  Create one!</span></a> -->
        <br> 
         <br>
         <div class="input-group">
@@ -127,10 +127,10 @@
       
 <!--Create account form-->
  <div id="create_account_form">
- <form class="form-signin" action="../register/" method="post" id="register_form" role="form">
+ <form class="form-signin" action="courses/register/" method="post" id="register_form" role="form">
         <h2 class="form-signin-heading">Create an account</h2>
 		{% csrf_token %}
-        <a href="#login_form"><span class="create_account">Already have an account?  Log in here!</span></a>
+<!--        <a href="#login_form"><span class="create_account">Already have an account?  Log in here!</span></a> -->
         <br><br>
           <div class="input-group">
   			<input name="username" class="form-control" placeholder="Email">
