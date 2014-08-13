@@ -5,16 +5,17 @@ border-color: #3889E5;
 color: #FFFFFF;
 padding: 10px;
 padding-top: 1px;
-width: 450px;
+/*width: 450px;*/
+width: 43%;
 overflow: visible;
 margin-bottom: 20px;
 /* adding this in -ST */
 float: right;
-position: fixed;
+position: relative;
 height: 600px;
 right: 10px;
-bottom: 100px;
-top: 155px;
+bottom: 200px;
+top: 55px;
 }
 
 #instructor{
@@ -86,7 +87,7 @@ background-color: #10267A;
 color: #FFFFFF;
 border-radius: 10px;
 /*width: 800px;*/
-width: 700px;
+width: 55%;
 padding: 10px;
 padding-left: 10px;
 padding-bottom: 10px;
