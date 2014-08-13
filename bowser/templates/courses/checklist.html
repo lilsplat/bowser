@@ -15,12 +15,12 @@
   <link rel="stylesheet" href="/static/bootstrap-3.2.0-dist/css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="/static/css/genericstyling.css">
   <link rel="stylesheet" type="text/css" href="/static/css/checkliststyle.css" >
-
-
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="/static/scripts/checklist.js" type="text/javascript"></script>
+  
   <!--Bootstrap core css-->
 
-
-  <!-- Custom styles for this template -->
+<!-- Custom styles for this template -->
   <link href="signin.css" rel="stylesheet">
 
 
@@ -102,22 +102,23 @@
 <div class="container">
 <div class="row">
 <!-- left div -->
-	<div class="col-md-6">
+	<div class="col-md-6" id="incomplete_dists">
                 <h2> Distributions to be completed:</h2>
                 {% for dist, course in dists_todo %}
 				{% if "Not completed" in course %}
-				<div class="added_course_with_review" style="background: #ff6666">
+				<div class="completed_dist">
 					<h5> {{ dist }} </h5>
                 </div> <!-- end added_course_with_review -->
 				{% endif %}
                 {% endfor %}
 	</div>
-	<div class="col-md-6">
+	<div class="col-md-6" id="completed_dists">
 				<h2> Distributions completed: </h2>
 				{% for dist, course in dists_todo %}
 				{% if "Not completed" not in course %}
-				<div class="added_course_with_review" style="background: #58af74">
-					<span class="c_title">{{ dist }} : {{ course }}</span>
+				<div class="incomplete_dist">
+					<span class="c_title">{{ dist }}</span><br>
+					<span class="course_title">{{course}}</span>
 				</div>
 				{% endif %}
 				{% endfor %}

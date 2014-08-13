@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/static/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="/static/css/genericstyling.css">
     <link rel="stylesheet" type="text/css" href="/static/css/mycoursesstyle.css" >
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="/static/scripts/courses.js"></script>
 	<title>My Courses</title>
 	
@@ -105,7 +106,7 @@
  <h2> My Courses </h2>
  	<!--~~~~~~~~~~~~~~~~~~~~~This is the appearance for a student's course WITH a review added-->
 	{% for course in courses %}
-	 	<div class="added_course_with_review">
+	 	<div class="added_course_with_review" id="{{course.code}}">
  	<span class="course_title">{{course.code}} | {{ course.title }} </span>
  	
  	<!--Show Review toggle button-->
@@ -139,14 +140,14 @@
  	<br>
 	
  	<div class="btn-group" id="edit_and_delete_buttons">
- 	
+ <!--	
  	<a href="#" class="btn btn-xs btn-default edit_review_submit">
  	<span class="glyphicon glyphicon-pencil"></span> Edit </a>
  	
  	<a href="#" class="btn btn-xs btn-default">
  	<span class="glyphicon glyphicon-remove"></span> Delete Review</a>
- 	
- 	<a href="#" class="btn btn-xs btn-default edit_review_submit">
+ 	-->
+ 	<a class="btn btn-xs btn-default edit_review_submit">
  	<span class="glyphicon glyphicon-trash"></span> Remove Course </a>
  	
  	</div> <!--/btn-group-->

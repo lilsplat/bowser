@@ -8,6 +8,8 @@ from django.http import HttpResponseRedirect, HttpResponse
 from django.core.urlresolvers import reverse
 from django.views.decorators.http import require_http_methods
 from django.contrib.auth.decorators import login_required
+from django.views.decorators.csrf import csrf_exempt
+from django.http import HttpResponse
 from courses.models import Student
 
 def index(request):
@@ -166,16 +168,17 @@ def load_mycourses(request):
 	context)
 
 @require_http_methods(['POST'])
+@csrf_exempt
 def delete_course(request):
-	path = request.path
-	print path
 	course = Course.objects.get(code=request.POST['code'])
+	print str(course)
 	student = Student.objects.get(user=request.user)
 	student.remove_course(course)
+	print 'course removed'
 	student.save()
 	if request.is_ajax():
 		return HttpResponse("")
-	return redirect('/mycourses')
+	return reverse('courses.views.laod_mycourses')
 
 #SCHEDULER METHODS
 #for an individual section                                                             
