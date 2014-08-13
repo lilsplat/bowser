@@ -402,6 +402,9 @@ class Course(models.Model):
     xlisted=models.CharField(max_length=200,default=NONE)
     dists=models.ManyToManyField('Distribution')
 
+    class Meta:
+        ordering=['code']
+
     def __unicode__(self):
         return self.code
 

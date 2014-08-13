@@ -108,6 +108,45 @@ def create_student_profile(request):
 		student_form = StudentProfileForm()
 	return redirect('/')
 
+def profile(request):
+	CLASS_YEAR = [
+        ('fy', 'First Year'),
+        ('so', 'Sophomore'),
+        ('ju', 'Junior'),
+        ('se', 'Senior'),
+        ]
+	context=RequestContext(request)
+	student=Student.objects.get(user=request.user)
+	user=request.user
+	username=student.user.username
+	classyear=student.class_year
+	for c in CLASS_YEAR:
+		if c[0] == classyear:
+			classyear=c[1]
+	gpa=student.gpa
+	qrb=student.qrb_passed
+	foreignlang=student.foreign_lang_passed
+	multi=student.multi_passed
+	primarymajor=student.primary_major.name
+	if student.secondary_major:
+		secondarymajor=student.secondary_major.name
+	else:
+		secondarymajor='None'
+	
+	return render_to_response(
+		'courses/profile.html',
+		{'username':username,
+		'classyear':classyear,
+		'primarymajor':primarymajor,
+		'secondarymajor':secondarymajor,
+		'gpa':gpa,
+		'qrb':qrb,
+		'foreignlang':foreignlang,
+		'multi':multi
+		},
+		context
+		)
+
 def checklist(request):
 	context=RequestContext(request)
 	student=Student.objects.get(user=request.user)
