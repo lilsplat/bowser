@@ -2,6 +2,7 @@ from courses.models import *
 from django.contrib.auth.models import User
 from django import forms
 from django.forms.models import modelformset_factory
+from django.forms import ModelForm, Select
 from crispy_forms.helper import FormHelper
 from crispy_forms.layout import *
 
@@ -23,7 +24,8 @@ class StudentProfileForm(forms.ModelForm):
 	
 
 class AddCourseForm(forms.Form):
-	code = forms.ModelChoiceField(queryset=Course.objects.all())
+	code = forms.ModelChoiceField(queryset=Course.objects.all(),
+				widget=Select(attrs={'style':'color:#000;'}))
 
 class AddCourseRatingForm(forms.ModelForm):
 	class Meta:
@@ -32,6 +34,7 @@ class AddCourseRatingForm(forms.ModelForm):
 	def __init__(self, *args, **kwargs):
 		super(AddCourseRatingForm, self).__init__(*args, **kwargs)
 		self.fields['comment_text'].widget.attrs['style'] = "width:100%;height:100px;"
+		self.fields['score'].widget.attrs['style'] = "color:#000;"	
 
 #for an individual section
 class SectionForm(forms.ModelForm):
