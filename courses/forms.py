@@ -31,7 +31,7 @@ class AddCourseRatingForm(forms.ModelForm):
 		fields = ('score', 'comment_text')
 	def __init__(self, *args, **kwargs):
 		super(AddCourseRatingForm, self).__init__(*args, **kwargs)
-		self.fields['comment_text'].widget.attrs['style'] = "width:400px;height:50px;"
+		self.fields['comment_text'].widget.attrs['style'] = "width:100%;height:100px;"
 
 #for an individual section
 class SectionForm(forms.ModelForm):
