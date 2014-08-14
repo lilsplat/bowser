@@ -63,27 +63,32 @@
 	{% csrf_token %}
 	{{ add_course_form.code }}
 		
- 	        <h4>Enter a Review</h4>
+ 	        <h4>Enter a  Review</h4>
  <div class="alert alert-warning alert-dismissible" role="alert">
   <strong>Please Note:</strong> It is <em>against the Honor Code</em> to discuss 
  a professor's grading in this setting.  It is acceptable to reference the difficulty of 
  coursework, but please refrain from any discussion regarding an instructor being a 
  "hard" or "easy" grader, etc.</div> 
-   			<div class="ratings"> Rate course content:
+			<h4> Course Review </h4>
+   			<div> Rate course content:
 		{{ add_course_rating_form.score }} <br>
-			</div>
-				
-			<div class="ratings">Professor:
-				{{ add_course_rating_form.comment_professor }} <br>
-				</div>
-        	<br>
-    
-        	<p> Enter additional comments about course content, workload, teaching style, 
-        	quality of instruction, instructor availability outside of class, etc. 
+			</div><br>
+			<p> Enter additional comments about course content, workload, etc. 
         	Would you recommend this course to others with similar reasons for enrolling? 
         	Please be as specific as possible to best help other students. <br>
 				{{ add_course_rating_form.comment_text }} <br>			
-        <!--	
+			<h4> Professor review </h4>
+			<div>Professor:
+				{{ add_prof_form.comment_professor }} <br> <br>
+			<p> Enter additional comments about teaching style, 
+        	quality of instruction, instructor availability outside of class, etc. 
+        	Would you recommend this professor to others? Please be as specific as possible to best help other students. <br>
+				{{ add_prof_form.comment_text }} <br>			
+
+				</div>
+        	<br>
+    
+        	        <!--	
 				<textarea id="comments" rows="4" cols="83" placeholder="Enter comments..."
 				name="comment" class="paragraphtextinput" form="usrform"></textarea> -->
 				
@@ -105,7 +110,7 @@
  <h2> My Courses </h2>
  	<!--~~~~~~~~~~~~~~~~~~~~~This is the appearance for a student's course WITH a review added-->
 	{% for course in courses %}
-	 	<div class="added_course_with_review" id="{{course.code}}">
+	 	<div class="added_course_with_review">
  	<span class="course_title">{{course.code}} | {{ course.title }} </span>
  	
  	<!--Show Review toggle button-->
@@ -125,12 +130,15 @@
 	<br><br><span class="course_title"> Course review: </span>
  	<br>Content: <span class="entered_reason">	
 			{{ course_review.score }}
-</span>
+</span><br>
 <!--	<br>Quality of Instruction: <span class="entered_instruction_stars"></span> -->
- 	{% if course_review.comment_text|stringformat:"s" != ""  %}
-	<br>Comments: <br><span class="entered_comments">
+	Comments: <span class="entered_comments"> 	
+		{% if course_review.comment_text|stringformat:"s" != ""  %}
 			{{ course_review.comment_text }}
-	{% endif %}
+		{% else %}
+			No review entered for this class.		
+		{% endif %}
+		</span>
 		{% endwith %}
 		{% endif %}
 		{% endfor %}
@@ -148,7 +156,7 @@
  	<a href="#" class="btn btn-xs btn-default">
  	<span class="glyphicon glyphicon-remove"></span> Delete Review</a>
  	-->
- 	<a class="btn btn-xs btn-default edit_review_submit">
+ 	<a class="btn btn-xs btn-default edit_review_submit" id="{{course.code}}">
  	<span class="glyphicon glyphicon-trash"></span> Remove Course </a>
  	
  	</div> <!--/btn-group-->

@@ -5,7 +5,23 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/static/css/genericstyling.css">
     <link rel="stylesheet" type="text/css" href="/static/css/indexstyle.css" >
-    
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<link rel='stylesheet' href='/static/fullcalendar/fullcalendar.css' />
+	<script src="/static/fullcalendar/lib/moment.min.js"></script>
+	<script src="/static/fullcalendar/fullcalendar.js"></script>
+	<script type="text/javascript"> 
+	$(document).ready(function() {
+
+    // page is now ready, initialize the calendar...
+
+    $('#calendar').fullCalendar({
+        // put your options and callbacks here
+		weekends: false,
+		defaultView: 'agendaWeek'
+    })
+
+});
+	</script>
 	<title>Bowser Home</title>
 	
 </head>
@@ -49,19 +65,30 @@
 
 
     <div class="pagecontent">
+<div class="container">
+<div class="col-md-6" id="course_selection">
+	<br><br>
 	<form id="section_form" class="form-inline" method="post" action="/courses/myschedule/" enctype="multipart/form-data">
    {% csrf_token %}
 	{{ section_form.as_p }} 
 <input type="submit" class="btn btn-primary btn-success add_review_submit"></input>
 </form>
-    </div> <!--/pagecontent-->
+{% if conflicts %}
 <h1> Conflicts:  {{ conflicts }}  </h1>
+{% endif %}
+</div>
+<div class="col-md-6" id="schedule">
+<div id="calendar"></div>
+</div>
+</div>
+    </div> <!--/pagecontent-->
     <div id="footer">
 	
 	<p> Bowser
 	
 	</div>
-    
+
+   
 
 
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>

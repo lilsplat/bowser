@@ -36,6 +36,16 @@ class AddCourseRatingForm(forms.ModelForm):
 		self.fields['comment_text'].widget.attrs['style'] = "width:100%;height:100px;color:#000;"
 		self.fields['score'].widget.attrs['style'] = "color:#000;"	
 
+class AddProfRatingForm(forms.ModelForm):
+	class Meta:
+		model = ProfRating
+		fields = ('score', 'comment_text', 'comment_professor')
+	def __init__(self, *args, **kwargs):
+		super(AddProfRatingForm, self).__init__(*args, **kwargs)
+		self.fields['comment_text'].widget.attrs['style'] = "width:100%;height:100px;color:#000;"
+		self.fields['score'].widget.attrs['style'] = "color:#000;"	
+		self.fields['comment_professor'].widget.attrs['style'] = "color:#000;"
+
 #for an individual section
 class SectionForm(forms.Form):
 	#def __init__(self, user, *args, **kwargs):

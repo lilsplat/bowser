@@ -4,12 +4,11 @@ from courses.forms import *
 from django.template import RequestContext
 from django.shortcuts import render_to_response, redirect
 from django.contrib.auth import authenticate, login, logout
-from django.http import HttpResponseRedirect, HttpResponse
+from django.http import HttpResponseRedirect, HttpResponse, HttpResponseBadRequest
 from django.core.urlresolvers import reverse
 from django.views.decorators.http import require_http_methods
 from django.contrib.auth.decorators import login_required
 from django.views.decorators.csrf import csrf_exempt
-from django.http import HttpResponse
 from courses.models import Student
 
 def index(request):
@@ -189,6 +188,7 @@ def load_mycourses(request):
 	if request.method == 'POST':
 		course_form = AddCourseForm(request.POST)
 		rating_form = AddCourseRatingForm(request.POST)
+		prof_form = AddProfRatingForm(request.POST)
 		if course_form.is_valid():
 			code = course_form.cleaned_data['code']
 			try: 
@@ -201,14 +201,27 @@ def load_mycourses(request):
 		if rating_form.is_valid():
 			score = rating_form.cleaned_data['score']
 			text = rating_form.cleaned_data['comment_text']
-			course_rating, created = CourseRating.objects.get_or_create(
-				comment_author=student,
-				comment_course=course
-				)
+			try:
+				course_rating, created = CourseRating.objects.get_or_create(
+					comment_author=student,
+					comment_course=course
+					)
+			except:
+				return HttpResponseBadRequest('Course not provided')
 			course_rating.score = score 
 			course_rating.comment_text = text
 			course_rating.save()
-
+		if prof_form.is_valid():
+			score = rating_form.cleaned_data['score']
+			text = rating_form.cleaned_data['comment_text']
+			prof = rating_form.cleaned_data['comment_professor']
+			prof_rating, created = ProfRating.objects.get_or_create(
+				comment_author=student,
+				comment_prof=prof
+				) 
+			prof_rating.score = score
+			prof_rating.comment_text = text
+			prof_rating.save()
 	courses = student.courses.all()
 	course_reviews = CourseRating.objects.all().filter(comment_author=student)
 	prof_reviews = ProfRating.objects.all().filter(comment_author=student)
@@ -216,6 +229,7 @@ def load_mycourses(request):
 	return render_to_response(
 	'courses/mycourses.html',
 	{'add_course_form': AddCourseForm(),
+	'add_prof_form': AddProfRatingForm(),
 	'add_course_rating_form': AddCourseRatingForm(),
 	'courses': courses,
 	'reviews': course_reviews,
