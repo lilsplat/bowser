@@ -212,12 +212,12 @@ def load_mycourses(request):
 			course_rating.comment_text = text
 			course_rating.save()
 		if prof_form.is_valid():
-			score = rating_form.cleaned_data['score']
-			text = rating_form.cleaned_data['comment_text']
-			prof = rating_form.cleaned_data['comment_professor']
+			score = prof_form.cleaned_data['score']
+			text = prof_form.cleaned_data['comment_text']
+			prof = prof_form.cleaned_data['comment_professor']
 			prof_rating, created = ProfRating.objects.get_or_create(
 				comment_author=student,
-				comment_prof=prof
+				comment_professor=prof
 				) 
 			prof_rating.score = score
 			prof_rating.comment_text = text
