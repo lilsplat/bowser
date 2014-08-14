@@ -540,6 +540,7 @@ class Student(models.Model):
     def distributions_todo(self):
         all_dists = self.all_dist_list() #Copy list of all distribution requirements
         dists_todo=[] #Initialize list to be returned
+        NOT_COMPLETED='Not Completed'
 
         #Initialize QuerySet
         self_courses=self.courses.all()
@@ -556,13 +557,13 @@ class Student(models.Model):
             if lab.exists():
                 dists_todo.append((Distribution.objects.get(name='Lab'),lab[0].code))
             else:
-                dists_todo.append((Distribution.objects.get(name='Lab'),'Not Completed'))
+                dists_todo.append((Distribution.objects.get(name='Lab'),NOT_COMPLETED))
 
             #check qrf
             if qrf.exists():
                 dists_todo.append((Distribution.objects.get(name='QR Overlay'),qrf[0].code))
             else:
-                dists_todo.append((Distribution.objects.get(name='QR Overlay'),'Not Completed'))
+                dists_todo.append((Distribution.objects.get(name='QR Overlay'),NOT_COMPLETED))
 
             #check 4x300-levels
             if tl.exists():
@@ -576,7 +577,7 @@ class Student(models.Model):
                     dists_todo.append((Distribution.objects.get(name='300-level'),tl[i].code))
                     i+=1
                 for x in xrange(0,4-num_tl): #add non-complete 300-levels
-                    dists_todo.append((Distribution.objects.get(name='300-level'),'Not Completed'))
+                    dists_todo.append((Distribution.objects.get(name='300-level'),NOT_COMPLETED))
 
             #Organize a list of Distributions by how frequently they appear in a Student's courses
             search_dists=self.most_freq_dists()
@@ -598,11 +599,11 @@ class Student(models.Model):
 
         #Last step, clean up and add all unfulfilled Distributions to list as 'Not Completed'
         if self.foreign_lang_passed == False:
-            dists_todo.append((Distribution.objects.get(name='Foreign Language'),'Not completed'))
+            dists_todo.append((Distribution.objects.get(name='Foreign Language'),NOT_COMPLETED))
         else:
             dists_todo.append((Distribution.objects.get(name='Foreign Language'),'Complete'))
         for d in all_dists:
-            dists_todo.append((Distribution.objects.get(name=d),'Not completed'))
+            dists_todo.append((Distribution.objects.get(name=d),NOT_COMPLETED))
 
         return dists_todo
 

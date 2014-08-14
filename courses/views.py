@@ -151,12 +151,13 @@ def checklist(request):
 	context=RequestContext(request)
 	student=Student.objects.get(user=request.user)
 	dists_todo=student.distributions_todo()
+	NOT_COMPLETED='Not Completed'
 	#create list of fulfilled dists
 	dists_completed = []
-	for dist in Distribution.objects.all():
-		if student.has_fulfilled_dist(dist):
-			dists_completed.append(dist)
-	#percentage of dists fulfilled
+	for d in dists_todo:
+		if NOT_COMPLETED not in d[1]:
+			dists_completed.append(d)
+			dists_todo.remove(d)
 	percentage = float(len(dists_completed)/16)*100
 	return render_to_response(
 		'courses/checklist.html',
