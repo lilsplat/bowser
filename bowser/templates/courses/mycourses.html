@@ -109,8 +109,8 @@
  	<span class="course_title">{{course.code}} | {{ course.title }} </span>
  	
  	<!--Show Review toggle button-->
- 		<br> <a href="#"><span class="show_review_toggle">+Show/Hide Review</span></a>
- 	
+ 	<!--	<br> <a href="#"><span class="show_review_toggle">+Show/Hide Review</span></a>
+ 	-->
  	<!--~~~~~~~~~~~~~~~~~~~~~Toggle to show/hide course review-->
  	
  	<div class="show_hide_entered_review_toggle">
@@ -123,12 +123,14 @@
 	{% if review.comment_course.title == course.title %}
 	{% with review as course_review %}
 	<br><br><span class="course_title"> Course review: </span>
- 	<br>Course Content: <span class="entered_course_stars">	
+ 	<br>Content: <span class="entered_reason">	
 			{{ course_review.score }}
 </span>
-	<br>Quality of Instruction: <span class="entered_instruction_stars"></span>
- 	<br>Comments: <br><span class="entered_comments">
+<!--	<br>Quality of Instruction: <span class="entered_instruction_stars"></span> -->
+ 	{% if course_review.comment_text|stringformat:"s" != ""  %}
+	<br>Comments: <br><span class="entered_comments">
 			{{ course_review.comment_text }}
+	{% endif %}
 		{% endwith %}
 		{% endif %}
 		{% endfor %}

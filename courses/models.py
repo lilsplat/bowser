@@ -256,8 +256,9 @@ class Distribution(models.Model):
         return l #remove duplicates
 
     """Returns a QuerySet of Courses that fulfill this Distribution"""
+    @property
     def suggested_courses(self):
-        courses=Course.objects.filter(dists__name=self.name)
+        courses=Course.objects.filter(dists__name=self.name).order_by('?')[:10]
         return courses
 
     class Meta:
@@ -322,7 +323,7 @@ class TimeAndDate(models.Model):
         return False
 
 """ Checks a list of courses to see if they all conflict with each other """
-def schedule_conflicts(self, section_list):
+def schedule_conflicts(section_list):
 	for section in section_list:
 		#remove course and return it to compare
 		current_section = section_list.pop()
@@ -330,9 +331,9 @@ def schedule_conflicts(self, section_list):
 			#check against all other course sections for conflicts
 			if current_section.conflicts(section):
 				#return conflicting pair
-				return [section, current_section]
+				return str(section) + ',' + str(current_section)
 		#return None
-	return None
+	return 'No conflicts'
 
 
 class Semester(models.Model):
@@ -738,7 +739,7 @@ class ProfRating(models.Model):
     comment_professor=models.ForeignKey('Professor')
 
     def __unicode__(self):
-	    return str(self.comment_prof) + ' | ' + str(self.comment_author)
+		return str(self.comment_prof) + ' | ' + str(self.comment_author)
    
     class Meta:
         unique_together = ("comment_author", "comment_professor")

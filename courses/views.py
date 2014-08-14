@@ -87,7 +87,7 @@ def create_student_profile(request):
 			print 'student data saved'
 			#first create a user object
 			username = student_form.cleaned_data['username'] + '@wellesley.edu'
- 			password = student_form.cleaned_data['password']
+			password = student_form.cleaned_data['password']
 			print 'username and password saved'
 			user = User.objects.create_user(username, username, password)
 			print 'user created'
@@ -224,6 +224,21 @@ def delete_course(request):
 def load_myschedule(request):
     context = RequestContext(request)
     #section_form = modelformset_factory(Section, form=SectionForm, max_num=5)
+    if request.method == 'POST':
+		section_form = SectionForm(request.POST)
+		if section_form.is_valid():
+			sections_list = []
+			sections_list += section_form.cleaned_data['course1']
+			sections_list += section_form.cleaned_data['course2']
+			sections_list += section_form.cleaned_data['course3']
+			sections_list += section_form.cleaned_data['course4']
+			secitons_list += section_form.cleaned_data['course5']
+			print sections_list
+			conflicts = schedule_conflicts(sections_list)			
+			return render_to_response('courses/schedule.html',
+			{'section_form': SectionForm(),
+			'conflicts': conflicts},
+			context)
     return render_to_response('courses/schedule.html',
-    	{'section_form': SectionForm(),},
-    	context)
+		{'section_form': SectionForm(),},
+		context)

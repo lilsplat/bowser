@@ -33,11 +33,14 @@ class AddCourseRatingForm(forms.ModelForm):
 		fields = ('score', 'comment_text')
 	def __init__(self, *args, **kwargs):
 		super(AddCourseRatingForm, self).__init__(*args, **kwargs)
-		self.fields['comment_text'].widget.attrs['style'] = "width:100%;height:100px;"
+		self.fields['comment_text'].widget.attrs['style'] = "width:100%;height:100px;color:#000;"
 		self.fields['score'].widget.attrs['style'] = "color:#000;"	
 
 #for an individual section
 class SectionForm(forms.Form):
+	#def __init__(self, user, *args, **kwargs):
+	#	super(SectionForm, self).__init__(*args, **kwargs)
+	# work on getting form to prepopulate based on semester	
 	semester = Semester.objects.get(session='Fall', year=2014)
 	course1 = forms.ModelChoiceField(queryset=Section.objects.filter(semester=semester),
 		widget=Select(attrs={'style':'color:#000;'}))
@@ -49,7 +52,6 @@ class SectionForm(forms.Form):
 		widget=Select(attrs={'style':'color:#000;'}))
 	course5 = forms.ModelChoiceField(queryset=Section.objects.filter(semester=semester),
 		widget=Select(attrs={'style':'color:#000;'}))
-
 
 #for a set of sections (e.g. a course schedule)
 #SectionFormSet = modelformset_factory(Section, fields=('course',))

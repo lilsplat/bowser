@@ -105,21 +105,24 @@
 	<div class="col-md-6" id="incomplete_dists">
                 <h2> Distributions to be completed:</h2>
                 {% for dist, course in dists_todo %}
-				{# if dist in incomplete_dists #}
-				{% if 'Not completed' in course %}
-				{% with dist.get_dist as dist_obj %}
+				{% if course|stringformat:"s" == "Not completed" %}
 				<div class="incomplete_dist">
 					<h5> {{ dist }} </h5>
-					<span class="recommended_course">Recommended courses: {{ dist_obj.suggested_courses }} </span>
+					<span class="recommended_course">Recommended courses:
+					<ul> 
+					{% for course in  dist.suggested_courses %}
+					<li> {{ course.code }} | {{course.title}} </li>
+					{% endfor %}
+					</ul>
+					 </span>
                 </div> <!-- end added_course_with_review -->
-				{% endwith %}
 				{% endif %}
                 {% endfor %}
 	</div>
 	<div class="col-md-6" id="completed_dists">
 				<h2> Distributions completed: </h2>
 				{% for dist, course in dists_todo %}
-				{% if 'Not completed' not in course %}
+				{% if course|stringformat:"s" != "Not completed" %}
 				<div class="completed_dist">
 					<span class="c_title">{{ dist }}</span><br>
 					<span class="course_title">{{course}}</span>

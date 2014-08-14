@@ -49,11 +49,13 @@
 
 
     <div class="pagecontent">
+	<form id="section_form" class="form-inline" method="post" action="/courses/myschedule/" enctype="multipart/form-data">
    {% csrf_token %}
 	{{ section_form.as_p }} 
-<h1> hi </h1>	
+<input type="submit" class="btn btn-primary btn-success add_review_submit"></input>
+</form>
     </div> <!--/pagecontent-->
-    
+<h1> Conflicts:  {{ conflicts }}  </h1>
     <div id="footer">
 	
 	<p> Bowser
