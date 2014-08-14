@@ -309,7 +309,7 @@ class TimeAndDate(models.Model):
         #check overlapping date and time
         if set(self.datelist()).intersection(set(other_section.datelist())):
             #if start and end times are the same, there is overlap
-            if ((this_start == other_start) and (this_end == other_end)):
+            if ((self.starttime == other_section.starttime) and (self.endtime == other_section.endtime)):
                 return True
             #otherwise, check inexact overlap
             this_start=datetime.strptime(self.starttime.encode('UTF-8'),'%I:%M')
@@ -318,22 +318,21 @@ class TimeAndDate(models.Model):
             other_end=datetime.strptime(other_section.endtime.encode('UTF-8'),'%I:%M')
             if ((this_start < other_end) and (this_end > other_start)):
                 return True
-            
         #if none of this is true, there is no overlap, return false
         return False
 
-""" Checks a list of courses to see if they all conflict with each other """
-def schedule_conflicts(section_list):
-	for section in section_list:
-		#remove course and return it to compare
-		current_section = section_list.pop()
-		for section in section_list:
-			#check against all other course sections for conflicts
-			if current_section.conflicts(section):
-				#return conflicting pair
-				return str(section) + ',' + str(current_section)
-		#return None
-	return 'No conflicts'
+    # """ Checks a list of courses to see if they all conflict with each other """
+    # def schedule_conflicts(section_list):
+    #     for section in section_list:
+    #     #remove course and return it to compare
+    #         current_section = section_list.pop()
+    #         for section in section_list:
+    #         #check against all other course sections for conflicts
+    #             if current_section.conflicts(section):
+    #             #return conflicting pair
+    #                 return str(section) + ',' + str(current_section)
+    #     #return None
+    #     return 'No conflicts'
 
 
 class Semester(models.Model):
@@ -379,6 +378,14 @@ class Section(models.Model):
     """Returns whether this Section has a time conflict with another section"""
     def conflicts(self,other_section):
         return self.timeanddate.conflicts(other_section.timeanddate)
+
+    def schedule_conflicts(self,section_list):
+        # section_list=section_list.remove(self)
+        for s in section_list:
+            print s
+            if self.conflicts(s):
+                return str(s) + ',' + str(self)
+        return 'No conflicts'
 
     def __unicode__(self):
 		return str(self.course) + ': ' + self.prof.name  + ' | ' + self.timeanddate.__unicode__()

@@ -229,13 +229,20 @@ def load_myschedule(request):
 		section_form = SectionForm(request.POST)
 		if section_form.is_valid():
 			sections_list = []
-			sections_list += section_form.cleaned_data['course1']
-			sections_list += section_form.cleaned_data['course2']
-			sections_list += section_form.cleaned_data['course3']
-			sections_list += section_form.cleaned_data['course4']
-			secitons_list += section_form.cleaned_data['course5']
+			sections_list.append(section_form.cleaned_data['course1'])
+			sections_list.append(section_form.cleaned_data['course2'])
+			sections_list.append(section_form.cleaned_data['course3'])
+			sections_list.append(section_form.cleaned_data['course4'])
+			sections_list.append(section_form.cleaned_data['course5'])
 			print sections_list
-			conflicts = schedule_conflicts(sections_list)			
+			conflicts=''
+			for s in sections_list:
+				s_removed_list=[i for i in sections_list]
+				s_removed_list.remove(s)
+				if s.schedule_conflicts(s_removed_list) != 'No conflicts':
+					conflicts+=s.schedule_conflicts(s_removed_list)+'\n'
+					sections_list.remove(s)
+			# conflicts = section_form.cleaned_data['course1'].schedule_conflicts(sections_list)			
 			return render_to_response('courses/schedule.html',
 			{'section_form': SectionForm(),
 			'conflicts': conflicts},
