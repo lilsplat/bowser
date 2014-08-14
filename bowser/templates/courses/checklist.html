@@ -59,11 +59,11 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
                 <li><a href="#">Scheduler</a><li>
-                  <li><a href="#">Checklist</a><li>
-                    <li><a href="#">My Courses</a></li>
+                  <li><a href="/courses/checklist">Checklist</a><li>
+                    <li><a href="/courses/mycourses">My Courses</a></li>
                   </ul>
                   <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="profile.html">Profile</a></li>
+                    <li class="active"><a href="#">Profile</a></li>
                     {% if user.is_authenticated %}
                     <li><a href="/courses/logout">Logout</a></li>
                     {% else %}
@@ -105,7 +105,6 @@
 	<div class="col-md-6" id="incomplete_dists">
                 <h2> Distributions to be completed:</h2>
                 {% for dist, course in dists_todo %}
-				{% if course|stringformat:"s" == "Not completed" %}
 				<div class="incomplete_dist">
 					<h5> {{ dist }} </h5>
 					<span class="recommended_course">Recommended courses:
@@ -116,18 +115,15 @@
 					</ul>
 					 </span>
                 </div> <!-- end added_course_with_review -->
-				{% endif %}
                 {% endfor %}
 	</div>
 	<div class="col-md-6" id="completed_dists">
 				<h2> Distributions completed: </h2>
-				{% for dist, course in dists_todo %}
-				{% if course|stringformat:"s" != "Not completed" %}
+				{% for dist, course in dists_completed %}
 				<div class="completed_dist">
 					<span class="c_title">{{ dist }}</span><br>
 					<span class="course_title">{{course}}</span>
 				</div>
-				{% endif %}
 				{% endfor %}
 	</div> 
 	</div> <!-- end row div -->

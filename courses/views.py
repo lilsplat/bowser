@@ -150,12 +150,13 @@ def checklist(request):
 	context=RequestContext(request)
 	student=Student.objects.get(user=request.user)
 	dists_todo=student.distributions_todo()
+	NOT_COMPLETED='Not Completed'
 	#create list of fulfilled dists
 	dists_completed = []
-	for dist in Distribution.objects.all():
-		if student.has_fulfilled_dist(dist):
-			dists_completed.append(dist)
-	#percentage of dists fulfilled
+	for d in dists_todo:
+		if NOT_COMPLETED not in d[1]:
+			dists_completed.append(d)
+			dists_todo.remove(d)
 	percentage = float(len(dists_completed)/16)*100
 	return render_to_response(
 		'courses/checklist.html',
@@ -242,13 +243,20 @@ def load_myschedule(request):
 		section_form = SectionForm(request.POST)
 		if section_form.is_valid():
 			sections_list = []
-			sections_list += section_form.cleaned_data['course1']
-			sections_list += section_form.cleaned_data['course2']
-			sections_list += section_form.cleaned_data['course3']
-			sections_list += section_form.cleaned_data['course4']
-			secitons_list += section_form.cleaned_data['course5']
+			sections_list.append(section_form.cleaned_data['course1'])
+			sections_list.append(section_form.cleaned_data['course2'])
+			sections_list.append(section_form.cleaned_data['course3'])
+			sections_list.append(section_form.cleaned_data['course4'])
+			sections_list.append(section_form.cleaned_data['course5'])
 			print sections_list
-			conflicts = schedule_conflicts(sections_list)			
+			conflicts=''
+			for s in sections_list:
+				s_removed_list=[i for i in sections_list]
+				s_removed_list.remove(s)
+				if s.schedule_conflicts(s_removed_list) != 'No conflicts':
+					conflicts+=s.schedule_conflicts(s_removed_list)+'\n'
+					sections_list.remove(s)
+			# conflicts = section_form.cleaned_data['course1'].schedule_conflicts(sections_list)			
 			return render_to_response('courses/schedule.html',
 			{'section_form': SectionForm(),
 			'conflicts': conflicts},
