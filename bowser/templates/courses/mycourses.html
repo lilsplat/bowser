@@ -110,7 +110,7 @@
  <h2> My Courses </h2>
  	<!--~~~~~~~~~~~~~~~~~~~~~This is the appearance for a student's course WITH a review added-->
 	{% for course in courses %}
-	 	<div class="added_course_with_review" id="{{course.code}}">
+	 	<div class="added_course_with_review">
  	<span class="course_title">{{course.code}} | {{ course.title }} </span>
  	
  	<!--Show Review toggle button-->
@@ -156,7 +156,7 @@
  	<a href="#" class="btn btn-xs btn-default">
  	<span class="glyphicon glyphicon-remove"></span> Delete Review</a>
  	-->
- 	<a class="btn btn-xs btn-default edit_review_submit">
+ 	<a class="btn btn-xs btn-default edit_review_submit" id="{{course.code}}">
  	<span class="glyphicon glyphicon-trash"></span> Remove Course </a>
  	
  	</div> <!--/btn-group-->
