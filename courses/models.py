@@ -253,16 +253,12 @@ class Distribution(models.Model):
         l=[]
         for c in self.course_set.all():
             l.append(c.code.encode('UTF-8'))
-        return list(set(l)) #remove duplicates
+        return l #remove duplicates
 
-    """Returns a list of suggested courses to fulfill the Distribution, given a list of Courses"""
-    def suggested_courses(self,courses):
-        #additional functions: should compensate for fall/spring availability
-        suggestions = self.course_codes() #all available courses
-        for c in courses:
-            if self.is_fulfilled_by(c):
-                suggestions.remove(c.code)
-        return suggestions
+    """Returns a QuerySet of Courses that fulfill this Distribution"""
+    def suggested_courses(self):
+        courses=Course.objects.filter(dists__name=self.name)
+        return courses
 
     class Meta:
         ordering = ['name']
@@ -556,15 +552,15 @@ class Student(models.Model):
 
             #check lab
             if lab.exists():
-                dists_todo.append(('Lab',lab[0].code))
+                dists_todo.append((Distribution.objects.get(name='Lab'),lab[0].code))
             else:
-                dists_todo.append(('Lab','Not Completed'))
+                dists_todo.append((Distribution.objects.get(name='Lab'),'Not Completed'))
 
             #check qrf
             if qrf.exists():
-                dists_todo.append(('QR Overlay',qrf[0].code))
+                dists_todo.append((Distribution.objects.get(name='QR Overlay'),qrf[0].code))
             else:
-                dists_todo.append(('QR Overlay','Not Completed'))
+                dists_todo.append((Distribution.objects.get(name='QR Overlay'),'Not Completed'))
 
             #check 4x300-levels
             if tl.exists():
@@ -575,10 +571,10 @@ class Student(models.Model):
                     num_tl=len(tl)
                 i=0
                 while i<num_tl: #add completed 300-levels
-                    dists_todo.append(('300-level',tl[i].code))
+                    dists_todo.append((Distribution.objects.get(name='300-level'),tl[i].code))
                     i+=1
                 for x in xrange(0,4-num_tl): #add non-complete 300-levels
-                    dists_todo.append(('300-level','Not Completed'))
+                    dists_todo.append((Distribution.objects.get(name='300-level'),'Not Completed'))
 
             #Organize a list of Distributions by how frequently they appear in a Student's courses
             search_dists=self.most_freq_dists()
@@ -593,18 +589,18 @@ class Student(models.Model):
                     # print '\t' + c.code
                     if d.is_fulfilled_by(c): #if found
                         # print '\tFOUND: ' + c.code + ' fulfills ' + d.name
-                        dists_todo.append((d.name,c.code))
+                        dists_todo.append((Distribution.objects.get(name=d.name),c.code))
                         all_dists.remove(d.name)
                         course_dist_freq.remove(c) #no overlaps
                         break #stop loop
 
         #Last step, clean up and add all unfulfilled Distributions to list as 'Not Completed'
         if self.foreign_lang_passed == False:
-            dists_todo.append(('Foreign Language Requirement','Not completed'))
+            dists_todo.append((Distribution.objects.get(name='Foreign Language'),'Not completed'))
         else:
-            dists_todo.append(('Foreign Language Requirement','Complete'))
+            dists_todo.append((Distribution.objects.get(name='Foreign Language'),'Complete'))
         for d in all_dists:
-            dists_todo.append((d,'Not completed'))
+            dists_todo.append((Distribution.objects.get(name=d),'Not completed'))
 
         return dists_todo
 
