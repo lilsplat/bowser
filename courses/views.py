@@ -118,6 +118,7 @@ def profile(request):
 	context=RequestContext(request)
 	student=Student.objects.get(user=request.user)
 	user=request.user
+	pk=user.id
 	username=student.user.username
 	classyear=student.class_year
 	for c in CLASS_YEAR:
@@ -127,6 +128,19 @@ def profile(request):
 	qrb=student.qrb_passed
 	foreignlang=student.foreign_lang_passed
 	multi=student.multi_passed
+	#parse booleans to readable
+	if qrb:
+		qrb='Yes'
+	else:
+		qrb='No'
+	if foreignlang:
+		foreignlang='Yes'
+	else:
+		foreignlang='No'
+	if multi:
+		multi='Yes'
+	else:
+		multi='No'
 	primarymajor=student.primary_major.name
 	if student.secondary_major:
 		secondarymajor=student.secondary_major.name
@@ -135,7 +149,8 @@ def profile(request):
 	
 	return render_to_response(
 		'courses/profile.html',
-		{'username':username,
+		{'userpk':pk,
+		'username':username,
 		'classyear':classyear,
 		'primarymajor':primarymajor,
 		'secondarymajor':secondarymajor,
@@ -218,7 +233,19 @@ def delete_course(request):
 	student.save()
 	if request.is_ajax():
 		return HttpResponse("")
-	return reverse('courses.views.laod_mycourses')
+	return reverse('courses.views.load_mycourses')
+
+@require_http_methods(['POST'])
+@csrf_exempt
+def edit_username(request):
+	student = Student.objects.get(user=request.user)
+	student.user.username = request.POST['new_username']
+	print student.user.username
+	print 'username changed'
+	student.save()
+	if request.is_ajax():
+		return HttpResponse("")
+	return reverse('courses.views.profile')
 
 #SCHEDULER METHODS
 #for an individual section                                                             
