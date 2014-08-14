@@ -734,7 +734,7 @@ class ProfRating(models.Model):
     comment_professor=models.ForeignKey('Professor')
 
     def __unicode__(self):
-		return str(self.comment_prof) + ' | ' + str(self.comment_author)
+		return str(self.comment_professor) + ' | ' + str(self.comment_author)
    
     class Meta:
         unique_together = ("comment_author", "comment_professor")
