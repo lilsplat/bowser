@@ -380,7 +380,8 @@ class Section(models.Model):
         return self.timeanddate.conflicts(other_section.timeanddate)
 
     def __unicode__(self):
-        return 'prof: '+self.prof.name + ', section number: ' + self.sec_id + ', t&d:' + self.timeanddate.__unicode__()
+		return str(self.course) + ': ' + self.prof.name  + ' | ' + self.timeanddate.__unicode__()
+        #return 'prof: '+self.prof.name + ', section number: ' + self.sec_id + ', t&d:' + self.timeanddate.__unicode__()
 
 class Course(models.Model):
     NONE='None assigned'

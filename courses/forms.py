@@ -37,10 +37,19 @@ class AddCourseRatingForm(forms.ModelForm):
 		self.fields['score'].widget.attrs['style'] = "color:#000;"	
 
 #for an individual section
-class SectionForm(forms.ModelForm):
-	class Meta:
-		model = Section
-		fields = ('course',)
+class SectionForm(forms.Form):
+	semester = Semester.objects.get(session='Fall', year=2014)
+	course1 = forms.ModelChoiceField(queryset=Section.objects.filter(semester=semester),
+		widget=Select(attrs={'style':'color:#000;'}))
+	course2 = forms.ModelChoiceField(queryset=Section.objects.filter(semester=semester),
+		widget=Select(attrs={'style':'color:#000;'}))
+	course3 = forms.ModelChoiceField(queryset=Section.objects.filter(semester=semester),
+		widget=Select(attrs={'style':'color:#000;'}))
+	course4 = forms.ModelChoiceField(queryset=Section.objects.filter(semester=semester),
+		widget=Select(attrs={'style':'color:#000;'}))
+	course5 = forms.ModelChoiceField(queryset=Section.objects.filter(semester=semester),
+		widget=Select(attrs={'style':'color:#000;'}))
+
 
 #for a set of sections (e.g. a course schedule)
-SectionFormSet = modelformset_factory(Section, fields=('course',))
+#SectionFormSet = modelformset_factory(Section, fields=('course',))
