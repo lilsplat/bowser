@@ -200,7 +200,9 @@ def load_mycourses(request):
 			# not able to process rating information for some reason
 		if rating_form.is_valid():
 			score = rating_form.cleaned_data['score']
-			text = rating_form.cleaned_data['comment_text']
+			course_text = rating_form.cleaned_data['comment_text']
+			print 'course comment text:'
+			print course_text
 			try:
 				course_rating, created = CourseRating.objects.get_or_create(
 					comment_author=student,
@@ -209,8 +211,11 @@ def load_mycourses(request):
 			except:
 				return HttpResponseBadRequest('Course not provided')
 			course_rating.score = score 
-			course_rating.comment_text = text
+			course_rating.comment_text = course_text
 			course_rating.save()
+			print 'created course rating object:'
+			print course_rating
+			
 		if prof_form.is_valid():
 			score = prof_form.cleaned_data['score']
 			text = prof_form.cleaned_data['comment_text']
@@ -218,12 +223,21 @@ def load_mycourses(request):
 			prof_rating, created = ProfRating.objects.get_or_create(
 				comment_author=student,
 				comment_professor=prof
-				) 
+				)
+			print 'prof comment text:'
+			print text
 			prof_rating.score = score
 			prof_rating.comment_text = text
 			prof_rating.save()
+			print 'prof rating object:'
+			print prof_rating
 	courses = student.courses.all()
 	course_reviews = CourseRating.objects.all().filter(comment_author=student)
+	print 'all course rating objects:'
+	print course_reviews.all()
+	print 'all comment text from course rating objects'
+	for c in course_reviews.all():
+		print c.comment_text
 	prof_reviews = ProfRating.objects.all().filter(comment_author=student)
 	course_form = AddCourseRatingForm()
 	return render_to_response(
