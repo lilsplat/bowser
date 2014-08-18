@@ -22,5 +22,5 @@ urlpatterns = patterns('',
 	#url(r'^mycourses/delete_course/(?P<code> \d+)/$', views.delete_course, name='delete_course'),
     url(r'^checklist/$', views.checklist, name='checklist'),
     url(r'^profile/$',views.profile,name='profile'),
-    url(r'^profile/edit_username/$',views.edit_username,name='edit_username')
+    url(r'^profile/edit_profile/$',views.edit_profile,name='edit_profile')
 )

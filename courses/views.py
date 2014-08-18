@@ -161,6 +161,60 @@ def profile(request):
 		context
 		)
 
+def edit_profile(request):
+	CLASS_YEAR = [
+        ('fy', 'First Year'),
+        ('so', 'Sophomore'),
+        ('ju', 'Junior'),
+        ('se', 'Senior'),
+        ]
+	context=RequestContext(request)
+	student=Student.objects.get(user=request.user)
+	user=request.user
+	pk=user.id
+	username=student.user.username
+	classyear=student.class_year
+	for c in CLASS_YEAR:
+		if c[0] == classyear:
+			classyear=c[1]
+	gpa=student.gpa
+	qrb=student.qrb_passed
+	foreignlang=student.foreign_lang_passed
+	multi=student.multi_passed
+	#parse booleans to readable
+	if qrb:
+		qrb='Yes'
+	else:
+		qrb='No'
+	if foreignlang:
+		foreignlang='Yes'
+	else:
+		foreignlang='No'
+	if multi:
+		multi='Yes'
+	else:
+		multi='No'
+	primarymajor=student.primary_major.name
+	if student.secondary_major:
+		secondarymajor=student.secondary_major.name
+	else:
+		secondarymajor='None'
+	
+	return render_to_response(
+		'courses/edit_profile.html',
+		{'userpk':pk,
+		'username':username,
+		'classyear':classyear,
+		'primarymajor':primarymajor,
+		'secondarymajor':secondarymajor,
+		'gpa':gpa,
+		'qrb':qrb,
+		'foreignlang':foreignlang,
+		'multi':multi
+		},
+		context
+		)
+
 def checklist(request):
 	context=RequestContext(request)
 	student=Student.objects.get(user=request.user)
@@ -274,6 +328,18 @@ def edit_username(request):
 	if request.is_ajax():
 		return HttpResponse("")
 	return reverse('courses.views.profile')
+
+# @require_http_methods(['POST'])
+# @csrf_exempt
+# def edit_profile(request):
+# 	student = Student.objects.get(user=request.user)
+# 	student.user.username = request.POST['new_username']
+# 	print student.user.username
+# 	print 'username changed'
+# 	student.save()
+# 	if request.is_ajax():
+# 		return HttpResponse("")
+# 	return reverse('courses.views.profile')
 
 #SCHEDULER METHODS
 #for an individual section                                                             
