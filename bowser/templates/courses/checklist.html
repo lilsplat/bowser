@@ -104,7 +104,7 @@
 <!-- left div -->
 	<div class="col-md-6" id="incomplete_dists">
                 <h2> Distributions to be completed:</h2>
-                {% for dist, course in dists_todo %}
+                {% for dist, course in incomplete_dists%}
 				<div class="incomplete_dist">
 					<h5> {{ dist }} </h5>
 					<span class="recommended_course">Recommended courses:
@@ -119,7 +119,7 @@
 	</div>
 	<div class="col-md-6" id="completed_dists">
 				<h2> Distributions completed: </h2>
-				{% for dist, course in dists_completed %}
+				{% for dist, course in completed_dists %}
 				<div class="completed_dist">
 					<span class="c_title">{{ dist }}</span><br>
 					<span class="course_title">{{course}}</span>

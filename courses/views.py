@@ -108,112 +108,37 @@ def create_student_profile(request):
 	return redirect('/')
 
 def profile(request):
-	CLASS_YEAR = [
-        ('fy', 'First Year'),
-        ('so', 'Sophomore'),
-        ('ju', 'Junior'),
-        ('se', 'Senior'),
-        ]
 	context=RequestContext(request)
 	student=Student.objects.get(user=request.user)
-	user=request.user
-	pk=user.id
-	username=student.user.username
-	classyear=student.class_year
-	for c in CLASS_YEAR:
-		if c[0] == classyear:
-			classyear=c[1]
-	gpa=student.gpa
-	qrb=student.qrb_passed
-	foreignlang=student.foreign_lang_passed
-	multi=student.multi_passed
-	#parse booleans to readable
-	if qrb:
-		qrb='Yes'
+	if request.method == "POST":
+		profile_form = ProfileForm(request.POST)
+		if profile_form.is_valid():
+			student.class_year = profile_form.cleaned_data['class_year']
+			student.primary_major = profile_form.cleaned_data['primary_major']
+			student.secondary_major = profile_form.cleaned_data['secondary_major']
+			student.gpa = profile_form.cleaned_data['gpa']
+			student.qrb_passed = profile_form.cleaned_data['qrb_passed']
+			student.foreign_lang_passed = profile_form.cleaned_data['foreign_lang_passed']
+			student.multi_passed = profile_form.cleaned_data['multi_passed']
+			student.save()
 	else:
-		qrb='No'
-	if foreignlang:
-		foreignlang='Yes'
-	else:
-		foreignlang='No'
-	if multi:
-		multi='Yes'
-	else:
-		multi='No'
-	primarymajor=student.primary_major.name
-	if student.secondary_major:
-		secondarymajor=student.secondary_major.name
-	else:
-		secondarymajor='None'
-	
+		profile_form = ProfileForm(initial=
+					{'user': student.user,
+					'class_year': student.class_year,
+					'primary_major': student.primary_major,
+					'secondary_major': student.secondary_major,
+					'gpa': student.gpa,
+					'qrb_passed': student.qrb_passed,
+					'foreign_lang_passed': student.foreign_lang_passed,
+					'multi_passed': student.multi_passed
+					})
+				
 	return render_to_response(
 		'courses/profile.html',
-		{'userpk':pk,
-		'username':username,
-		'classyear':classyear,
-		'primarymajor':primarymajor,
-		'secondarymajor':secondarymajor,
-		'gpa':gpa,
-		'qrb':qrb,
-		'foreignlang':foreignlang,
-		'multi':multi
-		},
-		context
-		)
+		{'profile_form': profile_form,
+		'username': student.user.username},
+		context)
 
-def edit_profile(request):
-	CLASS_YEAR = [
-        ('fy', 'First Year'),
-        ('so', 'Sophomore'),
-        ('ju', 'Junior'),
-        ('se', 'Senior'),
-        ]
-	context=RequestContext(request)
-	student=Student.objects.get(user=request.user)
-	user=request.user
-	pk=user.id
-	username=student.user.username
-	classyear=student.class_year
-	for c in CLASS_YEAR:
-		if c[0] == classyear:
-			classyear=c[1]
-	gpa=student.gpa
-	qrb=student.qrb_passed
-	foreignlang=student.foreign_lang_passed
-	multi=student.multi_passed
-	#parse booleans to readable
-	if qrb:
-		qrb='Yes'
-	else:
-		qrb='No'
-	if foreignlang:
-		foreignlang='Yes'
-	else:
-		foreignlang='No'
-	if multi:
-		multi='Yes'
-	else:
-		multi='No'
-	primarymajor=student.primary_major.name
-	if student.secondary_major:
-		secondarymajor=student.secondary_major.name
-	else:
-		secondarymajor='None'
-	
-	return render_to_response(
-		'courses/edit_profile.html',
-		{'userpk':pk,
-		'username':username,
-		'classyear':classyear,
-		'primarymajor':primarymajor,
-		'secondarymajor':secondarymajor,
-		'gpa':gpa,
-		'qrb':qrb,
-		'foreignlang':foreignlang,
-		'multi':multi
-		},
-		context
-		)
 
 def checklist(request):
 	context=RequestContext(request)
@@ -222,15 +147,19 @@ def checklist(request):
 	NOT_COMPLETED='Not Completed'
 	#create list of fulfilled dists
 	dists_completed = []
+	incomplete_dists = []
 	for d in dists_todo:
 		if NOT_COMPLETED not in d[1]:
 			dists_completed.append(d)
+		else:
+			incomplete_dists.append(d)
 			dists_todo.remove(d)
 	percentage = float(len(dists_completed)/16)*100
 	return render_to_response(
 		'courses/checklist.html',
 		{'dists_todo': dists_todo,
 		'dists_completed': dists_completed,
+		'incomplete_dists': incomplete_dists,
 		'percentage': percentage},
 		context
 		)

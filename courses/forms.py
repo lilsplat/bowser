@@ -65,5 +65,10 @@ class SectionForm(forms.Form):
 	course5 = forms.ModelChoiceField(queryset=semester_queryset,
 		widget=Select(attrs={'style':'color:#000;'}))
 
-#for a set of sections (e.g. a course schedule)
-#SectionFormSet = modelformset_factory(Section, fields=('course',))
+class ProfileForm(forms.ModelForm):
+	class Meta:
+		model = Student
+		exclude = ('user', 'courses')	
+	#def __init__(self, *args, **kwargs):
+        #super(ProfileForm, self).__init__(*args, **kwargs)
+        #self.queryset = Student.objects.filter(user=request.user)
