@@ -5,6 +5,7 @@ from django.forms.models import modelformset_factory
 from django.forms import ModelForm, Select
 from crispy_forms.helper import FormHelper
 from crispy_forms.layout import *
+from django.core.cache import cache
 
 #Creates user
 class UserForm(forms.ModelForm):
@@ -52,15 +53,16 @@ class SectionForm(forms.Form):
 	#	super(SectionForm, self).__init__(*args, **kwargs)
 	# work on getting form to prepopulate based on semester	
 	semester = Semester.objects.get(session='Fall', year=2014)
-	course1 = forms.ModelChoiceField(queryset=Section.objects.filter(semester=semester),
+	semester_queryset=Section.objects.filter(semester=semester) #save and cache queryset
+	course1 = forms.ModelChoiceField(queryset=semester_queryset,
 		widget=Select(attrs={'style':'color:#000;'}))
-	course2 = forms.ModelChoiceField(queryset=Section.objects.filter(semester=semester),
+	course2 = forms.ModelChoiceField(queryset=semester_queryset,
 		widget=Select(attrs={'style':'color:#000;'}))
-	course3 = forms.ModelChoiceField(queryset=Section.objects.filter(semester=semester),
+	course3 = forms.ModelChoiceField(queryset=semester_queryset,
 		widget=Select(attrs={'style':'color:#000;'}))
-	course4 = forms.ModelChoiceField(queryset=Section.objects.filter(semester=semester),
+	course4 = forms.ModelChoiceField(queryset=semester_queryset,
 		widget=Select(attrs={'style':'color:#000;'}))
-	course5 = forms.ModelChoiceField(queryset=Section.objects.filter(semester=semester),
+	course5 = forms.ModelChoiceField(queryset=semester_queryset,
 		widget=Select(attrs={'style':'color:#000;'}))
 
 #for a set of sections (e.g. a course schedule)
