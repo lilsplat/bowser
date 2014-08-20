@@ -1,5 +1,6 @@
 from django.conf.urls import patterns, include, url
 from django.contrib import admin
+from django.views.generic import TemplateView
 #import autocomplete_light
 from courses import views
 #autocomplete_light.autodiscover()
@@ -17,4 +18,5 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
 	#url(r'^autocomplete/', include('autocomplete_light.urls')),
 	url(r'^courses/', include('courses.urls')),
+	url(r'^about/', TemplateView.as_view(template_name='courses/about.html')),
 )
