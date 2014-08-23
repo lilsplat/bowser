@@ -301,23 +301,99 @@ def load_myschedule(request):
 		{'section_form': SectionForm(),},
 		context)
 
+def parse_dept(code):
+	DEPARTMENTS = [
+	(AFR, 'Africana Studies'),
+	(AMST, 'American Studies'),
+	(ANTH, 'Anthropology'),
+	(ART, 'Art'),
+	(ASTR, 'Astronomy'),
+	(BIOC, 'Biological Chemistry'),
+	(BISC, 'Biological Sciences'),
+	(CAMS, 'Cinema and Media Studies'),
+	(CHEM, 'Chemistry'),
+	(CLSC, 'Cognitive and Linguistic Sciences'),
+	(CLST, 'Classical Studies'),
+	(CPLT, 'Comparative Literature'),
+	(CS, 'Computer Science'),
+	(EALC, 'East Asian Languages and Cultures'),
+	(ECON, 'Economics'),
+	(EDUC, 'Education'),
+	(ENG, 'English'),
+	(ES, 'Environmental Studies'),
+	(FREN, 'French'),
+	(GEOS, 'Geosciences'),
+	(GER, 'German'),
+	(HIST, 'History'),
+	(ITST, 'Italian Studies'),
+	(JWST, 'Jewish Studies'),
+	(MATH, 'Mathematics'),
+	(MER, 'Medieval Renaissance Studies'),
+	(MES, 'Middle Eastern Studies'),
+	(MUS, 'Music'),
+	(NEUR, 'Neuroscience'),
+	(PE, 'Physical Education'),
+	(PEAC, 'Peace and Justice Studies'),
+	(PHIL, 'Philosophy'),
+	(PHYS, 'Physics'),
+	(POLS, 'Political Science'),
+	(PSYC, 'Psychology'),
+	(QR, 'Quantitative Reasoning'),
+	(REL, 'Religion'),
+	(RUSS, 'Russian'),
+	(SAS, 'South Asia Studies'),
+	(SOC, 'Sociology'),
+	(SPAN, 'Spanish'),
+	(THST, 'Theatre Studies'),
+	(WGST, 'Women and Gender Studies'),
+	(WRIT, 'Writing'),
+	(OTHER, 'Other'),
+	(UND, 'Undecided'),
+	(MES, 'Middle Eastern Studies'),
+	(ARTH, 'Art History'),
+	(ARTS, 'Studio Art'),
+	(EALL, 'East Asian Language and Literature'),
+	(CLCV, 'Classical Studies'),
+	(HEBR, 'Jewish Studies'),
+	(ITAS, 'Italian Studies')
+	]
+
+	for dept in DEPARTMENTS:
+		if code == dept[0]:
+			return dept[1]
+
 #to search for courses
 def browse(request):
 	context = RequestContext(request)
 	if request.method == 'POST':
-		sections = []
 		browser_form = BrowserForm(request.POST)
-		courses = Course.objects.all()
-		print 'courses ' + str(courses)
-		for course in courses:
-			print str(course)
-			sections += Section.objects.filter(course=course, semester= Semester.objects.filter(session='Fall'))
-		return render_to_response('courses/scheduler.html',
-		{'sections': sections,
-		'courses': courses,
-		'browser_form': BrowserForm(request.POST)}, 
-		context)
-	return render_to_response('courses/scheduler.html',
+		if browser_form.is_valid():
+			dept=browser_form.cleaned_data['dept']
+			dept=parse_dept(dept) #parse code
+			dists=browser_form.cleaned_data['dists']
+			semester=browser_form.cleaned_data['semester']
+
+			#establish queryset
+			queryset=Section.objects.filter(semester=semester).filter(course__dept=dept)
+
+			#test for dists and add valid sections to list
+			sections=[]
+			for section in queryset:
+				for dist in dists:
+					if dist in section.course.dists.all():
+						sections.append(section)
+			sections=list(set(sections)) #remove duplicates
+			print sections
+
+			return render_to_response('courses/browser.html',
+			{'sections': sections,
+			# 'courses': courses,
+			'browser_form': BrowserForm()},
+			context)
+	return render_to_response('courses/browser.html',
 		{'browser_form': BrowserForm(),},
 		context)
+
+
+
 

@@ -66,10 +66,11 @@ class SectionForm(forms.Form):
 		widget=Select(attrs={'style':'color:#000;'}))
 
 class BrowserForm(forms.ModelForm):
-	semester = forms.ModelChoiceField(queryset=Semester.objects.all())
 	class Meta:
 		model = Course
 		fields = ('dept', 'dists')
+	semester = forms.ModelChoiceField(queryset=Semester.objects.all())
+	
 
 class ProfileForm(forms.ModelForm):
 	class Meta:
