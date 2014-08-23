@@ -23,6 +23,6 @@ urlpatterns = patterns('',
 	#url(r'^mycourses/delete_course/(?P<code> \d+)/$', views.delete_course, name='delete_course'),
     url(r'^checklist/$', views.checklist, name='checklist'),
     url(r'^profile/$',views.profile,name='profile'),
-	url(r'^browser/$', views.browse, name='browser'),
+	url(r'^browser/$', views.browse, name='browse'),
 	#url(r'^browser/$', TemplateView.as_view(template_name='courses/scheduler.html')),
 )
