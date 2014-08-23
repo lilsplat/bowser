@@ -71,18 +71,17 @@
 
 
 
-	<form id="section_form" class="form-inline" method="post" action="/courses/myschedule/" enctype="multipart/form-data">
+	<form id="browser_form" class="form-inline" method="post" action="/courses/browser/" enctype="multipart/form-data">
    {% csrf_token %}
-	{{ section_form.as_p }} 
 
- <input type="submit" class="btn btn-primary btn-success add_review_submit"></input>
+	{{ browser_form.as_p }}
+
+  {{ sections }}
+
+ <input type="submit" class="btn btn-primary btn-success"></input>
 </form>
 
 
-
-{% if conflicts %}
-<h1> Conflicts:  {{ conflicts }}  </h1>
-{% endif %}
 </div>
 <div class="col-md-6" id="schedule">
 <div id="calendar"></div>
