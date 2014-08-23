@@ -300,3 +300,24 @@ def load_myschedule(request):
     return render_to_response('courses/schedule.html',
 		{'section_form': SectionForm(),},
 		context)
+
+#to search for courses
+def browse(request):
+	context = RequestContext(request)
+	if request.method == 'POST':
+		sections = []
+		browser_form = BrowserForm(request.POST)
+		courses = Course.objects.all()
+		print 'courses ' + str(courses)
+		for course in courses:
+			print str(course)
+			sections += Section.objects.filter(course=course, semester= Semester.objects.filter(session='Fall'))
+		return render_to_response('courses/scheduler.html',
+		{'sections': sections,
+		'courses': courses,
+		'browser_form': BrowserForm(request.POST)}, 
+		context)
+	return render_to_response('courses/scheduler.html',
+		{'browser_form': BrowserForm(),},
+		context)
+
