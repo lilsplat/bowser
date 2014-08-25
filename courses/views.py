@@ -370,27 +370,34 @@ def browse(request):
 		if browser_form.is_valid():
 			dept=browser_form.cleaned_data['dept']
 			dept=parse_dept(dept) #parse code
+			print "dept: " + dept
 			dists=browser_form.cleaned_data['dists']
+			print "dists: "
+			for dist in  dists:
+				print dist
 			semester=browser_form.cleaned_data['semester']
+			print "semester: " + str(semester)
 
 			#establish queryset
 			queryset=Section.objects.filter(semester=semester).filter(course__dept=dept)
 
 			#test for dists and add valid sections to list
 			sections=[]
+			ratings = []
 			for section in queryset:
 				for dist in dists:
 					if dist in section.course.dists.all():
 						sections.append(section)
 			sections=list(set(sections)) #remove duplicates
 			print sections
-
-			return render_to_response('courses/browser.html',
+			for section in sections:
+				ratings.append(CourseRating.objects.filter(comment_course = section.course))
+			return render_to_response('courses/scheduler.html',
 			{'sections': sections,
 			# 'courses': courses,
 			'browser_form': BrowserForm()},
 			context)
-	return render_to_response('courses/browser.html',
+	return render_to_response('courses/scheduler.html',
 		{'browser_form': BrowserForm(),},
 		context)
 

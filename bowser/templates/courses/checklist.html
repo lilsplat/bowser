@@ -105,8 +105,9 @@
 	<div class="col-md-6" id="incomplete_dists">
                 <h2> Distributions to be completed:</h2>
                 {% for dist, course in incomplete_dists%}
-				<div class="incomplete_dist">
-					<h5> {{ dist }} </h5>
+                <span class="rc-title"> {{ dist }} </span>
+                <a id="{{forloop.counter}}">+</a>
+      <div class="incomplete_dist" id="{{forloop.counter}}div">
 					<span class="recommended_course">Recommended courses:
 					<ul> 
 					{% for course in  dist.suggested_courses %}
@@ -114,7 +115,7 @@
 					{% endfor %}
 					</ul>
 					 </span>
-                </div> <!-- end added_course_with_review -->
+                </div><br><br> <!-- end added_course_with_review -->
                 {% endfor %}
 	</div>
 	<div class="col-md-6" id="completed_dists">
