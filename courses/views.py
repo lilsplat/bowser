@@ -153,7 +153,10 @@ def checklist(request):
 			dists_completed.append(d)
 		else:
 			incomplete_dists.append(d)
-			dists_todo.remove(d)
+		dists_todo.remove(d)
+	print "dists_completed:"
+	for dist in dists_completed:
+		print dist
 	percentage = float(len(dists_completed)/16)*100
 	return render_to_response(
 		'courses/checklist.html',

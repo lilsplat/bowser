@@ -120,10 +120,10 @@
 	</div>
 	<div class="col-md-6" id="completed_dists">
 				<h2> Distributions completed: </h2>
-				{% for dist, course in completed_dists %}
+				{% for dist, course in dists_completed %}
 				<div class="completed_dist">
-					<span class="c_title">{{ dist }}</span><br>
-					<span class="course_title">{{course}}</span>
+					<span class="com_title">{{ dist }}</span><br>
+					<h4>{{course}}</h4>
 				</div>
 				{% endfor %}
 	</div> 
