@@ -12,6 +12,7 @@ font-size: 35px;
 background-color: #EFEFEF; /*bootstrap grey*/
 padding: 10px;
 padding-left: 20px;
+min-height: 1000px;
 }
 
 #footer {

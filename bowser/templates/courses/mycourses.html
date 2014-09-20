@@ -3,7 +3,7 @@
     <link rel="stylesheet" type="text/css" href="/static/css/mycoursesstyle.css" >
 {% endblock %}
 {% block jsfile %}
-	<script src="/static/scripts/courses.js"></script>a
+	<script src="/static/scripts/courses.js"></script>
 {% endblock %}
 {% block title %} My Course {% endblock %}
 {% block content %}
@@ -122,9 +122,9 @@
  	</div> <!--/added_course_with_review-->
 	<!-- if there are no courses for a student yet -->
 	{% empty %}
-	<h2> Looks like you haven't added any courses yet! <br>
+	<h4> Looks like you haven't added any courses yet! <br>
 		Add courses and course reviews in <br>
-		the box to your right. </h2>
+		the box to your right. </h4>
 {% endfor %}	
 
  	
