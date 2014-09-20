@@ -3,6 +3,157 @@
 from courses.models import *
 from django.db.models import Count
 
+"""WRITING TO TIMEGRID JSON"""
+#nb: does not deal with evening classes
+
+# {
+#   "dateTimeFormat": "iso8601",
+#   "events": [
+#     {
+#       "start":       "2007-08-29T09:00",
+#       "end":         "2007-08-30T13:00",
+#       "title":       "Event #1 Title",
+#       "description": "This event is a simple multi-day event."
+#     }
+#   ]
+# }
+
+
+f=open('courses2014.json','w+')
+f.write('{"dateTimeFormat": \"iso8601\",\"events\":[')
+
+		
+#the week is 9/22-9/26
+
+#THIS IS SO HORRIBLE!!!!!!! I AM SO SORRY!!!!
+counter=0
+for t in TimeAndDate.objects.all():
+	datelist=t.datelist()
+	for section in t.section_set.filter(semester__session='Fall').all():
+		for date in datelist:
+			starttime= t.starttime
+			endtime= t.endtime
+			if date=='M':
+				counter+=1
+				start='2014-09-22T'+starttime
+				end='2014-09-22T'+endtime
+				try:
+					description=section.course.title
+					title=section.course.code
+					f.write('{')
+					f.write('\"start\":')
+					f.write('\"'+start+'\",')
+					f.write('\"end\":')
+					f.write('\"'+end+'\",')
+					f.write('\"title\":')
+					f.write('\"'+title+'\",')
+					f.write('\"description\":')
+					f.write('\"'+description+'\"')
+					f.write('},')
+				except:
+					print 'oops '+section.course.code
+					print datelist
+					print starttime
+					print endtime
+			elif date=='T':
+				counter+=1
+				start='2014-09-23T'+starttime
+				end='2014-09-23T'+endtime
+				try:
+					description=section.course.title
+					title=section.course.code
+					f.write('{')
+					f.write('\"start\":')
+					f.write('\"'+start+'\",')
+					f.write('\"end\":')
+					f.write('\"'+end+'\",')
+					f.write('\"title\":')
+					f.write('\"'+title+'\",')
+					f.write('\"description\":')
+					f.write('\"'+description+'\"')
+					f.write('},')
+				except:
+					print 'oops '+section.course.code
+					print datelist
+					print starttime
+					print endtime
+			elif date=='W':
+				counter+=1
+				start='2014-09-24T'+starttime
+				end='2014-09-24T'+endtime
+				try:
+					description=section.course.title
+					title=section.course.code
+					f.write('{')
+					f.write('\"start\":')
+					f.write('\"'+start+'\",')
+					f.write('\"end\":')
+					f.write('\"'+end+'\",')
+					f.write('\"title\":')
+					f.write('\"'+title+'\",')
+					f.write('\"description\":')
+					f.write('\"'+description+'\"')
+					f.write('},')
+				except:
+					print 'oops '+section.course.code
+					print datelist
+					print starttime
+					print endtime
+			elif date=='Th':
+				counter+=1
+				start='2014-09-25T'+starttime
+				end='2014-09-25T'+endtime
+				try:
+					description=section.course.title
+					title=section.course.code
+					f.write('{')
+					f.write('\"start\":')
+					f.write('\"'+start+'\",')
+					f.write('\"end\":')
+					f.write('\"'+end+'\",')
+					f.write('\"title\":')
+					f.write('\"'+title+'\",')
+					f.write('\"description\":')
+					f.write('\"'+description+'\"')
+					f.write('},')
+				except:
+					print 'oops '+section.course.code
+					print datelist
+					print starttime
+					print endtime
+			elif date=='F':
+				counter+=1
+				start='2014-09-26T'+starttime
+				end='2014-09-26T'+endtime
+				try:
+					description=section.course.title
+					title=section.course.code
+					f.write('{')
+					f.write('\"start\":')
+					f.write('\"'+start+'\",')
+					f.write('\"end\":')
+					f.write('\"'+end+'\",')
+					f.write('\"title\":')
+					f.write('\"'+title+'\",')
+					f.write('\"description\":')
+					f.write('\"'+description+'\"')
+					f.write('},')
+				except:
+					print 'oops '+section.course.code
+					print datelist
+					print starttime
+					print endtime
+
+#remember - must delete final comma
+print counter
+f.write(']}')
+
+f.close()
+
+
+
+
+
 """PROFESSOR M2M POPULATION"""
 # x=1
 # proflist=[]
