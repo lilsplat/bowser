@@ -1,55 +1,9 @@
-{% load staticfiles %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/static/css/genericstyling.css">
+{% extends 'courses/base.html' %}
+{% block cssstyle %}
     <link rel="stylesheet" type="text/css" href="/static/css/indexstyle.css" >
-    
-	<title>Bowser Home</title>
-	
-</head>
-
-<body>
-
-<div id="allcontent">
-
-<nav class="navbar navbar-default" role="navigation">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">B O W S E R</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-	<!-- TODO: Add actual links to the nav bar! -->
-	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-		<li><a href="#">Scheduler</a><li>
-		<li><a href="#">Checklist</a><li>
-		<li><a href="/courses/mycourses">My Courses</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-		<li class="active"><a href="profile.html">Profile</a></li>
-		{% if user.is_authenticated %}
-      	<li><a href="/courses/logout">Log out</a></li>
-      	{% else %}
-      	<li><a href="/courses/login">Log in</a></li>
-      	{% endif %}
-     </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav> 
-
-
-    <div class="pagecontent">
-    
+{% endblock %}
+{% block title %} Bowser Home {%endblock %}
+{% block content %}
     <div class="jumbotron">
   		<h1>Welcome to Bowser! </h1>
   		
@@ -67,22 +21,5 @@
 	
 	
     </div> <!--/allcontent-->
-        
-    </div> <!--/pagecontent-->
-    
-    <div id="footer">
-	
-	<p> Bowser
-	
-	</div>
-    
-
-
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-	
-
-</div>
-</body>
-</html>
-
+{% endblock %}        
 
