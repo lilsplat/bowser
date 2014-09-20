@@ -275,10 +275,13 @@ class Professor(models.Model):
     def avg_score(self):
         i=0.0
         a=0.0
-        for s in self.profrating_set.all():
-            a+=s.score
-            i+=1
-        return a/i
+        ratings = self.profrating_set.all()
+        if len(ratings) > 0:
+            for s in ratings:
+                a+=s.score
+                i+=1
+            return a/i
+        return "No ratings for this professor yet"
 
     class Meta:
         ordering=['name']
@@ -404,10 +407,13 @@ class Course(models.Model):
     def avg_score(self):
         i=0.0
         a=0.0
-        for s in self.courserating_set.all():
-            a+=s.score
-            i+=1
-        return a/i
+        ratings = self.courserating_set.all()
+        if len(ratings) > 0:
+            for s in ratings:
+                a+=s.score
+                i+=1
+            return a/i
+        return "No ratings for this course yet"
 
     """Returns a String list of Distribution names, excluding those with 'OR' for readabilitly"""
     def mycourses_dists(self):

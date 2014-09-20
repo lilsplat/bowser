@@ -405,5 +405,53 @@ def browse(request):
 		context)
 
 
+""" REVIEWS """
+def reviews(request):
+	context = RequestContext(request)
+	return render_to_response('courses/reviews.html', 
+		{'course_form': AddCourseForm(),
+		'prof_form': ProfForm()}, 
+		context)	
 
+@csrf_exempt
+def get_reviews(request):
+	context = RequestContext(request)
+	if request.method == 'POST':
+		course_review_form = AddCourseForm(request.POST)
+		prof_review_form = ProfForm(request.POST)
+		code = ""
+		course_reviews = []
+		course_score = ""
+		prof = ""
+		prof_reviews = []
+		prof_score = ""
+		if course_review_form.is_valid():
+			code = course_review_form.cleaned_data['code']
+			course_reviews = CourseRating.objects.filter(comment_course=code)
+			print 'course reviews: ' + str(course_reviews)
+			course = Course.objects.get(code=code)
+			print 'course: ' + str(course)
+			course_score = Course.avg_score(course)
+			print 'score: ' + str(course_score)
+		if prof_review_form.is_valid():
+			prof = prof_review_form.cleaned_data['prof']
+			prof_reviews = ProfRating.objects.filter(comment_professor=prof)
+			print 'prof reviews: ' + str(prof_reviews)
+			prof = Professor.objects.get(name=prof)
+			print 'prof: ' + str(prof)
+			prof_score = Professor.avg_score(prof)
+			print 'score: ' + str(prof_score)
+		return render_to_response('courses/reviews.html', 
+			{'code': code,
+			'course_reviews': course_reviews, 
+			'course_score': course_score,
+			'prof': prof,
+			'prof_reviews': prof_reviews,
+			'prof_score': prof_score, 
+			'course_form': AddCourseForm(),
+			'prof_form': ProfForm()}, 
+			context)
+	return render_to_response('courses/reviews.html', 
+		{'course_form': AddCourseForm(),}, 
+		context)	
 

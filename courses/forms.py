@@ -28,6 +28,10 @@ class AddCourseForm(forms.Form):
 	code = forms.ModelChoiceField(queryset=Course.objects.all(),
 				widget=Select(attrs={'style':'color:#000;'}))
 
+class ProfForm(forms.Form):
+	prof = forms.ModelChoiceField(queryset=Professor.objects.all(),
+				widget=Select(attrs={'style':'color:#000;'}))
+
 class AddCourseRatingForm(forms.ModelForm):
 	class Meta:
 		model = CourseRating
