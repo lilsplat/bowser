@@ -26,16 +26,15 @@ class StudentProfileForm(forms.ModelForm):
 
 class AddCourseForm(forms.Form):
 	code = forms.ModelChoiceField(queryset=Course.objects.all(),
-				widget=Select(attrs={'style':'color:#000;'}))
+		widget=Select(attrs={'style':'color:#000;'}))
 
-<<<<<<< HEAD
 class AddProfForm(forms.Form):
-	name = forms.ModelChoiceField(queryset=Professor.objects.all(),
-=======
+	name = forms.ModelChoiceField(queryset=Professor.objects.all(), 
+		widget=Select(attrs={'style':'color:#000;'}))
+
 class ProfForm(forms.Form):
 	prof = forms.ModelChoiceField(queryset=Professor.objects.all(),
->>>>>>> FETCH_HEAD
-				widget=Select(attrs={'style':'color:#000;'}))
+		widget=Select(attrs={'style':'color:#000;'}))
 
 class AddCourseRatingForm(forms.ModelForm):
 	class Meta:
