@@ -3,10 +3,19 @@
 <html lang="en">
 <head>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  	<link rel="stylesheet" href="/static/bootstrap-3.2.0-dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/genericstyling.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	{% block cssstyle %}{% endblock%}
+	{% block jsfile %}{% endblock %}
 	<title>{% block title %}Bowser{% endblock %}</title>
+	
 </head>
 
 <body>
+<div id="allcontent">
+
 <nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -17,30 +26,37 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Bowser</a>
+      <a class="navbar-brand" href="#">B O W S E R</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
 	<!-- TODO: Add actual links to the nav bar! -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Profile</a></li>
-		<li><a href="#">Scheduler</a><li>
-		<li><a href="#">Checklist</a><li>
+		<li><a href="/courses/myschedule.html">Scheduler</a><li>
+		<li><a href="/courses/checklist">Checklist</a><li>
+		<li><a href="/courses/mycourses">My Courses</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">About</a></li>
-		<li><a href="#">Log out</a><li>
-         </ul>
-        </li>
-      </ul>
+		<li class="active"><a href="/courses/profile">Profile</a></li>
+		{% if user.is_authenticated %}
+		<li><a href="/courses/logout">Logout</a></li>
+		{% else %}
+		<li><a href="/courses/login">Login</a><li>
+		{% endif %}
+     </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
-</nav>
-    <div id="content">
-        {% block content %}Hi this is bowser. Want to prompt people to sign in? To sign up?{% endblock %}
-    </div>
+</nav> 
+
+<div class="pagecontent">
+	{% block content%} {%endblock%}
+</div> <!--/pagecontent-->
+<div id="footer">
+	<div class="container">
+		&copy; Bowser 2014
+	</div>
+</div> <!--/allcontent-->
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -1,82 +1,13 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <link rel="icon" href="../../favicon.ico">
-
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="/static/bootstrap-3.2.0-dist/css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="/static/css/genericstyling.css">
+{% extends 'courses/base.html' %}
+{% block cssstyle %}
   <link rel="stylesheet" type="text/css" href="/static/css/checkliststyle.css" >
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="/static/scripts/checklist.js" type="text/javascript"></script>
-  
-  <!--Bootstrap core css-->
-
-<!-- Custom styles for this template -->
-  <!--<link href="signin.css" rel="stylesheet">-->
-
-
-<!--  <script src="static/assets/js/ie-emulation-modes-warning.js"></script> -->
-
-  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
- <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
-
-  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-      <![endif]-->
-
-      <title>My Checklist</title>
-
-    </head>
-
-    <body>
-
-      <div id="allcontent">
-
-        <nav class="navbar navbar-default" role="navigation">
-          <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">B O W S E R</a>
-            </div>
-            <!-- TODO: Add actual links to the nav bar! -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav">
-                <li><a href="#">Scheduler</a><li>
-                  <li><a href="/courses/checklist">Checklist</a><li>
-                    <li><a href="/courses/mycourses">My Courses</a></li>
-                  </ul>
-                  <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#">Profile</a></li>
-                    {% if user.is_authenticated %}
-                    <li><a href="/courses/logout">Logout</a></li>
-                    {% else %}
-                    <li><a href="/courses/login">Login</a><li>
-                      {% endif %}
-                    </ul>
-                  </div><!-- /.navbar-collapse -->
-                </div><!-- /.container-fluid -->
-              </nav> 
-
-<!-- start checklist -->
-<div class="pagecontent">
-		<h4> Use this page to see which distribution requirements you've filled already and which ones you have yet to fill. </h4>
+{% endblock %}
+{% block jsfile %}
+<script src="/static/scripts/checklist.js" type="text/javascript"></script>
+{% endblock %}
+{% block title %} My Checklist {% endblock %}
+{% block content %}
+	<h4> Use this page to see which distribution requirements you've filled already and which ones you have yet to fill. </h4>
 <!-- start progress bars -->
 <h5> Your distribution progress: {{ dists_completed|length }} out of 16 </h5>
 <div class="progress" >
@@ -129,21 +60,4 @@
 	</div> 
 	</div> <!-- end row div -->
 	</div> <!-- end container div -->
-	</div> <!-- end pagecontent -->
-
-
-<!-- end checklist -->
-
-              <!--~~~~~~~~~~~~~~ FEATURES-->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    
-    
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="/static/bootstrap-3.2.0-dist/js/bootstrap.js"></script>
-
-  </body>
-  </html>
+{% endblock %}
