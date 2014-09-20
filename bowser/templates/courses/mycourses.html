@@ -17,6 +17,8 @@
 		enctype="multipart/form-data">
 	{% csrf_token %}
 	{{ add_course_form.code }}
+
+	{{ add_prof_form.name }}
 		
  	        <h4>Enter a  Review</h4>
  <div class="alert alert-warning alert-dismissible" role="alert">
@@ -26,21 +28,22 @@
  "hard" or "easy" grader, etc.</div> 
 			<h4> Course Review </h4>
    			<div> Rate course content:
-		{{ add_course_rating_form.score }} <br>
+		{{ add_course_rating_form.course_score }} <br>
 			</div><br>
 			<p> Enter additional comments about course content, workload, etc. 
         	Would you recommend this course to others with similar reasons for enrolling? 
         	Please be as specific as possible to best help other students. <br>
-				{{ add_course_rating_form.comment_text }} <br>			
-<!--			<h4> Professor review </h4>
-			<div>Professor:
-				{{ add_prof_form.comment_professor }} <br> <br>
+				{{ add_course_rating_form.course_comment_text }} <br>			
+			<h4> Professor review </h4>
+			<div> Rate prof content:
+		{{ add_prof_rating_form.prof_score }} <br>
+			</div><br>
+			<div>
 			<p> Enter additional comments about teaching style, 
         	quality of instruction, instructor availability outside of class, etc. 
         	Would you recommend this professor to others? Please be as specific as possible to best help other students. <br>
-				{{ add_prof_form.comment_text }} <br>
-
-				</div> -->
+				{{ add_prof_rating_form.prof_comment_text }} <br>
+				</div>
         	<br>
     
         	        <!--	
@@ -79,17 +82,22 @@
 			{{dist}}; 
 		{% endfor %} </span> <br>
  	Credit hours: <span class="entered_reason">	{{ course.credit_hours }}</span>
-	{% for review in reviews.all %}
-	{% if review.comment_course.title == course.title %}
-	{% with review as course_review %}
+
+
+ 	<!-- reviews -->
+
+
+ 	<!-- course reviews -->
+	{% for course_review in course_reviews.all %}
+	{% if course_review.comment_course.title == course.title %}
+	{% with course_review as course_review %}
 	<br><br><span class="course_title"> Course review: </span>
  	<br>Content: <span class="entered_reason">	
-			{{ course_review.score }}
+			{{ course_review.course_score }}
 </span><br>
-<!--	<br>Quality of Instruction: <span class="entered_instruction_stars"></span> -->
-	Comments: <span class="entered_comments"> 	
-		{% if course_review.comment_text|stringformat:"s" != ""  %}
-			{{ course_review.comment_text }}
+	Course Comments: <span class="entered_comments"> 	
+		{% if course_review.course_comment_text|stringformat:"s" != ""  %}
+			{{ course_review.course_comment_text }}
 		{% else %}
 			No review entered for this class.		
 		{% endif %}
@@ -98,7 +106,6 @@
 		{% endif %}
 		{% endfor %}
 
-	</span>
  		 	<!--Edit and Delete Review Buttons-->
  	<br>
  	<br>

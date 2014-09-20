@@ -171,10 +171,14 @@ def load_mycourses(request):
 	context = RequestContext(request)
 	student = Student.objects.get(user=request.user)
 	# for when user adds a new course
+
 	if request.method == 'POST':
+
 		course_form = AddCourseForm(request.POST)
+		prof_form=AddProfForm(request.POST)
 		rating_form = AddCourseRatingForm(request.POST)
-		prof_form = AddProfRatingForm(request.POST)
+		prof_rating_form = AddProfRatingForm(request.POST)
+
 		if course_form.is_valid():
 			code = course_form.cleaned_data['code']
 			try: 
@@ -183,56 +187,82 @@ def load_mycourses(request):
 				student.save()
 			except ValueError:
 				return HttpRequestBadResponse("invalid course name")
-			# not able to process rating information for some reason
+
 		if rating_form.is_valid():
-			score = rating_form.cleaned_data['score']
-			course_text = rating_form.cleaned_data['comment_text']
-			print 'course comment text:'
-			print course_text
-			try:
-				course_rating, created = CourseRating.objects.get_or_create(
-					comment_author=student,
-					comment_course=course
+			course_score = rating_form.cleaned_data['course_score']
+			course_text = rating_form.cleaned_data['course_comment_text']
+
+			if CourseRating.objects.filter(
+				comment_course__id=course.id
+				).filter(
+				course_comment_author__id=student.id
+				).exists():
+				return HttpResponseBadRequest('You have already entered a review for this course!')
+			else:
+				course_rating=CourseRating(
+					course_score=course_score,
+					course_comment_text=course_text
 					)
-			except:
-				return HttpResponseBadRequest('Course not provided')
-			course_rating.score = score 
-			course_rating.comment_text = course_text
-			course_rating.save()
-			print 'created course rating object:'
-			print course_rating
-			
+				course_rating.course_comment_author=student
+				course_rating.comment_course=course
+				course_rating.save()
+			# try:
+			# 	course_rating, created = CourseRating.objects.get_or_create(
+			# 		course_comment_author=student,
+			# 		comment_course=course,
+			# 		course_score=course_score,
+			# 		course_comment_text=course_text
+			# 		)
+			# 	# course_rating.save()
+			# except:
+			# 	return HttpResponseBadRequest('You have already entered a review for this course!')
+
 		if prof_form.is_valid():
-			score = prof_form.cleaned_data['score']
-			text = prof_form.cleaned_data['comment_text']
-			prof = prof_form.cleaned_data['comment_professor']
-			prof_rating, created = ProfRating.objects.get_or_create(
-				comment_author=student,
-				comment_professor=prof
-				)
-			print 'prof comment text:'
-			print text
-			prof_rating.score = score
-			prof_rating.comment_text = text
-			prof_rating.save()
-			print 'prof rating object:'
-			print prof_rating
+			if prof_rating_form.is_valid():
+				prof_score = prof_rating_form.cleaned_data['prof_score']
+				prof_text = prof_rating_form.cleaned_data['prof_comment_text']
+				prof=prof_form.cleaned_data['name']
+				prof=Professor.objects.get(name=prof)
+
+				if ProfRating.objects.filter(
+					comment_professor__name=prof.name
+					).filter(
+					prof_comment_author__id=student.id
+					).exists():
+					return HttpResponseBadRequest('You have already entered a review for this professor!')
+
+				else:
+					prof_rating=ProfRating(
+						prof_score=prof_score,
+						prof_comment_text=prof_text
+						)
+					prof_rating.prof_comment_author=student
+					prof_rating.comment_professor=prof
+					prof_rating.save()
+				# try:
+				# 	prof_rating, created = ProfRating.objects.get_or_create(
+				# 		prof_comment_author=student,
+				# 		comment_professor=prof,
+				# 		prof_comment_text=prof_text,
+				# 		prof_score=prof_score
+				# 		)
+				# 	# prof_rating.save()
+				# except:
+				# 	return HttpResponseBadRequest('You have already entered a review for this professor!')
+	
 	courses = student.courses.all()
-	course_reviews = CourseRating.objects.all().filter(comment_author=student)
-	print 'all course rating objects:'
-	print course_reviews.all()
-	print 'all comment text from course rating objects'
-	for c in course_reviews.all():
-		print c.comment_text
-	prof_reviews = ProfRating.objects.all().filter(comment_author=student)
-	course_form = AddCourseRatingForm()
+	course_reviews = CourseRating.objects.all().filter(course_comment_author=student)
+	prof_reviews = ProfRating.objects.all().filter(prof_comment_author=student)
+	
+
 	return render_to_response(
 	'courses/mycourses.html',
 	{'add_course_form': AddCourseForm(),
-	'add_prof_form': AddProfRatingForm(),
+	'add_prof_form': AddProfForm(),
+	'add_prof_rating_form': AddProfRatingForm(),
 	'add_course_rating_form': AddCourseRatingForm(),
 	'courses': courses,
-	'reviews': course_reviews,
+	'course_reviews': course_reviews,
 	'prof_reviews': prof_reviews},
 	context)
 

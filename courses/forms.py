@@ -28,24 +28,29 @@ class AddCourseForm(forms.Form):
 	code = forms.ModelChoiceField(queryset=Course.objects.all(),
 				widget=Select(attrs={'style':'color:#000;'}))
 
+class AddProfForm(forms.Form):
+	name = forms.ModelChoiceField(queryset=Professor.objects.all(),
+				widget=Select(attrs={'style':'color:#000;'}))
+
 class AddCourseRatingForm(forms.ModelForm):
 	class Meta:
 		model = CourseRating
-		fields = ('score', 'comment_text')
+		fields = ('course_score', 'course_comment_text')
 	def __init__(self, *args, **kwargs):
 		super(AddCourseRatingForm, self).__init__(*args, **kwargs)
-		self.fields['comment_text'].widget.attrs['style'] = "width:100%;height:100px;color:#000;"
-		self.fields['score'].widget.attrs['style'] = "color:#000;"	
+		self.fields['course_comment_text'].widget.attrs['style'] = "width:100%;height:100px;color:#000;"
+		self.fields['course_score'].widget.attrs['style'] = "color:#000;"	
 
 class AddProfRatingForm(forms.ModelForm):
 	class Meta:
 		model = ProfRating
-		fields = ('score', 'comment_text', 'comment_professor')
+		fields = ('prof_score', 'prof_comment_text')
+		# fields = ('prof_score', 'prof_comment_text', 'comment_professor')
 	def __init__(self, *args, **kwargs):
 		super(AddProfRatingForm, self).__init__(*args, **kwargs)
-		self.fields['comment_text'].widget.attrs['style'] = "width:100%;height:100px;color:#000;"
-		self.fields['score'].widget.attrs['style'] = "color:#000;"	
-		self.fields['comment_professor'].widget.attrs['style'] = "color:#000;"
+		self.fields['prof_comment_text'].widget.attrs['style'] = "width:100%;height:100px;color:#000;"
+		self.fields['prof_score'].widget.attrs['style'] = "color:#000;"	
+		# self.fields['comment_professor'].widget.attrs['style'] = "color:#000;"
 
 #for an individual section
 class SectionForm(forms.Form):
