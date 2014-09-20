@@ -206,6 +206,7 @@ def load_mycourses(request):
 				course_rating.course_comment_author=student
 				course_rating.comment_course=course
 				course_rating.save()
+				
 			# try:
 			# 	course_rating, created = CourseRating.objects.get_or_create(
 			# 		course_comment_author=student,

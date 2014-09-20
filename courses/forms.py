@@ -22,7 +22,6 @@ class StudentProfileForm(forms.ModelForm):
 	class Meta:
 		model = Student
 		fields = ('class_year', 'primary_major', 'secondary_major')
-	
 
 class AddCourseForm(forms.Form):
 	code = forms.ModelChoiceField(queryset=Course.objects.all(),
