@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/static/bootstrap-3.2.0-dist/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="/static/css/genericstyling.css">
     <link rel="stylesheet" type="text/css" href="/static/css/scheduler.css" >
-	<script src="/static/js/scheduler.js"></script>   
+    
     <title> BOWSER Scheduler </title>
     
     <link rel="stylesheet" type="text/css" href="https://www.apptic.me/projects/calendar/pretty-calendar-minified.css">
@@ -18,26 +18,8 @@
 
 <body>
 
-<!--<div id="navWrapper" style="width:70%;height:80%;position:absolute;top:10%;margin:0 auto;right:0;left:0;"></div>
-    
-<script>
 
-var events = [];
-events[0] = [];
-events[0][0] = "Sunday";
-events[0][1] = "3:00pm";
-events[0][2] = "Just a sample event"
-events[0][3] = "#c0c0c0";
-events[1] = [];
-events[1][0] = "Monday";
-events[1][1] = "12:00pm";
-events[1][2] = "Another event"
-events[1][3] = "#8FD8D8";
- 
-var prettyCal = new PrettyCalendar(events, "navWrapper");
-</script>
 
--->
 	
 
 <div id="allcontent">
@@ -51,27 +33,44 @@ var prettyCal = new PrettyCalendar(events, "navWrapper");
 
 
 
-<form id="browser_form" class="form-inline" method="POST">
-{% csrf_token %}
+<form class="form-inline">
 <fieldset>
 
 
+<!-- Select Basic -->
 <div class="form-group">
   <label class="col-md-4 control-label" for="semester_input">Semester</label>
   <br>
   <div class="col-md-4">
-	{{browser_form.semester}}
+    <select id="semester_input" name="semester_input" class="form-control">
+      <option value="1">Fall 2014</option>
+      <option value="2">Wintersession 2015</option>
+      <option value="3">Spring 2015</option>
+    </select>
   </div>
   <br>
   <br>
- </div>
+    <label class="col-md-4 control-label" for="searchinput">Keywords:</label>
+  <br>
+  <div class="col-md-5">
+    <input id="searchinput" name="searchinput" type="search" placeholder="" class="form-control input-md">
+    
+  </div>
+</div>
+
 
 <!-- Select Multiple -->
 <div class="form-group">
   <label class="col-md-4 control-label" for="department_or_subject">Department/Subject</label>
   <br>
   <div class="col-md-4">
-	{{ browser_form.dept }}
+    <select id="department_or_subject" name="department_or_subject" class="form-control" multiple="multiple">
+      <option value="1">All Subjects</option>
+      <option value="2">Africana Studies</option>
+      <option value="">American Studies</option>
+      <option value="">Anthropology</option>
+      <option value="">Arabic</option>
+    </select>
   </div>
 </div>
 
@@ -80,17 +79,22 @@ var prettyCal = new PrettyCalendar(events, "navWrapper");
   <label class="col-md-4 control-label" for="distribution_or_category">Distribution/Category</label>
   <br>
   <div class="col-md-4">
-	{{ browser_form.dists }}
+    <select id="distribution_or_catergory" name="distribution_or_catergory" class="form-control" multiple="multiple">
+      <option value="1">All Distributions</option>
+      <option value="2">Arts, Music, Theater, Film, Video</option>
+      <option value="">Epistemology &amp; Cognition</option>
+      <option value="">Historical Studies</option>
+      <option value="">Language &amp; Literature</option>
+    </select>
   </div>
 </div>
 
 
 
 <!-- Button -->
-<div class="left-inner-addon">
-<!--<span class="glyphicon glyphicon-search"></span> -->
-<input type="submit" value="Search" href="." id="search"class="btn btn-lg btn-primary"></input>
-</div>
+<a href="#" id="search"class="btn btn-lg btn-primary">
+<span class="glyphicon glyphicon-search"></span> Search</a>
+
 </fieldset>
 </form>
 
@@ -113,26 +117,52 @@ var prettyCal = new PrettyCalendar(events, "navWrapper");
 		<th>Title</th>
 		<th>Seats Available</th>
 		<th>Meeting Time(s)</th>			
-		<!--<th>Day(s)</th> -->
-		<!--<th>Instructor</th> -->
+		<th>Day(s)</th>
+		<th>Instructor</th>
 		<th>Distribution</th>
 	</tr>
 </thead>
 <tbody>
-{% for section in sections %}
-<tr>
-	<td><input type="checkbox"></td>
-	<td>{{ section.crn }}</td>
-	<td>{{ section.course.code }}</td>
-	<td><a id={{section.course}}>{{ section.course.title }}</a></td>
-	<td>{{ section.seats_available }}</td>
-	<td>{{ section.timeanddate }}</td>
-	<td>{% for dist in section.course.dists.all %}
-		{{dist}}, {% endfor %}</td>
+<tr><td><input type="checkbox"></td>
+	<td>00000</td>
+	<td>WGST 108</td>
+	<td><a>Social Construction of Gender</a></td>
+	<td>0/25</td>
+	<td>9:50am-11:00am</td>
+	<td>M/TH</td>
+	<td>Nancy Marshall</td>
+	<td>cell is row 0, column 8</td>
 </tr>
-{% empty %}
-<h4> No course sections matched your query. Try changing the semester, department or distribution. </h4>
-{% endfor %}
+<tr><td><input type="checkbox"></td>
+	<td>11111</td>
+	<td>WRIT 225</td>
+	<td><a>Creative Nonfiction</a></td>
+	<td>3/15</td>
+	<td>11:10am-12:20pm</td>
+	<td>T/F</td>
+	<td>Adam Fischer</td>
+	<td>cell is row 1, column 8</td>
+</tr>
+<tr><td><input type="checkbox"></td>
+	<td>22222</td>
+	<td>ASTR 100</td>
+	<td><a>Life in the Universe</a></td>
+	<td>16/25</td>
+	<td>1:30pm-2:40pm</td>
+	<td>M/TH</td>
+	<td>Wes Watters</td>
+	<td>cell is row 2, column 8</td>
+</tr>
+<tr><td><input type="checkbox"></td>
+	<td>33333</td>
+	<td>PSYCH 207</td>
+	<td><a>Developmental Psychology</a></td>
+	<td>8/25</td>
+	<td>1:30pm-4:00pm</td>
+	<td>W</td>
+	<td>Tracy Gleason</td>
+	<td>cell is row 3, column 8</td>
+</tr>
 </tbody>
 </table>
 
@@ -143,12 +173,11 @@ var prettyCal = new PrettyCalendar(events, "navWrapper");
 
 <!--COURSE INFO/RATINGS MODAL~~~~~~~~~~~~~~~~~~
 <!--<div class="modal fade">-->
-{% for section in sections %}
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title">{{section.course.code}}: {{section.course.title}}</h4>
+        <h4 class="modal-title">EN 223: 19th Century American Literature</h4>
       </div>
       <div class="modal-body">
 <!--COURSE INFO/COURSE REVIEW TABS -->
@@ -164,19 +193,19 @@ var prettyCal = new PrettyCalendar(events, "navWrapper");
   		<thead>  		</thead>
   		
   		<tbody>
-  		<tr><td>CRN</td><td>{{section.crn}}</td></tr>
-  		<tr><td>Title</td><td>{{section.course.title}}</td></tr>
-  		<tr><td>Credit Hours</td><td>{{section.course.credit_hours}}</td><td></td></tr>
-  		<tr><td>Description</td><td>{{section.course.description}}</td></tr>
+  		<tr><td>CRN</td><td>19191</td></tr>
+  		<tr><td>Title</td><td>19th Century American Literature</td></tr>
+  		<tr><td>Credit Hours</td><td>1</td></tr>
+  		<tr><td>Description</td><td>Introduction to the interdisciplinary field of women's and gender studies with an emphasis on an understanding of the "common differences" that both unite and divide women. Beginning with an examination of how womanhood has been represented in myths, ads, and popular culture, the course explores how gender inequalities have been both explained and critiqued. The cultural meaning given to gender as it intersects with race, class, ethnicity, and sexuality will be studied. This course also exposes some of the critiques made by women's studies' scholars of the traditional academic disciplines and the new intellectual terrain currently being mapped.</td></tr>
   		<tr><td>Seats Available</td><td>2</td></tr>
   		<tr><td>Max Enrollment</td><td>25</td></tr>
-  		<tr><td>Permission of Instructor</td><td>{{section.course.by_permission}}</td></tr>
-  		<tr><td>Prerequisite(s)</td><td>{{section.course.prereq}} </td></tr>
-  		<tr><td>Distributions</td><td>{% for dist in section.course.dists.all %}
-										{{dist}}, {% endfor %}</td></tr>
-  		<tr><td>Additional Notes</td><td>{{section.course.notes}}</td></tr>
+  		<tr><td>Permission of Instructor</td><td>By permission of instructor</td></tr>
+  		<tr><td>Prerequisite(s)</td><td> Completion of first-year writing course </td></tr>
+  		<tr><td>Distributions</td><td>Language & Literature</td></tr>
+  		<tr><td>Additional Notes</td><td> None</td></tr>
   		<tr><td>Instructor(s)</td><td>Nancy Marshall</td></tr>
-  		<tr><td>Meeting Times</td><td>{{section.timeanddate}}</td></tr>
+  		<tr><td>Meeting Times</td><td>T/F 11:10am-12:20pm</td></tr>
+  		<tr><td>Location</td><td>Pendleton 109</td></tr>
   		</tbody>
   		</table>
   </div>
@@ -184,17 +213,15 @@ var prettyCal = new PrettyCalendar(events, "navWrapper");
   <table class="table table-striped table-condensed review">
   <thead></thead>
   <tbody>
-	{% for rating in ratings %}
-		{% if rating.comment_course == section.course %}
-  	<!--<tr><td><strong>Date</strong></td><td>8/12/14</td></tr>
+  	<tr><td><strong>Date</strong></td><td>8/12/14</td></tr>
   	<tr><td><strong>Instructor</strong></td><td>Nancy Marshall</td></tr>
-  	<tr><td><strong>Reason for Enrolling</strong></td><td>Fulfill Major Requirement</td></tr> -->
-  	<tr><td><strong>Course Content Rating</strong></td><td>{{ rating.score }}<td></tr>
-<!--  	<tr><td><strong>Instruction Quality</strong></td><td>*****</td></tr> -->
-  	<tr><td><strong>Course Comments</strong></td><td>{{ rating.comment_text }}</td></tr>
-		{% endif %}
-		{% empty %} <h4> No reviews entered for this course yet. </h4>
-	{% endfor %}
+  	<tr><td><strong>Reason for Enrolling</strong></td><td>Fulfill Major Requirement</td></tr>
+  	<tr><td><strong>Course Content</strong></td><td>*****</td></tr>
+  	<tr><td><strong>Instruction Quality</strong></td><td>*****</td></tr>
+  	<tr><td><strong>Additional Comments</strong></td><td>
+  	I loved this class! The assignments were engaging and challenging.  I found the work 
+  	manageable and the course content very interesting. Professor Marshall is funny, 
+  	knowledgeable and very available outside of class. Recommended to everyone! </td></tr>
   </tbody>
   </table>
   
@@ -209,7 +236,7 @@ var prettyCal = new PrettyCalendar(events, "navWrapper");
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
-{% endfor %}
+
 
 
 
@@ -228,6 +255,6 @@ var prettyCal = new PrettyCalendar(events, "navWrapper");
 
 
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<script src="/static/bootstrap-3.2.0-dist/js/bootstrap.js"></script>
+<script src="../static/bootstrap-3.2.0-dist/js/bootstrap.js"></script>
 </body>
 </html>

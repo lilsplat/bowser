@@ -24,5 +24,8 @@ urlpatterns = patterns('',
     url(r'^checklist/$', views.checklist, name='checklist'),
     url(r'^profile/$',views.profile,name='profile'),
 	url(r'^browser/$', views.browse, name='browse'),
+	url(r'^reviews/$', views.reviews, name='reviews'),
+	url(r'^get_reviews/$', views.get_reviews, name='get_reviews'),
+url(r'^scheduler/$', TemplateView.as_view(template_name='courses/scheduler.html')),
 	#url(r'^browser/$', TemplateView.as_view(template_name='courses/scheduler.html')),
 )
