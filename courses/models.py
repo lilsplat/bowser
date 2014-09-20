@@ -484,10 +484,13 @@ class Student(models.Model):
 			self.courses.add(course)
 			self.save()
 
-    """Removes a Course from Student.courses iff the Course exists"""
+    """Removes a Course along with the associated course review from Student.courses iff the Course exists"""
     def remove_course(self, course):
 		if course in self.courses.all():
 			self.courses.remove(course)
+			rating = CourseRating.objects.filter(
+				comment_course=course,
+				course_comment_author=self).delete()
 			self.save()
 		else:
 			raise Exception('Course not in studen\'s list')

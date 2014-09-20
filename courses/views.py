@@ -281,6 +281,24 @@ def delete_course(request):
 
 @require_http_methods(['POST'])
 @csrf_exempt
+def save_review(request):
+	course = Course.objects.get(code=request.POST['code'])
+	review_text = request.POST['review']
+	print str(course)
+	print review_text
+	student = Student.objects.get(user=request.user)
+	course_review = CourseRating.objects.get(
+		course_comment_author=student,
+		comment_course = course)
+	course_review.course_comment_text = review_text
+	course_review.save()
+	print 'course updated'
+	if request.is_ajax():
+		return HttpResponse("")
+	return reverse('courses.views.load_mycourses')
+
+@require_http_methods(['POST'])
+@csrf_exempt
 def edit_username(request):
 	student = Student.objects.get(user=request.user)
 	student.user.username = request.POST['new_username']

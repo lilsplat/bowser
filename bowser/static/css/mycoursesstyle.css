@@ -75,6 +75,7 @@ overflow: auto;
 
 .course_title{
 font-size: 20px;
+color: #FFF;
 }
 
 .add_review_submit{
@@ -115,51 +116,10 @@ color: #FFFFFF;
 color: #FFFFFF;
 }
 
-/* honor code callout bubble*/
+.save_review{
+display: none;
+}
 
-  .bubble {
-  	float:right;
-    position: absolute;
-    margin-left: 665px;
-    margin-top: 10px;
-    width: 200px;
-    height: 310px;
-    padding: 14px;
-    background: #FFFFFF;
-    border: #cfcfcb solid 4px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-	}
-
-  .bubble:after {
-    content: "";
-    position: absolute;
-    top: 16px;
-    left: -39px;
-    border-style: solid;
-    border-width: 16px 39px 16px 0;
-    border-color: transparent #FFFFFF;
-    display: block;
-    width: 0;
-    z-index: 1;
-	}
-
-  .bubble:before {
-    content: "";
-    position: absolute;
-    top: 13px;
-    left: -46px;
-    border-style: solid;
-    border-width: 19px 42px 19px 0;
-    border-color: transparent #cfcfcb;
-    display: block;
-    width: 0;
-    z-index: 0;
-	}
-
-	.bubble p{
-	padding: 2px;
-	}
-
-
+.comments {
+color: #FFF;
+} 

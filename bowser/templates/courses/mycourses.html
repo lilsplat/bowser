@@ -68,7 +68,7 @@
  <h2> My Courses </h2>
  	<!--~~~~~~~~~~~~~~~~~~~~~This is the appearance for a student's course WITH a review added-->
 	{% for course in courses %}
-	 	<div class="added_course_with_review">
+	 	<div class="added_course_with_review" id={{course.code}}>
  	<span class="course_title">{{course.code}} | {{ course.title }} </span>
  	
  	<!--Show Review toggle button-->
@@ -78,9 +78,12 @@
  	
  	<div class="show_hide_entered_review_toggle">
  	<br>Fills distributions: <span class="entered_instructor">
+		<ul>
 		{% for dist in course.dists.all %}
-			{{dist}}; 
-		{% endfor %} </span> <br>
+		<li>{{dist}}</li> 
+		{% endfor %} 
+		</ul>
+		</span> <br>
  	Credit hours: <span class="entered_reason">	{{ course.credit_hours }}</span>
 
 
@@ -95,13 +98,14 @@
  	<br>Content: <span class="entered_reason">	
 			{{ course_review.course_score }}
 </span><br>
-	Course Comments: <span class="entered_comments"> 	
+	Course Comments: 		
+		<div class="comments" id="{{course.code}}_comment" contenteditable="false">	
 		{% if course_review.course_comment_text|stringformat:"s" != ""  %}
 			{{ course_review.course_comment_text }}
 		{% else %}
 			No review entered for this class.		
-		{% endif %}
-		</span>
+		{% endif %}<br>
+		</div>
 		{% endwith %}
 		{% endif %}
 		{% endfor %}
@@ -111,15 +115,18 @@
  	<br>
 	
  	<div class="btn-group" id="edit_and_delete_buttons">
- <!--	
- 	<a href="#" class="btn btn-xs btn-default edit_review_submit">
+	<a class="btn btn-s btn-default save_review" 
+				id="{{course.code}}_commentsave">
+<span class="glyphicon glyphicon-check"></span>Save Review</a>
+
+ 	<a id="{{course.code}}" class="btn btn-s btn-default edit_review">
  	<span class="glyphicon glyphicon-pencil"></span> Edit </a>
- 	
+ <!--	
  	<a href="#" class="btn btn-xs btn-default">
  	<span class="glyphicon glyphicon-remove"></span> Delete Review</a>
  	-->
- 	<a class="btn btn-xs btn-default edit_review_submit" id="{{course.code}}">
- 	<span class="glyphicon glyphicon-trash"></span> Remove Course </a>
+ 	<a class="btn btn-s btn-default delete_review" id="{{course.code}}">
+ 	<span class="glyphicon glyphicon-trash"></span> Remove Course and Course Review </a>
  	
  	</div> <!--/btn-group-->
  	<div class="remove_response"></div>	
