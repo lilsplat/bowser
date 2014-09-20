@@ -708,16 +708,17 @@ class CourseRating(models.Model):
     (4, 'Four stars'),
     (5, 'Five stars')
     ]
-    score = models.IntegerField(choices=SCORES,default=5)
-    comment_text = models.CharField(max_length=10000,null=True,blank=True)
-    comment_author = models.ForeignKey('Student')
+    id = models.AutoField(primary_key=True)
+    course_score = models.IntegerField(choices=SCORES,default=5)
+    course_comment_text = models.CharField(max_length=10000,null=True,blank=True)
+    course_comment_author = models.ForeignKey('Student')
     comment_course = models.ForeignKey('Course')
 
     def __unicode__(self):
-		return str(self.comment_course) + ' | ' + str(self.comment_author)
+		return str(self.comment_course) + ' | ' + str(self.course_comment_author)
 
     class Meta:
-        unique_together = ("comment_author", "comment_course")
+        unique_together = ("course_comment_author", "comment_course")
     
 
 class ProfRating(models.Model):
@@ -728,16 +729,17 @@ class ProfRating(models.Model):
     (4, 'Four stars'),
     (5, 'Five stars')
     ]
-    score = models.IntegerField(choices=SCORES,default=5)
-    comment_text = models.CharField(max_length=10000,null=True,blank=True)
-    comment_author = models.ForeignKey('Student')
+    id = models.AutoField(primary_key=True)
+    prof_score = models.IntegerField(choices=SCORES,default=5)
+    prof_comment_text = models.CharField(max_length=10000,null=True,blank=True)
+    prof_comment_author = models.ForeignKey('Student')
     comment_professor=models.ForeignKey('Professor')
 
     def __unicode__(self):
-		return str(self.comment_professor) + ' | ' + str(self.comment_author)
+		return str(self.comment_professor) + ' | ' + str(self.prof_comment_author)
    
     class Meta:
-        unique_together = ("comment_author", "comment_professor")
+        unique_together = ("prof_comment_author", "comment_professor")
 
 
 
