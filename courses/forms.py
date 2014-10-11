@@ -16,12 +16,10 @@ class UserForm(forms.ModelForm):
         fields = ('username', 'email', 'password')
 
 #Creates student course profile
-class StudentProfileForm(forms.ModelForm):
+class StudentProfileForm(forms.Form):
 	username = forms.CharField(max_length=30)
 	password = forms.CharField(widget=forms.PasswordInput())
-	class Meta:
-		model = Student
-		fields = ('class_year', 'primary_major', 'secondary_major')
+	password_repeat = forms.CharField(widget=forms.PasswordInput())
 
 class AddCourseForm(forms.Form):
 	code = forms.ModelChoiceField(queryset=Course.objects.all(),

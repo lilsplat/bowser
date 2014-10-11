@@ -278,7 +278,7 @@ class Professor(models.Model):
         ratings = self.profrating_set.all()
         if len(ratings) > 0:
             for s in ratings:
-                a+=s.score
+                a+=s.prof_score
                 i+=1
             return a/i
         return "No ratings for this professor yet"
