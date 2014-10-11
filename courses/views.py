@@ -111,8 +111,6 @@ def profile(request):
 		profile_form = ProfileForm(request.POST)
 		if profile_form.is_valid():
 			student.class_year = profile_form.cleaned_data['class_year']
-			student.primary_major = profile_form.cleaned_data['primary_major']
-			student.secondary_major = profile_form.cleaned_data['secondary_major']
 			student.gpa = profile_form.cleaned_data['gpa']
 			student.qrb_passed = profile_form.cleaned_data['qrb_passed']
 			student.foreign_lang_passed = profile_form.cleaned_data['foreign_lang_passed']
@@ -122,8 +120,6 @@ def profile(request):
 		profile_form = ProfileForm(initial=
 					{'user': student.user,
 					'class_year': student.class_year,
-					'primary_major': student.primary_major,
-					'secondary_major': student.secondary_major,
 					'gpa': student.gpa,
 					'qrb_passed': student.qrb_passed,
 					'foreign_lang_passed': student.foreign_lang_passed,

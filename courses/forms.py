@@ -24,7 +24,14 @@ class StudentProfileForm(forms.Form):
 class AddCourseForm(forms.Form):
 	code = forms.ModelChoiceField(queryset=Course.objects.all(),
 		widget=Select(attrs={'style':'color:#000;'}))
-
+	prof = forms.ModelChoiceField(queryset=Professor.objects.all(), 
+		widget=Select(attrs={'style':'color:#000;'}))
+	"""
+	def __init__(self, code, *args, **kwargs):
+		super(AddCourseForm, self).__init__(*args, **kwargs)
+		prof_list = code.all_profs
+		self.fields['prof'] = Professor.objects.filter(pk__in=prof_list)
+	"""
 class AddProfForm(forms.Form):
 	name = forms.ModelChoiceField(queryset=Professor.objects.all(), 
 		widget=Select(attrs={'style':'color:#000;'}))
