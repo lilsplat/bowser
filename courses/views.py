@@ -164,20 +164,16 @@ def load_mycourses(request):
 	# for when user adds a new course
 
 	if request.method == 'POST':
-
-		course_form = AddCourseForm(request.POST)
 		prof_form=AddProfForm(request.POST)
 		rating_form = AddCourseRatingForm(request.POST)
 		prof_rating_form = AddProfRatingForm(request.POST)
-
-		if course_form.is_valid():
-			code = course_form.cleaned_data['code']
-			try: 
-				course = Course.objects.get(code=code)
-				student.add_course(course)
-				student.save()
-			except ValueError:
-				return HttpRequestBadResponse("invalid course name")
+		code = request.POST.get('code')
+		try: 
+			course = Course.objects.get(code=code)
+			student.add_course(course)
+			student.save()
+		except ValueError:
+			return HttpRequestBadResponse("invalid course name")
 
 		if rating_form.is_valid():
 			course_score = rating_form.cleaned_data['course_score']

@@ -127,4 +127,17 @@ color: #FFF;
 #find_course {
 color: #000;
 
+}
+
+.ui-autocomplete {
+    max-height: 300px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+    /* add padding to account for vertical scrollbar */
+    padding-right: 20px;
+	background-color: #000;
+}
+.tt-dropdown-menu {
+background-color: #EFEFEF;
 } 
