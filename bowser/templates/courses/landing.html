@@ -101,8 +101,8 @@
         <!--<a href="#create_account_form"><span class="create_account">Don't have an account?  Create one!</span></a> -->
        <br> 
         <br>
+			{{ login_error }}
         <div class="input-group">
-			<!-- took out type=email because of the way we process emails. -ST -->
   			<input class="form-control" name="username" placeholder="Email"> 
   			<span class="input-group-addon">@wellesley.edu</span>
 		</div>
@@ -129,7 +129,7 @@
   			<input name="username" class="form-control" placeholder="Email">
   			<span class="input-group-addon">@wellesley.edu</span>
 		</div>
-		{{ create_account_form.non_field_errors }}
+		{{ errors }}
         <br><input type="password" name="password" class="form-control" placeholder="Create a Password">
 		<br><input type="password" name="password_repeat" class="form-control" placeholder="Verify Password">
 

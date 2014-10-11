@@ -63,10 +63,9 @@ def user_login(request):
 				login(request, user)
 				print 'user logged in'
 				return redirect('/')
-			else:
 				return HttpResponseNotFound('<h1>Page not found</h1>')
 		else:
-			return HttpResponse('Invalid Login')
+			return redirect(reverse('courses.views.index')) 
 	else:
 		return redirect(reverse('courses.views.index')) 
 
@@ -95,10 +94,10 @@ def create_student_profile(request):
 			user_login(request)
 			return redirect(reverse('courses.views.index'))
 		else:
-			print student_form.errors
-	else:
-		student_form = StudentProfileForm()
-	return redirect('/')
+			return render_to_response(
+			'courses/landing.html',
+			{'errors': "Your passwords do not match!"}, context)
+
 
 def profile(request):
 	context=RequestContext(request)
