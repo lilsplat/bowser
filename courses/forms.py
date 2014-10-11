@@ -88,7 +88,7 @@ class BrowserForm(forms.ModelForm):
 class ProfileForm(forms.ModelForm):
 	class Meta:
 		model = Student
-		exclude = ('user', 'courses')	
+		exclude = ('user', 'courses', 'primary_major','secondary_major')	
 	#def __init__(self, *args, **kwargs):
         #super(ProfileForm, self).__init__(*args, **kwargs)
         #self.queryset = Student.objects.filter(user=request.user)

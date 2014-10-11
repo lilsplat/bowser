@@ -92,7 +92,7 @@ def create_student_profile(request):
 			profile_created = True
 			#log in user before redirecting to home page
 			user_login(request)
-			return redirect(reverse('courses.views.index'))
+			return redirect(reverse('courses.views.load_mycourses'))
 		else:
 			return render_to_response(
 			'courses/landing.html',
@@ -104,7 +104,10 @@ def profile(request):
 	student=Student.objects.get(user=request.user)
 	if request.method == "POST":
 		profile_form = ProfileForm(request.POST)
+		print profile_form
+		print profile_form.is_valid()
 		if profile_form.is_valid():
+			print 'valid!!!!!!!!!!!!!!!!!'
 			student.class_year = profile_form.cleaned_data['class_year']
 			student.gpa = profile_form.cleaned_data['gpa']
 			student.qrb_passed = profile_form.cleaned_data['qrb_passed']
