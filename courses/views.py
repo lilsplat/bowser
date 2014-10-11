@@ -488,11 +488,11 @@ def get_reviews(request):
 		if prof_review_form.is_valid():
 			prof = prof_review_form.cleaned_data['prof']
 			prof_reviews = ProfRating.objects.filter(comment_professor=prof)
-			print 'prof reviews: ' + str(prof_reviews)
+			# print 'prof reviews: ' + str(prof_reviews)
 			prof = Professor.objects.get(name=prof)
-			print 'prof: ' + str(prof)
+			# print 'prof: ' + str(prof)
 			prof_score = Professor.avg_score(prof)
-			print 'score: ' + str(prof_score)
+			# print 'score: ' + str(prof_score)
 		return render_to_response('courses/reviews.html', 
 			{'code': code,
 			'course_reviews': course_reviews, 
