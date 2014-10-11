@@ -92,7 +92,7 @@ def create_student_profile(request):
 			profile_created = True
 			#log in user before redirecting to home page
 			user_login(request)
-			return redirect(reverse('courses.views.index'))
+			return redirect(reverse('courses.views.load_mycourses'))
 		else:
 			return render_to_response(
 			'courses/landing.html',
