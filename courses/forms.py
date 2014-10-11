@@ -21,14 +21,13 @@ class StudentProfileForm(forms.Form):
 	password = forms.CharField(widget=forms.PasswordInput())
 	password_repeat = forms.CharField(widget=forms.PasswordInput())
 	def clean_password_repeat(self):
-    	password1 = self.cleaned_data.get('password')
-    	password2 = self.cleaned_data.get('password_repeat')
-
-    	if not password2:
-        	raise forms.ValidationError("You must confirm your password")
-    	if password1 != password2:
-       		raise forms.ValidationError("Your passwords do not match")
-    	return password2
+		password1 = self.cleaned_data.get('password')
+		password2 = self.cleaned_data.get('password_repeat')
+		if not password2:
+			raise forms.ValidationError("You must confirm your password")
+		if password1 != password2:
+			raise forms.ValidationError("Your passwords do not match")
+		return password2
 
 class AddCourseForm(forms.Form):
 	code = forms.ModelChoiceField(queryset=Course.objects.all(),
