@@ -1,0 +1,81 @@
+{% extends 'courses/base.html' %}
+{% block cssstyle %} 
+	<link rel="stylesheet" type="text/css" href="/static/css/scheduler.css" >
+{%endblock %}
+{% block jsfile %} {% endblock %}
+{% block content %}
+<div class="container">
+	<div class="well"> 
+		<strong>Want to add your course and professor reviews?</strong>
+		<a href="/courses/mycourses" class="btn btn-link">
+  			<span class="glyphicon glyphicon-pencil"></span> My Courses
+		</a>
+	</div> <!-- well -->
+<div id="course_browser">
+
+<p>
+<h3>Search for reviews by course:</h3>	</p>
+	<form id="course_form" class="form-inline" method="post" action="/courses/get_reviews/"
+		enctype="multipart/form-data">
+	{% csrf_token %}
+	{{ course_form.code }}
+	<input href="/courses/get_reviews" type="submit" class="btn btn-primary btn-success add_review_submit"> 
+				</input> 
+       </form> 	
+<table id="course_reviews" class="table table-striped table-bordered">
+<h4> {{ code }} | Average score: {{ course_score }}</h4>
+<thead>
+	<tr>
+		<th>Score</th>
+		<th>Comment</th>
+		<th>Comment Author</th>
+	</tr>
+</thead>
+<tbody>
+{% for course in course_reviews %}
+<tr>
+	<td>{{ course.score }}</td>
+	<td>{{ course.comment_text }}</td>
+	<td>{{ course.comment_author}}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+</div>
+
+<div id="prof_browser">
+
+<p>
+<h3>Search for reviews by professor:</h3>	</p>
+	<form id="prof_form" class="form-inline" method="post" action="/courses/get_reviews/"
+		enctype="multipart/form-data">
+	{% csrf_token %}
+	{{ prof_form.prof }}
+	<input href="/courses/get_reviews" type="submit" class="btn btn-primary btn-success add_review_submit"> 
+				</input> 
+       </form> 	
+<table id="course_reviews" class="table table-striped table-bordered">
+<h3> {{ prof }} | Average score: {{ prof_score }} </h3>
+<thead>
+	<tr>
+		<th>Score</th>
+		<th>Comment</th>
+		<th>Comment Author</th>
+	</tr>
+</thead>
+<tbody>
+{% for review in prof_reviews %}
+<tr>
+	<td>{{ review.score }}</td>
+	<td>{{ review.comment_text }}</td>
+	<td>{{ review.comment_author}}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+</div>
+
+
+	</div>
+{% endblock %}
+
