@@ -80,27 +80,24 @@ def create_student_profile(request):
 	profile_created = False
 	if request.method == 'POST':
 		student_form = StudentProfileForm(request.POST)
-		print 'student form data variable created'
 		if student_form.is_valid():
-			print 'student form valid'
-			print 'student data saved'
 			#first create a user object
 			username = student_form.cleaned_data['username'] + '@wellesley.edu'
 			password = student_form.cleaned_data['password']
-			print 'username and password saved'
-			user = User.objects.create_user(username, username, password)
-			print 'user created'
-			print 'user: ' + str(user)
-			# now create corresponding student object
-			student, created  = Student.objects.get_or_create(user=user)
-			student.class_year = student_form.cleaned_data['class_year']
-			student.primary_major = student_form.cleaned_data['primary_major']
-			student.secondary_major = student_form.cleaned_data['secondary_major']
-			student.save()
-			profile_created = True
-			#log in user before redirecting to home page
-			user_login(request)
-			return redirect(reverse('courses.views.index'))
+			password_repeat = student_form.cleaned_data['password_repeat']
+			if password != password_repeat:
+				return redirect(reverse('courses.views.index'))
+			else:
+				user = User.objects.create_user(username, username, password)
+				print 'user created'
+				print 'user: ' + str(user)
+				# now create corresponding student object
+				student, created  = Student.objects.get_or_create(user=user)
+				student.save()
+				profile_created = True
+				#log in user before redirecting to home page
+				user_login(request)
+				return redirect(reverse('courses.views.index'))
 		else:
 			print student_form.errors
 	else:
@@ -276,6 +273,24 @@ def delete_course(request):
 	student.remove_course(course)
 	print 'course removed'
 	student.save()
+	if request.is_ajax():
+		return HttpResponse("")
+	return reverse('courses.views.load_mycourses')
+
+@require_http_methods(['POST'])
+@csrf_exempt
+def save_review(request):
+	course = Course.objects.get(code=request.POST['code'])
+	review_text = request.POST['review']
+	print str(course)
+	print review_text
+	student = Student.objects.get(user=request.user)
+	course_review = CourseRating.objects.get(
+		course_comment_author=student,
+		comment_course = course)
+	course_review.course_comment_text = review_text
+	course_review.save()
+	print 'course updated'
 	if request.is_ajax():
 		return HttpResponse("")
 	return reverse('courses.views.load_mycourses')
