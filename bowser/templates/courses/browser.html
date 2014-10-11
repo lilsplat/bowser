@@ -1,28 +1,50 @@
 {% extends 'courses/base.html' %}
 {% block cssstyle %}
     <link rel="stylesheet" type="text/css" href="/static/css/indexstyle.css" >
-{% endblock %}
 	<link rel='stylesheet' href='/static/fullcalendar/fullcalendar.css' />
+{% endblock %}
+{% block jsfile %}
 	<script src="/static/fullcalendar/lib/moment.min.js"></script>
 	<script src="/static/fullcalendar/fullcalendar.js"></script>
+
 	<script type="text/javascript"> 
+
 	$(document).ready(function() {
 
     // page is now ready, initialize the calendar...
 
     $('#calendar').fullCalendar({
-        // put your options and callbacks here
-		weekends: false,
-		defaultView: 'agendaWeek'
-    })
+        header: {
+        	left: 'prev,next today',
+        	center: 'title',
+        	right: 'month,agendaWeek,agendaDay'
+        },
+        defaultDate:'2014-10-11',
+        defaultView: 'agendaWeek',
+        editable: true,
+        firstDay:1, //monday
+        weekends:false,
+        events: [{
+        	id:999,
+        	title: 'some event',
+        	start: '2014-10-06T10:30:00',
+        	end:'2014-10-06T12:30:00'
+        }]
 
+    });
 });
 	</script>
+{% endblock %}
+
 {% block title %} Bowser Home {% endblock %}
 {% block content %}	
+
+<div id="calendar"></div>
 <div class="container">
 <div class="col-md-6" id="course_selection">
 	<br><br>
+
+	
 
 
 
@@ -39,7 +61,7 @@
 
 </div>
 <div class="col-md-6" id="schedule">
-<div id="calendar"></div>
+
 </div>
 </div>
 {% endblock %}

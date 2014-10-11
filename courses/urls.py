@@ -27,6 +27,6 @@ urlpatterns = patterns('',
 	url(r'^browser/$', views.browse, name='browse'),
 	url(r'^reviews/$', views.reviews, name='reviews'),
 	url(r'^get_reviews/$', views.get_reviews, name='get_reviews'),
-url(r'^scheduler/$', TemplateView.as_view(template_name='courses/scheduler.html')),
-	#url(r'^browser/$', TemplateView.as_view(template_name='courses/scheduler.html')),
+	url(r'^scheduler/$', TemplateView.as_view(template_name='courses/scheduler.html')),
+	url(r'^browsertemp/$', views.browser_temp,name='browsertemp'),
 )
