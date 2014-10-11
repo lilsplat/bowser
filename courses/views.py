@@ -63,10 +63,9 @@ def user_login(request):
 				login(request, user)
 				print 'user logged in'
 				return redirect('/')
-			else:
 				return HttpResponseNotFound('<h1>Page not found</h1>')
 		else:
-			return HttpResponse('Invalid Login')
+			return redirect(reverse('courses.views.index')) 
 	else:
 		return redirect(reverse('courses.views.index')) 
 

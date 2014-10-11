@@ -33,9 +33,9 @@
 	<!-- TODO: Add actual links to the nav bar! -->
 	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-		<li><a href="/courses/checklist">Checklist</a><li>
 		<li><a href="/courses/mycourses">My Courses</a></li>
 		<li><a href="/courses/reviews">Reviews</a><li>
+		<li><a href="/courses/checklist">Checklist</a><li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
 		<li class="active"><a href="/courses/profile">Profile</a></li>
@@ -50,7 +50,11 @@
 </nav> 
 
 <div class="pagecontent">
+	{% if user.is_authenticated %}
 	{% block content%} {%endblock%}
+	{% else %}
+	<h2> Oops! Looks like you're not signed into Bowser. Register or sign in <a href="/"> here! </a></h2>
+	{% endif %}
 </div> <!--/pagecontent-->
 <div id="footer">
 	<div class="container">
