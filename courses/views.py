@@ -83,21 +83,17 @@ def create_student_profile(request):
 		if student_form.is_valid():
 			#first create a user object
 			username = student_form.cleaned_data['username'] + '@wellesley.edu'
-			password = student_form.cleaned_data['password']
-			password_repeat = student_form.cleaned_data['password_repeat']
-			if password != password_repeat:
-				return redirect(reverse('courses.views.index'))
-			else:
-				user = User.objects.create_user(username, username, password)
-				print 'user created'
-				print 'user: ' + str(user)
-				# now create corresponding student object
-				student, created  = Student.objects.get_or_create(user=user)
-				student.save()
-				profile_created = True
-				#log in user before redirecting to home page
-				user_login(request)
-				return redirect(reverse('courses.views.index'))
+			password = student_form.cleaned_data['password_repeat']
+			user = User.objects.create_user(username, username, password)
+			print 'user created'
+			print 'user: ' + str(user)
+			# now create corresponding student object
+			student, created  = Student.objects.get_or_create(user=user)
+			student.save()
+			profile_created = True
+			#log in user before redirecting to home page
+			user_login(request)
+			return redirect(reverse('courses.views.index'))
 		else:
 			print student_form.errors
 	else:
