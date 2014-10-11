@@ -3,7 +3,6 @@ $(document).ready(function(){
 		var id = $(this).attr('id');
 		originalid = '#' + id;
 		id = '#' + id + 'div';
-		alert(id);
 		$(id).toggle('slow', function() {
 			})
 		});
