@@ -7,7 +7,7 @@ padding: 10px;
 padding-top: 1px;
 /*width: 450px;*/
 width: 43%;
-overflow: visible;
+overflow: auto;
 margin-bottom: 20px;
 /* adding this in -ST */
 float: right;
@@ -122,4 +122,9 @@ display: none;
 
 .comments {
 color: #FFF;
+}
+
+#find_course {
+color: #000;
+
 } 
