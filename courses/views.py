@@ -169,7 +169,6 @@ def load_mycourses(request):
 		prof_rating_form = AddProfRatingForm(request.POST)
 
 		if course_form.is_valid():
-			print 'valid!!!!!!!!!!'
 			code = course_form.cleaned_data['code']
 			try: 
 				course = Course.objects.get(code=code)
@@ -178,7 +177,6 @@ def load_mycourses(request):
 			except ValueError:
 				return HttpRequestBadResponse("invalid course name")
 
-		print course
 		if rating_form.is_valid():
 			course_score = rating_form.cleaned_data['course_score']
 			course_text = rating_form.cleaned_data['course_comment_text']
