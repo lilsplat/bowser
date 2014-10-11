@@ -410,7 +410,7 @@ class Course(models.Model):
         ratings = self.courserating_set.all()
         if len(ratings) > 0:
             for s in ratings:
-                a+=s.score
+                a+=s.course_score
                 i+=1
             return a/i
         return "No ratings for this course yet"

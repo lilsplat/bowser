@@ -28,15 +28,13 @@
 	<tr>
 		<th>Score</th>
 		<th>Comment</th>
-		<th>Comment Author</th>
 	</tr>
 </thead>
 <tbody>
 {% for course in course_reviews %}
 <tr>
-	<td>{{ course.score }}</td>
-	<td>{{ course.comment_text }}</td>
-	<td>{{ course.comment_author}}</td>
+	<td>{{ course.course_score }}</td>
+	<td>{{ course.course_comment_text }}</td>
 </tr>
 {% endfor %}
 </tbody>
@@ -60,15 +58,13 @@
 	<tr>
 		<th>Score</th>
 		<th>Comment</th>
-		<th>Comment Author</th>
 	</tr>
 </thead>
 <tbody>
 {% for review in prof_reviews %}
 <tr>
-	<td>{{ review.score }}</td>
-	<td>{{ review.comment_text }}</td>
-	<td>{{ review.comment_author}}</td>
+	<td>{{ review.prof_score }}</td>
+	<td>{{ review.prof_comment_text }}</td>
 </tr>
 {% endfor %}
 </tbody>
