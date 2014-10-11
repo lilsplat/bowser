@@ -95,10 +95,10 @@ def create_student_profile(request):
 			user_login(request)
 			return redirect(reverse('courses.views.index'))
 		else:
-			print student_form.errors
-	else:
-		student_form = StudentProfileForm()
-	return redirect('/')
+			return render_to_response(
+			'courses/landing.html',
+			{'errors': "Your passwords do not match!"}, context)
+
 
 def profile(request):
 	context=RequestContext(request)
@@ -169,7 +169,6 @@ def load_mycourses(request):
 		prof_rating_form = AddProfRatingForm(request.POST)
 
 		if course_form.is_valid():
-			print 'valid!!!!!!!!!!'
 			code = course_form.cleaned_data['code']
 			try: 
 				course = Course.objects.get(code=code)
@@ -178,7 +177,6 @@ def load_mycourses(request):
 			except ValueError:
 				return HttpRequestBadResponse("invalid course name")
 
-		print course
 		if rating_form.is_valid():
 			course_score = rating_form.cleaned_data['course_score']
 			course_text = rating_form.cleaned_data['course_comment_text']
