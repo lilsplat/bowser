@@ -104,7 +104,10 @@ def profile(request):
 	student=Student.objects.get(user=request.user)
 	if request.method == "POST":
 		profile_form = ProfileForm(request.POST)
+		print profile_form
+		print profile_form.is_valid()
 		if profile_form.is_valid():
+			print 'valid!!!!!!!!!!!!!!!!!'
 			student.class_year = profile_form.cleaned_data['class_year']
 			student.gpa = profile_form.cleaned_data['gpa']
 			student.qrb_passed = profile_form.cleaned_data['qrb_passed']
