@@ -457,7 +457,13 @@ def reviews(request):
 	return render_to_response('courses/reviews.html', 
 		{'course_form': AddCourseForm(),
 		'prof_form': ProfForm()}, 
-		context)	
+		context)
+
+def browser_temp(request):
+	context=RequestContext(request)
+	return render_to_response('courses/browser.html',
+		{context}
+		)	
 
 @csrf_exempt
 def get_reviews(request):
