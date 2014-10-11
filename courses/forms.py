@@ -20,18 +20,19 @@ class StudentProfileForm(forms.Form):
 	username = forms.CharField(max_length=30)
 	password = forms.CharField(widget=forms.PasswordInput())
 	password_repeat = forms.CharField(widget=forms.PasswordInput())
+	def clean_password_repeat(self):
+    	password1 = self.cleaned_data.get('password')
+    	password2 = self.cleaned_data.get('password_repeat')
+
+    	if not password2:
+        	raise forms.ValidationError("You must confirm your password")
+    	if password1 != password2:
+       		raise forms.ValidationError("Your passwords do not match")
+    	return password2
 
 class AddCourseForm(forms.Form):
 	code = forms.ModelChoiceField(queryset=Course.objects.all(),
 		widget=Select(attrs={'style':'color:#000;'}))
-	prof = forms.ModelChoiceField(queryset=Professor.objects.all(), 
-		widget=Select(attrs={'style':'color:#000;'}))
-	"""
-	def __init__(self, code, *args, **kwargs):
-		super(AddCourseForm, self).__init__(*args, **kwargs)
-		prof_list = code.all_profs
-		self.fields['prof'] = Professor.objects.filter(pk__in=prof_list)
-	"""
 class AddProfForm(forms.Form):
 	name = forms.ModelChoiceField(queryset=Professor.objects.all(), 
 		widget=Select(attrs={'style':'color:#000;'}))
