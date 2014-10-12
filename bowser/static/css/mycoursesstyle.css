@@ -26,6 +26,14 @@ width: 225px;
 display:inline;
 }
 
+.ui-autocomplete { height: 10px; overflow-y: scroll; overflow-x: hidden;}
+.ui-menu {
+      list-style:none;
+      padding: 2px;
+      margin: 0;display:block;
+      height:200px; 
+      overflow:scroll;
+      }
 .ratings{
 display: inline;
 padding-left: 25px;

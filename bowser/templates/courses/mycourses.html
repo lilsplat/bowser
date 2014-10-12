@@ -21,6 +21,7 @@
 	<div id="find_course">
   		<input class="typeahead" type="text" placeholder="Enter Course Code">
 	</div>
+
 	<script type="text/javascript">
 var substringMatcher = function(strs) {
   return function findMatches(q, cb) {
@@ -59,6 +60,8 @@ $('#find_course .typeahead').typeahead({
   source: substringMatcher(states)
 });
 </script>	
+
+
 	{{ add_prof_form.name }}
 		
  	        <h4>Enter a  Review</h4>
