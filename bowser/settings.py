@@ -4,8 +4,8 @@ import os.path
 # from bowser.courses.models import *
 
 
-DEBUG = True
-TEMPLATE_DEBUG = DEBUG
+DEBUG = False
+TEMPLATE_DEBUG = False
 PROJECT_PATH = os.path.join(os.path.dirname(__file__))
 
 ADMINS = (
