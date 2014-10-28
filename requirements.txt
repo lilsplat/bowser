@@ -48,8 +48,6 @@ python-dateutil==1.5
 pytz==2012d
 scipy==0.11.0
 six==1.6.1
-tweepy==2.2
-virtualenv==1.11.4
 wsgiref==0.1.2
 xattr==0.6.4
 zope.interface==3.8.0
