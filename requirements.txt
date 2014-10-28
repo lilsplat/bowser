@@ -94,3 +94,5 @@ wheel==0.23.0
 wsgiref==0.1.2
 xattr==0.6.4
 zope.interface==4.1.1
+Django==1.6.5
+MySQL-python==1.2.5
