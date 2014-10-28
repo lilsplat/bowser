@@ -14,7 +14,7 @@ ADMINS = (
 )
 
 MANAGERS = ADMINS
-
+"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
@@ -26,7 +26,17 @@ DATABASES = {
         'PORT': '',                      # Set to empty string for default.
     }
 }
-
+"""
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': os.environ['RDS_DB_NAME'],
+        'USER': os.environ['RDS_USERNAME'],
+        'PASSWORD': os.environ['RDS_PASSWORD'],
+        'HOST': os.environ['RDS_HOSTNAME'],
+        'PORT': os.environ['RDS_PORT'],
+    }
+}
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/1.5/ref/settings/#allowed-hosts
 ALLOWED_HOSTS = []

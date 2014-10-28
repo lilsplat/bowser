@@ -1,0 +1,146 @@
+#new_course_entry{
+/*background-color: #3889E5;*/
+background-color:#39B3D7;
+border-color: #3889E5;
+color: #FFFFFF;
+padding: 10px;
+padding-top: 1px;
+width: 450px;
+overflow: visible;
+margin-bottom: 20px;
+/* adding this in -ST */
+float: right;
+position: fixed;
+height: 600px;
+right: 10px;
+bottom: 100px;
+top: 155px;
+}
+
+#instructor{
+width: 225px;
+}
+
+#optional{
+display:inline;
+}
+
+.ratings{
+display: inline;
+padding-left: 25px;
+}
+
+/* 'star-rating' component */
+/* source: http://www.dillerdesign.com/css/cookbook/component_star_rater.html */
+.starRate {position:relative; margin:20px; overflow:hidden; zoom:1;}
+.starRate ul {width:160px; margin:0; padding:0;}
+.starRate li {display:inline; list-style:none;}
+.starRate a, .starRate b {background:url(images/star_rate.gif) left top repeat-x;}
+.starRate a {float:right; margin:0 80px 0 -144px; width:80px; height:16px; background-position:left 16px; color:#FFFFFF; text-decoration:none;}
+.starRate a:hover {background-position:left -32px;}
+.starRate b {position:absolute; z-index:-1; width:80px; height:16px; background-position:left -16px;}
+.starRate div b {left:0px; bottom:0px; background-position:left top;}
+.starRate a span {position:absolute; left:-300px;}
+.starRate a:hover span {left:90px; width:100%;}
+
+
+#comments{
+color: #000000;
+font-style: inherit;
+}
+
+#greensubmit{
+margin-top:10px;
+float: right;
+background-color: #41CE59;
+border-color: #41CE59;
+}
+
+#greensubmit:hover{
+background-color: #35AB49;
+border-color: #35AB49;
+}
+
+.added_course_without_review{
+background-color: #10267A;
+color: #FFFFFF;
+border-radius: 10px;
+width: 800px;
+padding: 10px;
+padding-left: 10px;
+padding-bottom: 10px;
+overflow: auto;
+}
+
+.course_title{
+font-size: 20px;
+}
+
+.add_review_submit{
+margin-top:10px;
+float: right;
+}
+
+.completed_dist{
+background-color: #58AF74;
+color: #FFFFFF;
+border-radius: 10px;
+/*width: 800px;*/
+width: 400px;
+padding: 10px;
+padding-left: 10px;
+padding-bottom: 10px;
+overflow: auto;
+margin: 10px 0px 10px 0px;
+
+}
+
+.incomplete_dist{
+background-color: #E64848;
+color: #FFFFFF;
+border-radius: 10px;
+/*width: 800px;*/
+width: 400px;
+padding: 10px;
+padding-left: 10px;
+padding-bottom: 10px;
+overflow: auto;
+margin: 10px 0px 10px 0px;
+display: none;
+}
+
+.show_hide_entered_review_toggle{
+color: #428BCA;;
+}
+
+#edit_and_delete_buttons{
+float:right;
+}
+
+.entered_instructor{
+color: #FFFFFF;
+}
+
+.entered_reason{
+color: #FFFFFF;
+}
+
+.entered_comments{
+color: #FFFFFF;
+}
+
+.container{
+margin-left: auto;
+margin-right: auto;
+}
+
+.rc-title {
+font-size: 20px;
+color: #E64848;
+}
+
+.com-title {
+font-size: 20px;
+color: #58AF74;
+}
+

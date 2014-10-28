@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/bootstrap-3.2.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/genericstyling.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/scheduler.css" >
+	<script src="/static/js/scheduler.js"></script>   
+    <title> BOWSER Scheduler </title>
+    
+    <link rel="stylesheet" type="text/css" href="https://www.apptic.me/projects/calendar/pretty-calendar-minified.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://www.apptic.me/projects/calendar/pretty-calendar-minified.js"></script>
+
+</head>
+
+<body>
+
+<!--<div id="navWrapper" style="width:70%;height:80%;position:absolute;top:10%;margin:0 auto;right:0;left:0;"></div>
+    
+<script>
+
+var events = [];
+events[0] = [];
+events[0][0] = "Sunday";
+events[0][1] = "3:00pm";
+events[0][2] = "Just a sample event"
+events[0][3] = "#c0c0c0";
+events[1] = [];
+events[1][0] = "Monday";
+events[1][1] = "12:00pm";
+events[1][2] = "Another event"
+events[1][3] = "#8FD8D8";
+ 
+var prettyCal = new PrettyCalendar(events, "navWrapper");
+</script>
+
+-->
+	
+
+<div id="allcontent">
+
+<div class="pagecontent">
+
+<div id="browser">
+
+<p>
+<h3>Course Browser</h3>	</p>
+
+
+
+<form id="browser_form" class="form-inline" method="POST">
+{% csrf_token %}
+<fieldset>
+
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="semester_input">Semester</label>
+  <br>
+  <div class="col-md-4">
+	{{browser_form.semester}}
+  </div>
+  <br>
+  <br>
+ </div>
+
+<!-- Select Multiple -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="department_or_subject">Department/Subject</label>
+  <br>
+  <div class="col-md-4">
+	{{ browser_form.dept }}
+  </div>
+</div>
+
+<!-- Select Multiple -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="distribution_or_category">Distribution/Category</label>
+  <br>
+  <div class="col-md-4">
+	{{ browser_form.dists }}
+  </div>
+</div>
+
+
+
+<!-- Button -->
+<div class="left-inner-addon">
+<!--<span class="glyphicon glyphicon-search"></span> -->
+<input type="submit" value="Search" href="." id="search"class="btn btn-lg btn-primary"></input>
+</div>
+</fieldset>
+</form>
+
+<br>
+<ul>
+<li>Click on a column title to sort</li>
+<li>Click on a course title to see more info and read reviews</li>
+<li>Check the box in the first column to add a course to your calendar</li>
+</ul>
+
+
+
+
+<table id="course_browser" class="table table-striped table-bordered">
+<thead>
+	<tr>
+		<th>+</th>
+		<th>CRN</th>
+		<th>Course</th>
+		<th>Title</th>
+		<th>Seats Available</th>
+		<th>Meeting Time(s)</th>			
+		<!--<th>Day(s)</th> -->
+		<!--<th>Instructor</th> -->
+		<th>Distribution</th>
+	</tr>
+</thead>
+<tbody>
+{% for section in sections %}
+<tr>
+	<td><input type="checkbox"></td>
+	<td>{{ section.crn }}</td>
+	<td>{{ section.course.code }}</td>
+	<td><a id={{section.course}}>{{ section.course.title }}</a></td>
+	<td>{{ section.seats_available }}</td>
+	<td>{{ section.timeanddate }}</td>
+	<td>{% for dist in section.course.dists.all %}
+		{{dist}}, {% endfor %}</td>
+</tr>
+{% empty %}
+<h4> No course sections matched your query. Try changing the semester, department or distribution. </h4>
+{% endfor %}
+</tbody>
+</table>
+
+<div id="green"<p>'</p></div>
+</div>
+
+
+
+<!--COURSE INFO/RATINGS MODAL~~~~~~~~~~~~~~~~~~
+<!--<div class="modal fade">-->
+{% for section in sections %}
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">{{section.course.code}}: {{section.course.title}}</h4>
+      </div>
+      <div class="modal-body">
+<!--COURSE INFO/COURSE REVIEW TABS -->
+<ul class="nav nav-tabs" role="tablist">
+  <li class="active"><a href="#course_info" role="tab" data-toggle="tab">Detailed Course Info</a></li>
+  <li><a href="#reviews" role="tab" data-toggle="tab">Reviews</a></li>
+</ul>
+
+<!-- TAB CONTENTS -->
+<div class="tab-content">
+  <div class="tab-pane active" id="course_info">
+  		<table class="table table-striped table-condensed">
+  		<thead>  		</thead>
+  		
+  		<tbody>
+  		<tr><td>CRN</td><td>{{section.crn}}</td></tr>
+  		<tr><td>Title</td><td>{{section.course.title}}</td></tr>
+  		<tr><td>Credit Hours</td><td>{{section.course.credit_hours}}</td><td></td></tr>
+  		<tr><td>Description</td><td>{{section.course.description}}</td></tr>
+  		<tr><td>Seats Available</td><td>2</td></tr>
+  		<tr><td>Max Enrollment</td><td>25</td></tr>
+  		<tr><td>Permission of Instructor</td><td>{{section.course.by_permission}}</td></tr>
+  		<tr><td>Prerequisite(s)</td><td>{{section.course.prereq}} </td></tr>
+  		<tr><td>Distributions</td><td>{% for dist in section.course.dists.all %}
+										{{dist}}, {% endfor %}</td></tr>
+  		<tr><td>Additional Notes</td><td>{{section.course.notes}}</td></tr>
+  		<tr><td>Instructor(s)</td><td>Nancy Marshall</td></tr>
+  		<tr><td>Meeting Times</td><td>{{section.timeanddate}}</td></tr>
+  		</tbody>
+  		</table>
+  </div>
+  <div class="tab-pane" id="reviews">
+  <table class="table table-striped table-condensed review">
+  <thead></thead>
+  <tbody>
+	{% for rating in ratings %}
+		{% if rating.comment_course == section.course %}
+  	<!--<tr><td><strong>Date</strong></td><td>8/12/14</td></tr>
+  	<tr><td><strong>Instructor</strong></td><td>Nancy Marshall</td></tr>
+  	<tr><td><strong>Reason for Enrolling</strong></td><td>Fulfill Major Requirement</td></tr> -->
+  	<tr><td><strong>Course Content Rating</strong></td><td>{{ rating.score }}<td></tr>
+<!--  	<tr><td><strong>Instruction Quality</strong></td><td>*****</td></tr> -->
+  	<tr><td><strong>Course Comments</strong></td><td>{{ rating.comment_text }}</td></tr>
+		{% endif %}
+		{% empty %} <h4> No reviews entered for this course yet. </h4>
+	{% endfor %}
+  </tbody>
+  </table>
+  
+  </div>
+</div>
+      </div>
+<!--MODAL FOOTER-->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Add Course to My Calendar</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+{% endfor %}
+
+
+
+
+
+
+
+
+
+</div> <!--/pagecontent-->
+    
+</div> <!--/allcontent-->
+
+
+
+
+
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="/static/bootstrap-3.2.0-dist/js/bootstrap.js"></script>
+</body>
+</html>
