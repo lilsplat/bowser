@@ -148,7 +148,7 @@ INSTALLED_APPS = (
     # 'test_utils',
     'courses',
     'south', #to take care of migrations
-	'crispy_forms', #to render forms with boostrap styling nicely
+	#'crispy_forms', #to render forms with boostrap styling nicely
     )
 
 # A sample logging configuration. The only tangible logging
