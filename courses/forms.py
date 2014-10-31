@@ -59,6 +59,7 @@ class AddProfRatingForm(forms.ModelForm):
 		# self.fields['comment_professor'].widget.attrs['style'] = "color:#000;"
 
 #for an individual section
+"""
 class SectionForm(forms.Form):
 	#def __init__(self, user, *args, **kwargs):
 	#	super(SectionForm, self).__init__(*args, **kwargs)
@@ -75,7 +76,7 @@ class SectionForm(forms.Form):
 		widget=Select(attrs={'style':'color:#000;'}))
 	course5 = forms.ModelChoiceField(queryset=semester_queryset,
 		widget=Select(attrs={'style':'color:#000;'}))
-
+"""
 class BrowserForm(forms.ModelForm):
 	class Meta:
 		model = Course
