@@ -1,4 +1,5 @@
-# Django settings for bowser project.
+# -*- coding: utf-8 -*-
+#django settings for bowser project.
 import os.path
 # from django.contrib import admin
 # from bowser.courses.models import *
@@ -8,7 +9,6 @@ DEBUG = False
 TEMPLATE_DEBUG = False
 PROJECT_PATH = os.path.join(os.path.dirname(__file__))
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
 ADMINS = (
 	('Lilian Xie', 'lxie@wellesley.edu'),
 	('Sravanti Tekumalla', 'stekumal@wellesley.edu'),
@@ -16,37 +16,19 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
-"""
 DATABASES = {
     'default': {
-        'ENGINE': 'postgresql_psycopg2', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'bowser_db',                      # Or path to database file if using sqlite3.
+        'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
+        'NAME': 'd4v4sjm1l9mavq',                      # Or path to database file if using sqlite3.
         # The following settings are not used with sqlite3:
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
-        'PORT': '',                      # Set to empty string for default.
+        'USER': 'ungbojjicltral',
+        'PASSWORD': '2_GQ-HNajXFmSaQ08b1DXmFqRT',
+        'HOST': 'ec2-54-243-42-236.compute-1.amazonaws.com',                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
+        'PORT': '5432',                      # Set to empty string for default.
     }
 }
-"""
-#DATABASES = {}
-DATABASES = {'default': dj_database_url.config(default='postgres://localhost')}
-DATABASES['default'] = dj_database_url.config()
-
-
-#For AWS
-"""
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.environ['RDS_DB_NAME'],
-        'USER': os.environ['RDS_USERNAME'],
-        'PASSWORD': os.environ['RDS_PASSWORD'],
-        'HOST': os.environ['RDS_HOSTNAME'],
-        'PORT': os.environ['RDS_PORT'],
-    }
-}
-"""
+#for Heroku
+#DATABASES['default'] = dj_database_url.config()
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/1.5/ref/settings/#allowed-hosts
 ALLOWED_HOSTS = ['*']
@@ -87,7 +69,7 @@ MEDIA_URL = ''
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/var/www/example.com/static/"
-STATIC_ROOT = 'staticfiled'
+STATIC_ROOT = 'staticfiles'
 
 # URL prefix for static files.
 # Example: "http://example.com/static/", "http://static.example.com/"
@@ -98,7 +80,7 @@ STATICFILES_DIRS = (
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
-#    os.path.join(PROJECT_PATH, 'static'),
+    #os.path.join(PROJECT_PATH, 'static'),
 	os.path.join(BASE_DIR, 'static'),
 )
 
@@ -200,10 +182,5 @@ LOGGING = {
     }
 }
 
-
-
-# Honor the 'X-Forwarded-Proto' header for request.is_secure()
+#for heroku
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
-
-
-
