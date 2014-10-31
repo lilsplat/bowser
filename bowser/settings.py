@@ -5,6 +5,10 @@ import os.path
 # from bowser.courses.models import *
 import dj_database_url
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> e8b8b2d50408f73bc0d316092145015035865c2e
 DEBUG = False
 TEMPLATE_DEBUG = False
 PROJECT_PATH = os.path.join(os.path.dirname(__file__))
