@@ -182,3 +182,5 @@ LOGGING = {
 
 #for heroku
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+#an attempt to get south to work
+SOUTH_TESTS_MIGRATE = False
